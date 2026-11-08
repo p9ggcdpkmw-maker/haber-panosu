@@ -23,11 +23,14 @@ jobs:
       - run: python fetch_and_summarize.py
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-
       - name: news.json değiştiyse commit et
         run: |
           git config user.name "haber-botu"
           git config user.email "[email protected]"
           git add news.json
-          git diff --quiet --cached || git commit -m "Haberleri güncelle"
+          if ! git diff --quiet --cached; then
+            git commit -m "Haberleri güncelle"
+          fi
+          git pull --rebase origin main
           git push
+

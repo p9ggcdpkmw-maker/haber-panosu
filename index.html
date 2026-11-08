@@ -64,11 +64,30 @@ const CATEGORIES = [
   { id: 'doga',      label: 'Doğa',      query: 'doğa çevre' },
 ];
 
-const PROXY = 'https://api.allorigins.win/raw?url=';
+const PROXIES = [
+  url => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url),
+  url => 'https://corsproxy.io/?url=' + encodeURIComponent(url),
+  url => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(url),
+];
 
-function newsUrl(query){
-  const base = 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=tr&gl=TR&ceid=TR:tr';
-  return PROXY + encodeURIComponent(base);
+function baseUrl(query){
+  return 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=tr&gl=TR&ceid=TR:tr';
+}
+
+async function fetchWithFallback(targetUrl){
+  let lastErr;
+  for (const build of PROXIES){
+    try {
+      const res = await fetch(build(targetUrl));
+      if (!res.ok) throw new Error('status ' + res.status);
+      const text = await res.text();
+      if (!text || text.length < 50) throw new Error('boş yanıt');
+      return text;
+    } catch(e){
+      lastErr = e;
+    }
+  }
+  throw lastErr || new Error('tüm kaynaklar başarısız');
 }
 
 function timeAgo(dateStr){
@@ -82,9 +101,7 @@ function timeAgo(dateStr){
 }
 
 async function fetchCategory(cat){
-  const res = await fetch(newsUrl(cat.query));
-  if (!res.ok) throw new Error('ağ hatası');
-  const xmlText = await res.text();
+  const xmlText = await fetchWithFallback(baseUrl(cat.query));
   const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
   const items = Array.from(xml.querySelectorAll('item')).slice(0, 12);
   return items.map(it => {

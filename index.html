@@ -54,6 +54,7 @@
   .meta{font-size:11.5px;color:var(--catColor,#D8A34E);margin-bottom:7px;display:flex;flex-wrap:wrap;gap:7px;align-items:center;font-weight:600;letter-spacing:0.1px;}
   .meta .dot{color:var(--ink-dim);font-weight:400;}
   .title{font-family:var(--font-display);font-size:17px;line-height:1.4;color:var(--ink);}
+  .snippet{font-size:13px;color:var(--ink-dim);line-height:1.5;margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
   .likeBtn{position:absolute;top:10px;right:10px;background:transparent;border:none;font-size:19px;line-height:1;cursor:pointer;color:var(--ink-dim);padding:4px;}
   .likeBtn.liked{color:var(--catColor,#D8A34E);}
   .empty{color:var(--ink-dim);font-size:14px;padding:20px 4px;}
@@ -171,10 +172,23 @@ function ageDays(dateStr){
   return (Date.now() - d.getTime()) / 86400000;
 }
 
-function toItem(rawTitle, sourceNameRaw, link, pubDate, cat){
+function stripHtml(html){
+  if (!html) return '';
+  const div = document.createElement('div');
+  div.innerHTML = html;
+  return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
+}
+
+function toItem(rawTitle, sourceNameRaw, link, pubDate, cat, rawDescription){
   const sourceName = sourceNameRaw || (rawTitle.split(' - ').pop() || '');
   const title = sourceNameRaw ? rawTitle : rawTitle.replace(' - ' + sourceName, '');
-  return { cat: cat.label, catId: cat.id, title, source: sourceName, link: link || '#', pubDate: pubDate || '' };
+  let snippet = stripHtml(rawDescription);
+  // Google Haberler açıklaması çoğu zaman başlığı/kaynağı tekrarlıyor; aynıysa gösterme
+  if (!snippet || snippet.toLowerCase().includes(title.toLowerCase().slice(0, 30))) {
+    snippet = snippet.replace(title, '').replace(sourceName, '').trim();
+  }
+  if (snippet.length < 8) snippet = '';
+  return { cat: cat.label, catId: cat.id, title, source: sourceName, link: link || '#', pubDate: pubDate || '', snippet };
 }
 
 function finalizeItems(items){
@@ -189,7 +203,7 @@ async function tryRss2Json(targetUrl, cat){
   if (!res.ok) throw new Error('status ' + res.status);
   const data = await res.json();
   if (data.status !== 'ok' || !Array.isArray(data.items)) throw new Error('geçersiz yanıt');
-  return data.items.map(it => toItem(it.title || '', null, it.link, it.pubDate, cat));
+  return data.items.map(it => toItem(it.title || '', null, it.link, it.pubDate, cat, it.description || it.content || ''));
 }
 
 async function fetchCategory(cat){
@@ -205,7 +219,7 @@ async function fetchCategory(cat){
   const items = Array.from(xml.querySelectorAll('item')).slice(0, 20).map(it => {
     const rawTitle = it.querySelector('title')?.textContent || '';
     const sourceEl = it.querySelector('source');
-    return toItem(rawTitle, sourceEl ? sourceEl.textContent : null, it.querySelector('link')?.textContent, it.querySelector('pubDate')?.textContent, cat);
+    return toItem(rawTitle, sourceEl ? sourceEl.textContent : null, it.querySelector('link')?.textContent, it.querySelector('pubDate')?.textContent, cat, it.querySelector('description')?.textContent || '');
   });
   return finalizeItems(items);
 }
@@ -288,7 +302,8 @@ function render(){
         (item.source ? '<span class="dot">·</span>' + item.source : '') +
         (item.pubDate ? '<span class="dot">·</span>' + timeAgo(item.pubDate) : '') +
         (isRead ? '<span class="dot">·</span>okundu' : '') + '</div>' +
-        '<div class="title">' + item.title + '</div>';
+        '<div class="title">' + item.title + '</div>' +
+        (item.snippet ? '<div class="snippet">' + item.snippet + '</div>' : '');
       a.addEventListener('click', () => { markRead(item.link); card.classList.add('read'); });
 
       const likeBtn = document.createElement('button');

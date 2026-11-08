@@ -118,24 +118,31 @@ def fetch_weather():
 
 
 def fetch_market():
-    url = "https://query1.finance.yahoo.com/v7/finance/quote?symbols=USDTRY=X,EURTRY=X,GC=F"
+    usdtry = eurtry = gold_usd_oz = None
     try:
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+        r = requests.get("https://open.er-api.com/v6/latest/USD", timeout=15)
         r.raise_for_status()
-        results = r.json().get("quoteResponse", {}).get("result", [])
-        prices = {item["symbol"]: item.get("regularMarketPrice") for item in results}
-        usdtry = prices.get("USDTRY=X")
-        eurtry = prices.get("EURTRY=X")
-        gold_usd_oz = prices.get("GC=F")
-        gold_gram_try = round(gold_usd_oz / 31.1034768 * usdtry, 2) if (usdtry and gold_usd_oz) else None
-        return {
-            "usdtry": round(usdtry, 2) if usdtry else None,
-            "eurtry": round(eurtry, 2) if eurtry else None,
-            "gold_gram_try": gold_gram_try,
-        }
+        rates = r.json().get("rates", {})
+        usdtry = rates.get("TRY")
+        usd_eur = rates.get("EUR")
+        if usdtry and usd_eur:
+            eurtry = usdtry / usd_eur
     except Exception as e:
-        print(f"  ! piyasa verisi alınamadı: {e}", file=sys.stderr)
-        return None
+        print(f"  ! döviz verisi alınamadı: {e}", file=sys.stderr)
+
+    try:
+        r = requests.get("https://api.gold-api.com/price/XAU", timeout=15)
+        r.raise_for_status()
+        gold_usd_oz = r.json().get("price")
+    except Exception as e:
+        print(f"  ! altın verisi alınamadı: {e}", file=sys.stderr)
+
+    gold_gram_try = round(gold_usd_oz / 31.1034768 * usdtry, 2) if (usdtry and gold_usd_oz) else None
+    return {
+        "usdtry": round(usdtry, 2) if usdtry else None,
+        "eurtry": round(eurtry, 2) if eurtry else None,
+        "gold_gram_try": gold_gram_try,
+    }
 
 
 def summarize_batch(items):

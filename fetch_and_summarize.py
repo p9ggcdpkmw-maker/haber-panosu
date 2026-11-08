@@ -90,15 +90,19 @@ def fetch_category(cat):
 def summarize_batch(items):
     if not items:
         return []
-    lines = [f"{i+1}. {it['title']} (Kaynak: {it['source']})" for i, it in enumerate(items)]
+       lines = [f"{i+1}. {it['title']} (Kaynak: {it['source']})" for i, it in enumerate(items)]
     prompt = (
-        "Aşağıda haber başlıkları listelendi. Her biri için, haberin ne hakkında olduğunu "
-        "açıklayan, başlığı tekrar ETMEYEN, Türkçe, TEK CÜMLELİK kısa bir özet yaz. "
-        "Haberin içeriğini bilmiyorsan başlıktan makul bir çıkarım yap, uydurma ayrıntı ekleme. "
+        "Aşağıda haber başlıkları listelendi. Her biri için Türkçe, 2-3 CÜMLELİK bir özet yaz: "
+        "ilk cümle(ler) haberin ne hakkında olduğunu başlığı tekrar ETMEDEN açıklasın, "
+        "son cümle neden önemli olabileceğine veya daha geniş bağlamına dair kısa bir "
+        "değerlendirme/yorum katsın (aşırı iddialı olma, spekülasyonu 'olabilir', 'muhtemelen' "
+        "gibi ifadelerle yumuşat). Haberin tam içeriğini bilmiyorsan başlıktan makul bir çıkarım "
+        "yap, somut sayı/isim/olay uydurma. "
         "SADECE bir JSON dizisi döndür, başka hiçbir açıklama yazma. "
         "Dizinin uzunluğu tam olarak liste uzunluğuyla eşleşmeli.\n\n"
         + "\n".join(lines)
     )
+
     try:
         resp = requests.post(
             "https://api.groq.com/openai/v1/chat/completions",
@@ -108,7 +112,7 @@ def summarize_batch(items):
             },
             json={
                 "model": GROQ_MODEL,
-                "max_tokens": 2000,
+                "max_tokens": 4000,
                 "messages": [{"role": "user", "content": prompt}],
             },
             timeout=60,

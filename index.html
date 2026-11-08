@@ -110,10 +110,9 @@ const CAT_COLORS = {
 const PROXIES = [
   url => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url),
   url => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(url),
-  url => 'https://corsproxy.io/?url=' + encodeURIComponent(url),
 ];
 
-const PROXY_TIMEOUT_MS = 6000;
+const PROXY_TIMEOUT_MS = 12000; // zayıf bağlantılarda erken pes etmesin diye uzatıldı
 const MAX_AGE_DAYS = 5;
 const MIN_ITEMS_PER_CAT = 3;
 const AUTO_REFRESH_MS = 6 * 60 * 1000; // 6 dakikada bir sessizce kendini tazeler
@@ -135,7 +134,7 @@ async function fetchWithTimeout(url, ms){
   }
 }
 
-const PROXY_NAMES = ['allorigins', 'codetabs', 'corsproxy.io'];
+const PROXY_NAMES = ['allorigins', 'codetabs'];
 let lastErrorMsg = '';
 
 async function fetchWithFallback(targetUrl){
@@ -172,26 +171,43 @@ function ageDays(dateStr){
   return (Date.now() - d.getTime()) / 86400000;
 }
 
+function toItem(rawTitle, sourceNameRaw, link, pubDate, cat){
+  const sourceName = sourceNameRaw || (rawTitle.split(' - ').pop() || '');
+  const title = sourceNameRaw ? rawTitle : rawTitle.replace(' - ' + sourceName, '');
+  return { cat: cat.label, catId: cat.id, title, source: sourceName, link: link || '#', pubDate: pubDate || '' };
+}
+
+function finalizeItems(items){
+  items.sort((a,b) => ageDays(a.pubDate) - ageDays(b.pubDate));
+  const fresh = items.filter(i => ageDays(i.pubDate) <= MAX_AGE_DAYS);
+  return fresh.length >= MIN_ITEMS_PER_CAT ? fresh : items.slice(0, Math.max(MIN_ITEMS_PER_CAT, fresh.length));
+}
+
+async function tryRss2Json(targetUrl, cat){
+  const apiUrl = 'https://api.rss2json.com/v1/api.json?count=20&rss_url=' + encodeURIComponent(targetUrl);
+  const res = await fetchWithTimeout(apiUrl, PROXY_TIMEOUT_MS);
+  if (!res.ok) throw new Error('status ' + res.status);
+  const data = await res.json();
+  if (data.status !== 'ok' || !Array.isArray(data.items)) throw new Error('geçersiz yanıt');
+  return data.items.map(it => toItem(it.title || '', null, it.link, it.pubDate, cat));
+}
+
 async function fetchCategory(cat){
-  const xmlText = await fetchWithFallback(buildUrl(cat.query, cat.edition));
+  const targetUrl = buildUrl(cat.query, cat.edition);
+  try {
+    const items = await tryRss2Json(targetUrl, cat);
+    if (items.length) return finalizeItems(items);
+  } catch(e){
+    lastErrorMsg = 'rss2json: ' + ((e && e.name === 'AbortError') ? 'zaman aşımı' : (e && e.message) || String(e));
+  }
+  const xmlText = await fetchWithFallback(targetUrl);
   const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
   const items = Array.from(xml.querySelectorAll('item')).slice(0, 20).map(it => {
     const rawTitle = it.querySelector('title')?.textContent || '';
     const sourceEl = it.querySelector('source');
-    const sourceName = sourceEl ? sourceEl.textContent : (rawTitle.split(' - ').pop() || '');
-    const title = rawTitle.replace(' - ' + sourceName, '');
-    return {
-      cat: cat.label,
-      catId: cat.id,
-      title,
-      source: sourceName,
-      link: it.querySelector('link')?.textContent || '#',
-      pubDate: it.querySelector('pubDate')?.textContent || ''
-    };
+    return toItem(rawTitle, sourceEl ? sourceEl.textContent : null, it.querySelector('link')?.textContent, it.querySelector('pubDate')?.textContent, cat);
   });
-  items.sort((a,b) => ageDays(a.pubDate) - ageDays(b.pubDate));
-  const fresh = items.filter(i => ageDays(i.pubDate) <= MAX_AGE_DAYS);
-  return fresh.length >= MIN_ITEMS_PER_CAT ? fresh : items.slice(0, Math.max(MIN_ITEMS_PER_CAT, fresh.length));
+  return finalizeItems(items);
 }
 
 // ---- Kalıcı durum: okunanlar, beğeniler ----

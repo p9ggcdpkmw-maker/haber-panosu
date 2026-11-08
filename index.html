@@ -84,20 +84,6 @@
 </main>
 
 <script>
-const TR = { hl: 'tr',    gl: 'TR', ceid: 'TR:tr' };
-const EN = { hl: 'en-US', gl: 'US', ceid: 'US:en' };
-
-// ---- Buradan düzenleyebilirsin: kategori, sorgu ve dil/ülke baskısı ----
-const CATEGORIES = [
-  { id: 'teknoloji', label: 'Teknoloji',      query: 'teknoloji',             edition: TR },
-  { id: 'bilim',     label: 'Bilim',          query: 'bilim',                 edition: TR },
-  { id: 'sanat',     label: 'Sanat',          query: 'sanat',                 edition: TR },
-  { id: 'oyun',      label: 'Ücretsiz Oyun',  query: 'ücretsiz oyun dağıtıyor', edition: TR },
-  { id: 'doga',      label: 'Doğa',           query: 'doğa çevre',            edition: TR },
-  { id: 'dunya',     label: 'Dünya',          query: null,                    edition: EN }, // yabancı kaynaklardan dünya gündemi
-  { id: 'gundem',    label: 'Gündem',         query: null,                    edition: TR }, // genel öne çıkanlar, dolgu
-];
-
 const CAT_COLORS = {
   teknoloji: '#5B8DEF',
   bilim:     '#E0A62B',
@@ -108,53 +94,13 @@ const CAT_COLORS = {
   gundem:    '#B9AD98',
 };
 
-const PROXIES = [
-  url => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url),
-  url => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(url),
-];
+const CAT_LABELS = {
+  teknoloji: 'Teknoloji', bilim: 'Bilim', sanat: 'Sanat',
+  oyun: 'Ücretsiz Oyun', doga: 'Doğa', dunya: 'Dünya', gundem: 'Gündem',
+};
 
-const PROXY_TIMEOUT_MS = 12000; // zayıf bağlantılarda erken pes etmesin diye uzatıldı
-const MAX_AGE_DAYS = 5;
-const MIN_ITEMS_PER_CAT = 3;
-const AUTO_REFRESH_MS = 6 * 60 * 1000; // 6 dakikada bir sessizce kendini tazeler
-
-function buildUrl(query, ed){
-  if (query){
-    return 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=' + ed.hl + '&gl=' + ed.gl + '&ceid=' + ed.ceid;
-  }
-  return 'https://news.google.com/rss?hl=' + ed.hl + '&gl=' + ed.gl + '&ceid=' + ed.ceid;
-}
-
-async function fetchWithTimeout(url, ms){
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), ms);
-  try {
-    return await fetch(url, { signal: controller.signal });
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
-const PROXY_NAMES = ['allorigins', 'codetabs'];
+const AUTO_REFRESH_MS = 6 * 60 * 1000;
 let lastErrorMsg = '';
-
-async function fetchWithFallback(targetUrl){
-  const errors = [];
-  for (let i = 0; i < PROXIES.length; i++){
-    try {
-      const res = await fetchWithTimeout(PROXIES[i](targetUrl), PROXY_TIMEOUT_MS);
-      if (!res.ok) throw new Error('status ' + res.status);
-      const text = await res.text();
-      if (!text || text.length < 50) throw new Error('boş yanıt');
-      return text;
-    } catch(e){
-      const msg = (e && e.name === 'AbortError') ? 'zaman aşımı' : ((e && e.message) ? e.message : String(e));
-      errors.push(PROXY_NAMES[i] + ': ' + msg);
-    }
-  }
-  lastErrorMsg = errors.join(' | ');
-  throw new Error(lastErrorMsg);
-}
 
 function timeAgo(dateStr){
   const d = new Date(dateStr);
@@ -172,59 +118,22 @@ function ageDays(dateStr){
   return (Date.now() - d.getTime()) / 86400000;
 }
 
-function stripHtml(html){
-  if (!html) return '';
-  const div = document.createElement('div');
-  div.innerHTML = html;
-  return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
-}
-
-function toItem(rawTitle, sourceNameRaw, link, pubDate, cat, rawDescription){
-  const sourceName = sourceNameRaw || (rawTitle.split(' - ').pop() || '');
-  const title = sourceNameRaw ? rawTitle : rawTitle.replace(' - ' + sourceName, '');
-  let snippet = stripHtml(rawDescription);
-  // Google Haberler açıklaması çoğu zaman başlığı/kaynağı tekrarlıyor; aynıysa gösterme
-  if (!snippet || snippet.toLowerCase().includes(title.toLowerCase().slice(0, 30))) {
-    snippet = snippet.replace(title, '').replace(sourceName, '').trim();
-  }
-  if (snippet.length < 8) snippet = '';
-  return { cat: cat.label, catId: cat.id, title, source: sourceName, link: link || '#', pubDate: pubDate || '', snippet };
-}
-
-function finalizeItems(items){
-  items.sort((a,b) => ageDays(a.pubDate) - ageDays(b.pubDate));
-  const fresh = items.filter(i => ageDays(i.pubDate) <= MAX_AGE_DAYS);
-  return fresh.length >= MIN_ITEMS_PER_CAT ? fresh : items.slice(0, Math.max(MIN_ITEMS_PER_CAT, fresh.length));
-}
-
-async function tryRss2Json(targetUrl, cat){
-  const apiUrl = 'https://api.rss2json.com/v1/api.json?count=20&rss_url=' + encodeURIComponent(targetUrl);
-  const res = await fetchWithTimeout(apiUrl, PROXY_TIMEOUT_MS);
+async function fetchNewsJson(){
+  const res = await fetch('news.json?t=' + Date.now());
   if (!res.ok) throw new Error('status ' + res.status);
   const data = await res.json();
-  if (data.status !== 'ok' || !Array.isArray(data.items)) throw new Error('geçersiz yanıt');
-  return data.items.map(it => toItem(it.title || '', null, it.link, it.pubDate, cat, it.description || it.content || ''));
+  const items = (data.items || []).map(it => ({
+    cat: CAT_LABELS[it.catId] || it.cat || it.catId,
+    catId: it.catId,
+    title: it.title,
+    source: it.source,
+    link: it.link,
+    pubDate: it.pubDate,
+    snippet: it.summary || '',
+  }));
+  return { items, updated: data.updated };
 }
 
-async function fetchCategory(cat){
-  const targetUrl = buildUrl(cat.query, cat.edition);
-  try {
-    const items = await tryRss2Json(targetUrl, cat);
-    if (items.length) return finalizeItems(items);
-  } catch(e){
-    lastErrorMsg = 'rss2json: ' + ((e && e.name === 'AbortError') ? 'zaman aşımı' : (e && e.message) || String(e));
-  }
-  const xmlText = await fetchWithFallback(targetUrl);
-  const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
-  const items = Array.from(xml.querySelectorAll('item')).slice(0, 20).map(it => {
-    const rawTitle = it.querySelector('title')?.textContent || '';
-    const sourceEl = it.querySelector('source');
-    return toItem(rawTitle, sourceEl ? sourceEl.textContent : null, it.querySelector('link')?.textContent, it.querySelector('pubDate')?.textContent, cat, it.querySelector('description')?.textContent || '');
-  });
-  return finalizeItems(items);
-}
-
-// ---- Kalıcı durum: okunanlar, beğeniler ----
 function loadJSON(key, fallback){
   try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch(e){ return fallback; }
 }
@@ -347,11 +256,12 @@ function renderMenu(){
   allBtn.onclick = () => selectCategory('all', 'Tümü', '#D8A34E');
   panel.appendChild(allBtn);
 
-  CATEGORIES.forEach(cat => {
+  Object.keys(CAT_LABELS).forEach(catId => {
+    const label = CAT_LABELS[catId];
     const b = document.createElement('button');
     b.className = 'menuItem';
-    b.innerHTML = '<span class="dot" style="--dotColor:' + CAT_COLORS[cat.id] + '"></span> ' + cat.label;
-    b.onclick = () => selectCategory(cat.id, cat.label, CAT_COLORS[cat.id]);
+    b.innerHTML = '<span class="dot" style="--dotColor:' + CAT_COLORS[catId] + '"></span> ' + label;
+    b.onclick = () => selectCategory(catId, label, CAT_COLORS[catId]);
     panel.appendChild(b);
   });
 }
@@ -383,15 +293,17 @@ async function loadAll(){
   const status = document.getElementById('status');
   status.textContent = 'Yükleniyor…';
   try {
-    const results = await Promise.all(CATEGORIES.map(cat => fetchCategory(cat).catch(() => [])));
-    all = results.flat();
+    const { items, updated } = await fetchNewsJson();
+    all = items;
     lastLoadTime = Date.now();
+    const botTime = updated ? new Date(updated).toLocaleTimeString('tr-TR') : '';
     status.textContent = all.length
-      ? 'Son güncelleme: ' + new Date().toLocaleTimeString('tr-TR')
+      ? 'Haberler botu son güncelleme: ' + botTime + ' · sayfa kontrolü: ' + new Date().toLocaleTimeString('tr-TR')
       : 'Haberler alınamadı. Hata: ' + (lastErrorMsg || 'bilinmiyor') + ' — "Yenile"yi dene.';
     render();
   } catch(e){
-    status.textContent = 'Bir şeyler ters gitti. "Yenile"yi dene.';
+    lastErrorMsg = (e && e.message) ? e.message : String(e);
+    status.textContent = 'news.json okunamadı (' + lastErrorMsg + '). Bot henüz ilk haberleri yazmamış olabilir, biraz sonra "Yenile"yi dene.';
   }
 }
 

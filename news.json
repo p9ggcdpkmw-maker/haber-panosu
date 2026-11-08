@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T18:20:33.815744+00:00",
+  "updated": "2026-11-08T18:24:21.342583+00:00",
   "items": [
     {
       "cat": "Teknoloji",
@@ -274,6 +274,15 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
+      "title": "Büyükşehir Senfoni Orkestrası’ndan 10 Kasım’a özel \"Son Veda\" konseri",
+      "source": "Medya Midas",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNamszREJreGtwVWMwbWVJVFdPTW9hZl82blpSdkNVZmlCOFRyOHlUeHVEVVJTXzlmRTc5TFllM3RIMkhpRzZ6Q3A4Y21PNkl0dTU4TGl1Q3ZOamlNcS1tX3B2TXEzTks1NU5NQ2pBd2dFQ2syMHNSRUVSVlpsMTVkeVhxenRiX0pVVFlTQkdkN0dGMXhsRHhjMlY3Ty1JWXFJVlE?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:47:59 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
       "title": "BAŞKAN VEKİLİ GENÇ, 5. ULUSLARARASI TARSUS FESTİVALİ’NİN SON GÜNÜNDE KÜLTÜR, SANAT VE DAYANIŞMAYA ORTAK OLDU",
       "source": "Mersin Halk Haber",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdVRaMWdmV1ZTVGVEZnpTby0wYVY2Z2hKMTVxMDFTVnJmR3JzQWRSOFRHZlptMU9zZ25Ick5qcWdiZ3lCdmdKV19hNlZYWGdwS0tsNzc4aGtmd3pQNlVOR29WaWxGemZpUkdBSzNaaFFlRWRWakRzajJQYkhMVTRFRnlueG0zMm5PU3RsNU16T01PenRIaXBhS05SRXZzMkNOT0NHcUJSdndTeE00anFqZVVvYWoycHZRUVlIYmZnakFMMUNvWmJkRmRQYW9DZUthMGxMQXlnOXFTTHo4SWh3S2diaHJqUQ?oc=5",
@@ -314,15 +323,6 @@
       "source": "Anka Haber",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRFlsTHB4VnoxYlBjRUFGWm5qdVIwSnZyRmhqR3BIM0FYUHhjZ0JSY0xBcTdmX2VXRmlwSWVlZjE2V3NTVnowNVZKdWxZZ0g3a1hzbzkyLW9PQm9QQ3MtZG5yMXZVUDVOTmdUdW9vWUFfako0YzczeHJERnNRQnlCSE1ua1VYcnZFZF9HX3ZhWmFycXFBYlpGLVA5cUdHRWN3bFZxWEFvcXBBZzhQS25UeXZ1SEp6bTF6eEpsUGFHeUdyT2llcEpNR1FkMU1iZXZCb1VJ?oc=5",
       "pubDate": "Sun, 08 Nov 2026 15:19:43 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "RİTÜEL, TEKRAR VE İNSAN",
-      "source": "Sanatatak",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mMEN4clczRGYtc0xFTE5VVTdaZkdnVmhfZk51c245OUJpNXpqWmhndHhSVUlNMS0xR2RrOVNGU2xsXzhIUU9iWEFwTW1FV3hrejVPQkl3a054RVFueTFyeXlOcGgwU3VtTEJn?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 15:07:25 GMT",
       "summary": ""
     },
     {
@@ -472,6 +472,15 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUXdZYXlTZ1pmbS1RS3FjdktDSUNTbTdaQjBMNFlnWUEteC1XVG4tNHZzN2wxazF5cE1DRDBmOTY4dld0dXlkRFVhYVNCc1F0Z0dIOEZUNXhZU0FaUko0aHQtWTdna05rNjY0MG0xME43Z3dnV2tQUjBnbTVxdDBxeEY0c3pJVHFDNFpFeDBKc2RPem9qUXljSURLU3V6S1U?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:21:08 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "Nasa seeks next generation of astronauts to live and work on the moon",
       "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOc3Z0WDBDc21jMkVBYW5qMjdab0NVUWFuN2JFaVBiMnhkbFg2TndoT1BjSTJzeUlxQ3JiLURiMkNSaFQtZmdHUWQ5aUE1NE8ySHFHQTk0bnVTTXhZYkxrMWtVR3ZNNUNaYzRSelJrU2Z0cGd3UUZIWDZYN09KZl9uRmUyaTdoTGdoR1BnNHA4UQ?oc=5",
@@ -481,7 +490,7 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Collision of two trains in Egypt kills at least four",
+      "title": "Collision of two trains in Egypt kills at least seven",
       "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMXg4YVJZQUdEdlZmaG1raktuNlpUTmw4UFJlaG0xN2t5YVNhQ0VCQnZrSk5UakJQbmdzbnhWUDRJSUlES1NPNHFRV1pLdjBCRHJKZFdHcFZBaXZqOWJNLVNCMTFveDBLX051U20zTER1a2ZGV1pETTJNczV0czlDd0tHY2lfQQ?oc=5",
       "pubDate": "Sun, 08 Nov 2026 16:38:00 GMT",
@@ -490,19 +499,10 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Pope Leo heads to Milei's Argentina as tensions loom over austerity, Iran",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYV8wSU00NXg1Q0xRcmpIZWxTdkhGYV8zZmZuZ1pxdWpwQWpabFdGQVFQY1VSUkY5cUdNd1lnQWJjV3VkYy11Sk1nUHdkeGdnbFZ3bXRTNGxaeE9XWnVHRHlMVEF2T0I3QjVEX2dLY054QlZWUi1aTnBzc01RY21GUG1MYXhTcXhmZTl2UF9XZDh5WHlrNjk4ZXZ0OU16UkNhdnBjUi1mSDAwSkpxTnRMQjBLa3BVaWs?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:04:42 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Potential Vance challengers smell blood in the water after brutal GOP losses",
+      "title": "How a Mississippi election came down to the clerk’s office",
       "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNUZIQUxDUjgyWTJFcnptb2FZY3phcHBBaVlxQkcyMTVxd25vcDZDNGhGbjE3bEkzbXNxbjZLRk9nX29qRmR2SUpXdGc2UFZMWHVFVWx5aEV2R09KTHppUXYzdDlOdTVZbFN3ekNoZmVLMXowR3QyUFJrNVNKYTh2T2xxSVQ4NjBYbUh6dWVpUDRRM25HSlY1NmFiUTU4dWVyUF8wRWpLaTU3UjEyRVA2UlZ6LWtjU1BQa3I3bGVR?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:02:20 GMT",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2VSeEJuZUZtTThnRjdWREI1VXZFV3AtenhQR2taM2FrMXFaN2xRbDhaVVdCdTlsSnZfYTdPMWZUMFZYejRnX3ZEZTN2TUJKRU4yMTdhblZlVDdLbFBvbWJaQ2lEUzFRTllDcWNMOXJJVUhsXzl4RnpUYkg2T18yV0xCOFA3b0xrLUpqT040R0tMMU5EQUY2cEpxNVE3UQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:02:24 GMT",
       "summary": ""
     },
     {
@@ -512,6 +512,15 @@
       "source": "Variety",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2RmckJiX0tYT1hmeTdrcDI3ZFhmR2VicmJqNGlpSDQwTVhJakZxYlRiMGQzVFBlTzlRbldKclNfbTduUHloT2lyN0tvMndFSXdYakItVy1MbnZMbjBKX053c053eDI5enRvRXJsbWl3cTByUXZxTTlxcVcyY0VNOUlYazNCOU1SOWJoSlZVcTcwR2htWm9wbVFjZUxvVHg5a1FJcjZfWjJ0OVVNWG40eTF5TlF1eFNHV2FHQ1d6RQ?oc=5",
       "pubDate": "Sun, 08 Nov 2026 16:01:00 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Pope wraps up Uruguay visit and heads to most fraught stop of his tour in Milei’s Argentina",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXBvT0ZhMHZPdk1rbTJiZ1FtQlJJWEZMZE1CU2h6dlNBNTRZa2hsWFIzMG1mMU9qYTNIV1lTUnh0Ni03c2lOVDg1dDhleUliSmpzcnZmdlhaZ0dfWTlyYlRtOFo0dVYwdVpWV2NnMGxLZWZpMlJGOXJLMHF2SjNRVFoxZ1JlRjBtWEliSTBBcVVKeTU1dW9NbWFFUHdrMDhxNXc5NENMdzl5Q0l3RDNxNGJ5Q0JzbUdKWWc?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 15:43:00 GMT",
       "summary": ""
     },
     {
@@ -553,28 +562,19 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Sen.-elect Adam Hamilton says he’d be disappointed if Democrats focus on investigating Trump",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeWliUUVQLUIwblJESW9meTA3OGMyTnB1U1NXSmRVTHdhUkY1WndiZ2EybFFEYXNpSFp6cVdZcGxBSTFreFhUc2l4MUxCU3ZlZGxwaXhtU093d0hJWW5BRUwzSTY5dXdHWHVqQ1pORE5UQ2FwaGt4SWs5cjhydHZ2TDJLZFhuS1RzSVhNVFB0UXQ5SDZ4d0c2TzVYY3RET2RQMXAyV0hWLUxVVVZFYVRfVkhGeGp5bmthOFBOZFFNOA?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 14:38:10 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "The SS United States and her final destination",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNFU4dll4MjhHNEdpT0pwR1FfM3RkbDdPajZhRkMwYVNDSFhvNUNvODNjaGRTVmx0am5lSTZtV2pBSk92T0k2YzdybElWeC11bTVGTElVbzFVOWxqUmxTZmM3aEtzWl9RSThOaEpZUlFubzBrUURCc1AwWWNaa05UVlFn?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 14:34:30 GMT",
+      "title": "How Hinojosa’s win in Texas could bite Beshear",
+      "source": "Politico",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY1VCTzFTcVc0RW1FSlJERDNtUHpqZmJyZl93a3dCRXNtY0hiZjVhVG1wSXo1NkJsbl9XUHRxbnlILWdSWGdUeGx4V0E0TThPb0lyZTY5bS0zY3YwVWVKUk9GZjJicmhSd2tzMzEwdkhqaGdDc3dRR2ozSGhPa3VlS3JsUQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 15:00:00 GMT",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "CANLI | Beşiktaş - Gençlerbirliği maçında ilk 11'ler belli oldu",
-      "source": "beinsports.com.tr",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzdzJxM0FaVDlrcjFnZ0tScnFCTHhZWkhWMG5abEZZRDJXQmt1YnlxVnpXbDd4U0VrdjV2anhYTzN4LVJRbmRBelozdWpRRXhIZms2UzgwRThWZHNzcno1VnZ2VUlsRGhkY3c?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:57:11 GMT",
+      "title": "CANLI| Beşiktaş - Gençlerbirliği maçı Canlı Anlatım - BJK - GB maçı kadrosu, skoru ve istatistikleri",
+      "source": "Fanatik",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOajBNSm9PaUI2Y0tLVzhkdDlwWUZmS003VllnM0hoZHRhUnRZSDBVMWNFanJPU2xDVE5CVXo1NUI1OTVmWkxTaTBDN1l3WWJXQnV1ZEcyY2E5TDcwOGw3ZVJmY0g3WHVrVTZya0h2X2xNelF6UjV1MEZDbnVhX3BWZl9UUXlUT19kTmxHZ0J6bm12NDNYVVJIT1h1T2VBR1VLN3dKSHhTSS1wWllsWmFKZ3dwMmlrUWFSUmRTVVh1V2x6V3JQOUJUR0JLTE92ZWNi?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 18:09:03 GMT",
       "summary": ""
     },
     {

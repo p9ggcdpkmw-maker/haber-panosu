@@ -3,6 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Keşif Panosu">
+<meta name="theme-color" content="#1B1713">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%237FA66B'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle'%3E%F0%9F%93%B0%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%237FA66B'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle'%3E%F0%9F%93%B0%3C/text%3E%3C/svg%3E">
 <title>Keşif Panosu</title>
 <style>
   :root{
@@ -35,16 +40,25 @@
     to{transform:translateX(-50%);}
   }
 
-  .controls{max-width:760px;margin:18px auto 0;padding:0 18px;position:relative;display:flex;gap:8px;align-items:center;}
-  .menuBtn, .refreshBtn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:9px 14px;border-radius:12px;font-size:14px;cursor:pointer;font-family:var(--font-sans);}
+  .controls{max-width:760px;margin:14px auto 0;padding:0 18px;position:relative;display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+  .menuBtn, .refreshBtn, .iconBtn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:9px 14px;border-radius:12px;font-size:14px;cursor:pointer;font-family:var(--font-sans);}
   .refreshBtn{color:var(--ink-dim);font-size:13px;}
+  .iconBtn{padding:9px 11px;font-size:15px;margin-left:auto;}
   .menuBtn .dotCur{width:9px;height:9px;border-radius:50%;background:var(--curColor,#D8A34E);display:inline-block;}
-  .menuPanel{position:absolute;top:calc(100% + 6px);left:18px;background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:6px;min-width:200px;z-index:10;box-shadow:0 8px 24px rgba(0,0,0,.4);}
+  .menuPanel{position:absolute;top:calc(100% + 6px);background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:6px;min-width:200px;max-height:280px;overflow-y:auto;z-index:10;box-shadow:0 8px 24px rgba(0,0,0,.4);}
+  #menuPanel{left:18px;}
+  #sourcePanel{left:18px;}
   .menuPanel[hidden]{display:none;}
   .menuItem{display:flex;align-items:center;gap:9px;width:100%;background:transparent;border:none;color:var(--ink);padding:9px 10px;border-radius:8px;font-size:14px;text-align:left;cursor:pointer;font-family:var(--font-sans);}
   .menuItem:active{background:rgba(255,255,255,0.06);}
   .menuItem .dot{width:9px;height:9px;border-radius:50%;background:var(--dotColor,#D8A34E);flex:none;}
   .menuItem.sel{font-weight:700;}
+
+  .searchRow{max-width:760px;margin:10px auto 0;padding:0 18px;}
+  .searchInput{width:100%;border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:10px 14px;border-radius:12px;font-size:14px;font-family:var(--font-sans);}
+  .searchInput::placeholder{color:var(--ink-dim);}
+
+  .shareBtn{position:absolute;top:10px;right:42px;background:transparent;border:none;font-size:16px;line-height:1;cursor:pointer;color:var(--ink-dim);padding:4px;}
 
   main{max-width:760px;margin:0 auto;padding:16px 16px 60px;}
   .status{color:var(--ink-dim);font-size:12px;margin:10px 4px 16px;min-height:16px;line-height:1.5;}
@@ -54,7 +68,7 @@
     background:var(--paper);
     border-left:5px solid var(--catColor,#D8A34E);
     border-radius:4px 16px 16px 4px;
-    padding:14px 46px 14px 16px;
+    padding:14px 72px 14px 16px;
     box-shadow:0 1px 0 rgba(0,0,0,.25);
   }
   .item:nth-child(3n+1){transform:rotate(-0.4deg);}
@@ -66,7 +80,7 @@
   .meta{font-size:11.5px;color:var(--catColor,#D8A34E);margin-bottom:7px;display:flex;flex-wrap:wrap;gap:7px;align-items:center;font-weight:600;letter-spacing:0.1px;}
   .meta .dot{color:var(--ink-dim);font-weight:400;}
   .title{font-family:var(--font-display);font-size:17px;line-height:1.4;color:var(--ink);}
-  .snippet{font-size:13px;color:var(--ink-dim);line-height:1.5;margin-top:6px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;}
+  .snippet{font-size:13px;color:var(--ink-dim);line-height:1.5;margin-top:6px;}
   .likeBtn{position:absolute;top:10px;right:10px;background:transparent;border:none;font-size:19px;line-height:1;cursor:pointer;color:var(--ink-dim);padding:4px;}
   .likeBtn.liked{color:var(--catColor,#D8A34E);}
   .empty{color:var(--ink-dim);font-size:14px;padding:20px 4px;}
@@ -75,6 +89,9 @@
     :root:not([data-theme="dark"]){
       --bg:#F3ECDF; --paper:#FFFBF3; --ink:#241C12; --ink-dim:#8A7C66; --rule:#D8CBB2;
     }
+  }
+  :root[data-theme="light"]{
+    --bg:#F3ECDF; --paper:#FFFBF3; --ink:#241C12; --ink-dim:#8A7C66; --rule:#D8CBB2;
   }
 </style>
 </head>
@@ -97,7 +114,16 @@
 <div class="controls">
   <button class="menuBtn" id="menuBtn"><span class="dotCur" id="menuDot"></span> <span id="menuLabel">Tümü</span> ▾</button>
   <div class="menuPanel" id="menuPanel" hidden></div>
+
+  <button class="menuBtn" id="sourceBtn"><span id="sourceLabel">Kaynak: Tümü</span> ▾</button>
+  <div class="menuPanel" id="sourcePanel" hidden></div>
+
   <button class="refreshBtn" id="refreshBtn">↻ Yenile</button>
+  <button class="iconBtn" id="themeBtn" aria-label="Tema değiştir">🌙</button>
+</div>
+
+<div class="searchRow">
+  <input type="search" class="searchInput" id="searchInput" placeholder="Başlıklarda ara…">
 </div>
 
 <main>
@@ -154,6 +180,24 @@ async function fetchNewsJson(){
     snippet: it.summary || '',
   }));
   return { items, updated: data.updated, weather: data.weather, market: data.market };
+}
+
+function getStoredTheme(){
+  return localStorage.getItem('kp_theme');
+}
+function effectiveTheme(){
+  return getStoredTheme() || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+}
+function applyTheme(){
+  const stored = getStoredTheme();
+  if (stored) document.documentElement.setAttribute('data-theme', stored);
+  else document.documentElement.removeAttribute('data-theme');
+  document.getElementById('themeBtn').textContent = effectiveTheme() === 'dark' ? '☀️' : '🌙';
+}
+function toggleTheme(){
+  const next = effectiveTheme() === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('kp_theme', next);
+  applyTheme();
 }
 
 function startClock(){
@@ -234,6 +278,8 @@ function score(item){
 
 let all = [];
 let active = 'all';
+let activeSource = 'all';
+let searchQuery = '';
 let showRead = false;
 let lastLoadTime = 0;
 
@@ -241,6 +287,13 @@ function render(){
   const list = document.getElementById('list');
   list.innerHTML = '';
   let filtered = active === 'all' ? all.slice() : all.filter(i => i.catId === active);
+  if (activeSource !== 'all'){
+    filtered = filtered.filter(i => i.source === activeSource);
+  }
+  if (searchQuery){
+    const q = searchQuery.toLocaleLowerCase('tr');
+    filtered = filtered.filter(i => (i.title || '').toLocaleLowerCase('tr').includes(q));
+  }
   filtered.sort((a,b) => score(a) - score(b));
 
   const hiddenReadCount = filtered.filter(i => readLinks.has(i.link)).length;
@@ -280,7 +333,21 @@ function render(){
         toggleLike(item, likeBtn);
       });
 
+      const shareBtn = document.createElement('button');
+      shareBtn.className = 'shareBtn';
+      shareBtn.textContent = '↗';
+      shareBtn.setAttribute('aria-label', 'Paylaş');
+      shareBtn.addEventListener('click', (e) => {
+        e.preventDefault(); e.stopPropagation();
+        if (navigator.share){
+          navigator.share({ title: item.title, url: item.link }).catch(() => {});
+        } else {
+          window.open('https://wa.me/?text=' + encodeURIComponent(item.title + ' — ' + item.link), '_blank');
+        }
+      });
+
       card.appendChild(a);
+      card.appendChild(shareBtn);
       card.appendChild(likeBtn);
       list.appendChild(card);
     });
@@ -331,6 +398,44 @@ function selectCategory(id, label, color){
   render();
 }
 
+function renderSourceMenu(){
+  const panel = document.getElementById('sourcePanel');
+  panel.innerHTML = '';
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'menuItem sel';
+  allBtn.textContent = 'Tüm kaynaklar';
+  allBtn.onclick = () => selectSource('all');
+  panel.appendChild(allBtn);
+
+  const sources = Array.from(new Set(all.map(i => i.source).filter(Boolean))).sort((a,b) => a.localeCompare(b, 'tr'));
+  sources.forEach(src => {
+    const b = document.createElement('button');
+    b.className = 'menuItem';
+    b.textContent = src;
+    b.onclick = () => selectSource(src);
+    panel.appendChild(b);
+  });
+}
+
+function selectSource(src){
+  activeSource = src;
+  document.getElementById('sourceLabel').textContent = 'Kaynak: ' + (src === 'all' ? 'Tümü' : src);
+  document.getElementById('sourcePanel').hidden = true;
+  render();
+}
+
+document.getElementById('sourceBtn').addEventListener('click', (e) => {
+  e.stopPropagation();
+  const panel = document.getElementById('sourcePanel');
+  panel.hidden = !panel.hidden;
+});
+document.getElementById('searchInput').addEventListener('input', (e) => {
+  searchQuery = e.target.value.trim();
+  render();
+});
+document.getElementById('themeBtn').addEventListener('click', toggleTheme);
+
 document.getElementById('menuBtn').addEventListener('click', (e) => {
   e.stopPropagation();
   const panel = document.getElementById('menuPanel');
@@ -341,6 +446,11 @@ document.addEventListener('click', (e) => {
   const btn = document.getElementById('menuBtn');
   if (!panel.hidden && !panel.contains(e.target) && e.target !== btn){
     panel.hidden = true;
+  }
+  const sPanel = document.getElementById('sourcePanel');
+  const sBtn = document.getElementById('sourceBtn');
+  if (!sPanel.hidden && !sPanel.contains(e.target) && e.target !== sBtn){
+    sPanel.hidden = true;
   }
 });
 document.getElementById('refreshBtn').addEventListener('click', loadAll);
@@ -354,6 +464,7 @@ async function loadAll(){
     lastLoadTime = Date.now();
     renderWeather(weather);
     renderTicker(market);
+    renderSourceMenu();
     const botTime = updated ? new Date(updated).toLocaleTimeString('tr-TR') : '';
     status.textContent = all.length
       ? 'Haberler botu son güncelleme: ' + botTime + ' · sayfa kontrolü: ' + new Date().toLocaleTimeString('tr-TR')
@@ -373,6 +484,7 @@ document.addEventListener('visibilitychange', () => {
 });
 
 renderMenu();
+applyTheme();
 startClock();
 loadAll();
 </script>

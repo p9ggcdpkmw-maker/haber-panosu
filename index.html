@@ -135,23 +135,25 @@ async function fetchWithTimeout(url, ms){
   }
 }
 
+const PROXY_NAMES = ['allorigins', 'codetabs', 'corsproxy.io'];
 let lastErrorMsg = '';
 
 async function fetchWithFallback(targetUrl){
-  let lastErr;
-  for (const build of PROXIES){
+  const errors = [];
+  for (let i = 0; i < PROXIES.length; i++){
     try {
-      const res = await fetchWithTimeout(build(targetUrl), PROXY_TIMEOUT_MS);
+      const res = await fetchWithTimeout(PROXIES[i](targetUrl), PROXY_TIMEOUT_MS);
       if (!res.ok) throw new Error('status ' + res.status);
       const text = await res.text();
       if (!text || text.length < 50) throw new Error('boş yanıt');
       return text;
     } catch(e){
-      lastErr = e;
-      lastErrorMsg = (e && e.message) ? e.message : String(e);
+      const msg = (e && e.name === 'AbortError') ? 'zaman aşımı' : ((e && e.message) ? e.message : String(e));
+      errors.push(PROXY_NAMES[i] + ': ' + msg);
     }
   }
-  throw lastErr || new Error('tüm kaynaklar başarısız');
+  lastErrorMsg = errors.join(' | ');
+  throw new Error(lastErrorMsg);
 }
 
 function timeAgo(dateStr){

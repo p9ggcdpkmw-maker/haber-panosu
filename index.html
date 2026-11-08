@@ -135,6 +135,8 @@ async function fetchWithTimeout(url, ms){
   }
 }
 
+let lastErrorMsg = '';
+
 async function fetchWithFallback(targetUrl){
   let lastErr;
   for (const build of PROXIES){
@@ -146,6 +148,7 @@ async function fetchWithFallback(targetUrl){
       return text;
     } catch(e){
       lastErr = e;
+      lastErrorMsg = (e && e.message) ? e.message : String(e);
     }
   }
   throw lastErr || new Error('tüm kaynaklar başarısız');
@@ -352,7 +355,7 @@ async function loadAll(){
     lastLoadTime = Date.now();
     status.textContent = all.length
       ? 'Son güncelleme: ' + new Date().toLocaleTimeString('tr-TR')
-      : 'Haberler alınamadı. Birkaç saniye sonra "Yenile"yi dene.';
+      : 'Haberler alınamadı. Hata: ' + (lastErrorMsg || 'bilinmiyor') + ' — "Yenile"yi dene.';
     render();
   } catch(e){
     status.textContent = 'Bir şeyler ters gitti. "Yenile"yi dene.';

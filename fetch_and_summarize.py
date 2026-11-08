@@ -11,7 +11,7 @@ from xml.etree import ElementTree as ET
 import requests
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-GROQ_MODEL = GROQ_MODEL = "openai/gpt-oss-120b"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 TR = {"hl": "tr", "gl": "TR", "ceid": "TR:tr"}
 EN = {"hl": "en-US", "gl": "US", "ceid": "US:en"}
@@ -87,10 +87,61 @@ def fetch_category(cat):
     return final[:MAX_ITEMS_PER_CAT]
 
 
+WEATHER_DESC = {
+    0: "Açık", 1: "Az bulutlu", 2: "Parçalı bulutlu", 3: "Kapalı",
+    45: "Sisli", 48: "Kırağı sisi",
+    51: "Hafif çisenti", 53: "Çisenti", 55: "Yoğun çisenti",
+    61: "Hafif yağmur", 63: "Yağmur", 65: "Şiddetli yağmur",
+    71: "Hafif kar", 73: "Kar", 75: "Yoğun kar",
+    80: "Sağanak", 81: "Sağanak", 82: "Şiddetli sağanak",
+    95: "Gök gürültülü sağanak", 96: "Dolu", 99: "Şiddetli dolu",
+}
+
+# Çorlu, Tekirdağ koordinatları — başka bir şehir istersen burayı değiştir
+WEATHER_LAT, WEATHER_LON = 41.1601, 27.8055
+
+
+def fetch_weather():
+    url = f"https://api.open-meteo.com/v1/forecast?latitude={WEATHER_LAT}&longitude={WEATHER_LON}&current_weather=true"
+    try:
+        r = requests.get(url, timeout=15)
+        r.raise_for_status()
+        cw = r.json().get("current_weather", {})
+        code = cw.get("weathercode")
+        return {
+            "temp": cw.get("temperature"),
+            "desc": WEATHER_DESC.get(code, ""),
+        }
+    except Exception as e:
+        print(f"  ! hava durumu alınamadı: {e}", file=sys.stderr)
+        return None
+
+
+def fetch_market():
+    url = "https://query1.finance.yahoo.com/v7/finance/quote?symbols=USDTRY=X,EURTRY=X,GC=F"
+    try:
+        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+        r.raise_for_status()
+        results = r.json().get("quoteResponse", {}).get("result", [])
+        prices = {item["symbol"]: item.get("regularMarketPrice") for item in results}
+        usdtry = prices.get("USDTRY=X")
+        eurtry = prices.get("EURTRY=X")
+        gold_usd_oz = prices.get("GC=F")
+        gold_gram_try = round(gold_usd_oz / 31.1034768 * usdtry, 2) if (usdtry and gold_usd_oz) else None
+        return {
+            "usdtry": round(usdtry, 2) if usdtry else None,
+            "eurtry": round(eurtry, 2) if eurtry else None,
+            "gold_gram_try": gold_gram_try,
+        }
+    except Exception as e:
+        print(f"  ! piyasa verisi alınamadı: {e}", file=sys.stderr)
+        return None
+
+
 def summarize_batch(items):
     if not items:
         return []
-       lines = [f"{i+1}. {it['title']} (Kaynak: {it['source']})" for i, it in enumerate(items)]
+    lines = [f"{i+1}. {it['title']} (Kaynak: {it['source']})" for i, it in enumerate(items)]
     prompt = (
         "Aşağıda haber başlıkları listelendi. Her biri için Türkçe, 2-3 CÜMLELİK bir özet yaz: "
         "ilk cümle(ler) haberin ne hakkında olduğunu başlığı tekrar ETMEDEN açıklasın, "
@@ -102,7 +153,6 @@ def summarize_batch(items):
         "Dizinin uzunluğu tam olarak liste uzunluğuyla eşleşmeli.\n\n"
         + "\n".join(lines)
     )
-
     try:
         resp = requests.post(
             "https://api.groq.com/openai/v1/chat/completions",
@@ -143,9 +193,12 @@ def main():
         for it, s in zip(chunk, summaries):
             it["summary"] = s
 
+    print("Hava durumu ve piyasa verisi çekiliyor...")
     out = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "items": all_items,
+        "weather": fetch_weather(),
+        "market": fetch_market(),
     }
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)

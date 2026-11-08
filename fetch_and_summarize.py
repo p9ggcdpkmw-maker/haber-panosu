@@ -11,7 +11,7 @@ from xml.etree import ElementTree as ET
 import requests
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = GROQ_MODEL = "openai/gpt-oss-120b"
 
 TR = {"hl": "tr", "gl": "TR", "ceid": "TR:tr"}
 EN = {"hl": "en-US", "gl": "US", "ceid": "US:en"}

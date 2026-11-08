@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-08T17:02:51.460720+00:00",
+  "updated": "2026-11-08T17:42:03.927648+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Gökyüzünde dron otoyolları dönemi: İHA'lara özel koridorlar oluşturulacak",
+      "source": "Yeni Şafak",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcExGNGY2dDRCcjVrQnY1ZXFJcEkyblVhelpGWUxmbTZ0VUtUVHIzdjZsUFVuRVpXS3F5VUJaT2xpYjdVVnVMWGQyOEhmRElnZGtZeXRzdktzMjVZTEdYWFBLLWVfWVN3Tk4tY2FwS2ttM1FMdDhWa0NvQllfZndnX2VXOXp1S1BJckNFU3RyU0xkbkVZNUMxYk1VZDVnOGhfU2YzLUZnMHNEdERMRm9wb0plZHk2QQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:24:29 GMT",
+      "summary": ""
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -35,15 +44,6 @@
       "source": "Teknoblog",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02akRRVENhQi1DRkFfV0U5TEpiSnNaZzZ3V1o2RURvbWpNWlY2YkU5T1JCSGdvbHJ4Z3RlTUdOMlpDM3A5SkVEMzVNWlEwenJJekl5Wm5Vc0s4X1NMM1J0YVh2bkxCRzh3UzFucUF3?oc=5",
       "pubDate": "Sun, 08 Nov 2026 16:18:47 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Kars'ta Öğrencilere Güvenli İnternet ve Teknoloji Bağımlılığı Eğitimi",
-      "source": "Gazetekars",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdElpcVQ4aUpCeDBFOXQ5bDNBWFhveHVDYUkzSEFRdU85X3hRTVVmSWREaFc1YTZSbWNwLTV5Ym5GR2JJdHRfclhrcmhnR21KQzAwckQycXk2RFFIc1NqX3EtYXFCb01pUnlqVFA0dC1VQkNGcG0xbm5Sc3RsMENBb1QzN1ZmUVBWY1BELVNpSWpnNlFLakN5bjdFZmE1VEJjdUhPem03QUNiUQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:15:00 GMT",
       "summary": ""
     },
     {
@@ -107,6 +107,15 @@
       "source": "Yeni Şafak",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYXVQS0xWM2htaUVMQlhUbkxleUltOUhZaXBXRlpXRnhRSXNVQUVZVlE1ZGc3TzNJSXZBMkdBc3l1UkpMNkxaQVlqTzk1NWVQTDhwUFpocUt0Vk9iOWcwOXZReWYwak96M2R1a05yeF9BcjJpal85cnBVOFZOYTlSd01OZVNKQkd1SFpuTXJsWUlCOXBOVkxaYkRoSlN6eW80QkJBU0pwczl5TWpfeXUwRHpHamRVYV9P?oc=5",
       "pubDate": "Sun, 08 Nov 2026 14:22:08 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Gençlerimiz Bilim Fatih'te Hayallerindeki Robotları Tasarladılar",
+      "source": "T.C. Fatih Belediyesi",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQWJVMnd4UWZFUndDQTZud29kMXhWdGlVVENNNzlpbEljdHZfMWRfSXhLSGplbnZCRlRkYjZkNnJyMXRRYXpCTG9sd1dfa09ZLWI2emhZc29iSHJRRE80bGwzMHhZTWxCWllWSTBYOFF1ZGdmSG5ickhzaFdBb19zTFFTZmFsSjBGbFU2d0ZpY1hXbEU?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:05:11 GMT",
       "summary": ""
     },
     {
@@ -209,12 +218,39 @@
       "summary": ""
     },
     {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "» Öyle bir fotoğraf çekti ki yapay zeka sanıldı: Gökyüzünde binlerce uydu izi!",
-      "source": "10Haber",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLUxteUREU1dmNVVZMVRMNFlEcUtfNHFLQXhNS1NlLWthR1Q3V29UZlpTZUpHWF9JRFBwdWg1Mkk2M2xRUFhHSF9mWUZic1lwQjhrU1kzakpIbDR4eExRdG40N3pYa0R5UGdpYXFzTlBLcHRQdF9qbEpVbDU5dnJFVGlUeVFTTmZNMEdWcXhadGQ0Z0p1dl9iMVM2bnBJR2xYTDQxN2tDNVhSODBCNVBiYzZJdGdqMFI3LUE?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 09:20:14 GMT",
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Filizler Derneği 30. Kuruluş Yıl Dönümünü Coşkuyla Kutluyor",
+      "source": "Kosovahaber.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcElfNXZCNDNzUDd6am1KVmhoazRFekpObnJibGdfdGMxNGlPUzNOdmVpSzlHc0pKNFFha3JGbzBzaGFSUUhaX1lCWmw4REIxamFqWWpHS3FGVlJuMVhnLXZ3Tm8tcW42TmxqWHM0cDRSUU52Z2JfekZpTmlWUzRKQW1OSngtc29TU090dURidXNEMHdxaWdoMjlSTQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:37:54 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "John Malkovich: İyi sanat, insanı kendi hayatı üzerine düşünmeye sevk eder",
+      "source": "Gazete Oksijen",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVVo4cVpsbzQ2Y1VTM0RidFdFRTdQdENhcTJ1VHF5LVF4X3EyVzNFc3Q2SzRadDB4V3VzSVBCR2tNSkpBU01henFWaWQ4WDg2M2E2N3gwcTdnR2UyeXhOVmdCYmVieVZoeFk3M2tyeUg4cXdLdFJTbU1TMHBEWUdNMFRoQ3hBbTNoSHBVSVNMMmZoLUkwME1kcE01dW9ET1YzaExYZmtSaE5TQ28zZkN2ODBR?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:22:29 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Sanatçı Nguyen Van Thom, Dong Thap Eyaleti Güzel Sanatlar Şubesi Başkanı seçildi.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNVFzRktsTjZKNmhZWnJXbks5d2FnTXRsaVhwdGxLaGlrSGdRRElHcDJtTERNSUt3OEtmQl9HT1VaVkNveGJCeGFOQmFUcGNSNHVKWkc4NGNHTGUwREZURU9XbmFOVXZXZjdubTdBTnhHR01kcjVfdmJKYXY1dHh0R3F3WjF6ZnN3ZDVWYVpaUi1FalV4NEdBaEoxVUw4dm5rdjM4SVZzbw?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:04:10 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Hatay’da Atatürk sevgisi sanat eserlerine yansıdı",
+      "source": "Sondakika Hatay Haberleri",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMzQzdVZTNVdOaEt4N0MzcDBqRkZWOENQaFdBZGRiY1pMMmhCYkNYVEpOa093alM0NFFzLWVFbEZkUlZISk5RWlBOcDVDa0lTZ3VLZTV2dy1RTnVDVXJKMERDT2I2Zm13ZjRSbTMwQkNlMFhBN1hlUzN5YUkyLXBBVmdqYzAxd2VSQkczT0RjZ9IBlAFBVV95cUxNTHdraVhJVEV3ZXlBTklJVGhveUNNN29LUnE5bTlKYmxfaEVycF9jMGUySlowNk5CUWllanBaeWpIUndSY3JLbTkwZEo4ZW9TSGhxbEpTeW0tNHR2MWljWUNXU2N3cG5KMlBFS0J5TDVFN0VnU1ZMUmpYRHZLcG1zMFBOeEpNZ01rU1RWYmpLeGpyWEFE?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:00:00 GMT",
       "summary": ""
     },
     {
@@ -274,15 +310,6 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
-      "title": "Adana Kültür Yolu Festivali kapsamında ebru atölyesi açıldı",
-      "source": "Adana Post",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYkdPNkc5ejFJNl9rak5LajEyTGdScDlkZWU2ZHV3UGJaZFk0dlBQNElSSFR6SlN4Q3phM0RmQkFSSVB6ZGRLVzFOQWlnSndJVW9lRDdVeXF1dVN3YmgybDNjb2RxWngyaGc2SzlnUEIzVm5wQ2J3aXF1OTdvM3N5Q29ETDlwWTZIZWtmYkVSVWFmQ2hVN29rUTduaS1CeGpVQlFCcG4zNnJ1WnpTcmFMbll3?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 15:15:59 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
       "title": "RİTÜEL, TEKRAR VE İNSAN",
       "source": "Sanatatak",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mMEN4clczRGYtc0xFTE5VVTdaZkdnVmhfZk51c245OUJpNXpqWmhndHhSVUlNMS0xR2RrOVNGU2xsXzhIUU9iWEFwTW1FV3hrejVPQkl3a054RVFueTFyeXlOcGgwU3VtTEJn?oc=5",
@@ -296,33 +323,6 @@
       "source": "Medya Midas",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeU54U0tuSll4eWRGSXFTZUV6SXc3VkpwM0NFS01UUXktMVBNSU1ZbzV4U2t5WXEzU3I1STU0MVoza2x2Q0VkOEliak5USko2bXNzems2UHl1UzRBaWNZVHpWMEFIbDdIblJUbl9mVTkxYlJGY0habUFMclhEaElhY1J2SHphaUZoS2hhUUQ5QQ?oc=5",
       "pubDate": "Sun, 08 Nov 2026 14:50:47 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Büyükşehir Senfoni Orkestrası’ndan 10 Kasım’a özel \"Son Veda\" konseri",
-      "source": "Medya Midas",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNamszREJreGtwVWMwbWVJVFdPTW9hZl82blpSdkNVZmlCOFRyOHlUeHVEVVJTXzlmRTc5TFllM3RIMkhpRzZ6Q3A4Y21PNkl0dTU4TGl1Q3ZOamlNcS1tX3B2TXEzTks1NU5NQ2pBd2dFQ2syMHNSRUVSVlpsMTVkeVhxenRiX0pVVFlTQkdkN0dGMXhsRHhjMlY3Ty1JWXFJVlE?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 14:48:27 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Antalya Kültür Yolu Festivali’nde sanat her hali yaşatıldı",
-      "source": "Alanya Türk",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORm1lQkotOFkwSGttQktyZDJraEVTaVE1ckpCWGh6b0t5bmNTQ0l1RWlqU3hfNnNYcTZUdC12NnBsS0tCVTdhdlZqd0tteGJwRDVoUnh2OFBOM2FZbFJVRzlKemZjQVlIaUlrT3pPQlNFNGJtVEFob3JoU2lucnRYN2t1dlRDeEhXQ1BKMw?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 14:36:00 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Engelsiz Kültür ve Sanat Merkezi'nde Atatürk Anıldı",
-      "source": "Esgazete",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSjFNVlpzd2JhcEotcGQ1TGN6ck0zUzJhQnl1cnJGbHVTanIyNm54MEpVN3NOVUlYb1BVWm5sTkt0QV9uUGd6Vkd4UFhMVGYzc3pBZTh3THZkbjR2VHFYRGUyN0s1WmdmTDFRWFhCWFhZZ05CWVBkQ05kVmlLU21CZg?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 13:27:00 GMT",
       "summary": ""
     },
     {
@@ -463,19 +463,46 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Why the simple flu shot could be a surprise weapon against cancer",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ2lzdUxXUFhqZ29ZaGxTYWMwWUZYMjBSTUdaN1FFNmhVaElOaUtTSl9haTVjQlg2Z2l4TjVxOW9kS2pSVldNUXRXU0wyVnEyWi1EZ0UtcnVFd3Y3U3lkdFlxaDU2dUQ1a1hReXdIbU1LUFd0ZjhFamE5MDQ1dTZaYTRvMjZIczhsUTVJUHZSSUJGVkxOWjZORnRwdko5UDVEdHZZSFlOMVhIcThlVFE?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:49:05 GMT",
+      "title": "Bengals vs. Falcons live updates, inactives, where to watch: Joe Burrow’s MVP push meets Michael Penix Jr. in Madrid",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa3RVZUhzSWFrS201YUNsZVVSYTZyM2x3bnR2U1piTTFwajN3bmtjbGd2UW1GWHRtN0ZPc2d1YnBzNFNIUzViVmtIR2ZZbzZsMXZvMEJDRmdDZmdjcTdIby1idmVyLURyaDJRUm93TXUyT0c5OWh2U254Rmczc1czNkVBZTVrRjF3RjlNYmwzNlA1MElsT0ZRVWpkekEwdXp4c1hKbXd3ZTk2SHZLdHI5SVQ1SnpYRmpKRHFwVHdLWVlHdXhWWlBrOElHTS1vMlBIOXY5U0Z3?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 17:29:41 GMT",
       "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Bengals vs. Falcons live updates, inactives, where to watch: Joe Burrow’s MVP push meets Michael Penix Jr. in Madrid",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa3RVZUhzSWFrS201YUNsZVVSYTZyM2x3bnR2U1piTTFwajN3bmtjbGd2UW1GWHRtN0ZPc2d1YnBzNFNIUzViVmtIR2ZZbzZsMXZvMEJDRmdDZmdjcTdIby1idmVyLURyaDJRUm93TXUyT0c5OWh2U254Rmczc1czNkVBZTVrRjF3RjlNYmwzNlA1MElsT0ZRVWpkekEwdXp4c1hKbXd3ZTk2SHZLdHI5SVQ1SnpYRmpKRHFwVHdLWVlHdXhWWlBrOElHTS1vMlBIOXY5U0Z3?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:46:01 GMT",
+      "title": "Nasa seeks next generation of astronauts to live and work on the moon",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOc3Z0WDBDc21jMkVBYW5qMjdab0NVUWFuN2JFaVBiMnhkbFg2TndoT1BjSTJzeUlxQ3JiLURiMkNSaFQtZmdHUWQ5aUE1NE8ySHFHQTk0bnVTTXhZYkxrMWtVR3ZNNUNaYzRSelJrU2Z0cGd3UUZIWDZYN09KZl9uRmUyaTdoTGdoR1BnNHA4UQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:50:00 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Box Office Global: 'Godzilla Minus Zero' Beats 'Ramayana' $63M to $55M WW",
+      "source": "Deadline",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQjM2VFRLeGh3blFFR1Q0c01BLWlkTFdYcnlDdnh4SWFuc1NYb05xMUFSUmFUbHN5Zm96dXdQRkl1WXlqN3pRXzZFMklyMlA3YlJYTWNCYXp6SzgxbHNSelBiZXA4RUllUzlUVl9nYnlYVzdQNkVGWFFjSzFtalkwRHo3dDVYZ3EzcjhZWkx5RXJJVVMzSEk5UzBfbWg5LTBNaFBDXzRxQQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:37:00 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Pope Leo heads to Milei's Argentina as tensions loom over austerity, Iran",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYV8wSU00NXg1Q0xRcmpIZWxTdkhGYV8zZmZuZ1pxdWpwQWpabFdGQVFQY1VSUkY5cUdNd1lnQWJjV3VkYy11Sk1nUHdkeGdnbFZ3bXRTNGxaeE9XWnVHRHlMVEF2T0I3QjVEX2dLY054QlZWUi1aTnBzc01RY21GUG1MYXhTcXhmZTl2UF9XZDh5WHlrNjk4ZXZ0OU16UkNhdnBjUi1mSDAwSkpxTnRMQjBLa3BVaWs?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:04:42 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Potential Vance challengers smell blood in the water after brutal GOP losses",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNUZIQUxDUjgyWTJFcnptb2FZY3phcHBBaVlxQkcyMTVxd25vcDZDNGhGbjE3bEkzbXNxbjZLRk9nX29qRmR2SUpXdGc2UFZMWHVFVWx5aEV2R09KTHppUXYzdDlOdTVZbFN3ekNoZmVLMXowR3QyUFJrNVNKYTh2T2xxSVQ4NjBYbUh6dWVpUDRRM25HSlY1NmFiUTU4dWVyUF8wRWpLaTU3UjEyRVA2UlZ6LWtjU1BQa3I3bGVR?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:02:20 GMT",
       "summary": ""
     },
     {
@@ -485,15 +512,6 @@
       "source": "Politico",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcXZhQnR5R3gyREFZbDRRdkpxbkl6dzhmQkFOY3oxQWVLdUkzeWdoeWN2aWlMREtXN3FEUmVGQWduaDBMQVI3dWwtWllwQWVVWGZQeWp5NjBzZ3ByNTNvUlZyTkNRbmtXZ25vN1Z2Rk56V1JMYzEzU3EwRWZPNGpnM3BnVGFhdnJELWNkV3VES29Wd1JKNFQ3Q0V3?oc=5",
       "pubDate": "Sun, 08 Nov 2026 15:49:00 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Pope wraps up Uruguay visit and heads to most fraught stop of his tour in Milei’s Argentina",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXBvT0ZhMHZPdk1rbTJiZ1FtQlJJWEZMZE1CU2h6dlNBNTRZa2hsWFIzMG1mMU9qYTNIV1lTUnh0Ni03c2lOVDg1dDhleUliSmpzcnZmdlhaZ0dfWTlyYlRtOFo0dVYwdVpWV2NnMGxLZWZpMlJGOXJLMHF2SjNRVFoxZ1JlRjBtWEliSTBBcVVKeTU1dW9NbWFFUHdrMDhxNXc5NENMdzl5Q0l3RDNxNGJ5Q0JzbUdKWWc?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 15:43:00 GMT",
       "summary": ""
     },
     {
@@ -517,7 +535,7 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Sen.-elect Adam Hamilton says he’d be ‘deeply disappointed’ if Democrats spent two years investigating Trump",
+      "title": "Sen.-elect Adam Hamilton says he’d be disappointed if Democrats focus on investigating Trump",
       "source": "NBC News",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeWliUUVQLUIwblJESW9meTA3OGMyTnB1U1NXSmRVTHdhUkY1WndiZ2EybFFEYXNpSFp6cVdZcGxBSTFreFhUc2l4MUxCU3ZlZGxwaXhtU093d0hJWW5BRUwzSTY5dXdHWHVqQ1pORE5UQ2FwaGt4SWs5cjhydHZ2TDJLZFhuS1RzSVhNVFB0UXQ5SDZ4d0c2TzVYY3RET2RQMXAyV0hWLUxVVVZFYVRfVkhGeGp5bmthOFBOZFFNOA?oc=5",
       "pubDate": "Sun, 08 Nov 2026 14:38:10 GMT",
@@ -544,37 +562,19 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbE53ekFOUDUweW5DdFVyNWpzTTVabTJacFZrOGxBQ19zOWJaOExQb0h1d2k0NUlncm1zSE9keTMwelJIcFhKRU14LTZqYjlwY3BXOHpSUmxtMEs2a19vcnJnNzZCU093OU04czZETXpWSF93enVPc3FUN0NwbVJkWWtn?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 14:00:01 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Potential Vance challengers smell blood in the water after brutal GOP losses",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNUZIQUxDUjgyWTJFcnptb2FZY3phcHBBaVlxQkcyMTVxd25vcDZDNGhGbjE3bEkzbXNxbjZLRk9nX29qRmR2SUpXdGc2UFZMWHVFVWx5aEV2R09KTHppUXYzdDlOdTVZbFN3ekNoZmVLMXowR3QyUFJrNVNKYTh2T2xxSVQ4NjBYbUh6dWVpUDRRM25HSlY1NmFiUTU4dWVyUF8wRWpLaTU3UjEyRVA2UlZ6LWtjU1BQa3I3bGVR?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 13:37:35 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Dana White says he will meet with Trump to discuss White House press secretary role",
-      "source": "The Hill",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVzJuNmpQTEhOSi1aVC1OeDRQNHBsbG1CNHk2aTFGWS1nZ18wNG10U1ctYW8yNGRtMVEzQS10SkpKQlhfbVAwUHYxYVU5QkV6bXJleXpVMV9oMFNlVWZoc05WTXBKZzh5eEJZZUFLSkpVU1JTc3lzZ2R1aTl2cUp4eElrWnMwZ21sWDd2S3JR0gGTAUFVX3lxTE1lR2tmRHItRzItaHZ5M0U0bVVLQnpyWi03NG9NNGI4OEQ0dklncDI5d3o5SE1GR0swRmU2cmdpWk9RX1VHbXRpWXcxMXZmdWZmRTZRd21kcWNxWFZUdnZkYmVlOElGTW5sbEhQdWhmM0tqV1VXaVlabld4YmxtWGxuVFRfXzVXNFczQjNEXzV3SHM2VQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 13:12:00 GMT",
+      "title": "Netanyahu rival Eisenkot tapped to form Israeli government",
+      "source": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNmlUTjlyRlZYWGxKSWtiSE42dVl5N1QtdFlhS3ZKWFQ1cGVwU3dFZDFmUHRFZGYxak9jOVFteVVPcy1SUGVURGFVVnQ2QlIxYUJRbkg5bFZVN3l5NEZDSEs3RFllcFF0aXF4LVRGWTA2NE9LZ3ZraWtzdkl4dm1MRWJn?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 14:16:24 GMT",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Canlı Anlatım: Alanyaspor Trabzonspor (Süper Lig maçı)",
-      "source": "Hürriyet",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGtYZ2VNOC0xLVNEVXMwM1V0Z3FlNUxSSnpaTDlUWEJVUFpETTE5VDhGSDVkbkx2dGdUMmUwaThxWm5IM05SUUpVOWo2YllNS0k4eTZRa2xsWm1kVjBydUlsRktEOGVQbVpNQ0dkY3pEZjY3X3MtbU5DZC1xSzBhcU9fcEtsZnZpU2Z4YVU3LWpYVVhvSFpxUV9pc1NlU0U?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:37:08 GMT",
+      "title": "CANLI | Beşiktaş - Gençlerbirliği maçında ilk 11'ler belli oldu",
+      "source": "beinsports.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzdzJxM0FaVDlrcjFnZ0tScnFCTHhZWkhWMG5abEZZRDJXQmt1YnlxVnpXbDd4U0VrdjV2anhYTzN4LVJRbmRBelozdWpRRXhIZms2UzgwRThWZHNzcno1VnZ2VUlsRGhkY3c?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:57:11 GMT",
       "summary": ""
     },
     {
@@ -607,19 +607,10 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "İletişim Başkanlığı duyurdu! Türkiye ve Irak'tan ortak açıklama",
-      "source": "Milliyet",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMHJtNkl0V3E0cVJVNnhxcktULVktUjFDNzBqUlBxbG9yYktqYzVFUVdlVUlia1lsaldRbjdoSDg4N1ZseUxIczI3bkMyQzdNQVVLcmY5S0NWZ3NMaTZfdkxhN1RXdy1ZNmZMaDZaT0VHNWpfM3pWWGZjbnc1TEdEeU5DdUZMOGYxVUVCT2lMcVZiekxqQURFTlhnRmZZazFIWlk4Qzh4QQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 15:09:00 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Apple'ın eski CEO'sundan şaşırtan İstanbul ziyareti: Tim Cook Bağdat Caddesi'nde",
-      "source": "Cumhuriyet",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc19ESHMwbkNmeXlNUWw2elFIM2FyRGREVWhvUmJJMllPQ1NnWm5hTkVVcXJlMVg2VEx4NnB6ankzWnNOd1pVVjBnQ0lLb0U0T1N5UTRySC1FTEVtLVByUDVxVHNmd3psdmdDdFpzckxMTWlqaDItbjMtN3ZZbDRzekhwVmtBMzh5ZEhlak1DS0NYbk5peElvX0F1NVRwZ0xOZVFjVDFBU3pZbEZvQnp3Ynp1eGhFakZkVGZYMEUzeDB0VmM?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 14:44:00 GMT",
+      "title": "Türkiye ve Irak'tan ortak açıklama. ''Başika-Zilikan'ın devri için adım atılacak''",
+      "source": "NTV Haber",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT1h0Y01ZZkU2dUo2NGRjNDZLUkZ5OXMwZDEtdDJCVTVSTFI2TEhQSnQyZC1QQnM4V0ZwelJiNm5LVlBSU0pjUHVZSDZDUFhJZDQxMkVHZ1VNSk5aZ3RUMmhqaDhjZW1Lek5VMEI0Y01oeFFJYnV2Vm9yamt4SXdzeUZDTnZXcHMyMktBVWRIeDRKT2g0SHVWcXFJX3k2NFBqYk1sLXN3ZjJDeTZMM1RTb1BxbE_SAboBQVVfeXFMUDF4bjRBZVFHSDJ0U25saVpaRXVmeXZaZldEa0JWVFd3S05Ga1pYNnpObm9Rby1IenVGWE1rVnE4eE81bTZ1aUVLZXFRX29KX0t0b2lOQVhUSjhqVk1jaWxxZEtQaTJuUC1MTEVXOXYxbjlwaUV2NnJLNTFSOUJmeHhzcUQtS0xvSDRoek5nd1h5TkNVbVdLdDJxS3ROUkhoWVZjZU1YbUhaamExWEtZX0pyN3QzV0lxeTVB?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 15:10:24 GMT",
       "summary": ""
     },
     {
@@ -652,19 +643,10 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "ÖZET | Çaykur Rizespor 2-1 Erzurumspor FK",
-      "source": "beinsports.com.tr",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mQUg4elprOGx6Mi1fNmVlaHFUUnRKOUlrZ2Q2QVpUcUpOV3N3WW5qVXdaaGU2QTlrbGRoT3VxazFrU2tsc2lTNUFvRmxTOXA2dTBUQmdjcGpDeUVPbUNuR012SGdQMTlxcTdicjdhUQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 13:01:50 GMT",
-      "summary": ""
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Dünya’nın manyetik alanında hareketlilik: Güneş rüzgârı 736 km/s’ye çıktı",
-      "source": "Cumhuriyet",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOY3dsbGtiN0d0akxiVjZmV2xPanhRYUkwRHV3UEVCM1dLdTZNSnR4Tm43MWwyT3AxeVNUN01rM1ZVYnJyd09Rb0x4dDllWlNCRzlFaTdpVHNqaDE2bXkwTURUcDEyN2U5eEd0STFtcVc1bkJ0cHJhcTl2YlFMSDZEajhrRjRzMjNDOTlwYnRlV1VUaTM5T2ZXZXQxTFZYLUF6N1VRSHQzbjdTb2NnR215emJYTGhLV0JOZVAwZUR2UlNSZnRo?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 12:57:00 GMT",
+      "title": "Rizespor, şeytanın bacağını kırdı! İç sahada ilk galibiyet | Maç sonucu Rizespor - Erzurumspor: 2-1 (Süper Lig)",
+      "source": "Fanatik",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM3pEcUJZREl2TlkxVkZzOUg1aXB4eld3ZThjT2dRZUY4LTY1ZVBNdjQ2azIzRGhXQkg3NVpRYTRwemQxRnhLajlmU083dlFrYlV6VmE5NFhiVEJYeDdGQTNyakNQMjJGdHloLS0tbmhJY3NSVXpJX1lreEthbmdXZWZxOE11eGJLTHNSbFpoR1ZtZ2ZEdktsRXFKS090eEc4TmRjX2VwLXpsQmptSjhvQ1dId2p5MHBuVDF0VDN6V3ItNkh3dVR2V0tvQnJVRmItZGZobE1oNjEzWUdQX3QzNGE4S0dwREhm?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 12:22:00 GMT",
       "summary": ""
     },
     {
@@ -674,6 +656,24 @@
       "source": "Cumhuriyet",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOFhCN3pwaFNvWnlzek5lMHlvaUFqVFZaMGRIa29MNENkMjBaSVVKMVdEZ0Iyam9CYy1ZamFrTzBXeDZ3b3dYa0FXTFlxTXh5SkMycy1QNVR4WVJWTFJFY3Y3RWdhUmdqaC1Wa3ZXcGJrMlpKSHlXanJZWXlnRVlMbkdIMUNQWGZKTXVsaDU3RGVwTkVwQ3RzejZsWURlVndndVJibHRn?oc=5",
       "pubDate": "Sun, 08 Nov 2026 12:10:00 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Özgür Özel, YENİ Parti genel başkanlık ön seçiminde oy kullandı: “O seçimi alacağız, bütün yüzleri güldüreceğiz”",
+      "source": "Medyascope",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVWpFNTBkaHlqclZJbnJEY04zSEVDUVhoa0tQMXlVNjVZY0lVbDc5X3ZUWDlZYWozUVJ5cF94Q3lYNkowVlctSnJIRnV5MWNsVDBwYjlYUndDdUdsZk56VzFkbVV5SUFCMXFud3c0OGJKMDRRVjR5TG1TZWVlLWRYbmdmOG5GZ2Z0OXpnbXVNRllkbDNxSG1fWG5lRk8?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 11:33:40 GMT",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Canlı Anlatım: Alanyaspor Trabzonspor (Süper Lig maçı)",
+      "source": "Hürriyet",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGtYZ2VNOC0xLVNEVXMwM1V0Z3FlNUxSSnpaTDlUWEJVUFpETTE5VDhGSDVkbkx2dGdUMmUwaThxWm5IM05SUUpVOWo2YllNS0k4eTZRa2xsWm1kVjBydUlsRktEOGVQbVpNQ0dkY3pEZjY3X3MtbU5DZC1xSzBhcU9fcEtsZnZpU2Z4YVU3LWpYVVhvSFpxUV9pc1NlU0U?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 11:22:54 GMT",
       "summary": ""
     }
   ]

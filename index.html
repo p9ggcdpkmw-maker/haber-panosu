@@ -67,7 +67,7 @@
 <body>
 <header>
   <h1>Keşif Panosu</h1>
-  <p class="sub">Teknoloji, bilim, sanat, ücretsiz oyunlar ve doğa üzerine — yerli ve yabancı kaynaklardan taranmış, en güncel başlıklar. Bir başlığa dokun, doğrudan kaynağına gider. Beğendiğin haberler o tür haberleri öne çıkarır.</p>
+  <p class="sub">Teknoloji, bilim, sanat, ücretsiz oyunlar ve doğa üzerine — yerli ve yabancı kaynaklardan taranmış başlıklar, artı genel gündemden öne çıkanlar. Bir başlığa dokun, doğrudan kaynağına gider. Beğendiğin haberler o tür haberleri öne çıkarır.</p>
 </header>
 
 <div class="controls">
@@ -87,6 +87,7 @@ const CATEGORIES = [
   { id: 'sanat',     label: 'Sanat',     query: 'sanat' },
   { id: 'oyun',      label: 'Ücretsiz Oyun', query: 'ücretsiz oyun dağıtıyor' },
   { id: 'doga',      label: 'Doğa',      query: 'doğa çevre' },
+  { id: 'gundem',    label: 'Gündem',    query: null }, // genel öne çıkanlar (Google'ın kendi gündemi)
 ];
 
 const CAT_COLORS = {
@@ -95,7 +96,14 @@ const CAT_COLORS = {
   sanat:     '#C25B6B',
   oyun:      '#4FA37A',
   doga:      '#8FA34E',
+  gundem:    '#B9AD98',
 };
+
+// Birden fazla ülke/dil baskısı taranır, böylece yerli + yabancı kaynaklar birlikte gelir
+const EDITIONS = [
+  { hl: 'tr',    gl: 'TR', ceid: 'TR:tr'  },
+  { hl: 'en-US', gl: 'US', ceid: 'US:en'  },
+];
 
 const PROXIES = [
   url => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url),
@@ -103,18 +111,33 @@ const PROXIES = [
   url => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(url),
 ];
 
-const MAX_AGE_DAYS = 4;
+const PROXY_TIMEOUT_MS = 6000;
+const MAX_AGE_DAYS = 5;
+const MIN_ITEMS_PER_CAT = 4;
 const AUTO_REFRESH_MS = 5 * 60 * 1000; // 5 dakikada bir otomatik yenile
 
-function baseUrl(query){
-  return 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=tr&gl=TR&ceid=TR:tr';
+function buildUrl(query, ed){
+  if (query){
+    return 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=' + ed.hl + '&gl=' + ed.gl + '&ceid=' + ed.ceid;
+  }
+  return 'https://news.google.com/rss?hl=' + ed.hl + '&gl=' + ed.gl + '&ceid=' + ed.ceid;
+}
+
+async function fetchWithTimeout(url, ms){
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ms);
+  try {
+    return await fetch(url, { signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 async function fetchWithFallback(targetUrl){
   let lastErr;
   for (const build of PROXIES){
     try {
-      const res = await fetch(build(targetUrl));
+      const res = await fetchWithTimeout(build(targetUrl), PROXY_TIMEOUT_MS);
       if (!res.ok) throw new Error('status ' + res.status);
       const text = await res.text();
       if (!text || text.length < 50) throw new Error('boş yanıt');
@@ -142,11 +165,9 @@ function ageDays(dateStr){
   return (Date.now() - d.getTime()) / 86400000;
 }
 
-async function fetchCategory(cat){
-  const xmlText = await fetchWithFallback(baseUrl(cat.query));
+function parseItems(xmlText, cat){
   const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
-  const items = Array.from(xml.querySelectorAll('item')).slice(0, 20);
-  const parsed = items.map(it => {
+  return Array.from(xml.querySelectorAll('item')).map(it => {
     const rawTitle = it.querySelector('title')?.textContent || '';
     const sourceEl = it.querySelector('source');
     const sourceName = sourceEl ? sourceEl.textContent : (rawTitle.split(' - ').pop() || '');
@@ -160,8 +181,25 @@ async function fetchCategory(cat){
       pubDate: it.querySelector('pubDate')?.textContent || ''
     };
   });
-  const fresh = parsed.filter(i => ageDays(i.pubDate) <= MAX_AGE_DAYS);
-  return fresh.length ? fresh : parsed.slice(0, 1); // kategori boş kalmasın diye tek bir yedek
+}
+
+async function fetchCategory(cat){
+  const urls = EDITIONS.map(ed => buildUrl(cat.query, ed));
+  const texts = await Promise.all(urls.map(u => fetchWithFallback(u).catch(() => null)));
+  let items = [];
+  texts.forEach(t => { if (t) items.push(...parseItems(t, cat)); });
+
+  const seen = new Set();
+  items = items.filter(i => {
+    if (!i.link || seen.has(i.link)) return false;
+    seen.add(i.link);
+    return true;
+  });
+  items.sort((a,b) => ageDays(a.pubDate) - ageDays(b.pubDate));
+
+  const fresh = items.filter(i => ageDays(i.pubDate) <= MAX_AGE_DAYS);
+  const final = fresh.length >= MIN_ITEMS_PER_CAT ? fresh : items.slice(0, Math.max(MIN_ITEMS_PER_CAT, fresh.length));
+  return final.slice(0, 18);
 }
 
 // ---- Kalıcı durum: okunanlar, beğeniler ----
@@ -203,7 +241,8 @@ function score(item){
   if (isNaN(age)) age = 10;
   const catBoost = (catLikes[item.catId] || 0) * 0.4; // her beğeni, o kategoriyi biraz öne çeker
   const linkBoost = likedLinks.has(item.link) ? 3 : 0;
-  return age - catBoost - linkBoost; // küçük olan önce gösterilir
+  const generalPenalty = item.catId === 'gundem' ? 0.6 : 0; // seçtiğin kategoriler önce, gündem onlardan sonra dolgu olarak gelir
+  return age - catBoost - linkBoost + generalPenalty; // küçük olan önce gösterilir
 }
 
 let all = [];

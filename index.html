@@ -23,8 +23,9 @@
   h1{font-family:var(--font-display);font-weight:400;font-size:27px;letter-spacing:0.2px;margin:0 0 8px;}
   .sub{color:var(--ink-dim);font-size:13.5px;line-height:1.55;margin:0;max-width:520px;}
 
-  .controls{max-width:760px;margin:18px auto 0;padding:0 18px;position:relative;}
-  .menuBtn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:9px 14px;border-radius:12px;font-size:14px;cursor:pointer;font-family:var(--font-sans);}
+  .controls{max-width:760px;margin:18px auto 0;padding:0 18px;position:relative;display:flex;gap:8px;align-items:center;}
+  .menuBtn, .refreshBtn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:9px 14px;border-radius:12px;font-size:14px;cursor:pointer;font-family:var(--font-sans);}
+  .refreshBtn{color:var(--ink-dim);font-size:13px;}
   .menuBtn .dotCur{width:9px;height:9px;border-radius:50%;background:var(--curColor,#D8A34E);display:inline-block;}
   .menuPanel{position:absolute;top:calc(100% + 6px);left:18px;background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:6px;min-width:200px;z-index:10;box-shadow:0 8px 24px rgba(0,0,0,.4);}
   .menuPanel[hidden]{display:none;}
@@ -67,12 +68,13 @@
 <body>
 <header>
   <h1>Keşif Panosu</h1>
-  <p class="sub">Teknoloji, bilim, sanat, ücretsiz oyunlar ve doğa üzerine — yerli ve yabancı kaynaklardan taranmış başlıklar, artı genel gündemden öne çıkanlar. Bir başlığa dokun, doğrudan kaynağına gider. Beğendiğin haberler o tür haberleri öne çıkarır.</p>
+  <p class="sub">Teknoloji, bilim, sanat, ücretsiz oyunlar, doğa, dünya gündemi ve genel gündem üzerine taranmış başlıklar. Bir başlığa dokun, doğrudan kaynağına gider. Beğendiğin haberler o tür haberleri öne çıkarır.</p>
 </header>
 
 <div class="controls">
   <button class="menuBtn" id="menuBtn"><span class="dotCur" id="menuDot"></span> <span id="menuLabel">Tümü</span> ▾</button>
   <div class="menuPanel" id="menuPanel" hidden></div>
+  <button class="refreshBtn" id="refreshBtn">↻ Yenile</button>
 </div>
 
 <main>
@@ -81,13 +83,18 @@
 </main>
 
 <script>
+const TR = { hl: 'tr',    gl: 'TR', ceid: 'TR:tr' };
+const EN = { hl: 'en-US', gl: 'US', ceid: 'US:en' };
+
+// ---- Buradan düzenleyebilirsin: kategori, sorgu ve dil/ülke baskısı ----
 const CATEGORIES = [
-  { id: 'teknoloji', label: 'Teknoloji', query: 'teknoloji' },
-  { id: 'bilim',     label: 'Bilim',     query: 'bilim' },
-  { id: 'sanat',     label: 'Sanat',     query: 'sanat' },
-  { id: 'oyun',      label: 'Ücretsiz Oyun', query: 'ücretsiz oyun dağıtıyor' },
-  { id: 'doga',      label: 'Doğa',      query: 'doğa çevre' },
-  { id: 'gundem',    label: 'Gündem',    query: null }, // genel öne çıkanlar (Google'ın kendi gündemi)
+  { id: 'teknoloji', label: 'Teknoloji',      query: 'teknoloji',             edition: TR },
+  { id: 'bilim',     label: 'Bilim',          query: 'bilim',                 edition: TR },
+  { id: 'sanat',     label: 'Sanat',          query: 'sanat',                 edition: TR },
+  { id: 'oyun',      label: 'Ücretsiz Oyun',  query: 'ücretsiz oyun dağıtıyor', edition: TR },
+  { id: 'doga',      label: 'Doğa',           query: 'doğa çevre',            edition: TR },
+  { id: 'dunya',     label: 'Dünya',          query: null,                    edition: EN }, // yabancı kaynaklardan dünya gündemi
+  { id: 'gundem',    label: 'Gündem',         query: null,                    edition: TR }, // genel öne çıkanlar, dolgu
 ];
 
 const CAT_COLORS = {
@@ -96,25 +103,20 @@ const CAT_COLORS = {
   sanat:     '#C25B6B',
   oyun:      '#4FA37A',
   doga:      '#8FA34E',
+  dunya:     '#8D7BB5',
   gundem:    '#B9AD98',
 };
 
-// Birden fazla ülke/dil baskısı taranır, böylece yerli + yabancı kaynaklar birlikte gelir
-const EDITIONS = [
-  { hl: 'tr',    gl: 'TR', ceid: 'TR:tr'  },
-  { hl: 'en-US', gl: 'US', ceid: 'US:en'  },
-];
-
 const PROXIES = [
   url => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url),
-  url => 'https://corsproxy.io/?url=' + encodeURIComponent(url),
   url => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(url),
+  url => 'https://corsproxy.io/?url=' + encodeURIComponent(url),
 ];
 
 const PROXY_TIMEOUT_MS = 6000;
 const MAX_AGE_DAYS = 5;
-const MIN_ITEMS_PER_CAT = 4;
-const AUTO_REFRESH_MS = 5 * 60 * 1000; // 5 dakikada bir otomatik yenile
+const MIN_ITEMS_PER_CAT = 3;
+const AUTO_REFRESH_MS = 6 * 60 * 1000; // 6 dakikada bir sessizce kendini tazeler
 
 function buildUrl(query, ed){
   if (query){
@@ -165,9 +167,10 @@ function ageDays(dateStr){
   return (Date.now() - d.getTime()) / 86400000;
 }
 
-function parseItems(xmlText, cat){
+async function fetchCategory(cat){
+  const xmlText = await fetchWithFallback(buildUrl(cat.query, cat.edition));
   const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
-  return Array.from(xml.querySelectorAll('item')).map(it => {
+  const items = Array.from(xml.querySelectorAll('item')).slice(0, 20).map(it => {
     const rawTitle = it.querySelector('title')?.textContent || '';
     const sourceEl = it.querySelector('source');
     const sourceName = sourceEl ? sourceEl.textContent : (rawTitle.split(' - ').pop() || '');
@@ -181,25 +184,9 @@ function parseItems(xmlText, cat){
       pubDate: it.querySelector('pubDate')?.textContent || ''
     };
   });
-}
-
-async function fetchCategory(cat){
-  const urls = EDITIONS.map(ed => buildUrl(cat.query, ed));
-  const texts = await Promise.all(urls.map(u => fetchWithFallback(u).catch(() => null)));
-  let items = [];
-  texts.forEach(t => { if (t) items.push(...parseItems(t, cat)); });
-
-  const seen = new Set();
-  items = items.filter(i => {
-    if (!i.link || seen.has(i.link)) return false;
-    seen.add(i.link);
-    return true;
-  });
   items.sort((a,b) => ageDays(a.pubDate) - ageDays(b.pubDate));
-
   const fresh = items.filter(i => ageDays(i.pubDate) <= MAX_AGE_DAYS);
-  const final = fresh.length >= MIN_ITEMS_PER_CAT ? fresh : items.slice(0, Math.max(MIN_ITEMS_PER_CAT, fresh.length));
-  return final.slice(0, 18);
+  return fresh.length >= MIN_ITEMS_PER_CAT ? fresh : items.slice(0, Math.max(MIN_ITEMS_PER_CAT, fresh.length));
 }
 
 // ---- Kalıcı durum: okunanlar, beğeniler ----
@@ -239,10 +226,10 @@ function toggleLike(item, btn){
 function score(item){
   let age = ageDays(item.pubDate);
   if (isNaN(age)) age = 10;
-  const catBoost = (catLikes[item.catId] || 0) * 0.4; // her beğeni, o kategoriyi biraz öne çeker
+  const catBoost = (catLikes[item.catId] || 0) * 0.4;
   const linkBoost = likedLinks.has(item.link) ? 3 : 0;
-  const generalPenalty = item.catId === 'gundem' ? 0.6 : 0; // seçtiğin kategoriler önce, gündem onlardan sonra dolgu olarak gelir
-  return age - catBoost - linkBoost + generalPenalty; // küçük olan önce gösterilir
+  const generalPenalty = item.catId === 'gundem' ? 0.6 : 0;
+  return age - catBoost - linkBoost + generalPenalty;
 }
 
 let all = [];
@@ -262,7 +249,7 @@ function render(){
   }
 
   if (filtered.length === 0){
-    list.innerHTML = '<div class="empty">Burada şu an gösterilecek başlık yok.</div>';
+    list.innerHTML = '<div class="empty">Burada şu an gösterilecek başlık yok. "Yenile"yi dene.</div>';
   } else {
     filtered.forEach(item => {
       const isRead = readLinks.has(item.link);
@@ -354,6 +341,7 @@ document.addEventListener('click', (e) => {
     panel.hidden = true;
   }
 });
+document.getElementById('refreshBtn').addEventListener('click', loadAll);
 
 async function loadAll(){
   const status = document.getElementById('status');
@@ -363,17 +351,17 @@ async function loadAll(){
     all = results.flat();
     lastLoadTime = Date.now();
     status.textContent = all.length
-      ? 'Son güncelleme: ' + new Date().toLocaleTimeString('tr-TR') + ' · otomatik olarak kendini tazeler'
-      : 'Haberler alınamadı, sayfayı yenilemeyi dene.';
+      ? 'Son güncelleme: ' + new Date().toLocaleTimeString('tr-TR')
+      : 'Haberler alınamadı. Birkaç saniye sonra "Yenile"yi dene.';
     render();
   } catch(e){
-    status.textContent = 'Bir şeyler ters gitti, sayfayı yenilemeyi dene.';
+    status.textContent = 'Bir şeyler ters gitti. "Yenile"yi dene.';
   }
 }
 
 setInterval(loadAll, AUTO_REFRESH_MS);
 document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'visible' && Date.now() - lastLoadTime > 3 * 60 * 1000){
+  if (document.visibilityState === 'visible' && Date.now() - lastLoadTime > 4 * 60 * 1000){
     loadAll();
   }
 });

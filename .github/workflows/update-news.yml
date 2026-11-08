@@ -31,6 +31,8 @@ jobs:
           if ! git diff --quiet --cached; then
             git commit -m "Haberleri güncelle"
           fi
-          git pull --rebase origin main
+          git fetch origin main
+          git merge -X ours --no-edit origin/main
           git push
+
 

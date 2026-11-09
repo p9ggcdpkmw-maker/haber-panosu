@@ -145,6 +145,32 @@ def fetch_market():
     }
 
 
+STOCKS = [
+    ("^XU100", "BIST 100"),
+    ("^GSPC", "S&P 500"),
+    ("^IXIC", "Nasdaq"),
+]
+
+
+def fetch_stocks():
+    results = []
+    for symbol, label in STOCKS:
+        try:
+            r = requests.get(
+                f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}",
+                headers={"User-Agent": "Mozilla/5.0"}, timeout=15,
+            )
+            r.raise_for_status()
+            meta = r.json()["chart"]["result"][0]["meta"]
+            price = meta.get("regularMarketPrice")
+            prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+            change_pct = round((price - prev) / prev * 100, 2) if (price and prev) else None
+            results.append({"label": label, "price": round(price, 2) if price else None, "change_pct": change_pct})
+        except Exception as e:
+            print(f"  ! {label} alınamadı: {e}", file=sys.stderr)
+    return results
+
+
 def summarize_batch(items):
     if not items:
         return []
@@ -206,6 +232,7 @@ def main():
         "items": all_items,
         "weather": fetch_weather(),
         "market": fetch_market(),
+        "stocks": fetch_stocks(),
     }
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)

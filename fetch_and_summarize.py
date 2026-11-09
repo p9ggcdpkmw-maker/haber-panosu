@@ -24,6 +24,7 @@ CATEGORIES = [
     {"id": "doga", "label": "Doğa", "query": "doğa çevre", "edition": TR},
     {"id": "dunya", "label": "Dünya", "query": None, "edition": EN},
     {"id": "gundem", "label": "Gündem", "query": None, "edition": TR},
+    {"id": "gundem", "label": "Gündem", "query": "Çorlu Tekirdağ", "edition": TR},  # Çorlu haberleri, ayrı sekme açmadan Gündem'e karışıyor
 ]
 
 MAX_AGE_DAYS = 5
@@ -149,6 +150,13 @@ STOCKS = [
     ("^XU100", "BIST 100"),
     ("^GSPC", "S&P 500"),
     ("^IXIC", "Nasdaq"),
+    ("THYAO.IS", "THY"),
+    ("ASELS.IS", "Aselsan"),
+    ("GARAN.IS", "Garanti BBVA"),
+    ("BIMAS.IS", "BİM"),
+    ("AAPL", "Apple"),
+    ("MSFT", "Microsoft"),
+    ("NVDA", "Nvidia"),
 ]
 
 
@@ -161,11 +169,17 @@ def fetch_stocks():
                 headers={"User-Agent": "Mozilla/5.0"}, timeout=15,
             )
             r.raise_for_status()
-            meta = r.json()["chart"]["result"][0]["meta"]
-            price = meta.get("regularMarketPrice")
+            result = r.json()["chart"]["result"]
+            if not result:
+                raise ValueError("sonuç boş")
+            meta = result[0]["meta"]
             prev = meta.get("chartPreviousClose") or meta.get("previousClose")
-            change_pct = round((price - prev) / prev * 100, 2) if (price and prev) else None
-            results.append({"label": label, "price": round(price, 2) if price else None, "change_pct": change_pct})
+            # Piyasa kapalıyken regularMarketPrice boş gelebilir; o zaman son kapanışı göster
+            price = meta.get("regularMarketPrice") or prev
+            if price is None:
+                raise ValueError("fiyat yok")
+            change_pct = round((price - prev) / prev * 100, 2) if (prev and price != prev) else (0.0 if prev else None)
+            results.append({"label": label, "price": round(price, 2), "change_pct": change_pct})
         except Exception as e:
             print(f"  ! {label} alınamadı: {e}", file=sys.stderr)
     return results
@@ -215,8 +229,17 @@ def summarize_batch(items):
 def main():
     all_items = []
     for cat in CATEGORIES:
-        print(f"Çekiliyor: {cat['label']}")
+        print(f"Çekiliyor: {cat['label']}" + (f" ({cat['query']})" if cat['query'] else ""))
         all_items.extend(fetch_category(cat))
+
+    seen_links = set()
+    deduped_all = []
+    for it in all_items:
+        if it["link"] in seen_links:
+            continue
+        seen_links.add(it["link"])
+        deduped_all.append(it)
+    all_items = deduped_all
 
     print(f"Toplam {len(all_items)} haber, özetleniyor...")
     CHUNK = 20

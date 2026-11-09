@@ -2,7 +2,7 @@
 Haberleri çeker, Claude Haiku 5.5 ile kısa özetler, news.json'a yazar.
 GitHub Actions tarafından çalıştırılır (sunucu tarafında, proxy gerekmez).
 """
-import json, os, re, sys
+import json, os, re, sys, time
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from urllib.parse import quote
@@ -147,7 +147,7 @@ def fetch_market():
 
 
 STOCKS = [
-    ("^XU100", "BIST 100"),
+    ("XU100.IS", "BIST 100"),
     ("^GSPC", "S&P 500"),
     ("^IXIC", "Nasdaq"),
     ("THYAO.IS", "THY"),
@@ -200,28 +200,36 @@ def summarize_batch(items):
         "Dizinin uzunluğu tam olarak liste uzunluğuyla eşleşmeli.\n\n"
         + "\n".join(lines)
     )
-    try:
-        resp = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {GROQ_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": GROQ_MODEL,
-                "max_tokens": 4000,
-                "messages": [{"role": "user", "content": prompt}],
-            },
-            timeout=60,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        text = data["choices"][0]["message"]["content"]
-        match = re.search(r"\[.*\]", text, re.S)
-        arr = json.loads(match.group(0)) if match else []
-    except Exception as e:
-        print(f"  ! özetleme hatası: {e}", file=sys.stderr)
-        arr = []
+    arr = []
+    for attempt in range(4):
+        try:
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {GROQ_API_KEY}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": GROQ_MODEL,
+                    "max_tokens": 4000,
+                    "messages": [{"role": "user", "content": prompt}],
+                },
+                timeout=60,
+            )
+            if resp.status_code == 429:
+                wait = int(resp.headers.get("Retry-After", 10 * (attempt + 1)))
+                print(f"  ! Groq 429 (çok fazla istek), {wait} sn bekleyip tekrar denenecek...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            text = data["choices"][0]["message"]["content"]
+            match = re.search(r"\[.*\]", text, re.S)
+            arr = json.loads(match.group(0)) if match else []
+            break
+        except Exception as e:
+            print(f"  ! özetleme hatası: {e}", file=sys.stderr)
+            break
     arr = (arr + [""] * len(items))[: len(items)]
     return arr
 
@@ -248,6 +256,8 @@ def main():
         summaries = summarize_batch(chunk)
         for it, s in zip(chunk, summaries):
             it["summary"] = s
+        if i + CHUNK < len(all_items):
+            time.sleep(3)
 
     print("Hava durumu ve piyasa verisi çekiliyor...")
     out = {

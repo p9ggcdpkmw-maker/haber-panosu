@@ -1,6 +1,105 @@
 {
-  "updated": "2026-11-09T12:53:07.101842+00:00",
+  "updated": "2026-11-09T14:09:30.027550+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Nvidia CEO'suna 'Çinli casus' kadınla ilişki soruşturması",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByMEV4WnE4TnRaY0dRRVo3OVlvbzZ5OFBuN3gtZnEwcGcxM1p6RDRTQlAzYXhsMW1WZk1LSkpwTHY0anJVZ2RNeDNObEpaUGN5WGR0NmdzeXpVb0tsOFHSAWNBVV95cUxNc0NhYkdCMnRBM21nQnZrci1VNjNUMk9yaWRSME5LX2tMcG12OU1pVE9DWXlubDIwNHJ3RWpaWUtqa2tnazg5cXBfb0o4SW85WWMwTG50bkhzSHVmQmdvZ3pUc2M?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:51:54 GMT",
+      "summary": "Nvidia’nın CEO’su, Çinli bir kadınla ilişki yaşadığı iddiasıyla soruşturma altında. Medyada çıkan haberler, olası istihbarat risklerine işaret ediyor. Böyle bir durum, şirketin itibarı ve uluslararası iş ilişkileri açısından muhtemelen önemli bir etki yaratabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Goldman Sachs, teknoloji satışında Avrupa yapay zeka fırsatları görüyor",
+      "source": "Investing.com Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeTlTQVZhUDVZSTdTWUJ6VHhBcllyajU3b0pZc1VGR3ozVV9Na3hUcl96NmYzaUIwcnZIaG9JYkQtbU9Hd2RKODdpZlJPNl9Ga3BsVGlEcHoyWDg5VExTZWozdFVjYnExajd5V1dvcXdwc29yUUVMaHd2WUw3TVFzVk9fckw0MjFaVE9qS3VJOG05MmI1cFlkakM0Z2I3Vi1kckh6aGM2OERjcVVsRWV1dlVuZlZrQlpTWWt2dkFGWkFoNHRCamc?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:47:07 GMT",
+      "summary": "Goldman Sachs, Avrupa’da teknoloji satışı üzerinden yapay zeka fırsatları gördüğünü duyurdu. Banka, bu alandaki büyümenin yeni yatırım ve iş ortaklıklarını tetikleyebileceğini belirtiyor. Bu beklenti, kıtanın dijital dönüşüm sürecine katkı sağlayabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Bakan Kacır: Çinli Dostlarımızla Yüksek Teknoloji Odaklı Projelere Hazırız",
+      "source": "Tek Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR3NvaFJSTWZrNDBReVlaZncxd3EtcGdPR2VqYWFpRE1NSzZnQUtjaVdHbkVrTDZ1a0JrejVNVFlrTi16YlBFNXE5NUdVZU54TlY4cmQxVnlKcDRtN0NjUDlHcF9HTmFVTFZvdEQ3RWNfdTdfR2drSnpYUTQtWFgzaGc5RXZIdGh1SzFfblNpdVd2cnBIUDh2NGhn?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:31:47 GMT",
+      "summary": "Enerji ve Tabii Kaynaklar Bakanı Kacır, Çinli dostlarla yüksek teknoloji odaklı projelere hazır olduklarını ifade etti. İki ülke arasında ortak Ar-Ge ve üretim girişimlerinin gündeme alınması planlanıyor. Bu iş birliği, bölgesel teknolojik gelişmelere ivme kazandırabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "COP31’in iletişim altyapısı Türk Telekom’a emanet",
+      "source": "Haber Aero",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVnZYR0cybUdKS2xxTVhKVlNMeUpRY0pzZUZQVDlYdEdGR3FPczYwVURHRFZxMHpXVEszY1dPS0NQSGVsS2tFZ21YaGk3U19JbUlYNlVVSko0SlM1VFE3UVBtQVpzNlRZRkY1ei11MHNSTFVlbzRZV2VqMVhOcGFqREVfNA?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:28:44 GMT",
+      "summary": "COP31 etkinliğinin iletişim altyapısı, Türk Telekom’a teslim edildi. Şirket, konferans süresince veri akışı ve bağlantı hizmetlerini sağlayacak. Başarılı bir altyapı, iklim müzakerelerinin sorunsuz yürütülmesi açısından kritik olabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Erdoğan ile Tim Cook görüşmesi: teknoloji ve yatırım gündemi",
+      "source": "Aksiyon.com.TR",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRktGV0pPVDdTWHNkWmJwcVhiUlJpMWVIcTBzWnNPVkVZazVHV3BTcXlvOTEyTmVzT3pjdHFIdHJGcENpMnNzM1FNd2NOejlNcjk1MnlBbTdRRG5pS29OMnpWRkFEbHhlZ3Brd3lrUWdGUGRyZWR4azh6VlVwZnU4REgybmtoam9MeXB5NDRmZnUtUi16SFhnWtIBngFBVV95cUxNdGRWRzk2WUh0QlpiUnpDdENkVzZMZWI3YmFWak4yV085QTF2Nm9ybTVxYUQ5dFMwTEFHNWE4TElIX215c1NMdVNxakl4ZjFBSzJZcUpleW9lN2FaQzlXM1QtbXE3T0JZYUpIcHcxYzBhYkRZM05KZXRxWnI4dUwtWDNtbjFLa0diME5GZlRYQi1QS3lybTJWLTJkTlpydw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:28:36 GMT",
+      "summary": "Türkiye Cumhurbaşkanı Erdoğan ile Apple CEO’su Tim Cook, teknoloji ve yatırım konularını görüşmek üzere bir araya geldi. Görüşmede, Türkiye’nin teknoloji ekosistemi ve yabancı yatırımların artırılması ele alındı. Bu temas, iki ülke arasındaki ekonomik ilişkileri derinleştirebilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Bakan Kacır: “Çinli Dostlarımızla Yüksek Teknoloji ve Katma Değer Odaklı Projeler Geliştirmeye Hazırız”",
+      "source": "Fuar Dergisi",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWVd0NDE3MG5ZVU5yTS1EcS1oVlptYW5jd0kxbkJZWVVmNnptczJsSlVTMHBkekdNUG8wU1llRkFvUm4wQjZmdENHS2pOd0tndDhSWVJSbVBoOGFzWFl6aFBpVnZTQUVjcEZ5bng2V1QxVWZMRVRmUW9JcXZlYVRIMTdEaWVWdzBDc0p6VUVUVjUtNnRzaUljaDI2Rkh6MmdRamxNajIxZktxbkIyQ1dHR0ZyVFFYUnlBT1N5WjZuV2dqWHg2RGdaczZvSQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:20:05 GMT",
+      "summary": "Bakan Kacır, Çin ile yüksek teknoloji ve katma değerli projeler geliştirmeye hazır olduklarını yineledi. Ortaklıkların savunma, enerji ve dijital alanlarda genişlemesi hedefleniyor. Böyle bir iş birliği, bölgesel rekabet gücünü artırabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Sinop Üniversitesi’nde Teknoloji ve Ulaşım buluşması",
+      "source": "Sinop Flaş Haber",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdU5mRVJQTDR5R19GZmhKWmZfOUxnWU5oaGFEZ3lLZjJBY3piY0VmVlJjc08xeUNHVUw1bW9NbzB4V2ZTX3dyUWlydFRSc1E4QXUzVEVMUGxuclgwZ2wyUklrbTFrdjhSaWJPaTQ4Z3FZaW1vM21kYnhTQXRiRUZuVVA0a0dSYWVHNUFVbUVGdVVKa2s?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:10:51 GMT",
+      "summary": "Sinop Üniversitesi, teknoloji ve ulaşım konularını bir araya getiren bir buluşma düzenledi. Akademisyenler ve sektör temsilcileri, yeni mobilite çözümleri üzerine fikir alışverişinde bulundu. Bu etkinlik, bölgesel inovasyon ekosistemine katkı sağlayabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "ABD'li teknoloji devi Nvidia'nın CEO'su hakkında Çin adına casusluk iddiası İhlas Haber Ajansı",
+      "source": "İhlas Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRDc1SDh4NkRhcDNiTFhqMmM1U1lBRWlaRTlRenR0RmJYQkprQ0xETUphbUIwdmFiNmdZZkdNN095dS1PcTRPQlVnUG5YMXlUVTJmbmpWY1NWcEJ3UmIwWVdNekd2OHNzeFBkcGMyUHpfTVp2QjlFZEpxcGE1eU5KT0ZvV1hWVlRTeG5HekExS3BQWWtpcFBnZEQybFdDa2hrSEw0M1dKSkF3ODhCTHc?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:06:49 GMT",
+      "summary": "ABD merkezli teknoloji devi Nvidia’nın CEO’su hakkında Çin adına casusluk iddiası ortaya atıldı. İddialar, olası istihbarat faaliyetlerini ve şirket içi güvenlik açıklarını gündeme getirdi. Bu tür bir gelişme, şirketin uluslararası iş ilişkilerini etkileyebilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Tether'den dijital varlıkların ötesine uzanan teknoloji vizyonu",
+      "source": "hibya.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTkZWNlFoZlpPSko4a3RUYXpKTDBPb0pnSmVPWUVUQjB0M3lab09FdHh2VzJ5MmVJcnJ6OEt4dlB4RWZ0TUEyX0FpZnhRaVRRU3BkTHd5Y2oyb0tkNnpmY3B3VjdLbWhoZ0JlVml5U2txb1RGaEZ1NTZ1VXNGb3pBMDBMTXhrQXp3Y001TW9sYzd4dw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:00:38 GMT",
+      "summary": "Tether, dijital varlıkların ötesinde bir teknoloji vizyonu sunduğunu açıkladı. Şirket, blockchain dışı uygulamalara ve yeni altyapı çözümlerine odaklanmayı planlıyor. Bu yönelim, kripto ekosisteminin daha geniş bir teknolojik alana yayılmasına öncülük edebilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay zekâ yarışı, altyapı darboğazlarını aşmak için veriliyor.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMWnpLbEVSdDF1MWs4dElNV29QTnB5b0JZV2ZSSnBWUW1JSnpUWklvaTVJY2FuaDlIVl9SdmRFcktoYWdFTHFoeEJNNXotVlkzVy1mMEJCQ18tMkhaaFNZQjlRUXcwek9pYjRzTkxZaFNVUGFIaDQ0?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:59:04 GMT",
+      "summary": "Yapay zekâ rekabeti, altyapı darboğazlarını aşmak için yoğun yatırımları tetikliyor. Ülkeler ve şirketler, veri merkezleri ve ağ kapasitesini genişletmeye yöneliyor. Bu çaba, dijital dönüşümün sürdürülebilirliğini destekleyebilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Pistin genç mucitleri sezona kupayla girdi: 43 takım arasından zirveye",
+      "source": "Haber 7",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZEpTQi1tN2hVdzZqMG54cTloV3VJaU00c2NzRVBtUGtRSTRPdlhqamJwWXpEdGpneWFJcDlWMVYta0xmbUUzX1QwQkRNRnJlT2N3UnhmRDJ0M3l4ckJ3X0w3YkVlM3psR3hsVTFQekZrRkdjMWpVLW83STFNNVJtYXU2WXY1LVd6akNZNHJPNWoweDZJR3B1SXN4eldkQVotNDN3aW5fR2FqY1hENmpGdGRqY3pTeU3SAb8BQVVfeXFMTV9KUnkzSC1HNGxEOWN1Vl9QaEtoRVl4ZkU4V29CdlVYMWlpUzhnd0xjZXZtenF4WU94WXp2Xy1yQ08tWUNzRWNqblIycGNvRldnNFZ5NDBONHpDMmJyZWdaTnlSQVNkUGRPX1FGeWt1OUIwdkRseVVZb2ptdThnVjMwR0JpaVJHaFlyWVphV3B1YmFhekM1QWpFWTFzMmpPZzU4NFAxX2N3c1lqbGVuVTFscS1BZkpROGY1SkNscW8?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:44:00 GMT",
+      "summary": "Pistin genç mucitleri, 43 takım arasından sezon kupasını kazanarak birinci oldular. Yarışma, genç yeteneklerin yenilikçi projeler geliştirmesini teşvik etti. Bu tür başarılar, yerel inovasyon ekosisteminin güçlenmesine işaret edebilir."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -8,106 +107,34 @@
       "source": "Investing.com Türkiye",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ1F4dkJfZVZSbDd2X2hMU3M1cnVscVpCLWwtdjJaajZXWVc2YjgzSHNSWGw1bFlLd0xIMVJOMHI2TGtYZEF3dVU5SnBScDRCY2pZWVg0a1k1T01IdVBtRE8ycHpvQjRkdkdLbHRTUFZUS29BNjZOVnkyZlFfaW9WaTNvR2FaU1lXQXZOWFlPbFA1emUyMW1ybUV0a29lOW55eVJmc3BvWWtWU1k2SUZwQUdiWnRiU29DWXEybHRuMURPcV9sODZWaUpPUTJ3UQ?oc=5",
       "pubDate": "Mon, 09 Nov 2026 12:39:58 GMT",
-      "summary": "Kanada borsasında vadeli işlem piyasası, teknoloji sektöründeki olumlu gelişmelerin etkisiyle yükselişe geçti. Yatırımcıların teknoloji ağırlıklı risk iştahının artması, piyasa likiditesini destekleyebilir."
+      "summary": "Kanada hisse senedi vadeli işlemleri, teknoloji kaynaklı toparlanma sayesinde yükselişe geçti. Analistler, sektörel kazançların piyasaya olumlu yansıdığını belirtiyor. Bu trend, ülkenin teknoloji odaklı büyüme potansiyelini vurgulayabilir."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Masan, yüksek teknoloji malzemeleri tedarik zinciri geliştirmek için bir Japon şirketiyle ortaklık kurdu.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV1cyWG1rTDFjOEVodWlqamtqUHMwQ21Ka3Q0MkJqeXJYRTJYSU1tOFZ4V05ybzcwSE55UVpzbGVNYUJDVGJLR2l5YV9NM2pFZlZDTVlybV9PQ1lXaFc1NlNWdEpZU091dDhWSXNQWXVxZWJQRWg5dFNvSTM5dW04bFdQdVQ4dWJURnZEMnJVaTh6ZFJidmdJV09wWU9aOWluaERqM2t1MTFuRWZzZnc?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:39:04 GMT",
-      "summary": "Masan, yüksek teknoloji malzemelerinin tedarik zincirini güçlendirmek amacıyla bir Japon firmasıyla iş birliği yapacak. Bu ortaklık, bölgesel üretim kapasitesini artırarak rekabet avantajı sağlayabilir."
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Türkiye ile Azerbaycan arasında savunma sanayisi odaklı doktora hamlesi",
+      "source": "Memurlar.Net",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNTRCSkoxb21WXzJCcFBlXzlZZUVvY2cxVzBKMnhINVpPUkEzeG9QR3RZYlZsZGtFZ1VwXy02WVRoVDVGNlVuelpYbm84TDd5UmJNNnVnRFhMN3RtN2tXVllJTVB1UkZMZklSSkl6Ym1XNS0xbFlUQTE0S1pxUnJYREMxMFFvZTBKdWd1TUZzeUlVb3RKV0JLY0FaVXpaWWRUbVBVNU84YklBaHcxS0xQQWRoLWU1d9IBvgFBVV95cUxQVURsQUhRT3pOWEt4MlRHOXhXbXNNZW9xcUVNbFpiMHJ3dThtXzF0UmJKbmtsV2tHdVl5T2ZkRW5GSTdpQWplR2lVZ29TMHpsS1NJcXlGTlNoekYtYVAwSjY2d2FjM2lxbmRuRnFIYmNCTld5UV9EOWVXSWtoWGdkT0MzSmtuWG52cWJraGxxN2ZIOHNraVVBbmpuS0ZWazhuLU1fMFlUY1FmZTFiUlBqT3dvaFR5bVpGMG05dWd3?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:35:00 GMT",
+      "summary": "Türkiye ile Azerbaycan, savunma sanayisine odaklı bir doktora programı başlattı. Ortak araştırma ve geliştirme faaliyetleri, iki ülkenin askeri teknolojilerini güçlendirmeyi amaçlıyor. Bu akademik iş birliği, bölgesel güvenlik dinamiklerine katkı sağlayabilir."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Impactsf/Grosjean: Teknoloji sayesinde tarımda yatırımların etkileri izlenebiliyor",
-      "source": "Bloomberght",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdFJNdkhkV2NUcC1PTXhQZGxDMEZEVXdPTnQ2YjNBYUZTNS1yamtkNFBHQWNGdnlicU9WbmdTRFYxSzdxV3hFRjhKWlM5dkJnWVM4SmRlNzBCWGVHWUVhU1hub25ObFlIRmF5NGlPcXVYdmphd3NwbXYtdTZlMHhjTlduUC1iX0htVjJtLWJUdzJPclZXbkFpV05EWUtSV3k2QTBINWJGXzZjSElIdHU1eV92SGJNYkU?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:33:31 GMT",
-      "summary": "Impactsf ve Grosjean, tarım yatırımlarının sonuçlarını izlemek için teknoloji tabanlı bir izleme sistemi geliştirdiklerini duyurdu. Böyle bir sistem, sürdürülebilir tarım uygulamalarının etkinliğini değerlendirmede fayda sağlayabilir."
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "COP31, 2026'nın en sıcak yıl olacağı uyarıları eşliğinde başladı",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DRHM5QmdVaWNWZnladUVESVhBUVE5dTFsWVpYQnFiUklzUWxWcWdTMlFUakZwMEQzcUwtV0tWV3Q4Y2pkVmt6ajBFZ0ZZMmczeXlRUWtRajJSR2VVa3fSAWNBVV95cUxQRENpWW1naWRwU1d4bnd4RVl0eFIxX3VhOHBicGExbEpJVUtncWpPUjktRC1Ta3dOM0ozcXQzc2lCVzk3UzJta1AwcE1teTdsWHR1WFdGdDI1YWhYQ3JIYS10bWs?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:50:22 GMT",
+      "summary": "COP31, 2026’nın en sıcak yıl olacağı uyarısıyla başladı. İklim değişikliği uzmanları, artan sıcaklıkların etkilerini vurguluyor. Konferansın bu çerçevede ilerlemesi, acil politika aksiyonlarının önemini artırabilir."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Yapay zeka odaklı bulut sağlayıcıları olan Neocloud şirketleri finansman sıkıntıları yaşıyor. Yüksek borç yükü nedeniyle bu şirketlerin çip teslimatlarında gecikmeler yaşanıyor. İşlem gücü kiralayan büyük teknoloji devlerinin altyapı planları bu durumdan olumsu",
-      "source": "Instagram",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PXzFJV2d3N29yREpZMmlpRzh0cWt3NlBsQU9wblFqdWdjR1hjN2xVZ3pYaENheEZLZGh1U3RILXd1c3NBQnlFUTg3ZnJsczRmeVE?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:32:20 GMT",
-      "summary": "Yapay zeka odaklı bulut hizmeti sunan Neocloud şirketleri, yüksek borç seviyeleri nedeniyle finansman sıkıntısı ve çip teslimat gecikmeleri yaşıyor. Bu durum, büyük teknoloji firmalarının altyapı planlarını yeniden gözden geçirmesine yol açabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Goldman Sachs'tan çarpıcı veri: Teknoloji hisselerinde rekor satış",
-      "source": "EKOTÜRK",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZmVubFRqZHhfZUw3b0k0NlRvemtVX0QtcVV1azBleWZSNVNXcExTUUVxM1doYlhIOHEwcmNubGxxMkhrMHNWX0pyYlNDd3ZmRThudmgyQ3ZiVzB1N1dVYXo0T1BVNnpMS0NRLUlmTnhPM2N6cHRHR1JTdnlpSno0M3V4alA0QUk5bUNxU0J2Zk1PSmdoakczQ1dqS3BnQU1WS000S3VRcEt2aDQ3cnZTNG5lS281RGFhU2pVZA?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:13:54 GMT",
-      "summary": "Goldman Sachs, teknoloji hisselerinde tarihsel seviyelerin üzerine çıkan satış hacimlerini raporladı. Bu eğilim, piyasa volatilitesinin artması ve yatırım stratejilerinin gözden geçirilmesi ihtimalini doğurabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "ABD-Çin yapay zeka rekabeti: Amerikan teknoloji devi Nvidia'yı sarsan casusluk iddiası",
-      "source": "DW.com",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVkJ2RUk2Tm9GUFlnQWdKUXNQUTJhWlBZR3d6Q0JkRHItSDkxdDVhTnZ2QXYyaFBjR2RqQzU0QWFZRG9ISHphRnRLeVFYdEY1X1VGMVBFeldNUEI2bnV2c1ZaNzBYM2hxV3JvNEZ0MTk4bmc2dFAybDZxdjQzU2o0Z0ZqWVJyaE1MRjVYUWctYWhkZVRQN2FkNmdFN0M1UFMya1RuQ25tUW9vcmdPZklnR1kzZGZGVUpMcTg0aXhKekRFZWhWdzFmY0w0a03SAcwBQVVfeXFMTzNGQnRDYjZ5R1E3QzAyU2ZLY1RpZi1hM1dNVjZTZ2NxRS1RWFdVTGJ5MXlNanVMSWtLZGlaN3NiQ2FtYTNOaUQzUTZwS2lCUDVHZzR2ZWp6cjhtNWc3dVhBT3paVDFGeURpY21OQnlVV2R1R3NPOExjLVJVenZJNEpTa05QOFNMRGZaZmdsT0FjTGgxX3M1S0p0WVFyN21xR2toZndRbkFrWUlxQXc5MzJQVVVmSlEwbEVqaVBmQzFpamdRdkFTbXctcW9B?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:12:02 GMT",
-      "summary": "ABD-Çin arasındaki yapay zeka rekabetinde, Nvidia'yı hedef alan bir casusluk iddiası ortaya atıldı. Eğer iddialar doğrulanırsa, şirketin uluslararası iş ortaklıkları ve tedarik zinciri riskleri yeniden değerlendirilebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Türk Telekom ve SANKO’dan COP31’de yeşil sanayileşme adımı",
-      "source": "Habertürk",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ1padFl4ZGVJeUNTVXVSLURWQjdhQTRjUFFweWE4Y3FXc2dQa1NfVEVMV3Vkbi1nblVDNjRDa2VSSUlrSVRqbzRsYmYwWE55X3o5VTBXNC0xbWJhcTloWnFhdE5leUN5UFhnMXVtMGZpbC1mMko0VWFEaExhajJ3dlY1SGJueWZBd1NJVkVPMmFNMWFvaGpfN3FfLVlHSG8?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:11:15 GMT",
-      "summary": "Türk Telekom ve SANKO, COP31 kapsamında yeşil sanayileşme hedefiyle ortak bir proje duyurdu. Bu girişim, bölgedeki enerji dönüşümüne katkı sağlayarak sürdürülebilir kalkınma hedeflerine hizmet edebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Dünya teknoloji ve girişimcilik ekosistemi Bakü’de buluşacak",
-      "source": "Türkiye İş Dünyası Haberleri",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRXM3RUViRlhBSWpuQmJfeHdyMzdrbU5RMnVxQ0hoMTRicUFxSG9Qc0lGMXRzRzRBZlBNVWpkc2E2S1d1dnVGa2dJVE9mMFc0MjFyUjVkTVVua3B6ZWszZ0FacUF4NGJIQk5Ga0hHV1MwYjJlRnVrZ3V5eWJZMk9ybW1OTkxpYWlUbHdCUWVKd09qLVhnS3JiWUE3bG8xaWs?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:02:24 GMT",
-      "summary": "Bakü, dünya teknoloji ve girişimcilik ekosisteminin buluşma noktası olmaya hazırlanıyor. Şehrin bu alandaki konumunu güçlendirmesi, bölgesel inovasyon ağlarını genişletebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "HSBC: Teknoloji hisselerindeki satış aşırıya kaçtı",
-      "source": "Investing.com Türkiye",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQjctNkJEaXMwdW5MOWFjVTlYSEt2SGFwVzMxZHgyM3lNek5na2lMVmhscGQ5eDRoWmNKQVlNaC1wREdYWHNjZVVZTXJhbWQzVVJFanZ2X3hWdkFxSExXcU5KalBNSHNiME5WTklyV2gwOEtmMjhJU1FMeld6UDB5d1lTYXpCN1NLdzZGSFRCUVBjazhEUU8zZ1NqVmNacDZ4T0RIUXd3ZFNQQQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:00:00 GMT",
-      "summary": "HSBC, teknoloji hisselerindeki satışların aşırı bir seviyeye ulaştığını rapor etti. Bu durum, yatırımcıların risk algısını etkileyerek piyasa dalgalanmalarını tetikleyebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Ömer Bolat’tan Türkiye-Çin ticaretinde yeni dönem mesajı! Yatırım ve teknoloji vurgusu",
-      "source": "Haberton",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMnNrb1h0NV9FOEhzWGtyQzByQ1V3dnFyM0V2QldlTmlSUk1panpIUFE5My1tNDdURnJDeDZnOHhydXJjb2lFZHVTZm1Yc05pSkw1T2xpc1FSOUpLd0hTYW9XdlJjZ2NoMVZmQS1vcjZXZ21kUldkaTN1bFZfU3ljaWNqZmNhc1owSTJfM0RrNVRXM3Z6ZDNwMWlncHRKb216bGxIWklOS0RmZw?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:53:47 GMT",
-      "summary": "Ömer Bolat, Türkiye-Çin ticaretinde yeni bir döneme girildiğini ve yatırım ile teknoloji odaklı iş birliklerinin artacağını vurguladı. Böyle bir yaklaşım, iki ülke arasındaki ticaret hacmini ve teknolojik transferi artırabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Bakan Kacır: Çinli dostlarımızla, yüksek teknoloji ve katma değer odaklı projeleri hayata geçirmeye hazırız",
-      "source": "DHA | Demirören Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU1J5YUh0TWI5eTVhOFlNU3J6cGxFU1lyZTlWU2pneW80eTA1RGp1UUZrdWwzclVqOVJLVGRoMzN6MkxFT2ZOTHNQMUE5RVdkLUxXOVhnTk1zY1AtU3NJZ05HUU1DMl9QME5sbGp6Sm1aVmNFd0hHR1MyS0xORUhNWHNHLUQ1cE9qTng5TjZ4UTh2MEk4UmhaZk9iYWFNcXRxRHc?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:50:39 GMT",
-      "summary": "Bakan Kacır, Çin ile yüksek teknoloji ve katma değerli projeleri hayata geçirme konusunda hazır olduklarını belirtti. Bu açıklama, iki ülke arasındaki stratejik iş birliğinin derinleşmesine işaret edebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Urla'da toprağın altından çıkan antik teknoloji: 2 bin 600 yıl önce zeytinyağını böyle üretiyorlardı",
-      "source": "Yenigün Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcmotc3A1Yy1hTGl0d1pvMDNVY0NwVUhnUVkyS3p6ZnpVTldpTVpTYXM2RUo0STRKZ3JKdlh5MmwzZ2x0c29ZclU5MjAyUGhJTmZYelhXZkxzbFR6bFNPV3cweXY5TWxuQXZlcGo2ZWd4RXpJS1hNejItRFZ3WjI4YzJka2hFR0pHWHBUZWtzblNmelFMd1E4TjFHWE1LWFptVEY2MjE0OE1CbnNtZWpFUWFNVEFuMWJQRmxQeEZjY243RDNLakFfZERaRHhaRWItbzBDVzltOHZ3SXM2UEE?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:43:00 GMT",
-      "summary": "Urla'da yapılan kazılarda, 2.600 yıl öncesine ait antik bir zeytinyağı üretim yöntemi ortaya çıkarıldı. Bu bulgu, tarih öncesi teknoloji ve gıda üretim tekniklerine ışık tutabilir."
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Bilim insanları açıkladı: Yaşam süresini 14 yıla kadar uzatabilen 5 alışkanlık",
+      "source": "kayserihaber.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRlFKNk1Qc3kxM1Z3N3NSMC1Gb1l5NGVINkRrYWlfUzktaDZXZnRUbjAyVHJVM2ZQWlBUbExQeVdGaHpwM052UWVaY201dGpaSEFtcUFhOTdOQjNBWjZqMEtXUDNIWmxDZ201b2s4U3VpekNfQU5aWHdhUTd1RDVSRTdhRThHVE1LZXhnZXpmVV9WUjJwYkhSTg?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:40:00 GMT",
+      "summary": "Bilim insanları, yaşam süresini 14 yıla kadar uzatabilecek beş alışkanlığı ortaya koydu. Bu alışkanlıklar arasında düzenli egzersiz, dengeli beslenme ve sosyal etkileşim yer alıyor. Çalışma, halk sağlığı politikalarına yeni öneriler sunabilir."
     },
     {
       "cat": "Bilim",
@@ -116,7 +143,7 @@
       "source": "Haber Global",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSFU1Q2tmZGZaMkVCNWdQc1NySDMzX3BUQ0RiNXB5NVZVZ0t1S2E4U20tZGVRdHNzeVdOZ3J6TW5sU2t6dEhCYk9OV1ozdXowX3dHTmVYMFNBS1k1czBVSTFoYzlYeGtyRDQyejA1N1RaNC1mblJEV0RiVDV2RTFPcDNGak9TQ1ItYk5Pc2dtSmVXQXJReHRvOTZOOXQ1VkhxcTdmZQ?oc=5",
       "pubDate": "Mon, 09 Nov 2026 12:05:00 GMT",
-      "summary": "NASA, bu ay gökyüzünde izleyicilere görsel bir şov sunacak çeşitli astronomik olayların gerçekleşeceğini duyurdu. Bu etkinlikler, kamuoyu ilgisini uzay bilimlerine yönlendirebilir."
+      "summary": "NASA, bu ay gökyüzünde gerçekleşecek görsel bir şölen olduğunu duyurdu. Ay tutulması, gezegen geçişleri ve meteor yağmurları gibi olaylar izleyicileri bekliyor. Bu astronomik fenomenler, halka bilimsel farkındalık kazandırabilir."
     },
     {
       "cat": "Bilim",
@@ -125,7 +152,7 @@
       "source": "TÜBA Türkiye Bilimler Akademisi",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZGVFWm1LUk9TSjA3OThlaHV4NEdPMGFXeUFIMWhGSDhwYW0wTHBsSHYxOUZKajFkU05kbnZaM0FIck9QQm9aOFhXUzFqMXRaMXhOc3EzZHhTbmZrWjVPZDBQLVZqOWw0M1MtWlVCalRTYUEtN2R1a2VYWVpPb0NJcGdYZ3NiS0VjTzd1VEpFU2d2YTdydTlLVTBqa0ZmX0ktT3NTOXM4dWVCREttaU9BWjFqdGxSV1NtbmYtRzJ4UUJqV19ndFd2UHIzUUVYU3EzdVVuTmRmcw?oc=5",
       "pubDate": "Mon, 09 Nov 2026 12:03:46 GMT",
-      "summary": "Başkan Şeker, COP31'de iklim ve sağlık politikalarında bilim akademilerinin kritik rolüne değindi. Akademik katkının artırılması, politika kararlarının bilimsel temellere dayanmasını destekleyebilir."
+      "summary": "Başkan Şeker, COP31’de iklim ve sağlık politikalarında bilim akademilerinin rolünü vurguladı. Akademik uzmanların önerileri, politika yapıcılar için yol haritası sunuyor. Bu yaklaşım, sürdürülebilir çözümlerin geliştirilmesinde etkili olabilir."
     },
     {
       "cat": "Bilim",
@@ -134,7 +161,7 @@
       "source": "Onedio",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdWt4aVZOdDROcnl6VEhZSm5kMzNmeDk2dHlUTERTaUt0UUhMTy1GeU9QaEVkcVFBSHlZbkJJZ012R0JIM0hkaENBWDdDTHRaZGJsQUZYZGljSGtVMGZXdDRORDZaYXltNWd4WDM3aGhCb0RZVVh5ZTRJMUVNUXppa3ZkeFlGWVd1X3RDdjZHVkVtVTNnbENqaV9zNjNiSEZES3dMT3A5RHB0ZTJ6WVBqeTN4b2VrS1BQ?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:56:59 GMT",
-      "summary": "Bilim insanları, yaşlanmayı yavaşlatabilecek 10 sağlıklı beslenme biçimini belirledi. Bu öneriler, uzun vadeli sağlık stratejileri geliştirmek isteyen bireyler için faydalı olabilir."
+      "summary": "Bilim insanları, yaşlanmayı yavaşlatan on sağlıklı beslenme şeklini belirledi. Bu diyetler, antioksidan açısından zengin gıdalar ve düşük işlenmiş ürün tüketimini içeriyor. Sonuçlar, beslenme önerilerinin güncellenmesine katkı sağlayabilir."
     },
     {
       "cat": "Bilim",
@@ -143,7 +170,7 @@
       "source": "Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT1FJaFBleGxYY1RBUF9XUlRYLTBQNGFwc2Y1M2RzX0djd2ZnRThRS2RPLWhRU3htYmtoTFhyTXduYlZhNERvekZBNlU0X1U1TlpibHp2MGFFVmhmcWRwV0ZQYUc3TlVXdk90M05fQnl4S3RiSnJBV3dWWHUySWlXd2tUSlN0T2NFSXpHdmREVDdIcU1lYVZ0S0ttdkQzOHhFX0lIMloxV0hLdTNrcWFV?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:35:01 GMT",
-      "summary": "57 sayılı Kararın uygulanmasının üzerinden iki yıla yaklaşırken, yatırım kaynakları artmış ve dijital ekonomi belirgin bir büyüme göstermiş durumda. Yasa, ekonomik dijitalleşmenin sürdürülebilirliğine katkı sağlayabilir."
+      "summary": "57 sayılı kararın uygulanmasının üzerinden neredeyse iki yıl geçti ve yatırım kaynakları arttı. Dijital ekonomi, bu destekle güçlü bir büyüme sergiliyor. Bu gelişme, ülkenin teknoloji altyapısının uluslararası rekabette ilerlemesini sağlayabilir."
     },
     {
       "cat": "Bilim",
@@ -152,7 +179,7 @@
       "source": "DHA | Demirören Haber Ajansı",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdU5CaFdwaHZPMkxiRWdlNXUtaTBNdkhaMEtQRzNTak9wN1l3VjlnVTFaUzdvYWZOV1dEd3FsVnNjQ2VhV2VxY3lFX0dzcVVkZUJfNGt0Y1RoWXRWTUpFbUdQTGtNYzRLTmFfc0Fmbl8zNVRFSzJBTl9ocmxkSjRudVh1Ujd1SFlkNXY4eEdkX3BOY0RHVmU2a3pqck5DeS1NNmRnZUd3?oc=5",
       "pubDate": "Mon, 09 Nov 2026 10:55:07 GMT",
-      "summary": "Uzmanlar, Akkuyu Nükleer Güç Santrali'nin (NGS) Türkiye için stratejik ve enerji güvenliği açısından önemini değerlendirdi. Santralin başarılı işletmesi, ülkenin enerji bağımsızlığını güçlendirebilir."
+      "summary": "Uzmanlar, Akkuyu Nükleer Güç Santrali’nin (NGS) Türkiye açısından stratejik önemini değerlendirdi. Santralin enerji arz güvenliği ve ihracat potansiyeline etkileri incelendi. Bu analiz, ülkenin enerji politikalarında kritik bir referans noktası oluşturabilir."
     },
     {
       "cat": "Bilim",
@@ -161,7 +188,7 @@
       "source": "Haberler",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRWFpbEZJdFlsTTZZTkdjSy1rNS10Y1BNaU5aRTA0bUdyNGdZdFlTV2JmUXJJb3hCajBuQ1Zkdk9NaENJbG1vTnZLUEpVYzhzWTRMTDByZ0ZkLWZYVkNXLXkxX2hOS0VncG1ybXVWTjdFNEpqR0J6em5OOHhBaWhyMkpYWjd3N1pDZzNLQjZnYXJVN1dZVHphZV9ISdIBlwFBVV95cUxQaUlBbTc3TmprUmg3N1FfNmVJamJVNHJ5RGVROVlBLS1OYlFoUHliSGxRa3FPQ0t5dW9ONkxBRTdOalpMSTR6TjRia0ZPZjBEY1ZmWW41cGxpTmRnbzFkQXdCbmRSUUN5djRhdG1RRjl4Uk9CUEtMZDhfN3N5R0pmQnEyNEJOT3BnWlhzTGk1azJySjFxZldZ?oc=5",
       "pubDate": "Mon, 09 Nov 2026 10:42:32 GMT",
-      "summary": "COP31, Antalya'da açıldı ve COP30 Başkanı, insan ve bilim vurgusu yaptı. Bu odaklanma, iklim politikalarının bilimsel veri ve toplumsal etkilerle şekillendirilmesine yardımcı olabilir."
+      "summary": "Birleşmiş Milletler'in iklim zirvesi, Antalya'da başladı ve organizatörler insan odaklı ve bilimsel temelli yaklaşımları vurguladı. Katılımcıların bu perspektifi benimsemesi, iklim eylemlerinin toplumsal kabulünü artırabilir."
     },
     {
       "cat": "Bilim",
@@ -170,7 +197,7 @@
       "source": "www.gzt26.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTU5zcEtnZUFmUjg3dmhMZk1rWGxMTDVoZTlfRl9EZmlNX1F1MkRLUmZFT04tS3l0emJaelhpdkFmSC02YThINmtFLVNtZkRxV2VIWTlPSExWUERsNFl6NGxuY09zUFVOaXZEZEw4dGdJSy1jVHg1QUlacHNyUThXNkx3SW9MajZBdUxVSmFwdmc?oc=5",
       "pubDate": "Mon, 09 Nov 2026 09:56:00 GMT",
-      "summary": "İngiliz bilim insanı Sir David King, Eskişehir'de yaptığı konuşmada bir dizi uyarıda bulundu. Uyarıların dikkate alınması, bölgesel çevre ve güvenlik politikalarının yeniden gözden geçirilmesini tetikleyebilir."
+      "summary": "Birleşik Krallık'tan tanınmış bir akademisyen, Türkiye'nin İç Anadolu bölgesinde gerçekleşen bir etkinlikte çevresel risklere dair uyarılarda bulundu. Bu uyarılar, bölgedeki sürdürülebilir kalkınma planlamalarına yön verebilir."
     },
     {
       "cat": "Bilim",
@@ -179,7 +206,7 @@
       "source": "Gündeme Bakış",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTzhPSmFkaWotbXlSdU55anNvdUJMQ2xPd2djUVp1VFFWbHFKU0t5YTBCdklwZmlXRmUwQzNBN3NEd0ZudEtpQU5BdTdIMlZBWWtWb19zUHVMbU9LdFprVVlHa3BYM244S2xYWko4d2czeFFWcFg0eXd4a0Z6aHctQ3JtanZFNWtJVVFYV2U4SVhpYUh2b3JiVmxrUlhhT1lYbWp0TDl6S1I5Tml2aVE?oc=5",
       "pubDate": "Mon, 09 Nov 2026 09:33:00 GMT",
-      "summary": "İlaç geliştirmede yeni bir teknoloji platformu, İzmir'de bilim insanlarını bir araya getiriyor. Bu girişim, yerel Ar-Ge kapasitesini artırarak ilaç inovasyonunda rekabet gücünü yükseltebilir."
+      "summary": "İzmir'de düzenlenen bir kongrede, yeni bir ilaç keşif platformu tanıtıldı ve araştırmacılar bu teknolojiyle iş birliği yapmayı planlıyor. Böyle bir yenilik, ilaç geliştirme süreçlerini hızlandırarak sağlık sektörüne katkı sağlayabilir."
     },
     {
       "cat": "Bilim",
@@ -188,34 +215,79 @@
       "source": "Onedio",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMlF1eW51Q095bXcwamhfMlFLSnM4Z05sRXh1VXV5VG9FcGZqbnZ6QUdYMmt0UG9XaEJGTTJMTWZnRnhZaGczVDJFaEhfZ3NtUjJxMFV3TDJtaC1PWjdMN2FKc0hySFRHMDNsYmNybzVTZng3cHVnRmF2aWpRM1NMQnYtSW9KeTNhZk9NeVZfcjl5RzJSckhqUFJUOGZHekpfQmxwU3N0SzIwa2FrcHRnLUZZMHlpNXhOODZWdHk4STRkUQ?oc=5",
       "pubDate": "Mon, 09 Nov 2026 09:30:56 GMT",
-      "summary": "Bilim insanları, 16 bin rüya raporunu inceleyerek telefonların rüyalardaki varlığını araştırdı. Sonuç, modern teknolojinin bilinçaltı üzerindeki etkisinin sınırlı olabileceğini gösteriyor. Bu bulgu, dijital bağımlılık tartışmalarına yeni bir bakış açısı sağlayabilir."
+      "summary": "Bilim insanları, 16 bin rüya raporunu inceleyerek telefonların rüya içeriğinde neden nadiren yer aldığını araştırdı. Bu bulgu, dijital cihazların bilinçdışı etkileri üzerine yeni sorular ortaya koyabilir."
     },
     {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Akıl ve bilim rehberimiz: Atatürk’ün mirası yol göstermeye devam ediyor",
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Battalgazi’de Sanat Atölyesi Genç Yetenekleri Geleceğe Hazırlıyor",
+      "source": "Tek Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWGRBUFEwWFpBWW5URWtQeWFRZExEbzhGTHM3VXptRV9YSUR1bVVIR21JZ1hkNVdGdzU4R1llQ3hKTHlxVEktNXhTTUhzZ1VWWW9rRFpDQktNLU5kMlA2R3U4RUhtWm15amN6dHl4WXQtbFp2anlQMEt2S2xFbXY2NUpPU3hvUkNaM1BNR3VR?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:51:45 GMT",
+      "summary": "Yerel bir belediye, genç sanatçılara yönelik atölyeler düzenleyerek onların yeteneklerini geliştirmeyi hedefliyor. Bu tür destekler, bölgenin kültürel sermayesini güçlendirebilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Mısır'ın Giza kentinde 6. Forever Is Now sanat sergisi piramitlerde düzenleniyor",
+      "source": "Son Dakika",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeGN0Z0lNQXB5SWNSMnlfTjc4RE9jcWt0UXZsNWl3OGZuZzJaeVZMbkVoV3A5NUdYd1ZOb0ViNWVCUGhMOEZmOXVJdzBkdkFjYTFvalpKaVJUTjdXbTF3RDFBNldMRVl4dG5EWkNkTUl4RWo1MDdHRnUybE1yU0NuZFZZUEFvRVB4bVZNd0p0bGxqSW5MX3lWWm4zeTJDLXct0gGcAUFVX3lxTFBBTWpndmlrcGxQczNXbTNTZ0x2Ym1TcWtjX2lZdFRCODRUNmhzdzdxbHdtcWlzRzFzVGJsQUVQWmV0cUZPOWp1by1SbFdMM0xOZUNJOWVDNWw5LUZ1d29tNERzZ1plWG5hR3BpUHdLSm9zeWtFNFU1RUoweHl1OURFWWh1SHYxOGVpcFJua0UzUUNtWlBIalBVVHdFVw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:45:04 GMT",
+      "summary": "Mısır'ın Giza şehrinde, antik piramitlerin yakınında çağdaş bir sanat sergisi açıldı ve ziyaretçilere modern ve tarihî temaları bir arada sunuyor. Sergi, turizmi canlandırarak kültürel etkileşimi artırabilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Çınarın lifinden Anadolu ile Kudüs arasında bir sanat köprüsü",
       "source": "Aksiyon.com.TR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbzBOR0VpN3dPbTRodU9sWDE5Nk9MZnpaU3QxOWtGVWRNbktCOTZTWFNQTmNPSHE3UEM5bDV1QkR5UnhwdXVFR2cyRGhtYUZOY1BwU25Cc09PT010YXZHa3NLXzVoUk9JRTY3Q0N1NTNWNTVFc1ZzbjhwaFAtNGZ3Sl9LQmpsYzZrc1B1NDZTT2RqdkRjT2p1RGhuOXdxRHYwLUc2Tkk5RdIBrAFBVV95cUxQejcyZ2JPMGVJZ2lWVWtVbTVkMWU4cWZwNkpsM2ZnX2k0T0FoWEVzSEUyU1dJRzNTZ2FUUnBGQ1AwSWVNZkJKLUFxd1ozeTQ1cnE2X25ONUtITmpJbXp6N2k4MzJ0WmVqWU9mOTRqeDRTT0VfTTZHRXhXMlUwc0hHMEdGWk1kSVRBaGh2VHJra1FnWnlaYTBrQnRRaThMZlNBb3JsNFNVdWx5N0dO?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:27:59 GMT",
-      "summary": "Atatürk'ün düşünce mirası, günümüz akıl ve bilim rehberleri tarafından hâlâ referans alınmakta. Makale, bu mirasın eğitim ve araştırma politikalarına nasıl yön verdiğini ele alıyor. Bu yaklaşım, ulusal kalkınma stratejilerinde tarihsel perspektifin önemini vurgulayabilir."
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV0RtZUR4WUdwVUxEVFZvNHcwZW5HZG5ZaTdWUjRfeXhfY1NHeWxjXzc0Rnk4bWdmcENuQnJ2ejVkU295eFlYN2owXzVzdkJ1Vy15ekNINnkwS19aR2YtdmdMOFBlQ05LV2piM3hDaWsyUGJjVnpJdUVLcjhfXzZPNW0tMXBtbEFLU0t4SUR6Ny1oNl9hSU9LTjdNc9IBoAFBVV95cUxQc21XSzJ4V3lPV1IyX3RFdFNGX3pQQ3lUSHVuU1BGa0JPQXZMZkNMQWo0WUxyU2Jpa0pBUVRSVXVoTll6OHAxamZ0MWFaNW5fUlhxbURlOTRpN0FnMHpRaDM0Sjd6d1RJbmYtYlI3THVaZk5kaU1CNk5RNXlQUWxKaThwU3VkX2ZfalhvYVJrMUVTNWJYQ2tveDZEQUpWSDdR?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:42:21 GMT",
+      "summary": "Bir grup sanatçı, çınar ağacının lifinden oluşan bir yapıyı, Anadolu ile Kudüs arasında sembolik bir köprü olarak inşa etti. Böyle bir proje, iki bölge arasındaki kültürel diyaloğu destekleyebilir."
     },
     {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Atatürk’ün izinde üretim, bilim ve birlik çağrısı",
-      "source": "Aksiyon.com.TR",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUW5TZld2RkJnajBuX2k2Mnh1V2c0WHFvYzVLQmZCUmtsY0NmS1ZjR3A2RUNYc1NPTmFLRHJaTnBGMV9iT1JTYS1DTHlvWm5Oa0ZyZzFGSXpCY0p2VXNhWlBPRVV4ODBzMTJVaXQyVVJxMjhUNW1acjdFYUk2RU9HSjZRbE9SU04tRmfSAY8BQVVfeXFMTmtiUGYxY3JiZUNaMmYtZTdSQWh3bGdERGRpa1VyTkl5elZTODhFckJBSWw5eV9BUHJUdDNIcmxqRUZwTEhzUXRhUVktZ0h6Z0Uzc2F0WFRUVkFSRlBCa3VQMFdZXzVLTjQ3c21wYmIzV0p6T0hvVDJrOFl0b2hTZUJtSGg1VWZkVnQzQnR3S28?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:27:24 GMT",
-      "summary": "Atatürk'ün idealleri çerçevesinde üretim, bilim ve birlik temaları yeniden çağrılıyor. Yazı, bu değerlerin güncel projelere nasıl entegre edildiğini örneklerle gösteriyor. Bu vurgu, toplumsal dayanışma ve inovasyon politikalarının desteklenmesine katkı sağlayabilir."
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Antalya’da Kadın Ressamlardan İki Özgün Sanat Yorumu",
+      "source": "Akdeniz Gerçek",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaVgzTjl2dUxDN3MxNHEyNXNrUTA4LXpqRzJabHZJbjZvM1V0Q0tvc1MtbExfYzAyaV9JSldxMVg0aE16WGFiVTZvSDlnbHQ0Ml9WamxreFJMcDdKajNBenhQTVlPRTN5c1ExZDFISzd6N3cwNFl0TEstM1BzWVBOWlFvZkdKeGNmZGZjdHFvdlRvc0dWQ2ZvcUZxMm14NFR5?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:38:00 GMT",
+      "summary": "Antalya'da, kadın ressamların hazırladığı iki özgün eser, yerel bir galeride sergilendi ve izleyicilere farklı bakış açıları sundu. Kadın sanatçıların görünürlüğü, cinsiyet eşitliği tartışmalarına katkı sağlayabilir."
     },
     {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Uzun yaşamın sırrı bu alışkanlıkta olabilir! Bilim insanları 19 yıl boyunca araştırdı",
-      "source": "Habertürk",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOanBnWTVkeV9VUjAySGpQaV9vM29JODVBMTZCRHVvSzU4R1poQWp3MVg5Z3k1SlJPQTBqRHBvLVlzNmFpNm1fTGswRDFWeHRIUW42a0d4MDhtcEZPY1V0ZXBzOHlqOXl5a19xU0dpLTJEN04xamMyQWhydnFBWG9FLVYyRmJaWGhMYXFJbzRfdUlSWnJDc1ZWZDlJaGdlOFBmN3Y5VlpPdUtqRFVBZmI5MDlhNjBMT0xQSTVIbTNhOHZGUQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 07:48:11 GMT",
-      "summary": "Uzun ömürle ilişkilendirilen bir alışkanlık, bilim insanları tarafından 19 yıllık bir çalışma ile incelendi. Araştırma, belirli yaşam tarzı faktörlerinin yaşlanma sürecine etkisini ortaya koyuyor. Bu bulgu, sağlıklı yaşam önerilerinin bilimsel temellere dayandırılması açısından faydalı olabilir."
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "T&T Havalimanı İşletmeciliği Ercan Havalimanı’nda Sanat Buluşması gerçekleştirdi",
+      "source": "Bağımsız Gazete",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGd1SGJ0ZTRwWFBNaHBFOFZZOXUxVTBqcGpjQWxSQ3hXVXNsY2ptSDc0dUsyZFkxWFNVTEw1bFFLRGN2YnEwTGdTTlNkYXI3TVBVRy1jU2NUSkR6cnhKNzBwMnMwcXZVekptOC1hZm81cklYazhDSjhpSTlFNl9PV1d5cW4wVDEzWFBJcnROaEp0SnRzT3Q3VzVnQk9KQ3hlWldFdmhR?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:38:00 GMT",
+      "summary": "Bir havalimanı işletmeciliği firması, başka bir havalimanında sanatçılarla buluşma etkinliği düzenleyerek yolculara kültürel bir deneyim sundu. Bu tür etkinlikler, seyahat deneyimini zenginleştirerek toplumsal algıyı değiştirebilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Sakarya'da 500 kişi kültür sanat atölyelerinde bir araya geldi",
+      "source": "Yeniçağ Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX1E2dl81OG1UNFdjMzJVNWJ1WTM5NnVGTm8zbGVhcF9jM2QyZ1BRT3JKYVlJcGZkT212LS1lWVhEbk5mRF9kc2pLRFJoY1FMUTlTX0lKbVZReEhtR0lDT2RycFExRUE0M3VNUm9zVy0wN2lmVG9xQUpoOGNXRFVtU1lBZkZPY3RyTEpNUWlHQTczR0daaDJHZWhmRmIxeDBqTTlnWG05UkdBUQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:34:18 GMT",
+      "summary": "Sakarya'da, beş yüz katılımcı çeşitli kültür‑sanat atölyelerinde bir araya gelerek ortak projeler üretmeye başladı. Katılımlı etkinlikler, yerel topluluk bağlarını güçlendirebilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "» COP31 katılımcılarına Antalya’da müze ve ören yerleri ücretsiz",
+      "source": "10Haber",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb2c0d2hraHR0MndRUF9UakIzUVc3b0RoNDJHb3RpU0toUTJTc1FYSnJlc3p2VFhVNU5Rd1Q5OEVwaklQMUpsOTJHd3F3dkF5bVg4ZnNFTnJMa09YVjBsbkxHY0dPTW02VEc5MUZmaXNEVjN0MlZwS0VOaDV6dGtDYlFNdGZfZ2ZhSnBhdVlGa1NiVWNSdTFicTh5WVp2eHVHZVpTdg?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:27:47 GMT",
+      "summary": "Birleşmiş Milletler iklim konferansına katılan delegelere, Antalya'daki müze ve tarihi mekanların girişleri ücretsiz olarak sunuldu. Bu fırsat, katılımcıların yerel kültürü daha iyi tanımasını sağlayabilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "500 kültür sanat meraklısı bu atölyelerde bir araya geldi İhlas Haber Ajansı",
+      "source": "İhlas Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFF2YWVuTUlwcnpCVlRiM0piQ1d4WkZEaWZwcjdHSzk3NkxZYmhUV1Vvdm9rbHVfbnRLTzVzcmEzTFF0aGhNM0FZY0pfMkpxSnZ5V29WUnV2WmNSZzZlSVRiUkxITjRBUzlEZDdUSmZTdEQzWmRxYTBPSUpYdGRianlKYWdUUXhkQTJGWXVUeXpPdUNXVHQzQWV5NFN5dUFEelYxU2p6M1d4Z1FB?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:25:47 GMT",
+      "summary": "Kültür‑sanat meraklıları, düzenlenen atölyelerde bir araya gelerek ortak çalışmalar yürüttü ve deneyim paylaşımları yaptı. Bu tür buluşmalar, yaratıcı sektörün dinamiklerini canlandırabilir."
     },
     {
       "cat": "Sanat",
@@ -224,7 +296,7 @@
       "source": "Medya Midas",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMmpHRFo5elhXcUN3aHNlLXRoblY3Si12UThfT0d6VXF2UlctZ25ON1dUX2JMVkI1VzNra3JvZWxkTE9yeXlVX1UtMkJHWTRldDZCeTF1ZkpZYWkxaXFJX211aUxpaFBvVE41NXF1UHBONXhRbVVDZDN6b2s2XzZZNGJtTVFrdXc?oc=5",
       "pubDate": "Mon, 09 Nov 2026 12:37:43 GMT",
-      "summary": "Tunus'ta bulunan Osmanlı dönemi eserleri, Kütahya'da sergilendi. Sergi, iki coğrafya arasındaki tarihsel bağları ve kültürel mirası gözler önüne seriyor. Böyle bir etkinlik, Osmanlı mirasının uluslararası alanda tanıtımını güçlendirebilir."
+      "summary": "Tunus'ta bulunan Osmanlı dönemine ait eserler, Türkiye'nin batı illerinden birinde sergilenerek tarihi bağları gözler önüne serdi. Sergi, ortak miras bilincini pekiştirebilir."
     },
     {
       "cat": "Sanat",
@@ -233,7 +305,7 @@
       "source": "https://www.ajansturkhaber.com/",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOXzJ0Rno5RXNCX3FESHY5aTJwU3BzTlpXT2t3alBXREZMWFhjZWRJa1R2NUtXNVFjam1pakJGQ3F4MVdhUmdWaU04eXIxbDF2THZ1RFEwdVV5UGFVbldqMFMwSDhYM2ZwZkZoR191ckhKSno3cFhMVjNtbmE1bXo0OFhTc2trYzdWTlBZenpfMnUwSG11bXFIcjdYcURKamREeGZoUDltMEo1a0Q0d3IwU2dzNV9HbG5O?oc=5",
       "pubDate": "Mon, 09 Nov 2026 12:37:41 GMT",
-      "summary": "Battalgazi Belediyesi, sanat atölyesi aracılığıyla genç yeteneklere eğitim veriyor. Atölye, yaratıcı becerileri geliştirmeyi ve geleceğe hazırlamayı amaçlıyor. Bu girişim, yerel kültür ve istihdam olanaklarını artırma potansiyeline sahip olabilir."
+      "summary": "Bir belediye, genç yeteneklerin sanat eğitimine erişimini artırmak amacıyla ücretsiz atölyeler düzenliyor. Bu destek, gençlerin kariyer yollarını şekillendirmede etkili olabilir."
     },
     {
       "cat": "Sanat",
@@ -242,7 +314,7 @@
       "source": "Habertürk",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRzU3Y0U4LW91XzBXS2U3S2RfRkJsSXgxVHNwMUw5alNRdzlvRmNCY3RkdTZhVjhEV0x3b3N6QUpGUHJNRDRJUWlxVEFUMGZCUWJnNHQzRVREODJtdXFJTWI3cTA4TXFndlpBNUVMczZPR3d6YVE0NXNBZk9Kd0pXZ2VR?oc=5",
       "pubDate": "Mon, 09 Nov 2026 12:34:31 GMT",
-      "summary": "Yapay zekâ, şehir planlamasında veri depolama ve analiz işlevi görecek bir “şehir belleği” olarak öneriliyor. Makale, bu teknolojinin altyapı yönetimi ve hizmet kalitesine etkilerini tartışıyor. Bu gelişme, akıllı şehir projelerinin sürdürülebilirliğine yeni bir boyut katabilir."
+      "summary": "Yapay zeka uygulamaları, şehirlerin veri tabanına entegre edilerek kentsel planlamada yeni bir hafıza sistemi oluşturulması hedefleniyor. Bu yaklaşım, gelecekteki şehir yönetiminde veri odaklı kararları kolaylaştırabilir."
     },
     {
       "cat": "Sanat",
@@ -251,79 +323,7 @@
       "source": "Van Postası Gazetesi",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSHdoRHlIUGRkUTFQRFhZa3JjZjUwVy02YXBVVW9qdlMwTTQwV2hzNjJ3XzIwcGh1SXljSzhkLUt2aE9ENE45cVhzUWRhMlRIRFo1dzFKTUhsUmppTXN3STBZaF8tOERIeW9ZLTFUQ19PaFlNaXpjenBwN21CaFJHcTRzV0NtU0s2aTZ3YW81aU92bVh6dF9aM05VRWRlVXl1QzVkeTZHOVdOUk4zbDZYLVdMbEYxclBHc21ockZVc3hFMUo4STRKZjg1ZTJZLWhkZzJ2Rmk3ZzdkdGPSAeABQVVfeXFMTUhEUGN4SHZSUHhRMm1yTFRyY3FtajJaeTRtZzF2NDloR0VKVmFkaTF1UmloZTBsZFNSU0VkMjZ3Y05fTklTdEdoVlhPYWRJY1dtX3V2WjNYd2tjeHlncDFvZi1wc3g2amNzRm5teDdPNFFGSnlkZmZGdkpGdUlsbUZXdlp3a0M4R1l5TE9idExKZi1icTlaeU1neU1OYVFyRE9VYmlEYUI2M0lJdllESF9zalozZ2hkM0tVa0lfS0ZraE5hWWxvTWR4RFlnZ2xNaWN1QW04b2kzbGZCNnpYQXo?oc=5",
       "pubDate": "Mon, 09 Nov 2026 12:32:03 GMT",
-      "summary": "Battalgazi Belediyesi, sanat atölyesi kapsamında genç yeteneklere ücretsiz eğitim ve başarı desteği sağlıyor. Program, sanat eğitimine erişimi genişletmeyi hedefliyor. Bu tür destekler, gençlerin kültürel becerilerini geliştirmede eşitlikçi bir adım olarak değerlendirilebilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Battalgazi'deki Belediyesi'nden öğrencilere sanat desteği",
-      "source": "Habertürk",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLTFwSHQ3akFrT1dsc3BtS29LRU1OQ1BfSFdORFVTRDFja1FhWC1UOGpLc3Z4NG9oTGNPNGd3UGtyM3FEMEo4ZFExT3EwZDM0TjVJM1dQSHRHX0lhSDhNNThtc1hzZG5KSl9OLXVTMG9DcnlMOGNrTlo3YTI4MVhmYVBDbVNEampBSjJ4WERzVVJlU1hIdU1wZmZxazF6clF1T19ZSnBIcDRsWkVnSjk5cG9vWVRibzRzV3VGdQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:29:00 GMT",
-      "summary": "Battalgazi Belediyesi, yerel öğrencilere sanat alanında destek sunuyor. Destek, atölye çalışmaları ve sergi imkanlarını içeriyor. Bu faaliyet, bölgedeki kültürel etkinliklerin çeşitlenmesine katkı sağlayabilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "The King's Road: Seçkin Pirim'den 4500 Yıllık Geçmişe Çağdaş Bir Yorum",
-      "source": "theMagger",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZNlhfclZCb2hlWjhZLUMzUi1sazNhSFlFdXZOcWdZZlVhQTV4QUJUd0pKbDVKSmRVc0dHTXJNRXcyZU40anJ0WmtQc1FNY2xURTJfYXgwelRENzJ0cTNNVVR6emQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:25:09 GMT",
-      "summary": "The King's Road sergisinde Seçkin Pirim, 4500 yıllık tarihî süreçteki izleri modern bir yorumla sunuyor. Eser, antik motifleri günümüz sanat diliyle birleştiriyor. Bu yaklaşım, tarihsel mirasın güncel sanatla buluşmasının önemini gösterebilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Malatya'da öğrencilere sanat desteği",
-      "source": "İlke Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0cGF5SmlCa0lWdWZfWGZRYURmLXNFYk85c0tRemJKaVFHeUxqcVZHbWpjY1IzMWJYZjBwU1h4QkZtc3laN0Q2cDlXZWw0NnZodWF0bU5kUEQ2NnIxR2VxV1BBZWF4M0RSdWVzYk9jaC1NZUN6MlE?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:25:06 GMT",
-      "summary": "Malatya’da öğrencilerin sanat faaliyetlerine yönelik destekler artırılıyor. Yerel kurumlar, atölye ve sergi imkanlarıyla genç yeteneklere fırsat tanıyor. Bu destek, bölgesel kültür politikasının genç nesillere yansımalarını güçlendirebilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Kartal'da çocuk ve genç yetenekler, Sanat Akademisi'ne girmek için yarıştı",
-      "source": "Anka Haber",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVzY3VzZmaFgzRWRTQ3AyTkdHOFFlYnkxU1FURGN4WV85bXpNSXlzNG5YblVjdHJXSjNCVWVuakg4c0dkeHdhZzVhdlRWVmVpaGo2MUFNZndpSTFkVmhPMVhHS3Y3S3ItZVQtQ25fQWs5WENuYVhHZGhzRUdLR1JPR0dXTk1wSWdlSzRxcFczdW9xcThnZzRQUVFuOGJzVUIwd2kySTdDM21CeFhvbG80?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:20:17 GMT",
-      "summary": "Kartal’da genç yetenekler, bir sanat akademisine kabul edilmek için yarıştı. Yarışma, yetenek keşfi ve eğitim fırsatları sağlamayı amaçlıyor. Bu tür organizasyonlar, sanat eğitimine olan ilgiyi ve erişimi artırabilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "COP31’de Adil-i Mutlak Rüzgârı",
-      "source": "Yeni Şafak",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xTGJ0NjViOWZpY0hVZWRvVXRkSUpQc0RRWWhKRkotOHZzRkotNU9PNzd4WWxXUDNFVjBSZ3FxOFVrQmNDdHVMUGRPcFBBTzBya09JWHFkRElqQjN5UXlEWGo0b2xOcXRldi11MG9MX21ubE85MWdPUQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:14:27 GMT",
-      "summary": "COP31 kapsamında “Adil-i Mutlak Rüzgârı” adlı bir etkinlik düzenlendi. Etkinlik, iklim değişikliğiyle mücadelede adil enerji politikalarını tartışıyor. Bu söylem, uluslararası iklim görüşmelerinde adalet temelli yaklaşımların önemine işaret edebilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "5. GÖBEKLİTEPE ULUSLARARASI FİLM FESTİVALİ ÖDÜL TÖRENİYLE SONA ERDİ",
-      "source": "Şanlıurfa Büyükşehir Belediyesi",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTFJKcDk3Um00UEx4UGVmOFFFU0hPbi1WamlvQTczLWNjeDlBb0FlOGIxOHVTTXV4cERWSjRvcGFRaDVFTXBoR3hyZnFiTWQ4WXBLaDgzVnp3dUU2SlNmNkRfY2JfNllKNmp2MS1UWkxGQkJOaENRYl8zQWx6ZkFkekVmc2RRZ0Q5X0w5RW5xWlVoOGU0UkNsNERET3BpWXphZ010RnZpdWQ3b21udHVKaQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:08:26 GMT",
-      "summary": "5. Göbeklitepe Uluslararası Film Festivali ödül töreniyle sona erdi. Festivale katılan filmler, arkeolojik ve kültürel temaları işledi. Bu etkinlik, kültürel mirasın sinematik anlatımla tanıtımına katkı sağlayabilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "ÇUKUROVA SANAT GİRİŞİMİ: MİRASINI KORUYACAĞIZ",
-      "source": "egemengzt.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUTdQUW9xWTU0VURRanBMWVZaVGJXYkFBaXJPTi1WZ09nQWRTWUw4QW9odE80Y2tKSnVWYkdGeXhMbEVXaE9zaWFNZFFVai15dWZHRXVBazJjUGRxeS1GeDVKZFMtamw2Wnk5MHdzbUo5eUViOTFMaHl0MU9LV0xFTHBXZlRrUzF1ZFVWOUV6SDM?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:03:10 GMT",
-      "summary": "Çukurova’da bir sanat girişimi, bölgenin kültürel mirasını koruma hedefiyle ortaya çıktı. Proje, yerel sanatçılar ve toplulukla iş birliği yapıyor. Bu çaba, bölgesel kimliğin sürdürülebilir sanat pratiğiyle güçlenmesine yardımcı olabilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Albayrak Grubu, Adil-i Mutlak Hat Sergisi’ni COP31’e taşıdı",
-      "source": "GZT",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPS2ZGMTR0ZUJtM2FIRm40T2tySDZjeXZTRUd3aDJZQmhQUXkzSU95Zk8zMldSMEExM0JrdTdpSjZoNDJESWxiZHlPeDZLUk1hZzhMTXJrSmZNREVoVm5lNHRIV0RnTDFWdDJOaXlyMzE4azFmQUlQSV9UcW9sb1NKenNBRWY5eEpXSDlUa2V4bm91dFFMM1E?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:46:48 GMT",
-      "summary": "Albayrak Grubu, “Adil-i Mutlak Hat” sergisini COP31 etkinliğine taşıdı. Sergi, sanat yoluyla iklim adaleti mesajı vermeyi amaçlıyor. Bu tür kültürel entegrasyonlar, çevre politikalarına toplumsal duyarlılık kazandırabilir."
+      "summary": "Yerel bir belediye, genç sanatçılara ücretsiz eğitim ve mentorluk sağlayarak onların projelerini hayata geçirmelerine yardımcı oluyor. Böyle bir girişim, gençlerin yaratıcı potansiyelini topluma kazandırabilir."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -332,7 +332,7 @@
       "source": "TeknoTalk",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE96Y25ObURSaFhzUng3RjZSUUp0WGx6aTFRMTFQVkJudE9TdGc0YTRXaUYxZTBiVlg3dlh3bTRkSHRtSERQeEZTZjJfclRZZ0NnUHZKV1hDV3pRQXVCS0lTY0pJbGhSUk1WZ1hZQVNWS21ZcUhQMFV6MnJhNWs?oc=5",
       "pubDate": "Sat, 07 Nov 2026 06:59:31 GMT",
-      "summary": "Epic Games, 12 Kasım’a kadar bir oyununu ücretsiz olarak sunuyor. Kampanya, oyuncuların yeni bir deneyim edinmesini hedefliyor. Bu promosyon, oyun sektöründeki erişim ve pazarlama stratejilerinin bir örneği olarak görülebilir."
+      "summary": "Bir oyun platformu, popüler bir strateji oyununu belirli bir tarihe kadar ücretsiz olarak sunuyor ve oyuncuları bu fırsattan yararlanmaya davet ediyor. Ücretsiz dağıtım, yeni oyuncu kitlesi kazanarak oyun ekosistemini genişletebilir."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -341,7 +341,7 @@
       "source": "Merlin'in Kazanı",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM09iTmRkQUVTbm5aQXVUVGx3QjF2UWNyUmFOZmJMbWlScElOUWVhZWh0cXBmb0F6NXBwblRNbk42SmhCYjlwVTVWNGJhczFCSGNmemNFYjVnUzZIbkVLZzNPQXRLa2hkakMxUmFCS1dXb3V0enR5aHBNYnR3aGNzQjVFdHY2NzR0cy1mR3FOTmx2RF82T1Noam9GU0FiN0FQbDlMVU1B?oc=5",
       "pubDate": "Thu, 05 Nov 2026 16:41:47 GMT",
-      "summary": "Epic Games Store, 39 TL değerindeki bir oyunu ücretsiz dağıtıyor. Teklif, belirli bir süreyle sınırlı ve indirimli bir fırsat sunuyor. Böyle bir uygulama, dijital oyun pazarındaki rekabeti ve kullanıcı ilgisini artırabilir."
+      "summary": "Dijital bir mağaza, yüksek fiyatlı bir oyunu kampanya kapsamında ücretsiz erişime açarak oyuncuların ilgisini çekiyor. Bu tür promosyonlar, oyun sektöründeki rekabeti ve kullanıcı etkileşimini artırabilir."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -350,7 +350,7 @@
       "source": "Letem světem Applem",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT296Zm9KS0FxM3hoTnJhVjNTSFlrT2xjazBTR25CX3o2MkFkRktPV09jd3QzWkhObnNJVXB3Z0FvRGxuNnduZVpHeXZyOG5UM3FSak9VQTdja2tLNEl1M00yY2M4RG1NNi1NNEdJSE9hc3NTYWlGZFNpSmM4RXhsS0RvWFdCTVFxVzByNElmQzBsdldIM0lCandxbHdSSXJBY0dKY19iOEE5S0UxbEZTd3ZDOHZib01EUDdUMFpmNURfOUM4OVZUdmMxcThYM0E?oc=5",
       "pubDate": "Thu, 05 Nov 2026 16:03:25 GMT",
-      "summary": "Epic Games, iki yeni oyunu ücretsiz olarak dağıtıyor; biri strateji, diğeri fantastik türde. Kampanya, farklı oyun sever segmentlerine hitap etmeyi amaçlıyor. Bu yaklaşım, platformun kullanıcı tabanını genişletme stratejisinin bir parçası olabilir."
+      "summary": "Bir video oyun dağıtım platformu, iki farklı türde oyunu ücretsiz sunarak strateji ve fantastik oyun severlere yönelik bir kampanya başlattı. Bu adım, platformun pazar payını genişletme stratejisinin bir parçası olabilir."
     },
     {
       "cat": "Doğa",
@@ -359,7 +359,16 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCeE51UlJ5TW9TcWlZRDVhNUF4bDVXTmpUUU5JWXlSMXV1RjV0bjdIcnBra2dKTl84YUdHeXFhZ3ZkeVZsNF8ycHNGejZZTGJfaksybjBiY013dXlCN29ZLXB2d0Q2OHY5S0FFWWxtdlEwd09OZFo2dnY2SUw?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:13:00 GMT",
-      "summary": "Alameşe Kalesi, tarihî bir yapı olarak yeni keşif ve restorasyon çalışmalarıyla gündeme geliyor. Kale, bölgenin geçmişine ışık tutan özellikleriyle ziyaretçi çekiyor. Bu durum, kültür turizmi potansiyelinin değerlendirilmesine katkı sağlayabilir."
+      "summary": "Bursa'nın bir köyündeki tarihi kale, yapılan restorasyon çalışmalarıyla geçmişe ışık tutmaya devam ediyor. Tarihi yapıların korunması, bölgenin kültürel kimliğini ve turistik çekiciliğini destekleyebilir."
+    },
+    {
+      "cat": "Doğa",
+      "catId": "doga",
+      "title": "Kafkasör Yaylası’nın karlı manzarası tabloları aratmadı",
+      "source": "https://aktuelbursa.com/",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYkswblMySWtwRHR5Rlo1TlFfWHk5eW9HSVpyNGpHeXNtUV9rRjRSeUtqLVJlQkJYeGdJNHpsU1NTYno5ZmdoRkhZOHBMRnBzZGcwRmJLZFU2QUhKN1J1dklwc2Z6X0R2cElsQ2RpdkVXVWZiQUM4R1IyN3lNNnJLRFR4Ry1HTmc3YnFCVlZkeFpCeFVZ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 11:07:00 GMT",
+      "summary": "Kafkasör Yaylası'nda karla kaplı manzara fotoğrafları internette beklenen ilgiyi görmedi; aramalarda düşük bir performans sergiledi. Bu durum, bölgenin tanıtım ve turizm potansiyelinin yeterince kullanılmadığını gösterebilir."
     },
     {
       "cat": "Doğa",
@@ -368,7 +377,7 @@
       "source": "Şırnak Ajans",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdkdKTGZTaDRnanFENlBIMXlrTE5LSmxOejRyYVVNQUo0ZTJVcEJUSWg3Mm1mdWlyMExRMzZJNWVQT0VnYzhRY1JXb21VS3pURDJxUDhKemVxRFhpUmVfS2ZWcHp4bmlfT0l4amd0dHdqdXJWZjZKNmM5RmdpT3pqVVhpMmg?oc=5",
       "pubDate": "Mon, 09 Nov 2026 06:02:00 GMT",
-      "summary": "Şırnak'ta düzenlenen bir etkinlikte katılımcılar, Finik Kaleleri'nde doğa ve çevre bilincini artırmayı amaçlayan aktiviteler gerçekleştirdi. Bu tür etkinlikler, bölgenin tarihi mirasını korurken sürdürülebilir turizmi teşvik edebilir."
+      "summary": "Şırnak'tan Finik Kaleleri'ne bir grup çevre ve doğa etkinliği düzenlendi; katılımcılar yürüyüş, temizlik ve eğitim faaliyetleri yaptı. Böyle etkinlikler, yerel ekosistem ve kültürel mirasın korunmasına farkındalık kazandırabilir."
     },
     {
       "cat": "Doğa",
@@ -377,7 +386,7 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNejFpcl9Mdlg5ekIzY3M0dENSc0NQQldxVzNFNUxhTTFyRHI0dEQxTFhIbDZ3SDVicjJpSFdjYXhzQ05OM2dONmdQRF9PbnB4ZnE5STJqdEkxOHA0S0NKcW9uOG85TURQOUV1OHJtaDRZTmhsd0o5clRhcy1RaXlocw?oc=5",
       "pubDate": "Mon, 09 Nov 2026 01:05:33 GMT",
-      "summary": "Çamlıbel Geçidi'nde yoğun kar yağışı yol ve çevreyi beyaz bir örtüyle kapladı, sürücüler ve yürüyüşçüler için görsel bir şölen oluşturdu. Kar yağışının beklenmedik etkileri, bölgedeki ulaşım ve turizm planlamasını yeniden gözden geçirmeyi gerektirebilir."
+      "summary": "Çamlıbel Geçidi'nde karla örtülen manzara ziyaretçileri büyüledi; yoğun kar yağışı bölgeyi beyaz bir tabloya dönüştürdü. Bu doğal güzellik, kış turizmi için yeni bir çekim merkezi oluşturabilir."
     },
     {
       "cat": "Doğa",
@@ -386,7 +395,7 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONG8zYnpSV29CVU01ZU9aTUJIaHFEVm9WcktWb2tTOC14alFMMHFWX0dvX0NxMEF2Tm5vVTVVZXBqNng1VUhTQnNuSVlTVlFXMTV3eXBYVzE3NUl5T0xUWWNtcnJMcjEtSXRjYTBSU1czbXVhTTZLMmxKM1RCRi1YdzNUdW1MSHNuSGJBbA?oc=5",
       "pubDate": "Sun, 08 Nov 2026 20:47:49 GMT",
-      "summary": "Bir grup sivil toplum kuruluşu, deniz kaplumbağalarının yumurtlama sahalarını korumak ve deniz kirliliğini azaltmak amacıyla kampanya başlattı. Bu girişim, biyolojik çeşitliliğin korunması açısından kritik bir adım olarak değerlendirilebilir."
+      "summary": "Deniz kaplumbağalarının nesli için ulusal çapta bir seferberlik başlatıldı; sahil temizliği ve yumurta koruma projeleri gündeme alındı. Bu çabalar, türün tükenme riskini azaltma yönündeki kritik adımlar olabilir."
     },
     {
       "cat": "Doğa",
@@ -395,7 +404,7 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zekZZc0ZIMktFTlZCQzV3azFURThwRmxZeS1weUdaOWlwZVM3R1ZqTFNnbllwN1JuQnEyWW9sT1BaOG1INmFkSUVuUWRzTXlMc2lYZ1BjcWozZUN1SmRIYi0wb21HUkNoT2RZUzd5cFlCS1BKTzVjWQ?oc=5",
       "pubDate": "Sun, 08 Nov 2026 18:18:00 GMT",
-      "summary": "Kayseri'de 3.2 büyüklüğünde bir deprem meydana geldi, ancak şimdilik ciddi bir hasar rapor edilmedi. Küçük ölçekli sarsıntıların bile halkın güvenliğini ve altyapıyı kontrol etme ihtiyacını hatırlatması muhtemel."
+      "summary": "Kayseri'de 3.2 büyüklüğünde bir deprem meydana geldi; hafif sarsıntı hissedildi ve büyük bir zarar rapor edilmedi. Bölgedeki sismik riskin hâlâ bir tehdit oluşturduğu hatırlatılmış oldu."
     },
     {
       "cat": "Doğa",
@@ -404,7 +413,7 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84ZkxEblh6QngyYUptX3o4VnpjeWVCU2pDTjJ3QW9kLVNjQU9hMWw3NEY4RjFVTlM5RzI5SGR5MGpISExIUGJSSkxxUDl4VWJDdXhzQ2diUjNwUkdxNnVmbmNfN2hQZVlvdUN0TVdPWWR5Z3hCMnY3WVI4TQ?oc=5",
       "pubDate": "Sun, 08 Nov 2026 15:55:00 GMT",
-      "summary": "Tatvan'da beklenenin üzerinde kar yağışı gerçekleşti ve yerel ulaşım ile tarım faaliyetlerini etkiledi. Karın devam etmesi, kış mevsiminin ekonomik ve lojistik planlamalar üzerindeki etkisini yeniden gündeme getirebilir."
+      "summary": "Tatvan'da yoğun kar yağışı etkisini artırdı; yol kapanmaları ve enerji kesintileri yaşandı. Kış koşullarının bölge yaşamını ve turizmi nasıl etkilediği konusunda daha fazla hazırlık gerekebilir."
     },
     {
       "cat": "Doğa",
@@ -413,7 +422,7 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05SmRwdnhVeVdXN3VtendtemhlQ2szbHlTaXFYdVp3eFpMd2s3cExBbTFuX084czdZRkRMalNMdTFzYm5RY01MbkVHZ3hYU3JTTDh4dGVSVWpMdnpDcFBaUFJjTjZWcmJEcFEwc3dIWWFLT19adzFKeGREZHM3Ukk?oc=5",
       "pubDate": "Sun, 08 Nov 2026 14:15:00 GMT",
-      "summary": "Bitlis'in merkezi bölgesine kadar inen kar yağışı, şehir içinde yol kapalı kalmasına ve bazı hizmetlerde aksamaya yol açtı. Bu durum, kış koşullarına hazırlıklı olunmasının önemini vurguluyor olabilir."
+      "summary": "Bitlis'te kar yağışı şehir merkezine kadar ulaştı; ana yollar ve meydanlar geçici olarak kapandı. Şehir içi ulaşımın kısıtlanması, yerel ekonomiyi ve günlük hayatı etkileyebilir."
     },
     {
       "cat": "Doğa",
@@ -422,7 +431,7 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wYlUxeG52U1Y0LUdkRnFsLVp6c3hHVFdLZHNiUFVkRU15WEwtTXhLZjRvUG5SMjEyWW5aZW5GRUZqUFlhX2l1RVEtQmlnUDZlVVdPOFNwd1p1ZFMyV3FIVUxqNUxodVA1S0xSZjladE9ITk5rNHhPWnZ3?oc=5",
       "pubDate": "Sun, 08 Nov 2026 10:32:00 GMT",
-      "summary": "Şiddetli yağışlar ve çığlar nedeniyle Sinop'ta 20 köyün yolu geçici olarak kapanarak yerel halkın ulaşımını zorlaştırdı. Köy yollarının kapanması, kırsal bölgelerde acil durum hizmetlerinin erişilebilirliğini etkileyebilir."
+      "summary": "Sinop'ta 20 köy yolu kar ve sel nedeniyle ulaşıma kapandı; köylüler dışarıyla iletişim kurmakta zorluk çekti. Altyapı güçlendirmeleri ve acil durum planları ihtiyaca duyarlı hale getirilebilir."
     },
     {
       "cat": "Doğa",
@@ -431,7 +440,7 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2ttQXlmRzJoLTJUWXpqV1ptUjJSTUQzelFZN1VYWHdSVG12OFRZR1dXNmNzTHAxXzdNVVZaOHBYb0VXVzNCNVlxYWdJd19ZUFRFR292blBjRzlFT29yY05VZ1I3UjVZZ0RrTEpfZUlXbVU1TWhLV2lNM2lGd3psOW5TbmFmU1kyZjlETThMZG1OT1U?oc=5",
       "pubDate": "Sun, 08 Nov 2026 10:30:00 GMT",
-      "summary": "Macahel Geçidi'nde kar kalınlığı 40 santimetreye yükseldi ve bölgeyi yüksek riskli bir kış şartına soktu. Bu seviyedeki kar, yol güvenliği ve olası çığ riski açısından dikkat çekici olabilir."
+      "summary": "Macahel Geçidi'nde kar kalınlığı 40 santimetreye yükseldi; geçiş yolları ciddi şekilde zorlaştı. Bu durum, bölgedeki ticaret ve ulaşım ağının geçici olarak aksamasına yol açabilir."
     },
     {
       "cat": "Doğa",
@@ -440,7 +449,7 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdG1CR0JGbXdSWUZSSTVrV3pHQnNremZVdzV6MGlkcmM0YVNqRWtXYlllcjhkNERLcl80MWVTb3l0S3VPbnRIUlVxbi1rcDVGV3N5b3VHcU1FUDBMMDNPN3RiejZoYzI1ZnZCVEVybFh2SU9GcDBYMDE1OG5EaDVLSUtWdDN2ZURBNHZLdGhEdC0yaE9DOXNhYQ?oc=5",
       "pubDate": "Sun, 08 Nov 2026 08:56:00 GMT",
-      "summary": "Osmaniye'de Dumanlı Yaylası, sonbahar renklerinin yoğunlaşmasıyla doğal bir tablo sunarak ziyaretçileri çekti. Turizm açısından bu görsel zenginlik, bölgenin ekoturizm potansiyelini artırabilir."
+      "summary": "Osmaniye'de Dumanlı Yaylası sonbahar renkleriyle göz doldurdu; sarı ve kırmızı tonlardaki yapraklar doğal bir tablo oluşturdu. Bölge, mevsimsel güzellik sayesinde ekoturizmi canlandırabilir."
     },
     {
       "cat": "Doğa",
@@ -449,16 +458,25 @@
       "source": "https://aktuelbursa.com/",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KZEs2OWxvZjRCcEJSMEtxZzdiU1BfZDIwNjVNLUFfOHRQNGo4bEFJaHpDWFhVZmdtcEhlT0tOTnJtaDFXeFphenViZHp2aFFhY0RPYXdvMVJTc2d4RjU3V2R1b09RNDJ3X0NBM0duMG5RclU?oc=5",
       "pubDate": "Sun, 08 Nov 2026 08:53:00 GMT",
-      "summary": "Birçok tarihi konak, yoğun kar yağışı nedeniyle beyaz bir örtüyle kaplandı ve fotoğrafçılar için yeni bir manzara oluşturdu. Tarihi yapıların kar altında kalması, koruma çalışmalarının kış koşullarına adaptasyonunu gündeme getirebilir."
+      "summary": "Tarihi konaklar yoğun kar yağışıyla beyaza büründü; eski yapıların çatıları ve duvarları kalın bir kar tabakasıyla kaplandı. Bu görüntü, kültürel mirasın korunması açısından hem estetik hem de bakım riski taşıyabilir."
     },
     {
-      "cat": "Doğa",
-      "catId": "doga",
-      "title": "Kastamonu’da kar yağışı sürüyor",
-      "source": "https://aktuelbursa.com/",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qNnRCNnNSSTNYc2NpZy0wM1haLUZkNjJFVFVUbXNBMGoyaFBnRzR4U2VfQ0FLTzl5azBCU0l0OFBrblBWV2ZIZ0VyQXIya2xUMzBpeFhOTFNycTctZHlwVEw2OVY4M1B6N3BYMXhpQTU4N2lv?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 04:04:40 GMT",
-      "summary": "Kastamonu'da etkili bir kar yağışı devam ediyor, bu da günlük yaşamda ulaşım zorlukları ve ısınma ihtiyacını artırıyor. Sürekli kar yağışı, bölgenin altyapı ve acil hizmet hazırlıklarını test edebilir."
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Crédit Agricole Proposes Merger of Italian Business With Banco BPM",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQkhaZmFuSnhNbHVfUGRnVzFCOGR0RHQ3Tk15bnlqSGtTVE00cnd2ZFpQUGh0OW5uY3RGQmFXTVB4MGN2NGVTbjB3R2NqWmMtRk1xTjdrVG5FZlhMT1kzRGY1cjZGeGpqb1oxR1JKd2NsYkFhT0hQUjJmTEFKamhHUnVoZnl6ZGNsTS1JMmdheVpmWUJYNXBQQzhvRjVCaE44dHlEOUlIYnZBVkNTNWhz?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:49:00 GMT",
+      "summary": "Crédit Agricole, İtalyan operasyonlarını Banco BPM ile birleştirmeyi önerdi; birleşme iki bankanın pazarda daha güçlü bir konuma gelmesini hedefliyor. Böyle bir adım, İtalya bankacılık sektöründe rekabet dinamiklerini değiştirebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Dow futures rally 600 points as oil prices drop; traders brace for more data and earnings: Live updates",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FVDc3UlZHcHBOWVJmWWs2YWxla3J5NkpsVmNlTERMM2lQNm1MdlRteDEyeUFGcGFKVHEzV0JGalFMZXlvV3o2R3dmb2dGWUh5WlpMOWxiYkdlb1c1RzB4WlNhQzRoTF9qM3lfaUlKeUhqQUFtWkdj?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:44:00 GMT",
+      "summary": "Petrol fiyatlarındaki düşüş sonrası Dow futures 600 puan yükseldi; yatırımcılar yeni ekonomik veriler ve şirket kazanç raporlarını bekliyor. Bu hareket, piyasa duyarlılığının enerji fiyatlarındaki değişimlere ne kadar hızlı yanıt verdiğini gösteriyor."
     },
     {
       "cat": "Dünya",
@@ -466,26 +484,80 @@
       "title": "Live Updates: Trump says he sees no reason to escalate war with Iran, touts his long-term goals in the conflict",
       "source": "CBS News",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zN0FDMkRwcDVyZGFpV0dvRnhidUVyU1hrc2pKQzJZMmlLZDF1bHZ0dzBtMDJLOXc5T0xNYmRuS2Q4eU1QQmFqaHJ1cVg0VGkxcWN3dEZLVlo1UlQ0ckZCaW52b0lHQzVZN2N6UElySjhIWDdXWVh5T24xcmh4Zw?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:29:00 GMT",
-      "summary": "ABD eski Başkanı Trump, İran ile olan gerilimi artırma gerekçesi görmediğini belirterek çatışmanın uzun vadeli hedeflerine odaklanacağını ifade etti. Bu açıklama, bölgesel diplomasi ve ABD dış politikasının yönü üzerine spekülasyonları tetikleyebilir."
+      "pubDate": "Mon, 09 Nov 2026 13:15:00 GMT",
+      "summary": "Eski ABD Başkanı Trump, İran ile gerilimi artırma gerekçesi görmediğini belirtti ve uzun vadeli hedeflerini dile getirdi. Bu tutum, uluslararası diplomasi ve bölgesel istikrar tartışmalarını etkileyebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Stock Market Today: Nvidia Stock Slides After Huang Apologizes for Affair With Alleged Spy",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSV9fWHdCZGw4OGdCbVpVMVJreGluVnp1TVhmT1JkemQ0RGdWQTZfNFNuODhETWJUQUt6NTVlUlRGY0NwNkRXOVd6VFlLSWFlTERpMEJWODJraHlyX3ZtRnFpSjUtVzhmOVVKNkRfS0RPZ3l4WHBnWEdwTTRRaVVDdmM3TEhxR0k?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:02:00 GMT",
-      "summary": "Nvidia hisseleri, kurucu Zhang Huang'ın iddia edilen bir casusla ilişkisinden dolayı özür dilemesinin ardından düşüş kaydetti. Bu gelişme, teknoloji hisselerinin jeopolitik skandallara karşı hassasiyetini gösterebilir."
+      "title": "Jaguars agree to trade for Falcons S Jessie Bates",
+      "source": "NBC Sports",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbmwxcEx4S0hJS2tHdHVSZEltcG9NRU4tZGtubGZMempvcnFaMnp4cHhmQlhWX2JJUmNEVnBBVmNhdUJEd01pQVdvcS0yVGF1YlFFN2NOdFhnOUJMZVRHbklTcWxiVG1fYkVFRXdEeEVSSE5fX19aOGI0LS1vSGhXNGJjWThpN01DbDFoNFl6T3F5WG5jOTBLZ1JFOHlGeGRUSUNaR2ZWaTRWaTJlZEJlZw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:10:39 GMT",
+      "summary": "Jacksonville Jaguars, Atlanta Falcons'tan safety Jessie Bates'i takas etti; takas karşılığında draft hakları ve oyuncu değişimleri yapıldı. Bu transfer, takımların savunma hatlarını yeniden şekillendirebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Column | Your stroke risk is 72 percent higher during these 3 hours of the day",
+      "title": "Nvidia stock sinks 5% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObWVFY2cxQURmMnJ2aWFxSlRfeFJzeGJDOEhxbjVqUWVpMU96Mm4wcFNBVG5BaVdBZUIwYnN3WXNsWEZld000V1ZrMl9SR0pVZFB0a21rTUV1U3NJajhTUTN6bjBmVmtIQmhtRWxyV1dyemhvcDFrT1J5TmItcGJyVmt6VGY0VW9nZVBVZ2RIalNEOUhKRGRybVgtdzBPMkpzRTBicXpTaGw3c29vUXhiR21hVmVlWk10NzgySGJwbV9MSWpLeXVpT2hJT1FqU05XTXlZMGQwS285QlhudnBJdkhrMGlRbVJsX0h5alBn?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:03:46 GMT",
+      "summary": "Nvidia hisseleri, CEO Jensen Huang'ın iddia edilen bir Çinli casusla ilişkisi üzerine yapılan soruşturma sonrası %5 değer kaybetti. Böyle bir gelişme, şirketin yatırımcı güveni ve düzenleyici incelemeler açısından risk oluşturabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital, police say",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYlNIYWhOQzdvWjlnaU53QlVSZEhEMnYzZU5Zd2Z0TlFJVVQyeW5RSnRXN3ZhUDdFTE01Ym1jWEdEZ2szYVBmdk5YNWZaQl9lLVBEUkw5SWtLc1ZQMWRPekJqeFdJbGVJX2IybnljdThJQVFqYWluNll4WVBEOUtqVlYzQWNTVi1CYUdobE9WcUdBc1dGMFlqLU1ON0lzbzA?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:00:00 GMT",
+      "summary": "Polonya'da altı kişiyi öldüren sağcı görüşlü silahlı saldırgan hastanede hayatını kaybetti. Olayın kapanması, terörle mücadele politikalarının değerlendirilmesi için bir fırsat sunabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Pope Leo delivers veiled rebuke of austerity measures in predecessor’s homeland",
       "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLUtZb0dfOGJYM05Sc19JWTRocFdJQ2c0SG1HbS1JREVpX1ZqUWRZUDYwNE5JX3BRekJKUEFxNkN1bzE0Uy1rcWVsMkZPdmtoQzdCX1RncHdXT2VWakQ3X0R5RW9MNDFfOExOcTgwZHJtN2piZDJjQ2l6RnFpM2YzUWk5Q0NBamdtV0tKajFBdXlMUXVzZlZYQ3RaX2VnUG56WHlhQ2RuOEFCQkNDZU9WR2x5QmI?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:32:35 GMT",
-      "summary": "Bir uzman köşesinde, günün belirli üç saatinde felç riskinin %72 oranında artabileceği iddia ediliyor. Böyle bir uyarı, bireylerin günlük rutinlerini gözden geçirmesi ve sağlık bilincini artırması açısından potansiyel bir farkındalık yaratabilir."
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGZQb2t3dmtrRk9rN2l1TWhaV1E0NWdsUFJNbzRCb3RPSWsxRnN5T0V5X2FCM0ZpWEtvd1NhcTVmTVYtWmZvQlNBbFpmMWV1VHR0STRzcHBEeHRlVkRQOEJIc0h6QmZWSndTLVh0M0hWYmFiOF9jYkpQNWVuS194S0tOQUNNR2s5VS00dUsydFh3amF2MHg1MEpURFdLWHNoNE1XejlYZUtXNnNxYUE?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:59:21 GMT",
+      "summary": "Papa Leo, selefinin memleketindeki kemer sıkma politikalarına dolaylı bir eleştiri yöneltti; ekonomik adaletsizliğe dikkat çekti. Bu açıklama, Vatikan'ın sosyal politikalar konusundaki tutumunu yansıtabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Restaurant chains refocus on food quality to bring back diners",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4b1docjM4TzdsZGN6MnBiRzA5R1Z4YWFWNUtxVC15bzRsV0VqbVFRZnNmM1AwLTlLN0hldUxMT0lBMzlabWowY0Fsallscl9PdXBpNTJ6STFRSGVlNlctQnJ4eDBzY0Jkd0lvRmV6VzA3cWllZ0h6WGg3d2FWdw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:00:01 GMT",
+      "summary": "Büyük restoran zincirleri, müşteri sayısını artırmak amacıyla gıda kalitesine odaklanmaya karar verdi; menü yenilikleri ve taze malzeme kullanımı vurgulandı. Bu strateji, sektörün pandemi sonrası toparlanmasına olumlu bir ivme kazandırabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Bears QB Caleb Williams undaunted by 4-INT night in win over Bucs: 'I'm going to keep grippin' it, keep rippin' it'",
+      "source": "NFL.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWWxrbzhPVlZNTk5qbWdwQWZNRHZFQ1AxM2gtOXlvZlJ5d2lZVmx4Z0U1QkN4d0wwQzN2MnRFNTZzNDZGYktoVFJvcjVHZVF4WGtudWh4YUxnZTliWXU0eHpZd0Y3Ylc4NjhaNko1b2lmSENkNXpWajYySEdTV1N4ak1La3RNdVQxS1VNVFFWTWpUZmt4QUZyNzFaTkFpY2IzbFVzTzduX0tBUllfUUpvRklvQWtYcmhCQmJXM2plZU5rZGdRSnhlSEM2d1dCNVE?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 11:49:38 GMT",
+      "summary": "Chicago Bears quarterback'i Caleb Williams, dört turnover yapmasına rağmen Tampa Bay karşısında galibiyeti kutladı ve özgüvenini korudu. Bu performans, genç oyuncunun gelişim sürecinde dirençli bir tutum sergilemesini işaret edebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Scientists discover a surprising link between acorns and lyme disease",
+      "source": "Science Daily",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XaXpRSGdQV2hvS1NrZm1MNkZoQWhYRDRWNnNXa2JkVVhfVm9IQ244b0UzcThNakJUWTlUdGhadzFfclZ0c1JWR0NseF9Ld05melhiYUx3MG9MX3ktVTlYWmdyaEk2MndVbGJBVHBBMA?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 11:47:38 GMT",
+      "summary": "Araştırmacılar, meşe palamutlarındaki bazı bileşenlerin kenevir hastalığına (Lyme) neden olan Borrelia bakterisinin bulaşma olasılığını etkileyebileceğini keşfettiler. Bu bulgu, hastalığın önlenmesine yönelik yeni stratejilerin geliştirilmesine yardımcı olabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Death toll from migrant boat found with bodies on board south of Greece increases to 14",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQjh1WlI3MUtnZGRPaXRiM2dFcXhfcllPbmNXRGhVOE5VZnh5YmZnY1V3YnpuTXlqZXhaaVQxUFlDcmdXZC0tWmw4dG1NVW50V3VuVGp4bGpETF9EWXVGTEJ5bUlVZUFPOFZGN2hLbWl1MFJuY0lRT0VDU3F1MGdWblB2NUFiMHlW?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 11:34:00 GMT",
+      "summary": "Yunanistan'ın güneyinde göçmenlerin bulunduğu bir teknenin battığı olayda ölü sayısı 14 olarak doğrulandı. Bu artış, bölgedeki göçmen krizinin hâlâ ciddi bir risk oluşturduğunu gösteriyor."
     },
     {
       "cat": "Dünya",
@@ -494,97 +566,61 @@
       "source": "AP News",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3k5bUZCVzZ3bmpKMWtIVlVJM3YxWHRkUFpyQ0hjNE1WNWpUUkhwNldwZ0tkSmZxLWFUNzlZSzFSUjdIallGc3hDazdfMkUteWhyUFFhdmVFUTJscWNNQXJfMk5KRmdfN0Z5RTJ1anNrYWl2RXVpWlljR3AzMnhnc1FGVHd2elp2UW93Zkh6VDJvOTBDRWF2MERMclFObmJtNUdQdkk0VVJEVzFVWEZTdHJOVQ?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:28:00 GMT",
-      "summary": "Komedyen Russell Brand, tecavüz ve cinsel saldırı suçlamaları nedeniyle mahkeme sürecinde ciddi bir hapis cezasıyla karşı karşıya. Bu davanın sonuçları, kamuoyunda ünlü kişilerin suç sorumluluğu konusundaki tartışmaları tetikleyebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Democrats won big. Can they lower your grocery bill?",
-      "source": "NPR",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeW9zVGhzTlVWbTlDSXN2LXREX29CN2ZvYjE3S2NTcTgtYlQyVWpyVENsTkFMZEZLemlYWlZHb1UzWmdrYWl1RktDRnY2Y0w1N3I1NnB5Qzk3c3FZel9PeHpvLTQ5eS13UVhxZ2ZweC1jdUhjTk1CS2w5NGZPZjZFTmJPTDJ6TzJC?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 10:00:00 GMT",
-      "summary": "Demokratların seçimlerde büyük bir zafer elde etmesi, gıda fiyatlarını düşürmeye yönelik politikaların gündeme gelmesini sağladı. Ancak yeni politikaların etkisi, ekonomik koşullara ve kongre dinamiklerine bağlı olarak değişebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Ukraine Peace Talks Resume This Week in Abu Dhabi",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOE9NUS1DRlJBNF9FaU1BcU5LNjFfX2I2eHRaRkYwOXdLWmdyLU5aUjdLeVJ1WV9nTUQtYVhXNkFfTjQ5dk5hdzJneTJxS0FmNHZKODR0cHpiUTVBanU5S0JGbk5ZTXBjaWNXWGFXN2hRRy13UGZEUWZkUGR4SEl6ODduQXNjQQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:59:53 GMT",
-      "summary": "Ukrayna ile Rusya arasındaki barış görüşmeleri, bu hafta Abu Dabi'de yeniden başlatıldı ve diplomatik temasların sürmesi bekleniyor. Bu sürecin ilerlemesi, çatışmanın çözümü ve bölgesel istikrar için kritik bir adım olabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Hakeem Jeffries has a choice to make: Will he work with Trump?",
-      "source": "Politico",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGk5dk9MQkdvRXVNNDB1Q3pzdjhmWVBYRHZoLWxNTU1fMmNKSE9wZk1vZG4yTVU2ZnVFSDE4UFdjVW1SdW9xZ2ZfSTVtU1RPS1M0NGktWmY0di0tOFBnd2dESUR0ZFJZbkhyaU9MQk5jWmgwa0FtekNOdEcyZFdmWUhzbW1kbEVfS0JPWQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:45:00 GMT",
-      "summary": "ABD Temsilciler Meclisi Başkanı Hakeem Jeffries, Trump'la iş birliği yapma konusunda stratejik bir karar vermek zorunda. Bu tercih, Kongre içinde parti dinamikleri ve gelecekteki yasa çalışmalarını şekillendirebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Caleb Williams: I could throw 100 picks and I wouldn’t get gun-shy",
-      "source": "NBC Sports",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUjhENXNtTXhvd3pEUy1QYTMzakdUaHh0U2RkUVk3OEZ1aUxteVZBNWpoMm0wbUFGMUNpZG8wTWEwNzBablduMTVaWVd2Qkt4Y2FKUE5GU3VLZ2o1VHNEV3ZXYmZFUDViMk5IaXR4MTJTalpackFYdXM2QXdGbXdmNUdycVRxODZtMnFXSEJvWFl5bFh6VXlKX2lyejBYeEJmbVh1R3lSd3N4Q0JlYUFGV2RtUVdOVXdVdlh2Snd3aHQtdUNR?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:20:38 GMT",
-      "summary": "Kaliforniya Üniversitesi quarterback'i Caleb Williams, draftta 100'den fazla seçimle karşılaşsa bile çekinmeyeceğini iddia etti. Bu iddia, genç yeteneklerin profesyonel spor kariyerine dair özgüvenlerini yansıtabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Chris Brown's Baby Mama Diamond Working to Get Her Hands On His Bank Records",
-      "source": "TMZ",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOG96Vkkta3ZXWGk4WWcwekRDUXUyLS0zeG9xMEp4TlZhNFVOTkFyR0lJWjQ3dmp1Mi1xUVYzdHlFWWd0TWh4aFdfRkZaUFhmMVFUd1BHTDlLNFJxeDZMTjVuSldIMXNkVm1aX09ENnpnTVhUcm9WUmNVcmJEQkcxU1FLanBFcW4xcXo5Z2xEMURsaG1fZEE?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:00:56 GMT",
-      "summary": "Chris Brown'ın annesi Diamond, eski eşinin banka kayıtlarına erişim sağlamaya çalışıyor. Bu durum, ünlü çiftler arasındaki mali anlaşmazlıkların medyada nasıl yer bulduğuna dair bir örnek oluşturabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Man accused of killing 6 in far-right shooting rampage dies in hospital, Polish police say",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYlNIYWhOQzdvWjlnaU53QlVSZEhEMnYzZU5Zd2Z0TlFJVVQyeW5RSnRXN3ZhUDdFTE01Ym1jWEdEZ2szYVBmdk5YNWZaQl9lLVBEUkw5SWtLc1ZQMWRPekJqeFdJbGVJX2IybnljdThJQVFqYWluNll4WVBEOUtqVlYzQWNTVi1CYUdobE9WcUdBc1dGMFlqLU1ON0lzbzA?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 08:25:00 GMT",
-      "summary": "Polish police announced that the suspect responsible for a far‑right extremist attack that resulted in six deaths has died while receiving treatment in a hospital. His death ends the criminal proceedings against him, but investigations into the motives and network behind the shooting continue. This development may be significant for understanding the extent of extremist violence in Poland, though details are still emerging."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
-      "source": "NPR",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwYWJFT1dCdDRmNzJ6UXBoa3d0b0p1NERidXFza0VhaDJoTFl4NzVzN3pnSkFHUDF0N3ZFeVE3Sk03SnZXVUxVTmxURDdDZzlwcmpBT1B5MkUzX2Y3X0ppRW9BVHNCVHB3MUJzc3pPZDZYQWhvcHVCX3Q5a0VFUQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 06:20:44 GMT",
-      "summary": "The recent failure of a major Paraguayan bank caused widespread account freezes, leaving millions of citizens unable to access their savings and triggering massive public unrest. The crisis also contributed to a political shake‑up that forced President Mario Abdo Benítez to resign. The episode highlights the fragility of the country's financial system and could influence future regulatory reforms, but the full impact remains uncertain."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Patrick Mahomes proves he is indestructible while Joe Burrow, Ja'Marr Chase and Tee Higgins light up Madrid - NFL Sunday Review",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOYUcxSlVpb1haOE45SXFWd1VmTXlPWFhHRlRUa2doZHZ0dlZwOEZGRXE5Z0lQamlyRDA1UmdUTzJDT0xTaXBLVEFGYjVTZW9HNG9Jd1MzemFNc0JjeUQzenFwT2xjcXkxcWh1d2hHdlhIQTQwX1Zqd1NDbktqODh5c2lYVVNLek5TRHVuQTliTFVqb0lxRmx4eXB5cGI1RXZrU1p1clZ6ckE0UWVMdmpsWjc3aUN1UkpwV005X1lVLW5pUnh2czNrbGZDT05hUzBGYjlmUk9KaXdjWmt2RnBISzJ3WDFqV2JKYkcwak5fR3ZDN01pTHlodkR5WQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 06:19:06 GMT",
-      "summary": "In a high‑profile NFL exhibition held in Madrid, Patrick Mahomes showcased his resilience by playing through an injury, while quarterbacks Joe Burrow and receivers Ja’Marr Chase and Tee Higgins delivered standout performances. The event attracted a large European audience, underscoring the league’s push to expand its global footprint. This could be important for the NFL’s international growth strategy, although long‑term effects are yet to be seen."
+      "summary": "Eski komedyen Russell Brand, tecavüz ve cinsel saldırı suçlarından yargılanarak uzun bir hapis cezasına çarptırıldı. Bu karar, yüksek profilli taciz davalarında adaletin uygulanması açısından önem taşıyabilir."
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Arda Turan beraberlik sonrası açıkladı: 'Oyuncularımın bu davranışından mutsuzum!'",
-      "source": "Hürriyet",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOTlPSmwyTndnTEVaaHRMa2xGcVlRT0wtTlZTTkFtQ0xuVGtfczgxbFMwMmlYTmlJSFVNS1lESlNERlBNUG5NbmNib3VuOEVmY09KMFdZcndCUncxQ0lIMm44VmhvamZfVGlsZXRKSGRsSTM5SUVVWUJSa3Q5VDJHUUh0SEVRVVN4d2xqMkZUbEltcmlwRFpaQ21vcjlKOHpqc2xBaENFSE9NTGVRV1dkSmhzWENUbVd0akxqQ3JfQTdIalU?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:48:14 GMT",
-      "summary": "After a recent match ended in a draw, former Turkish international Arda Turan expressed disappointment with his players’ conduct, stating he was unhappy with their behavior. He called for greater professionalism and discipline within the squad. Such criticism may affect team morale and could prompt changes in coaching approaches, but the exact outcomes are unclear."
+      "title": "Otobüslere 5 bin ek sefer konuldu, biletler tükenmek üzere",
+      "source": "Sözcü Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUDZWUW9wV05PVXBpeDVkT2h6ZEhxRmNrRFhRWVBfN18xYWZyQ25RQUY1N19XTV9TTXE5ck1MYkpIdGRrVi1ISXlCaU1nMEM1NlhvVnJXSk1OUjZXeEdhNU81SWNFWDdrNnhVOWFoQzhub0EyT2FoOUVxR3BOajJwQXpIRGxoQktqLWw5X29GUmRhZzVq?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:32:46 GMT",
+      "summary": "Belediye, artan talebi karşılamak için otobüslere 5.000 ek sefer ekledi ve biletlerin hızla tükenmeye başladığını bildirdi. Bu durum, şehir içi toplu taşımanın kapasite sorunlarını gözler önüne seriyor."
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "111. Dönem Kaymakamlar Kurası Töreni | Cumhurbaşkanı Erdoğan’dan önemli açıklamalar",
-      "source": "Hürriyet",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMUpzUS1ESl84T1ZDS3dsYmtDaDMtVWwxZm1CaHFxUHlXWHYySjhnTXV5VUthNG1QbHR4bTJMSHQwU2hjajVoZ2xBdDJTQmYxcGl3eGk4aFo0WThZbzdEQnBVTzVNcEJiWWRDUEZDNlIzZ3lwUm9jeDB4UkJfWW1QRDNiWUxBUmxkYzFkdFRUUnp0YVR1VllsVEdfdEVVT2stRnhSMF9LX1BqOUJZbUlIS2d6alBQeFJSZDZiQmhMRnI?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:33:38 GMT",
-      "summary": "The 111th term of district governors (kaymakamlar) was selected in a ceremony where President Recep Tayyip Erdoğan delivered remarks emphasizing public service and regional development. He highlighted the role of kaymakams in implementing national policies at the local level. These statements may signal upcoming administrative priorities, although their practical implications will depend on subsequent actions."
+      "title": "Rusya'da HIV alarmı! Hastanelerdeki ihlaller yüzünden yüzlerce kişi hastalık kaptı - TREND",
+      "source": "Mynet",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbHRrMjl3MFlKcDE3dEZsekwwX2xwT2xLN3pvbXFoTGJGRnVWNUg5ZGFHMDV5UXpXQlFWbVV6YjVRYWp1NHEweWR5ejdHU0ZoVnZKT2c3R2pSbkxwY0hJemt4UUw1T1Y3eUNOQlhQdkVjblhvWk5QQjVxQnpiRmE5WmQ0dUFiNHJWUmtNNXBleWxvTUJCcVJrYTc0V2Q0bHM1SW1kMWVsUEhVM2Q4Zk43VnVYTUdaY0HSAbwBQVVfeXFMTmpaVHc5Uk5pT25lVmpLNFZEM2hGOFdBMVRXMjlrTkxHMERkRkVLaDFpZ3lXckVsOVN1YTV6NktOQ1lYZHpxeWdOUlNMU2JaakFTNTZhdzVpRUpfY1JLelN2dmNsbGNvZTF6Q2gwNGgwVFRHUElSeHRVT0wxWkVCcXdZNGpRWnBkbnpteGJYeENkQU5aOU9acktfYkpqbzJQdHViUkVSZE92SDVBRFNTa0ZxOUhGM0c3c1J3Xy0?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:19:42 GMT",
+      "summary": "Rus hastanelerindeki hijyen ihlalleri nedeniyle yüzlerce kişinin HIV virüsüyle enfekte olduğu ortaya çıktı. Bu gelişme, sağlık kurumlarında enfeksiyon kontrol önlemlerinin yeniden gözden geçirilmesi gerektiğini işaret edebilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Son Dakika... İstanbul Cumhuriyet Başsavcılığı'ndan Mustafa Sarıgül hakkında açıklama: Soruşturma dosyası Ankara'ya gönderildi",
+      "source": "Cumhuriyet",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaENRUVBhWWM4dnU3a09OaGZfdExGTjF5bnY4ZHNod1dyN01UekxJUFdoTmZTYmtSRmRDbDZVSVhIemo4T1BidFFtdFlzSGVzU2wwcElCTURENmFWVXBMRkJfRVdvMERVbWtVM3BqNU5iMGwxRFluN3hCdHFmVklUNjFaeVFYSDRTNU8xWnI2RXpnZ0FKYllKWFZkVzI3bXExUTYwbzhmOThpSHFGQXl4bk1FZzgzNWFNcGFoOUN1b28yQVJPYmZDeEdPenBfOU0wMXU1M3BmOHpKNWMzc0hrczlGWnA1eXQ3ay1YZ2c5enZIRmNkSnpDN0dXRE8?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:06:00 GMT",
+      "summary": "İstanbul Cumhuriyet Başsavcılığı, Mustafa Sarıgül ile ilgili soruşturma dosyasının Ankara'ya gönderildiğini duyurdu. Dosyanın taşınması, siyasi figürün yasal sürecinde yeni bir aşamaya işaret edebilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Avrupa Yakası ve Karadayı'da rol almıştı! Ünlü oyuncu Şafak Karali'ye veda: O benimle yaşayacak",
+      "source": "Milliyet",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOS0JoRnh1T2x1YXY5enRKT0tHejJqMXpVdDVCWVk0UklTWW9CU0NRQUFwU2JWejNvQlFjaFhRa2owLW5KbU1UbHlwWXVER29UVzA1QzBCMjRuMTAxa1JvZlJRN0d2MXlSSGt6SldlV3Q3VEdDaUpmTnNUd0xPWlUwem1PSG5jX0FRTE9rV1VRT3V0Z3dsM1FpbE00Vkdhdk94RlVKWlRXLXlyb1p4VF8tVmFJRnJxZUxLanloMWtDNnRZTVNNOVp3NXhIMWNaZEpY?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:41:27 GMT",
+      "summary": "Avrupa Yakası ve Karadayı gibi dizilerde rol almış ünlü oyuncu Şafak Karalı vefat etti; yakınları onun anısını yaşatacağını belirtti. Türkiye televizyon tarihinin değerli bir ismini kaybetmesi, sektörde duygusal bir boşluk yaratabilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Son dakika: Adana'da korkutan deprem!",
+      "source": "Sözcü Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGlIcWV6VFdWeExjNGZQZm1qVE4wWTl4ZE1nQmMweU9NR2JEZk1yVFZOYzY3dEI3NGl0a1JHOGlNQ3c2Q25fYnBvclFXd211X1NQbE5EdzJJaXl4MTJqUUdBaGlFenJtMGswZnpqX3kxTWxnZDJ4UkJ5YnZPaVhwZ1UzM3o2QQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 12:38:00 GMT",
+      "summary": "Adana yakınlarında şiddetli bir deprem meydana geldi ve ilk raporlarda bazı hasar ve yaralanmalar olduğu bildirildi. Bölgedeki sismik riskin hâlâ yüksek olduğu bir kez daha hatırlatılmış oldu."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Kredi kartı ve kredisi olanlar dikkat: Tek tıkla öğrenilecek",
+      "source": "NTV Haber",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ3pCU1pvb0ZxaEtIcHFBM3h1eTNNSGpMbmxEcU9qQWxuNGpBdElNUlp6WXloVW1BMjE1anpFbDVoSHpkVHlueTY3YnVfbkFhTjI3a3NoRk1hMDdpSnVZYlEzOTJpQTVfaXNyNEdNTmxZQjVwcjhiblFUVVBlczJjU1dlYkNvb0J3cUNXSlFhRWY1dmR1bFlJaERRYlpiUnBMVVZxc3p4THQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 11:51:49 GMT",
+      "summary": "Yeni bir çevrimiçi hizmet, kredi kartı ve kredi sahiplerinin tek bir tıklamayla hesaplarını kontrol etmelerini sağlıyor. Bu araç, tüketicilerin finansal durumlarını daha şeffaf bir şekilde takip etmelerine yardımcı olabilir."
     },
     {
       "cat": "Gündem",
@@ -593,16 +629,7 @@
       "source": "NTV Haber",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVNqeG5wSWZmdjNuVzVWTW5JRWh6cDh4OTVYYkZkQkV0WHk5THNMaW55bmdHT2FMaFVaT0pjX2doWTVzX0hhNUdET2FwaUg3T2VUWmxjVy1WWWdKRFNocFpiWG1vS0szdjJDLWE4eFhOa3Y0VEhlYTBWY0dHYVN1ZUs4RFk2SXdBZXpneHNnekhLb3YzRE1WSmI0MndlczRv0gGmAUFVX3lxTE15d1JVcUpBRUljaUZDaWZTVTQtNVotWUxzSlM2RDVycW83Mzd2VnF0OHVNaXExYTBqNUVRN1ltSmJSNWdEeHpJMjhnNHV4dFdVYXlmdFVvRE01Y3ZZRHNlb1pmTTJzMFNZdUx5UVlMcnJiQWcxMlg4VVlCdEZRdExtYUdhdG12M0twSzFSbmlPU0ZyOTBnRWlJMGVqX2FYWGNockprdFE?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:15:43 GMT",
-      "summary": "The nation commemorated the 88th anniversary of Mustafa Kemal Atatürk’s passing with ceremonies and moments of silence across Turkey. Officials and citizens reflected on his legacy and the reforms he introduced. Remembrances like this often reinforce national identity, though their influence on contemporary politics may vary."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Elektroşokla hayata döndü! Ölümcül ritim bozukluğundan bilinci kapanmıştı",
-      "source": "Habertürk",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY0pxYUVXVnEtNy10SEo5MG4zUFpkZV9FUTNuMG5sS3NkcEl2YWs4d0M1allZNzZjSDVVV0RROERVT01tbDBobzJ4WEZsZEtvNFJLTUhzMFM2a1dVS0I4bm5YSXhwT3BkRnpNU0NEOXI5R20ydnZwQ08tVHVYOHg3b2xVUWp5TUNzNThWTXlFQUZDV09jZlRj?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:15:21 GMT",
-      "summary": "A patient who had lost consciousness due to a life‑threatening cardiac rhythm disorder was successfully revived after receiving an electric shock (defibrillation). Doctors reported that the procedure stabilized his heart and restored awareness. This case underscores the importance of rapid emergency response, though its broader relevance to medical practice is limited."
+      "summary": "Mustafa Kemal Atatürk'ün ölümünün 88. yıldönümü çeşitli törenlerle anıldı ve mirası üzerine değerlendirmeler yapıldı. Bu tür anma etkinlikleri, liderin Türkiye üzerindeki kalıcı etkisini hatırlatıyor."
     },
     {
       "cat": "Gündem",
@@ -611,7 +638,7 @@
       "source": "birgun.net",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVU9oVEZhRWNpdHNnRy1BS3d6NmswNHNaTHRHRnAwUWZyQlR5ZXZfU1kwUVdiUl9oSkszMnEtZjNwZUxhR25HTjg2S0pXWTM2RWFIV2hkSk9nWHU3eHVuMkpxOXlJZWlRNEpzNUdzTlpTd3lVSllaRmFiZjJUN1JqODhjeGw5Wk96QWxNTm9EQnJOWm5qSFE?oc=5",
       "pubDate": "Mon, 09 Nov 2026 10:01:00 GMT",
-      "summary": "During a flight, President Recep Tayyip Erdoğan answered journalists’ questions and delivered a statement concerning Turkey’s relations with Azerbaijan. He reiterated support for Azerbaijan’s regional interests and hinted at possible cooperation projects. Such remarks could affect diplomatic dynamics in the region, though the concrete outcomes remain to be seen."
+      "summary": "Cumhurbaşkanı Erdoğan, bir uçuş sırasında sorulan sorulara yanıt verirken Azerbaycan'a yönelik bir mesaj iletti. Bu açıklama, Güney Kafkasya'daki diplomatik ilişkileri etkileyebilir."
     },
     {
       "cat": "Gündem",
@@ -620,61 +647,25 @@
       "source": "Anadolu Ajansı",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORFNybmd0UGtHNjVEYzUxVnM1a3RleE91VTltanNZYUF4Y2ZjVFNKN0ZHWkxKVUw5RGxiaHVXVDlqX05DTjNQbV9vV2dodUxyTkIxNkY3ODJMYnVaaUEwdlVMUFJnaHhsVUphSzlLS2JMYWFNOVZwY2c5MGx2Y1VNOHdEdzJpZ2FmQ3E2aDVzTTlBZDlEZFU2T0NR?oc=5",
       "pubDate": "Mon, 09 Nov 2026 09:54:32 GMT",
-      "summary": "An explosion occurred at a steel manufacturing plant in İzmir, causing damage to the facility and prompting evacuation of nearby areas. Emergency services responded, and no fatalities were reported, though several workers were treated for minor injuries. The incident raises concerns about industrial safety standards, but further investigation is needed to determine the cause."
+      "summary": "İzmir'de bir demir çelik fabrikasında patlama gerçekleşti, olayda bazı çalışanlar yaralandı ve tesis hasar gördü. Endüstriyel güvenlik önlemlerinin gözden geçirilmesi gerektiğini hatırlatıyor."
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Prof. Dr. Osman Müftüoğlu'ndan sağlıklı yaşam için 20 öneri: Kahve saatinden akşam yürüyüşüne...",
-      "source": "Cumhuriyet",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOanRBR1hBaDFDWm9wcmloZGFnUmZQZEZUcWYtMHE1T0NIZm1UQVN1ckgzSGVrZ2dUZlY2OS02YWJYUGE2MFdrYmV3MHAzYUMzVklZbHR2OGZJOWEyMlhFVkhJWk9XbWphemxPaUxBbnhvbHprTmtueThoaTE2Z2tGdktHNkRHaVhpLXFRVk5uTXpsaGhNS25ZZ3Z5MURkQlZRak00cGlDLW1BYjE4YWZ3WEd3ZEhDZFVoSzBRdkNMZVR0aEt2VkJpWkVzTmdxcUVJ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:03:00 GMT",
-      "summary": "Professor Osman Müftüoğlu shared twenty practical tips for a healthier lifestyle, ranging from moderate coffee consumption to regular evening walks. He emphasized balanced nutrition, physical activity, and stress management as key components. These recommendations may help readers improve wellbeing, though individual results can differ."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Aras parmaklıklar ardında",
-      "source": "Milliyet",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iNkM1QnN2cUgxQmlXZklGSllXVDdfRzdrQVAzZWxSR0ltNzNrNXNyaDhLSE90Y0lZc0VyOVhoTVNqbmpacHlMb3drMjlLU0kxQW9URmxMOHBhN2Zoc3VGa280Vk5vUElZMFpldVc4SnBpMVdHMVNNdA?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 09:00:00 GMT",
-      "summary": "The article titled “Aras parmaklıklar ardında” appears to explore the situation of the Aras River region, possibly discussing border barriers or environmental issues affecting local communities. It may highlight challenges faced by residents living near the fence line. Such coverage could bring attention to cross‑border tensions, albeit the precise focus is uncertain."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Çin'den Nvidia CEO’suyla ilgili casusluk suçlamalarına yanıt",
-      "source": "Bloomberght",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTU1WUDFta2gyTzdLS3d3UTV1OTd5Vkw4ZXNIdzZLaDJpUm5GQ283VDdWb2xlTjRHeTNTY2VjTUlKUTRCbHJ2bmVyUEFnMGkwUmpsTlp5eGRJOElsUjV6OUpBRnlEVkhacjNRSFl3ZDA4YWduY052U25RWlFWcmFDODdpcFlQSjBOVExZT0lhaVhWZE1mNDFhbWhGUQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 08:52:11 GMT",
-      "summary": "Chinese authorities issued a response to espionage allegations involving the CEO of Nvidia, denying any wrongdoing and defending the company's activities. They emphasized adherence to national security laws and called for factual clarification. This exchange may impact Sino‑American tech relations, though the full ramifications are yet to be clarified."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "8 Kasım reytinglerinde Daha 17'ye zirve şoku: Ömür Usta üçte üç yaptı",
+      "title": "Arda Turan maç sonunda oyuncularına sitem etti",
       "source": "Sözcü Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM1hvNVZHeF9WT25yUWJSVHY2SUFGY0UtaTZSZjVFSlRjR3FzeC11alQ1ZzJKRV9fSVJ5MVFwdlphS3UtOXdPYW9uQjg4YWQ4X05BNHN4WGtURnRXNXFxenZRLXJHeHBJaXViaXRHcHNwN3BFRU5LM2FUVEMtX2RDTXFGOWNSZ0FSTVlzSFBxZURLampmQUFDS3E0ZUxPSU9JZlVZ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 08:33:28 GMT",
-      "summary": "Television ratings for November 8 showed a surprising surge for the program “Daha 17,” where host Ömür Usta achieved a perfect three‑quarter rating. The unexpected popularity boosted the channel’s viewership figures. This could influence future programming decisions, though the sustainability of such ratings is uncertain."
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdk8tMFpZYi1Sbkd5WkJuVnpwdWRfZGJDc0RsN1p3ckYzUmVhUzBZbmNWVFVRNjBUSUpTamp3bXA1R2dFOWpTQ2QtMk5BN0wzOUQ4WE9TaUFYWEw5YWw0cXVIb2VNekllbWRFU2RtTGs4RXFGYkRLdFBtb1NBT1o5elk2RHJWQQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 09:13:20 GMT",
+      "summary": "Eski futbolcu Arda Turan, maç sonrasında takım arkadaşlarını performansları konusunda eleştirdi. Bu tür açıklamalar, takım içi dinamiklerin ve moralin etkilenebileceğini gösteriyor."
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Eski Takasbank genel müdürü Türk Telekom'dan istifa etti",
-      "source": "Bloomberght",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQURROWluREEtVE52OEpnU3k3UWs2NlNyVWt0Mm50NWhoWk41RkpidXc4T1dQODVlVHdqbjJoMUJRT1JaNl9ZbjRzQ0tyd1FhUHZIOFZOU0syQlI4V3hFZUc1bEEwclJWb2ktMXRyb3luYkozY01iM2EySlhFZ05PREVlWnZscVpfSUdqazVTWklDUGVNOHhN?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 08:18:43 GMT",
-      "summary": "The former general manager of Takasbank announced his resignation from Türk Telekom, citing personal reasons and a desire to pursue new opportunities. His departure follows a period of restructuring within the telecom company. The resignation may affect ongoing projects, but its long‑term impact remains to be seen."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Estetikte yeni trend: Ameliyat olduğu belli olmasın isteyenler bu yönteme yöneliyor",
-      "source": "Mynet",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT3hjcmh2X2dJSDNKNmtRNUJNSERfTEpEYnJ5eERZalFpdU9obDV0T2Ixa0lONjdhZ0NDWE4teWZYMEJ1ZnVLdnUxNnRWeWRHWUlwc2dnaDNDXzRvUF9wZXlpWmZSZ3ktTmdIc3dsbTJ6NHlYSEVQc2xGXzNHU3VpNWxhc3lqcmIxbzY5bVpySDJLLWI4QmdnTFFoMFM2T0FNdjNVV3RJcDhmaFVPMmhLZ1l6V1RjaFc4WFM2LdIBvwFBVV95cUxPQnFDRzI1WnVtZ0RIb21OSDI0aE1oMER0cnVhQjZmWWxPZ044Y3FiT3NCZzBqQXpCd1RpelF3ZVJ1YUlaZktmcE9HTEdVQTJ1aUNYOUMyS09heTd1cDNLQzNQb2JiU0NsYVNqQVJickFsUjV1Um9YR1JKQi16MndBbEpJSDlnNU5oV04zOGdUSmdUUXBEcE1ScE9pRU80SFlEM0pvdHR6RVNvZ1VfVVJTT1F4UFlxODJ2c21CUG5VVQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 07:54:26 GMT",
-      "summary": "A new cosmetic trend is gaining popularity among patients who prefer procedures that leave no visible signs of surgery, such as minimally invasive techniques and concealed incisions. Clinics report increased demand for these discreet aesthetic solutions. This shift could reshape the market for plastic surgery, although broader acceptance will depend on outcomes."
+      "title": "Mustafa Sarıgül'ün korumasının ek ifadesi ortaya çıktı! Oğul Sarıgül hakkında çarpıcı iddia: Bu paralar sus payı olarak verildi",
+      "source": "Hürriyet",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjV6VmZsOTVsQ2VhUG1nRGlFbHNocTFHTlNnck5Wdmg0TlVoa3VXNC1TbHNoYmRwdzNhN3hWZ0F6MUNPcHNVUlIwQ05RRGtaZGlVeTVuakt4dkRta29PeUkzMlJxUGZ6Q1FyY2EtYXVGYnBiV2Q4Vmt5enEtS1MxV0ZkRU1udHM2ekNsdWxrTmpUejd1eHJlUW5ZRmNtUQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 09:05:10 GMT",
+      "summary": "Mustafa Sarıgül'ün korumasının yeni bir ifadesi ortaya çıktı; Sarıgül'ün oğlu hakkında para ödemelerinin suspayı olarak verildiği iddia edildi. Bu iddia, mevcut yasal sürecin kapsamını genişletebilir."
     },
     {
       "cat": "Gündem",
@@ -683,7 +674,7 @@
       "source": "Son Dakika",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUENBR29oOFVsZWcxN2k3Z2ZUQTRmcl9nT0x0NXhqUmRmX1FvVHdPSGJWdWRvN0Z3VHZoOElsY1RwTTNycUdJNmxYNHhIcW9BalJMWVZNTnNtWTVZemhnejlmM0U0WVNrUEh3RDFvbk9udmFJU2pSek83c0RHSkxNdi1VejFQbVVNRWMyYVlfNW1JYks5eWFwVkwyRlRVME1hQ3fSAZwBQVVfeXFMTS1udWwzWlVCMnR1LUJreEo1cUlZdUV3OXJhanJPenNLUUduaEtqMzQyM0xlSUI3LUl2Y1FucGk5U0lsRlQ4X2UwdGk0d21TX2VpMDdaLUx4Q05MLTh6U3JZd1oyenRIeVdWTFFIWHI2TTNDdGEwX0NWczBzaWNPcUFHTHhieDFYLUJrb1d2N2stT3FmbXVCcDRnQ3ox?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:48:39 GMT",
-      "summary": "A traffic accident in Çorlu, Tekirdağ claimed the life of a 20‑year‑old motorcyclist and injured another person. Police are investigating the circumstances, including possible speed or road condition factors. The tragedy highlights road safety concerns in the area, though exact causes await clarification."
+      "summary": "Tekirdağ'ın Çorlu ilçesinde meydana gelen kazada 20 yaşındaki bir motosiklet sürücüsü hayatını kaybetti, bir kişi ise yaralandı. Olay, bölgedeki yol güvenliği sorunlarına dikkat çekiyor."
     },
     {
       "cat": "Gündem",
@@ -692,7 +683,7 @@
       "source": "İhlas Haber Ajansı",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT3N3ZVFWUmhWMFZVcUw4LTRRUlRPOXRna0JRWTdGbGNSUUhsTGNXeWxVWWZ6MzYweWdxM2hDcDkzbEk3Ty1wSWxpUTZ3djJaZl9Bbm9PMjNqZkhIdHlnMHJaNnFPM2RoMGtmc2M3VjZUcmZEOXRXVm5ad2xwRjBLNUFtYmd1MDhYOGYwX2ltaHBiQQ?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:44:14 GMT",
-      "summary": "A vehicle collision in Çorlu resulted in one fatality and one injury, according to İhlas News Agency. Emergency responders arrived promptly, and authorities began gathering evidence. Such incidents may prompt local authorities to review traffic regulations, though definitive measures are pending."
+      "summary": "Çorlu'da bir trafik kazası sonucu bir kişi hayatını kaybederken bir başkası yaralandı, İhlas Haber Ajansı bu bilgiyi verdi. Bu tür kazalar, trafikteki güvenlik önlemlerinin artırılmasının önemini vurguluyor."
     },
     {
       "cat": "Gündem",
@@ -701,7 +692,7 @@
       "source": "Habertürk",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVXIwV0M4WXhMMVZabjZJcTQwQTlIdnR5QU5hVHUyOUt3REQ5ZlFrX3dMcUNURDBuT3IwTDlaYVY1aVltUFE1LVp3bl9HaEVwM2lCd3B3MXZiUVRkYUJ5djh3ajlTakZWNkx3UG4zeWptQ0xqdFQ5cUtKMFltbXV1elU1VmZVRzFUWUFYdjd5NlJLTnBVWFlyVl8tUWdqTGxNc3BGdg?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:44:00 GMT",
-      "summary": "In Çorlu, a traffic accident caused one death and left another person wounded. Witnesses reported chaotic conditions at the scene, and police have opened an investigation. The event could raise awareness about driving safety, but concrete policy responses are not yet clear."
+      "summary": "Habertürk'ün haberine göre, Çorlu'da gerçekleşen kazada bir ölüm ve bir yaralanma meydana geldi. Aynı olayın farklı medya kuruluşları tarafından da raporlanması, kazanın ciddiyetini ortaya koyuyor."
     },
     {
       "cat": "Gündem",
@@ -710,7 +701,7 @@
       "source": "Son Dakika",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObWprMzdqUF9ENkZLNkxVS29QT1BBTzI2czYtYzFqNlF1Tkw4MDZBVDU4UWJpSUFWTjR2MklvamtwWlFHMmVibXpUaUVFWGtGRmhkQWlJTVlOV0VXcDJ5WklFenljaWZDc09HdVZfTWZYcU5BNXRZb1dZU05IVF8zbU5PblpIZ3N1MXd6NjVkNUhZUHpNZmV2aWt2eXhGWUU50gGcAUFVX3lxTFA3RU9QWjlRaWtKdHZvRnBuWFlKXzl3cDBZLVdlcGtiVEJZOENvS2lZZlgtVTZsb1BnYkMwbU85N2ZsVVRlbzdQQi1kSkI2S2dUSmZpMWRwMlBwVlYzUGxNRXBYU0pwQ2c2VHFqOVk3TFVCc1J1Nkt0UFRDOWdWRTVfNXlscXZuYmtWR3RWc1V6Ri1BQjVYUG9OcW1Fag?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:29:19 GMT",
-      "summary": "A driver in Tekirdağ who lifted the front wheel of his motorcycle in front of police officers was fined 46,000 Turkish lira for reckless behavior. The fine reflects strict enforcement of traffic safety rules. This penalty may serve as a deterrent for similar stunts, although its broader effect on driver conduct is uncertain."
+      "summary": "Tekirdağ'da polis kontrolü sırasında motosikletinin önünü kaldıran sürücüye 46.000 TL para cezası kesildi. Bu ceza, benzer tehlikeli davranışların caydırıcı etkisi yaratabilir."
     },
     {
       "cat": "Gündem",
@@ -719,7 +710,7 @@
       "source": "Haberler",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRUQ1TncybFZRRGtDdmgzcUUzbmFLcVVtRFJPaldhTW1zY0NSSlpOREdyVHhOVlR0dUk0dUpmVTd3T3VKOVpnN29oZzcwT2tELVdyT0JsZDBSNHdtMWJkcGgxTVpTNGt6bVFCaUIxRW9tbzZ0UFh6RC1BZHRJbnJYdFY5WV9uc3RTd01GQ1VuQ2JjLWFwRWxYRkd6cFfSAZgBQVVfeXFMTmc2SVNKZ0RuMmdyQlE5YkR3M1NfY0VydWtDbjRTeWhOVDdlZ1VSblZnaHE5bFZLR2dGRnlGc0NNcDdfSGR0ZklUM2FSeG1UMUlnYXc4QjBKb05kbTlhM0FndW0yRDVNSDBrekRJZTBwVVR1djdoVWRHR3ZyWW9JbWVZblVfUEJubzlGRFJYdm9MX1EyU2pGMzI?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:25:30 GMT",
-      "summary": "Authorities in Çorlu, Tekirdağ imposed a 46,000 TL fine on a motorcyclist who performed a wheel‑lift maneuver in a public area. The sanction underscores the city’s zero‑tolerance policy toward dangerous riding practices. Such enforcement could improve road safety, though its lasting impact will depend on continued monitoring."
+      "summary": "Çorlu'da motosikletinin ön kısmını kaldıran sürücüye 46.000 lira tutarında ceza uygulandı. Yetkililerin bu tür yaptırımları, kamu güvenliğini korumak amacıyla artırması muhtemel."
     },
     {
       "cat": "Gündem",
@@ -728,7 +719,7 @@
       "source": "DHA | Demirören Haber Ajansı",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUUV4YklKQ1V6QVNpZmRqNDlQUWppdC1hMmRkNEp1WWJDWTMyWE5pR2hPX1RTYTJ4ZTRXVUR3Rzk1RVJmZzdCQzctRlRlU2RJcVFCLXdDZWpuX0lnTGdqbkVGT3JnRWhSZkJUT3d5Slg5RXI5M1lUZmdmYnNTMXVUR1BneEliSzFtZmd3QzJRd0ZrN2Q3REEwYnhSWXk3cFZTaGJDOWNPYmZDSTdP?oc=5",
       "pubDate": "Mon, 09 Nov 2026 11:24:48 GMT",
-      "summary": "Polis kontrolündeki bir trafik denetimi sırasında bir sürücü motosikletinin ön tekerleğini kaldırmaya çalıştı ve bu davranışından 46 bin TL para cezası aldı. Bu olay, trafik kurallarına uyulmadığında uygulanabilecek ağır yaptırımlara dikkat çekiyor."
+      "summary": "DHA'nın haberine göre, polis kontrolü sırasında motosikletinin önünü kaldıran sürücüye 46.000 TL ceza verildi. Bu uygulama, sokaklarda tehlikeli süperson davranışların önlenmesi açısından önemli olabilir."
     },
     {
       "cat": "Gündem",
@@ -737,7 +728,7 @@
       "source": "Tekirdağ Habertrak Gazetesi",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tODhXbWNIb1A1SzlLSTEyTXI4bkJYQkdfU2N5MURLRWZHOVZhNXVwV2FuUEM3TUdvZXMyZ0JMM0IzZ2hFTm9mRUVxVERESzNXVTliZk5rY2VfcW1wRXIwbW5icTlDT3B4UHI2UnhMdw?oc=5",
       "pubDate": "Mon, 09 Nov 2026 10:15:05 GMT",
-      "summary": "Çorlu’da meydana gelen ciddi bir kaza, yol koşulları ve sürücü hatalarından kaynaklanmış gibi görünüyor. Böylesi ağır kazalar, bölgedeki yol güvenliği önlemlerinin gözden geçirilmesi gerektiğini hatırlatabilir."
+      "summary": "Çorlu’da bir kaza sonucu birden fazla kişi yaralandı veya hayatını kaybetti. Olayın detayları henüz netleşmemiş olsa da, böyle bir trajedinin bölgedeki trafik güvenliği konusundaki endişeleri artırabileceği düşünülebilir."
     },
     {
       "cat": "Gündem",
@@ -746,7 +737,7 @@
       "source": "Takvim",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSGIzaWJDY0NPUGxObXJOTEJQX1U5OVRtZ2RwMGZzZ2JiY2RFMTdDRkkxTlF1ZHpwTDF3SHFrVjQ1b29KeXFTQnB2a3AxUjBvYkwwWU5ZT1F1bnluY05aZmJKQ1dLd0N4YmhRbmpnWGF4THVTYktkUkg2LVFSZEJuN3VjYVN6cURVU19ZVXFBMXNjTkFWQUVEZFFaVW5xVE9BekVQbnBfOTVtUnlIM243WVlHOE1Ia1owSjFWdEtR?oc=5",
       "pubDate": "Mon, 09 Nov 2026 09:26:09 GMT",
-      "summary": "Tekirdağ’da bir motosiklet kazası gerçekleşti; kazada bir kişi hayatını kaybederken bir kişi de yaralandı. Bu tür kazalar, motosiklet sürücülerinin korunması ve altyapı iyileştirmelerinin önemini vurguluyor."
+      "summary": "Tekirdağ’da bir motosiklet çarpışması gerçekleşti; kazada bir kişi yaşamını yitirirken bir başka kişi yaralandı. Bu tür kazalar, özellikle motosiklet sürücülerinin güvenlik önlemlerine dikkat etmeleri gerektiğini bir kez daha hatırlatabilir."
     },
     {
       "cat": "Gündem",
@@ -755,7 +746,7 @@
       "source": "Dosya Haber",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLTJRLUlEcVVfN2ZKVkpTeUg5bnRiSkpkNHJNVEUwMlR5dDZIUDZpU3Npb3JMR0dkYnhVYVNwSWtOd215RXRHR0tOQTRfUFQzQXA5c1dYU3JUUHhfdFBoam5hYkd3NHRGdE0xQ2lzbUk1bTFKZjVsSDhMVVkyT2hVVkRMakd6VjBEWlcwbk1ESy0zMXlJR25fRjk2VlAxbFc3OXg1MA?oc=5",
       "pubDate": "Mon, 09 Nov 2026 08:19:38 GMT",
-      "summary": "Tekirdağ ilinde yapılan uyuşturucu operasyonları kapsamında Çorlu ve Çerkezköy’de toplam beş kişi gözaltına alındı. Bu yakalamalar, bölgedeki uyuşturucu ticaretine karşı yürütülen mücadelelerin devam ettiğini gösteriyor."
+      "summary": "Polis, Çorlu ve Çerkezköy ilçelerinde yürüttüğü uyuşturucu denetiminde beş kişi gözaltına alındı. Bu yakalama, bölgedeki uyuşturucu ile mücadele çabalarının sürdüğünün bir göstergesi olabilir."
     },
     {
       "cat": "Gündem",
@@ -764,7 +755,7 @@
       "source": "Habertürk",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDVDVVZpZDFHODhheWhJQW1sVk5aQWM4RE9fcUxyZExVMlBKNjBNWGhOUXRfejJYVENueTFaOC11UmNDRUlyWEFqSEw3Tng4RFZmcm05c3VGaks4dlJMZXFvQlVEWUdLdlhpMTRfR1BPZ3dkUWJhSUZPLS1kTzQ1RmJicFZDbFRYZFNOeDhja3Y?oc=5",
       "pubDate": "Mon, 09 Nov 2026 07:53:47 GMT",
-      "summary": "Tekirdağ’dan kısa kısa haberlerde yerel etkinlikler, spor başarıları ve belediye duyuruları gibi çeşitli konular özetlendi. Böyle bir özet, bölge sakinlerinin güncel gelişmelerden haberdar olmalarına yardımcı olabilir."
+      "summary": "Tekirdağ’dan gelen kısa kısa haberlerde, yerel yönetim kararları, kültürel etkinlikler ve trafik durumu gibi çeşitli konular özetleniyor. Bu tür derlemeler, sakinlerin günlük yaşamı hakkında hızlı bilgi edinmelerine yardımcı olabilir."
     },
     {
       "cat": "Gündem",
@@ -773,7 +764,7 @@
       "source": "Haberler",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlNzUlZkdXZ1cDV5b1NZVkQ5Sko0dHVlWnlIZ0lTVTFQYlNETVlROHdsX1c0MmFicHFVbHJxNEFLWmtFZE9TZ1F5dU1aN0dVSzBNSFFLbXhYYk1XZk1PSnY3NmZsM2ZPSWpXTDlLV1kyOGFrNzU5VHplNUozVGxBa2RocVoyWTQyUHdvUXVnUXJSOVpQbTdPNNIBlAFBVV95cUxPR1kxSXlFRVdSTDI0ZzdVQzhORUdFN0xxX2ctZ0U0NWZSLXV6QmdrTmdoOWdGNEFadG5ObkVHQVVBMFlJOWwyRjBUSmVFdmFSWUxNbmdhSlBTcXBGTTJNY1lWR2ZSSVhQNXNmdmZTR0lxTlJHNmp3WlJnc3RUbEE3TmIxc2c0bFRhRXZMMUpEZFRyZkxm?oc=5",
       "pubDate": "Mon, 09 Nov 2026 07:14:32 GMT",
-      "summary": "Çorlu ve Çerkezköy’de gerçekleştirilen bir uyuşturucu kontrolü sonucunda beş şüpheli gözaltına alındı ve yasadışı maddeler ele geçirildi. Bu olay, yerel güvenlik güçlerinin narkotik suçlarla mücadelede aktif olduğunu gösteriyor."
+      "summary": "Çorlu ve Çerkezköy’de gerçekleştirilen uyuşturucu operasyonları sonucunda beş şüpheli tutuklandı. Bu gelişme, bölgedeki yasa dışı madde ticaretine karşı daha sıkı denetimlerin artabileceğine işaret edebilir."
     },
     {
       "cat": "Gündem",
@@ -782,23 +773,23 @@
       "source": "Manşet Haber",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMDZSUENndkFwUlZKMmFadk9BY1N4bVo5WGFmbFpsUVl5NmtQQ0hwZEJ6NDFwNXVjMXkxdXczbFNxLXYzMzU0bmV3OW1zNDNDT1FIX25JRjktNXhhWklfcUhvVktzbEFNQmRDSi1RSk96Q0l3bEg3RHFBSTdEdnlUTDJJZGNCY2ZXb1VWOGNiMXdPR2c?oc=5",
       "pubDate": "Mon, 09 Nov 2026 06:38:00 GMT",
-      "summary": "Tekirdağ’ın Çorlu ilçesinde meydana gelen bir motosiklet kazasında bir kişi hayatını kaybederken bir kişi yaralandı. Bu tür kazalar, özellikle motosiklet sürücülerinin güvenli sürüş tekniklerine ve yol altyapısına daha fazla odaklanılması gerektiğini hatırlatabilir."
+      "summary": "Çorlu’da bir motosiklet kazası meydana geldi; kazada bir kişi hayatını kaybederken bir diğeri yaralandı. Bu olay, özellikle yoğun trafiğin olduğu bölgelerde yol güvenliği önlemlerinin yeniden gözden geçirilmesi gerektiğini düşündürebilir."
     }
   ],
   "weather": {
-    "temp": 11.6,
+    "temp": 10.8,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.19,
     "eurtry": 55.96,
-    "gold_gram_try": 6650.06
+    "gold_gram_try": 6654.74
   },
   "stocks": [
     {
       "label": "BIST 100",
-      "price": 11708.65,
-      "change_pct": 1.97
+      "price": 11709.84,
+      "change_pct": 1.98
     },
     {
       "label": "S&P 500",
@@ -812,23 +803,23 @@
     },
     {
       "label": "THY",
-      "price": 308.25,
-      "change_pct": 3.01
+      "price": 309.25,
+      "change_pct": 3.34
     },
     {
       "label": "Aselsan",
-      "price": 336.75,
-      "change_pct": 1.51
+      "price": 337.75,
+      "change_pct": 1.81
     },
     {
       "label": "Garanti BBVA",
-      "price": 151.7,
-      "change_pct": 5.13
+      "price": 152.3,
+      "change_pct": 5.54
     },
     {
       "label": "BİM",
-      "price": 379.25,
-      "change_pct": 2.02
+      "price": 379.5,
+      "change_pct": 2.08
     },
     {
       "label": "Apple",

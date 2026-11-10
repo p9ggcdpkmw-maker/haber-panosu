@@ -206,6 +206,20 @@ def fetch_stocks():
     return results
 
 
+def fetch_og_image(url):
+    try:
+        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=8, allow_redirects=True)
+        if not r.ok:
+            return None
+        html = r.text[:300000]  # sayfanın tamamını işlemeye gerek yok, <head> zaten baştadır
+        m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]*content=["\']([^"\']+)["\']', html, re.I)
+        if not m:
+            m = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*property=["\']og:image["\']', html, re.I)
+        return m.group(1) if m else None
+    except Exception:
+        return None
+
+
 def summarize_batch(items):
     if not items:
         return []
@@ -238,7 +252,7 @@ def summarize_batch(items):
                 timeout=60,
             )
             if resp.status_code == 429:
-                wait = int(resp.headers.get("Retry-After", 10 * (attempt + 1)))
+                wait = min(int(resp.headers.get("Retry-After", 10 * (attempt + 1))), 30)
                 print(f"  ! Groq 429 (çok fazla istek), {wait} sn bekleyip tekrar denenecek...", file=sys.stderr)
                 time.sleep(wait)
                 continue
@@ -255,7 +269,24 @@ def summarize_batch(items):
     return arr
 
 
+def load_cache():
+    """Önceki news.json'dan link -> {summary, image} belleği yükler, böylece aynı haber tekrar tekrar
+    özetlenmez / resmi tekrar tekrar aranmaz. Dosya yoksa (ilk çalıştırma) boş döner."""
+    cache = {}
+    try:
+        with open("news.json", "r", encoding="utf-8") as f:
+            old = json.load(f)
+        for it in old.get("items", []):
+            if it.get("link"):
+                cache[it["link"]] = {"summary": it.get("summary", ""), "image": it.get("image")}
+    except Exception:
+        pass
+    return cache
+
+
 def main():
+    cache = load_cache()
+
     all_items = []
     for cat in CATEGORIES:
         print(f"Çekiliyor: {cat['label']}" + (f" ({cat['query']})" if cat['query'] else ""))
@@ -270,14 +301,32 @@ def main():
         deduped_all.append(it)
     all_items = deduped_all
 
-    print(f"Toplam {len(all_items)} haber, özetleniyor...")
+    # Daha önce işlenmiş haberleri bellekten doldur, sadece gerçekten yeni olanları işleme listesine al
+    new_items = []
+    for it in all_items:
+        cached = cache.get(it["link"])
+        if cached:
+            it["summary"] = cached["summary"]
+            if not it.get("image"):
+                it["image"] = cached.get("image")
+        else:
+            new_items.append(it)
+
+    print(f"Toplam {len(all_items)} haber, {len(new_items)} tanesi yeni.")
+
+    print("Yeni haberler için resim aranıyor...")
+    for it in new_items:
+        if not it.get("image"):
+            it["image"] = fetch_og_image(it["link"])
+
+    print("Yeni haberler özetleniyor...")
     CHUNK = 20
-    for i in range(0, len(all_items), CHUNK):
-        chunk = all_items[i : i + CHUNK]
+    for i in range(0, len(new_items), CHUNK):
+        chunk = new_items[i : i + CHUNK]
         summaries = summarize_batch(chunk)
         for it, s in zip(chunk, summaries):
             it["summary"] = s
-        if i + CHUNK < len(all_items):
+        if i + CHUNK < len(new_items):
             time.sleep(3)
 
     print("Hava durumu ve piyasa verisi çekiliyor...")

@@ -1,13 +1,23 @@
 {
-  "updated": "2026-11-10T22:15:34.112371+00:00",
+  "updated": "2026-11-10T23:06:22.674394+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay zekâ rallisinde rota değişiyor: Yatırımcı teknoloji hisselerinden çıkıyor haberi",
+      "source": "Borsanın Gündemi",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNFY5NHl1S1BrRE02cDA4cUFZOFQ1WjcybWRvTVZnb2o0TjhYdjRETUhaYXNOdkdIb3FvNkF4a1RsN2lRZDJoeFJ6QVhvYzN2enRKdGxqVVFBbHdUN0JyRHNHblVIVnMzNmdzdmZMTnd2dGFFeDlDVEtIMGg1X0k2U2doOWxjanJhMUN2cndCQkhzelVPTUJuU29zRkh5bUVqRlNRdmQ4RjlGVi03WHZ0OWQ0VTBJRVVoQnRDZ2o5NFA2QQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:24:37 GMT",
+      "image": null,
+      "summary": "Yatırımcılar teknoloji hisselerinden çekilerek yapay zekâ odaklı hisse senedi hareketliliğinin yavaşladığını gösteriyor. Bu durum, AI girişimlerine sağlanacak finansmanın azalmasına ve sektörde bir düzeltme sürecine işaret edebilir, muhtemelen piyasa dinamiklerini yeniden şekillendirebilir."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
       "title": "Sanayi üretimi eylülde arttı: Bakan Şimşek'ten büyüme ve yüksek teknoloji mesajı",
       "source": "EKOTÜRK",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdGFfdzJUdFpSNlZwYTlRSjRLbXh3MWJWVzkxVUVYc3FwSWx1bXBjR0ltcFlSTFVpUjNjLVJRX0dEd3BnZE5UUjRFb05KdE9XVk9CanBBQllUVjNtUUhHWjRxbS1QV2UzUG1BTi1HelBBQkprTjh5Q2ljNGZYOTFvQy1jaEkzVFJidG5MRm80ZGVaV0c0VTJianZRcGwySjlsa3BXa2xEQjc4bTB4RldabkdhNmtDTE9GR3hB?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:14:04 GMT",
+      "pubDate": "Tue, 10 Nov 2026 21:58:31 GMT",
       "image": null,
       "summary": "Eylülde Türkiye'nin sanayi üretimi artış gösterdi, bakan Şimşek bu durumu büyüme ve yüksek teknoloji yatırımlarına bağladı. Bu gelişme ekonomik toparlanma sinyali olabilir ve teknoloji odaklı politikaların etkisini gösterebilir."
     },
@@ -112,14 +122,14 @@
       "summary": "Sanayide yüksek teknoloji yatırımları sayesinde üretim bir yıl içinde yüzde 31,1 artış kaydetti. Bu hızlı büyüme, sektörün dijital dönüşümünü hızlandırarak ekonomiye olumlu katkı sağlayabilir."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Google, yapay zeka çip ailesini genişletti",
-      "source": "Cumhuriyet",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRmFXTDU0T3dpak52TVBadDBvUnZqV093akNlejZpTTVPSFhMVXRQTDlQclBEaFMwb253WFlmdHdvUi1vMTBCNE9LVUJrYlFYSjNQbGFZZHFGTjRqNkxwTjZ6V25udFg1cUZLbnB3cUF1b3I5T3F5dXN0ZU10RG5sbkxobjF1Qk8zU01wcU5NU1piQmc1VzFuWDBMNA?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 19:01:00 GMT",
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Uşak Üniversitesi Rektörü ve akademisyenler COP31'de projelerini anlattılar",
+      "source": "egedeyenigun",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV3EyeWM1Z2Z2d0JSeGU0ZndlcGVCUURtdVVUd2RBeEpWa2ZEUlpfQU54WHFSdFFUWGpLRHBHMmZDMEhMX1JiNDY4ZnRDR0R4UWtaV0hRRGp5aDhScXlnVHVJLXRqYnJhY2stZG5waEh1ZnNCTHFTSzJZeWdlYUMtZndaZ0tKV1FJMXJqWHlNSENHb281dVhOcTFGMG9oMjlUdjBxS2ZR?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:32:00 GMT",
       "image": null,
-      "summary": "Google, veri merkezleri için yeni modeller ekleyerek yapay zeka çip ailesini genişletti. Bu adım, AI uygulamalarının performansını artırabilir ve rekabet ortamını etkileyebilir."
+      "summary": "Uşak Üniversitesi rektörü ve akademisyenleri, COP31 iklim konferansında araştırma projelerini ve sürdürülebilir çözümlerini tanıttı. Bu katılım, üniversitenin görünürlüğünü artırabilir ve ülke çapındaki iklim politikalarına katkı sağlayabilir, olası işbirlikleri için fırsat yaratabilir."
     },
     {
       "cat": "Bilim",
@@ -232,14 +242,24 @@
       "summary": "Apple released iOS 27.2.1, which brings bug fixes, performance enhancements, and updated privacy controls. This update matters because it affects millions of iPhone users and signals Apple's continued support for older devices."
     },
     {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Çayırova’nın yeni bilim merkezinde çalışmalar sürüyor",
-      "source": "hibya.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLXM1U1dXbjFCVXIyNGx2dk9Zbno5T2haSHgzclFWd3pNcHYxa1NWWU5RNmxTZFl0VHBHQjNvcmRvVkloM2RiLWk4LXh5NHZKX0htZmhycGp1SWFZMU5EbkpTMWhJdzhwVVdMNWJEUlBVUHpwY1VaQzR4MnlZMDNPbEJJZUU?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:15:23 GMT",
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "THM Sanatçısı Murat Zorba 35. Sanat Yılı Programı",
+      "source": "www.siyasalyasam.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdlJxZ29LRDBzZVBsdVFMcmRsWDByOEhTRlVzbGJKanY1NUZ1VnBrTFplQ2N3emFoY2N6S0phbFdlRDJhdVNDWndnaEZFOVVJSXU2S3o1dlZ0b2tyTHl5bUJYQzQ2RTJNQk04cWxfVzBYcnFRSlpIeDFGckszZlQwaEpnNy1ZTTli?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:03:56 GMT",
       "image": null,
-      "summary": "The newly opened science center in Çayırova has begun hosting experiments and educational programs for students and researchers. Its activities may boost local innovation and STEM outreach."
+      "summary": "THM Sanatçısı Murat Zorba, 35. Sanat Yılı Programı kapsamında eserlerini sergileyerek çağdaş Türk sanatını ortaya koydu. Program, halkın modern sanatla etkileşimini güçlendirebilir ve yeni sanatçılar için destek platformu oluşturabilir, kültürel çeşitliliği teşvik edebilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "2 sahnede 4 farklı oyun",
+      "source": "Habertürk",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfUlk0SG92NlhqYTRIVkwyN3hwRXdlRTQ4VlRTSjRDUDJ4bHlVeFNuN3I3VXp4bDk3OFJKYUhWZXhQLXlja2hxc1RDeURodXZYU1o1LXRnT0hhc3dPaDVDSnhwdXpfa1praUtROFpkOEdPWER2TVB5UldR?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 21:35:45 GMT",
+      "image": null,
+      "summary": "İki farklı sahnede dört ayrı oyun sahneye konulacak, izleyicilere zengin bir tiyatro deneyimi sunulacak. Bu çeşitlilik, bilet satışlarını artırabilir ve yerel tiyatro yeteneklerinin tanıtımına katkıda bulunabilir, gelecekteki program seçimlerini etkileyebilir."
     },
     {
       "cat": "Sanat",
@@ -250,6 +270,16 @@
       "pubDate": "Tue, 10 Nov 2026 21:35:13 GMT",
       "image": null,
       "summary": "Dünya çapında tanınan bir çellist, iki ayrı konserle İstanbul sahnesine dönüyor. Bu etkinlik, klasik müzikseverlerin şehirdeki kültür hayatına katkı sağlayabilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "'Yarınlara Kartopu' Pera Müzesi'nde",
+      "source": "Habertürk",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMmRlQThXaGRVLTdwZmlsUzdseTFrUXNMT28zeVRzbXRvRWhfYXJMdERPVzc0WVVsSk8xc0hZLUdOeUEwaVRMYzFHaGp6WGFfQXJ6X1czRzdXcl9EeGFMb1NMT0tGZThRLUk4bGFVbVEyczQzNXBWcWVybWs0V2FUa2NwUFJxaDA?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 21:34:42 GMT",
+      "image": null,
+      "summary": "Pera Müzesi'nde \"Yarınlara Kartopu\" adlı sergi, umut ve gelecek temalarını interaktif instalasyonlarla işliyor. Sergi, yeni ziyaretçi kitlelerini çekerek müzenin kültürel yenilikçi konumunu pekiştirebilir, toplumda sanatın erişilebilirliğini artırabilir."
     },
     {
       "cat": "Sanat",
@@ -314,16 +344,6 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
-      "title": "Baraka’nın “Katil Kim?” oyunu Arabahmet Kültür Evi’nde sahnelenecek",
-      "source": "Kıbrıs Postası",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOENaTkk5ekxRRDZOVUFfT1BwLWlNcXF0Q3huZzdmSFlMaWI5bnhTRnNxZ2ttR200TEdyYkl1RFBwaFNuc3dYeFNROW9ueVotMW15TTlrSHBCaVRTTng2Vm5vaENIZWZMQlk0VllrZWlLX0JxeU9JSXV1UENQak83Z2Yzbk1nTHRvMjZZaHZQQ0lHalhLQlFSN1prN0ZvdnEtb2pMZWpIUzRnQTNmWVgtQlRmYjM5RkVD?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 14:58:00 GMT",
-      "image": null,
-      "summary": "Baraka’nın “Katil Kim?” adlı oyunu, Arabahmet Kültür Evi’nde sahne alacak. Bu gösteri, yerel tiyatro ve interaktif drama sahnesine yeni bir soluk getirerek izleyicilerin katılımını teşvik edebilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
       "title": "Atatürk ve Sanat gösterisi 10 Kasım'da sahnede",
       "source": "Cumhuriyet",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVGhwS3hMZ3VraWZyVnktOXJfMURkdzF4cVBENllzanN5QUhCTy1aOTFFUkp6YjY5ZmQwcTM0VU91TVkxMHBSSlM1RVNvTjJQZlE5cmwxWndscEsxVmF3ZUVZb3hramc2Nmc1aGtwS0dBVFRfSUNELUhNNGtnNS1JTFlsUkhGZmsyTmc5YmNtUFZ2ZE5HaVA0SXFvcjNxZw?oc=5",
@@ -340,26 +360,6 @@
       "pubDate": "Tue, 10 Nov 2026 14:14:17 GMT",
       "image": null,
       "summary": "11.11 Bilecikliler Günü kapsamında \"Şeyh Edebali Yılı Buluşması\" etkinliği planlandı. Bu buluşma, bölgesel tarih ve kültürün tanıtımına katkı sağlarken yerel topluluk bağlarını pekiştirebilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "samsun'dan cop31'e atık cam ve kıyı odunu ile sanat mesajı",
-      "source": "Aksiyon.com.TR",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMUtGWXZrVDBhYlRYYlM0QndOVTBsaFRDYldKT2hieXdJZG1WLWZvdDI5SEFZN0ZmejB0WGx4d2UwYUFZRm1vT0h3ZkJ2cGFIYnJfd05MMi1ERzZfbFdrT0duVjJTN3laSDFDWHFVMjBsZUJkdEpVc1BWU1VvQmNjcWlqVUdCclIyZkNqeHF1aHlVRkNfNDc40gGcAUFVX3lxTFBfakVaOVgxWDZsYkxBc2ZCYkQyUERDU0t4WmdYTlB6U2QtZnpNNzJ5UTh1MmRrZ2lqa1NLSm5DMUNsb0tQdW91dXg2OFFfdWdCZzZwdlVTYnNlUWpJMGxKXy1BVGJ0bHZjR2xma3hTVUUtWW1sSjZjTlQ1TFRGOG54QWRRbUdrcXB6a09naml3SDJmenV2cndKdXphdA?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 14:09:42 GMT",
-      "image": null,
-      "summary": "Samsun'dan COP31'e atık cam ve kıyı odunu kullanılarak sanat mesajı gönderildi. Bu yaratıcı geri dönüşüm çalışması, çevre bilincini artırma ve sürdürülebilir sanat pratiği konusunda farkındalık yaratabilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "12 ilden 35 genç sanatçı adayı İstanbul’da",
-      "source": "www.milliyetsanat.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORUJYLS1fREtiUHdSdVpYOV9JMlprSmh3TEp4OEtPdDNWUF9iMTFmOEhvaGRYR25zWGtIY0J0TnJ5X2F5NEpueGhSdGthTC1xZGZIeUlaMjdPT3lodFVBcFZqelE1eUkybVU3Y3RoaEhZS3gwSnpGUU1mVjU0Z1RGMzA1TTJHTVRTSjZfT2RlM0l2b3l2MnRwTQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 14:08:31 GMT",
-      "image": null,
-      "summary": "12 ilden toplam 35 genç sanatçı adayı İstanbul'da bir araya gelerek sergi açtı. Genç yeteneklerin bu platformda yer alması, sanat kariyerlerine ivme kazandırabilir ve yeni akımlara zemin hazırlayabilir."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -514,32 +514,32 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "CoreWeave Reports Earnings Today. Its Financing Is in Focus.",
+      "title": "CoreWeave Earnings Beat Expectations, Assuaging Market Nervousness",
       "source": "Barron's",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tN1FZWVRJR0tWTGxtMFRyUWpERkQ2LXJFOUZIRFU0b014ZXhSeVVMdmxHcUFSZjdudzdpeXdILUtpcnRxM0U0Z1hHWklJcGZkQkRtX0dQMkJiMllDeENDWk05Z2VkWkZPZ2gwMThtWGo1RnUyTmxYOXdIQU8?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:47:00 GMT",
+      "pubDate": "Tue, 10 Nov 2026 22:47:00 GMT",
       "image": null,
       "summary": "Bulut bilişim hizmetleri sağlayıcısı CoreWeave, bugün mali sonuçlarını açıkladı ve yatırımcıların finansman detayları merakla bekleniyor. Şirketin finansal durumu, yapay zeka altyapı pazarındaki rekabeti etkileyebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "House Republicans elect Rep. Jim Jordan as their next leader following election losses",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFBKelhaVVFlZVBNM3p1ZGgzVDBEQnlHRWxDTG9EV2xKdTRfbFNsUXN3RmpqUk1NY2tKNlE1V1JsZVhuQk9xY3BEODNxT21nZnpFTDhhV3N4dHlxdnBMSjFJUUZwMzl3UUJpRDMxWTdnN0xhQWt6c1Z2VVF4ZHZpWXRoSWpQOTh2S3kzOEpKVWZ3eEFrY19yenV6dlVLS1JJNFdmNjVSTFZVU2VC?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:34:37 GMT",
+      "title": "Sanders says he won’t support Schumer as majority leader",
+      "source": "Politico",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUNPSnRLYktSODlFdkFtZnk0RngzUXB2eWFuTG1iRVh4QjZfZ0pENDdGNE5NaUR2SGxfdVVuRE5PUUp0dm9IbzVBMzd1QU5VWkJ6Qy1sTnVoQmhOWUlBV2g1eXU4X0NnNFhCMHV5WHZkOWFQVWtFUDdrYV9MZzl2TWFqeGp0OXF3eDJKR3BKRmVCUQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:33:50 GMT",
       "image": null,
-      "summary": "Seçim kayıpları sonrası Cumhuriyetçi Parti, Kongre içinde yeni liderlik seçimi yapacak. Bu süreç, partinin gelecekteki politik yönelimlerini ve seçim stratejilerini şekillendirebilir."
+      "summary": "Senatör Bernie Sanders, Chuck Schumer'ı Senato çoğunluk lideri olarak desteklemeyeceğini açıkladı ve politika farklılıklarını vurguladı. Bu tutum, parti içi dengeleri etkileyebilir ve gelecekteki liderlik yarışını şekillendirebilir, olası yasa gündemlerini değiştirebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Colts agree to trade WR Josh Downs to Chiefs for fourth-, fifth-round picks: Source",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSVlncDA4eFkyOWljNDVnZXhxa04xVFlkdlVlMVdBcjJ1bWI2ZnRvTFhpdzg5SU9ybTBtOVRBZ2lURkxwS180RWt4dUgxdnBkUUEzM2RqaWJYMVBEYWV4c1hyTzZOcXRkWHByeWI5WjFWS19iRW1FR3M4djR5ektHQzNxTGYtN3Z0WkE?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:02:44 GMT",
+      "title": "CDC chief says agency will not change measles response if US loses elimination status",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9RVk4tNmM1Q2tybk1wWEhORHJBeHl1VXozTWoweE04NFRWbTBtWWxPTHJsaUNMZXI3V2RvTTNwM0ZzZ2ZkUUY2Q2ZvVVRvRHJPVnh0TnNnU3FqV194N01QNWlLS2lTNjZLTURTUWtQb1REUVF0WXRweldR?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:05:43 GMT",
       "image": null,
-      "summary": "Indianapolis Colts, geniş alıcı takımı Kansas City Chiefs'e geniş alıcı Josh Downs'ı dördüncü ve beşinci tur seçimleri karşılığında takas etmeyi kabul etti. Bu takas, takımların genç yetenek ve draft stratejilerini yeniden şekillendirmesine yol açabilir."
+      "summary": "CDC şefi, ABD'nin kızamık eradikasyon statüsünü kaybetse bile mevcut kızamık müdahale planının değişmeyeceğini belirtti. Bu sabit tutum, olası salgınların önlenmesine yardımcı olabilir ancak ülkenin halk sağlığı açıklarının hâlâ mevcut olduğunu gösteriyor."
     },
     {
       "cat": "Dünya",
@@ -547,39 +547,19 @@
       "title": "Stock Market Today: Yields Jump as Inflation Comes in Hotter Than Expected — Live Updates",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAycGFzVmI4Q3NSQ2ZMTC1DdDR0M2R3SG1OZm1DMHZ6OG9qa3dJUllpSThRa1RlYm5uWGZrVDE1VHJZU0xJdlBFRWpZSnhzU2hUMlJ1UDdJXzFxamNqTDE5bkgwUXowRV9JdUhyckdOclgyMHlaZFE2RlZR?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:59:00 GMT",
+      "pubDate": "Tue, 10 Nov 2026 21:46:00 GMT",
       "image": null,
       "summary": "Enflasyon raporu sonrası Dow endeksi düşük açılış yaptı; yatırımcılar raporun faiz politikaları üzerindeki etkisini değerlendiriyor. Piyasa hareketleri, önümüzdeki dönem ekonomik kararların yönünü belirleyebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "‘It wasn’t long until he asked me if I’d ever had sex before’: David Walliams accused of preying on young women for sex",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdjdnempSclAxWHByd2J0Z3ZYWUFFVHgxaFFZdWVNcllFdGUwU2lyWEtlVUc5YXpCSDRkMktzRm43dmt0ZmxaaTFEX2QySDdlUDNLWENTclI3Mmd3MkhRZVJyWFdEZmRIUzVGTmJ3VnBHbjFiVzA2UW1CZi0wYUtfR1ZVSWhKNHUwdTlHTUU5OTAyNEJqN0Z5Si1RSXVrQVBOaTBDM0g0bWZMbmJURWxrQlZiQnNGNDFxZVBuSGlkTVY2QzFlcFE?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:56:00 GMT",
+      "title": "2026 NFL trade deadline winners, losers: From Kirk Cousins to the Bengals",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUWtpODJhandmejhHanpIV1IwVWxTRnFFQUVxOURDZnQ4VWhTeGNLRkN2TlJvNFpCNlY3YUoxYVlodkFNZzFSQUJRRVd3MDFmQkJQMWcyTHJSdjd0dWJEVXJLUXVoRHYwdHByTjlsam5zWTRqVll3V1hOYlFTeUFlRVh3anFSZ09xbkNhR2RBaUFmOVlMYmFVWjFab2RaMjJRVmc?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 21:36:00 GMT",
       "image": null,
-      "summary": "Ünlü yazar ve televizyon sunucusu David Walliams, genç kadınları cinsel ilişkiye zorladığı iddialarıyla karşı karşıya. Bu suçlamalar, kamuoyunda cinsel taciz konusundaki duyarlılığı artırabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "The Lights Go Out at Novaya Gazeta, Russia’s Bravest Newspaper",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS2llanR4LU93QlRxaXpTVEhRY1VtTVRvcjBndl9TRnM0M3JyMU5XQk55NjIzTFNrbG1WcG9NZHZQMENPa0FMcUhkelJqbVY5UVNsclFBS1FmYW5VVk01MnVnWHF1MFdGSW52UWduRmdjdjJURTBUZnNndVczMFVEM0lVWFBtbVp5?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:53:41 GMT",
-      "image": null,
-      "summary": "Rusya’nın bağımsız gazetesi Novaya Gazeta, yetkililerin baskısı sonucu yayın faaliyetlerini durdurdu. Bu gelişme, ülkedeki basın özgürlüğünün ne durumda olduğuna dair endişeleri pekiştirebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "We read Sofia Franklyn’s memoir about her falling out with Alex Cooper so you don’t have to",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLWw5VXRHNE9feTlfYklIcm9VZG41UU1IVEVTZWNZSXlWOThfc2s1QXk4dDNjRW9acFRuU0QwMDNLTjBzWkx0eW5BQy1ZUHltbGVjZjdvdWlSdXFTVnNFMUFrYVVWSWNkdllOb3FDQnZ4eDYyYUZGd3JjWjVobndIOGZRTUdfeGVxUVpZNWFRREx5NzdhNnljTVR4aVNPUFFxZ0lrVlB2MXlnemRKQjR0UHBidGNLbEJ1a0lNUkZ0VUZ1bl8xclRyS0xMek5kZw?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:43:50 GMT",
-      "image": null,
-      "summary": "Yazar Sofia Franklyn, Alex Cooper ile yaşadığı anlaşmazlığı anlattığı anı kitabını yayımladı; haber, kitabın özetini sunuyor. Bu tür bir gerçeğin kamuoyunda popüler podcast kültürü üzerine tartışmaları tetikleyebileceği düşünülebilir."
+      "summary": "2026 NFL takas deadline'sı sonrası kazananlar ve kaybedenler değerlendirildi; Kirk Cousins'in takasından Bengals'ın hamlelerine kadar analiz yapıldı. Bu inceleme, taraftar beklentilerini ve takımların gelecek takas stratejilerini etkileyebilir, lig dinamiklerini yeniden şekillendirebilir."
     },
     {
       "cat": "Dünya",
@@ -587,39 +567,59 @@
       "title": "Republicans return to Washington to sift through wreckage of midterms rout",
       "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd1hORHBQT2hsOVhualRUcTQ4ZmIyNHgxU2RHZ2c3aTNJRlJoNVpqb2NLbGpab1daX29ZbFRRaDFxbUZXOWNTQnkzTWxreVJJMC1sLXNmOVgtMGdsR2EtM3c1OGtqUHFTZk9hRXpuVm5sNzRMVlYza0RpdTZVbm1TdTRjZ3owcGxZcS1SSXRnVVEyd0QtZ09iUi13?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:39:00 GMT",
+      "pubDate": "Tue, 10 Nov 2026 21:33:00 GMT",
       "image": null,
       "summary": "ABD Cumhuriyetçi Partisi, ara seçimlerdeki büyük kayıpların ardından Washington’da durum değerlendirmesi yapıyor. Bu sürecin, partinin gelecekteki stratejilerini ve politik yönelimlerini yeniden şekillendirmesi muhtemel."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Report: Despite multiple offers, Colts will not trade Jonathan Taylor",
-      "source": "NBC Sports",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdDNMNFhyUC1ISnFGbTFFY3F6WjgtbTZPNXQ1V1lxVVdELXBKdVgxUFhiT2h6aGtaSmx5Ui11VUpKNVZjLS1McjRnWENXQzh6aG1YQng2RXAwcE9Xd2ZkUHBVOWVva2ZaWW5vanJaMkN5QWdNM3ZvZDFob29wSlZfekJFQmEwZS0zT1VzOTdQdEhRM1ROS3RFS1hMdVpkeEQ5eExCa2tfT21abEpqLWhZY19RZ2dyelpjV2J2c19ybEozSG1sTEFrOQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:20:52 GMT",
+      "title": "Hegseth defends his record, Iran war as impeachment vote looms",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdHJadVdURVZBN1VwelMtYTQ2XzFxekpzTFdhTDR2Q3lkNDE2bV9IUmpWZW9KTy1KQ25PWUhGQWszRXN3WmNLdl8zcGUtbEM5Tk10OXlFbUlCMTM1bURjVFdpbzJXNlBXd3NVYy1tanExMXZsREtFZGNob1JTWC00eTJnR3F6MTRHbldFMU12WVNZc1RrclBPQXlrcUNyTkt5U0VZblZ3QUVlMndzT04waG0xN2szS2Uzbms0?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 21:00:02 GMT",
       "image": null,
-      "summary": "Indianapolis Colts, birçok alıcıdan gelen tekliflere rağmen running back Jonathan Taylor’ı takas etmeyi reddetti. Takımın bu kararının, sezon sonuna doğru kadro bütünlüğünü koruma amacı taşıyabileceği düşünülebilir."
+      "summary": "Savunma Bakanı Lloyd Hegseth, İran savaşıyla ilgili kararlarını ve performansını savunurken yaklaşan azil oylamasına da değindi. Açıklamaları, kongre üyelerinin tutumunu etkileyebilir ve yönetimin savunma politikalarında olası değişikliklere yol açabilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Nvidia hires major New York law firm to investigate Huang affair",
+      "title": "Chiefs agree to trade for WR Josh Downs",
+      "source": "NBC Sports",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOHBQS1Q4ZUU0MDNKbVZOdzYxYzBEWnpVMGxFM0VTcXpVMWI0N0NoNzhxQVF2dEx2VnREa0NWVjZjU0Y0WnV4dUNyVmY0OWMyWURHdHJIT3dIc2tpMHVyZ2NtRHBabkVFOVBYQUdwZjJNeU5zNXZMVERQX08ydTlCZlRlcFRZRmR6UERYS095N1RfZGp0S0V6QTdFRnpTaXZTOGVj?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 20:45:22 GMT",
+      "image": null,
+      "summary": "Kansas City Chiefs, genişletilmiş hücum hattı oluşturmak amacıyla wide receiver Josh Downs'ı takas etti. Bu transfer, Chiefs'ın sezon sonu hedeflerini güçlendirebilir ve takas yapan takımın kadro derinliğini yeniden yapılandırabilir, ligde rekabeti etkileyebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "David Walliams accused of preying on girls as young as 15 after losing court battle to stop publication",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zWm42ajMzakFER3VCN1AzTkVQdDlTcVotUFdKekJyRlhFNHliRGh0MkhNdUVoci1LX1FNb1NjSHNMeEJ3SXdmZGhjbXBPSTBmSEp2X3FB?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 20:29:12 GMT",
+      "image": null,
+      "summary": "Yazar David Walliams, 15 yaşındaki kızlara yönelik istismar iddialarıyla karşı karşıya ve kitap yayınına engel olmaya çalıştığı davayı kaybetti. Bu suçlamalar, Walliams'ın itibarını zedeleyebilir ve yayın sektöründe koruma önlemlerinin gözden geçirilmesine yol açabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Senior US soldier arrested by UK counter-terror police",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiMWd2M1FscDVkVEpkYnZ2R3RnaTc5YURLNWtkWFhDc050U0VPLVJsQnBZOS1LY0ZnVVV6cU10dnNta2hKbXc4ZHBiSEJDaEJhSkVTcGFESElFblE?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 20:20:04 GMT",
+      "image": null,
+      "summary": "Bir üst düzey ABD askeri, Birleşik Krallık kontra-terör polisleri tarafından şüpheli terörist faaliyetler nedeniyle tutuklandı. Olay, ABD‑Birleşik Krallık güvenlik iş birliğini zorlayabilir ve yabancı personel denetim prosedürlerinin yeniden değerlendirilmesini tetikleyebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Nvidia hires major New York law firm to investigate Jensen Huang affair",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBa1J1TENBeUdudmN2cld5UzNqaHJXaU5obmVaVTdMbzFvS19tR1FzUmNoSHJ5VFVJM1RPZ3RsM29yVGxGM2c4UHJfUkNUTnJuTFBtXzF6WWE0Wmc?oc=5",
       "pubDate": "Tue, 10 Nov 2026 20:03:41 GMT",
       "image": null,
       "summary": "Nvidia, CEO Jensen Huang ile ilgili olası usulsüzlükleri incelemek için New York merkezli büyük bir hukuk firmasıyla anlaşma imzaladı. Bu soruşturma, şirketin kurumsal yönetişim uygulamalarını gözden geçirmesine yol açabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "source": "TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMjJoMFk5cWxCTmNuUDFDbkFYSUxFUzk3ZFYwYmk5WGhhcGNOdlBRbUxidU9QZVJ4bEpQajFIWlE1Ym1adXk1LTM1dW9yUE5xX0ZEREZPQXlYVDhhWUFGd1Vqa3IwZU9hVExxNG1NU0dUcnlnLVFRWDEtaHowaXEtMjVIemxfY3ljUHNQS1YzNDhQejdCelFzWnM1bkc?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 19:57:52 GMT",
-      "image": null,
-      "summary": "Yapay zeka şirketi Anthropic, halka arzı sonrası yedi kurucusunun her birinin yaklaşık 250 milyon dolar nakite dönüştürmesini planlıyor. Bu büyüklükteki bireysel kazançlar, sektördeki girişimcilik ve yatırım dinamiklerini etkileyebilir."
     },
     {
       "cat": "Dünya",
@@ -630,16 +630,6 @@
       "pubDate": "Tue, 10 Nov 2026 19:54:00 GMT",
       "image": null,
       "summary": "Washington DC’de bir heykel, Trump’ın Vietnam Savaşı’nda iskelet sorunları nedeniyle askerden kaçındığını alaycı bir dille eleştiriyor. Bu sanat eseri, politik eleştirinin kamusal alanda nasıl ifade edildiğine dair tartışmaları körükleyebilir, muhtemelen medyada yankı bulabilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Nvidia CEO'su ilk değil: Çin istihbaratının 'bal tuzağı' operasyonları",
-      "source": "Gazete Oksijen",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc2JHZHZmTklMZ0VpMjJZdkRqbzJBNzJDS1lIUXBqXy1aLXdBWnBQM0o3V0NWZzlEc3dNOFUwLW4zc0JkUndlRFh3Q25RbFEwVDVBSWZUazNPZ0h3NjU5bVJqbDJULTR5RnNqWV9ja1Jha1VnRzBSU3JyY0UydTJHQkpoRUx5a295ZjNiSWpXV0VKUGJNSkpqNzdHYnM5eWVkUzlZN3FsejJIdmQ1YVRUMEktV3ZkREVOcTJmU0xFOHF1VkZuNHFGOTBn?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:01:45 GMT",
-      "image": null,
-      "summary": "Gazete Oksijen, Çin istihbaratının “bal tuzağı” operasyonlarıyla Nvidia CEO’sunu hedef aldığını iddia ediyor. Bu tür istihbarat faaliyetlerinin teknoloji liderlerine yönelmesi, şirketlerin stratejik güvenlik önlemlerini yeniden gözden geçirmesine yol açabilir."
     },
     {
       "cat": "Gündem",
@@ -664,32 +654,12 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "'Buzdolabı' gerilimi: İran, Fransa'nın suçlamasını reddetti",
-      "source": "Diken",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUjhtdDdWeWpOWGVCNzJXemxUWHVSU2J1WmNqNEdMdktsaHQ0ZWMtVjFfVlNJbWtIOENxMUJoNlh3aWQ0cWlPTWtpNG9KSlNlRUJSai1UTzZzSEVzTS16S3BDSmhrWG1TZ09VZzRBU21wOUR5VVl4UkVHaF9OdTZ6VzVjS2c1NTQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 19:35:32 GMT",
-      "image": null,
-      "summary": "İran, Fransa’nın kendisini belirli bir konuyla ilgili suçlamasını resmi olarak reddetti. İran yetkilileri, iddiaların asılsız ve siyasi amaçlı olduğunu belirtti. Bu itiraz, iki ülke arasındaki diplomatik gerilimin artmasına ve bölgesel güvenlik dinamiklerine yansıyabilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
       "title": "ABD'de benzin fiyatları Temmuz'dan bu yana ilk kez 4 doların altına indi",
       "source": "Bloomberght",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZVZ2T012VS1LbkJQREJPNGRrYlpwYUwzZmtDcTFWNnBjZ2lrMi13SDJYd2lQTzd5aGUweDl4ZWp6S25GZkt1cDhyQjJ5UHVlWFpLMGhpQm1xTFlGcTlKeUhWTXRhMF9uZDZOeXFZYXFEMzg3SG95cnE3MDV4ZTFDTjduMmtzZTZGU2VGLTdRb1VlNDdFbUhQS2dGSHh1SURkSXlRRWRDdFI0aWdX?oc=5",
       "pubDate": "Tue, 10 Nov 2026 18:56:58 GMT",
       "image": null,
       "summary": "ABD’de benzin fiyatları, Temmuz ayından bu yana ilk kez galona 4 doların altına düştü. Uzmanlar, bu düşüşün talep azalması ve petrol stoklarındaki artışla bağlantılı olduğunu belirtiyor. Daha düşük yakıt maliyetleri, tüketici harcamalarını canlandırabilir ve ekonomik toparlanmayı destekleyebilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "ABD Başkan Yardımcısı Vance'ten azil sürecindeki Hegseth'e destek",
-      "source": "Bloomberght",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc05JLUU0cWx2QktWanNoU05Yc3V6SzdpdFl6cjVkRDJvY0IyS2otYXp0NGxQMmQ1OS14ekFRb3BQaGhCQ00xNWNaSEc4VElsd0ZaZzdZWHlhR2QtVzBBUFJtUkluTWpaTTgyT3VadUdRcXA2emkzOHp2bkFYbVhlbzVMdDNSRW5lWGJReFp3bWQ2SHdpTWlZeTF2djgxUDJpYTBn?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 18:50:55 GMT",
-      "image": null,
-      "summary": "ABD Başkan Yardımcısı Mike Vance, azil sürecindeki Hegseth’e kamuoyu önünde destek verdi. Vance, Hegseth’in yargı sürecinde adil bir muamele görmesi gerektiğini vurguladı. Bu destek, siyasi kutuplaşmanın yargı bağımsızlığı üzerindeki etkilerini yeniden gündeme getirebilir."
     },
     {
       "cat": "Gündem",
@@ -704,12 +674,32 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
+      "title": "Arsenal'de 2 sürpriz ayrılık birden gerçekleşebilir: Finansal şartlar sıkılaştı",
+      "source": "NTVSpor",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWnBTckYwdlQzX2NmU2FNVlg2bWNLbWx4M0hPY1haZzhZYzgwVnhGR3NSRHlZbGlGbVZ3X2Nmd0lxbkFBT3JjdHVuZDdMNjJnelFTV0E5MUVNa1oydzNUVExEbDl2dVVydVl3cWRZeksxS2pEQkdSelJXQ0FXU3VvLU1UcDdacFd0SXFaU1RxbXBHNzlRR0JGcTMybnhuellfOWVlVDI1VmlpSXBvdkw1Y2E5dmhBNW9TN0VuatIBwgFBVV95cUxNSGhXOWlUSHo5UXRjYlpZN0daZS0zWC1XQ0dTMlY4Tlpxb1lhREttLVk3UGFxQjRvZERvY1JZMEVGcXBPX0hIeWxXWDBiM3E0ZlJsYzhpMEJURVpwd2M1UTBldDhTcDJrY3lLTHFnblFfYUhzaXJzQjZFdTA2RDJQT2lSWW0wR3MyWV9UMkpmaXF5aUlzbEVVQ0w3cWZuTWpORzNlOWUzQ2MxRE55NGJNeGlGMUVKRGd3OHZrRFhaZlFuQQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 17:32:34 GMT",
+      "image": null,
+      "summary": "Arsenal'de mali durumun sıkılaşması, iki sürpriz ayrılığın aynı anda gerçekleşme ihtimalini artırıyor; olası oyuncu veya teknik ekip transferleri gündemde. Finansal baskı, kulübün gelecek sezon performansını etkileyebilir ve transfer piyasasında dalgalanmalara yol açabilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
       "title": "Türkiye ile Suudi Arabistan arasında 5 bin megavatlık enerji işbirliği",
       "source": "Bloomberght",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTTRMMGJpLU1lOHNVQ1pUQXNnQnhrazZBUFNGNTlNanZLbEJIVE5nYWdsWWY4YUhfY3ltZ25HOUJzMk85cVBxTG1zTTdBalQ3Z0lXY2oteklfYW5JNWhiNl9aQXQ0OU1nUk8zWFpSNU5WWG5TX3NqcXUwN0hxV0tBODgyTk9xeUQzR2I0SmRCV2M5WUJUNmlLSkxRNGFzY1VjMkFkRGtfVHJuZw?oc=5",
       "pubDate": "Tue, 10 Nov 2026 16:22:17 GMT",
       "image": null,
       "summary": "Türkiye ve Suudi Arabistan, 5.000 megavatlık bir enerji işbirliği anlaşması imzaladı; proje yenilenebilir enerji ve altyapı yatırımlarını kapsıyor. Böyle bir iş birliği, iki ülkenin enerji güvenliği ve bölgesel ekonomik entegrasyonunu destekleyebilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Google, “Gemini 4 Carbon” yapay zeka modelini kullanıma sundu",
+      "source": "Teknoloji haberleri - LOG",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdGtGeHh4Vkl6TFdKemcxaHNOTC1idTQ0eEN0bWppXzB6T3FWVTZfWHpMaHhPeG9ZZnZVcThUV1k3YWNVMWlHOGlzSmFIZGw2RkE3ZVJkanJIN0o0SHE1ZFE3eVlzdlRUaVJXRlRsVjJrSkFiOUpmcUN3a29BenJXZzZYd29KcnpDSXc?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 16:11:04 GMT",
+      "image": null,
+      "summary": "Google, çevre dostu ve daha verimli bir performans vaat eden Gemini 4 Carbon yapay zeka modelini piyasaya sürdü. Yeni model, sürdürülebilir AI geliştirmelerinde sektörel bir standart oluşturabilir ve kurumsal kullanıcıların benimsemesini hızlandırabilir."
     },
     {
       "cat": "Gündem",
@@ -734,22 +724,32 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
+      "title": "İran'dan Fransa'nın siber saldırı suçlamalarına tepki",
+      "source": "Bloomberght",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcEJJWFFpbnpfbUk1YjVHVmN3c3RqTGI3U2g2enNCQ1hkN2xaTTZmeWNNU0t5Vm8wTW9JdWFEdC0xYjVCVEx1OHVSUWZKRUNnVmoyMmU1VGppOXVrWlVGUUMwd1NaS2tZMXcxQ1hScU15OU1pNzN6RjR4SmwzWU5xS3lWbFlvNDJCbjM4eXhuM2xmWE0?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 15:09:32 GMT",
+      "image": null,
+      "summary": "İran, Fransa'nın kendisine yönelik siber saldırı suçlamalarını reddederek diplomatik bir yanıt verdi ve olası karşı önlemleri belirtti. Bu karşılaşma, iki ülke arasındaki ilişkileri gererek geniş çaplı siber güvenlik iş birliğini zorlayabilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "ABD Savunma Bakanı Hegseth azil tartışmalarının ardından konuştu: 'Bu bir sabotaj'",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BTE1ycFpXaVAzLW1QUk5pN1p3YWtIRWJoSkZUcE1rNmdSUHk3aXBYd1Q2bzNZOUhrVWxTaGJ4aWtNMjNWcnA4WjNBaEdYZUJ5aFlaZk9VejRscU9feHc?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 14:45:09 GMT",
+      "image": null,
+      "summary": "Savunma Bakanı Lloyd Hegseth, azil tartışmalarını \"sabotaj\" olarak nitelendirerek konuyla ilgili açıklamalarda bulundu. Bu söylem, kamuoyunda azil sürecine dair algıyı şekillendirebilir ve yasama sürecinin seyrini etkileyebilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
       "title": "ABD-Rusya-Ukrayna görüşmesi 4,5 saat sürdü: Yarın devam edecek",
       "source": "Milliyet",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX1RRTTJnbGRvUnNVTDlHMVdGOU9WeTRPQXo0SlF1ZjB4U05xQU5yd3c5RVRvQnNPanE5OUh5X0ZreWJrV2F3di1NaXpkMU53UTFvSWUtYTUzTjZUNldOTzB6VmI0bkdDcGIzU1Y5YlNuZm0waUcwUEFWTkQ2RWJnSEsxUWVtUVJpWUg5OUN3amxYRFhmR092Z0VvYjlVQ25OckhLU09n?oc=5",
       "pubDate": "Tue, 10 Nov 2026 14:40:54 GMT",
       "image": null,
       "summary": "Amerika Birleşik Devletleri, Rusya ve Ukrayna temsilcileri arasındaki görüşme, 4,5 saat süren müzakerelerle sona erdi ve toplantı yarın tekrarlanacak. Görüşmenin devamı, bölgedeki diplomatik çözüm arayışlarının seyrini etkileyebilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Cafer Mahiroğlu, Kemal Kılıçdaroğlu'na sordu: '50 milyon dolar istediniz mi?'",
-      "source": "Cumhuriyet",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ2JwRTdaQzFtM09VV3hMZ0hIZVF5OGRaR2UtTFJDYXhGUTdBRWhoalkyOEM5MFdreDB5dEY0aE5IdEZyNlloMUNudXlLaGdQTldmXzRVQjZXT2hnMzRLQ3BQc0hkaVVfREVIZWVIVkxkOGpZdUdteTQyLWxhS21WUk5XUjVJSXBpS2JlREtRZ1ZYc25jTTltM2VaeUJoSXJ5MFhLYVZRNTI0dWRVQ3RzVUkzRkF4U1NBcmc?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 14:21:00 GMT",
-      "image": null,
-      "summary": "Sözcü Gazetesi muhabiri Cafer Mahiroğlu, CHP Genel Başkanı Kemal Kılıçdaroğlu’na 50 milyon dolar talep edip etmediğini sordu. Bu soru, politikacının mali şeffaflığı ve kamuoyu algısı açısından tartışma yaratabilir."
     },
     {
       "cat": "Gündem",
@@ -873,13 +873,13 @@
     }
   ],
   "weather": {
-    "temp": 9.4,
+    "temp": 9.5,
     "desc": "Parçalı bulutlu"
   },
   "market": {
     "usdtry": 50.2,
     "eurtry": 56.25,
-    "gold_gram_try": 6510.69
+    "gold_gram_try": 6514.57
   },
   "stocks": [
     {

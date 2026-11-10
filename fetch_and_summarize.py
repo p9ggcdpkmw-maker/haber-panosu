@@ -49,6 +49,26 @@ def age_days(pub_date):
         return 999
 
 
+MEDIA_CONTENT = "{http://search.yahoo.com/mrss/}content"
+MEDIA_THUMBNAIL = "{http://search.yahoo.com/mrss/}thumbnail"
+
+
+def extract_image(it):
+    media = it.find(MEDIA_CONTENT)
+    if media is None:
+        media = it.find(MEDIA_THUMBNAIL)
+    if media is not None and media.get("url"):
+        return media.get("url")
+    enclosure = it.find("enclosure")
+    if enclosure is not None and enclosure.get("url"):
+        return enclosure.get("url")
+    desc = it.findtext("description") or ""
+    m = re.search(r'<img[^>]+src="([^"]+)"', desc)
+    if m:
+        return m.group(1)
+    return None
+
+
 def fetch_category(cat):
     url = build_url(cat)
     try:
@@ -73,6 +93,7 @@ def fetch_category(cat):
             "cat": cat["label"], "catId": cat["id"],
             "title": title, "source": source,
             "link": link, "pubDate": pub_date,
+            "image": extract_image(it),
         })
 
     seen, deduped = set(), []

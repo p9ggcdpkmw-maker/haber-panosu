@@ -1,125 +1,155 @@
 {
-  "updated": "2026-11-11T05:48:57.264160+00:00",
+  "updated": "2026-11-11T06:48:08.638017+00:00",
   "items": [
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
+      "title": "Nvidia olayı ve piyasa baskısı sonrasında teknoloji hisseleri sert düşüş yaşadı.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZkwtRVA0TTA5Z0ZISUtsaW5TSFBNOVpKYWU1WTRndVpvWnMzR1dNRE5oWURaWFlmYWd5QU95STY0UlFhQnEyeEgxaUJfWXN4R1ZpeW5GZWIwNzRiTFRKNDN1TWhUNVFwUEU1UjJrTTBZS2R2bFp2RTAwbFExU2VTZVZqS1A1aUtqR2tIVUpfSlc1VU1GLXFTM21KUkc?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:44:12 GMT",
+      "image": null,
+      "summary": "Nvidia ile ilgili gelişmeler ve piyasa baskısı sonrasında teknoloji hisse senetleri ciddi bir değer kaybı yaşadı. Bu düşüş, yatırımcıların teknoloji sektörüne karşı temkinli bir tutum sergileyebileceğini gösteriyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Küresel Borsalarda Alarm: Yatırımcılar Teknoloji Hisselerinden Kaçıp Güvenli Sektörlere Sığınıyor",
+      "source": "Para Analiz",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRzZZTVJjSkpuc0kyWG1uUXlyYml4THRWR2hyemFnb3BkbkFreGFEdDZ0SUdpTVl4LTMzblpQWk90OW53QnU0RFZ4bGRmV0xqNDhncF9WbWw2ZUhEc2p3UHQxYU9BU2dJc0RyeW9mTmZYV0ZjaWxscGNRM1dtZWViQXlOcDRQU3Y0aVB5R1dNUG5zUE01dWFpUEF3MWxPTDZqM3FDNDk3NEo1WGtjTnJNaEtuX1hvdFk?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:40:44 GMT",
+      "image": null,
+      "summary": "Küresel borsalarda yatırımcılar, teknoloji hisselerinden kaçıp daha güvenli olarak gördükleri sektörlere yönelmeye başladı. Bu eğilim, risk algısının değiştiğini ve sermaye akışının farklı alanlara kayabileceğini işaret ediyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Google, Gemini 4 Carbon modelini dünya genelinde kullanıma sundu",
+      "source": "Milliyet",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPajBjWTdKbkwwb2VLWXdHWWp0TEZBandIcFo0a2dIeVFYTTBTOHNJUzJlZkJ1M0NWemFhQ1RNMnQ2V294eFA5aHduWnJfVzFtUXd3Uk1NUDVCSm9IS29DWllfcjJzUFRSbXdZbkVQMURXYzBsLTB5dnpWcjBNSC1HN0szUThvZzBRUWMyR1FsRDZmUzRGYmx5Z0U1TEJuNXhuenFBLU9tVGdSMEktZ0E?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:35:11 GMT",
+      "image": null,
+      "summary": "Google, yeni nesil yapay zeka modeli Gemini 4 Carbon'ı dünya çapında kullanıma sundu. Modelin yaygınlaşması, AI uygulamalarının hızlanmasına yol açabilir, ancak enerji tüketimi konusundaki endişeler de beraberinde gelebilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Trump, Yapay Zekâ Güvenliği Nedeniyle Bir Teknoloji Yöneticisini Tutuklamakla Tehdit Ettiğini Söyledi",
+      "source": "ÇözümPark",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcnJ3d0JSdmdvRDlkOFdNN09zMlFKYXNfMWJpbnBwTlRzMzdydmUyYUs0YWxRY3NCTXozQUJuU3lrZ1FRZ3YtOXpBSUh5eUh4eWVEaW1xNVl1MlNBanhyYy1VNVhIblhCakRHOWN3R3dURUdhRlYtZWhQSXV6SWxucHRLSmhBajFWUUpEc3g1UFhxRHJBNEgyRFFUbUJQVzhtTUxGY0ZmLXZlYnJRYno5YUxOSTZxLWdjRHRwalZSVXpkSVlXVlE?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:34:38 GMT",
+      "image": null,
+      "summary": "Trump, yapay zekâ güvenliği gerekçesiyle bir teknoloji yöneticisini tutuklamakla tehdit ettiğini açıkladı. Bu açıklama, politikacıların AI denetimine olan ilgisinin arttığını ve olası yasal düzenlemelerin tartışma konusuna girebileceğini gösteriyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Sürdürülebilir Teknoloji Çözümleri için COP31'de ASFAT imzası",
+      "source": "Deniz Haber",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ081eHdjRGJ1Wnc0c2o0ckdmdHduSWM3cmdwYVh1REtnZ0ZxSUZnb2s0YVBtM0F5LXVPNmhKOHNCMk5EY05xMHJUM0luZ2NjQ2t1MUlBSVg0WFFjZUxkdmdSd1k1cnVIc284TDVqUVpleC1PRmJBOHRXWW1XdUFxSDJhb2FDcnZ5NTVlOHdxWjUzU3BNbjRzb2loN203YVNrMDZjbGpIYw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:28:00 GMT",
+      "image": null,
+      "summary": "ASFAT, COP31 kapsamında sürdürülebilir teknoloji çözümleri için bir anlaşma imzaladı. Bu adım, bölgedeki yeşil teknoloji yatırımlarının artmasına ve çevre politikalarının güçlenmesine katkı sağlayabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "2026 Vietnam Bilim ve Teknoloji Ödülleri'nde onurlandırılan 20 seçkin kadın öğrenci kimlerdir?",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYi1DMjF4YVE0V2VzSjhCRk9HR3hBQmt2cnhuMmd6a0tDQXhCX2tNVDdJclU4QUxCU3Bhb0gyMWpCbUxMMHNDTC1LSHZIZGc5ODNfUUtlZ21BenVleEJHYXZqUVFwUDJ5MWVCR0dwTjVWMGFRVkVmZHplZjlYYVUyYm96Sk9NNXdNUWxWQmc5NW5xVktkNE5TdEhtQmszdkNWNXQxeVRwUk1xVklhYy1nYjRoQjRhQQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:04:07 GMT",
+      "image": null,
+      "summary": "2026 Vietnam Bilim ve Teknoloji Ödülleri'nde 20 seçkin kadın öğrenci başarılarıyla onurlandırıldı. Bu ödüller, Vietnam’da kadınların STEM alanlarındaki görünürlüğünün ve katılımının artmasına işaret edebilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "ASFAT çevreye yönelik teknoloji çözümleriyle COP31’de yer aldı İhlas Haber Ajansı",
+      "source": "İhlas Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZDZMTVp1MUtkeVJDVDRvVVFNVk4ydjVHZDgzV2l2Q0NKWjV3V0x2cUpDclY3X0RZWDBJeHJ0QzEzZHNreWp6VXp3NWNxbGFMS0hGNzlBMkxORVE3eG5VU3diZXAwckg3dldnZXBtSUstRFgtSDhtMjJLQVVlRkF5UktVUWlnQ1NKOVJJYnBjZC1vQ2FES3BqdS1VSWI1RjhVT2JkX3lmaGxEeEVSYnBqQUtB?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:03:29 GMT",
+      "image": null,
+      "summary": "ASFAT, çevre odaklı teknoloji çözümleriyle COP31'de yer aldı ve projelerini sergiledi. Bu katılım, Türkiye’nin iklim teknolojileri alanındaki çabalarının uluslararası platformda daha fazla tanınmasına yardımcı olabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "ASFAT, çevreye yönelik teknoloji çözümleriyle COP31’de yer aldı İhlas Haber Ajansı",
+      "source": "İhlas Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdEpfOVlPRm01QmNZV0wwVGV1Sm9WZVliRGN6dXdGSVZzMzR2U25FSkI3TTZyQWpYRDNRSjAtOE92ek1qandPQlBtNmdncjRNd3o0aXNEOXBhY1dXdUhQUVlYbGUzWFZabmNBamdYODBsT0RnNHpBRjJIV2M0TzByNUIxeGNFMXdHLWgxTmQwdnRBc3JYLTlMTkxYTDhnOWxqRHZnWHdaN19zZzdZRFM3TDhR?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:59:28 GMT",
+      "image": null,
+      "summary": "ASFAT, çevre odaklı teknoloji çözümleriyle COP31'de yer aldı ve projelerini sergiledi. Bu tekrarlanan haber, kurumun iklim konusundaki sürdürülebilirlik çabalarının devam ettiğini vurgulayabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Rakiplerine rest çekti",
+      "source": "CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ISTlRcTlxVEJQNUl5aEVoMmxTZEdaYVJzV2NLalRUb2ZtU255WGw3LW1oYzFRQzhLOURLN0l0V19DUjl1X1V4aHZyMm9EQ3E2UEpMZk4tY29CNFhjRVpZb3g0a0hvNXhZMVVxWUtFT0hYUQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:56:11 GMT",
+      "image": null,
+      "summary": "Bir şirket, rakiplerine karşı bir mola vererek stratejik bir duraklama yaptı. Bu hamle, sektördeki rekabet dinamiklerini geçici olarak yumuşatabilir ve yeni planların hazırlanmasına olanak tanıyabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Anthropicten çifte hamle - Bilim Teknoloji Haberleri",
+      "source": "CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoTGljazJkZWZzcWJ6Zm56TWVfRU43UmpBVmFnQVNhYy0tR3JuT2t0ekxsXzlKejdfd29VMW5IS0JKYUdmNENGQjZuWnBkN3NFeTJiZjZqODUzMU5aMkdXd3d0ek4zbzVhSUlQRllqZnY2ZV9z?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:55:03 GMT",
+      "image": null,
+      "summary": "Anthropic, iki önemli hamleyle yapay zeka alanında yeni bir adım attı. Bu çifte hareket, şirketin pazar konumunu güçlendirebilir, ancak sonuçları zamanla netleşebilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay zeka rallisinde rota değişiyor",
+      "source": "Ekonomi Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTU1DTEtfOFRzTjFQYUltcFgtUVEyZkRNYUhSSWdNQnJCOUJiNGY2RUlaeUx6ZWIyRUFORTBxS0h5SExvLU9Cam1raUNNMlFBVUNrYUVuLWJNT2RNVHdSNkVVZE9SRVlqZGQxcEY5Tnkxdm9hcm13MUNpYUVHNkpNaXd1TGpqaTJfRGNzRDJSdjBrT1po?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:54:52 GMT",
+      "image": null,
+      "summary": "Yapay zeka yarışının rotası, yeni teknolojik gelişmeler ve düzenleyici faktörler nedeniyle değişiyor. Bu dönüşüm, sektördeki yatırım ve araştırma önceliklerini yeniden şekillendirebilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Tüm mekanlar için tasarlandı",
+      "source": "CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1meTZLRDVFdENmS21DdmpPNjdEbXlKMm1vaC15bjNxQmVxVFEzNmtxRXNmQkZod21YT0xjbVJPcDBsR0VhN0cwZ205VWlUS3EzREs0YmVyMUhOOEN3SHZ2dFIwVmdVX3Zic200MTBva0QxOURNY01kdXVR?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:52:20 GMT",
+      "image": null,
+      "summary": "Yeni bir ürün, tüm mekanlar için tasarlanarak çok yönlü kullanım imkanı sunuyor. Böyle bir tasarım, farklı sektörlerdeki ihtiyaçları karşılamada esneklik sağlayabilir."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Bilim insanları sıraladı: Biyolojik yaşlanmayı yavaşlatan 10 beslenme modeli",
+      "source": "Gazete Oksijen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLU9uZmp1ekt6c0RoZnR0ZThtRXVES0M4QVltYTVJR1UxVHJjX2NJSXpQRUVyOXhxVllWVkw1R1p2a1R0UzVxd29aWlFPMmJXQXNsaGtiVEtmR1M2WGNIVDNNVXl2c2hVU2NQVEpXYTFwcV9sSGxnVEp2UUJzRFAtRVJaU3FVV3RPM2lZaHJnQjhDRHJoVkc2dEZfQjlWZThnQTVFTWkzR0hPNXRuTnk4X0hCazRmUQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:21:00 GMT",
+      "image": null,
+      "summary": "Bilim insanları, biyolojik yaşlanmayı yavaşlatan 10 beslenme modelini sıraladı. Bu öneriler, halk sağlığı stratejilerinde diyet odaklı müdahalelerin artmasına yol açabilir."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "2026'yı bile geride bırakacak! Bilim insanları 2027 için tarihi rekor bekliyor - TREND",
+      "source": "Mynet",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPX1p4M0pDU2dfQ1dSWHVoNVlpQUlza1ZwM3pBZDZPcUNwckVHT1ZKbEtlRFZiQWVxVGV2YzVtV2VNTWo0TlExWmZDV1FrNjVQclVOZkZ0U0x5RWtGZFpvRFdObWdHaUlUaUVoaFRyT2t6NGY0X3FRdk5kS01aY2Z3TTY3MDlHWGM0aWdxdlN4TUV3a182VnRVOFFMSEdoQi1FaFZ6dGxTcUo4WE9OQXB1S1hB0gG3AUFVX3lxTE1fajdtbVdLOVJmb05tSTR0Q2FqSkVyR2NRWHhPMExYZ3ZkcTlxVHhMM1dxZ2VrUWEtUTVPUVcycHBiUjFuel9GclYtWUxIRzJ5TDBxeTFWM045aW9PNzNDYjNGTlZpMmY1cWRNYnNuN1ZCLU40ZWdkSFVqSGE2OEszR0luSUJldFZnME5ZT2Y0cWEyV0x1YWVmYy1GQkowcTM4c0JaV0syU1VybWdfQWgxdWpOcURvOA?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:50:19 GMT",
+      "image": null,
+      "summary": "Araştırmacılar, 2027 yılında bilimsel rekorların kırılacağını ve 2026'yı geride bırakacağını öngörüyor. Bu beklentiler, bilimsel projelere ve fonlara yönelimde artışa neden olabilir."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
       "title": "2026 yılında on genç bilim insanı Bilim ve Teknoloji dalında Altın Küre Ödülü'nü alacak.",
       "source": "Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWEN2ajhKSXIwb3JieTV2Q2gyemlNWXdQaXFHWUNYdVdwR0FxM21LNWsyR1FKTFljcDUwcjhxbGNSdVNCbmxJOERxTjhUcDlxclE5Wl9HQlBzSmlzUEFGSXg3RVBITDY2aWNtODFuWlpvamh5YlZoalI1d0NNQlBRMWVBcHJZd0w5QTVfeVpKN2c2Y1JKSjJFUmVzT1hqZm9MU2xZS1FR?oc=5",
       "pubDate": "Wed, 11 Nov 2026 05:40:32 GMT",
       "image": null,
       "summary": "2026 yılında genç bilim insanlarına Bilim ve Teknoloji dalında Altın Küre ödülü verileceği duyuruldu. Bu gelişme, Vietnam’ın genç yeteneklerini teşvik etme ve uluslararası bilim camiasında görünürlüğünü artırma çabalarını yansıtabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "KAP *** BETA ENERJİ VE TEKNOLOJİ A.Ş. *** BETAE *** Payların Geri Alınmasına İlişkin Bildirim",
-      "source": "Yeni Şafak",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNHJ4WXVvMS05V2swT3E3bUt1NndLWWZqbUJUNWdBREExOEMtSks4WUZRTEFReFpPUkU0X01WWmZfYS03VGRkQkN3dlhKcE5PTVZiWWttXzF3M0NLbzZVSTVWMURuU25ERWpOQUd5SVZtMmFNVWtOdGVRQm9lVnJ4dXVtdmVVNGJfVFZyZGdvclZ1RWp5Sm05Z0ZhY0JySTVhSVc3aUt5SjBoZmx1cGlPSWtKd1FaZ2M4M3VpaGt0Y1FFRy1rNkZRYlVRY0ZyYUlM?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 05:17:00 GMT",
-      "image": null,
-      "summary": "Beta Enerji ve Teknoloji A.Ş., paylarını geri alma süreciyle ilgili bir bildirim yayınladı. Böyle bir adım, şirketin sermaye yapısını ve mevcut hissedarların yatırımlarını etkileyebileceği için yatırımcıların dikkatini çekebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "KAP *** BETA ENERJİ VE TEKNOLOJİ A.Ş. *** BETAE *** Payların Geri Alınmasına İlişkin Bildirim",
-      "source": "GZT",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFlCbFdPblZNdEJ4OU5ER1pVc3gzaXVQd1o3RFJWeXhxTTdibWxVR0ZqOXBPTnZTQlRObS1FNnp4d20taHBpc2dvUHpfMEZ6SGh6dVYtV0ZNSkRmUGE2czJ0TW9IQ29iOXllREtETGpTNkZWWWZwY2Nzc1dPWTI4OVBMcWdIU05JdGk1c2NPNVMyRmVod05pOVRNUmxMYVZMNkg0ekVCLVUyR0pJSkd0R2YzOGRuVjhLbEVxbVgxU2tvRVVqd2ctWQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 05:17:00 GMT",
-      "image": null,
-      "summary": "Beta Enerji ve Teknoloji A.Ş. paylarının geri alınmasına ilişkin bir başka bildirim daha yayımlandı. Pay geri alımının şirketin finansal stratejisi ve piyasa algısı üzerindeki olası etkileri, paydaşlar için önem taşıyabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Avrupa Teknoloji Sektörüne Yön Veren 50 Kadın Yatırımcı",
-      "source": "N24",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTmJ3RGlzdHhzcVdobWRzdXlkV1ZWMWo0TVRNNFBvNHcwRktWbU9aYmVpcnlTUHFpQXNRRVpoaTloSTRqTVRpamNVejlqUGhZQ0dKVTFoeHUxX05lUVVzRUV1dHFVQWFsZlVIWUh3QnBxWWM3VktQUGlvSENtRkhUUXQzUVJjUVZ6b3c?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 05:07:27 GMT",
-      "image": null,
-      "summary": "A compilation highlights fifty women investors who are shaping Europe's technology landscape, featuring leaders from venture capital, fintech, and AI sectors. Their prominence suggests growing gender diversity and may inspire more women to enter tech finance."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Teknoloji ve Robotik takımı sezona şampiyonlukla başladı",
-      "source": "Yeni Şafak",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa3kwTFVaSWNMbzZaUFM2ZXdnV2lzcDIwRW01dHNIQXRBSkMzZC1Pb2xhSlFtOVM1dEpfNUpzNmRRbGlla0NNNnNkSVFYLTBxanNZdEI3RXY0dEtGSjdDWUxIZTBOMmNWTVZrTDdkTFhuU0ROTjJLMmVjaDRYbVlFU3pQTnNoRHVpMFZRaC1DM2xheWFxZkszLUFWUkZfekEtMVE?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 04:42:24 GMT",
-      "image": null,
-      "summary": "Teknoloji ve Robotik takımı, sezonun ilk yarışmasında şampiyonluk kazanarak dikkat çekti. Bu galibiyet, takımın teknik yetkinliğini ve genç yeteneklerin gelişimini gösteriyor; ülke çapındaki robotik faaliyetlerin artmasına katkı sağlayabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Güneş, teknoloji ve stratejik hedefler",
-      "source": "Milliyet",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUm1wX28xbzBWM2Y5SEV2UkZvWEpicnZMcnEzbHJSYlREcF9XSjRoRDJaZWpXOHNPUTRkYWE4VmhNQ01zOGlnRy00YUJ6Z2JOdDhCWXBiR196NEFLNU9ZLW9GSkIyTi1HT25KbG9DcnVpR1Y3aHpNRFpmSGlKMjNHVVNXZ1hNbzBTbG1pS3NodTFSSjFiUVlFVjhDWExNamM?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 04:01:03 GMT",
-      "image": null,
-      "summary": "Türkiye, güneş enerjisinin artırılması ve yeni teknolojik uygulamaların benimsenmesi üzerine stratejik bir yol haritası hazırladı. Güneş kaynaklı enerji ve dijital dönüşüm hedeflerinin birleşimi, enerji bağımsızlığı ve sürdürülebilir kalkınma planları için kritik öneme sahip olabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Ekim ayında bilim, teknoloji ve dijital dönüşüm alanındaki ortalama puan 66,7'ye ulaştı.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT293cmNfZkdCeXRaTzJZclRVUWhfMVBpWFVRaGxwZGVDQnM4NEl5VlJ6WHFTcGxJdGVqNGJ1aldZcEFPVDZQMHJWZWphRXNRbXpwNEJfck02VjZIanhkNTBGc1RQSVc2cVJpV1JvdnV4T3BfMlBlLTlkdlVvMEg3a3kybGRwR2JCRE1EWmZoS0dkTTJkM0JlTm1MYkdpc3VMQ3c?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 03:39:59 GMT",
-      "image": null,
-      "summary": "Vietnam, Ekim ayında bilim, teknoloji ve dijital dönüşüm alanındaki ortalama performans puanını 66,7 olarak açıkladı. Bu skor, ülkenin bu sektörlerdeki gelişimini ölçen önemli bir gösterge olabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Da Nang şehrindeki departmanların, kurumların ve belediye/mahalle halk komitelerinin bilim, teknoloji, inovasyon ve dijital dönüşüm alanlarındaki Ekim 2026 değerlendirme sonuçlarının duyurusu.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNaXZ5VFJYVG1wdGozcXAtYnBaVkljdzNIdEs1YkxMc0RvUE5sQ3FsMGYwd3lfVDhaMXRvR0p4eGt5NHJwaU5vc29QNWZuMlNtRWpXUG9uVk5TRDN5WllKN1JnbXR0WE1JQzRSU0JDcUtrMnpHRUxUM25zQjZUX0xqdlNRcnU0OWRSa2p3N2pXSWtGdzltby1CLU9YZ2hoek5LMlhQcUlCdEh2Si0zQ2tZY0dUR2hRVW9Ic196S05SZ1pjVjhwbUJLbm9FNjFGSUZQdWhuM3NHbnMtYnhkcDl5R29HT2xQXzBQbDdOQ0pOQkUzZkVJSXJWZUZvZmFEYTBsRDZ1QXJIZXFiUC1KZ3ZKN3FHbGFvYS1jRVE?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 03:39:58 GMT",
-      "image": null,
-      "summary": "Da Nang şehri, departmanlar, kurumlar ve belediye/mahalle halk komitelerinin bilim, teknoloji, inovasyon ve dijital dönüşüm konularındaki Ekim 2026 değerlendirme sonuçlarını kamuoyuyla paylaştı. Sonuçların yerel politika ve yatırım kararlarını şekillendirmesi muhtemel görülüyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Teknoloji dünyasını sarsan skandal sonrası Nvidia borsada çakıldı",
-      "source": "Türkiye İş Dünyası Haberleri",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSHFsSEhHS0k2ZlFXaHpYSVJHUXpZanZmLXhra3JTRmFJY19tMlZBUTVqOVpFd2dvRmxZUmoyY1h3ZjQwQ3BzR25ZZXFwUnVrZ05CUVJaQzlRV1JhQWhEempRblBKaXdPZjBBb3pWMTVwaEg5cXpyeTI1dVdBZDh4UlgwdDNtZXhQR05DRWU0bUJGQ1NVS084bHU2eVFWc1FJRUV3VENfRQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 02:43:27 GMT",
-      "image": null,
-      "summary": "Nvidia, teknoloji dünyasını sarsan bir skandalın ardından borsada değer kaybetti. Bu düşüş, şirketin piyasa algısını ve yatırımcı güvenini etkileyebileceği ihtimalini taşıyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Yeni Hyundai Tucson’da Motor Kapalıyken Klima Çalışacak! İşte Dikkat Çeken Teknoloji",
-      "source": "Uşak Haber Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVnpfV2NKUnRRb3p4Y3pob3NmVEd2RVJLcWRYd21ZZnByVVY0OWw4emg4bFI0WjgzNnZMUC11YlZTcUdHZDJXQzZiUDNnSVk0enVGaWhmZWpTalE1cGlaeVhOejR2Z2Uyd1lhMWJ6WWJZSWZtQ242V3lweGhzd1lYbEk4UjdwRWxjTDFfcmZqOEtROVJXYVYtVkx5UkRTazNGSGNjTXhvUG5iUWRGeHRsaUZES3FuM3F1dlJz?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 02:30:00 GMT",
-      "image": null,
-      "summary": "Yeni nesil bir SUV modelinde, motor çalışmasa bile iç mekanın soğutulmasını sağlayan bir iklim sistemi tanıtıldı. Bu teknoloji, özellikle sıcak iklimlerde araç içinde konforu artırabilir ve enerji tasarrufu yönünde yeni fırsatlar sunabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Denge Yatırım Holding, Metrobil Teknoloji'deki yüzde 75 payını devretti",
-      "source": "hibya.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUVKM1R3WWZ5UjNweTAweHVoRkY1NERkSmpKVXFZNUw0dWJ0TGgyMzlyQkQ2Sl9VZm5YTnI5T2tiOXYtNXV3VWxUdkVkdll3ZUdueGtvMEdoM1NReGNNcUZJRU5KZmdhd1JOeWQ3OFI4VHlvQWZwZjQycWs5cjJ3a1ZFZmhRbEl1N24wRmZ0YTktQmVlUmZJVFE0Zw?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 02:24:18 GMT",
-      "image": null,
-      "summary": "Denge Yatırım Holding, Metrobil Teknoloji'deki %75 hissesini başka bir tarafa devretti. Bu devir, sektördeki pay dağılımını ve şirketin stratejik yönelimini değiştirebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Bilim ve Teknoloji sektörüyle ilgili soru-cevap oturumu öncesinde: Engelleri net bir şekilde belirlemek, çözümleri açıkça ortaya koymak ve gerçek bir değişim yaratmak.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeFYxdTlyd3JMRWtyMkxYNEVvelNEWmlwRlBXMTh2OFAxZDBXLTVWdy1XeG83b2RNN240LXFoMVhOWmhGcmpQMUtjM2gza2FTbjdEVFd3VG5mRXJOVWdXUUROSkRhY182by1rbnEzaVNGZmV4N1hJOWhxXzM3SUgzUFVFUEFTZ2RfQTBpNEZpNmU2T3Z5RXo5czJZX0ZpMHY1dnh4TEVYMXVxdVp3WFdJcFBTNjR5a2s5Q1J5d1RUbjAtUnpzU2JCcEJkMVhCSjA?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 01:35:27 GMT",
-      "image": null,
-      "summary": "Bilim ve Teknoloji sektörü için planlanan soru‑cevap oturumu, mevcut engelleri tanımlamayı ve somut çözüm önerileri sunarak sektörde gerçek bir dönüşüm yaratmayı hedefliyor. Bu tür bir yaklaşım, politika yapıcıların ve yatırımcıların daha etkili stratejiler geliştirmesine katkı sağlayabilir."
     },
     {
       "cat": "Bilim",
@@ -164,42 +194,42 @@
     {
       "cat": "Bilim",
       "catId": "bilim",
-      "title": "GAZİANTEPTE DÜZENLENEN BİLİM VE KÜLTÜR ŞENLİĞİ SONA ERDİ",
-      "source": "Yozgat Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOG5LS3dsOUNtT19uVXNKYUltQkZrM1B5STRXbmRsN3JJRDFidGpiVndPRVk2NldOeXUtNWNESDFXVDJvU2NENjBackh4M1dUcVEwR1p2cENpT0lVS0ppWUNLcHQtMmVWZ0Z0c1VuMTNaYnlKWVFWZ19HcDA4UTV4dkF1emw5bGVGaDMxQ0MzNUM3bEl3TVVJcVY4dDZMV1pfLWxaSVU5X2IyRmxkSXc?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 03:36:50 GMT",
+      "title": "Ekim ayında bilim, teknoloji ve dijital dönüşüm alanındaki ortalama puan 66,7'ye ulaştı.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT293cmNfZkdCeXRaTzJZclRVUWhfMVBpWFVRaGxwZGVDQnM4NEl5VlJ6WHFTcGxJdGVqNGJ1aldZcEFPVDZQMHJWZWphRXNRbXpwNEJfck02VjZIanhkNTBGc1RQSVc2cVJpV1JvdnV4T3BfMlBlLTlkdlVvMEg3a3kybGRwR2JCRE1EWmZoS0dkTTJkM0JlTm1MYkdpc3VMQ3c?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 03:39:59 GMT",
       "image": null,
-      "summary": "Gaziantep'te düzenlenen Bilim ve Kültür Şenliği sona erdi ve etkinlikler başarıyla tamamlandı. Şenlik, bölgenin kültürel ve bilimsel farkındalığını artırması bakımından önemli bir rol oynamış olabilir."
+      "summary": "Vietnam, Ekim ayında bilim, teknoloji ve dijital dönüşüm alanındaki ortalama performans puanını 66,7 olarak açıkladı. Bu skor, ülkenin bu sektörlerdeki gelişimini ölçen önemli bir gösterge olabilir."
     },
     {
       "cat": "Bilim",
       "catId": "bilim",
-      "title": "Sosyal Medyanın Sunduğu Olanaklar",
-      "source": "TÜBİTAK Bilim Genç",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42a2tIeW1zdHlIMkNtX2xvZlhoVGlkS2tWYmkwMXUxc0N6Z1lDYlZ1S1hRVVBNSEtBQ2N5cWI0eVB4NjVER25CejdQUmpFWjlrUWZYVWpmbGEtRkxnckJJRmZtemhRTHRpWHhhUFhTSGUxZWpWWEswWnV0c2JHUQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 01:09:33 GMT",
+      "title": "Da Nang şehrindeki departmanların, kurumların ve belediye/mahalle halk komitelerinin bilim, teknoloji, inovasyon ve dijital dönüşüm alanlarındaki Ekim 2026 değerlendirme sonuçlarının duyurusu.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNaXZ5VFJYVG1wdGozcXAtYnBaVkljdzNIdEs1YkxMc0RvUE5sQ3FsMGYwd3lfVDhaMXRvR0p4eGt5NHJwaU5vc29QNWZuMlNtRWpXUG9uVk5TRDN5WllKN1JnbXR0WE1JQzRSU0JDcUtrMnpHRUxUM25zQjZUX0xqdlNRcnU0OWRSa2p3N2pXSWtGdzltby1CLU9YZ2hoek5LMlhQcUlCdEh2Si0zQ2tZY0dUR2hRVW9Ic196S05SZ1pjVjhwbUJLbm9FNjFGSUZQdWhuM3NHbnMtYnhkcDl5R29HT2xQXzBQbDdOQ0pOQkUzZkVJSXJWZUZvZmFEYTBsRDZ1QXJIZXFiUC1KZ3ZKN3FHbGFvYS1jRVE?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 03:39:58 GMT",
       "image": null,
-      "summary": "Sosyal medya, ağ kurma, eğitim ve toplumsal aktivizm gibi çeşitli fırsatlar sunuyor. Bu platformların artan etkisi, kamuoyu ve politika üzerindeki rolünü güçlendirebilir."
+      "summary": "Da Nang şehri, departmanlar, kurumlar ve belediye/mahalle halk komitelerinin bilim, teknoloji, inovasyon ve dijital dönüşüm konularındaki Ekim 2026 değerlendirme sonuçlarını kamuoyuyla paylaştı. Sonuçların yerel politika ve yatırım kararlarını şekillendirmesi muhtemel görülüyor."
     },
     {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Darwin’in beş yıllık keşif güncesi ve bilim tarihini değiştiren gezi notları: Beagle Yolculuğu",
-      "source": "Edebiyat Haber",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWlgxVVltNmV3cjQydDhwUFhDWEFidGJUTFBUZm9CdUc1VVQ2cERZSjZPbHBHQ01oSmNwaTNTaE9nYWJyaTJfaXZJSTNLWnZ3cHdJbDZRQUFKNFQ1ZjNpMlJ5aXFFLWhUYW45VjJzWllGdmtPZWJTUWFNVFdFMWhJa0V3RnhIeDJpUTJMSGpjU2NyV0R2US1XR2p5UEQzaldXYkxjVy03eTMxdTVoMXZTX1NiQU9NakNjZm1Wa1JTQVk?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:19:00 GMT",
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "COP31 Mavi Bölgesi'nde Sanat ve İklim Mücadelesi Bir Arada",
+      "source": "https://www.ajansturkhaber.com/",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaTNJeWtRMV8tSmE0eEtWbU9JRXhMMF95QTlhaGFhSFAxa0lUQm4wWmltZFdJYlBVQkpmdXIzRURmX3JnX1JUaDdJcVZucksxY21QdnVYbjU1MEduNDMxMEt6dHR5NHROTkhjbEo0RGZRUnpIVWx3NlpzaWFwUVA1WDhMbU5tel9PbDZKV2ZoV20ydkNCR20yLWNQQkNQUQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:31:35 GMT",
       "image": null,
-      "summary": "Darwin'in Beagle gemisindeki beş yıllık keşif güncesi yeni bir şekilde yayımlandı ve evrim teorisinin temellerini atan gözlemleri içeriyor. Bu belgeler, modern biyoloji tarihinin yeniden değerlendirilmesine katkı sağlayabilir."
+      "summary": "COP31 Mavi Bölgesi'nde sanat ve iklim mücadelesi bir araya getirildi. Bu birleşim, iklim değişikliği konusundaki toplumsal farkındalığın kültürel yollarla artırılmasına katkı sağlayabilir."
     },
     {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Uşak Üniversitesi Rektörü ve akademisyenler COP31'de projelerini anlattılar",
-      "source": "egedeyenigun",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV3EyeWM1Z2Z2d0JSeGU0ZndlcGVCUURtdVVUd2RBeEpWa2ZEUlpfQU54WHFSdFFUWGpLRHBHMmZDMEhMX1JiNDY4ZnRDR0R4UWtaV0hRRGp5aDhScXlnVHVJLXRqYnJhY2stZG5waEh1ZnNCTHFTSzJZeWdlYUMtZndaZ0tKV1FJMXJqWHlNSENHb281dVhOcTFGMG9oMjlUdjBxS2ZR?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:32:00 GMT",
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Gece Gündüz 10 Kasım 2026",
+      "source": "NTV Haber",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vRU9SdTZBVG1nbjdKVDEyeGFKbnJQMFZ4MXRrS25OOXM4LXNxakpXcDRtY2NycXNnY0hQOXktRWI0QVF4S0F3Y3hRY0dQdGoyNFR3MG1xUU1xeHNtdlVkRExwYnZ5VG1lcXpFRnFtVQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:04:29 GMT",
       "image": null,
-      "summary": "Uşak Üniversitesi rektörü ve akademisyenler, COP31'de sürdürülebilirlik projelerini ve yerel inovasyon örneklerini sundu. Bu sunum, bölgesel akademik iş birliğinin uluslararası iklim politikalarına entegrasyonunu teşvik edebilir."
+      "summary": "Gece Gündüz programı, 10 Kasım 2026 tarihindeki önemli gelişmeleri kapsamlı bir şekilde sundu. Bu yayın, izleyicilerin güncel olayları hızlıca takip edebilmesine yardımcı olabilir."
     },
     {
       "cat": "Sanat",
@@ -220,6 +250,16 @@
       "pubDate": "Wed, 11 Nov 2026 04:00:49 GMT",
       "image": null,
       "summary": "Giza’da, antik piramitlerle modern altyapıyı birleştiren yeni bir yürüyüş yolu keşfedildi ve turistik rotalar arasında yer almaya başladı. Bu gelişme, kültürel mirasın korunması ve turizm gelirlerinin çeşitlendirilmesi açısından potansiyel faydalar sunabilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "McCartney en zenginler listesinde",
+      "source": "Milliyet",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOW5uWnhjdEd2VUZsNmdleWRmTzA0SUhWWV9FbndhanFubktCeTlPNlJvcEVBZGtJNzBvb3VROVdzR3dSVUw1RUMtRzA2ZlFleUJsYkNjQTBxeG9kTlp4RHpabDg1bkJFTDg0RHJEeWRRWmFQamU5MkV6OHVNNUNxNlh1QV9YQXB5U2c?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 04:00:49 GMT",
+      "image": null,
+      "summary": "Paul McCartney, zenginler listesinde yer alarak finansal başarısını sürdürdü. Bu durum, uzun vadeli sanatçılar için maddi kazançların sürdürülebilir olabileceğini düşündürebilir."
     },
     {
       "cat": "Sanat",
@@ -290,36 +330,6 @@
       "pubDate": "Tue, 10 Nov 2026 21:35:13 GMT",
       "image": null,
       "summary": "Dünya çapında tanınan bir çellist, iki ayrı konserle İstanbul sahnesine dönüyor. Bu etkinlik, klasik müzikseverlerin şehirdeki kültür hayatına katkı sağlayabilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Fenerbahçe Gönüllüleri Derneğimiz, 10 Kasım’da özel bir sanat buluşması gerçekleştirdi",
-      "source": "Fenerbahce.org",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPS2F6WDd3Ulc4blBDX1VDdU05Ry1Md2pvWnlGbGotOEl0a3JlQXhIV0tILUlZVW9RajVHT2VqTTZPZGw3N2RrVVFsWG5abVI0MXAtandTd2hydVdENHVKejZUYWx1QXNfRy1YeHdfWHc0MFVPR3o4MUFRMVJyNlR1R2d0UlZaY2VSSXZCVTRCRE50cjZSQmhNLUg1cV9TRVlIallGQ1gwcDlYb21EODJ3SG5aLUhlQW9ZcHgwa1VJV3ZKWnpsOF9vMkliSEdsZ0ZoaEZtaHF3?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 18:53:45 GMT",
-      "image": null,
-      "summary": "Fenerbahçe Gönüllüleri Derneği, 10 Kasım'da özel bir sanat buluşması düzenlemiş. Bu etkinlik, toplumsal dayanışma ve kültürel farkındalık yaratma amaçlarını destekleyebilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Kırklareli’nde Engeller, Sanat ve Müzikle Aşılıyor",
-      "source": "Kırklareli Alternatif Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeE84UUR1VEhmU2dkbzZPemtrVDBxSmZTRm1NbGN6U0o2VWdDaEpJQ2xaY2dSQk1lZXN6YTJlUkJzSk54NlVwUWZ0WXQ1VFlkc3BtYjdWRENtSTRRN2U5c3ltQjI4TkJvbmZvS3NrTVZ2SnhEaDNRallVc0RpeGtNeUdKRTd2ZzNBdW5V?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 18:51:00 GMT",
-      "image": null,
-      "summary": "Kırklareli’nde engellilere yönelik bir girişim, sanat ve müzik terapileriyle sosyal bariyerleri aşmayı hedefliyor. Bu yaklaşım, kapsayıcı topluluk modelleri için örnek teşkil edebilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Fazıl Say, Özyeğin Filarmoni'nin sanat yönetmeni oldu",
-      "source": "Yeniçağ Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPalNNTVNtamFvX1BNU1cyb1pXMDhmVGVaSExESWcxVzNTbG52LVZEQ0RmX0o5bkpUOG1MQ09TQ04tb3JUUHQ0MWZYbTV2S0g0RDlZbnhlVEN3Z3hhMmlsaWhuNEJ3b2VsVVNNZWI5R3QwS1Atb2xFbXhXcGI5TWRta3dUQ2ozcDZtVVREdXF4LTdFOEczQXU0VFVSSXc?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:57:36 GMT",
-      "image": null,
-      "summary": "Fazıl Say, Özyeğin Filarmoni Orkestrası’nın yeni sanat yönetmeni olarak göreve başladı. Sanat yönetmenliğindeki değişim, orkestranın program seçimleri ve kültürel etkisi açısından yeni bir dönemi işaret edebilir."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -474,52 +484,52 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "GOP House rejects Hegseth impeachment effort",
-      "source": "Axios",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcUJzMTFhd3lUc251dHJmSkd4UnNTV01pQ2ZibnZ0SlU5S2ptR2plbzUyektJaXdValIwMDkwOHRlVE5pR1hZZGJlWTRUd2VDN09KQ2NCNTg4NUZGaTNyZUJYaGgzRGNwTzhQZVYwUE4yUW1ObG1NQzFuVEljN3B1aXgyNUxxVTgwZ3c?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 04:26:06 GMT",
+      "title": "Car Crashes Into Crowd in Los Angeles, Killing at Least 3 Pedestrians",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9jWkU2WGNDc0psaTlYWnNMM0UwNXc3QWdhOER6N0ttRzJpcHlXd0haQk1OTm5XTG4waVhQMWpCeUJKQjk5QWQ0NjVaX1FzUE5NYWlqNXkxSUVfM2I4d0hEeGhBUmJhRl9GdjBHZ2VBVVBRQ0hIblB3c1hITQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:32:00 GMT",
       "image": null,
-      "summary": "ABD Temsilciler Meclisi, Hegseth’e yönelik azil girişimini reddetti. Bu karar, partinin azil süreçlerine yaklaşımını ve mevcut siyasi dengeleri yansıtabilir."
+      "summary": "Los Angeles'ta bir araç kalabalığa çarparak en az üç yürüyüşçüyü öldürdü. Bu trajik olay, şehir içi trafik güvenliği ve araç kontrol mekanizmalarının yeniden gözden geçirilmesi ihtiyacını gündeme getirebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO",
+      "title": "Israel’s newly elected parliament is already moving against Netanyahu",
       "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSGFnY2NIZEtGbmxfZDBha1l5TUJoMk5PaVgzdHRxazk5UlFtd1lQZjkyc1NJNkFKRXNrdGlxLXZWNVdlYkhmYzg2MkpHWnhkOU9LSmJBLTlZRnkwNW1vNmtmWVlOamdMSlQ4Q29lME4wNlU0OW5FLWFGN2tzdXJ3c25QUGpNWUgzeEJIekptcTUxVUczN0JBQ1NYY3ZTZ21HMlZmM2hSVGtTR2xncGF0WnZhYXdxYy1Rd3d0dURwNUZVOHlsSlE?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 04:15:22 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcFlseGxLdmpRQjNQS1g3U1h1Q3I2X0dsUElDbnM2cnZYeVVRd201YWU1Rk01eTlzUzR0ZHhOYmZzLXBKeU9YbUJlZm92b2x0c1VNalJqZTFfY05xYUszTFc1VEJZYlJzYlZZSDhFZEdSeEp3SndpSUNNcEloOC1qRlliVnAtQWdGOFpjY0s4NnFPbnI4ZHhMeS0xZkw1SnFjV25GQ2d6ckxFNE9idXA1S2FHcXJqTnhW?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:00:35 GMT",
       "image": null,
-      "summary": "Alice Huang adlı kişi, Çinli istihbarat ajanı iddiaları ve Nvidia CEO’su ile ilişkisi üzerine bir hayat hikayesiyle gündeme geldi. Olay, kurumsal güvenlik ve uluslararası istihbarat faaliyetlerine dair endişeleri artırabilir."
+      "summary": "İsrail'in yeni seçilmiş parlamentosu, Netanyahu'ya karşı adım atmaya başladı. Bu gelişme, ülkenin siyasi dengelerinde olası bir değişikliğin sinyalini taşıyabilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Jaylen Brown repeatedly snubs ex-teammate Jayson Tatum as Celtics crush Sixers 'lambchops and some gravy'",
-      "source": "Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbzNtNE5Qb0JmTFRjd2ZHa0g5YjBXTWVEeWpvY0ZxZmQ3OUZBdEJDTExaWU5paEY0eHZSazY1UGlQbElJWWNhZi1NeGtfaTNrTW5oYmYwcXpBbTZTMUdpb0JIN1lIVEdVUEtXZWplUU9USEE0b05PblRoT1dnb2RwSXN2MWNfN2NiUER3WHBteXFLbGpEb0VFWU9VU2VFVDR4OGhvSThwVjRUaG8?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 04:01:17 GMT",
+      "title": "Scoop: Commerce Department received national security warning on Nvidia CEO affair",
+      "source": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NTWlEVTREeTZ0V3J5d1VBblV3Q1JiV0tqTWJUSGVJQ2MxSElWWHpVVG9lTkxKR3ctY2RDVHJUaTdWak1oS2lGSGhPbUJ6MU9CZ2xJdGY1Ui0zQy1uaFliV3c1MXprY3RDejF2eXp2WWc2WWJRSTZiOEljZw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:47:11 GMT",
       "image": null,
-      "summary": "Celtics’in yıldızı Jaylen Brown, takım arkadaşları Jayson Tatum’ı maç sırasında tekrarlayan bir şekilde görmezden geldi ve Philadelphia 76ers karşısında etkileyici bir galibiyet aldı. Bu tutum, takım içi dinamikleri ve medyanın ilgisini etkileyebilir."
+      "summary": "ABD Ticaret Bakanlığı, Nvidia CEO'su ile ilgili bir ulusal güvenlik uyarısı aldığını bildirdi. Bu uyarı, yarı iletken sektöründeki liderlerin güvenlik ve politika açısından daha yakından izlenebileceğini gösteriyor."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Judge jails Thomas Markle, father of Meghan, after he cut off his ankle monitor",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRWRHb01HTTFuYmlwb1F5Z1k1YVBYYlVHRGVaSFhFbk9nMzk3MjF0cWZEUE1JOVVwclppT0x1YmVlMGFjMGpnOEI4WWZTN1B3MVRCN2JscHFKeWdIX3JkRXB0U2twcEtZRzktbkc5ZHdHRWlVbTA3a0EtS0tsY0Eyc01HTVRBYkVVUlhmMHlLR0pDTUFnNUZ4T3VCNA?oc=5",
+      "title": "Kennedy family sues to stop Trump’s arch, citing shadow on JFK’s grave",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObzVCd0d6RlIwWkUzOHhvZDZ5SnN3bXlfbXJ1NXBwWUVsQjZVa05zZkEyYnRkSGdjQ1lZd3hNRWM1MV9hZXVnZWltMkQxeHJRaXp0eTZIQ29jRHBqclFacnBadXpXam9NWjVIT3p3MklTdjNNQUlaQmJKbURmaGhJNmNYaFZ0cWhBa0YwamZtd3I3Z2pmQVBCdUJZeXRyM1dLNTBmdy1wc2tDYVlBdGxQNnBR?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:00:51 GMT",
+      "image": null,
+      "summary": "Kennedy ailesi, Trump’ın başkanlık dönemindeki bir anıtı kaldırma planına karşı dava açtı, çünkü anıtın John F. Kennedy mezarı üzerindeki gölgesini rahatsız edici bulduklarını belirttiler. Dava, tarihsel anıtların korunması ve politik sembollerin kamu alanındaki yansımaları üzerine tartışmalara yol açabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Dow Jones Futures Rise As CoreWave Jumps, Lifts AI Stocks; Look For This Bullish Signal",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTlTdzEzVWY3aWRmTGY0QzNnQjlfNFdOMzhUSnRBVDBOWEd2azg0bEl6dl9jY3NWR29ILUwtT01MWExiLXdsa0dOT3M3TTZzTUNiY1gwWlp6MkFoeGtKUC1tYWdPanVhZ3VqSlNwT1dZVVhlSGJZS3J6UE9Bdm5JZWJLeURUTDNwTG43bF93cm0tTE9QZG1FXzhxNmlkM0FmbVJPM1pnRy1FUG9RT1E?oc=5",
       "pubDate": "Wed, 11 Nov 2026 04:01:00 GMT",
       "image": null,
-      "summary": "Mahkeme, Thomas Markle’ı ayak bileği monitörünü çıkardığı için hapse attı. Royal aileye yakınlığı nedeniyle bu karar, adli sürecin uygulanması ve kamuoyu ilgisi açısından dikkat çekebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Stacy Keach, Actor Who Embodied Hamlet and Mike Hammer, Dies at 85",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UREhpR09Vd2RicUdlTnR2c1VnMEdhOVN0QWNfbUVDaHJOdkE5bVdHSDAzd19lWnBvQmVPR2JrNS1xd3prUlpjU2pEUkJQZkV6a1FDdFM2V0lWVkpucG9JUWU2VXdxMGJKeFNNU2VB?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 03:57:21 GMT",
-      "image": null,
-      "summary": "Oscar ödüllü aktör Stacy Keach, Hamlet ve Mike Hammer rolleriyle tanınarak 85 yaşında hayatını kaybetti. Sanat dünyası, onun mirasını anarken, nesiller arası tiyatro ve sinema etkileri üzerine yeni değerlendirmeler yapabilir."
+      "summary": "Dow Jones vadeli işlemleri, CoreWave adlı bir gösterge yükseldiği için artış kaydetti ve bu durum yapay zeka hisse senetlerine de olumlu yansıdı. Bu yükseliş, yatırımcıların teknoloji sektörü beklentilerini güçlendirebilir ve kısa vadeli piyasa hareketlerine işaret edebilir."
     },
     {
       "cat": "Dünya",
@@ -534,6 +544,16 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "Jayson Tatum responds to Jaylen Brown snub with runaway Celtics win over 76ers paced by Paul George's 36 points",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNM1hRY2pRV3JOdjdjVno4NGRnQUhFbHdWZWV3WC1Rak9JWW81bnhBY3FCdTBIWllHNS1VSzJsSHdmVXc2cS1WanhOcHYyaFJZTGctZ3A3NXpsdUJDNlVwOTN5SGZja19rMWt4Y1hHX1VtRVEtOXhGMHFvdnY1Q2xReTl6RmV6QzdjZWllajdFN04wRlRmbWxrMWlmdDZGOFBWQkREalZBQzBvNGVINm9wRHJVeVEtUF80d0FLQm9ITVdHTWZLMWRpR0ZlTjBpR0hfTXlGZWJ1Q216Q1NjNDlNMGJSc1kyTXpyb3I2R1ZtdW5RNUxrd0REZ05PcUhHd0c1ejZIVVpNVQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 03:26:00 GMT",
+      "image": null,
+      "summary": "Jayson Tatum, Jaylen Brown’ın kendisini görmezden gelmesine yanıt vererek Celtics'i Philadelphia 76ers karşısında etkileyici bir galibiyete taşıdı; takım, Paul George’un 36 puanlık performansıyla da desteklendi. Bu zafer, Celtics’in liderlik dinamiklerini ve playoff iddiasını pekiştirebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "Jonathan Ross 'horrified' by Walliams allegations and Brand conviction",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uNzN4LUppZUZ6dm50N19qYTlZeEtLLXlhbFpTdm9RN0t6OEM0eUNCU2hLQTFpXzRKcnM4UU1DRFhlNFFzOHNnUFdfaWtRaWFfZjV2eVRub0JkV00?oc=5",
@@ -544,12 +564,12 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Kennedys Join Suit to Block Trump’s Arch, Saying It Would Mar J.F.K. Gravesite",
+      "title": "Republicans Turn Back Effort to Impeach Hegseth",
       "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYkdKN3BFcy1oTkFDWG9ORDJGSzBQbVBaWFdqSE15d3QtYmh6QzVET1N4Qk9VaE5iZlpIekNhSDY2cWNySy1CWFZETGxCQ3U3TW14UnMyLWhXLWpfZFFqYVJzZlNtSEcwUTNXT095OVdJTzU5SXIyaXM5TjF4X0NUUGNpVFo?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 02:59:12 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQczhlOHB0Yk8xLWNnN25lSUpKY3BBcmNkVU0yMTJkSy11VTZWRzlabFowdHEzekd3YkZzMXdmYmFWR1NBUlVsWVdkWE9FbmwtY2FNZ3lVQUNVc0taOWtmSUVCVTUwR2dlWWc4YzVVSWVYN2tqT3M5SVlXVzVOM05SaTVhWGZWc2hpdmc?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 03:08:02 GMT",
       "image": null,
-      "summary": "Kennedy ailesi, Trump’ın Arch projesine karşı dava açarak J.F.K. mezarının zarar görebileceği endişesini dile getirdi. Anıtın inşasıyla ilgili bu hukuki mücadele, tarihî mekanların korunması ve politik sembollerin kullanımını gündeme getirebilir."
+      "summary": "Cumhuriyetçi senatörler, Savunma Bakanı Hegseth’i azil ettirmek amacıyla getirilen soruşturma girişimini başarısız kıldı. Bu sonuç, parti içi dengeyi koruma çabalarını ve yüksek profilli savunma politikalarının istikrarını gösterebilir."
     },
     {
       "cat": "Dünya",
@@ -564,62 +584,62 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "College Football Playoff Bubble Watch after second ranking",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT1c1MHBYa2ZYdUM5VExBYTQxb2hNWFNHczdvYW41M1V4ajY5RUlGbzZrQk42bno0QmJwVDRqUU5Pa1RqV0djOXlqOWgzaXNCaHBERGVNeUxWdzBxLThWVUJscnhvY0Zwc0VPV3pTOGlEVXpHTVhPZV9EbzVxZThhcXJVLVlXQ1VSaEVPbUVjUnhaNHNUM1VMTjNhMA?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 02:45:00 GMT",
+      "title": "End of an era: Apple Support Community forums will permanently close on November 20",
+      "source": "9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRWRkaEJQd3ljMks0NWFGSzlia1VKYkRFeVRxMGV6QkhIb3lJZHY1NTNmSHRmdG9TbnBveER1Wm81eTRZVzlxUnI0MG14RUVya1hGRFIxeGYyYnlLRWZqczFsTzgwUzdzZ09FcUZTLVV0cVJkYXRycTNyZE4zbUk4UHZEeUVsY1U1UTVoNFVZUXNWTlQ1Z3lxTkNwYnFtdGJIZmlKbG80OGI2WXB5SXg0RGtIQTE?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 02:49:00 GMT",
       "image": null,
-      "summary": "College Football Playoff sıralamasında ikinci sıraya yükselen takım, playoff balonunda yer alıp almayacağına dair tartışmaları alevlendirdi. Sıralama değişikliği, sezonun kalan maçlarının heyecanını artırabilir ve takımların stratejilerini etkileyebilir."
+      "summary": "Apple, 20 Kasım’da Apple Support Community forumlarını kalıcı olarak kapatacağını duyurdu, bu da kullanıcıların resmi destek kanallarına yönlendirilmesine neden olacak. Forumun kapanması, topluluk temelli yardım modelinin yerini şirket kontrollü platformlara bırakması anlamına gelebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Texas man charged in cruise ship killing had argued with wife in their cabin, FBI says",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXowT1RQaTF3QzhSc2FLVWJWRmEyNHQzMDFvY05OeGJwdmhRZGFEWnFMWlE2djVGNlBTaWdXTTY0ejAyUUZqaHE2Vk02VXpVQ3pFNTB3ZVJiUmtieU9EYkN2NmNZUmo4Z2V1d2F5cll6dXNaQk5ESVFYOWFCclVVWGJzaFlxcmtmbGdKU3A5YkxFSFFqVUtzWldBODZQbEE?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 02:05:00 GMT",
+      "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5Y2tZS1RZLWlfZ2p3WUlPWnNiWnJwbDJJX1FoZWVjanFQc3JESHgtRzFtTGk1ejlmcjBmZS1ONElwRGltMElxOV9xOEhnVnFLMzBaWlhUNzZCeVU?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 02:41:16 GMT",
       "image": null,
-      "summary": "Texas’lı bir adam, bir cruise gemisinde bir cinayetle suçlandı ve olayın, karısının kabinde tartışmasıyla başladığı iddia edildi. Bu gelişme, deniz seyahatlerindeki güvenlik önlemlerine dair kamuoyunda endişelere yol açabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Congress live updates as GOP picks House and Senate leaders, Hegseth impeachment vote is killed",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNE5FTkgySEd2SkpyVlZRZy1jTWpmRVpiU2pEUkdzVFUzNFJUVGY2TFVCNWlaYU9CXzJYR2JidXI2V2xCczdTT1Z3QXNpb0NROE5WaUItS0J6TDhsVy1lYVRJb0IzRW5KcG9jR1pIVzFfMzNRVlhFZHBYRVhPQjQtcTFKNWc0eFpFTlYxbHBiTQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 02:01:00 GMT",
-      "image": null,
-      "summary": "Kongre’de GOP, Temsilciler Meclisi ve Senato liderlerini belirlerken Hegseth azil oylamasını da iptal etti. Liderlik seçimleri ve azil kararının reddedilmesi, partinin önceliklerini ve yasama sürecini şekillendirebilir."
+      "summary": "Meghan Markle’ın babası Thomas Markle, ayak bileği monitörünü çıkardığı iddiasıyla federal tutuklu bir kez daha gözaltına alındı. Bu gelişme, Markle ailesinin kamuoyundaki tartışmalarını ve yasal sürecin nasıl ilerleyeceğini etkileyebilir."
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Çukur'un Vartolu filminde kriz büyüdü: Erkan Kolçak Köstendil sert tepki gösterdi",
-      "source": "Sözcü Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYWNWQ0tDOFFvYy1VY3VZQ0hrS1RyUHMtekxjeTVWQXpaTmxMbFgwb2VrenZ1Zk83amJfZ3lCSHhxZDRzN3IxeWZPc0JXczhOMDBpclhiempQbDZXdExVOTBUejVuMExJWFV0UUF6QzUtMHlfMGIwX2ctaXdGOFE4T2FrWlRQMFdKQ1oyek1FakxEQXFHdFA1RHVQbFB5cGhfUlJNTjVpelB2U0pXVEQ1d1Y4QQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 05:03:27 GMT",
+      "title": "Letonya ve Litvanya'da Alarm: Halk Sığınaklara Gönderildi, NATO Savaş Uçakları Havalandı",
+      "source": "Onedio",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPODhGX3BWQWlzYjduZExFUU1Tc3dqRExfUmwzUG9HS1N6Zmk0TTU4ZnhfZGRsX3Zwa1VrX1MwQjZsUTRqbTNDY1dsVmVDNktodHktb1VkakR0RmljZFNEVFZySFQ3bWdVQVF4OTZDdmNxMDVXMlRxSGZXS1NxTm9IV0ZTa0FJajVmWUZsQmpsWTI0MW1ScmZKNGdfYm9vZzNGejRpMTJSdWd1RVRhQkZsOEF3RGpYU2Z5a1hr?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:14:45 GMT",
       "image": null,
-      "summary": "Çukur dizisinin Vartolu filminde kriz büyüdü ve Erkan Kolçak Köstendil sert bir tepki gösterdi. Bu tepkiler, dizinin izleyici algısını ve yapımcıların kararlarını etkileyebilir."
+      "summary": "Letonya ve Litvanya’da, olası bir tehdit algısı nedeniyle vatandaşlar sığınaklara yönlendirildi ve NATO savaş uçakları bölgeye konuşlandırıldı. Bu durum, Doğu Avrupa’da güvenlik kaygılarının artması ve NATO’nun bölgedeki varlığının güçlenmesi anlamında dikkat çekebilir."
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "48 milyon kez izlenmiş! İspanya'dan skandal videolar sonrası kritik adım",
-      "source": "Son Dakika",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYi1XUmpYaE9fM1poMThwSVFTQi1zV2ZMdWRfNV9WZEZrdWNiSVZGSzFOSkRiMEVqQ3VlaVlXMWJWWTRoeXM1Vy1WUEo1cDZkU3dkVGRhNDRicW1OU1psMFlKRWk4RGVmWWdZUXhaQTBocjRkYnJjOTNoWFFNUUF6LXVPdlJqWklLZ2NYRmhiN2pLSUHSAZABQVVfeXFMUGIwVkFfZ2FlQXIwRVJxYm5odjlTbXdvUkhEeFJURDQxMVdITklaN0lWUDVpRmREQnRzV3hodUtsbnJaUHpRWDhuclIxMjk4cndkY1llVXpqZjUzdDcwUWtCbW9iWEh2dTFHdGJ1VXpnN0N5bXE5Nm9hZEl5VkMzalhmYUlvbEp6YVJGUWZzVjVP?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 04:53:49 GMT",
+      "title": "İzmir'deki fabrikada patlamada 18 kişi hayatını kaybetti: HABAŞ'ta bu ilk değilmiş! İşçilerin hikayeleri yürekleri burktu: 'İş çok ağır, ben yapamıyorum'",
+      "source": "Hürriyet",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNNWV2QjBYSWMtS2lzbUNKTnI5RW96T2duek9fY01PS2Q5OU9Pby1FbUZ5dVJwTmNiUnBFd0xWeVQxM21vbXpBbjJDQUszWjZVaVNuN1JScWJEbHNoeWMtVmtRZlM2OF9RZ0tPU0NocERlX0xVdHhnSFA4cVc5T1A2V3U0RHV6dmJUWUdXRC01NElqdl9pWnBWS3F1S1RXTjJDbzcyV2FWLV9HdW9KYW5ZbmtRTEhSNV9odmVrd1ZOb0VucjZabThjS05nXzhpRmQ2emM4Q0xBQzVpRHBtU05mUlNwWF9wazNPTHpLZWdEcTBpUThDbWlZOGR0Nmw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:04:00 GMT",
       "image": null,
-      "summary": "İspanya’dan çıkan bir video 48 milyon kez izlenerek büyük bir skandal yarattı ve ardından kritik bir adım atıldı. Viral içeriklerin toplumsal etkileri ve medyanın sorumluluğu bu tür olaylarla tekrar gündeme gelebilir."
+      "summary": "İzmir’de bir fabrika patlamasında 18 işçi yaşamını yitirdi ve bu olay, HABAŞ’taki daha önceki kazaların bir tekrarını işaret ediyor; çalışanlar iş koşullarının zorluğuna dair şikayetlerde bulundu. Bu trajedi, iş güvenliği denetimlerinin yeniden gözden geçirilmesi ve endüstriyel standartların iyileştirilmesi ihtiyacını ortaya koyabilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "ABD Savunma Bakanı Hegseth'i azil girişimi engellendi",
+      "source": "Diken",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZndiSTNMa0dFYUtpcGdwNmNwb2xZejdBUzhaQlF0RTlUdjJFdC1LUF9aejlRM21fQkxyRHVzZjdwQ0s2dTktd2tGQXoxOUlFRjVFR3h1a0FhM3J4QnNCUGJ5UEFWcm5QT1hvMjZkSl9nNlgxSlhVcktwQl9mR2RLR3lpVi0?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 04:56:48 GMT",
+      "image": null,
+      "summary": "ABD Senatosu, Savunma Bakanı Hegseth’e karşı açılan azil sürecini sonuçsuz bırakarak onu görevine devam ettirdi. Bu karar, bakanın savunma politikalarındaki sürekliliği ve mevcut askeri reformların seyrini etkileyebilir."
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
       "title": "Eskişehir'de tır sürücüsü uyurken sese uyandı korkunç ölüm",
       "source": "Sözcü Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVFMNHNGajFWY3JvUXJvU0dmOGVrbHkzdmJscWNSR21SSjRTMzZrYnFTRTdGT2J0MDYxQkVBNWd3aDZBVUhNWHNWcms4MHhVdFBsak1Ram1obG1OcndVMUFwcFdiZjRTU25adEhSYzBCN3NQeTRZbEY1TGU0WV9Yd1RMdVFHXzA1ZTdtenY0LWwyUndR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVFMNHNGajFWY3JvUXJvU0dmOGVrbHkzdmJscWNSR21SSjRTMzZrYnFTRTdGT2J0MDYxQkVBNWd3aDZBVUhNWHNWcms4MHhVdFBsak1Ram1obG1OcndVMUFwcFdiZjRTU25adEhSYzBCN3NQeTRZbEY1TGU0WV9Yd1RMdVFHXzA1ZTdtenY0LWwyUndR0gGaAUFVX3lxTFBlM2xOTFBfUkl0ZUY1dGxyNy1aajF1eGVtdEtGWklTZ0RlYjIyMDVmMlV5VDNMZUZrRzBwNUZkakhoTkRETXVnT05ZMnlsUDRWdXdXTV9OLS1zVDVUdi12WDFUWFh1LU9OQkxfYzJnUFlnMnZFeTJfMVlXYTdCTFNrbk5LQzdpQmNiQV82UEZ5alZMcHZvOEs3V0E?oc=5",
       "pubDate": "Wed, 11 Nov 2026 04:29:00 GMT",
       "image": null,
-      "summary": "Eskişehir’de bir tır sürücüsü, uyurken duyduğu korkunç bir sesle uyanıp hayatını kaybetti. Bu trajik olay, yolcu güvenliği ve sürücü yorgunluğu konularına dair tartışmaları yeniden alevlendirebilir."
+      "summary": "Eskişehir’de bir tır sürücüsü, araçta uyurken bir sesle uyanması sonucu meydana gelen bir kaza sonucu hayatını kaybetti. Olay, uzun yolculuklarda sürücü yorgunluğunun tehlikelerini ve güvenlik önlemlerinin önemini vurgulayabilir."
     },
     {
       "cat": "Gündem",
@@ -654,16 +674,6 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Baltık'ta hava tehdidi: NATO savaş uçakları havalandı",
-      "source": "Sözcü Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOERwSU5sYnlSLXBXNklRU3c2bmRrUFg1NEUtTkZDUGx6OTducUMxaVBwaEQ3dWVDQmg3UXlWZzk2TFdTaFJfNVlZVUZkUnlaQzRfcC1GdzdUU3laUGdtbFppbzV3VERpMHVZWENRVVU5ekRHdWlNdzk5cUxOb3ZpT2drSHFEUGQtMGhhZQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 02:33:00 GMT",
-      "image": null,
-      "summary": "Baltık bölgesinde hava tehdidi üzerine NATO savaş uçakları havalandırıldı. Bu hareket, bölgedeki güvenlik gerilimlerinin artabileceğine işaret edebilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
       "title": "Zelenski'den liderler düzeyinde görüşme isteği. \"Oturup toprak meselesini konuşmaya hazırız\"",
       "source": "NTV Haber",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOHVnX2hvc19mMU1lZUZFeF9mWVo2ZVZmeE10Y3ZjUXhVeGlId2I4VGRQcVpJWGJLTkdXWkF5ZjFIU1BxQ25EVkNDeW10dmFRNXVzcFNFYzUyekVtekN3LWlTVmNwZjVTaFdWQ0JfUmI0N3lhbmNOMFdzZU9xS3JES1otZHphQmFLOFRKb2s1VU5ybnJCTVY4MVBONGFCclFhYkJPWVRGT0VLeXpXbmcySHR2SHRsQjc5YmxXLUY2QzlpVXfSAcgBQVVfeXFMT2lkUF9SbVhoVGdVRDUyZ0RoOUlNYnYzMlVCX2NjY1BSOWM5dUtrMFBKQnZhSV85MXYtamZVVXNNcDJaN0J5MEhjZmFUaVpUdnpBWV9wQ1RQa3RHUGdNa3RYX24xZFNTcG4tdFByTXNleTY2S2d3YzdRd1RkaDFmOV9BbzRaRmVtRU0tMjh4amF0VVFLcEpJSWFIbE9ZSXd2Zmstc1FhQXc1SXpzMl9DUS04VnNyQTBWM25FNGRNZ1RXTThNcDIzbkc?oc=5",
@@ -694,12 +704,12 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "TCMB, iki elektronik para şirketinin faaliyet iznini iptal etti",
-      "source": "Bloomberght",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWS1Gam82WnpZd09mUGs0MHJhSzNfa1p3TFljbm5GQW8wWVN0RVEtenc1RGZiMTRBV0FTU29qSzdMNmxGRk8yX2tnWUFOSW1BOVE1MHVwdHcyMTJUVDV4SzdSYzBjN2h5ZlVpdDl4R2QwRW9oNDBGaVVncjAyUThkSmNfQ3VZYncxWUxtTE44N0oxM05Dc2JURGdKQmx3Slk?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:08:53 GMT",
+      "title": "Haysiyet’te ihanet krizi! Tufan’ın sırrı ortaya çıktı, Yıldız evi terk etti",
+      "source": "Hürriyet",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdWZGYlZJYmFTRmpZUmtrQXpvVGRpODJlYU0zV2o2Ri1UVVRPdFE3MV9Pd1Rnd1NYTWFYWDkxX1VMQ3ExTjEtWWZ1WjNranJ3Xzd2d2F4TzNGQy1lb2hhV3F6YnpMYXFESXhnWUtTTkVoakg1Vk1vbGFNSEM2RXNoVHdqdk91UDZYeUp1NEVhZHJUa3FHRC1UdFVmVUFyNEpVSlJ2MFdtbEhzcF9sOWpGWlBpMU9kT2o4TXAwNGJRekdfdjJubGc?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 20:53:29 GMT",
       "image": null,
-      "summary": "Türkiye Cumhuriyet Merkez Bankası, iki kripto para şirketinin faaliyet izinlerini iptal etti ve bu firmaların Türkiye'deki operasyonlarını durdurdu. Bu adım, ülkenin dijital para düzenlemeleri ve finansal istikrar politikaları üzerinde bir örnek teşkil edebilir."
+      "summary": "Haysiyet dizisinde, Tufan karakterine dair gizli bir sır ortaya çıkmış ve bu durum Yıldız karakterinin evi terk etmesine yol açmıştır. Bu dramatik gelişme, dizinin seyirci ilgisini artırabilir ve karakterler arasındaki çatışmaları derinleştirebilir."
     },
     {
       "cat": "Gündem",
@@ -823,13 +833,13 @@
     }
   ],
   "weather": {
-    "temp": 11.3,
+    "temp": 12.5,
     "desc": "Parçalı bulutlu"
   },
   "market": {
     "usdtry": 50.24,
     "eurtry": 56.2,
-    "gold_gram_try": 6563.19
+    "gold_gram_try": 6554.79
   },
   "stocks": [
     {
@@ -850,22 +860,22 @@
     {
       "label": "THY",
       "price": 313.75,
-      "change_pct": 1.21
+      "change_pct": 0.0
     },
     {
       "label": "Aselsan",
       "price": 337.0,
-      "change_pct": -0.22
+      "change_pct": 0.0
     },
     {
       "label": "Garanti BBVA",
       "price": 155.4,
-      "change_pct": 1.5
+      "change_pct": 0.0
     },
     {
       "label": "BİM",
       "price": 381.25,
-      "change_pct": -0.07
+      "change_pct": 0.0
     },
     {
       "label": "Apple",

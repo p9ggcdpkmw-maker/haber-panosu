@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-10T23:58:33.645570+00:00",
+  "updated": "2026-11-11T00:50:39.011838+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Rusya'dan teknoloji devlerine 26,3 milyon ruble ceza",
+      "source": "Ege Alternatif",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUVBPLXZlYTh4ZlRWRGNzRkZXMUUyeXl6Nmt2TUs0TndWME9yVXZBT3lXNUlQb09LMVpvclktZHZQbDhnYUw3S3I1SE1Jd0hteTRkLW81TGg2eUIyczNZUHg3ZHJrckc1TTNfZlZnRWlxQmx6MHVwZmw0UTNoOVRuX2dQcDlOMFlZZDBZcURPZlB6X211LXRGbVhKUHQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 00:03:00 GMT",
+      "image": null,
+      "summary": "Rus yetkilileri, bazı büyük teknoloji şirketlerine rekabet kurallarını ihlal ettikleri gerekçesiyle 26,3 milyon ruble para cezası kesti. Bu ceza, ülke içindeki teknoloji sektörünün daha sıkı denetim altında olabileceğini gösteriyor."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -112,16 +122,6 @@
       "summary": "Konya'da bir meslek lisesine sanayi tarafından teknoloji desteği sağlanıyor. Böyle bir iş birliği, öğrencilerin mesleki becerilerini güçlendirerek yerel iş gücünün nitelik seviyesini yükseltebilir."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Günlük Teknoloji Kullanıcıları İçin 8 Temel Siber Güvenlik İpucu",
-      "source": "Medyasiirt",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOUozSmF6cDUzUWphSkoyYlBNd3oydS1RcDc0bFBENDZMVXp6VVYxY21Dc29wa3Y2MGQwdF9PZkI2cGxrOEdBM0k2cTdEdnQxWTZJdWx6bHlIclQ5Z0ZWeFctbFRfVTJVejNVZTdBc1RnMjNERFRFZ3dOVHFBMC1MM3NFTDd5R1psdk1COW8xdTl1UDdwLXc?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 19:09:00 GMT",
-      "image": null,
-      "summary": "Ortalama teknoloji kullanıcılarına yönelik sekiz temel siber güvenlik önerisi sunuluyor; güçlü şifreler, düzenli güncellemeler ve kimlik avı e‑postalarına karşı dikkat gibi pratik adımlar anlatılıyor. Bu tür önlemler, bireysel veri ihlallerinin önlenmesine yardımcı olabilir."
-    },
-    {
       "cat": "Bilim",
       "catId": "bilim",
       "title": "Darwin’in beş yıllık keşif güncesi ve bilim tarihini değiştiren gezi notları: Beagle Yolculuğu",
@@ -130,6 +130,16 @@
       "pubDate": "Tue, 10 Nov 2026 23:15:01 GMT",
       "image": null,
       "summary": "Darwin'in Beagle gemisindeki beş yıllık keşif güncesi yeni bir şekilde yayımlandı ve evrim teorisinin temellerini atan gözlemleri içeriyor. Bu belgeler, modern biyoloji tarihinin yeniden değerlendirilmesine katkı sağlayabilir."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Türkiye Bilim İletişimi Zirvesi",
+      "source": "TÜBİTAK Bilim Genç",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBST2VwVGdGWFN1LU9hTUVaWTlNNmowOGUydExmRml0bGk3OWRJQkNXd2MwdW5HenVjLXNRb3Z2enUxajFlMDlscE5UWHJBazJaLUktOXpZZmxqakhscnZqVTFjSWMwOFNrcWRZRkJySUs4Mk9DSnBuUVppMA?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 21:51:06 GMT",
+      "image": null,
+      "summary": "TÜBİTAK'ın düzenlediği Türkiye Bilim İletişimi Zirvesi, akademisyenleri, gazetecileri ve politika yapıcıları bir araya getirerek bilimsel bilginin toplumla paylaşımını artırmayı hedefliyor. Zirve, kamuoyunun bilimsel konulara daha duyarlı hale gelmesine katkı sağlayabilir."
     },
     {
       "cat": "Bilim",
@@ -230,16 +240,6 @@
       "pubDate": "Tue, 10 Nov 2026 17:33:00 GMT",
       "image": null,
       "summary": "Two scholars were honored at COP31 for their climate‑research contributions, receiving the Akreti award. Recognizing academic work underscores the importance of science in shaping climate negotiations."
-    },
-    {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Gazi Kars Bilim Merkezi Hayata Geçiriliyor",
-      "source": "Siyasal Yaşam Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRGhkTlFyUkRSZTMtcnF6bXFSVkx6b2c3ZnJqN0d6V1NNamFEc3l4QW1XWmd4eHVJY0puaGFndzU1ajNJTGtuakhzMnpOdUxMUFJuMDFYZ1U2U1N6STVnRnNrQWJoeUpJRXloNGgxOUswZzUyTnU0Ym9FdEtKTmhBTg?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:27:28 GMT",
-      "image": null,
-      "summary": "Construction of the Gazi Kars Science Center is progressing, aiming to provide interactive exhibits and research labs for the local community. The center could strengthen science education and public engagement in the region."
     },
     {
       "cat": "Sanat",
@@ -517,9 +517,39 @@
       "title": "Live updates: Pete Hegseth defends record after Republican begins impeachment effort",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90QzhLd2lDckVuRlVEYjc0QU9vUkktcXFfcXpELUVXZTVuYW5NSnFZVlZJS3hkcllTNkVaZmFQa3locHVyZjN1eS1fRjZRaExiZmNoZi13?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:48:54 GMT",
+      "pubDate": "Wed, 11 Nov 2026 00:11:52 GMT",
       "image": null,
       "summary": "Pete Hegseth, bir Cumhuriyetçi milletvekilinin başlattığı azil girişimine karşı performansını savunuyor ve kayıtlara itiraz ediyor. Bu durum, siyasi çekişmelerin askeri liderlik üzerindeki sorumluluk tartışmalarını şekillendirebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Scoop: Commerce Department received national security warning on Nvidia CEO affair",
+      "source": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NTWlEVTREeTZ0V3J5d1VBblV3Q1JiV0tqTWJUSGVJQ2MxSElWWHpVVG9lTkxKR3ctY2RDVHJUaTdWak1oS2lGSGhPbUJ6MU9CZ2xJdGY1Ui0zQy1uaFliV3c1MXprY3RDejF2eXp2WWc2WWJRSTZiOEljZw?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:48:33 GMT",
+      "image": null,
+      "summary": "ABD Ticaret Bakanlığı, Nvidia CEO'sunun bazı faaliyetleriyle ilgili ulusal güvenlik uyarısı aldığını bildirdi. Bu durum, büyük teknoloji firmalarının güvenlik denetimlerinin gelecekte daha yoğun olabileceğini işaret ediyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Apple confirms ongoing outage affecting iCloud and more",
+      "source": "9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTG1qTUltdS1NakpRYzJ4c2Y5V3ZWalVRNnlwaVZvWE8yNTdnMGlGeUc4bzgweUl6a3ZUVTNncXoxY1U3c1R2di1Vd3loSTlMSWIzd1JrSU9wQnZ2dnYzR3hLWl96Q0paYzlOYkFlZC1Ba0FaSTgzUWMyOEZZNXF4VWQzN3FTWFpDREF4bEpIZmQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:48:00 GMT",
+      "image": null,
+      "summary": "Apple, iCloud, Apple Music ve diğer hizmetleri etkileyen bir kesinti yaşandığını onayladı. Böyle bir hizmet arızası, bulut tabanlı hizmetlere olan bağımlılığın ne kadar kritik olduğunu ortaya koyuyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "US charges 3 men with plotting terror attacks, including planned assault on UK airbase",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0EzV2laWjJ3YTZhWW4wRTlqaER3MnhEWlk4bG52RUIzeTlFYVFHekl2UWhFSExiUVNqUDktR25SQUVUdEU1eFlwQmJhNEV2YTRCQ1VxUEZiUjlGeHlpV0w0cENrd2NFbVgyMnZVcFRtSExnTU9lckVOTl9abERDc1hyLXdXWHhKM2pnRmRLM1RlM0h2MEFrU1c4b1ZrQQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:11:00 GMT",
+      "image": null,
+      "summary": "ABD adalet sistemi, üç kişiyi Birleşik Krallık'taki bir hava üssüne saldırı planı dahil olmak üzere terör saldırıları düzenlemekle suçlayarak dava açtı. Bu durum, sınır ötesi terör tehditlerinin artışına işaret edebilir."
     },
     {
       "cat": "Dünya",
@@ -534,22 +564,42 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Colts trading WR Josh Downs to Chiefs for fourth-, fifth-round picks",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSVlncDA4eFkyOWljNDVnZXhxa04xVFlkdlVlMVdBcjJ1bWI2ZnRvTFhpdzg5SU9ybTBtOVRBZ2lURkxwS180RWt4dUgxdnBkUUEzM2RqaWJYMVBEYWV4c1hyTzZOcXRkWHByeWI5WjFWS19iRW1FR3M4djR5ektHQzNxTGYtN3Z0WkE?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:31:27 GMT",
+      "title": "Republicans elect Jim Jordan as House minority leader after midterm defeats",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV1ljLXY1NXRtTnFqSDhyckhhaVVLd1Jlb0xjN3BLeDEwelRBSmJ1dllvcUt1bExDU1ZleU51Wk02ZGx6eG5pb2Rmci1RWXRMYktEQk80OFpob0llem9YYS1Fc3hFbllHYmJBVXZPZm0yM2FWeHNPVUxXMjhfV3RtUTJid0xxUS1FRnc?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:54:40 GMT",
       "image": null,
-      "summary": "İndianapolis Colts, geniş alıcı Josh Downs'ı Kansas City Chiefs'e takas ederek dördüncü ve beşinci tur seçim hakları aldı. Bu değişiklik, iki takımın gelecek sezon kadro planlamalarını etkileyebilir."
+      "summary": "Orta seçim yenilgisinin ardından Cumhuriyetçiler, Temsilciler Meclisi'nde azınlık lideri olarak Jim Jordan'ı seçti. Bu liderlik değişikliği, GOP'un gelecek yasama stratejilerini yeniden şekillendirebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "With Its Giant I.P.O., Anthropic Ties Itself Closer to Nvidia",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40WWRMa0xmRm9vTGdfM2E0MXRhQUtaMmc1QnZzdm4tVG5zSlJsMWxnRzJsMXhxdlJHcC1hb0NTTF8tU25OODhVdjd4Z2JpYnpHQ3BnNktJbUZQcnFrbEJ4UW5EOXR4YVI2TXU5SnhWWXp1Y3AyeVpwVQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:03:38 GMT",
+      "title": "Senior U.S. Army soldier arrested in U.K. on suspicion of assisting Russian intelligence",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR01STjQ1eEtZVnpFd2tINENEd3ZpbXV5UWZiZVZJT3NaeTltaGZ3NTA4NGo2SHhETzNZaTBFSzkwcFF0OWt0ZWY2MDkzNnlkQjQ5SlhJTzBiQWJjWUY4OVJ2OWhGQ3JKa2VyeEJJMWt2eGhSVVZ4VGhvOWprcWZlbDItd3VkUDBLajE4YUM0N2tvZ3YyajYtSVE2NFh3N3M4Y3BPRmlsdFZ3REtHYzNqNU54SUpONWdicE9QZkRB?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:45:45 GMT",
       "image": null,
-      "summary": "Yapay zeka girişimi Anthropic, devasa bir halka arzın ardından Nvidia ile GPU temelli iş birliği anlaşması imzaladı. Bu ortaklık, AI çip piyasasındaki rekabeti artırabilir."
+      "summary": "Bir ABD üst düzey askeri personeli, İngiltere'de Rus istihbaratına yardımcı olmakla suçlanarak tutuklandı. Bu olay, ABD‑Birleşik Krallık askeri ilişkilerinin gerginleşebileceği ihtimalini gündeme getirebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Latvia, Lithuania warn of threat in airspace near Belarus",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWx6TkpxdU5NeldhTTlsMTA2RklPdlVIZnYwWkZJcXVvUTkxM081UnROWUZ0Vzd0TUFwZFRQbWxLalNZUUszM3FldUlmSEpaemJLdV82NnB4Uk5mcjhMQ2h6dGVvWnpUY1d3SEc1UE9Zck1DVkVWbURmMG13VmM1R1RnNFYzT3lIOEt1TmtOdjA0bzB4MWtr?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:30:20 GMT",
+      "image": null,
+      "summary": "Letonya ve Litvanya, Belarus sınırına yakın hava sahasında potansiyel bir tehdit tespit ettiklerini duyurdu. Bölgedeki bu uyarı, Baltık ülkeleri arasındaki güvenlik endişelerinin artabileceğini gösteriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Gas prices fall below $4 a gallon for first time since July",
+      "source": "Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3NmLWt3T2NXZWRGZmhfUjNyTmhVLWtxTFZnOVZvNlpUUGRaTnBVOE8ydWQ1aU9JM3UxdGM0VkFmSEFsVVltUE1vVlZBUEJYRXdMQjVjQTVGRWFpRGtYUnppNXVDZjNCdWZvVXVTOFFZUTdob0dtUk5SOXoxdzFES3pkT0JHMmd5RGZHWi1VM3NkQdIBlwFBVV95cUxOajQ5QndFWWNFclQzUzhBbmpsTVR4R2RtTzMwZkJsTUdUdU9IR3lwZW4xX0hKQ01jeGpaU1R0Z3dTUzlLc3c2UDJYOXhaM05PcURmaWxEOGRLaGJkeUpLU0FqeURfZUdVVk5MWmV2a3JWZHczUlhNVy1jdlU4eGJnV3hOLVNqMkowVEZlS3BCcE5PdzhyRmlz?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:12:00 GMT",
+      "image": null,
+      "summary": "ABD'de akaryakıt fiyatları, Temmuz ayından bu yana ilk kez galon başına 4 doların altına düştü. Bu düşüş, tüketicilerin enerji maliyetlerindeki baskıyı hafifletebilir ve enflasyon üzerinde olumlu etkisi olabilir."
     },
     {
       "cat": "Dünya",
@@ -574,62 +624,12 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Stock Market Today: Yields Jump as Inflation Comes in Hotter Than Expected — Live Updates",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAycGFzVmI4Q3NSQ2ZMTC1DdDR0M2R3SG1OZm1DMHZ6OG9qa3dJUllpSThRa1RlYm5uWGZrVDE1VHJZU0xJdlBFRWpZSnhzU2hUMlJ1UDdJXzFxamNqTDE5bkgwUXowRV9JdUhyckdOclgyMHlaZFE2RlZR?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:46:00 GMT",
-      "image": null,
-      "summary": "Enflasyon raporu sonrası Dow endeksi düşük açılış yaptı; yatırımcılar raporun faiz politikaları üzerindeki etkisini değerlendiriyor. Piyasa hareketleri, önümüzdeki dönem ekonomik kararların yönünü belirleyebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
       "source": "ESPN",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUWtpODJhandmejhHanpIV1IwVWxTRnFFQUVxOURDZnQ4VWhTeGNLRkN2TlJvNFpCNlY3YUoxYVlodkFNZzFSQUJRRVd3MDFmQkJQMWcyTHJSdjd0dWJEVXJLUXVoRHYwdHByTjlsam5zWTRqVll3V1hOYlFTeUFlRVh3anFSZ09xbkNhR2RBaUFmOVlMYmFVWjFab2RaMjJRVmc?oc=5",
       "pubDate": "Tue, 10 Nov 2026 21:35:00 GMT",
       "image": null,
       "summary": "2026 NFL takas deadline'sı sonrası kazananlar ve kaybedenler değerlendirildi; Kirk Cousins'in takasından Bengals'ın hamlelerine kadar analiz yapıldı. Bu inceleme, taraftar beklentilerini ve takımların gelecek takas stratejilerini etkileyebilir, lig dinamiklerini yeniden şekillendirebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Sanders says he won’t support Schumer as majority leader",
-      "source": "Politico",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUNPSnRLYktSODlFdkFtZnk0RngzUXB2eWFuTG1iRVh4QjZfZ0pENDdGNE5NaUR2SGxfdVVuRE5PUUp0dm9IbzVBMzd1QU5VWkJ6Qy1sTnVoQmhOWUlBV2g1eXU4X0NnNFhCMHV5WHZkOWFQVWtFUDdrYV9MZzl2TWFqeGp0OXF3eDJKR3BKRmVCUQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:22:14 GMT",
-      "image": null,
-      "summary": "Senatör Bernie Sanders, Chuck Schumer'ı Senato çoğunluk lideri olarak desteklemeyeceğini açıkladı ve politika farklılıklarını vurguladı. Bu tutum, parti içi dengeleri etkileyebilir ve gelecekteki liderlik yarışını şekillendirebilir, olası yasa gündemlerini değiştirebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Senior U.S. Army soldier arrested in U.K. on suspicion of assisting Russian intelligence",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR01STjQ1eEtZVnpFd2tINENEd3ZpbXV5UWZiZVZJT3NaeTltaGZ3NTA4NGo2SHhETzNZaTBFSzkwcFF0OWt0ZWY2MDkzNnlkQjQ5SlhJTzBiQWJjWUY4OVJ2OWhGQ3JKa2VyeEJJMWt2eGhSVVZ4VGhvOWprcWZlbDItd3VkUDBLajE4YUM0N2tvZ3YyajYtSVE2NFh3N3M4Y3BPRmlsdFZ3REtHYzNqNU54SUpONWdicE9QZkRB?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:15:29 GMT",
-      "image": null,
-      "summary": "Bir ABD üst düzey askeri personeli, İngiltere'de Rus istihbaratına yardımcı olmakla suçlanarak tutuklandı. Bu olay, ABD‑Birleşik Krallık askeri ilişkilerinin gerginleşebileceği ihtimalini gündeme getirebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "French police raid Ritz hotel in Mohamed Al Fayed sexual abuse investigation",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb2FJcFk2RVZCRWZ1b05MeVZLQmNJX09sZlVrT0xJZjFNRHNycjg4ZWpNSUZCQk1iTmUzSDZibEtUd2d2VDhEVU9LcVR0NEFuclpRR0dFWG9OZllKejZBOEJMSDBqb3lHdVA5dHZVOEY3Ynl6c3F5TEVDU3R2aDJGam5WTTJSOHJDbU0yT3h5Z25ZMTZyVmdpMndyekd3TDJvMHI0cDdxVkdWNTJyMXRuaWxUN1Btcnl4dVJCQloyTQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:15:00 GMT",
-      "image": null,
-      "summary": "Fransız polis, Mohamed Al Fayed ile ilişkilendirilen cinsel istismar soruşturması kapsamında Paris'teki Ritz otelinde bir baskın düzenledi. Bu operasyon, yüksek profilli figürlerin suçlamalarla yüzleşmesinin uluslararası yankı yaratabileceğini gösteriyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "US charges 3 men with plotting terror attacks, including planned assault on UK airbase",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0EzV2laWjJ3YTZhWW4wRTlqaER3MnhEWlk4bG52RUIzeTlFYVFHekl2UWhFSExiUVNqUDktR25SQUVUdEU1eFlwQmJhNEV2YTRCQ1VxUEZiUjlGeHlpV0w0cENrd2NFbVgyMnZVcFRtSExnTU9lckVOTl9abERDc1hyLXdXWHhKM2pnRmRLM1RlM0h2MEFrU1c4b1ZrQQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:46:00 GMT",
-      "image": null,
-      "summary": "ABD adalet sistemi, üç kişiyi Birleşik Krallık'taki bir hava üssüne saldırı planı dahil olmak üzere terör saldırıları düzenlemekle suçlayarak dava açtı. Bu durum, sınır ötesi terör tehditlerinin artışına işaret edebilir."
     },
     {
       "cat": "Gündem",
@@ -650,6 +650,16 @@
       "pubDate": "Tue, 10 Nov 2026 20:21:47 GMT",
       "image": null,
       "summary": "Trabzonspor basketbol takımı, son maçlardaki yetersiz performans nedeniyle Selçuk Ernak'ın görevine son verdi. Bu karar, takımın sezon sonrasındaki başarı şansını etkileyebilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Uzayda 150 milyar kilometrelik dev yapı! Sırrı araştırılıyor",
+      "source": "Sözcü Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVzQ4UENvX082ZjZZejg1Nk50U05FM3ZYYXJrRWRhaVhEdmJBUldUWnJ0WU4tMF9fd01Kc2lyLV92Zy0wYnIzV19FT082enMzQjJ3R3Exc2F0UEVGdlJ4SUsxazlremhkaWd1NWh6dUE2V1pBRjdQc0ZfRGdWSVNLQW9nWklIQ3ljTmc0cHBrMWhSWUp1VXQw?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 19:51:56 GMT",
+      "image": null,
+      "summary": "Astronomlar, 150 milyar kilometrelik devasa bir yapıyı keşfederek bunun doğasını araştırıyor. Bu bulgu, mevcut kozmik yapı modellerini yeniden gözden geçirmemizi gerektirebilir."
     },
     {
       "cat": "Gündem",
@@ -684,36 +694,6 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Türkan Şoray'la küs olduğu iddia edilmişti! Kardeşinden olay sözler",
-      "source": "Son Dakika",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ0M1XzBIUHQxa3puOWgzSFp0OXRqMWdwWmdfSVR6bWJ0ckN5XzBGMDE0ZFg0dVhUUm1WQUtWVFZiMDBzM2NMbU14LTh3UFQ1bmZFREx5TTI2RlMtNlhSTmlNN2ZJY3d3T3J1MUUwQ2dzYThFVGN1LTA4b2Zrb0hsa3lpU0RsLUNyTG9xWmI0OGFUZ2PSAZABQVVfeXFMTlNOWnB1X21DclFYZnQtZ2dCQjBRVzU1YTRuTVAzcXp4WDlkU0pQZG5wRkdnY3BWOUpkSFhDOXZvMDJ4Qm42Qm9Qc1JwU1JhNDRQeVlhdWNTVHc1al81MlpnaUxnQktTdWdoUzZlT0E0aURhMkF5cHJsV0hvZnFCNGhuUFZnVzR0R1EwOWlLZ2Zn?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:59:31 GMT",
-      "image": null,
-      "summary": "Türkan Şoray’ın kardeşi, ünlü oyuncuyla aralarında bir anlaşmazlık olduğuna dair iddiaları çürüttü. Kardeşi, sosyal medya üzerinden konuyla ilgili açıklama yaparak olgun bir tutum sergiledi. Aile içi bu tür spekülasyonların medyada yankı bulması, ünlü kişilerin özel hayatının kamusal tartışmaya dönüşmesinin bir örneği olabilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "ABD ilaç otoritesi Ozempic ve benzeri zayıflama ilaçlarının körlük yapabileceği uyarısında bulundu",
-      "source": "DW.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMlNQcmpDTVpTVmdKc1MzenBmTno1TVNqY3VON1J3U1VEM2lPR0JuS1ZESExUVkVFYzNHakNiT1hlMXhmZ2p6azV3XzZwZzFRNFhjcW1aYmJHeEYya2gwVDJKTFY0WGZTSG9UMTBrNVA2dXhpV1JrbUt2Qm9tU0dUNzV1WlBOcllEamlKMUtCU3o3RkFxdE9uaEtidFlnU2t0ejAtaXZvSkJZUnpMQ2lDN3hiUkQ1UdIBtgFBVV95cUxQWGZfTHBFZzFKWXp0cnd5ekRpQ0drUFF5Vm12Q2hvVXFIMHpIN0hKV1J3cW0wQmxDYkFjRXZoTk1JVnYydlBMeEdQVUNIWlVKLVVCQU5qUW9LamI5aGhEVGFOZV9xSUxvSEZqblpVRmRsM3lRdXgtd0IwVzVIcjZYWWtJWTFmSVlLZzhTMlByeF9ERUJoYVZKMUNBTl9CVVNLTVcweVNRZXl2cDRCT3R3QXdRV3Z1dw?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:28:17 GMT",
-      "image": null,
-      "summary": "ABD Gıda ve İlaç Dairesi, Ozempic ve benzeri GLP‑1 ağırlık azaltma ilaçlarının nadiren görme kaybına yol açabileceği uyarısında bulundu. Bu uyarı, hastaların ilacı kullanırken olası yan etkilere karşı daha dikkatli olmalarını gerektirebilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "TİP'li Ahmet Şık'ın eşi Yonca Şık casusluk suçlamasıyla gözaltına alındı, daha sonra serbest bırakıldı",
-      "source": "DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQTVg4VFN5UF8wdTdCY3RuVGdmZnJ0TmpNM1phMHZPRkNKZWlYVVNfd0RrS3JjRG8yQmdGX19VTWtlcEtUNlhxZVBVR1lOaHhzekV5YTVQUHh6czZVMHJWWWFKekFPLUxvUmtEbGV2cWQxaTFSVTBUNkpiSElaRS1DTURpYWVockJVZk9nR0ZDc0FzYlRtcWRhdWszYW90MEZLUnZtVWpZYXo3b1RhOWZNZlVlVkhOa2VRR0tvVlJ2Y2RBNzFtUDFnTVFPOVk0TTU2Y0ZTenNpR28wOWdXR25lblgyTjRwYTcyVGNTRnAzdm1sZkFqUFVZRG1sYzd0Q3ZGcjZfd2tnb1FWeTEyVllwS2JDM0dTU1I4SUNxcnRYMDNLVWZrYlVDOE52eDNJSnJzREstd1FHbGfSAbgCQVVfeXFMT3ZYYlZ5VjZyWm9TM2xaTUtQWFlfeGV3S25XTFRFVlZ5VlBsOFhROHQxeC1XOVFYSV95dEo0M18zVFZKaTFsTGQzLXBsZ1hRYTliazBWTEtCXzNZQi02d3RxQmhnZGY3ZW9kdXMzbDkyaEJzbnZvcWdNeTJTYlEzR0I5THJzOTk1aHFwWFdJNEVfRHF1bFI3MnBQclJISmZaUE9LX2pLS2pTRGJVN2E0Nm5EZzlkQ2ZwRXJlYkc2ZkpmMTlEaFB1elRneV9QQ0NqRVRhU0YtRkNOLW5nbmYyWWJWY3lLMGlnbmpIeHM0NGpnaEthel93LXZVa3phd2lzZmlIcWE0bWpPakc3MDE4dkpKN1UzUFpZbFlxMGVuXzdTaWxBSnczUnVZQ3QzcVViZElTcWFyQ0h4?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:23:18 GMT",
-      "image": null,
-      "summary": "TİP milletvekili Ahmet Şık'ın eşi Yonca Şık, casusluk suçlamasıyla gözaltına alındı ancak kısa süre sonra serbest bırakıldı. Olay, gazetecilerin ve ailelerinin siyasi baskılara maruz kalabileceği endişelerini artırabilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
       "title": "Türkiye ile Suudi Arabistan arasında 5 bin megavatlık enerji işbirliği",
       "source": "Bloomberght",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTTRMMGJpLU1lOHNVQ1pUQXNnQnhrazZBUFNGNTlNanZLbEJIVE5nYWdsWWY4YUhfY3ltZ25HOUJzMk85cVBxTG1zTTdBalQ3Z0lXY2oteklfYW5JNWhiNl9aQXQ0OU1nUk8zWFpSNU5WWG5TX3NqcXUwN0hxV0tBODgyTk9xeUQzR2I0SmRCV2M5WUJUNmlLSkxRNGFzY1VjMkFkRGtfVHJuZw?oc=5",
@@ -744,6 +724,26 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
+      "title": "Kurtlar Vadisi'nin efsanesi geri dönüyor! Cerrahpaşalılar film oluyor",
+      "source": "Sözcü Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSm5peXNycmhVdmZYaEMxaHgwUTA0X2pmeUNrai1sQThwUzdRMzFpbE4wS00xa19GUW56NkY3enRFTnZIUEdCTUM2cjY0MFl6UnlMRlhjXzZVY054SEgwWHV6eF8wbFBHYmtxQVlZMWtLcEhsYk40ZkJKT0hlSllUQ1VDeDNqaG9Rb3dfczlQbFZqSVFkSUt4dFhYMFJUUk5hNlp3?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 15:45:00 GMT",
+      "image": null,
+      "summary": "\"Kurtlar Vadisi\"nin efsanevi serisi, Cerrahpaşalılar tarafından bir filme dönüştürülerek tekrar gündeme geliyor. Yeniden canlandırma, nostaljiye dayalı bir izleyici kitlesi oluşturabilir ve yerli sinema sektörüne yeni bir ivme kazandırabilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Fatih Terim Devlet Bahçeli'yi MHP Genel Merkezi'nde Ziyaret Etti",
+      "source": "Onedio",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHdzUVdRWDRVODlKY3hhVnh0S2RQT0FtUlZ2d3AzY1FwU2NEWGRRNzhRdGdVWF9mWWkyT25QRWcyRTRNQktXTkl5cm14eUJQVWZmcU5VZFJPQ29qVTVOY1pWNUlGSE96Z21JTGRYSEVTWWRNV3JRcnpJUG1Za1ZYLUZWcS1TTzNRWS01ZXhGS1hYODRKNFhJZXhVaFIta1liUi05azJHaTVVTnJlUkFrQndpaw?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 15:42:58 GMT",
+      "image": null,
+      "summary": "Eski futbol teknik direktörü Fatih Terim, MHP Genel Merkezi'nde Devlet Bahçeli'yi ziyaret etti ve kısa bir görüşme gerçekleştirdi. Bu buluşma, spor dünyası ile siyaset arasındaki ilişkilerin farklı boyutlarda şekillenebileceğine işaret ediyor."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
       "title": "Arsenal'de Gyökeres ve Merino için ayrılık ihtimali!",
       "source": "Sporx.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWZnVDN0eXkxTXk1S2NkY29YOGFMOEdtOEVHbzl4TVdzSnhNdjkwWUw1TENlWUxYcEhTZGpRd0lmRFZ1NDNNRC1ORnpGejV2RWR2cEx2N1UtZW9FM1NVTWRUb0VaRjRveDZsbjlOMGN5RDFwTThoblkyZUc2S08taTlhMzJjM1dMaUN3SHZJcmh0ajDSAZYBQVVfeXFMTWhRSzBGSU5DdjJWal80UF9HNnRKYl9SX21RZnQzYVVpUVRMNmxtaVBMaGFLOVBGaFViUjczSmRlbkhSeS05RG5sZDBxRV9KTnp6Ykl2TllJWS1wajBkbEZQV09vQmRrUUZUVlU5TmdNeHdLeWJzLWJwbXZjbzEwTEVkOEJZMFB2cGlPeEwwNjRQcXZhemNR?oc=5",
@@ -760,6 +760,16 @@
       "pubDate": "Tue, 10 Nov 2026 18:41:20 GMT",
       "image": null,
       "summary": "Çorlu’da bir motosiklet kazasında sürücü, çarpan kamyonun altına sıkıştı. Olay, sürücünün araçtan savrulup kamyonun gövdesine çarpmasıyla gerçekleşti. Bu tür kazalar, özellikle yoğun sanayi bölgelerinde yol güvenliği önlemlerinin gözden geçirilmesi gerektiğine işaret edebilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Çorlu’da motosikletten savrulan sürücü kamyonun altına girerek yaralandı",
+      "source": "Gazete İlk Sayfa",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeExCQ1hfUVhkTjVxeE8wcW1IMVpWUlA2NjFUSnRSZzZja1YyRnlFVDVETHM4NG5YR1QwYmpiLWFXNVFRSmk2bjRmZjBEUVNwNXMtQVp6NUthTnhJeVFidVZtMFV4NFEyckc2bjJFNGQxVllhejNXZHNCdGY1RlBJeDdiTkR0M1FIYm9jYUoweFhKdlgzOUlycFVka1ZWWl9aMi1CLTA0MzhyWG9pcEpMWW5JS1Y?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 18:41:13 GMT",
+      "image": null,
+      "summary": "Çorlu'da motosiklet sürücüsü bir çarpışma sonucu kamyonun altına girerek yaralandı. Olay, trafikte güvenlik önlemlerinin ve sürücü eğitiminin ne kadar hayati olduğunu bir kez daha gözler önüne seriyor."
     },
     {
       "cat": "Gündem",
@@ -860,26 +870,16 @@
       "pubDate": "Mon, 09 Nov 2026 11:44:14 GMT",
       "image": null,
       "summary": "Çorlu’da gerçekleşen bir trafik kazasında bir kişi yaşamını yitirirken bir başkası yaralandı. Bu trajik olay, bölgedeki yol güvenliği çalışmalarının yeniden değerlendirilmesine yol açabilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Tekirdağ'da polisin önünde motosikletinin önünü kaldıran sürücü 46 bin TL ceza aldı",
-      "source": "Son Dakika",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObWprMzdqUF9ENkZLNkxVS29QT1BBTzI2czYtYzFqNlF1Tkw4MDZBVDU4UWJpSUFWTjR2MklvamtwWlFHMmVibXpUaUVFWGtGRmhkQWlJTVlOV0VXcDJ5WklFenljaWZDc09HdVZfTWZYcU5BNXRZb1dZU05IVF8zbU5PblpIZ3N1MXd6NjVkNUhZUHpNZmV2aWt2eXhGWUU50gGcAUFVX3lxTFA3RU9QWjlRaWtKdHZvRnBuWFlKXzl3cDBZLVdlcGtiVEJZOENvS2lZZlgtVTZsb1BnYkMwbU85N2ZsVVRlbzdQQi1kSkI2S2dUSmZpMWRwMlBwVlYzUGxNRXBYU0pwQ2c2VHFqOVk3TFVCc1J1Nkt0UFRDOWdWRTVfNXlscXZuYmtWR3RWc1V6Ri1BQjVYUG9OcW1Fag?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:29:19 GMT",
-      "image": null,
-      "summary": "Tekirdağ’da bir sürücü, polis önünde motosikletinin ön kısmını kaldırarak kural ihlali yaptı ve 46 bin TL para cezası aldı. Bu ceza, benzer davranışların caydırıcı etkisi oluşturabilir."
     }
   ],
   "weather": {
-    "temp": 9.6,
+    "temp": 10.0,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.2,
     "eurtry": 56.25,
-    "gold_gram_try": 6517.15
+    "gold_gram_try": 6512.15
   },
   "stocks": [
     {

@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-11T00:50:39.011838+00:00",
+  "updated": "2026-11-11T01:52:31.301699+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Bilim ve Teknoloji sektörüyle ilgili soru-cevap oturumu öncesinde: Engelleri net bir şekilde belirlemek, çözümleri açıkça ortaya koymak ve gerçek bir değişim yaratmak.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeFYxdTlyd3JMRWtyMkxYNEVvelNEWmlwRlBXMTh2OFAxZDBXLTVWdy1XeG83b2RNN240LXFoMVhOWmhGcmpQMUtjM2gza2FTbjdEVFd3VG5mRXJOVWdXUUROSkRhY182by1rbnEzaVNGZmV4N1hJOWhxXzM3SUgzUFVFUEFTZ2RfQTBpNEZpNmU2T3Z5RXo5czJZX0ZpMHY1dnh4TEVYMXVxdVp3WFdJcFBTNjR5a2s5Q1J5d1RUbjAtUnpzU2JCcEJkMVhCSjA?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 01:35:27 GMT",
+      "image": null,
+      "summary": "Bilim ve Teknoloji sektörü için planlanan soru‑cevap oturumu, mevcut engelleri tanımlamayı ve somut çözüm önerileri sunarak sektörde gerçek bir dönüşüm yaratmayı hedefliyor. Bu tür bir yaklaşım, politika yapıcıların ve yatırımcıların daha etkili stratejiler geliştirmesine katkı sağlayabilir."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -112,14 +122,14 @@
       "summary": "Türkiye, sürdürülebilir havacılık yakıtları üretimi ve teknolojisi konusunda bölgesel bir merkez olma hedefi koymuş. Bu strateji, hem çevre politikalarına hem de yerli sanayiye uzun vadeli fayda sağlayabilir."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Konya’da Meslek Lisesine sanayiden teknoloji desteği",
-      "source": "Saray Medya",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWF0ZHhFdTM1bGpMMmw0OU5IZndmUlFVdEFhODl0WVR4UHBQUjV2cWhvVlY4MG91N3hwNjRKNVlkQ21xel9mNVEwbkRTZzkwcTBOQTg1TndWeEhJWkg2blQzSWc4U1hmUjdVOWViOEtnWTVTNGw1UV85eE9qdEs5eWQ0Rk5jNkU5ZFVXMy1Ma056amo5aWdPRg?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 19:59:25 GMT",
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Sosyal Medyanın Sunduğu Olanaklar",
+      "source": "TÜBİTAK Bilim Genç",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42a2tIeW1zdHlIMkNtX2xvZlhoVGlkS2tWYmkwMXUxc0N6Z1lDYlZ1S1hRVVBNSEtBQ2N5cWI0eVB4NjVER25CejdQUmpFWjlrUWZYVWpmbGEtRkxnckJJRmZtemhRTHRpWHhhUFhTSGUxZWpWWEswWnV0c2JHUQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 01:09:33 GMT",
       "image": null,
-      "summary": "Konya'da bir meslek lisesine sanayi tarafından teknoloji desteği sağlanıyor. Böyle bir iş birliği, öğrencilerin mesleki becerilerini güçlendirerek yerel iş gücünün nitelik seviyesini yükseltebilir."
+      "summary": "Sosyal medya, ağ kurma, eğitim ve toplumsal aktivizm gibi çeşitli fırsatlar sunuyor. Bu platformların artan etkisi, kamuoyu ve politika üzerindeki rolünü güçlendirebilir."
     },
     {
       "cat": "Bilim",
@@ -174,16 +184,6 @@
     {
       "cat": "Bilim",
       "catId": "bilim",
-      "title": "Sosyal Medyanın Sunduğu Olanaklar",
-      "source": "TÜBİTAK Bilim Genç",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42a2tIeW1zdHlIMkNtX2xvZlhoVGlkS2tWYmkwMXUxc0N6Z1lDYlZ1S1hRVVBNSEtBQ2N5cWI0eVB4NjVER25CejdQUmpFWjlrUWZYVWpmbGEtRkxnckJJRmZtemhRTHRpWHhhUFhTSGUxZWpWWEswWnV0c2JHUQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 19:09:33 GMT",
-      "image": null,
-      "summary": "Sosyal medya, ağ kurma, eğitim ve toplumsal aktivizm gibi çeşitli fırsatlar sunuyor. Bu platformların artan etkisi, kamuoyu ve politika üzerindeki rolünü güçlendirebilir."
-    },
-    {
-      "cat": "Bilim",
-      "catId": "bilim",
       "title": "Bilim insanları Ay’da sebze yetiştirmek için NASA ile sera kuracak",
       "source": "eurovizyon",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUDRiRGctZldpMjFLQ1hLMWJGQVY5bFc1VTlSZmpOM3k0UUY1X05RN3FKWVBDRHl5OWU1NFFXNE5qQWFydEFHRUY4SHhaZ2pKZHRvLXM2dko3TVVBeDdLSUJOdjNYZ3RFQm5TRWRXeExydHZ5eUoya1ljd0t1MVFvREZQM2lHb0YyV0pqNGNncVJvcGxOZnIzZzZ3?oc=5",
@@ -232,16 +232,6 @@
       "summary": "Bir Arap bilim insanı, milyonlarca insanın hayatını kurtaran düşük maliyetli bir medikal cihaz geliştirdiği için tarihi bir ödül kazandı. Bu başarı, Orta Doğu araştırmacılarının küresel sağlık üzerindeki etkisinin artabileceğini gösteriyor."
     },
     {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "İki akademisyen 'COP31'de akretide edildi",
-      "source": "Habercim19",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZzJ1QUUwNE9MVlEzWS1XcFY4dkd3MkxLOGVEcWMzeEFrNHJBdzBNOWN4dnpmWWtuMkJKdjRfc1VrTHZkZnkwWEFZSGlxdFNjYjRlbTNFSU12SkQ4Wkp2S2Naay1qZTh6M0R3bnRZUzMxVGhyRlJMZjMzdF96Wm5URm01TXNUTGNDYzBHZ3ZtM1Vzdw?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:33:00 GMT",
-      "image": null,
-      "summary": "Two scholars were honored at COP31 for their climate‑research contributions, receiving the Akreti award. Recognizing academic work underscores the importance of science in shaping climate negotiations."
-    },
-    {
       "cat": "Sanat",
       "catId": "sanat",
       "title": "THM Sanatçısı Murat Zorba 35. Sanat Yılı Programı",
@@ -280,6 +270,16 @@
       "pubDate": "Tue, 10 Nov 2026 21:34:42 GMT",
       "image": null,
       "summary": "Pera Müzesi'nde \"Yarınlara Kartopu\" adlı sergi, umut ve gelecek temalarını interaktif instalasyonlarla işliyor. Sergi, yeni ziyaretçi kitlelerini çekerek müzenin kültürel yenilikçi konumunu pekiştirebilir, toplumda sanatın erişilebilirliğini artırabilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Opera ve Bale Tiyatrosu Projesi Tamamlanma Aşamasında",
+      "source": "Kosovahaber.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNkZDMDkwRFYwSjBuRGh5VC0zeFlHQWp5VExiSFdobFIwb3o0VDI0bzVpVW1xU1hRRExIaHBzNFpuQWZxeHZ0ZGJBUmxSYmlzMGF3WS1CWjNHaXVrbjhQcVRBNWpFX3dKcFZ0MFF6M2ItNXNtWVd3VFRiYmhjU3h4Z3dfOXRxRFBKOXdBeGJpYVpYTGdf?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 19:46:33 GMT",
+      "image": null,
+      "summary": "Ortak bir opera ve bale tiyatrosu projesi, yapım aşamasının sonuna yaklaşarak yakında hizmete açılacak. Bölgenin kültürel altyapısını güçlendirecek bu tesis, yerel sanatçılar ve izleyiciler için yeni fırsatlar sunabilir."
     },
     {
       "cat": "Sanat",
@@ -350,16 +350,6 @@
       "pubDate": "Tue, 10 Nov 2026 14:37:00 GMT",
       "image": null,
       "summary": "10 Kasım'da Atatürk ve Sanat gösterisi sahnede izleyicilerle buluşacak. Gösteri, Atatürk'ün kültürel mirasını sanat yoluyla hatırlatırken toplumsal hafızada bir köprü kurabilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "11.11 Bilecikliler Günü'nde \"Şeyh Edebali Yılı Buluşması\" düzenlenecek",
-      "source": "Anka Haber",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbnNNNlVwVHFhRlA0aXhkR0swa1dSRTFMZXpCQjc1WXF5SEFSUVBvMUxBemJNOWZSUm5CUUs1aWxURm80SE1WN090YTdZNVFtSmlLWGpsbmJhT09WVnRiM0Q5OV9ZUDdLZlNtRmpycW96ODdOSjJYX1cxTkExRTRyTXh1UzAya2huYWM1QXdBelVYREpOVDVpZHNRNnVqWExjcjlnTXRaekw?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 14:14:17 GMT",
-      "image": null,
-      "summary": "11.11 Bilecikliler Günü kapsamında \"Şeyh Edebali Yılı Buluşması\" etkinliği planlandı. Bu buluşma, bölgesel tarih ve kültürün tanıtımına katkı sağlarken yerel topluluk bağlarını pekiştirebilir."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -514,12 +504,62 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Live updates: Pete Hegseth defends record after Republican begins impeachment effort",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90QzhLd2lDckVuRlVEYjc0QU9vUkktcXFfcXpELUVXZTVuYW5NSnFZVlZJS3hkcllTNkVaZmFQa3locHVyZjN1eS1fRjZRaExiZmNoZi13?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 00:11:52 GMT",
+      "title": "Here are the Manager of the Year vote totals",
+      "source": "MLB.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82R2ozSDdUMWRHM0I5S3pfb3MtSndMZUlaeXd5aS1ZWUctTkFSaHhqc0lrVWtsWVc4RmExUVdGSVJvYWFWQUhqVXhEVDBVbzExZlV1X0IzX212Sk1jSzl1OEF1b0ZlSXc0Mm1KYmRpdXNGX1ZZZ1E?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 01:19:22 GMT",
       "image": null,
-      "summary": "Pete Hegseth, bir Cumhuriyetçi milletvekilinin başlattığı azil girişimine karşı performansını savunuyor ve kayıtlara itiraz ediyor. Bu durum, siyasi çekişmelerin askeri liderlik üzerindeki sorumluluk tartışmalarını şekillendirebilir."
+      "summary": "Major League Baseball, bu sezonki Manager of the Year (Yılın Menajeri) ödülü için oy sayım sonuçlarını yayımladı ve yarışın ne kadar yakın olduğunu gösterdi. Bu sonuçlar, yöneticilerin kariyerleri ve ligdeki itibarı açısından önemli bir gösterge olabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Stacy Keach, Star of ‘Mike Hammer,’ ‘Fat City,’ Dies at 85",
+      "source": "Variety",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdmhGM0hOR1ZPR2hOZEFGV0ZPdHhUbUd0YllBcUY3bEdKd2doMUs4RTYzTmVFTHUyeVRDT0lrUWtVdHhfM0JFR3dCSmJYQVlkNG1oUGpFcnVMYS01bjVDQVcyMmgwa295TEpvbHUtdjZVM1VFV3NqS0NpdERmMzdTM0hFMUk1bzRIMnd0Rg?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 01:08:00 GMT",
+      "image": null,
+      "summary": "85 yaşındaki aktör Stacy Keach, ‘Mike Hammer’ ve ‘Fat City’ gibi yapımlardaki performanslarıyla tanınıp vefat etti. Sinema ve televizyon dünyasında bıraktığı iz, gelecekteki nesiller için ilham kaynağı olmaya devam edebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Meghan Markle’s estranged father jailed after allegedly removing ankle monitor",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcjdNcmhhbmhncllDc0o2c3hfMnU3cElaSS1rOGRMQlcydG1hQnpCTnBobWRPeUwydTFUY2lOaV9xSm5IbWluTVQzV1Q0QjhIV1BQWUpGdC0tcF93c2dIeHZKNFRrNUJJNndOZUNJWC1XVlJIclVHYWg3Z3VvQjVHUmpCeEt5d1dNaTVETnFaZkpYQmxwVjluUnQxWXRkMk8wNHRIRl9KUlFWSkxQamxzd0JrZHdSbUJhZW9GU21WQnFMMlNDUXc?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 00:49:50 GMT",
+      "image": null,
+      "summary": "Meghan Markle’ın babası, ayak bileği monitörünü çıkarma iddiasıyla tutuklanarak ceza aldı. Bu gelişme, ünlü bir aile içindeki hukuki sorunların kamuoyundaki yansımalarını artırabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOemcxaS1wZzZyUGhITkh5Unh5cnVndFpLa3cxc1ZwLUxVeDFmUVBjREdnVlU2NFJIMWxhYW5OX243TVhJRUVCeXFFY0ZrelJWVzMyLTJ2R1BVUnQySmtsck5xWWJNUU5RX21HMHF4bVNBMERHSGxQWEppbnJVay11dDFCb2c?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 00:27:38 GMT",
+      "image": null,
+      "summary": "Anthropic şirketinin yatırım bankaları, şirketin halka arz değerini 1.5 trilyon doların üzerine çıkarmayı planladıklarını duyurdu. Bu yükselen değerleme, yapay zeka sektöründeki rekabeti ve piyasa beklentilerini yeniden şekillendirebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Latvia, Lithuania warn of threat in airspace near Belarus",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWx6TkpxdU5NeldhTTlsMTA2RklPdlVIZnYwWkZJcXVvUTkxM081UnROWUZ0Vzd0TUFwZFRQbWxLalNZUUszM3FldUlmSEpaemJLdV82NnB4Uk5mcjhMQ2h6dGVvWnpUY1d3SEc1UE9Zck1DVkVWbURmMG13VmM1R1RnNFYzT3lIOEt1TmtOdjA0bzB4MWtr?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:55:47 GMT",
+      "image": null,
+      "summary": "Letonya ve Litvanya, Belarus sınırına yakın hava sahasında potansiyel bir tehdit tespit ettiklerini duyurdu. Bölgedeki bu uyarı, Baltık ülkeleri arasındaki güvenlik endişelerinin artabileceğini gösteriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Kennedy family seeks to block construction of Trump’s arch",
+      "source": "Politico",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zeEJqQ0NHZGVEd0JFT2FhMnlia0JXOUk5Vks4ZWp5T1RpRUtBYXBXQ0dERkRvQ0xzMXQ3LU9ES0R0eEI0NmdITGg2UUlGbU5wVEFqeFhPazdpWl9VRUFUbTEtOXJMdURheURjSkR3NHlmV0E1?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:55:00 GMT",
+      "image": null,
+      "summary": "Kennedy ailesi, Donald Trump’ın inşa etmeyi planladığı anıtın yapımına karşı yasal engel koymak istiyor. Bu durum, tarihsel sembollerin politik tartışmalardaki rolünü ve mahkeme süreçlerini gündeme getirebilir."
     },
     {
       "cat": "Dünya",
@@ -534,22 +574,42 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Apple confirms ongoing outage affecting iCloud and more",
-      "source": "9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTG1qTUltdS1NakpRYzJ4c2Y5V3ZWalVRNnlwaVZvWE8yNTdnMGlGeUc4bzgweUl6a3ZUVTNncXoxY1U3c1R2di1Vd3loSTlMSWIzd1JrSU9wQnZ2dnYzR3hLWl96Q0paYzlOYkFlZC1Ba0FaSTgzUWMyOEZZNXF4VWQzN3FTWFpDREF4bEpIZmQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:48:00 GMT",
+      "title": "CFP rankings prediction: Georgia is No. 1, but look who crashes the top four",
+      "source": "USA Today",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNDlEWFJMTmtnNzlSdXB0SU1rdWthOE96dGZRMXcwUXJicE1MNU1mWGF3VE5IaDBIaDhicWVQa3dhN2VNVVJqV3BfaW8zaVdJRXpHZktmaUVRemVleUd1c2RuaVpaR1Z3UDY1N1lQcHpGVUFQVzdnOTdybGtQQ0NrVHNlVmxrQVdwZGZPU043TTdncnlRanlRU19DbENvbDB2dllwS3FkQldmUXJNb3Fxc3llQVFwSS1vVC1wa0hLMDRZeDg2cTZXVWNjWFg2NkJLWHV6OFBfNA?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:42:00 GMT",
       "image": null,
-      "summary": "Apple, iCloud, Apple Music ve diğer hizmetleri etkileyen bir kesinti yaşandığını onayladı. Böyle bir hizmet arızası, bulut tabanlı hizmetlere olan bağımlılığın ne kadar kritik olduğunu ortaya koyuyor."
+      "summary": "CFP (College Football Playoff) sıralamaları tahmin edildi ve Georgia birincilik koltuğunda yer alırken, üst dörtlüde beklenmedik değişiklikler olduğu görüldü. Bu tahminler, sezonun ilerleyen haftalarında şampiyonluk mücadelesinin dinamiklerini etkileyebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "US charges 3 men with plotting terror attacks, including planned assault on UK airbase",
+      "title": "Tennessee seeks to block Christa Pike's attorneys from inspecting drug used in failed execution",
       "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0EzV2laWjJ3YTZhWW4wRTlqaER3MnhEWlk4bG52RUIzeTlFYVFHekl2UWhFSExiUVNqUDktR25SQUVUdEU1eFlwQmJhNEV2YTRCQ1VxUEZiUjlGeHlpV0w0cENrd2NFbVgyMnZVcFRtSExnTU9lckVOTl9abERDc1hyLXdXWHhKM2pnRmRLM1RlM0h2MEFrU1c4b1ZrQQ?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:11:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRzB2SXBuQ2FfU3JUWVhUOU5LWmpqc2F3TnlReTlPNWJWTVljcDJ3ZGJ4Z2lreHViOFZza01vR3cxMnhXelYyQzVtTHAzY3IxdEplVGV4OF9nV01aRzVtUkRieXdyeEtFVUE4MjlBNExzaTFtbHpqbGtaRkZTTF9iTDZfWjFKQ3MxWWJTSzZXd3JWTDloa25qa2FtSzZDX1dSVmloNWd4S3FoQQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:25:00 GMT",
       "image": null,
-      "summary": "ABD adalet sistemi, üç kişiyi Birleşik Krallık'taki bir hava üssüne saldırı planı dahil olmak üzere terör saldırıları düzenlemekle suçlayarak dava açtı. Bu durum, sınır ötesi terör tehditlerinin artışına işaret edebilir."
+      "summary": "Tennessee eyaleti, başarısız bir idamda kullanılan zehirli maddeyi savunma avukatlarının incelemesini engellemek istiyor. Bu talep, ölüm cezası uygulamalarının şeffaflığı ve yasal süreçlerin adil yürütülmesi konularında tartışmalara yol açabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Representative María Elvira Salazar Wins Re-Election in Florida",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVHRobHhfMWVpSlRyQkcwZ2w2T2lFY0duRExtZW5GanNFaWVBYnlEZF9oNUNSM0RDXzVTV2IzaUhCV2U3SXZONkVhRjNBQzFYYVlRQUNkdG9zeVc1cFpCcENuRXUxY2NydDVPOUJhdld5SjFIUnBYNENOcWVua0wwaV9EUklFbjRWU0FWWXEwaw?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:19:58 GMT",
+      "image": null,
+      "summary": "Küba asıllı ABD temsilcisi María Elvira Salazar, Florida’da yeniden seçilerek ikinci dönemine başladı. Bu sonuç, eyaletteki seçmen eğilimleri ve ABD‑Küba ilişkileri açısından dikkat çekebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Republican-led House rejects Hegseth impeachment effort",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNkpUVFYyVUFzSW1ieEU2N3BQc0RxcS1yVnY1YVdvVWd3VDJ2RzNWLW9mcTV4dmVfVXl6czE5S2VwX3BYLThHRW1vZ09jYUNCRTNJaWd4ZFgxUG5jaTVpRUpNQTVndVQyOU1HaUw4UzFGZEpwN3BSMl9ZZ0h6MXhwSGZWQkZ4SkVNcFIxNzczU2pVUkVoSnRwTDd1SzBYeVlDd0c1TEJLMjZuMW1u?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:03:10 GMT",
+      "image": null,
+      "summary": "Çoğunluğu Cumhuriyetçi olan Temsilciler Meclisi, Hegseth’in azledilmesi girişimini reddetti. Bu karar, partizan dinamiklerin denetim süreçleri üzerindeki etkisini yansıtabilir."
     },
     {
       "cat": "Dünya",
@@ -560,76 +620,6 @@
       "pubDate": "Tue, 10 Nov 2026 23:03:00 GMT",
       "image": null,
       "summary": "Bulut bilişim hizmetleri sağlayıcısı CoreWeave, bugün mali sonuçlarını açıkladı ve yatırımcıların finansman detayları merakla bekleniyor. Şirketin finansal durumu, yapay zeka altyapı pazarındaki rekabeti etkileyebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Republicans elect Jim Jordan as House minority leader after midterm defeats",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV1ljLXY1NXRtTnFqSDhyckhhaVVLd1Jlb0xjN3BLeDEwelRBSmJ1dllvcUt1bExDU1ZleU51Wk02ZGx6eG5pb2Rmci1RWXRMYktEQk80OFpob0llem9YYS1Fc3hFbllHYmJBVXZPZm0yM2FWeHNPVUxXMjhfV3RtUTJid0xxUS1FRnc?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:54:40 GMT",
-      "image": null,
-      "summary": "Orta seçim yenilgisinin ardından Cumhuriyetçiler, Temsilciler Meclisi'nde azınlık lideri olarak Jim Jordan'ı seçti. Bu liderlik değişikliği, GOP'un gelecek yasama stratejilerini yeniden şekillendirebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Senior U.S. Army soldier arrested in U.K. on suspicion of assisting Russian intelligence",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR01STjQ1eEtZVnpFd2tINENEd3ZpbXV5UWZiZVZJT3NaeTltaGZ3NTA4NGo2SHhETzNZaTBFSzkwcFF0OWt0ZWY2MDkzNnlkQjQ5SlhJTzBiQWJjWUY4OVJ2OWhGQ3JKa2VyeEJJMWt2eGhSVVZ4VGhvOWprcWZlbDItd3VkUDBLajE4YUM0N2tvZ3YyajYtSVE2NFh3N3M4Y3BPRmlsdFZ3REtHYzNqNU54SUpONWdicE9QZkRB?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:45:45 GMT",
-      "image": null,
-      "summary": "Bir ABD üst düzey askeri personeli, İngiltere'de Rus istihbaratına yardımcı olmakla suçlanarak tutuklandı. Bu olay, ABD‑Birleşik Krallık askeri ilişkilerinin gerginleşebileceği ihtimalini gündeme getirebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Latvia, Lithuania warn of threat in airspace near Belarus",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWx6TkpxdU5NeldhTTlsMTA2RklPdlVIZnYwWkZJcXVvUTkxM081UnROWUZ0Vzd0TUFwZFRQbWxLalNZUUszM3FldUlmSEpaemJLdV82NnB4Uk5mcjhMQ2h6dGVvWnpUY1d3SEc1UE9Zck1DVkVWbURmMG13VmM1R1RnNFYzT3lIOEt1TmtOdjA0bzB4MWtr?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:30:20 GMT",
-      "image": null,
-      "summary": "Letonya ve Litvanya, Belarus sınırına yakın hava sahasında potansiyel bir tehdit tespit ettiklerini duyurdu. Bölgedeki bu uyarı, Baltık ülkeleri arasındaki güvenlik endişelerinin artabileceğini gösteriyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Gas prices fall below $4 a gallon for first time since July",
-      "source": "Fox Business",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3NmLWt3T2NXZWRGZmhfUjNyTmhVLWtxTFZnOVZvNlpUUGRaTnBVOE8ydWQ1aU9JM3UxdGM0VkFmSEFsVVltUE1vVlZBUEJYRXdMQjVjQTVGRWFpRGtYUnppNXVDZjNCdWZvVXVTOFFZUTdob0dtUk5SOXoxdzFES3pkT0JHMmd5RGZHWi1VM3NkQdIBlwFBVV95cUxOajQ5QndFWWNFclQzUzhBbmpsTVR4R2RtTzMwZkJsTUdUdU9IR3lwZW4xX0hKQ01jeGpaU1R0Z3dTUzlLc3c2UDJYOXhaM05PcURmaWxEOGRLaGJkeUpLU0FqeURfZUdVVk5MWmV2a3JWZHczUlhNVy1jdlU4eGJnV3hOLVNqMkowVEZlS3BCcE5PdzhyRmlz?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:12:00 GMT",
-      "image": null,
-      "summary": "ABD'de akaryakıt fiyatları, Temmuz ayından bu yana ilk kez galon başına 4 doların altına düştü. Bu düşüş, tüketicilerin enerji maliyetlerindeki baskıyı hafifletebilir ve enflasyon üzerinde olumlu etkisi olabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "America defeated measles in 2000. Vaccine opposition brought it roaring back.",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFZpR3hpVjRmWGtRUE53enJzSC0yX1BVV3paRlY1NnRnY3pIOEdwekZRYnpzbnl3ck9GOVBJb2NQQ2ZlZ2N1RUFLUk5Ec2ZNdWpUMkNwUVFiZVFHTnRmSVpzakxuM0t6MWs2UkZSQm9qMi11WW9ETGJYRVFEekJJRFhxTmlpWTQ4c0c1TkdNaXdyMDhiRWsyM0RBVDZLcUxtQkFySzdrNk0?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 22:02:55 GMT",
-      "image": null,
-      "summary": "ABD, 2000 yılında kızamığı tamamen yok ederken, aşı karşıtlığı nedeniyle hastalığın yeniden yayılmaya başladığı bildiriliyor. Bu gelişme, aşı tereddütünün halk sağlığı üzerindeki potansiyel risklerini vurguluyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "British comedian and children’s author David Walliams accused of sexual misconduct",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzV6eGhta1EwczFLWGx6NDg0eDZieUUtTUd6bXlIc3NRSlhmZnNEOWRBSHV4X0RvQktrMmZDNnZVRU5LTklpY1Z5WVhBTnh0SFRUTFdMQm5ucEtOem15d2l4WktkX3VCamgwWWtTSy1LaUxOODJvUGlnVzFVSG5saTZldTNNcDN6UkNhSG8xaG5wdXVKR0JJZlRTaWNZOEFXZEpwZG9uU0plcDFNcldQTjk1bw?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:59:00 GMT",
-      "image": null,
-      "summary": "İngiliz komedyen ve çocuk kitabı yazarı David Walliams, bir dizi cinsel uygunsuzluk suçlamasıyla karşı karşıya ve polis soruşturması başlatıldı. Söz konusu iddialar, eğlence sektöründe koruma önlemlerinin gözden geçirilmesine yol açabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUWtpODJhandmejhHanpIV1IwVWxTRnFFQUVxOURDZnQ4VWhTeGNLRkN2TlJvNFpCNlY3YUoxYVlodkFNZzFSQUJRRVd3MDFmQkJQMWcyTHJSdjd0dWJEVXJLUXVoRHYwdHByTjlsam5zWTRqVll3V1hOYlFTeUFlRVh3anFSZ09xbkNhR2RBaUFmOVlMYmFVWjFab2RaMjJRVmc?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:35:00 GMT",
-      "image": null,
-      "summary": "2026 NFL takas deadline'sı sonrası kazananlar ve kaybedenler değerlendirildi; Kirk Cousins'in takasından Bengals'ın hamlelerine kadar analiz yapıldı. Bu inceleme, taraftar beklentilerini ve takımların gelecek takas stratejilerini etkileyebilir, lig dinamiklerini yeniden şekillendirebilir."
     },
     {
       "cat": "Gündem",
@@ -694,6 +684,16 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
+      "title": "Emine Erdoğan lider eşleri ile bir araya geldi",
+      "source": "Hürriyet",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSG4wQWdCNFFQb093aHc1X1llNG5aSGN4cTd4Z3Fta2lBTUl4WDduaUJhbGc5R1Y2eFFPa1QzWW0tQlhKN2VyeG1VNGYxZ25laDRVY2ZMSXRoM2pMR0xBLWFQYUxTQllnTXA1aG1WdW1Hc3YxbnZ5bVBGdktuTk9ZV1B0N08zZ3R1X2NLM3FSS1dkMHAy?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 17:57:29 GMT",
+      "image": null,
+      "summary": "Emine Erdoğan, diğer liderlerin eşleriyle bir araya gelerek sosyal projeler ve kadın hakları konularını görüştü. Bu buluşma, Türkiye’nin diplomatik yumuşak güç stratejilerine katkıda bulunabilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
       "title": "Türkiye ile Suudi Arabistan arasında 5 bin megavatlık enerji işbirliği",
       "source": "Bloomberght",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTTRMMGJpLU1lOHNVQ1pUQXNnQnhrazZBUFNGNTlNanZLbEJIVE5nYWdsWWY4YUhfY3ltZ25HOUJzMk85cVBxTG1zTTdBalQ3Z0lXY2oteklfYW5JNWhiNl9aQXQ0OU1nUk8zWFpSNU5WWG5TX3NqcXUwN0hxV0tBODgyTk9xeUQzR2I0SmRCV2M5WUJUNmlLSkxRNGFzY1VjMkFkRGtfVHJuZw?oc=5",
@@ -740,16 +740,6 @@
       "pubDate": "Tue, 10 Nov 2026 15:42:58 GMT",
       "image": null,
       "summary": "Eski futbol teknik direktörü Fatih Terim, MHP Genel Merkezi'nde Devlet Bahçeli'yi ziyaret etti ve kısa bir görüşme gerçekleştirdi. Bu buluşma, spor dünyası ile siyaset arasındaki ilişkilerin farklı boyutlarda şekillenebileceğine işaret ediyor."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Arsenal'de Gyökeres ve Merino için ayrılık ihtimali!",
-      "source": "Sporx.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdWZnVDN0eXkxTXk1S2NkY29YOGFMOEdtOEVHbzl4TVdzSnhNdjkwWUw1TENlWUxYcEhTZGpRd0lmRFZ1NDNNRC1ORnpGejV2RWR2cEx2N1UtZW9FM1NVTWRUb0VaRjRveDZsbjlOMGN5RDFwTThoblkyZUc2S08taTlhMzJjM1dMaUN3SHZJcmh0ajDSAZYBQVVfeXFMTWhRSzBGSU5DdjJWal80UF9HNnRKYl9SX21RZnQzYVVpUVRMNmxtaVBMaGFLOVBGaFViUjczSmRlbkhSeS05RG5sZDBxRV9KTnp6Ykl2TllJWS1wajBkbEZQV09vQmRrUUZUVlU5TmdNeHdLeWJzLWJwbXZjbzEwTEVkOEJZMFB2cGlPeEwwNjRQcXZhemNR?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 15:38:00 GMT",
-      "image": null,
-      "summary": "Arsenal, forvet Alexander Gyökeres ve Gabriel Merino'nun kulüpten ayrılması ihtimali üzerinde spekülasyon yapıyor. Bu olası transferler, takımın hücum gücünü ve bütçe planlamasını etkileyebilir."
     },
     {
       "cat": "Gündem",
@@ -873,13 +863,13 @@
     }
   ],
   "weather": {
-    "temp": 10.0,
+    "temp": 10.5,
     "desc": "Kapalı"
   },
   "market": {
-    "usdtry": 50.2,
-    "eurtry": 56.25,
-    "gold_gram_try": 6512.15
+    "usdtry": 50.24,
+    "eurtry": 56.2,
+    "gold_gram_try": 6535.57
   },
   "stocks": [
     {

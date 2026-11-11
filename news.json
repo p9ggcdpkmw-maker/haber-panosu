@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-11T01:52:31.301699+00:00",
+  "updated": "2026-11-11T02:39:33.667250+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yeni Hyundai Tucson’da Motor Kapalıyken Klima Çalışacak! İşte Dikkat Çeken Teknoloji",
+      "source": "Uşak Haber Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVnpfV2NKUnRRb3p4Y3pob3NmVEd2RVJLcWRYd21ZZnByVVY0OWw4emg4bFI0WjgzNnZMUC11YlZTcUdHZDJXQzZiUDNnSVk0enVGaWhmZWpTalE1cGlaeVhOejR2Z2Uyd1lhMWJ6WWJZSWZtQ242V3lweGhzd1lYbEk4UjdwRWxjTDFfcmZqOEtROVJXYVYtVkx5UkRTazNGSGNjTXhvUG5iUWRGeHRsaUZES3FuM3F1dlJz?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 02:30:00 GMT",
+      "image": null,
+      "summary": "Yeni nesil bir SUV modelinde, motor çalışmasa bile iç mekanın soğutulmasını sağlayan bir iklim sistemi tanıtıldı. Bu teknoloji, özellikle sıcak iklimlerde araç içinde konforu artırabilir ve enerji tasarrufu yönünde yeni fırsatlar sunabilir."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -10,6 +20,16 @@
       "pubDate": "Wed, 11 Nov 2026 01:35:27 GMT",
       "image": null,
       "summary": "Bilim ve Teknoloji sektörü için planlanan soru‑cevap oturumu, mevcut engelleri tanımlamayı ve somut çözüm önerileri sunarak sektörde gerçek bir dönüşüm yaratmayı hedefliyor. Bu tür bir yaklaşım, politika yapıcıların ve yatırımcıların daha etkili stratejiler geliştirmesine katkı sağlayabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Kron Teknoloji'nin İlk 9 ayda yurt dışı gelirlerinin payı yüzde 36’ya ulaştı",
+      "source": "Para Analiz",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMU9mQ1JXV19td3I4T3lLQ0g2OUZHZ3dneXY4UHQ1TW9FNW9GNkkxRWZhNTBwR2N2WmVBaDdFS3FkeTBqVDFmMVZLOE44YXN0cENGWDcxYlNNSlNaTmxOcGI2S2lIMzFzN0pVbU00UU5tQWtIRFlyUnVGNW1RcjYxbU1MSGlyVHZDczFZUjI4aWp6bHhVNTJ2Z3R3dzJKOW03TjBHWlYxTy1WSmU0S05lWG53?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 00:58:06 GMT",
+      "image": null,
+      "summary": "Kron Teknoloji, 2023'ün ilk dokuz ayında elde ettiği gelirin %36'sını yurt dışından sağlamış. Bu oran, şirketin uluslararası pazarlardaki büyüme potansiyelini gösteriyor ve yatırımcı ilgisini artırabilir."
     },
     {
       "cat": "Teknoloji",
@@ -84,42 +104,22 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
+      "title": "Konya’da Meslek Lisesine sanayiden teknoloji desteği",
+      "source": "Saray Medya",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWF0ZHhFdTM1bGpMMmw0OU5IZndmUlFVdEFhODl0WVR4UHBQUjV2cWhvVlY4MG91N3hwNjRKNVlkQ21xel9mNVEwbkRTZzkwcTBOQTg1TndWeEhJWkg2blQzSWc4U1hmUjdVOWViOEtnWTVTNGw1UV85eE9qdEs5eWQ0Rk5jNkU5ZFVXMy1Ma056amo5aWdPRg?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 21:08:00 GMT",
+      "image": null,
+      "summary": "Konya'da bir meslek lisesine, yerel sanayi kuruluşlarından teknoloji ekipmanları ve eğitim desteği sağlanıyor. Böyle bir iş birliği, öğrencilerin pratiğe dayalı becerilerini geliştirebilir ve bölgenin istihdam potansiyeline olumlu etki yapabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
       "title": "Mağusa'da Robotik ve Teknoloji Festivali",
       "source": "Star Kıbrıs",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzLVhpRnBGekYyTVo1anRJbzFwMjNzRDZyX3lJdVMxMi1zNjBCNkVsOWJHMzdidGdBQlVwbGp5MmRTQTdiQk83Y2JJQjRvZXJWZ0h2cmJVTWtVdnpYb3VMNg?oc=5",
       "pubDate": "Tue, 10 Nov 2026 21:02:23 GMT",
       "image": null,
       "summary": "Mağusa’da düzenlenen Robotik ve Teknoloji Festivali, yerel ve uluslararası katılımcıların yenilikçi projelerini sergiliyor. Etkinlik, bölgenin teknoloji turizmi potansiyelini artırabilir ve genç girişimciler için ilham kaynağı olabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Yapay zeka rallisinde rota değişiyor",
-      "source": "Ekonomim",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSEV0UUxJaEhJRzlHaXNVanhKOUhodGFzT3RCNmsxcUVZUlZvMzFhWndNbjVLMmJUSFF2STNvd01HN1F4bUktNV9td3F1ODhUQno5cWkxcXd4a3g5XzFqQUpFdmFJV0pTV1lSWUxKUmg2LUI3R21hVmk2TmRrbDNIVy1tR3A2V2JPSUxr?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:00:00 GMT",
-      "image": null,
-      "summary": "Yapay zeka geliştirme yarışmalarında yeni bir stratejik yön değişikliği olduğu belirtiliyor. Bu değişiklik, sektörün mevcut trendlerine yanıt vermek ve rekabet avantajı elde etmek amacıyla yapılmış olabilir, bu da yatırım kararlarını etkileyebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Kron Teknoloji'nin İlk 9 ayda yurt dışı gelirlerinin payı yüzde 36’ya ulaştı",
-      "source": "Para Analiz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMU9mQ1JXV19td3I4T3lLQ0g2OUZHZ3dneXY4UHQ1TW9FNW9GNkkxRWZhNTBwR2N2WmVBaDdFS3FkeTBqVDFmMVZLOE44YXN0cENGWDcxYlNNSlNaTmxOcGI2S2lIMzFzN0pVbU00UU5tQWtIRFlyUnVGNW1RcjYxbU1MSGlyVHZDczFZUjI4aWp6bHhVNTJ2Z3R3dzJKOW03TjBHWlYxTy1WSmU0S05lWG53?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:29:18 GMT",
-      "image": null,
-      "summary": "Kron Teknoloji, 2023'ün ilk dokuz ayında elde ettiği gelirin %36'sını yurt dışından sağlamış. Bu oran, şirketin uluslararası pazarlardaki büyüme potansiyelini gösteriyor ve yatırımcı ilgisini artırabilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Sürdürülebilir havacılık yakıtlarında Türkiye'yi üretim ve teknoloji merkezi yapmak hedefi",
-      "source": "Aksiyon.com.TR",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeHJSS0FXM09PV1RZQ2l5bldJUWFHaHlnSGU4T0VvUmNzbEtBdy1uUERNYWl0WkVXX0VmLUZWNUhkbUd0SDBDR1BTN3VyYVplTkVnWDJBeVYxMHhNeGRwZTFOOXQ2S0ZlcWJpUVNyTE5BMy1hV3hwVE5lRGhGTGI5MWRVMkhkRjdtRklnekRhd2FoelR2MWJJOXlzcWl5Q2d5MTdTLVJ5SHRmbG1VVE5aMktSTlRjYnJNaDhyd2lzTzRwZ9IBxwFBVV95cUxPOVNSNzFWY2d1MlBRcldKYlRfNkxxbGk4MzhRQW5iVWdGc21xbkprTkMtXzhzMnctNVhoWjkxOVVqLUFpeXc0UVZIUU9ocXlZWDdNV2RQTTlTUk80cld0VEwzRU5VaUYyaU1uRXotX3Q3MGtzTWltM2pVandxNEZudFk3MFVXSTlMb3dYSng1TTdEWi05TEdNaUZZQVBNR2VsVVNVU1laTnZEUE9qMDR2X1BFRlZQa2xiMVNoWWpuOW1NbFYzSExr?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:18:03 GMT",
-      "image": null,
-      "summary": "Türkiye, sürdürülebilir havacılık yakıtları üretimi ve teknolojisi konusunda bölgesel bir merkez olma hedefi koymuş. Bu strateji, hem çevre politikalarına hem de yerli sanayiye uzun vadeli fayda sağlayabilir."
     },
     {
       "cat": "Bilim",
@@ -324,16 +324,6 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
-      "title": "Mimar Özge Bayraktaroğlu Daunay’a Brüksel'de büyük ödül",
-      "source": "Odatv",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWkUzNnBYM2ZDd3ZmSXJPN3MtVC05bDBSY1VlNzQ3VGo5WWtnZXJZT3BPTEY2cV94Q2lKLTBaSEZFQmRXbmhuZUF3S04zNEQ5WmhtQkFfc1BPNWVuQnBWZEdSU2RZRE5zSlphb1JmNWdRODdnWGEyOU5FekJKX09neXlsV3NaUnZVbXdva25NWktxczZHU1FGbHJDVnd0cmM?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 17:33:48 GMT",
-      "image": null,
-      "summary": "Mimar Özge Bayraktaroğlu Daunay, Brüksel'de düzenlenen bir yarışmada büyük ödül kazandı; projeleri sürdürülebilir mimari yaklaşımıyla öne çıktı. Bu ödül, Türk mimarlığının uluslararası alanda daha fazla tanınmasına zemin hazırlayabilir."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
       "title": "Askeri sanatçılar, ulusal müzik aletleri yarışmasına ulusal kimlik katıyor.",
       "source": "Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWlN6U3JPY0dSSVpDMW03MjRsMXZCb3ZORHFTLV9LV2VwLVJGbmpfRWxhUkYxWmpQSXY5bGZ5Q3BzX3JSOFdZYWo5aFUxZXM3N0tDbEUyTDZmV2VTenpDWkh6ZkFzY2tsd2Z5R3ppQWpVTjA5ei12Rlp0dXRxby1hOTNBTlBKaG82OUhwVzZwdmFabnFlM3VHRQ?oc=5",
@@ -350,6 +340,16 @@
       "pubDate": "Tue, 10 Nov 2026 14:37:00 GMT",
       "image": null,
       "summary": "10 Kasım'da Atatürk ve Sanat gösterisi sahnede izleyicilerle buluşacak. Gösteri, Atatürk'ün kültürel mirasını sanat yoluyla hatırlatırken toplumsal hafızada bir köprü kurabilir."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "11.11 Bilecikliler Günü'nde \"Şeyh Edebali Yılı Buluşması\" düzenlenecek",
+      "source": "Anka Haber",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbnNNNlVwVHFhRlA0aXhkR0swa1dSRTFMZXpCQjc1WXF5SEFSUVBvMUxBemJNOWZSUm5CUUs1aWxURm80SE1WN090YTdZNVFtSmlLWGpsbmJhT09WVnRiM0Q5OV9ZUDdLZlNtRmpycW96ODdOSjJYX1cxTkExRTRyTXh1UzAya2huYWM1QXdBelVYREpOVDVpZHNRNnVqWExjcjlnTXRaekw?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 14:14:17 GMT",
+      "image": null,
+      "summary": "Bilecik'te 11 Kasım tarihinde, Şeyh Edebali Yılı Buluşması adı altında bir kutlama etkinliği planlandı. Bu tür organizasyonlar, yerel kültürel mirasın korunmasına ve toplumsal dayanışmanın güçlenmesine katkı sağlayabilir."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -504,12 +504,32 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Here are the Manager of the Year vote totals",
-      "source": "MLB.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82R2ozSDdUMWRHM0I5S3pfb3MtSndMZUlaeXd5aS1ZWUctTkFSaHhqc0lrVWtsWVc4RmExUVdGSVJvYWFWQUhqVXhEVDBVbzExZlV1X0IzX212Sk1jSzl1OEF1b0ZlSXc0Mm1KYmRpdXNGX1ZZZ1E?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 01:19:22 GMT",
+      "title": "CFP rankings live updates: Show start time, TV channel for new top 25 reveal",
+      "source": "USA Today",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVlZ0X0VjTGtoajhSTUdCM1Ixa1duajhpTFAtSWozeERfWkJ5RXV1Umtzelh6RGJUVngxbVF3QUFoMnBrcUF0ekVHQ2pjNDFwX200UnVZaXBWNzRRejY5SXRsdGdGclFYQm04ZEt1VEJ0MnJnbjRqMnRFMmo2Q3lMcVRTSzdlQ2dOaDVKeTM3MmF6YjBaWkczTjdwN0VIai1pSU9tNXBuNWJzMWU1YkN6RDFNZnQtVTJWVHFwMlYwUHlOTVl5MUJBSG9TS2pKc1Qxa3VPdFREMFAxcDNMQ0UxNXp1X1ZtazdXdy1JelBfT2w2anl1MFJOMEhTVWVvd08tdjZzbXR1Zw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 02:25:00 GMT",
       "image": null,
-      "summary": "Major League Baseball, bu sezonki Manager of the Year (Yılın Menajeri) ödülü için oy sayım sonuçlarını yayımladı ve yarışın ne kadar yakın olduğunu gösterdi. Bu sonuçlar, yöneticilerin kariyerleri ve ligdeki itibarı açısından önemli bir gösterge olabilir."
+      "summary": "College Football Playoff sıralamaları anlık olarak güncelleniyor ve yeni Top 25 listesi ne zaman ve hangi kanalda yayınlanacağı duyuruldu. Bu bilgi, futbolseverlerin ve bahis piyasalarının ilgi alanını yönlendirebilir, dolayısıyla spor medyasının etkileşimini artırabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Meghan Markle’s estranged father jailed after allegedly removing ankle monitor",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcjdNcmhhbmhncllDc0o2c3hfMnU3cElaSS1rOGRMQlcydG1hQnpCTnBobWRPeUwydTFUY2lOaV9xSm5IbWluTVQzV1Q0QjhIV1BQWUpGdC0tcF93c2dIeHZKNFRrNUJJNndOZUNJWC1XVlJIclVHYWg3Z3VvQjVHUmpCeEt5d1dNaTVETnFaZkpYQmxwVjluUnQxWXRkMk8wNHRIRl9KUlFWSkxQamxzd0JrZHdSbUJhZW9GU21WQnFMMlNDUXc?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 02:19:50 GMT",
+      "image": null,
+      "summary": "Meghan Markle’ın babası, ayak bileği monitörünü çıkarma iddiasıyla tutuklanarak ceza aldı. Bu gelişme, ünlü bir aile içindeki hukuki sorunların kamuoyundaki yansımalarını artırabilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Hegseth Impeachment Effort Is Derailed by House Republicans",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3aFh0N1I3eXV5VHBNTkx3MEhtTnRKSmNtZXFNaVI3a0V5SUF2T2VfaC1SRnp0Uk5xOWt4Y0hZajRjTHp0bGhKS3RVbFd0b2pPaTJzT0JtbDhGVUc0V2FDTGFiZS1HaFFOdG5IejdJTUlMTGZlUExfZDEyc2c0dw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 01:57:00 GMT",
+      "image": null,
+      "summary": "Temsilciler Meclisi içinde bazı üyelerin karşı çıkması sonucunda, Hegseth'in görevden alma süreci durduruldu. Bu gelişme, siyasi partilerin iç dinamiklerinin yüksek profilli görev değişikliklerini nasıl şekillendirebileceğine işaret edebilir."
     },
     {
       "cat": "Dünya",
@@ -524,27 +544,17 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Meghan Markle’s estranged father jailed after allegedly removing ankle monitor",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcjdNcmhhbmhncllDc0o2c3hfMnU3cElaSS1rOGRMQlcydG1hQnpCTnBobWRPeUwydTFUY2lOaV9xSm5IbWluTVQzV1Q0QjhIV1BQWUpGdC0tcF93c2dIeHZKNFRrNUJJNndOZUNJWC1XVlJIclVHYWg3Z3VvQjVHUmpCeEt5d1dNaTVETnFaZkpYQmxwVjluUnQxWXRkMk8wNHRIRl9KUlFWSkxQamxzd0JrZHdSbUJhZW9GU21WQnFMMlNDUXc?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 00:49:50 GMT",
-      "image": null,
-      "summary": "Meghan Markle’ın babası, ayak bileği monitörünü çıkarma iddiasıyla tutuklanarak ceza aldı. Bu gelişme, ünlü bir aile içindeki hukuki sorunların kamuoyundaki yansımalarını artırabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
       "source": "Financial Times",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOemcxaS1wZzZyUGhITkh5Unh5cnVndFpLa3cxc1ZwLUxVeDFmUVBjREdnVlU2NFJIMWxhYW5OX243TVhJRUVCeXFFY0ZrelJWVzMyLTJ2R1BVUnQySmtsck5xWWJNUU5RX21HMHF4bVNBMERHSGxQWEppbnJVay11dDFCb2c?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 00:27:38 GMT",
+      "pubDate": "Wed, 11 Nov 2026 00:30:25 GMT",
       "image": null,
       "summary": "Anthropic şirketinin yatırım bankaları, şirketin halka arz değerini 1.5 trilyon doların üzerine çıkarmayı planladıklarını duyurdu. Bu yükselen değerleme, yapay zeka sektöründeki rekabeti ve piyasa beklentilerini yeniden şekillendirebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Latvia, Lithuania warn of threat in airspace near Belarus",
+      "title": "Latvia, Lithuania warn of new drone threats in airspace",
       "source": "Reuters",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWx6TkpxdU5NeldhTTlsMTA2RklPdlVIZnYwWkZJcXVvUTkxM081UnROWUZ0Vzd0TUFwZFRQbWxLalNZUUszM3FldUlmSEpaemJLdV82NnB4Uk5mcjhMQ2h6dGVvWnpUY1d3SEc1UE9Zck1DVkVWbURmMG13VmM1R1RnNFYzT3lIOEt1TmtOdjA0bzB4MWtr?oc=5",
       "pubDate": "Tue, 10 Nov 2026 23:55:47 GMT",
@@ -574,12 +584,12 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "CFP rankings prediction: Georgia is No. 1, but look who crashes the top four",
-      "source": "USA Today",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNDlEWFJMTmtnNzlSdXB0SU1rdWthOE96dGZRMXcwUXJicE1MNU1mWGF3VE5IaDBIaDhicWVQa3dhN2VNVVJqV3BfaW8zaVdJRXpHZktmaUVRemVleUd1c2RuaVpaR1Z3UDY1N1lQcHpGVUFQVzdnOTdybGtQQ0NrVHNlVmxrQVdwZGZPU043TTdncnlRanlRU19DbENvbDB2dllwS3FkQldmUXJNb3Fxc3llQVFwSS1vVC1wa0hLMDRZeDg2cTZXVWNjWFg2NkJLWHV6OFBfNA?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:42:00 GMT",
+      "title": "Raman’s colleagues all opposed her run for mayor. Now some promise ‘full support’",
+      "source": "Los Angeles Times",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRWlUUzhYNklsMV84WWRkMnI5YWNOZDBINk9idnQ1VzU4X1FyQnVFNzdGYTFLSHh0NVY5aUZoWFFmSkxRckpKRHNsbG40WjU1Q1d2bEZBRWcxTW1mLVd2WVJaNUlKaWY3SE5lWE4zenhWQ3dyTmZwQy1rYm8tUnhsTVkwekZXZ21xclk3WTRwbjVhS1dmeFB2b1l1UDA2V3lkdHVnanlpTnlCLUNJR0JQSmp5NnIxYkc5VHVYbDVnZk02NzRqZGt6TA?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 23:45:12 GMT",
       "image": null,
-      "summary": "CFP (College Football Playoff) sıralamaları tahmin edildi ve Georgia birincilik koltuğunda yer alırken, üst dörtlüde beklenmedik değişiklikler olduğu görüldü. Bu tahminler, sezonun ilerleyen haftalarında şampiyonluk mücadelesinin dinamiklerini etkileyebilir."
+      "summary": "Raman, belediye başkanlığı adaylığına karşı çıkan meslektaşlarıyla uzun bir çekişmeye girdi; şimdi ise bazıları ona tam destek vaat ediyor. Bu durum, yerel siyaset içinde ittifakların ve görüş ayrılıklarının hızla değişebileceğini gösteriyor."
     },
     {
       "cat": "Dünya",
@@ -594,26 +604,6 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Representative María Elvira Salazar Wins Re-Election in Florida",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVHRobHhfMWVpSlRyQkcwZ2w2T2lFY0duRExtZW5GanNFaWVBYnlEZF9oNUNSM0RDXzVTV2IzaUhCV2U3SXZONkVhRjNBQzFYYVlRQUNkdG9zeVc1cFpCcENuRXUxY2NydDVPOUJhdld5SjFIUnBYNENOcWVua0wwaV9EUklFbjRWU0FWWXEwaw?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:19:58 GMT",
-      "image": null,
-      "summary": "Küba asıllı ABD temsilcisi María Elvira Salazar, Florida’da yeniden seçilerek ikinci dönemine başladı. Bu sonuç, eyaletteki seçmen eğilimleri ve ABD‑Küba ilişkileri açısından dikkat çekebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Republican-led House rejects Hegseth impeachment effort",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNkpUVFYyVUFzSW1ieEU2N3BQc0RxcS1yVnY1YVdvVWd3VDJ2RzNWLW9mcTV4dmVfVXl6czE5S2VwX3BYLThHRW1vZ09jYUNCRTNJaWd4ZFgxUG5jaTVpRUpNQTVndVQyOU1HaUw4UzFGZEpwN3BSMl9ZZ0h6MXhwSGZWQkZ4SkVNcFIxNzczU2pVUkVoSnRwTDd1SzBYeVlDd0c1TEJLMjZuMW1u?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:03:10 GMT",
-      "image": null,
-      "summary": "Çoğunluğu Cumhuriyetçi olan Temsilciler Meclisi, Hegseth’in azledilmesi girişimini reddetti. Bu karar, partizan dinamiklerin denetim süreçleri üzerindeki etkisini yansıtabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "CoreWeave Earnings Beat Expectations, Assuaging Market Nervousness",
       "source": "Barron's",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tN1FZWVRJR0tWTGxtMFRyUWpERkQ2LXJFOUZIRFU0b014ZXhSeVVMdmxHcUFSZjdudzdpeXdILUtpcnRxM0U0Z1hHWklJcGZkQkRtX0dQMkJiMllDeENDWk05Z2VkWkZPZ2gwMThtWGo1RnUyTmxYOXdIQU8?oc=5",
@@ -622,24 +612,24 @@
       "summary": "Bulut bilişim hizmetleri sağlayıcısı CoreWeave, bugün mali sonuçlarını açıkladı ve yatırımcıların finansman detayları merakla bekleniyor. Şirketin finansal durumu, yapay zeka altyapı pazarındaki rekabeti etkileyebilir."
     },
     {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Nvidia CEO'su ilk değil: Çin istihbaratının 'bal tuzağı' operasyonları",
-      "source": "Gazete Oksijen",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc2JHZHZmTklMZ0VpMjJZdkRqbzJBNzJDS1lIUXBqXy1aLXdBWnBQM0o3V0NWZzlEc3dNOFUwLW4zc0JkUndlRFh3Q25RbFEwVDVBSWZUazNPZ0h3NjU5bVJqbDJULTR5RnNqWV9ja1Jha1VnRzBSU3JyY0UydTJHQkpoRUx5a295ZjNiSWpXV0VKUGJNSkpqNzdHYnM5eWVkUzlZN3FsejJIdmQ1YVRUMEktV3ZkREVOcTJmU0xFOHF1VkZuNHFGOTBn?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:01:45 GMT",
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Senior U.S. Army soldier arrested in U.K. on suspicion of assisting Russian intelligence",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR01STjQ1eEtZVnpFd2tINENEd3ZpbXV5UWZiZVZJT3NaeTltaGZ3NTA4NGo2SHhETzNZaTBFSzkwcFF0OWt0ZWY2MDkzNnlkQjQ5SlhJTzBiQWJjWUY4OVJ2OWhGQ3JKa2VyeEJJMWt2eGhSVVZ4VGhvOWprcWZlbDItd3VkUDBLajE4YUM0N2tvZ3YyajYtSVE2NFh3N3M4Y3BPRmlsdFZ3REtHYzNqNU54SUpONWdicE9QZkRB?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 22:45:45 GMT",
       "image": null,
-      "summary": "Yeni raporlar, Çin istihbaratının Nvidia CEO'su dışındaki teknoloji yöneticilerini de hedef alan 'bal tuzağı' taktikleri kullandığını ortaya koyuyor. Bu bulgular, teknoloji sektöründeki casusluk risklerinin daha geniş bir alana yayılabileceğini düşündürüyor."
+      "summary": "Bir ABD ordusu erbaşının, Birleşik Krallık'ta Rus istihbaratına yardım etmekle suçlanarak gözaltına alındığı bildirildi. Bu olay, NATO içinde istihbarat güvenliği konusundaki endişelerin artabileceğine işaret edebilir."
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Trabzonspor Basketbol'da Selçuk Ernak'ın görevine son verildi",
-      "source": "NTVSpor",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY0NneHFPSXNnVE1IcEw0ZFMwYVlKSGdrZF9Gbzc3S0dCNDVfRjJXT01SaTVYSm9EZGNIenFPQlBXXzd1eHIwZmtNLTduQTBUOUZydEtWVi1MWm11amd0Z0lOTkFISy1uNWJLQThJbFFGa2dhTGtXUXhBQjlkOVo3WnlYejhiblpmU1hSREJWUDBYQk5JX21ybk4xdmFEZTV0X2fSAacBQVVfeXFMTXBoRFFSYVBCaWxJbUlkNWNwR0NGbEpEWTRkWFZ6WnhwWl9vbUIyeHhNdUx1YWYxcnpnV0FwaWZKblBvdVJfSWx6UHVRbkRPZWtEMFd2RlVHYmRqMUZrRUtxd3RsaUt0ZDJ1eXh4UG5HenZkNDVmaUdxbFdZcUJQblp5QzVRdXJKMGc3dFIzWkFmQzdQV0hnVjZIZTI0NzZHZWVvREpCdnc?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 20:21:47 GMT",
+      "title": "Trabzonspor Basketbol'da Selçuk Ernak dönemi sona erdi",
+      "source": "Sözcü Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaDZOZHBOMGRybk5Lb2w1R0tIZ2tidDhmSHNGZ0pMQ0FWTXNhXzhjMTJGMkZ4aUxOVXJSZkNHTGpXWXY4SUJ6akM3YjlycXpsbFVsV29GbXJWWm5IT0ItekNzemJKcEJWYXgwMEYyMGh5dnpOOTBZTnJSR0hQOG1IYjlRLUdXSjc4T1NFc2NuUQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 20:24:49 GMT",
       "image": null,
-      "summary": "Trabzonspor basketbol takımı, son maçlardaki yetersiz performans nedeniyle Selçuk Ernak'ın görevine son verdi. Bu karar, takımın sezon sonrasındaki başarı şansını etkileyebilir."
+      "summary": "Trabzonspor basketbol takımı, teknik direktör Selçuk Ernak'ın görev süresinin sona erdiğini açıkladı. Teknik değişikliklerin takımın gelecek sezon performansına ve ligdeki konumuna etkisi merak konusu olabilir."
     },
     {
       "cat": "Gündem",
@@ -664,22 +654,32 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
+      "title": "2027 burs ve kredi tutarları için Bakan Bak’tan açıklama: ‘Sıkıntı yok, halledeceğiz’",
+      "source": "Cumhuriyet",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUVM1alhzME9XQmNhWWlzNlotM1N6N1JTYUgxOEM3d2E4Z0ZJYVlzdTBDUlUxWnVZekJaS0FGUGVGSEZleHdzSTN5WjFmb1poVDN0V0dWNTktNlpDQXdkaFg3cEdQWUlNOTdkeW5BUE8tS25oNW5kSU1IZi1MbkVUMVFXUmgySlVpRzFoZjFWZ3pXQnpJNXYwQ0ZQblR1R0NwTVJoQThWVTdrWnVQVHhaZEU3ek80Z3RGc0ozV05GeGxQeGdOMnc?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 19:27:00 GMT",
+      "image": null,
+      "summary": "2027 yılı için öğrencilere sağlanacak burs ve kredi miktarları hakkında Bakan Bak, sürecin sorunsuz ilerleyeceğini ve herhangi bir aksaklık yaşanmayacağını belirtti. Bu açıklama, yükseköğrenim finansmanı konusundaki belirsizlikleri azaltarak öğrenci planlamalarına güven kazandırabilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Alanyaspor, Uğur Uçar’ı resmen açıkladı",
+      "source": "Hürriyet",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSVY0RVhTcGZQeHVBbzIweU13VnF2WUNTSGxnYkVOM2VwV05LYTRoZlA2TmpBYVlzenJtOU0yR0o3UFpXVm5oMWRwV3B6cldLTkNzZW5ZY09nWWF3TndrdHFvWHUtTzVPS3EzVnkzampiRi1xREt1R2pPcDE0UlpyMlgzVzRublRUSWUwag?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 19:00:06 GMT",
+      "image": null,
+      "summary": "Alanyaspor, teknik direktörlüğe atanan Uğur Uçar'ı resmi olarak tanıttı. Yeni antrenörün taktiksel tercihleri ve takım üzerindeki etkisi, sezon hedeflerine ulaşmada kritik bir rol oynayabilir."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
       "title": "ABD'de benzin fiyatları Temmuz'dan bu yana ilk kez 4 doların altına indi",
       "source": "Bloomberght",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZVZ2T012VS1LbkJQREJPNGRrYlpwYUwzZmtDcTFWNnBjZ2lrMi13SDJYd2lQTzd5aGUweDl4ZWp6S25GZkt1cDhyQjJ5UHVlWFpLMGhpQm1xTFlGcTlKeUhWTXRhMF9uZDZOeXFZYXFEMzg3SG95cnE3MDV4ZTFDTjduMmtzZTZGU2VGLTdRb1VlNDdFbUhQS2dGSHh1SURkSXlRRWRDdFI0aWdX?oc=5",
       "pubDate": "Tue, 10 Nov 2026 18:56:58 GMT",
       "image": null,
       "summary": "ABD’de benzin fiyatları, Temmuz ayından bu yana ilk kez galona 4 doların altına düştü. Uzmanlar, bu düşüşün talep azalması ve petrol stoklarındaki artışla bağlantılı olduğunu belirtiyor. Daha düşük yakıt maliyetleri, tüketici harcamalarını canlandırabilir ve ekonomik toparlanmayı destekleyebilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "ABD Başkan Yardımcısı Vance'ten azil sürecindeki Hegseth'e destek",
-      "source": "Bloomberght",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc05JLUU0cWx2QktWanNoU05Yc3V6SzdpdFl6cjVkRDJvY0IyS2otYXp0NGxQMmQ1OS14ekFRb3BQaGhCQ00xNWNaSEc4VElsd0ZaZzdZWHlhR2QtVzBBUFJtUkluTWpaTTgyT3VadUdRcXA2emkzOHp2bkFYbVhlbzVMdDNSRW5lWGJReFp3bWQ2SHdpTWlZeTF2djgxUDJpYTBn?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 18:50:55 GMT",
-      "image": null,
-      "summary": "ABD Başkan Yardımcısı Vance, azil sürecindeki Pete Hegseth'e kamuoyu önünde destek verdi. Bu destek, azil tartışmasının siyasi dinamiklerini değiştirebilir."
     },
     {
       "cat": "Gündem",
@@ -734,12 +734,12 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Fatih Terim Devlet Bahçeli'yi MHP Genel Merkezi'nde Ziyaret Etti",
-      "source": "Onedio",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHdzUVdRWDRVODlKY3hhVnh0S2RQT0FtUlZ2d3AzY1FwU2NEWGRRNzhRdGdVWF9mWWkyT25QRWcyRTRNQktXTkl5cm14eUJQVWZmcU5VZFJPQ29qVTVOY1pWNUlGSE96Z21JTGRYSEVTWWRNV3JRcnpJUG1Za1ZYLUZWcS1TTzNRWS01ZXhGS1hYODRKNFhJZXhVaFIta1liUi05azJHaTVVTnJlUkFrQndpaw?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 15:42:58 GMT",
+      "title": "A Milli Takım, Belçika hazırlıkları tam gaz devam! Sergen Yalçın'dan santrfor kararı",
+      "source": "Fanatik",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNERwa3ZJT2pEejFad3dMMHh4clFyNE9pazg2UG9kZTM5M0xsWWgwTEFyQWJndWpGTjYwUl9GZHlTYUxqRjBZQ0huUTRGMnhtNzBTR2hLRHZJeHM4QWZmeFlpVWxqeGNlV0UwcVJ6OVdteWljV0hKS3UxUURzODM2M005LVRyaTBPNThuWGo5VzJRU1IzSVR3eHJ5VjNVNm5kNWNHWUtPSDJGTGsweXJyVG5HTkNJTE1XZWIxbUh0TllEekptRS1oUzI4cw?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 15:34:00 GMT",
       "image": null,
-      "summary": "Eski futbol teknik direktörü Fatih Terim, MHP Genel Merkezi'nde Devlet Bahçeli'yi ziyaret etti ve kısa bir görüşme gerçekleştirdi. Bu buluşma, spor dünyası ile siyaset arasındaki ilişkilerin farklı boyutlarda şekillenebileceğine işaret ediyor."
+      "summary": "Türkiye A Milli Futbol Takımı, Belçika'ya yapacağı hazırlık maçları için antrenmanlarını yoğunlaştırdı ve teknik direktör Sergen Yalçın, forvet hattında değişiklik yapma kararı aldı. Bu karar, takımın uluslararası turnuvalardaki rekabet gücünü artırma çabalarının bir göstergesi olabilir."
     },
     {
       "cat": "Gündem",
@@ -863,13 +863,13 @@
     }
   ],
   "weather": {
-    "temp": 10.5,
+    "temp": 10.7,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.24,
     "eurtry": 56.2,
-    "gold_gram_try": 6535.57
+    "gold_gram_try": 6534.11
   },
   "stocks": [
     {

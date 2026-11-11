@@ -1,13 +1,24 @@
 {
-  "updated": "2026-11-11T18:42:31.612218+00:00",
+  "updated": "2026-11-11T19:49:43.304224+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Alman şirket Singulus ve Elon Musk, 60 milyon euroluk anlaşma imzaladı",
+      "source": "Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlA3MXljLXVkYmNHTy1nN1RGSEdLRjBUSW9OLVFFMnZ1aVRzV2ZrXzVGSDB0S1EyT0tHOFlrUGJ5SWVuZDdaRkRISGZvWGpVUHhVY002Nkc4QjQ1NFliYWdMdGNrTGJTYUIycTY2QXduUFNVaF83LUw2Vnk1VXBSY053bE9kcGJQVVFjb01YTTFtYmxhT2o2NHdDV0FWcUF0X2pidjFUakdsUVRNNTVZUzNQa1hsb19kbFQ0elhvbzZ6ZVU?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 19:36:59 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Alman şirketi Singulus ve Elon Musk, 60 milyon euro değerinde bir anlaşma imzaladığını duyurdu."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
       "title": "Seçimlerden sonra teknoloji devleri… Balayının sonu mu, yoksa nüfuzun yeniden müzakeresi mi?",
       "source": "Şarkul Avsat Türkçe",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXhkN3BPak1WcjI3NUpaSU52dTBaN1h3d1QxQ0xyYS1IQnpxVUlLSFpXMFY4a0JmVVBiUnczbWlZXzN2cWtVWWNSWEdYaklkTE1OVFBxdlJJUG9SSGtoRXFxd2VNelBKVElyNzkwNExpbDJfbW1IcWFFNi1lSjRONjY0WDFuSnZiX2pOYTdJeWRrZndaQ3pCaUFDT1I3cXdDQ0g5WnFKa1dMUGV4YWU0ZGJveUFhQUs0NjdselQ0QU81Nmd5Ul9KTFZWdHdreXk4bjhMSU00aFZGXzE4aVFvekNTTDg?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 18:36:19 GMT",
+      "pubDate": "Wed, 11 Nov 2026 18:36:50 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Başlık, seçimlerin ardından teknoloji devlerinin balayı döneminin sona erdiğini ve nüfuz müzakerelerinin yeniden gündeme gelebileceğini ima ediyor."
     },
@@ -87,7 +98,7 @@
       "title": "Türkiye Yapay Zeka Zirvesi, 9. yılında teknoloji dünyasına yön vermeyi sürdürdü",
       "source": "Fuar Dergisi",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGFVaUJtY1ExQjlZSUtfTnFvUm5sZTZNcEQzSEpQbmZ1TGRRU1FOenB6OVVlakd0dzI3bUcyOG5XbnRiNnE5WW81VlJZMnM5MEFQUUFIV3BSRzE2X2liM3ZoaVVKQ2F4dnc1TThfcUJQMHcteTBjaWhSdGpGTVJXZ3RocURMS2lQT1ZzajVYN2Fac1BIU2hGYzg5bk90dXh1bVRNUm1BdkxtUV9t?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 14:50:27 GMT",
+      "pubDate": "Wed, 11 Nov 2026 14:55:11 GMT",
       "image": null,
       "summary": "The 9th Turkey AI Summit gathered experts to shape the direction of technology and artificial intelligence in the country. Such gatherings are likely to accelerate AI adoption and policy development across Turkish industries."
     },
@@ -110,16 +121,6 @@
       "pubDate": "Wed, 11 Nov 2026 14:20:01 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. ADB SAFEGATE, uçak dönüş operasyonlarını yapay zeka destekli izleme için Synaptic Aviation'ı satın aldı."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Türkiye Yapay Zeka Zirvesi, 9. yılında da teknoloji dünyasına yön verdi",
-      "source": "Ekonomist",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWDBBT1BxeHNLZ3ZoSFRlck5YVmlBYlJ4bWlYQ3pzN2EwVTF0VXlyVmc5eEpaZFVHbTVpRUZfTjYxUi0wT3B4ZG9HVkZrajhvZV9CX1BSaURZdXlwdDA1RHJTbWdaYUQyY0MyZnlvNUw5MXNRNVkzXzcwWDJhQ3JXaVNXTTlQMWtS?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 14:18:28 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Türkiye Yapay Zeka Zirvesi, dokuzuncu yılında da teknoloji dünyasına yön vermeye devam ediyor."
     },
     {
       "cat": "Bilim",
@@ -154,6 +155,17 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
+      "title": "WAiFF İstanbul'da Yapay Zekâ Sineması Yarıştı: Kazananlar Cannes Yolcusu",
+      "source": "Dosya Haber",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNTV4TURSYXowWnpXMUlQMEVibnBEMXQ3eEJ5MG4tTGdzSU5rR0dHdjNqdzBQSnlpdW5jWHV4OTNiaHYtSXBXcHViMWNjS2lGY0IyUlNGZV9wdjFOZllFbXVaUEd6ZlpWT2FINGVHZktJYjBidnluMm1ITW94Y2VVS01OdnQ2QVpUOVVCcG9GQTFxVUZQLXFwVWZWTk1Pdjl6emlWel9CMFF5c1JTc1E?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 18:51:55 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. WAiFF, İstanbul’da Yapay Zekâ Sineması yarışması düzenledi ve kazananlar Cannes’a gönderileceğini açıkladı."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
       "title": "WAiFF İstanbul'da 124 film yarıştı ve kazananlar Nisan 2027'de Cannes'a gidecek",
       "source": "Haberler",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbDhyQVFPeHo2T2N5UEthQ1E4QkJnZFlxSGZUOWp0RVlYQXAyUG4ydWJRU2RvWTBoa1BhVmQ2QkdUMzY3S2JLd3hjSDBFOUZzYk5RZFZ3akxiZElnbE91aDB3SVpiai1EMWhHaVFHNmMyMjFqWHUtNC1tSkd1QXdkN0IyU0NCcF9Hd0dBRWI1UWkySE1TaGdrMWhyZi10Z9IBmgFBVV95cUxNT3VpYmhwX0JsVXR0cDNJckpKb3VGSXN2ZVh5MkhwMXNoVGZGdmx5b0pXRTctWFZ3OERVQ3duRWJxT25GREViWUVHM3NSQkV1VWhaM0FzVG1JSlE1MVVHdmxWZ1RRaHg5bjYyWHN0dHpCZjJhNGJsenNpbTBTLTdhTlU0LWo4ZV93dG5nYkJUamhELUNEVWhLWWZ3?oc=5",
@@ -170,16 +182,6 @@
       "pubDate": "Wed, 11 Nov 2026 13:04:23 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Yozgat'ta Abdal türkülerinin sesine yer verilecek bir etkinlik planlanıyor."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Emel Sayın’dan Volkswagen Arena’da Yeşilçam Senfonisi",
-      "source": "Haber Ekspres",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRWl1X3BEMm5RQmlHTmNDWlAxVGcxOElCOGp6TDR0d0VNYmFsUkU1NHR5Z19KV0daSVhWMlBfdGRYbEtWUGVwUDlIZlVPRlQwSnYtQ2pBblAxcmx2MXdFWTBLQmFqSWlnYUwtcFc1OVRmeUc1N1dZTjExVFFVVnEybVRRN0tFc3BXd2pV?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 12:23:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Emel Sayın, Volkswagen Arena’da Yeşilçam temalı bir senfoni konseri gerçekleştirerek izleyicilere klasik Türk sinema müziklerini orkestra eşliğinde sundu."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -224,12 +226,13 @@
     {
       "cat": "Doğa",
       "catId": "doga",
-      "title": "Ankara Beypazarı'nda kar ve soğukta yiyecek bulamayan yılkı atları asfalt yola indi",
-      "source": "Son Dakika",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZnc3Wk0ydjVodmJDRk5QU3pTTlduZ3YtUnl3SUhJRHdEaG92RzcwekxyeWFyWmVINnhKcmV5VEJhVnV5TFJhQlVjN0Fpbk9uOGxKbzIzdlVNWFNkTXUzZmlVRUZSU0Z5S1JORVlKZ1NVclVEalMzbEJuYk1STVpuQlMzZFZpNi1haVFsWTBpcHM3OGZUSzYzc3FDTHZVMms?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 19:31:53 GMT",
+      "title": "İnegöl'de çiftlik yandı, büyükbaş hayvanlar kurtarıldı",
+      "source": "Saray Medya",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdnkwU1RFc01CZEVndlplQTBwSzFpVXNQUE5zZEJGWjRHdGRJZERDV1N4V3V2dS0wMUVVV29hWG44QmJkNjIxQzU0cWtNb3Y2MnA3YmFWV0tUSTUyUl9uYV9NbG9qeHBaMG84d0d5dnY2MmdqY2ZyUGE3VE1mRlhnWVZWMWlrblZkWkNJdk1penlNeW83b1dQQ3FB?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 00:04:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Ankara’nın Beypazarı ilçesinde kar ve soğuğun etkisiyle yiyecek bulamayan yılkı atları, aç kalmamak için asfalt yollara yönelerek geçici bir çözüm aradılar."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. İnegöl’de bir çiftlikte çıkan yangın sonucu büyükbaş hayvanlar yangından kurtarıldı."
     },
     {
       "cat": "Doğa",
@@ -244,13 +247,66 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtdDJ1amh3VkZuY1d4SEV0amx1RWU5Q3FYa0R0VDBxNU5vcTFtOUVzajh0U2dhUzVxeWpUQkNWX0FPM1NHMmpqQ0dUblA4UjBuYXVWaWwwQmkzekE?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 18:04:58 GMT",
+      "title": "7 Takeaways From the Coachella 2027 Lineup",
+      "source": "Pitchfork",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XT0UyUWNTRy1NaThwNVFSV0tVNWlNQkdsZ0hkMVhMRmZmYlcza3g2elZFUHd4aTFJeUZkY1IyWEpveW5PdDRfXzhvQzBLaHRKMTZFOWRDaUpWYmNkeTJEOTFhR3pnYlR5cDJRcUdqOUVNLTFnSG9tN256dw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 19:23:40 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı: Rusya-Ukrayna görüşmeleri savaş sonrası güvenlik konularına odaklandı ancak somut bir ilerleme elde edilemedi."
+      "summary": "Tam metne ulaşılamadı; sadece başlığa dayanarak Coachella 2027 programı ile ilgili yedi önemli noktanın özetlendiği görülüyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Russia and Ukraine agree to prisoner swap, but little else, in U.S.-mediated talks",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOW1yX1RiU1k5UTZEa1lkZDMyX3A2SGNLZlZQRnY4N0dLSWM2SU9CRF9ua0xjV05ST0xHbGM5NExMVndLS240b01MQmVfeEJDNFY4WDh5Q3l3VDk0Z2hKaW1lLXlGX2dfNlZzSmp2TWV2cTU3ZUVZUV9aTFYtLWtFcmtzQm5xRXBJY0pORnV2cTd3VDhLX0lNdDZVQkZ1b3RvaWpTMWJBc04yVlhaRW96c3Etcw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 19:13:17 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı; sadece başlığa dayanarak Rusya ve Ukrayna'nın ABD aracılığıyla tutuklu değişimi konusunda anlaşmaya vardığı, ancak başka konularda ilerleme kaydedemediği anlaşılmaktadır."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Former New York Jets coach Rex Ryan charged after allegedly running over feet of two pedestrians with truck",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaGVLMmNRWjJRcnRBUlRDZWd2VV92TkZiVFNxeUxHelFsZVZzeHduNW82Z3MzWXp6SkdvSTZESTdaM0xhUjNBelFoYzdlNjFfWl9RTS1YWFFEZDh4eUJqb1pOdTRsM0RhQnp3cE9QN3FzODV5eDIxVXlxamd4Qk0xX0VNeW1BZjZuZlVmWTFqLXdkVzB3R3c?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 19:10:48 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı; sadece başlığa dayanarak eski New York Jets koçu Rex Ryan'ın bir kamyonla iki yayanın ayaklarına çarparak suçlandığı belirtilmektedir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "‘A tremendous step backwards’: US could lose measles elimination status under RFK Jr’s leadership",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQlJTZU90X3plSHJFUlZnYjRPZkRQNGFPX2R6MDNzTWhRVG1ackVYUVNVazVnZlNzQTF6LVZ6R0JaQ0s3bG9PRUwxZlZ1bm9Sb0VoYlk0ZmpQNk9GdG8zdmZYcDRWdlhtallrWWF5Yld0ajdjUUxKTC1NTzdxdGw4OGtMc0JYc2hmR2dHOHNPUEtMcVk?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 18:46:00 GMT",
+      "image": null,
+      "summary": "ABD, Robert F. Kennedy Jr.’nin anti aşı kampanyası nedeniyle kızamık hastalığına karşı özgürlük statüsünü kaybetme riskiyle karşı karşıya. Kamu sağlığı politikaları ve aşı güvenliği konusundaki tartışmalar bu süreçte daha da belirginleşebilir."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Spain: Housing crisis prompts first general strike in 14 years",
+      "source": "DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT3JNcG9Uai1tWGVqMXQtQ09nU3RocURkRS1KMUlGLTZELS1KcXBPb19ndFFNTGN5LUhDREpaeW9RREVTTUM3czY1dFdiNUc3UXZpamx2b0J2djBRUVVSY21lZWxEcV93eGNkRHk1TjhRUDhIcXRhSkVNM1pNNGhqSERB0gGCAUFVX3lxTE5MZ2hES0lQbnlpN0NxLVNmMzBMblRHZ0pZWVhPZURaZ3Brb1B4VWVjcXVvZEZxTHVuazR2akNIRUpTSUJqbzNvd1lRYjlQcHRyelNDOVdTLWlORk8xQVpDSWk3UUlpQ1JlbGZjYlV3d245TEVYZHltUnZyb1JnQ280TVE?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 18:45:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. İspanya’da konut krizi, 14 yıl içinde ilk kez genel grevi tetikledi ve işçileri sokaklara çıkardı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Stock Market Today: Nasdaq Jumps at Open After CoreWeave Earnings — Live Updates",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdnhyVlZiYkxnRTlZMm9YMWh5TGhpSkpKaDQ5WW0xYkVBZ0dxTTlPYk0xUG1jSzF4RkJYTXctRFNpeHVRb2NUNFo2UkduaHo5R0NkcWRGR1hoZmU3ZzZvQlBmZ2FRcE84XzhhbE5PYzB1Y213bC0wdExHaWRhZnlLVDliWkhqMlk?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 18:38:00 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı: Nasdaq, CoreWeave kazanç raporunun ardından açılışta yükseldi."
     },
     {
       "cat": "Dünya",
@@ -265,23 +321,13 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Stock Market Today: Nasdaq Jumps at Open After CoreWeave Earnings — Live Updates",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdnhyVlZiYkxnRTlZMm9YMWh5TGhpSkpKaDQ5WW0xYkVBZ0dxTTlPYk0xUG1jSzF4RkJYTXctRFNpeHVRb2NUNFo2UkduaHo5R0NkcWRGR1hoZmU3ZzZvQlBmZ2FRcE84XzhhbE5PYzB1Y213bC0wdExHaWRhZnlLVDliWkhqMlk?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:50:00 GMT",
+      "title": "Colom lead increases in Mississippi Senate race as Hinds County finalizes count",
+      "source": "Mississippi Today",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRzQ3WXlDanVJMFdBUXR5MmZid3czNWNWRU53aXpPc2JWYTFqbE01eUNvOFZTT3ZNVjVNMHJub0ROdXZhdXhtZTQ0VHhGZGZ1enhJZkthZmpnVV9idnZWclpFZjhtSjRwWE13MnRMSGV0bzdZUUtPSzBFSEhIbW44U0pkU05oQ0FLV3VOclVrM3czbzBieGxwLWhJaF9aS2JKRHR2dWZBRm9iUzEwZURGTnVoSVdxWDJmY25FZw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 17:56:24 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı: Nasdaq, CoreWeave kazanç raporunun ardından açılışta yükseldi."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Coachella 2027 lineup to feature SZA, Dua Lipa and Tame Impala as headliners",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSTBTS084ekdFbk1JWnUyc1VGMUNiMll1cFRCUEMzRW1WSkVfMFJYUjhkNTd3Vm5abFFpYzV6TWdNcDNxNnF2LWpOdEwxS1V5anFCZnA0Y285SHNZU0RnUnV3ajloWUc1eXc1UHdjUjRDSHAyNVNURU9zYUcxZWd3VXFyRTRrTDExRVNibFpOU1NwZEdyQmdkZUVjRQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:39:54 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Coachella 2027 festivali SZA, Dua Lipa ve Tame Impala’yı baş sanatçılar olarak sunacak bir kadroya sahip. Festivalin diğer sanatçıları ve program detayları haberde bulunmuyor."
+      "summary": "Tam metne ulaşılamadı. Mississippi Senato seçiminde Colom’un önderliği, Hinds County sayımını tamamladıkça artıyor."
     },
     {
       "cat": "Dünya",
@@ -296,72 +342,35 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "NFL news, live updates: Browns to start Deshaun Watson in Week 10; Vikings trade for QB Kirk Cousins",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVGdKczhRTlRUUFZFdGVtU0tZSHl3S2tlbjJ1YTc2bXZEU2NPWGF3T215dVpoT2VrN19kREhFWWQ2bklPQUJkeUVwdWZ6THprY3lTSXN5amk2b3kxSU50MHZvNjJjSWE0RjJnNXE3TC1HOXUyazRZNjZEaDBFcnJmbkhrdzR6OGc?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:28:37 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Browns, 10. haftada Deshaun Watson'ı sahaya çıkaracak; Vikings ise QB Kirk Cousins'i takas etti."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "US could lose measles-free status soon as RFK Jr’s pushes anti-vaccine agenda",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQlJTZU90X3plSHJFUlZnYjRPZkRQNGFPX2R6MDNzTWhRVG1ackVYUVNVazVnZlNzQTF6LVZ6R0JaQ0s3bG9PRUwxZlZ1bm9Sb0VoYlk0ZmpQNk9GdG8zdmZYcDRWdlhtallrWWF5Yld0ajdjUUxKTC1NTzdxdGw4OGtMc0JYc2hmR2dHOHNPUEtMcVk?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:09:00 GMT",
-      "image": null,
-      "summary": "ABD, Robert F. Kennedy Jr.’nin anti aşı kampanyası nedeniyle kızamık hastalığına karşı özgürlük statüsünü kaybetme riskiyle karşı karşıya. Kamu sağlığı politikaları ve aşı güvenliği konusundaki tartışmalar bu süreçte daha da belirginleşebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Democrat says Trump has ‘something to hide’ after White House threatens oversight efforts",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQUVtQ3NHbTNvN1VUWnZvYklSdFQyZXZ6MWhnSllNZzNiYWlYS1k0RlUwWXhDRktuWW9JUDNCTFU0ajM1Z05KY3dQX0d4cko4ZGp3UVZreEpueGszdVRGaXcwWEF3RmRmcUYyZmp1UXdNaGVTaUJKa09iVVd0M2VBenN0M2dldkcxalludExZZnNFZllIOTMxYXBEdFQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 16:56:00 GMT",
-      "image": null,
-      "summary": "Demokrat, Beyaz Saray'ın denetim çabalarını tehdit etmesinin ardından Trump'un saklayacak bir şeyi olduğunu söyledi. Tam metne ulaşılamadı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Hillary Clinton has 2-word response to Boebert’s projected loss",
-      "source": "The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNamlvY29RMW1aVVltRlc4V2RLb2ZnZkViSEI3WVItaEtxQXBSMHkwbmJEWHNWQjhQR1BXR2hVYlNzV0hiRVpaYkZTTW5Xc3V2bUdUX29Gbk1ONVlVcUlQa0hqTm1WV180R2RPbkh1eE04M2ZtVDJsSF9KU3pIeTY0SVNIb3dqVFlIT3fSAY8BQVVfeXFMT1BIaTRESGVXVmRmOEs4ZFR1QVNrX3JadDJzUjJTTnZPdEhYeVpaNjF4TkRhXzh6aHlRTnoxcnJyX2VVV0ttY09mX1p2T2RkSGJGT1JRVE1qcTZFNENOX1RkSk5NbjBEMUJMeGFPbURPSUE4eWpfWDlWYjV3R3NWX1Roa2VEMF9OR2VlenNqMFU?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 16:51:00 GMT",
-      "image": null,
-      "summary": "Hillary Clinton, Boebert'in beklenen kaybına iki kelimelik bir yanıt verdi. Tam metne ulaşılamadı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
+      "title": "Silicon Valley Tech Allies Support Jensen Huang",
       "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFByOVdCZ1ZJaWQwRkFuYlBwNXB5dERuVFZac0hZdmkxSmlxbGlBenZwTXYtUF9EU3RBZnlvUWEycjZKT2ZycUVpWnQybUJZaWZlQ19NMUZFNmV3M1FRamhkekhJeTRSbTRvMTROaDVBVFVMTXNoZ3ZiYmRLWVE5QQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 15:54:21 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdHhKTW5kc0JWT0hoT2RRWFJLY0laNXdXWVJyTF9LaGM3cWhHUWdIUUhIS1c3NFV4TmRZNUlIYlJXS1V4WExLbjV0ZkpZd1Z0ZTZtcjlqVTM0bXVhN1Rxa1pKeUVpOHRBZlkyVE9IQkN1M1hrQklldm9GdXRrb2l2NHc4TkxLb3I4UWl2dUh3?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 17:29:52 GMT",
       "image": null,
-      "summary": "İspanya’da işçiler, 14 yılda ilk kez genel bir grev başlattı. Tam metne ulaşılamadı."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Silikon Vadisi’ndeki teknoloji ortakları, NVIDIA kurucusu Jensen Huang’u destekledi."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
-      "source": "WIRED",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaUwzR3hHeGVnOFQ5VVM4REFwdWpQUmEyaURtU3dnaTBDNDZYeGZiT08wTnZOdXZJUEZ5Z2YzeFZCUVJxanZUdHY5dTlZcllHamp4QTkxWjlWQnQ5eEdHNWdlU084aEgwbXp0c1lnbEZqOHFiRTgyUHpjUzVKbnY1eFV6TXVIM3FOR2Vhc3BWUGJxbnBoMml1Zl9HckJvU293?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 15:30:00 GMT",
-      "image": null,
-      "summary": "Çin’de Nvidia’nın tuzak (honeypot) saldırısına maruz kaldığı ve şirket CEO’su Jensen Huang’ın bu tuzağa düşmesi eleştirildi. Bu olay, siber güvenlik açıklarının büyük teknoloji firmalarını da etkileyebileceğini hatırlatabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "ICE Officer Involved in Maine Shooting Expressed Hatred of Immigrants",
+      "title": "Hundreds of Schools in Italy Are Evacuated as More Bomb Threats Rattle Europe",
       "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOHg4SG1YVGVmd216dVkydUxNRERxZjZTOHdORS16MldQUzBrXzl0Z3RmZ0VJeVplWFBZdlZUbExVSHBlSGt3VUtmUll4TzZoaGhRY3p6RzJocXVZVU1iSzk2R2VaY3NoUzBPQTVsTGtjemRLUFcwbmQ1S1hlRWlVMHNhQmtSaDAwQXlETjZrNmFLWVJjUHJXN202cDU3ZE5ZS0ww?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 15:24:19 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUHJyYmpzdkRWbjlkQzEzRVdEc3Vyb3Z3QkExbkZVbk02Sm1GMmxuMjVhbi1pdUd4M3I0QUJVM2wydmVTQWxQRERPZDhhOTEzOUhsMTNGRldpWXhmd3VOQnpxM3RveGZYM0JMV3Vxb00xSjlqamlTT0lfRmFER3h4N1lGQTRtQnNjXzhSckFxQVAtQQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 17:22:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Maine'de gerçekleşen bir silahlı saldırıya karışan ICE memurunun göçmenlere karşı nefret içerikli açıklamalar yaptığı bildirildi."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. İtalya'da yüzlerce okul, artan bomba tehditleri nedeniyle tahliye edildi. Bu tehditler Avrupa genelinde güvenlik endişelerini artırıyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Average U.S. Heating Costs Will Rise 7% This Winter",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY1FEbGRuaEtlOURrcHk4czNlQ29UVFdJWFFqUDJ4TFl0NmphNlJ1R3J2UHZqMzJsQVFxOWNhSnpBNUdRUmsteE5yNkw4VGZrRlBLdnpZSnpERXZtX2wzWDg3dHgwVnI0YWRXc3JQU09nUTZjNTBBYUNCUkJyYUVySTRUbUp5SjBjUFBrcl8zZUNYMzc2MXRn?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 17:16:17 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Ortalama ABD ısıtma maliyetlerinin bu kış %7 artacağı bildirildi. Artış, ev sahiplerinin enerji bütçelerini zorlayabilir."
     },
     {
       "cat": "Gündem",
@@ -414,26 +423,6 @@
       "summary": "Tam metne ulaşılamadı. O Ses Türkiye Yılbaşı özel programının konukları ve “Daha 17” iddiası medyada konuşuldu."
     },
     {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Afyonkarahisar Milletvekili Olgun Antalya’da! Gündem Türkiye",
-      "source": "Afyon Türkeli Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYXRwOE1wRnd6eDFudG9vcnNfZlZsWXJmZm9vUUhDNE9NUWZ4YndTaW9QSUpNNlNWb194bnhyaDF2ajFWdUdhQWN3cE8wSG9PdmoxZmVGb2IxLVVMQzZXbkhLeWdCQTNXUzdGcTlIQ0pZbUhfbE5KNjZGNmFlT2xsbGRRTEgzbHY1X1dxTGNpY092WHA5dFk4VktXMlJ1VG1vN3dzRA?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 13:09:39 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Afyonkarahisar milletvekilinin Antalya’da bulunması gündemi oluşturdu."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Haluk Bilginer'in \"Türkiye sineması\" sözlerinin ardından Oktay Kaynarca’nın eski sözleri yeniden gündem oldu",
-      "source": "Yeni Alanya",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjdOVF9wMUVkckszNzhfdTRJeDRudW9SSVIxNC1TWGYwbHlBNkdxeDZJdGtHWUxJdU1vendHUmhNeXo2N0R5SUlBOHZCV1pJTmtVS3IzUGNwNkx2SDF6UGphWFkzVll4NXJpc1FJRGlReDJrZEgzdmEyMFl4eTN3SWJHLUxfTFJVV2gwdkpVemNweGpheURmLWFkZC1FeHZEQjJHaG5nalZhTmp5bnZjRXc4SnhocVYyMkgwUGxNbE11aXdPaXdOX29VMA?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 13:06:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Haluk Bilginer’in “Türkiye sineması” yorumları ardından Oktay Kaynarca’nın geçmişteki sözleri yeniden gündeme geldi."
-    },
-    {
       "cat": "Çorlu",
       "catId": "corlu",
       "title": "11.11.2026 Çorlu Tekirdağ Su Kesinti Detayı",
@@ -462,26 +451,16 @@
       "pubDate": "Wed, 11 Nov 2026 12:49:37 GMT",
       "image": null,
       "summary": "Çorlu sakinlerine, 11 Kasım 2026 Çarşamba günü beş saatliğine planlı su kesintisi yapılacağı bildirildi. Böyle bir kesinti, günlük yaşamı etkileyerek altyapı bakımının önemini vurguluyor."
-    },
-    {
-      "cat": "Çorlu",
-      "catId": "corlu",
-      "title": "Çorlu 11/Kasım 2026 Gününde 1 Saat Su Kesintisi",
-      "source": "guncelkesintiler.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYkZiWDZTUXQ0bXBia1JRU2thRVdUY0V2NWdReFRSME9pY29ObXVRUGo5Y05pTUpHY0tmLWhNTGFSUjB0MkNIWk1sb2R6UHNubTR2U0tleWlsb2tlbHdGa3pHd2EzbVFGcUJvY0NKTEM0MGRYczFrNHB4V1VoaVlZa213X0pyYlp5bnZzV2lVQ1ZPQjJ2N1BfUVhENA?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 12:49:33 GMT",
-      "image": null,
-      "summary": "Çorlu'da 11 Kasım 2026 tarihinde bir saatlik planlı su kesintisi gerçekleşecek. Kısa süreli bu hizmet durması bile ev halkının rutinlerini aksatabilir ve su yönetimi konusundaki hassasiyeti artırabilir."
     }
   ],
   "weather": {
-    "temp": 14.6,
+    "temp": 14.5,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.24,
     "eurtry": 56.2,
-    "gold_gram_try": 6447.7
+    "gold_gram_try": 6442.53
   },
   "stocks": [
     {
@@ -491,13 +470,13 @@
     },
     {
       "label": "S&P 500",
-      "price": 7645.99,
-      "change_pct": 1.66
+      "price": 7629.43,
+      "change_pct": 1.44
     },
     {
       "label": "Nasdaq",
-      "price": 25641.72,
-      "change_pct": 2.3
+      "price": 25540.81,
+      "change_pct": 1.89
     },
     {
       "label": "THY",
@@ -521,18 +500,18 @@
     },
     {
       "label": "Apple",
-      "price": 355.22,
-      "change_pct": 1.93
+      "price": 354.78,
+      "change_pct": 1.8
     },
     {
       "label": "Microsoft",
-      "price": 522.32,
-      "change_pct": -2.03
+      "price": 520.52,
+      "change_pct": -2.37
     },
     {
       "label": "Nvidia",
-      "price": 177.26,
-      "change_pct": 5.02
+      "price": 175.54,
+      "change_pct": 4.0
     }
   ]
 }

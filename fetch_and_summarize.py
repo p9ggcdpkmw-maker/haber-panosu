@@ -301,32 +301,36 @@ def main():
         deduped_all.append(it)
     all_items = deduped_all
 
-    # Daha önce işlenmiş haberleri bellekten doldur, sadece gerçekten yeni olanları işleme listesine al
-    new_items = []
+    # Özet ve resim ayrı ayrı önbellekten dolduruluyor; biri daha önce işlendi diye diğeri atlanmıyor
+    need_summary = []
+    need_image = []
     for it in all_items:
         cached = cache.get(it["link"])
-        if cached:
+        if cached and cached.get("summary"):
             it["summary"] = cached["summary"]
-            if not it.get("image"):
-                it["image"] = cached.get("image")
         else:
-            new_items.append(it)
+            need_summary.append(it)
 
-    print(f"Toplam {len(all_items)} haber, {len(new_items)} tanesi yeni.")
-
-    print("Yeni haberler için resim aranıyor...")
-    for it in new_items:
         if not it.get("image"):
-            it["image"] = fetch_og_image(it["link"])
+            if cached and cached.get("image"):
+                it["image"] = cached["image"]
+            else:
+                need_image.append(it)
 
-    print("Yeni haberler özetleniyor...")
+    print(f"Toplam {len(all_items)} haber — {len(need_summary)} tanesi yeni özetlenecek, {len(need_image)} tanesi için resim aranacak.")
+
+    print("Resim aranıyor...")
+    for it in need_image:
+        it["image"] = fetch_og_image(it["link"])
+
+    print("Özetleniyor...")
     CHUNK = 20
-    for i in range(0, len(new_items), CHUNK):
-        chunk = new_items[i : i + CHUNK]
+    for i in range(0, len(need_summary), CHUNK):
+        chunk = need_summary[i : i + CHUNK]
         summaries = summarize_batch(chunk)
         for it, s in zip(chunk, summaries):
             it["summary"] = s
-        if i + CHUNK < len(new_items):
+        if i + CHUNK < len(need_summary):
             time.sleep(3)
 
     print("Hava durumu ve piyasa verisi çekiliyor...")

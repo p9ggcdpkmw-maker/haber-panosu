@@ -27,7 +27,7 @@ CATEGORIES = [
     {"id": "gundem", "label": "Gündem", "query": "Çorlu Tekirdağ", "edition": TR},  # Çorlu haberleri, ayrı sekme açmadan Gündem'e karışıyor
 ]
 
-MAX_AGE_DAYS = 5
+MAX_AGE_DAYS = 6 / 24  # sadece son 6 saatlik haberler; kategori tamamen boş kalmasın diye MIN_ITEMS_PER_CAT yedeği devrede
 MIN_ITEMS_PER_CAT = 3
 MAX_ITEMS_PER_CAT = 12
 
@@ -206,17 +206,33 @@ def fetch_stocks():
     return results
 
 
+IMAGE_META_PATTERNS = [
+    r'<meta[^>]+(?:property|name)=["\']og:image(?::secure_url)?["\'][^>]*content=["\']([^"\']+)["\']',
+    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']og:image(?::secure_url)?["\']',
+    r'<meta[^>]+(?:property|name)=["\']twitter:image(?::src)?["\'][^>]*content=["\']([^"\']+)["\']',
+    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']twitter:image(?::src)?["\']',
+]
+
+
 def fetch_og_image(url):
     try:
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=8, allow_redirects=True)
+        r = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
+            timeout=10, allow_redirects=True,
+        )
         if not r.ok:
+            print(f"  ! resim alınamadı ({url[:70]}): status {r.status_code}", file=sys.stderr)
             return None
-        html = r.text[:300000]  # sayfanın tamamını işlemeye gerek yok, <head> zaten baştadır
-        m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]*content=["\']([^"\']+)["\']', html, re.I)
-        if not m:
-            m = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*property=["\']og:image["\']', html, re.I)
-        return m.group(1) if m else None
-    except Exception:
+        html = r.text[:400000]  # sayfanın tamamını işlemeye gerek yok, <head> zaten baştadır
+        for pattern in IMAGE_META_PATTERNS:
+            m = re.search(pattern, html, re.I)
+            if m:
+                return m.group(1)
+        print(f"  ! resim bulunamadı ({url[:70]})", file=sys.stderr)
+        return None
+    except Exception as e:
+        print(f"  ! resim alınamadı ({url[:70]}): {e}", file=sys.stderr)
         return None
 
 
@@ -284,6 +300,23 @@ def load_cache():
     return cache
 
 
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+
+
+def send_notification(new_count):
+    if not NTFY_TOPIC or new_count <= 0:
+        return
+    try:
+        requests.post(
+            f"https://ntfy.sh/{NTFY_TOPIC}",
+            data=f"{new_count} yeni haber eklendi".encode("utf-8"),
+            headers={"Title": "Haber Panosu", "Tags": "newspaper"},
+            timeout=10,
+        )
+    except Exception as e:
+        print(f"  ! bildirim gönderilemedi: {e}", file=sys.stderr)
+
+
 def main():
     cache = load_cache()
 
@@ -344,6 +377,7 @@ def main():
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print("news.json yazıldı.")
+    send_notification(len(need_summary))
 
 
 if __name__ == "__main__":

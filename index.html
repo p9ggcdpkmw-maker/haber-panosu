@@ -11,18 +11,18 @@
 <title>RADAR</title>
 <style>
   :root {
-    --bg-main: #09090b;
-    --bg-panel: #141418;
-    --bg-card: #1c1c24;
-    --text-main: #f4f4f5;
-    --text-muted: #a1a1aa;
-    --border: #27272a;
-    --accent: #9b51e0;
-    --accent-cyan: #06b6d4;
+    --bg-main: #050508;
+    --bg-panel: rgba(25, 25, 35, 0.6);
+    --bg-card: rgba(255, 255, 255, 0.03);
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.08);
+    --accent: #8b5cf6;
+    --accent-glow: rgba(139, 92, 246, 0.4);
     --green: #10b981;
     --red: #ef4444;
-    --radius-lg: 20px;
-    --radius-md: 12px;
+    --radius-lg: 24px;
+    --radius-md: 16px;
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 
@@ -32,14 +32,18 @@
     color: var(--text-main);
     font-family: var(--font-sans);
     min-height: 100vh;
-    background-image: radial-gradient(circle at 50% -20%, #2a1b3d 0%, transparent 50%);
+    /* Derinlik katan gradient arka plan */
+    background-image: 
+      radial-gradient(circle at 10% 10%, rgba(139, 92, 246, 0.15) 0%, transparent 40%),
+      radial-gradient(circle at 90% 90%, rgba(6, 182, 212, 0.1) 0%, transparent 40%);
+    background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
   }
 
   /* Layout */
   .app-container {
     display: grid;
-    grid-template-columns: 240px 1fr 300px;
+    grid-template-columns: 260px 1fr 320px;
     gap: 24px;
     max-width: 1400px;
     margin: 0 auto;
@@ -48,12 +52,24 @@
     overflow: hidden;
   }
 
-  /* Sol Menü (Sidebar) */
+  /* Cam Efektli Genel Sınıf */
+  .glass {
+    background: var(--bg-panel);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Sol Menü */
   .sidebar {
     display: flex;
     flex-direction: column;
     gap: 8px;
     overflow-y: auto;
+    padding: 20px;
+    border-radius: var(--radius-lg);
   }
   .logo {
     font-size: 24px;
@@ -64,8 +80,9 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 24px;
+    padding-left: 8px;
   }
-  .logo span { color: var(--accent); }
+  .logo span { color: var(--accent); text-shadow: 0 0 10px var(--accent-glow); }
   .nav-item {
     display: flex;
     align-items: center;
@@ -74,17 +91,22 @@
     border-radius: var(--radius-md);
     color: var(--text-muted);
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.3s ease;
     font-weight: 500;
     font-size: 14px;
     border: 1px solid transparent;
   }
   .nav-item:hover { background: rgba(255,255,255,0.05); color: var(--text-main); }
-  .nav-item.active { background: rgba(155, 81, 224, 0.15); color: var(--accent); border-color: rgba(155, 81, 224, 0.3); }
-  .nav-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); }
-  .nav-item.active .nav-dot { background: var(--accent); box-shadow: 0 0 10px var(--accent); }
+  .nav-item.active { 
+    background: rgba(139, 92, 246, 0.1); 
+    color: var(--text-main); 
+    border-color: rgba(139, 92, 246, 0.2);
+    box-shadow: inset 0 0 20px rgba(139, 92, 246, 0.05);
+  }
+  .nav-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); transition: all 0.3s; }
+  .nav-item.active .nav-dot { background: var(--accent); box-shadow: 0 0 12px var(--accent); }
 
-  /* Orta Alan (Feed) */
+  /* Orta Alan */
   .main-feed {
     display: flex;
     flex-direction: column;
@@ -95,96 +117,104 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
-  .feed-title { font-size: 20px; font-weight: 600; }
+  .feed-title { font-size: 24px; font-weight: 700; letter-spacing: -0.5px; }
   .search-box {
-    background: var(--bg-panel);
+    background: var(--bg-card);
+    backdrop-filter: blur(10px);
     border: 1px solid var(--border);
     border-radius: 20px;
-    padding: 8px 16px;
+    padding: 10px 20px;
     color: var(--text-main);
     outline: none;
-    width: 250px;
+    width: 280px;
+    transition: all 0.3s;
   }
-  .search-box:focus { border-color: var(--accent); }
+  .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px var(--accent-glow); }
 
-  /* Haber Kartları (Bento Grid) */
+  /* Haber Kartları */
   .feed-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
   }
   .news-card {
-    background: var(--bg-panel);
+    background: var(--bg-card);
+    backdrop-filter: blur(10px);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
-    padding: 16px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
   }
   .news-card:hover {
-    transform: translateY(-2px);
-    border-color: var(--accent);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
   }
-  .news-card.read { opacity: 0.6; }
-  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 12px; color: var(--text-muted); }
-  .card-cat { display: flex; align-items: center; gap: 6px; font-weight: 600; }
-  .cat-dot { width: 6px; height: 6px; border-radius: 50%; }
-  .card-title { font-size: 16px; font-weight: 600; line-height: 1.4; margin-bottom: 8px; color: var(--text-main); }
-  .card-snippet { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  .card-image { width: calc(100% + 32px); height: 160px; margin: -16px -16px 16px -16px; object-fit: cover; background: var(--bg-card); }
+  /* Kart hover'da üstten süzülen renkli çizgi */
+  .news-card::before {
+    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0; transition: opacity 0.3s;
+  }
+  .news-card:hover::before { opacity: 1; }
+  .news-card.read { opacity: 0.5; filter: grayscale(50%); }
   
-  .card-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px; }
+  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; font-size: 12px; color: var(--text-muted); }
+  .card-cat { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 13px; }
+  .card-title { font-size: 17px; font-weight: 600; line-height: 1.4; margin-bottom: 10px; color: var(--text-main); }
+  .card-snippet { font-size: 13px; color: var(--text-muted); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-image { width: calc(100% + 40px); height: 180px; margin: -20px -20px 16px -20px; object-fit: cover; background: var(--bg-main); }
+  
+  .card-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 16px; }
   .action-btn {
     background: rgba(255,255,255,0.05);
-    border: none;
+    border: 1px solid rgba(255,255,255,0.05);
     color: var(--text-muted);
-    width: 32px; height: 32px;
-    border-radius: 50%;
+    width: 36px; height: 36px;
+    border-radius: 12px;
     display: flex; align-items: center; justify-content: center;
     cursor: pointer; transition: all 0.2s; font-size: 16px;
   }
-  .action-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-main); }
-  .action-btn.liked { color: var(--accent); background: rgba(155, 81, 224, 0.15); }
+  .action-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-main); transform: scale(1.05); }
+  .action-btn.liked { color: var(--accent); background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.3); }
 
-  /* Sağ Panel (Widgets) */
+  /* Sağ Panel (Widgets) - Masaüstü */
   .widgets {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
     overflow-y: auto;
   }
   .widget-card {
-    background: var(--bg-panel);
-    border: 1px solid var(--border);
+    padding: 24px;
     border-radius: var(--radius-lg);
-    padding: 20px;
   }
-  .widget-title { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 16px; font-weight: 700; }
+  .widget-title { font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin-bottom: 20px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
   
-  .market-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 14px; }
-  .market-label { font-weight: 500; }
-  .market-val { font-weight: 600; text-align: right; }
-  .market-pct { font-size: 11px; margin-top: 2px; }
+  .market-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 15px; }
+  .market-label { font-weight: 500; color: var(--text-muted); }
+  .market-val { font-weight: 700; text-align: right; font-size: 16px; }
+  .market-pct { font-size: 12px; margin-top: 4px; font-weight: 600; display: flex; align-items: center; justify-content: flex-end; gap: 4px;}
   .up { color: var(--green); }
   .down { color: var(--red); }
 
-  .weather-temp { font-size: 42px; font-weight: 700; margin-bottom: 4px; }
-  .weather-desc { font-size: 14px; color: var(--text-muted); }
-  .weather-meta { margin-top: 16px; font-size: 12px; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 12px; }
+  .weather-temp { font-size: 48px; font-weight: 800; margin-bottom: 4px; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .weather-desc { font-size: 15px; color: var(--text-main); font-weight: 500; }
+  .weather-meta { margin-top: 20px; font-size: 13px; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 16px; display: flex; justify-content: space-between;}
 
-  /* Haber Detay Modalı */
+  /* Modal */
   .modal-overlay {
     position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.8);
-    backdrop-filter: blur(8px);
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
     display: flex; align-items: center; justify-content: center;
     opacity: 0; pointer-events: none; transition: opacity 0.3s;
     z-index: 1000; padding: 20px;
@@ -194,48 +224,93 @@
     background: var(--bg-panel);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
-    width: 100%; max-width: 600px; max-height: 90vh;
+    width: 100%; max-width: 650px; max-height: 90vh;
     overflow-y: auto;
-    padding: 24px;
-    transform: translateY(20px); transition: transform 0.3s;
+    padding: 32px;
+    transform: scale(0.95); transition: transform 0.3s;
     position: relative;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.6);
   }
-  .modal-overlay.active .modal-content { transform: translateY(0); }
+  .modal-overlay.active .modal-content { transform: scale(1); }
   .modal-close {
-    position: absolute; top: 16px; right: 16px;
+    position: absolute; top: 20px; right: 20px;
     background: rgba(255,255,255,0.1); border: none; color: white;
-    width: 32px; height: 32px; border-radius: 50%; cursor: pointer;
+    width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 16px;
+    transition: background 0.2s;
   }
-  .modal-header { margin-bottom: 20px; }
-  .modal-title { font-size: 24px; font-weight: 700; line-height: 1.3; margin-bottom: 12px; }
-  .modal-meta { font-size: 13px; color: var(--text-muted); display: flex; gap: 12px; margin-bottom: 24px; }
-  .modal-body { font-size: 15px; line-height: 1.7; color: #d4d4d8; }
-  .modal-link { display: inline-block; margin-top: 24px; background: var(--accent); color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: 600; text-align: center; }
+  .modal-close:hover { background: rgba(255,255,255,0.2); }
+  .modal-header { margin-bottom: 24px; }
+  .modal-title { font-size: 26px; font-weight: 700; line-height: 1.3; margin-bottom: 16px; }
+  .modal-meta { font-size: 14px; color: var(--text-muted); display: flex; gap: 12px; align-items: center; }
+  .modal-body { font-size: 16px; line-height: 1.8; color: #cbd5e1; }
+  .modal-link { display: inline-block; margin-top: 32px; background: var(--text-main); color: var(--bg-main); text-decoration: none; padding: 14px 28px; border-radius: 12px; font-weight: 600; text-align: center; transition: transform 0.2s;}
+  .modal-link:hover { transform: translateY(-2px); }
 
-  /* Durum Mesajları */
-  .status-msg { font-size: 13px; color: var(--text-muted); text-align: center; margin-top: 20px; }
+  .status-msg { font-size: 14px; color: var(--text-muted); text-align: center; padding: 20px;}
   
   /* Scrollbar */
-  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar { width: 6px; height: 6px;}
   ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
-  ::-webkit-scrollbar-thumb:hover { background: #3f3f46; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
 
-  /* Mobil Uyumluluk */
-  @media (max-width: 1024px) {
-    .app-container { grid-template-columns: 200px 1fr; }
-    .widgets { display: none; } /* Mobilde sağ panel gizlenir (veya alta alınabilir) */
+  /* 📱 MOBİL UYUMLULUK (Borsa ve Hava Durumu En Üste Taşındı) */
+  @media (max-width: 1100px) {
+    .app-container { grid-template-columns: 220px 1fr; }
+    .widgets { display: none; } /* Sağ panel masaüstünden kaldırıldı */
   }
+  
   @media (max-width: 768px) {
-    .app-container { grid-template-columns: 1fr; padding: 16px; height: auto; overflow: visible; }
-    .sidebar { flex-direction: row; overflow-x: auto; padding-bottom: 12px; gap: 8px; margin-bottom: 8px; }
+    .app-container { 
+      grid-template-columns: 1fr; 
+      padding: 16px; 
+      height: auto; 
+      overflow: visible; 
+      gap: 16px;
+    }
+    
+    /* Yan Menü Yatay Kaydırma */
+    .sidebar { 
+      flex-direction: row; 
+      overflow-x: auto; 
+      padding: 12px 16px; 
+      gap: 8px; 
+      border-radius: var(--radius-md);
+      align-items: center;
+      scrollbar-width: none;
+    }
+    .sidebar::-webkit-scrollbar { display: none; }
     .logo { display: none; }
-    .nav-item { white-space: nowrap; padding: 8px 16px; font-size: 13px; }
+    .nav-item { white-space: nowrap; padding: 10px 16px; font-size: 13px; border-radius: 20px; }
+    
     .main-feed { overflow: visible; padding-right: 0; }
-    .feed-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+    .feed-header { flex-direction: column; align-items: flex-start; gap: 16px; margin-bottom: 16px;}
     .search-box { width: 100%; }
-    .widgets { display: flex; margin-top: 24px; } /* Mobilde alta alındı */
-    .feed-grid { grid-template-columns: 1fr; }
+    
+    /* 📌 YENİ: Mobil Ekonomi ve Hava Durumu Paneli (En Üstte) */
+    .mobile-widgets {
+      display: flex;
+      overflow-x: auto;
+      gap: 12px;
+      padding-bottom: 8px;
+      scrollbar-width: none;
+    }
+    .mobile-widgets::-webkit-scrollbar { display: none; }
+    
+    .mob-widget {
+      flex: 0 0 auto;
+      background: var(--bg-panel);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      min-width: 140px;
+    }
+    .mob-widget .label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;}
+    .mob-widget .val { font-size: 20px; font-weight: 700; margin-top: 4px;}
+    .mob-widget .sub { font-size: 12px; font-weight: 600; margin-top: 2px;}
+
+    .feed-grid { grid-template-columns: 1fr; gap: 16px; }
   }
 </style>
 </head>
@@ -243,38 +318,43 @@
 
 <div class="app-container">
   <!-- SOL MENÜ -->
-  <aside class="sidebar">
+  <aside class="sidebar glass">
     <div class="logo"><span>●</span> RADAR</div>
     <div class="nav-item active" data-id="all">
       <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> Tümü
     </div>
-    <!-- Kategoriler JS ile buraya eklenecek -->
+    <!-- Kategoriler JS ile eklenecek -->
   </aside>
 
-  <!-- ORTA ALAN (HABERLER) -->
+  <!-- ORTA ALAN -->
   <main class="main-feed">
+    
+    <!-- SADECE MOBİLDE GÖRÜNECEK YATAY EKONOMİ/HAVA PANELİ -->
+    <div class="mobile-widgets" id="mobileWidgets">
+      <!-- JS ile doldurulacak -->
+    </div>
+
     <div class="feed-header">
       <div class="feed-title" id="feedTitle">Gündem Akışı</div>
       <input type="search" class="search-box" id="searchInput" placeholder="Haberlerde ara...">
     </div>
+    
     <div class="feed-grid" id="newsGrid">
-      <!-- Haber kartları JS ile buraya gelecek -->
       <div class="status-msg">Radar başlatılıyor, veriler çekiliyor... 📡</div>
     </div>
-    <div class="status-msg" id="statusText"></div>
   </main>
 
-  <!-- SAĞ PANEL (WIDGET'LAR) -->
+  <!-- SAĞ PANEL (Sadece Masaüstü) -->
   <aside class="widgets">
-    <div class="widget-card">
-      <div class="widget-title">Ekonomi Piyasaları</div>
+    <div class="widget-card glass">
+      <div class="widget-title"><span style="font-size:16px">💹</span> Piyasalar</div>
       <div id="marketContainer">
         <div class="status-msg">Yükleniyor...</div>
       </div>
     </div>
 
-    <div class="widget-card">
-      <div class="widget-title">Çorlu Hava Durumu</div>
+    <div class="widget-card glass">
+      <div class="widget-title"><span style="font-size:16px">🌤️</span> Çorlu Hava Durumu</div>
       <div id="weatherContainer">
         <div class="status-msg">Yükleniyor...</div>
       </div>
@@ -296,7 +376,6 @@
 </div>
 
 <script>
-// --- YAPILANDIRMA ---
 const CATEGORIES = {
   teknoloji: { label: 'Teknoloji', color: '#06b6d4' },
   bilim:     { label: 'Bilim', color: '#10b981' },
@@ -305,7 +384,7 @@ const CATEGORIES = {
   doga:      { label: 'Doğa', color: '#84cc16' },
   dunya:     { label: 'Dünya', color: '#8b5cf6' },
   gundem:    { label: 'Gündem', color: '#a1a1aa' },
-  corlu:     { label: 'Çorlu', color: '#ec4899' } // YENİ
+  corlu:     { label: 'Çorlu', color: '#ec4899' }
 };
 
 let allNews = [];
@@ -314,7 +393,6 @@ let searchQ = '';
 let readLinks = new Set(JSON.parse(localStorage.getItem('radar_read') || '[]'));
 let likedLinks = new Set(JSON.parse(localStorage.getItem('radar_liked') || '[]'));
 
-// --- GÜVENLİK (XSS KORUMASI) ---
 function esc(str) {
   if(!str) return '';
   return String(str).replace(/[&<>"']/g, function(m) {
@@ -331,7 +409,6 @@ function timeAgo(dateStr) {
   return Math.round(diff / 1440) + ' gün önce';
 }
 
-// --- MENÜ OLUŞTURMA ---
 function initSidebar() {
   const sidebar = document.querySelector('.sidebar');
   Object.keys(CATEGORIES).forEach(id => {
@@ -344,7 +421,6 @@ function initSidebar() {
     sidebar.appendChild(el);
   });
   
-  // Tümü butonu için tıklama
   document.querySelector('.nav-item[data-id="all"]').onclick = function() {
     selectCategory('all', this);
   };
@@ -360,7 +436,6 @@ function selectCategory(id, el) {
   renderNews();
 }
 
-// --- HABERLERİ RENDER ETME ---
 function renderNews() {
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '';
@@ -385,7 +460,6 @@ function renderNews() {
     const card = document.createElement('div');
     card.className = 'news-card' + (isRead ? ' read' : '');
     
-    // Görsel varsa ekle
     let imgHtml = '';
     if (item.image) {
       imgHtml = `<img src="${esc(item.image)}" class="card-image" onerror="this.style.display='none'">`;
@@ -395,7 +469,7 @@ function renderNews() {
       ${imgHtml}
       <div class="card-header">
         <div class="card-cat" style="color:${cat.color}">
-          <div class="cat-dot" style="background:${cat.color}"></div> ${esc(cat.label)}
+          <div class="cat-dot" style="background:${cat.color}; box-shadow:0 0 8px ${cat.color}"></div> ${esc(cat.label)}
         </div>
         <div>${timeAgo(item.pubDate)}</div>
       </div>
@@ -408,48 +482,39 @@ function renderNews() {
       </div>
     `;
 
-    // Karta tıklayınca modal aç
     card.onclick = () => openModal(item, cat);
     grid.appendChild(card);
   });
 }
 
-// --- MODAL MANTIĞI ---
 function openModal(item, cat) {
-  // Okundu olarak işaretle
   readLinks.add(item.link);
   localStorage.setItem('radar_read', JSON.stringify(Array.from(readLinks)));
   
   document.getElementById('modalTitle').textContent = item.title;
   document.getElementById('modalMeta').innerHTML = `
-    <span style="color:${cat.color}; font-weight:600">${esc(cat.label)}</span>
+    <span style="color:${cat.color}; font-weight:600; display:flex; align-items:center; gap:6px;">
+      <div style="width:8px; height:8px; border-radius:50%; background:${cat.color}"></div>${esc(cat.label)}
+    </span>
     <span>•</span>
     <span>${esc(item.source)}</span>
     <span>•</span>
     <span>${timeAgo(item.pubDate)}</span>
   `;
   
-  // Uzun özet (yoksa snippet)
   document.getElementById('modalBody').textContent = item.summary || item.snippet || 'Bu haber için henüz detaylı bir özet hazırlanmadı.';
-  
-  const linkBtn = document.getElementById('modalLink');
-  linkBtn.href = item.link;
-  
+  document.getElementById('modalLink').href = item.link;
   document.getElementById('newsModal').classList.add('active');
-  
-  // Arka planda kartı soluklaştır
   renderNews(); 
 }
 
 function closeModal() {
   document.getElementById('newsModal').classList.remove('active');
 }
-
 document.getElementById('newsModal').addEventListener('click', (e) => {
   if (e.target.id === 'newsModal') closeModal();
 });
 
-// --- BEĞENİ MANTIĞI ---
 function toggleLike(link, btn) {
   if (likedLinks.has(link)) {
     likedLinks.delete(link);
@@ -463,7 +528,6 @@ function toggleLike(link, btn) {
   localStorage.setItem('radar_liked', JSON.stringify(Array.from(likedLinks)));
 }
 
-// --- VERİ ÇEKME VE WIDGET'LAR ---
 async function loadData() {
   try {
     const res = await fetch('news.json?t=' + Date.now());
@@ -473,12 +537,8 @@ async function loadData() {
     allNews = data.items || [];
     renderNews();
     
-    // Widget'ları doldur
     renderMarket(data.market, data.stocks);
     renderWeather(data.weather);
-    
-    const updateTime = data.updated ? new Date(data.updated).toLocaleTimeString('tr-TR', {hour: '2-digit', minute:'2-digit'}) : '';
-    document.getElementById('statusText').textContent = `Son Radar Güncellemesi: ${updateTime}`;
     
   } catch (e) {
     document.getElementById('newsGrid').innerHTML = `<div class="status-msg">Bağlantı hatası: ${e.message}</div>`;
@@ -486,56 +546,95 @@ async function loadData() {
 }
 
 function renderMarket(market, stocks) {
-  const container = document.getElementById('marketContainer');
+  const desktopContainer = document.getElementById('marketContainer');
+  const mobileContainer = document.getElementById('mobileWidgets');
+  
   if (!market && (!stocks || stocks.length === 0)) {
-    container.innerHTML = '<div class="status-msg">Piyasa verisi yok.</div>';
+    if(desktopContainer) desktopContainer.innerHTML = '<div class="status-msg">Veri yok.</div>';
     return;
   }
   
-  let html = '';
+  let desktopHtml = '';
+  let mobileHtml = '';
+
+  // Döviz ve Altın
   if (market) {
-    if (market.usdtry) html += `<div class="market-item"><div class="market-label">USD/TRY</div><div class="market-val">${market.usdtry.toFixed(2)}</div></div>`;
-    if (market.eurtry) html += `<div class="market-item"><div class="market-label">EUR/TRY</div><div class="market-val">${market.eurtry.toFixed(2)}</div></div>`;
-    if (market.gold_gram_try) html += `<div class="market-item"><div class="market-label">Gram Altın</div><div class="market-val">₺${market.gold_gram_try.toLocaleString('tr-TR')}</div></div>`;
+    if (market.usdtry) {
+      desktopHtml += `<div class="market-item"><div class="market-label">USD/TRY</div><div class="market-val">${market.usdtry.toFixed(2)}</div></div>`;
+      mobileHtml += `<div class="mob-widget"><div class="label">USD/TRY</div><div class="val">${market.usdtry.toFixed(2)}</div></div>`;
+    }
+    if (market.eurtry) {
+      desktopHtml += `<div class="market-item"><div class="market-label">EUR/TRY</div><div class="market-val">${market.eurtry.toFixed(2)}</div></div>`;
+      mobileHtml += `<div class="mob-widget"><div class="label">EUR/TRY</div><div class="val">${market.eurtry.toFixed(2)}</div></div>`;
+    }
+    if (market.gold_gram_try) {
+      desktopHtml += `<div class="market-item"><div class="market-label">Gram Altın</div><div class="market-val">₺${market.gold_gram_try.toLocaleString('tr-TR')}</div></div>`;
+      mobileHtml += `<div class="mob-widget"><div class="label">Gram Altın</div><div class="val">₺${market.gold_gram_try.toLocaleString('tr-TR')}</div></div>`;
+    }
   }
 
+  // Hisseler
   if (stocks && stocks.length > 0) {
     stocks.slice(0, 4).forEach(s => {
       if (s.price == null) return;
       const pct = s.change_pct;
       const colorClass = pct > 0 ? 'up' : (pct < 0 ? 'down' : '');
       const sign = pct > 0 ? '+' : '';
-      const pctHtml = pct != null ? `<div class="market-pct ${colorClass}">${sign}${pct.toFixed(2)}%</div>` : '';
       
-      html += `
+      desktopHtml += `
         <div class="market-item">
           <div class="market-label">${esc(s.label)}</div>
           <div>
             <div class="market-val">${s.price.toLocaleString('tr-TR')}</div>
-            ${pctHtml}
+            ${pct != null ? `<div class="market-pct ${colorClass}">${sign}${pct.toFixed(2)}%</div>` : ''}
           </div>
+        </div>
+      `;
+      
+      mobileHtml += `
+        <div class="mob-widget">
+          <div class="label">${esc(s.label)}</div>
+          <div class="val">${s.price.toLocaleString('tr-TR')}</div>
+          ${pct != null ? `<div class="sub ${colorClass}">${sign}${pct.toFixed(2)}%</div>` : ''}
         </div>
       `;
     });
   }
-  container.innerHTML = html;
+  
+  if(desktopContainer) desktopContainer.innerHTML = desktopHtml;
+  if(mobileContainer) mobileContainer.innerHTML = mobileHtml;
 }
 
 function renderWeather(weather) {
-  const container = document.getElementById('weatherContainer');
+  const desktopContainer = document.getElementById('weatherContainer');
+  const mobileContainer = document.getElementById('mobileWidgets');
+  
   if (!weather || weather.temp == null) {
-    container.innerHTML = '<div class="status-msg">Hava durumu alınamadı.</div>';
+    if(desktopContainer) desktopContainer.innerHTML = '<div class="status-msg">Hava durumu yok.</div>';
     return;
   }
   
-  container.innerHTML = `
-    <div class="weather-temp">${Math.round(weather.temp)}°C</div>
-    <div class="weather-desc">${esc(weather.desc)}</div>
-    <div class="weather-meta">Konum: Çorlu, Tekirdağ</div>
-  `;
+  if(desktopContainer) {
+    desktopContainer.innerHTML = `
+      <div class="weather-temp">${Math.round(weather.temp)}°C</div>
+      <div class="weather-desc">${esc(weather.desc)}</div>
+      <div class="weather-meta"><span>Konum: Çorlu</span> <span>Güncel</span></div>
+    `;
+  }
+  
+  if(mobileContainer) {
+    // Mobilde hava durumunu eklerken en başa ekleyelim
+    const wHtml = `
+      <div class="mob-widget" style="background: linear-gradient(135deg, rgba(139,92,246,0.2), rgba(6,182,212,0.1));">
+        <div class="label">Hava Durumu</div>
+        <div class="val">${Math.round(weather.temp)}°C</div>
+        <div class="sub" style="color:#fff">${esc(weather.desc)}</div>
+      </div>
+    `;
+    mobileContainer.insertAdjacentHTML('afterbegin', wHtml);
+  }
 }
 
-// --- BAŞLAT ---
 document.getElementById('searchInput').addEventListener('input', (e) => {
   searchQ = e.target.value.trim();
   renderNews();
@@ -543,7 +642,6 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
 
 initSidebar();
 loadData();
-// Her 5 dakikada bir yenile
 setInterval(loadData, 5 * 60 * 1000);
 </script>
 </body>

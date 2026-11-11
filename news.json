@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T06:48:08.638017+00:00",
+  "updated": "2026-11-11T06:54:12.062133+00:00",
   "items": [
     {
       "cat": "Teknoloji",
@@ -10,16 +10,6 @@
       "pubDate": "Wed, 11 Nov 2026 06:44:12 GMT",
       "image": null,
       "summary": "Nvidia ile ilgili gelişmeler ve piyasa baskısı sonrasında teknoloji hisse senetleri ciddi bir değer kaybı yaşadı. Bu düşüş, yatırımcıların teknoloji sektörüne karşı temkinli bir tutum sergileyebileceğini gösteriyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Küresel Borsalarda Alarm: Yatırımcılar Teknoloji Hisselerinden Kaçıp Güvenli Sektörlere Sığınıyor",
-      "source": "Para Analiz",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRzZZTVJjSkpuc0kyWG1uUXlyYml4THRWR2hyemFnb3BkbkFreGFEdDZ0SUdpTVl4LTMzblpQWk90OW53QnU0RFZ4bGRmV0xqNDhncF9WbWw2ZUhEc2p3UHQxYU9BU2dJc0RyeW9mTmZYV0ZjaWxscGNRM1dtZWViQXlOcDRQU3Y0aVB5R1dNUG5zUE01dWFpUEF3MWxPTDZqM3FDNDk3NEo1WGtjTnJNaEtuX1hvdFk?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 06:40:44 GMT",
-      "image": null,
-      "summary": "Küresel borsalarda yatırımcılar, teknoloji hisselerinden kaçıp daha güvenli olarak gördükleri sektörlere yönelmeye başladı. Bu eğilim, risk algısının değiştiğini ve sermaye akışının farklı alanlara kayabileceğini işaret ediyor."
     },
     {
       "cat": "Teknoloji",
@@ -37,7 +27,7 @@
       "title": "Trump, Yapay Zekâ Güvenliği Nedeniyle Bir Teknoloji Yöneticisini Tutuklamakla Tehdit Ettiğini Söyledi",
       "source": "ÇözümPark",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcnJ3d0JSdmdvRDlkOFdNN09zMlFKYXNfMWJpbnBwTlRzMzdydmUyYUs0YWxRY3NCTXozQUJuU3lrZ1FRZ3YtOXpBSUh5eUh4eWVEaW1xNVl1MlNBanhyYy1VNVhIblhCakRHOWN3R3dURUdhRlYtZWhQSXV6SWxucHRLSmhBajFWUUpEc3g1UFhxRHJBNEgyRFFUbUJQVzhtTUxGY0ZmLXZlYnJRYno5YUxOSTZxLWdjRHRwalZSVXpkSVlXVlE?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 06:34:38 GMT",
+      "pubDate": "Wed, 11 Nov 2026 06:34:33 GMT",
       "image": null,
       "summary": "Trump, yapay zekâ güvenliği gerekçesiyle bir teknoloji yöneticisini tutuklamakla tehdit ettiğini açıkladı. Bu açıklama, politikacıların AI denetimine olan ilgisinin arttığını ve olası yasal düzenlemelerin tartışma konusuna girebileceğini gösteriyor."
     },
@@ -122,6 +112,26 @@
       "summary": "Yeni bir ürün, tüm mekanlar için tasarlanarak çok yönlü kullanım imkanı sunuyor. Böyle bir tasarım, farklı sektörlerdeki ihtiyaçları karşılamada esneklik sağlayabilir."
     },
     {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yeni nesil bilgisayarları yapay zekâ teknolojisiyle güçleniyor",
+      "source": "CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZWtDbVQwV1Awa01kZkk0NkIzNUpPaUtXOXdlaXZKMjNHRjdiLTlSaDFLNjgxV2prRWd1WFNibGxwZTU2SjRCc1hnbEFqNEFWbFF3OFA2cVFQODNTZExCWHR5Y05rYzAxMlB2MTFtcm1paGNBNlJEeGxKZE1PZnAzWl9hcHE3WmJDX0N3Y21HQ2ZSSmtWTDRobThoTXdadU43bk00NDJWaw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 05:51:08 GMT",
+      "image": null,
+      "summary": "Şirketler, yeni nesil bilgisayarları yapay zekâ hızlandırıcılarıyla donatarak gerçek zamanlı çeviri ve gelişmiş grafik işleme yetenekleri sağlıyor. Bu gelişme, kişisel bilgisayar beklentilerini değiştirebilir, ancak etkisi büyük ölçüde yazılım benimsemesine bağlı olabilir."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "2026 yılında tüm ordu için askeri bilimler alanında mesleki eğitim.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbUtMTHEwWG9GaXFKZVRUaEFQMExLM2xsbWJ6TkNfaHZET0EzYkt3WldEY2JHWHhSZnlncjlRVERMX1ZtdVJMTEpQYmpIalduelNZYlN6akRndUpoVkhUZDlsZVpIeWlCTFM0Vjh5RUxnclNxd1ExTnYyMmNRNzFNWE1tMGcwSWtzZVBudHdCcw?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:48:00 GMT",
+      "image": null,
+      "summary": "Vietnam Savunma Bakanlığı, 2026'dan itibaren tüm askerî personeli siber savaş, lojistik ve strateji gibi konularda eğitecek kapsamlı bir müfredat başlatacağını duyurdu. Böyle bir standart eğitim, operasyonel uyumu artırabilir; ancak başarısı uygulama sürecine bağlı olacaktır."
+    },
+    {
       "cat": "Bilim",
       "catId": "bilim",
       "title": "Bilim insanları sıraladı: Biyolojik yaşlanmayı yavaşlatan 10 beslenme modeli",
@@ -134,12 +144,12 @@
     {
       "cat": "Bilim",
       "catId": "bilim",
-      "title": "2026'yı bile geride bırakacak! Bilim insanları 2027 için tarihi rekor bekliyor - TREND",
+      "title": "2026'yı bile geride bırakacak! Bilim insanları 2027 için tarihi rekor bekliyor",
       "source": "Mynet",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPX1p4M0pDU2dfQ1dSWHVoNVlpQUlza1ZwM3pBZDZPcUNwckVHT1ZKbEtlRFZiQWVxVGV2YzVtV2VNTWo0TlExWmZDV1FrNjVQclVOZkZ0U0x5RWtGZFpvRFdObWdHaUlUaUVoaFRyT2t6NGY0X3FRdk5kS01aY2Z3TTY3MDlHWGM0aWdxdlN4TUV3a182VnRVOFFMSEdoQi1FaFZ6dGxTcUo4WE9OQXB1S1hB0gG3AUFVX3lxTE1fajdtbVdLOVJmb05tSTR0Q2FqSkVyR2NRWHhPMExYZ3ZkcTlxVHhMM1dxZ2VrUWEtUTVPUVcycHBiUjFuel9GclYtWUxIRzJ5TDBxeTFWM045aW9PNzNDYjNGTlZpMmY1cWRNYnNuN1ZCLU40ZWdkSFVqSGE2OEszR0luSUJldFZnME5ZT2Y0cWEyV0x1YWVmYy1GQkowcTM4c0JaV0syU1VybWdfQWgxdWpOcURvOA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPX1p4M0pDU2dfQ1dSWHVoNVlpQUlza1ZwM3pBZDZPcUNwckVHT1ZKbEtlRFZiQWVxVGV2YzVtV2VNTWo0TlExWmZDV1FrNjVQclVOZkZ0U0x5RWtGZFpvRFdObWdHaUlUaUVoaFRyT2t6NGY0X3FRdk5kS01aY2Z3TTY3MDlHWGM0aWdxdlN4TUV3a182VnRVOFFMSEdoQi1FaFZ6dGxTcUo4WE9OQXB1S1hB?oc=5",
       "pubDate": "Wed, 11 Nov 2026 05:50:19 GMT",
       "image": null,
-      "summary": "Araştırmacılar, 2027 yılında bilimsel rekorların kırılacağını ve 2026'yı geride bırakacağını öngörüyor. Bu beklentiler, bilimsel projelere ve fonlara yönelimde artışa neden olabilir."
+      "summary": "Araştırmacılar, 2027'de kuantum bilişim ve yenilenebilir enerji alanında beklenen atılımların önceki yıla göre daha büyük rekorlar kırabileceğini öngörüyor. Bu gelişmeler teknolojik benimsemeyi hızlandırabilir, ancak tahminler hâlâ spekülatif kalabilir."
     },
     {
       "cat": "Bilim",
@@ -160,16 +170,6 @@
       "pubDate": "Wed, 11 Nov 2026 04:48:00 GMT",
       "image": null,
       "summary": "İki Türk bilim kadını, yaptıkları araştırmalarla bilim dünyasında umut vadeden buluşlara imza attı. Kadın bilim insanlarının bu tür başarıları, Türkiye’de cinsiyet eşitliği ve STEM alanındaki katılımın güçlendirilmesine katkı sağlayabilir."
-    },
-    {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Sahte bal artık anında tespit edilecek! Türk bilim insanları geliştirdi",
-      "source": "Gazete Vatan",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVnA2ZXhrQ2ltSUFtbnZrdVdELUVCeFNxNXJIQVhqaXRaeEVIMEVXWVozUTVzVE53czRqaE0zeW1OVGFMSWs5NWM0MmpySW9hd3pBR1pPOG1fWktlYVp2MlpiWDJyaU9Sd1F6eTRpdFZuYy03VzRGVEE0SkEwQVM2UUZHVUNPTWVWeV9HZGVVRkQ0bTFZeTA3WlZpSGZBWHVScW1BQmZENjk5WkVFWkRYTl9OQQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 04:27:10 GMT",
-      "image": null,
-      "summary": "Türk bilim insanları, sahte balı anında tespit edebilen bir yöntem geliştirdi. Bu teknoloji, tüketicileri korumanın yanı sıra bal sektörünün kalite standartlarını yükseltebilir."
     },
     {
       "cat": "Bilim",
@@ -484,16 +484,6 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Car Crashes Into Crowd in Los Angeles, Killing at Least 3 Pedestrians",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9jWkU2WGNDc0psaTlYWnNMM0UwNXc3QWdhOER6N0ttRzJpcHlXd0haQk1OTm5XTG4waVhQMWpCeUJKQjk5QWQ0NjVaX1FzUE5NYWlqNXkxSUVfM2I4d0hEeGhBUmJhRl9GdjBHZ2VBVVBRQ0hIblB3c1hITQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 06:32:00 GMT",
-      "image": null,
-      "summary": "Los Angeles'ta bir araç kalabalığa çarparak en az üç yürüyüşçüyü öldürdü. Bu trajik olay, şehir içi trafik güvenliği ve araç kontrol mekanizmalarının yeniden gözden geçirilmesi ihtiyacını gündeme getirebilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "Israel’s newly elected parliament is already moving against Netanyahu",
       "source": "The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcFlseGxLdmpRQjNQS1g3U1h1Q3I2X0dsUElDbnM2cnZYeVVRd201YWU1Rk01eTlzUzR0ZHhOYmZzLXBKeU9YbUJlZm92b2x0c1VNalJqZTFfY05xYUszTFc1VEJZYlJzYlZZSDhFZEdSeEp3SndpSUNNcEloOC1qRlliVnAtQWdGOFpjY0s4NnFPbnI4ZHhMeS0xZkw1SnFjV25GQ2d6ckxFNE9idXA1S2FHcXJqTnhW?oc=5",
@@ -524,12 +514,12 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Dow Jones Futures Rise As CoreWave Jumps, Lifts AI Stocks; Look For This Bullish Signal",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTlTdzEzVWY3aWRmTGY0QzNnQjlfNFdOMzhUSnRBVDBOWEd2azg0bEl6dl9jY3NWR29ILUwtT01MWExiLXdsa0dOT3M3TTZzTUNiY1gwWlp6MkFoeGtKUC1tYWdPanVhZ3VqSlNwT1dZVVhlSGJZS3J6UE9Bdm5JZWJLeURUTDNwTG43bF93cm0tTE9QZG1FXzhxNmlkM0FmbVJPM1pnRy1FUG9RT1E?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 04:01:00 GMT",
+      "title": "College Football Playoff Rankings: Georgia moves to No. 1 as Alabama, UCLA join top four in second release",
+      "source": "CBS Sports",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTXNzcl9XZjJoODl2LXB0OHM1MDNfSG4zcERBeGhCUkRsaWZ2UENuMHNiajRRTkZLNXNVWEoxTTQwSTdUaEVRQVo5VkdfMUxhZG9Vc2c5Yy1acVE0VWdlRFNRd2RUZ2VlckR4aEc1LWtGMkdmMmRJdm9UaUlHODJkWENWNEIxQkZhVHB4alN2YU5HOFh1ZTM3ODk3QVlLbHZCRnVNQQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 04:38:00 GMT",
       "image": null,
-      "summary": "Dow Jones vadeli işlemleri, CoreWave adlı bir gösterge yükseldiği için artış kaydetti ve bu durum yapay zeka hisse senetlerine de olumlu yansıdı. Bu yükseliş, yatırımcıların teknoloji sektörü beklentilerini güçlendirebilir ve kısa vadeli piyasa hareketlerine işaret edebilir."
+      "summary": "En son CFP anketinde Georgia birinciliğe yükselirken, Alabama ve UCLA ilk kez sezonun ilk dört içinde yer aldı. Bu sıralama değişiklikleri, kupa seçimlerini ve konferans dinamiklerini etkileyebilir, ancak nihai sonuçlar kalan maçlara bağlıdır."
     },
     {
       "cat": "Dünya",
@@ -540,16 +530,6 @@
       "pubDate": "Wed, 11 Nov 2026 03:26:10 GMT",
       "image": null,
       "summary": "Grammy gecesinde sevilen şarkılar ve sanatçılar, 'Dancing With the Stars' balosunda sahne aldı; skorlar ve eleme detayları da canlı olarak paylaşıldı. Bu tür birleşimler, müzik ve televizyon izleyicileri arasında yeni bir etkileşim alanı yaratabilir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Jayson Tatum responds to Jaylen Brown snub with runaway Celtics win over 76ers paced by Paul George's 36 points",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNM1hRY2pRV3JOdjdjVno4NGRnQUhFbHdWZWV3WC1Rak9JWW81bnhBY3FCdTBIWllHNS1VSzJsSHdmVXc2cS1WanhOcHYyaFJZTGctZ3A3NXpsdUJDNlVwOTN5SGZja19rMWt4Y1hHX1VtRVEtOXhGMHFvdnY1Q2xReTl6RmV6QzdjZWllajdFN04wRlRmbWxrMWlmdDZGOFBWQkREalZBQzBvNGVINm9wRHJVeVEtUF80d0FLQm9ITVdHTWZLMWRpR0ZlTjBpR0hfTXlGZWJ1Q216Q1NjNDlNMGJSc1kyTXpyb3I2R1ZtdW5RNUxrd0REZ05PcUhHd0c1ejZIVVpNVQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 03:26:00 GMT",
-      "image": null,
-      "summary": "Jayson Tatum, Jaylen Brown’ın kendisini görmezden gelmesine yanıt vererek Celtics'i Philadelphia 76ers karşısında etkileyici bir galibiyete taşıdı; takım, Paul George’un 36 puanlık performansıyla da desteklendi. Bu zafer, Celtics’in liderlik dinamiklerini ve playoff iddiasını pekiştirebilir."
     },
     {
       "cat": "Dünya",
@@ -602,6 +582,36 @@
       "summary": "Meghan Markle’ın babası Thomas Markle, ayak bileği monitörünü çıkardığı iddiasıyla federal tutuklu bir kez daha gözaltına alındı. Bu gelişme, Markle ailesinin kamuoyundaki tartışmalarını ve yasal sürecin nasıl ilerleyeceğini etkileyebilir."
     },
     {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Texas man charged in cruise ship killing had argued with wife in their cabin, FBI says",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXowT1RQaTF3QzhSc2FLVWJWRmEyNHQzMDFvY05OeGJwdmhRZGFEWnFMWlE2djVGNlBTaWdXTTY0ejAyUUZqaHE2Vk02VXpVQ3pFNTB3ZVJiUmtieU9EYkN2NmNZUmo4Z2V1d2F5cll6dXNaQk5ESVFYOWFCclVVWGJzaFlxcmtmbGdKU3A5YkxFSFFqVUtzWldBODZQbEE?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 02:05:00 GMT",
+      "image": null,
+      "summary": "Federal soruşturma, bir Texaslı erkeğin gemideki bir tartışmanın ardından eşine yönelik öldürme suçundan tutuklandığını ve olayın bir kabin içinde gerçekleştiğini ortaya koydu. Bu dava, gemi güvenliği konusundaki zorlukları gözler önüne seriyor; ancak yasal sonuçlar henüz kesinleşmedi."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "United flight sends out hijack alert after passenger claiming to have bomb attempts to storm cockpit",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYUZ3N05nWnRJcWQ4aHVkcWt0UmpQTHpGQVJva1dkVEFMejBqZ1U0S1lQWHZ5TVVqZW9RRHFtN0pxWWVEYWg5ZjBqVmtmRDBTaU5kejlHakpNc2YyRGltam1rY2pLYUlIekVwR0w3Z0dQalFCS2FEUmwzSnFkSC1pNUVtay1BTGVUeHNjaVBGZ1J4WjdnVU1xaVBCTWpYc09UV2JtN2d4alZDOFJMUm1NQ2pXU01UMmU4eTMxczVPRF9rRkEtb1d2dndLTkVuSVpFeHEzTGtTaGtwMlhSYzdfQVlKbEJZaHYzcVc0TExB?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 02:03:04 GMT",
+      "image": null,
+      "summary": "Bir United uçuşu, bir yolcunun bomba iddiasıyla kokpite girmeye çalışması üzerine kaçak durum bildirimi aldı ve acil prosedürler devreye girdi. Olay, havayolu güvenliği konusundaki endişeleri artırıyor; fakat müdahale sonucunda herhangi bir yaralanma rapor edilmedi."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Fon soruşturması. Eski Takasbank Genel Müdürü Yunus Arıncı dahil üç kişi tutuklandı",
+      "source": "NTV Haber",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVUhUWFdlZzBjeHFoYm5EMWRDRjEtV01MRVdDVTNNRGkzaldSbE9BeG1iMFJVQmR1OFR5Xzd5dV85TXlhZDVVMGw3aHJDLXVXTllKbHRRZkk0czFvWkRVZVNxbkFWdnVCNDUzNFN6NGF1dWZGZU5uUnVfR3dEVXROX21LeUdQcnFtUVZ3bURoOWhLanBQR3VEa082eTZOUU9UYzFFaW83a2tVbTI2QmJHUzh3RG1vU1dWbGl1eVBB0gHDAUFVX3lxTFBMMGh2WXdkZlhfTFFLSHZrQmZPLWIyRVNUbldjRU5oLXU0V1dyYlZzU2REeVROd2VSUDNJZS15cjNuNExXbThGSGVoT2xQN0ZlRjZQVF9YNlpNSElVSnlBQ1lFOW9WYVBkNnZDcTVzdklkZXRUVGlmMmhuUFZsS3MyUC13dmc4akdqOFpiU0lBRnEzSW9rRExWS2xPd0ZZVGMwcFFqX3B2dVh4MDNjSENHS3BsVmprWmFtTnNIMFJiZndKSQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 06:06:43 GMT",
+      "image": null,
+      "summary": "Türk yetkililer, eski Takasbank Genel Müdürü Yunus Arıncı da dahil olmak üzere üç kişiyi fon suiistimali soruşturması kapsamında gözaltına aldı. Soruşturma, finansal denetim sistemlerindeki olası eksiklikleri ortaya çıkarabilir, ancak kesin bulgular henüz netleşmedi."
+    },
+    {
       "cat": "Gündem",
       "catId": "gundem",
       "title": "Letonya ve Litvanya'da Alarm: Halk Sığınaklara Gönderildi, NATO Savaş Uçakları Havalandı",
@@ -636,10 +646,20 @@
       "catId": "gundem",
       "title": "Eskişehir'de tır sürücüsü uyurken sese uyandı korkunç ölüm",
       "source": "Sözcü Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVFMNHNGajFWY3JvUXJvU0dmOGVrbHkzdmJscWNSR21SSjRTMzZrYnFTRTdGT2J0MDYxQkVBNWd3aDZBVUhNWHNWcms4MHhVdFBsak1Ram1obG1OcndVMUFwcFdiZjRTU25adEhSYzBCN3NQeTRZbEY1TGU0WV9Yd1RMdVFHXzA1ZTdtenY0LWwyUndR0gGaAUFVX3lxTFBlM2xOTFBfUkl0ZUY1dGxyNy1aajF1eGVtdEtGWklTZ0RlYjIyMDVmMlV5VDNMZUZrRzBwNUZkakhoTkRETXVnT05ZMnlsUDRWdXdXTV9OLS1zVDVUdi12WDFUWFh1LU9OQkxfYzJnUFlnMnZFeTJfMVlXYTdCTFNrbk5LQzdpQmNiQV82UEZ5alZMcHZvOEs3V0E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVFMNHNGajFWY3JvUXJvU0dmOGVrbHkzdmJscWNSR21SSjRTMzZrYnFTRTdGT2J0MDYxQkVBNWd3aDZBVUhNWHNWcms4MHhVdFBsak1Ram1obG1OcndVMUFwcFdiZjRTU25adEhSYzBCN3NQeTRZbEY1TGU0WV9Yd1RMdVFHXzA1ZTdtenY0LWwyUndR?oc=5",
       "pubDate": "Wed, 11 Nov 2026 04:29:00 GMT",
       "image": null,
-      "summary": "Eskişehir’de bir tır sürücüsü, araçta uyurken bir sesle uyanması sonucu meydana gelen bir kaza sonucu hayatını kaybetti. Olay, uzun yolculuklarda sürücü yorgunluğunun tehlikelerini ve güvenlik önlemlerinin önemini vurgulayabilir."
+      "summary": "Eskişehir'de bir tır sürücüsü, dinlenme sırasında duyduğu bir ses sonrası uyanıp hayatını kaybetti; polis olayın nedenini araştırıyor. Bu trajik olay, sürücü yorgunluğu ve yol güvenliği konularını gündeme getirebilir, ancak kesin neden hâlâ inceleniyor."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Galatasaray'dan transferde 'tanıdık' hamle: Hedef Trabzonspor'un eski yıldızı, teklif ortaya çıktı!",
+      "source": "Hürriyet",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaXYwZDlrbTN1akxJM2NJc0JKR2paTm9JVFE1TjdBc05NVTBQd3FGMnYxd1BpSm5Oc1dBZ1JGR3NLVUVwMVQwS1M1TUowZ1AzTHpTSXNpcnFMdlBvX1M3SmhfRHZ0aDBMZE5RYlZmX1BuMUtWLVA1YUEwOGFrZWNOOWswWW95eVlOYU45bDFzdm5acndzaXExNlcwR194MXp6WnFlQmNUdFFsTVluNlJUT0NsdlVpUHZLZkRnSTNSSUgxMmt4dzVReFdsakN6dGYxZzE2VG9n?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 04:27:29 GMT",
+      "image": null,
+      "summary": "Söylentilere göre Galatasaray, Trabzonspor'un eski yıldızı için bir teklif hazırlayarak transfer piyasasına 'tanıdık' bir hamle yapmayı planlıyor. Eğer gerçekleşirse, bu transfer ligdeki rekabet dengesini etkileyebilir; ancak görüşmeler hâlâ belirsiz aşamada."
     },
     {
       "cat": "Gündem",
@@ -650,16 +670,6 @@
       "pubDate": "Wed, 11 Nov 2026 04:08:57 GMT",
       "image": null,
       "summary": "İlkay Gündoğan, Süper Lig maçında devre arasında sürpriz bir şekilde bir takıma katıldı. Bu ani gelişme, takım moralini yükseltebilir ve taraftar ilgisini artırabilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "🚨 SON DAKİKA | FENERBAHÇE'NİN 3 TRANSFERİ AÇIKLANDI! EMRE BELÖZOĞLU İSTEDİ...",
-      "source": "Fanatik",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQazNQRGJaRlhpVW1VNy03ZDNuMmptOVhTcHJvUEdlaUxtMjR4Q3NkTXBGWGQyZnF6WTNsNHF3azA4YmJrejEtR0VwLWJfYmV6Nkx1N1hWRzFYWW1BeFgwTWtQZndfdTc1Vlc2blJZLTZqcnFacXVRZ0pXcXB3RmpiMFVuOGwxaWhaLWg2UTU5UTA2Zk1kM1dmc01OQi1XN2N6WkhMMlR1R2Mzc216NldKSUxDbzJYMV9PazVleVRnQ0VsX2h2TWlMMXFOaDVDYWM?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 03:59:00 GMT",
-      "image": null,
-      "summary": "Fenerbahçe, üç yeni transferini duyurdu ve Emre Belözoğlu’nun bu transferlerde ismi geçti. Yeni oyuncuların ekibe katılması, kulübün önümüzdeki sezon hedeflerine ulaşmasında kritik bir rol oynayabilir."
     },
     {
       "cat": "Gündem",
@@ -680,16 +690,6 @@
       "pubDate": "Wed, 11 Nov 2026 01:29:51 GMT",
       "image": null,
       "summary": "Ukrayna Devlet Başkanı Volodimir Zelenski, uluslararası liderlerle toprak konusunu masaya yatırmak amacıyla üst düzey bir görüşme talep etti ve bu konuda hazır olduğunu belirtti. Böyle bir toplantının gerçekleşmesi, bölgedeki diplomatik dinamikleri yeniden şekillendirebilir."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Audi A8’in üretimi 32 yılın ardından sona erdi, amiral gemisi rolü Q9’a geçti",
-      "source": "NTV Haber",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN3BEYklLTEpFTlp1N3UtMWZPb2J1STF1bG1QQjFYOThmQXV3SlBUNWRKUjlqazdhTlpxa2Qxc1JMUmY5azlwQnE4UlpKTTRpUTVKUElBZkFYbTdPYW9qQ0oxbm5ReWk3QnYzbnlnTW8yb0RUdGduNVJrZEotSjVGSGl6OVc5SnZuZllKVjhOZHc0QWNrTGpMZG1vLVRJS1dLT2Jpa0NxcG1qdUtNbkQ5ZFpzb2Z3eTZOQ2lQa2lR?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 23:35:21 GMT",
-      "image": null,
-      "summary": "Almanya otomobil üreticisi Audi, 32 yıllık üretim geçmişine sahip A8 modelinin üretimini durdurdu ve lüks segmentteki amiral gemisi konumunu yeni Q9 modeline devretti. Bu geçiş, markanın gelecekteki pazar stratejileri ve rekabet gücü açısından kritik bir adım olabilir."
     },
     {
       "cat": "Gündem",
@@ -839,13 +839,13 @@
   "market": {
     "usdtry": 50.24,
     "eurtry": 56.2,
-    "gold_gram_try": 6554.79
+    "gold_gram_try": 6555.44
   },
   "stocks": [
     {
       "label": "BIST 100",
       "price": 11661.86,
-      "change_pct": -0.43
+      "change_pct": 0.0
     },
     {
       "label": "S&P 500",

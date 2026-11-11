@@ -312,10 +312,11 @@ function toggleLike(item, btn){
 function score(item){
   let age = ageDays(item.pubDate);
   if (isNaN(age)) age = 10;
-  const catBoost = (catLikes[item.catId] || 0) * 0.4;
-  const linkBoost = likedLinks.has(item.link) ? 3 : 0;
+  // Bir kategoriyi beğendikçe o kategorideki haberler genel olarak öne çıkar;
+  // tek bir haberi kalıcı olarak en üstte sabitlemiyoruz.
+  const catBoost = (catLikes[item.catId] || 0) * 0.8;
   const generalPenalty = item.catId === 'gundem' ? 0.6 : 0;
-  return age - catBoost - linkBoost + generalPenalty;
+  return age - catBoost + generalPenalty;
 }
 
 let all = [];

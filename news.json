@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-12T00:11:28.929949+00:00",
+  "updated": "2026-11-12T01:44:46.347699+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Nvidia ve ABD'nin karşı karşıya olduğu zorlu sorun.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40dlptWk9yMGp4QWVRRDJRNXBnWEVfMHRUZl9tSFltMC1KTE9PUWprM1p0YzVXVDVPZUprRllpU0w3dEhSS2N1b2lLLUlPdzdXdGxJVldzWmNtVnpQVVNPdW5HNWpaQQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 00:24:13 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Nvidia ve ABD'nin karşı karşıya olduğu zorlu bir sorun var."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -30,26 +41,6 @@
       "pubDate": "Wed, 11 Nov 2026 19:48:12 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Başlığa göre, çocukların kendi yapay zekâ modellerini eğittikleri aktarılıyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Alman şirket Singulus ve Elon Musk, 60 milyon euroluk anlaşma imzaladı",
-      "source": "Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlA3MXljLXVkYmNHTy1nN1RGSEdLRjBUSW9OLVFFMnZ1aVRzV2ZrXzVGSDB0S1EyT0tHOFlrUGJ5SWVuZDdaRkRISGZvWGpVUHhVY002Nkc4QjQ1NFliYWdMdGNrTGJTYUIycTY2QXduUFNVaF83LUw2Vnk1VXBSY053bE9kcGJQVVFjb01YTTFtYmxhT2o2NHdDV0FWcUF0X2pidjFUakdsUVRNNTVZUzNQa1hsb19kbFQ0elhvbzZ6ZVU?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 19:36:59 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Alman şirketi Singulus ve Elon Musk, 60 milyon euro değerinde bir anlaşma imzaladığını duyurdu."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Seçimlerden sonra teknoloji devleri… Balayının sonu mu, yoksa nüfuzun yeniden müzakeresi mi?",
-      "source": "Şarkul Avsat Türkçe",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXhkN3BPak1WcjI3NUpaSU52dTBaN1h3d1QxQ0xyYS1IQnpxVUlLSFpXMFY4a0JmVVBiUnczbWlZXzN2cWtVWWNSWEdYaklkTE1OVFBxdlJJUG9SSGtoRXFxd2VNelBKVElyNzkwNExpbDJfbW1IcWFFNi1lSjRONjY0WDFuSnZiX2pOYTdJeWRrZndaQ3pCaUFDT1I3cXdDQ0g5WnFKa1dMUGV4YWU0ZGJveUFhQUs0NjdselQ0QU81Nmd5Ul9KTFZWdHdreXk4bjhMSU00aFZGXzE4aVFvekNTTDg?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 18:36:50 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, seçimlerin ardından teknoloji devlerinin balayı döneminin sona erdiğini ve nüfuz müzakerelerinin yeniden gündeme gelebileceğini ima ediyor."
     },
     {
       "cat": "Bilim",
@@ -84,22 +75,23 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
+      "title": "WAiFF İstanbul'da yapay zeka destekli ödül alan filmler, 2027'de Cannes'da Türkiye'yi temsil edecek",
+      "source": "Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTm9xN2hhZGpEQUF3SzI0MmpleGdnTjhVOW9TSmZvS3NVU1JWMW5sZWdJUmNtU0RaUnRvNjlrSnNoX2xsMzVfcGFGbUY2WGFXWlh5Y3p4SUpQOTQ3YTNzVFZhajBqODd6VC1ZcnVUX1VEbG9KWHQ3UDdoTzBqdGdZSDNSYklSUHdOVDQ3Ym8xcExUdmt0Q09zVTR5cmpiOTF4TEpxU3AzYmJlT0R5UmhRa21sSXd6UjNKSU5aUFlQdVlRdVlaYXUxVWlYUk5Nc1E?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 18:55:24 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, WAiFF İstanbul’da yapay zeka destekli ödül alan filmler 2027 yılında Cannes’da Türkiye’yi temsil edecek."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
       "title": "WAiFF İstanbul'da Yapay Zekâ Sineması Yarıştı: Kazananlar Cannes Yolcusu",
       "source": "Dosya Haber",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNTV4TURSYXowWnpXMUlQMEVibnBEMXQ3eEJ5MG4tTGdzSU5rR0dHdjNqdzBQSnlpdW5jWHV4OTNiaHYtSXBXcHViMWNjS2lGY0IyUlNGZV9wdjFOZllFbXVaUEd6ZlpWT2FINGVHZktJYjBidnluMm1ITW94Y2VVS01OdnQ2QVpUOVVCcG9GQTFxVUZQLXFwVWZWTk1Pdjl6emlWel9CMFF5c1JTc1E?oc=5",
       "pubDate": "Wed, 11 Nov 2026 18:51:55 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. WAiFF, İstanbul’da Yapay Zekâ Sineması yarışması düzenledi ve kazananlar Cannes’a gönderileceğini açıkladı."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "WAiFF İstanbul'da 124 film yarıştı ve kazananlar Nisan 2027'de Cannes'a gidecek",
-      "source": "Haberler",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbDhyQVFPeHo2T2N5UEthQ1E4QkJnZFlxSGZUOWp0RVlYQXAyUG4ydWJRU2RvWTBoa1BhVmQ2QkdUMzY3S2JLd3hjSDBFOUZzYk5RZFZ3akxiZElnbE91aDB3SVpiai1EMWhHaVFHNmMyMjFqWHUtNC1tSkd1QXdkN0IyU0NCcF9Hd0dBRWI1UWkySE1TaGdrMWhyZi10Z9IBmgFBVV95cUxNT3VpYmhwX0JsVXR0cDNJckpKb3VGSXN2ZVh5MkhwMXNoVGZGdmx5b0pXRTctWFZ3OERVQ3duRWJxT25GREViWUVHM3NSQkV1VWhaM0FzVG1JSlE1MVVHdmxWZ1RRaHg5bjYyWHN0dHpCZjJhNGJsenNpbTBTLTdhTlU0LWo4ZV93dG5nYkJUamhELUNEVWhLWWZ3?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:53:32 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. WAiFF İstanbul'da 124 film yarıştı; kazananlar Nisan 2027'de Cannes Film Festivali'ne katılacak."
     },
     {
       "cat": "Sanat",
@@ -169,19 +161,39 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjdZMXpMYlRNbHEyMW9RUTRaaHhxbUJfM3MxQzNDcHJtek94c3hxTjBySFhuemhXZXppV0xvejNsUDEtVjZrdGtvbm1wcnR4V0twRnZlUVN0dDhEbzNtT1JDMnMwZ1hCenpPYnAwcjJvUjJHX2hieTVIWGx5TURTelliMGRwOV9pR1RfaE9fWnQ4S0gwQnk0?oc=5",
       "pubDate": "Sun, 04 Oct 2026 07:00:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başlık, ilkokul öğrencilerinin Hayvanları Koruma Günü etkinliği düzenlediğini bildiriyor."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Missing Baby Is Rescued After Being Buried Alive in Dog Crate",
+      "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
       "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcWFLTDF5cU9QNlRYMjdaeTI3aVhUNE9xS2Z5c2M0ZGcwdjJscnZMZjN5ak9rLXlvRnBHSV93bFhsVUg4Znp5c1F6aW5RNklCRUdBWFV5OHpYMkM5OUQ3SXZkZS1zTDJIcFgzSjk4U0x3eGUtS2ZYSV9HVTVMb3Z5OQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 23:07:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMdkhiTW5jZUlmVXJzNHk4YjZYeWtGZHc3Vk81V3czUXBBVjktcXlSLWs3MFdyWkRtcmRpV1BmY1hKckhyU3RYWEdsTWlGcnhFVFVNakRLLWZvREpURHJnRVVSdmZEcHJWU2p5YWJZX1pEWGRWRDB1aw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 01:07:58 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlık, bir bebeğin köpek kafesine gömülmüş halde bulunup kurtarıldığını bildiriyor."
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Jensen Huang’ın kendisine rapor veren bir Nvidia yöneticisiyle ilişki yaşadığı iddia ediliyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Brewers’ Jacob Misiorowski rolls to unanimous selection in NL Cy Young race",
+      "source": "BBWAA",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8yTW5BaWtnUzk4YWJpLThJQjdlSXY1bTFsU2VJQnE1eDNCYUpocDkwUVR0RUZEVTh2MGhIbWZDRjM?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 01:04:49 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Brewers’ın sağ kolu Jacob Misiorowski, NL Cy Young yarışında oybirliğiyle seçildi."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Brooklyn building collapse: 1 dead, several injured in Flatbush, NY",
+      "source": "ABC7 New York",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWGxYems3T1dGcG5ob3R6aFo5VHhELXNLR0djOTJDWHJLQjEyeTV5TF9WRnR1TTByMkFVQmtJLTk5blA1bk9ZNzg3QnFVeDZwY2dFdXRUcHlvcWU1Q1BGQVkwRFBFd3FhLWItRUx4NXVtdzZBdC1MZlBnTGxFLVZWMGllLW0wdG8wbUxkWkh6Zi1Nb1N6WHptdUNDdUc0dlh6QUJR0gGoAUFVX3lxTE5EcDNUNEdPdThKYmhEM3F6aVJNQWFJNUpuSTVvWDdwbUI5dFduUTRQNWxHaXMzcTNtTGZGVmR5X1JBaE5JV09xZDdTeGtaVVlyZmlWZG5pSlU1VHBUX085azRUaW9fRWFqTzRoQmlsQ283MG9LQmhLUDN1WW9RUXhxZ2RhQ1duMElqSDBDU3h2bGVtLXNtc05PX3ByZFU3V19TMGg3QnZtWg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 00:37:37 GMT",
+      "image": null,
+      "summary": "Brooklyn, Flatbush bölgesinde bir binanın çökmesi sonucu birkaç kişi sıkıştı ve birkaçı yaralandı. Tam metne ulaşılamadı; özet bu başlığa dayanıyor."
     },
     {
       "cat": "Dünya",
@@ -189,10 +201,20 @@
       "title": "Democrat Scott Colom wins Mississippi Senate race",
       "source": "NPR",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNG1IdGdCaVV2RjNVUUwxbHhqMXBpUktSREFGUnZxZnVmZ01XbG5rakZNWVpBeFpqZW5fNE5mTnBNdmtNYjFVSkZGQjB5R2tKUEF5RUFBZWktcWdZTEdEZDd3UUk0RWViRTg2U1MzSFBRRHlublZ1ZUxDdUkyRk02dV9UMUg?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 23:04:51 GMT",
+      "pubDate": "Thu, 12 Nov 2026 00:18:15 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı. Başlık, Demokrat Scott Colom'un Mississippi Senato seçimlerini kazandığını bildiriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Stock Market Today: Nasdaq Jumps at Open After CoreWeave Earnings — Live Updates",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdnhyVlZiYkxnRTlZMm9YMWh5TGhpSkpKaDQ5WW0xYkVBZ0dxTTlPYk0xUG1jSzF4RkJYTXctRFNpeHVRb2NUNFo2UkduaHo5R0NkcWRGR1hoZmU3ZzZvQlBmZ2FRcE84XzhhbE5PYzB1Y213bC0wdExHaWRhZnlLVDliWkhqMlk?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 23:25:00 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlık, Demokrat Scott Colom'un Mississippi Senato seçimlerini kazandığını bildiriyor."
+      "summary": "Tam metne ulaşılamadı. Nasdaq, CoreWeave kazanç raporunun ardından açılışta yükseliş gösterdi."
     },
     {
       "cat": "Dünya",
@@ -202,18 +224,29 @@
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QOWV1emtKalVxcFVmUXIzOWFpM0hrVEhyUjY4X0ZUcUhFV2pxVEtNellrNGsxZDlxSXpXUk51ZUgwSHA3dUdza1NuMWF3UUpwZ1p5S3E5U0wwWkFiX0RwamZsSFJzXzAtQ0d1b0E0amtFYjU0bi1N?oc=5",
       "pubDate": "Wed, 11 Nov 2026 23:00:15 GMT",
       "image": null,
-      "text": "",
       "summary": "Bu akşam Northern Taurid meteor yağmuru sırasında bir ateş topu gözlemlenebilir. Gözlemcilerin açık bir gökyüzünde bakmaları önerilir. Tam metne ulaşılamadı."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Brooklyn building collapse: 1 dead, several injured in Flatbush, NY",
-      "source": "ABC7 New York",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWGxYems3T1dGcG5ob3R6aFo5VHhELXNLR0djOTJDWHJLQjEyeTV5TF9WRnR1TTByMkFVQmtJLTk5blA1bk9ZNzg3QnFVeDZwY2dFdXRUcHlvcWU1Q1BGQVkwRFBFd3FhLWItRUx4NXVtdzZBdC1MZlBnTGxFLVZWMGllLW0wdG8wbUxkWkh6Zi1Nb1N6WHptdUNDdUc0dlh6QUJR0gGoAUFVX3lxTE5EcDNUNEdPdThKYmhEM3F6aVJNQWFJNUpuSTVvWDdwbUI5dFduUTRQNWxHaXMzcTNtTGZGVmR5X1JBaE5JV09xZDdTeGtaVVlyZmlWZG5pSlU1VHBUX085azRUaW9fRWFqTzRoQmlsQ283MG9LQmhLUDN1WW9RUXhxZ2RhQ1duMElqSDBDU3h2bGVtLXNtc05PX3ByZFU3V19TMGg3QnZtWg?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 22:52:46 GMT",
+      "title": "How Trump maneuvered to the brink of building his 250-foot triumphal arch",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbGh2RVBkNTA1WmJtV1hCVXU4RUFMakMxTkhhNDlTSmM4aHJZR0FZUEpVWnM3NjlGWHNtLXE0Y21PWnI3S0xPWl9YY3N1clM3bzlOTDVNZmk3Qm5hLS04LVhNR0hKV0NtNkY4RnEtVWxfelVKaWlzWkpTWXhQb2FTYlRuWHB2bEt3TXZtXzRSTnIwMkswOFdPUk90ODh3NXVibmFkU3RxVmk5YVZVZTFR?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 22:49:02 GMT",
       "image": null,
-      "summary": "Brooklyn, Flatbush bölgesinde bir binanın çökmesi sonucu birkaç kişi sıkıştı ve birkaçı yaralandı. Tam metne ulaşılamadı; özet bu başlığa dayanıyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Trump, 250 foot yüksekliğinde bir zafer kemeri inşa etme planı üzerinde manevra yaptı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Kirk Cousins says call with Kevin O'Connell convinced him to OK Vikings trade",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ1pBTnNSTERPTXBsdVgzeEVJT0x3MjBRY3FhT0VyMzZ2WnhXTWJFWlRCNVlTVnZGRXBCVVpfdE9ZSzZfOHBaNnVlUWVOdkFFVlBRVmZEMGhnTWFJTGxlV3hrMlA3QU5rV3I1UXIzdV9rVnRZcnprVjhZTmd4ekYzSGN3SEcyVXUxRU9SaEhyamkxV1Fk?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 22:47:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Kirk Cousins, Kevin O'Connell ile yaptığı telefon görüşmesinin, Vikings takasını onaylamasına neden olduğunu söyledi."
     },
     {
       "cat": "Dünya",
@@ -223,8 +256,18 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSFJDU1Z4MVRRV0pJekViNnA5OWZUQ2w0eWhfUnQybnZkNkFlS3NJaUdQeE5Wamcta204dmhzZHpkWmh3Q3dLMzA2UVRuVHBzWGwzbUhnQ1RZclMyOS1zUVVZWEJic3gyd3kzWWRDZDBuRlpEMm5kdnVwNUkzUE5zdmVZWW1odXJwdGFWc2lkSEluRjdENGRQMHU1RDU5eHFPeGhHRGNMVmUtUQ?oc=5",
       "pubDate": "Wed, 11 Nov 2026 22:46:41 GMT",
       "image": null,
-      "text": "",
       "summary": "Frankie Muniz, Daytona'da antrenman sırasında bir kaza geçirdi ve hastaneye kaldırıldı. Durumla ilgili detaylar henüz açıklanmadı. Tam metne ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "‘VisionQuest’ Creator Terry Matalas Tells All About That Supersized Finale and Post-Credits Surprise",
+      "source": "The Hollywood Reporter",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPclo0ejlKRTFNaG01cWMxa2NyWUgxTGt0cWVLR00xampNX2JlaWdMckNyU216NmZIOHp1cG56eVd6bURmRHhVd25Fd3Flc29nVWJqUHh1c3lqX0hOUGdnS1o5RnFqNVNLakh5aWR1aUo1OWtLT0FpZWwwbnBXNkZ5VmhQY0hHS2ZibE9HWG9aQzlmZ3BBYTZPVDZTaXBjWEU2VnljLUVXandTYVk2QmJR?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 22:42:13 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, ‘VisionQuest’ yapımcısı Terry Matalas, genişletilmiş final bölümü ve post‑kredilerdeki sürpriz hakkında bilgi verdi."
     },
     {
       "cat": "Dünya",
@@ -234,7 +277,6 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORkRvMTltb1ZaWl8zY0loM0x5cktzSDdsSEQ5TjBNVUUwY0NBaDVzdS1abGF5V283YkRwSnR4LTg0cGJJRXdWR3ZvX19Sa3cyM3NVSzl2Q0lpWVRvN3Q5NndrU2lWRDQ0RWRpM21CMy14NEE0SkZyN3Y0OG9MX2FwSno4MU1oekh3QTZSMWtZZ19mREF1blFB?oc=5",
       "pubDate": "Wed, 11 Nov 2026 22:30:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Eski NFL koçu Rex Ryan, Nashville'de yaya çarpması iddiaları sonrası kendini polise teslim etti. Olay hakkında resmi açıklama bekleniyor. Tam metne ulaşılamadı."
     },
     {
@@ -248,59 +290,6 @@
       "summary": "Tam metne ulaşılamadı. Başlığa göre, Pete Hegseth ve diğerlerinin Bilinmeyen Asker Mezarı'nda nöbetçi tarafından uyarıldığı bildiriliyor."
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Validation of clinical and preclinical obesity across global cohorts",
-      "source": "Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92dTR0Z05SeS1TbmxlUmNOZy0wUGRnWXlyTzVJNWFfVnpHdDlDNnJPY01XM0VORlpnRDNHTzg2eURXWXRwYmxLWm8wQnNTaXotbmRjaE5pRmZIVkRheDA4?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 22:14:49 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Çalışma, klinik ve preklinik obezite ölçümlerinin küresel kohortlarda doğrulanmasını inceliyor. Araştırma, obezite tanısının farklı popülasyonlarda tutarlılığını değerlendirmeyi amaçlıyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Pope Leo returns to what is expected to be a national party in his second homeland of Peru",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZEpjX3pYM1J2VkZWTVlwYk5ya2o5TkNUX3RXMHU0bjVFNlV5UWgwT0kzcS1vZjkyWGIxcEk0RUIwbjBMWjdZQktETEVuaVJ2eWNJLV85SlJOUFBtUjhrT3hrMWxQTFhoSXZoSTVIdmwtdVdIZE1SNk8yTDlVc0M4dV8wSUNFWVowMWJ2RGZhQmFDVTcyQmd5NzlyUjc?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 22:09:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Papa Leo, Peru'daki ikinci memleketinde ulusal bir partiye katılması beklenen bir ziyarete geri döndü."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "New measles case confirmed in central Iowa; potential exposure locations in Ankeny, Des Moines",
-      "source": "KCCI",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb1FrNkdyT3c1bDhidlVEa25Eb0lwN29rcHozSmwteHZSOFJ1SzgzVzlSOExFTjdrNHdqdU1IQTFkOC1BczA2ZXlmeWZHVmJRYVFzVHp1dDRZbExVaENNak9oUzNucVY5emlQdG9ZZG9IRDUxUWN3eUtGSXQxZDBFeGRoTmdMcFFWMU9wUTNFbEwta0wzYVA5bl9nTWg?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 22:07:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Orta Iowa'da yeni bir kızamık vakası doğrulandı ve olası temas noktaları Ankeny ve Des Moines olarak belirlendi."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Nvidia stock slides after NYT report alleges Jensen Huang had a second affair — with an employee",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NaFFJVUxuMG1NR25FakxCNU9rUnpXUEl0UVE4ZTJUS0VUN2lEWjlsQVVJRTdMUWt1Vkd1RUsxcjZKa3JCaWFWN0JYbXk0TWpUM3M4SVQ1OGlJaTNQYWJsRnZVczF4NVpyeUZIQTVUQnRYVS0xX2RSQWhGWGs?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 22:06:48 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. New York Times’ın raporuna göre Nvidia CEO’su Jensen Huang’ın bir çalışanla ikinci bir ilişkisi olduğu iddia edildi ve bu haber şirketin hissesinde düşüşe yol açtı. Rapor, hisse fiyatının kısa vadeli gerilemesine neden oldu."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Live Updates: Trump says Iran war will be over \"when we want to end it\"",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JdnI2N05uOHdtZFhtb0U3MGN6bEhNN05QbE85RV81UGRMenBqY04tWXhLU1MxRzR6NWxZOUx5cnNzYmRwRFEwRWJnbi1Cc0JpMUt2aW53VEpWOFA0cEptN2xLLVB6S1RxNDlydWs5MGsySnprakktTlkwUmxqODQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 21:52:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Trump, İran savaşı hakkında yaptığı açıklamada, savaşın istediklerinde sona ereceğini söyledi."
-    },
-    {
       "cat": "Gündem",
       "catId": "gundem",
       "title": "İletişim Başkanı Duran: Türkiye diplomasinin merkezinde",
@@ -308,19 +297,7 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMG8teE1Pd3JLNngxNTVEdGg3em5WanFzSXZibDEtZWpqNjBJQXZJeElselVYM1MzWTh2YVVuV0toR0prTlZMMGIyTGV1cVZfZ1pPTDhKOVgzTnFPMHByRDBiU3FERmZFZmxPVlJRdUV0Vk5pRjdlZ256bHlkU2hmOGp4Uzdyb2hFemM1TUhKLXJrX2RsSlFxMGl3?oc=5",
       "pubDate": "Wed, 11 Nov 2026 17:31:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. İletişim Başkanı Duran, Türkiye'nin diplomasi alanında merkezi bir konumda olduğunu belirtti. Bu görüş, ülkenin dış politika stratejilerine vurgu yapıyor."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Burhanettin Duran: Türkiye, 2026'da NATO ve COP31 zirveleri ile uluslararası diplomasinin merkezinde olacak",
-      "source": "Gazete Kritik",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdnVHVExXcWhnb3lmdDU3MDlsQ2t5V2NNYTJrcFVZQXIzeGdCbE9fc2VVM1YwczFWWWEyQ2ltdEVtSW1MWFhMTTNXbGN5QWxrUHMxa2ZXMjZmMkJfUm92eWNxWHZ5SDA4d2FMWWtiaGNhQzRyUFZ2VUpleHd1VE9jZV8yOE1KWDg5aHNpOG04RnRnc3MyRldFZG90MHZSUXM0YW9QeWEzNTVQdWJ3S2pLNmppZElzbG9ZYl9nMnhJNTVRemN5VFVQMFYtV1BpMElFM0RraXR6YTVIM0RYRl93WQ?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:28:27 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Burhanettin Duran, Türkiye'nin 2026 yılında NATO ve COP31 zirveleri sayesinde uluslararası diplomasinin merkezinde yer alacağını söyledi. Bu beklenti, ülkenin küresel etkinliğini artırmayı hedefliyor."
     },
     {
       "cat": "Gündem",
@@ -331,6 +308,17 @@
       "pubDate": "Wed, 11 Nov 2026 17:00:53 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Cevdet Yılmaz, Türkiye'nin erken uyarı sistemi kapsamında üzerine düşeni yapmaya hazır olduğunu belirtti."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "İsrailli analistten Türkiye-İsrail çatışması iddiası! Dakikalar içinde doğrudan çatışma yaşanabilir",
+      "source": "A Haber",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeVZ6d2FQYzBSUThFNnpIdXk5X2QzVFp2enFXUk1GQTFxM0ZxMjFObENCSzVIa3ZXQWlzX0hlQmNjZ2prNUdLSmR3Szg2ZnNLT1FzQ19XcWNSSU4xQnB5VVZVY0JZdFRoeHdROTVaVjU5ckU2M1p1RDZsSjlHb1ZVTllXWDVVZVFSYlpRZ0xhblhrMEMzUmF0S053eElFSU8zcjhhc1o5Rkxnam9oUW9lcElhSVRNU3NsbDdBdnJFQjlDWmI1UzZBOEdBaEZBNml2WHZwVDFCLXR4ZkhMNlVEMQ?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 16:25:04 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, bir İsrailli analist, Türkiye ile İsrail arasında dakikalar içinde doğrudan bir çatışma yaşanabileceği iddiasında bulundu."
     },
     {
       "cat": "Çorlu",
@@ -364,13 +352,13 @@
     }
   ],
   "weather": {
-    "temp": 14.0,
+    "temp": 13.8,
     "desc": "Kapalı"
   },
   "market": {
-    "usdtry": 50.24,
-    "eurtry": 56.2,
-    "gold_gram_try": 6416.36
+    "usdtry": 50.28,
+    "eurtry": 55.87,
+    "gold_gram_try": 6447.1
   },
   "stocks": [
     {

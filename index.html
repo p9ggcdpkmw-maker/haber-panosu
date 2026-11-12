@@ -67,8 +67,9 @@
   .nav-separator { width: 60%; height: 1px; background: var(--border); margin: 12px 0; transition: width 0.3s; }
   .sidebar:hover .nav-separator { width: 80%; }
 
+  /* 🚀 PC SOL MENÜ İKON DÜZELTMESİ */
   .nav-item {
-    display: flex; align-items: center; width: 100%; padding: 12px 0;
+    display: flex; align-items: center; width: 100%; padding: 14px 0;
     justify-content: center; cursor: pointer; transition: all 0.2s;
     border-left: 3px solid transparent; gap: 16px;
   }
@@ -76,7 +77,16 @@
   .nav-item:hover { background: rgba(255,255,255,0.05); }
   .nav-item.active { background: linear-gradient(90deg, rgba(139, 92, 246, 0.15), transparent); border-left-color: var(--accent); }
   
-  .nav-icon { font-size: 18px; width: 20px; text-align: center; }
+  .nav-icon { 
+    font-size: 22px; 
+    width: 24px; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    opacity: 0.8;
+  }
+  .nav-item.active .nav-icon { opacity: 1; filter: drop-shadow(0 0 5px var(--accent)); }
+  
   .nav-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
   .nav-item.active .nav-dot { box-shadow: 0 0 12px currentColor; }
   .nav-text { font-size: 14px; font-weight: 500; color: var(--text-muted); opacity: 0; transition: opacity 0.2s; }
@@ -107,13 +117,12 @@
   .content-area { display: flex; gap: 20px; flex: 1; overflow: hidden; }
   .view-section { display: none; width: 100%; height: 100%; overflow-y: auto; padding-right: 8px; }
   
-  /* 🚀 BELİRGİN GEÇİŞ ANİMASYONU */
   .view-section.active { 
     display: block; 
-    animation: fadeSlideIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation: fadeSlideIn 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   }
   @keyframes fadeSlideIn {
-    0% { opacity: 0; transform: translateY(30px) scale(0.98); }
+    0% { opacity: 0; transform: translateY(20px) scale(0.99); }
     100% { opacity: 1; transform: translateY(0) scale(1); }
   }
 
@@ -123,15 +132,16 @@
   .search-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 12px 20px; color: var(--text-main); outline: none; width: 280px; transition: all 0.3s; }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
 
+  /* 🚀 GÜNÜN ÖZETİ DÜZELTMESİ */
   .ai-briefing { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05)); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; overflow: hidden; transition: opacity 0.3s; }
   .ai-briefing::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); box-shadow: 0 0 15px var(--accent); }
   .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
   .ai-icon { font-size: 20px; background: rgba(139, 92, 246, 0.2); padding: 8px; border-radius: 12px; }
   .ai-title { font-size: 18px; font-weight: 700; color: #fff; }
   .ai-badge { font-size: 10px; background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 10px; font-weight: 700; letter-spacing: 0.5px;}
+  
   .ai-content { font-size: 15px; color: #cbd5e1; line-height: 1.6; }
-  .ai-content ul { margin-top: 10px; margin-left: 20px; }
-  .ai-content li { margin-bottom: 8px; }
+  .ai-content p { margin-bottom: 12px; }
 
   .feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
   .news-card { background: var(--bg-card); backdrop-filter: blur(10px); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 20px; display: flex; flex-direction: column; justify-content: space-between; cursor: pointer; transition: all 0.3s; position: relative; overflow: hidden; }
@@ -151,10 +161,7 @@
   .market-title { font-size: 14px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
   .market-total { font-size: 48px; font-weight: 800; letter-spacing: -1px; }
   .market-total span { font-size: 24px; color: var(--text-muted); }
-  
-  /* Grid yapısını genişlettik, çok hisse olması durumunda alta kayacak */
   .market-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin-bottom: 32px; }
-  
   .market-card { border-radius: var(--radius-lg); padding: 16px; position: relative; overflow: hidden; color: #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
   .mc-purple { background: linear-gradient(135deg, #7c3aed, #4c1d95); }
   .mc-orange { background: linear-gradient(135deg, #f59e0b, #b45309); }
@@ -167,7 +174,6 @@
   .mc-label { font-size: 12px; font-weight: 600; opacity: 0.9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100px; }
   .mc-price { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
   .mc-change { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; background: rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 6px; }
-  
   .mc-chart-container { height: 50px; margin-top: 12px; width: 100%; }
 
   .mobile-widgets { display: none; }
@@ -219,7 +225,7 @@
     .feed-grid { grid-template-columns: 1fr; gap: 16px; }
 
     .market-total { font-size: 32px; }
-    .market-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); } /* Mobilde 2 sütun */
+    .market-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
     
     .mobile-widgets {
       display: flex; overflow-x: auto; gap: 10px; padding: 0 0 16px 0;
@@ -293,14 +299,13 @@
         <input type="search" class="search-box" id="searchInput" placeholder="Haberlerde ara...">
       </div>
 
-      <!-- GÜNÜN ÖZETİ (Sadece Tümü'nde Görünür) -->
       <div class="ai-briefing glass" id="aiBriefingCard">
         <div class="ai-header">
           <div class="ai-icon">✨</div>
           <div class="ai-title">Günün Özeti</div>
           <div class="ai-badge">RADAR AI</div>
         </div>
-        <div class="ai-content" id="aiBriefingContent">Analiz ediliyor...</div>
+        <div class="ai-content" id="aiBriefingContent">Yapay zeka analiz ediyor...</div>
       </div>
       
       <div class="feed-grid" id="newsGrid">
@@ -313,7 +318,6 @@
         <div class="market-title">Toplam Piyasa Takibi</div>
         <div class="market-total" id="marketTotal">₺ --.--</div>
       </div>
-
       <div class="market-grid" id="marketGrid"></div>
     </div>
 
@@ -353,6 +357,7 @@ let likedLinks = new Set(JSON.parse(localStorage.getItem('radar_liked') || '[]')
 let marketData = null;
 let stocksData = null;
 let cryptoData = null;
+let aiBriefingText = "";
 
 function esc(str) {
   if(!str) return '';
@@ -375,7 +380,6 @@ function switchView(viewName, el) {
   document.querySelectorAll('.view-section').forEach(v => v.classList.remove('active'));
   document.getElementById('view-' + viewName).classList.add('active');
 
-  // Grafikleri çiz
   if(viewName === 'market') {
     setTimeout(() => { renderMarketCharts(); }, 100);
   }
@@ -418,13 +422,9 @@ function selectCategory(id, el) {
   const title = id === 'all' ? 'Gündem Akışı' : CATEGORIES[id].label;
   document.getElementById('feedTitle').textContent = title + ' Akışı';
   
-  // 🚀 GÜNÜN ÖZETİ SADECE "TÜMÜ" SEÇİLİYSE GÖRÜNSÜN
   const aiCard = document.getElementById('aiBriefingCard');
-  if(id === 'all') {
-    aiCard.style.display = 'block';
-  } else {
-    aiCard.style.display = 'none';
-  }
+  if(id === 'all') { aiCard.style.display = 'block'; } 
+  else { aiCard.style.display = 'none'; }
 
   renderNews();
 }
@@ -471,14 +471,20 @@ function renderNews() {
   });
 }
 
+// 🚀 YENİ: GERÇEK AI BRIEFING METNİNİ BASAN FONKSİYON
 function renderAIBriefing() {
   const container = document.getElementById('aiBriefingContent');
-  if (!allNews || allNews.length === 0) { container.innerHTML = 'Analiz edilecek haber yok.'; return; }
-  const topNews = allNews.slice(0, 3);
-  let html = '<p style="margin-bottom: 12px; color: #fff;">Bugünün öne çıkan gelişmeleri:</p><ul>';
-  topNews.forEach(n => { html += `<li><strong>${esc(n.title)}</strong> <span style="font-size:12px; color:var(--text-muted);">(${esc(n.cat)})</span></li>`; });
-  html += '</ul>';
-  container.innerHTML = html;
+  if (aiBriefingText && aiBriefingText.length > 10) {
+    container.innerHTML = `<p>${esc(aiBriefingText)}</p>`;
+  } else {
+    // Eğer Python'dan briefing gelmediyse eski yöntemle listele (Fallback)
+    if (!allNews || allNews.length === 0) { container.innerHTML = 'Analiz edilecek haber yok.'; return; }
+    const topNews = allNews.slice(0, 3);
+    let html = '<p style="margin-bottom: 12px; color: #fff;">Bugünün öne çıkan başlıkları:</p><ul>';
+    topNews.forEach(n => { html += `<li><strong>${esc(n.title)}</strong></li>`; });
+    html += '</ul>';
+    container.innerHTML = html;
+  }
 }
 
 function openModal(item, cat) {
@@ -508,10 +514,11 @@ async function loadData() {
     allNews = data.items || [];
     marketData = data.market;
     stocksData = data.stocks;
-    cryptoData = data.crypto; // Yeni eklenen kripto verisi
+    cryptoData = data.crypto;
+    aiBriefingText = data.briefing || ""; // YENİ: AI özetini al
 
     renderNews();
-    renderAIBriefing();
+    renderAIBriefing(); // Yeni fonksiyonu çağır
     renderMarketView(); 
     renderWeatherHeader(data.weather); 
     renderMobileMarketStrip(); 
@@ -564,30 +571,19 @@ function renderMarketView() {
   const colors = ['mc-purple', 'mc-orange', 'mc-red', 'mc-cyan', 'mc-green'];
   let colorIdx = 0;
 
-  // Döviz ve Altın
   if (marketData) {
     if (marketData.usdtry) cards.push({ label: 'USD / TRY', price: marketData.usdtry, change: 0.4, icon: '$' });
     if (marketData.eurtry) cards.push({ label: 'EUR / TRY', price: marketData.eurtry, change: -0.2, icon: '€' });
     if (marketData.gold_gram_try) cards.push({ label: 'Gram Altın', price: marketData.gold_gram_try, change: 1.2, icon: '🪙' });
     if (marketData.ceyrek_altin_try) cards.push({ label: 'Çeyrek Altın', price: marketData.ceyrek_altin_try, change: 1.1, icon: '🥇' });
   }
-  
-  // Kripto
   if (cryptoData && cryptoData.length > 0) {
-    cryptoData.forEach(c => {
-      if (c.price) cards.push({ label: c.label, price: c.price, change: c.change_pct || 0, icon: '₿' });
-    });
+    cryptoData.forEach(c => { if (c.price) cards.push({ label: c.label, price: c.price, change: c.change_pct || 0, icon: '₿' }); });
   }
-
-  // Hisseler
   if (stocksData) {
-    stocksData.forEach(s => {
-      if (s.price == null) return;
-      cards.push({ label: s.label, price: s.price, change: s.change_pct || 0, icon: '📈' });
-    });
+    stocksData.forEach(s => { if (s.price != null) cards.push({ label: s.label, price: s.price, change: s.change_pct || 0, icon: '📈' }); });
   }
 
-  // Kartları Renklendir ve HTML'e Dök
   cards.forEach((c, index) => {
     const isUp = c.change >= 0;
     const sign = isUp ? '+' : '';
@@ -603,31 +599,22 @@ function renderMarketView() {
         </div>
         <div class="mc-price">${c.price.toLocaleString('tr-TR', {minimumFractionDigits: 2})}</div>
         <div class="mc-change">${arrow} ${sign}${c.change.toFixed(2)}%</div>
-        <div class="mc-chart-container">
-          <canvas id="chart-${index}"></canvas>
-        </div>
+        <div class="mc-chart-container"><canvas id="chart-${index}"></canvas></div>
       </div>
     `;
   });
-
   grid.innerHTML = html;
 }
 
 function renderMarketCharts() {
   const cards = document.querySelectorAll('.market-card');
-  
   cards.forEach((card, i) => {
     const canvas = card.querySelector('canvas');
     if (!canvas) return;
-    
     const basePrice = parseFloat(card.querySelector('.mc-price').textContent.replace(/\./g, '').replace(',', '.'));
     const dataPoints = [];
     let current = basePrice * 0.98;
-    
-    for (let j = 0; j < 20; j++) {
-      current = current + (Math.random() - 0.45) * (basePrice * 0.01);
-      dataPoints.push(current);
-    }
+    for (let j = 0; j < 20; j++) { current = current + (Math.random() - 0.45) * (basePrice * 0.01); dataPoints.push(current); }
     dataPoints.push(basePrice);
 
     const ctx = canvas.getContext('2d');
@@ -638,10 +625,7 @@ function renderMarketCharts() {
         datasets: [{
           data: dataPoints,
           borderColor: 'rgba(255, 255, 255, 0.8)',
-          borderWidth: 2,
-          pointRadius: 0,
-          tension: 0.4,
-          fill: true,
+          borderWidth: 2, pointRadius: 0, tension: 0.4, fill: true,
           backgroundColor: (context) => {
             const gradient = ctx.createLinearGradient(0, 0, 0, 60);
             gradient.addColorStop(0, 'rgba(255, 255, 255, 0.2)');
@@ -650,13 +634,7 @@ function renderMarketCharts() {
           }
         }]
       },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false }, tooltip: { enabled: false } },
-        scales: { x: { display: false }, y: { display: false } },
-        animation: { duration: 2000, easing: 'easeOutQuart' }
-      }
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { enabled: false } }, scales: { x: { display: false }, y: { display: false } }, animation: { duration: 1500 } }
     });
   });
 }

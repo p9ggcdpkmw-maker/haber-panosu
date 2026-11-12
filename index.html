@@ -49,7 +49,7 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
   }
 
-  /* --- SOL MENÜ (BOŞLUKSUZ VE KUSURSUZ) --- */
+  /* --- SOL MENÜ --- */
   .sidebar {
     position: fixed; top: 20px; left: 20px; bottom: 20px; width: 80px;
     border-radius: var(--radius-lg); z-index: 1000;
@@ -85,7 +85,6 @@
   .nav-item.active .nav-text { color: var(--text-main); font-weight: 600; }
   .sidebar:hover .nav-text { opacity: 1; display: block; }
 
-  /* Ayarlar butonunu en alta iten akıllı margin */
   .settings-btn { margin-top: auto; }
 
   /* --- ANA YERLEŞİM --- */
@@ -127,7 +126,6 @@
   .search-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 12px 20px; color: var(--text-main); outline: none; width: 280px; transition: all 0.3s; }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
 
-  /* RADAR AI KUTUSU VE MOBİL DÜZELTİLMİŞ SEKMELER */
   .ai-briefing { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05)); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; overflow: hidden; transition: opacity 0.3s; }
   .ai-briefing::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); box-shadow: 0 0 15px var(--accent); }
   .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
@@ -214,8 +212,6 @@
   @media (max-width: 768px) {
     body { overflow-y: auto; }
     .app-container { display: block; margin-left: 70px; padding: 10px 10px 40px 0; height: auto; overflow: visible; }
-    
-    /* Mobilde sidebar boşluklarını sıfırla */
     .sidebar { top: 10px; left: 10px; bottom: 10px; width: 50px !important; padding: 16px 0; border-radius: var(--radius-md); gap: 0; }
     .sidebar:hover { width: 50px !important; align-items: center; } 
     .logo { display: none; }
@@ -225,8 +221,6 @@
     .nav-item.active { background: rgba(139, 92, 246, 0.15); border-radius: 12px; }
     .nav-text { display: none !important; }
     .nav-dot { width: 10px; height: 10px; }
-    
-    /* Mobilde Ayarlar butonunu en alta yapıştır */
     .settings-btn { margin-top: 20px; margin-bottom: 10px;}
 
     .top-bar { padding: 12px; flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
@@ -267,7 +261,6 @@
     <div class="logo-text">RADAR</div>
   </div>
   
-  <!-- ANA SEKMELER -->
   <div class="nav-item active" id="nav-news" onclick="switchView('news', this)">
     <div class="nav-dot" style="background:var(--text-main); color:var(--text-main)"></div>
     <span class="nav-text">Gündem</span>
@@ -280,7 +273,6 @@
 
   <div class="nav-separator"></div>
 
-  <!-- KATEGORİLER (JS ile doldurulacak) -->
   <div id="categories-container" style="width:100%; display:flex; flex-direction:column; gap:2px;">
     <div class="nav-item active" data-id="all" onclick="selectCategory('all', this)">
       <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> 
@@ -288,7 +280,6 @@
     </div>
   </div>
 
-  <!-- AYARLAR BUTONU -->
   <div class="nav-separator"></div>
   <div class="nav-item settings-btn" onclick="openSettings()">
     <div class="nav-dot" style="background:var(--text-muted); color:var(--text-muted); width:16px; height:16px; display:flex; align-items:center; justify-content:center; font-size:14px;">⚙️</div>
@@ -417,6 +408,24 @@ let currentBriefingTab = 'genel';
 
 let userPrefs = JSON.parse(localStorage.getItem('radar_prefs')) || null; 
 
+// 🚀 YENİ: KULLANICI İLGİ ALANLARINI HESAPLAMA
+// Tarayıcı hafızasındaki okunan haberlere bakar, hangi kategori daha çok okunduysa onu puanlar.
+function calculateUserInterests() {
+  let interestScores = {};
+  // Tüm kategorileri sıfırla
+  Object.keys(CATEGORIES).forEach(id => interestScores[id] = 0);
+
+  // Okunan linkleri bul ve hangi kategoriye ait olduklarını say
+  readLinks.forEach(link => {
+    const item = allNews.find(n => n.link === link);
+    if (item && interestScores[item.catId] !== undefined) {
+      interestScores[item.catId] += 1;
+    }
+  });
+  
+  return interestScores;
+}
+
 function esc(str) {
   if(!str) return '';
   return String(str).replace(/[&<>"']/g, function(m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]; });
@@ -431,9 +440,7 @@ function timeAgo(dateStr) {
   return Math.round(diff / 1440) + ' gün önce';
 }
 
-// 🚀 DÜZELTİLDİ: Çift yanma sorunu giderildi, switchView artık temiz çalışıyor.
 function switchView(viewName, el) {
-  // Sadece ana sekmelerin (Gündem ve Piyasalar) active sınıfını sıfırla
   document.getElementById('nav-news').classList.remove('active');
   document.getElementById('nav-market').classList.remove('active');
   if(el) el.classList.add('active');
@@ -442,7 +449,6 @@ function switchView(viewName, el) {
   document.getElementById('view-' + viewName).classList.add('active');
 
   if(viewName === 'news') {
-    // Gündem sekmesine basıldığında her zaman "Tümü"yü seç
     selectCategory('all', document.querySelector('.nav-item[data-id="all"]'));
   }
   
@@ -469,8 +475,6 @@ function startClock() {
 
 function initSidebarCategories() {
   const container = document.getElementById('categories-container');
-  
-  // Eski "Tümü" hariç kategorileri temizle
   document.querySelectorAll('.nav-item[data-id]').forEach(e => {
     if(e.dataset.id !== 'all') e.remove();
   });
@@ -484,7 +488,6 @@ function initSidebarCategories() {
     el.dataset.id = id;
     el.innerHTML = `<div class="nav-dot" style="background:${cat.color}; color:${cat.color}"></div> <span class="nav-text">${cat.label}</span>`;
     
-    // Kategoriye tıklandığında ana sayfaya git ve o kategoriyi filtrele
     el.onclick = () => { 
       document.getElementById('nav-news').classList.add('active');
       document.getElementById('nav-market').classList.remove('active');
@@ -502,10 +505,9 @@ function selectCategory(id, el) {
   if(el) el.classList.add('active');
   activeCat = id;
   
-  // 🚀 DÜZELTİLDİ: "Gündem Akışı Akışı" hatası giderildi
   let title = "";
   if (id === 'all') {
-    title = (userPrefs && userPrefs.length > 0) ? "Kişisel Akış" : "Gündem Akışı";
+    title = (userPrefs && userPrefs.length > 0) ? "Kişisel Akış" : "Akıllı Akış (Sana Özel)";
   } else {
     title = CATEGORIES[id].label + " Akışı";
   }
@@ -518,6 +520,7 @@ function selectCategory(id, el) {
   renderNews();
 }
 
+// 🚀 YENİ: RENDERNEWS ARTIK KULLANICI İLGİSİNE GÖRE SIRALAMA YAPIYOR
 function renderNews() {
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '';
@@ -542,7 +545,31 @@ function renderNews() {
     return;
   }
 
-  filtered.forEach(item => {
+  // Kullanıcının ilgi puanlarını hesapla
+  const interests = calculateUserInterests();
+
+  // Kopyalayıp kendi algoritmamıza göre sıralayalım
+  let sortedNews = [...filtered];
+
+  sortedNews.sort((a, b) => {
+    // 1. Tarih Skoru (Daha yeni haberler daha yüksek puan alır. En yeni = 1000, 1 günlük = 900 vb.)
+    const dateA = new Date(a.pubDate).getTime();
+    const dateB = new Date(b.pubDate).getTime();
+    // Zaman farkı büyük olduğu için 1 saatlik farkı 10 puan düşürelim.
+    const ageScoreA = - (Date.now() - dateA) / (1000 * 60 * 60) * 5;
+    const ageScoreB = - (Date.now() - dateB) / (1000 * 60 * 60) * 5;
+
+    // 2. İlgi Skoru (Kullanıcı bir kategoriyi çok okuyorsa, yani interests[cat] büyükse, o haberlere büyük puan ekle)
+    const interestA = (interests[a.catId] || 0) * 50; 
+    const interestB = (interests[b.catId] || 0) * 50;
+
+    const totalScoreA = ageScoreA + interestA;
+    const totalScoreB = ageScoreB + interestB;
+
+    return totalScoreB - totalScoreA; // Büyük puan üste çıkar
+  });
+
+  sortedNews.forEach(item => {
     const cat = CATEGORIES[item.catId] || { label: 'Haber', color: '#fff' };
     const isRead = readLinks.has(item.link);
     const isLiked = likedLinks.has(item.link);
@@ -569,18 +596,13 @@ function renderNews() {
   });
 }
 
-function switchBriefing(tabId, btn) {
-  currentBriefingTab = tabId;
-  document.querySelectorAll('.ai-tab').forEach(t => t.classList.remove('active'));
-  if(btn) btn.classList.add('active');
-  renderAIBriefing();
-}
-
+// 🚀 YENİ: YAPAY ZEKA ÖZETİNİ KULLANICI İLGİSİNE GÖRE RENKLENDİRME
 function renderAIBriefing() {
   const container = document.getElementById('aiBriefingContent');
   let text = "";
 
   if (currentBriefingTab === 'genel') {
+    // Eğer "Günün Özeti" sekmesindeyse, yapay zekanın genel özetini göster
     if (briefingsData && briefingsData.genel) {
       text = briefingsData.genel;
     } else {
@@ -596,7 +618,16 @@ function renderAIBriefing() {
     text = briefingsData[currentBriefingTab] || "Bu kategori için henüz analiz hazırlanmadı. Lütfen biraz sonra tekrar deneyin.";
   }
 
-  container.innerHTML = `<p>${esc(text)}</p>`;
+  // Burası çok havalı bir detay: Eğer kullanıcı bir kategoriyi çok okuyorsa, özetin başına bunu ekleyelim.
+  const interests = calculateUserInterests();
+  const topInterestId = Object.keys(interests).reduce((a, b) => interests[a] > interests[b] ? a : b, null);
+  
+  let prefix = "";
+  if (topInterestId && interests[topInterestId] > 2 && currentBriefingTab === 'genel') {
+    prefix = `<span style="color:var(--accent); font-weight:600; display:block; margin-bottom:8px;">💡 Okuma alışkanlıklarına göre en çok <b>${CATEGORIES[topInterestId].label}</b> haberleriyle ilgileniyorsun:</span>`;
+  }
+
+  container.innerHTML = `<p>${prefix}${esc(text)}</p>`;
 }
 
 function openModal(item, cat) {

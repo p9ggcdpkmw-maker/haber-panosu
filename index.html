@@ -49,7 +49,7 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
   }
 
-  /* --- SOL MENÜ (SADECE NOKTALAR İLE KUSURSUZ HİZALAMA) --- */
+  /* --- SOL MENÜ --- */
   .sidebar {
     position: fixed; top: 20px; left: 20px; bottom: 20px; width: 80px;
     border-radius: var(--radius-lg); z-index: 1000;
@@ -59,7 +59,6 @@
   }
   .sidebar:hover { width: 240px; align-items: flex-start; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
 
-  /* Logo Alanı */
   .logo { display: flex; align-items: center; height: 40px; margin-bottom: 24px; width: 100%; justify-content: center; transition: all 0.3s; }
   .sidebar:hover .logo { justify-content: flex-start; padding-left: 30px; }
   .logo-text { font-size: 20px; font-weight: 800; color: var(--text-main); opacity: 0; transition: opacity 0.2s; display: none; }
@@ -69,7 +68,6 @@
   .nav-separator { width: 40px; height: 1px; background: var(--border); margin: 8px 0; transition: width 0.3s; }
   .sidebar:hover .nav-separator { width: 80%; }
 
-  /* Menü Öğeleri */
   .nav-item {
     display: flex; align-items: center; width: 100%; height: 48px;
     cursor: pointer; transition: background 0.2s;
@@ -79,19 +77,10 @@
   .nav-item:hover { background: rgba(255,255,255,0.05); }
   .nav-item.active { background: linear-gradient(90deg, rgba(139, 92, 246, 0.15), transparent); }
   
-  /* Nokta (Dot) Tasarımı */
-  .nav-dot { 
-    width: 12px; height: 12px; border-radius: 50%; 
-    flex-shrink: 0; transition: all 0.2s;
-  }
+  .nav-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; transition: all 0.2s; }
   .nav-item.active .nav-dot { box-shadow: 0 0 12px currentColor; transform: scale(1.1); }
   
-  /* Yazılar */
-  .nav-text { 
-    font-size: 14px; font-weight: 500; color: var(--text-muted); 
-    opacity: 0; transition: opacity 0.2s; margin-left: 16px; 
-    display: none; 
-  }
+  .nav-text { font-size: 14px; font-weight: 500; color: var(--text-muted); opacity: 0; transition: opacity 0.2s; margin-left: 16px; display: none; }
   .nav-item.active .nav-text { color: var(--text-main); font-weight: 600; }
   .sidebar:hover .nav-text { opacity: 1; display: block; }
 
@@ -134,14 +123,23 @@
   .search-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 12px 20px; color: var(--text-main); outline: none; width: 280px; transition: all 0.3s; }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
 
+  /* 🚀 RADAR AI KUTUSU VE SEKMELERİ */
   .ai-briefing { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05)); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; overflow: hidden; transition: opacity 0.3s; }
   .ai-briefing::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); box-shadow: 0 0 15px var(--accent); }
   .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
   .ai-icon { font-size: 20px; background: rgba(139, 92, 246, 0.2); padding: 8px; border-radius: 12px; }
   .ai-title { font-size: 18px; font-weight: 700; color: #fff; }
   .ai-badge { font-size: 10px; background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 10px; font-weight: 700; letter-spacing: 0.5px;}
-  .ai-content { font-size: 15px; color: #cbd5e1; line-height: 1.6; }
-  .ai-content p { margin-bottom: 12px; }
+  
+  /* Sekmeler */
+  .ai-tabs { display: flex; gap: 8px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+  .ai-tabs::-webkit-scrollbar { display: none; }
+  .ai-tab { background: rgba(255,255,255,0.05); border: 1px solid transparent; color: var(--text-muted); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
+  .ai-tab:hover { background: rgba(255,255,255,0.1); color: var(--text-main); }
+  .ai-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: 0 0 10px rgba(139, 92, 246, 0.4); }
+
+  .ai-content { font-size: 15px; color: #cbd5e1; line-height: 1.6; min-height: 60px; }
+  .ai-content p { margin-bottom: 12px; animation: fadeIn 0.4s ease; }
 
   .feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
   .news-card { background: var(--bg-card); backdrop-filter: blur(10px); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 20px; display: flex; flex-direction: column; justify-content: space-between; cursor: pointer; transition: all 0.3s; position: relative; overflow: hidden; }
@@ -299,12 +297,23 @@
         <input type="search" class="search-box" id="searchInput" placeholder="Haberlerde ara...">
       </div>
 
+      <!-- 🚀 RADAR AI SEKMELİ ANALİZ KUTUSU -->
       <div class="ai-briefing glass" id="aiBriefingCard">
         <div class="ai-header">
           <div class="ai-icon">✨</div>
-          <div class="ai-title">Günün Özeti</div>
+          <div class="ai-title">Günün Analizi</div>
           <div class="ai-badge">RADAR AI</div>
         </div>
+        
+        <!-- Sekmeler -->
+        <div class="ai-tabs">
+          <button class="ai-tab active" onclick="switchBriefing('genel', this)">Günün Özeti</button>
+          <button class="ai-tab" onclick="switchBriefing('teknoloji', this)">Teknoloji</button>
+          <button class="ai-tab" onclick="switchBriefing('ekonomi', this)">Ekonomi</button>
+          <button class="ai-tab" onclick="switchBriefing('gundem', this)">Gündem</button>
+        </div>
+
+        <!-- İçerik -->
         <div class="ai-content" id="aiBriefingContent">Yapay zeka analiz ediyor...</div>
       </div>
       
@@ -357,7 +366,8 @@ let likedLinks = new Set(JSON.parse(localStorage.getItem('radar_liked') || '[]')
 let marketData = null;
 let stocksData = null;
 let cryptoData = null;
-let aiBriefingText = "";
+let briefingsData = {}; // YENİ: Kategori analizleri
+let currentBriefingTab = 'genel';
 
 function esc(str) {
   if(!str) return '';
@@ -471,18 +481,36 @@ function renderNews() {
   });
 }
 
+// 🚀 YENİ: SEKMELER ARASI GEÇİŞ YAPAN FONKSİYON
+function switchBriefing(tabId, btn) {
+  currentBriefingTab = tabId;
+  document.querySelectorAll('.ai-tab').forEach(t => t.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  renderAIBriefing();
+}
+
 function renderAIBriefing() {
   const container = document.getElementById('aiBriefingContent');
-  if (aiBriefingText && aiBriefingText.length > 10) {
-    container.innerHTML = `<p>${esc(aiBriefingText)}</p>`;
+  let text = "";
+
+  if (currentBriefingTab === 'genel') {
+    // Fallback: Eğer "genel" özet yoksa en son 3 haberi başlık olarak göster
+    if (briefingsData && briefingsData.genel) {
+      text = briefingsData.genel;
+    } else {
+      if (!allNews || allNews.length === 0) { container.innerHTML = 'Analiz edilecek haber yok.'; return; }
+      const topNews = allNews.slice(0, 3);
+      let html = '<ul>';
+      topNews.forEach(n => { html += `<li><strong>${esc(n.title)}</strong></li>`; });
+      html += '</ul>';
+      container.innerHTML = html;
+      return;
+    }
   } else {
-    if (!allNews || allNews.length === 0) { container.innerHTML = 'Analiz edilecek haber yok.'; return; }
-    const topNews = allNews.slice(0, 3);
-    let html = '<p style="margin-bottom: 12px; color: #fff;">Bugünün öne çıkan başlıkları:</p><ul>';
-    topNews.forEach(n => { html += `<li><strong>${esc(n.title)}</strong></li>`; });
-    html += '</ul>';
-    container.innerHTML = html;
+    text = briefingsData[currentBriefingTab] || "Bu kategori için henüz analiz hazırlanmadı. Lütfen biraz sonra tekrar deneyin.";
   }
+
+  container.innerHTML = `<p>${esc(text)}</p>`;
 }
 
 function openModal(item, cat) {
@@ -513,7 +541,7 @@ async function loadData() {
     marketData = data.market;
     stocksData = data.stocks;
     cryptoData = data.crypto;
-    aiBriefingText = data.briefing || "";
+    briefingsData = data.briefings || {}; // YENİ: Analizleri al
 
     renderNews();
     renderAIBriefing();

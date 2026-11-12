@@ -91,10 +91,7 @@
   }
 
   /* --- ÜST PANEL --- */
-  .top-bar {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 16px 24px; border-radius: var(--radius-lg);
-  }
+  .top-bar { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; border-radius: var(--radius-lg); }
   .top-left { display: flex; align-items: center; gap: 24px; }
   .top-time { font-size: 20px; font-weight: 700; }
   .top-date { font-size: 14px; color: var(--text-muted); margin-top: 2px; }
@@ -108,19 +105,16 @@
 
   /* --- İÇERİK ALANI VE ANİMASYON --- */
   .content-area { display: flex; gap: 20px; flex: 1; overflow: hidden; }
+  .view-section { display: none; width: 100%; height: 100%; overflow-y: auto; padding-right: 8px; }
   
-  .view-section { 
-    display: none; width: 100%; height: 100%; overflow-y: auto; padding-right: 8px; 
-  }
-  
-  /* 🚀 YENİ: SEKME GEÇİŞ ANİMASYONU */
+  /* 🚀 BELİRGİN GEÇİŞ ANİMASYONU */
   .view-section.active { 
     display: block; 
-    animation: fadeSlideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation: fadeSlideIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   }
   @keyframes fadeSlideIn {
-    from { opacity: 0; transform: translateY(15px); }
-    to { opacity: 1; transform: translateY(0); }
+    0% { opacity: 0; transform: translateY(30px) scale(0.98); }
+    100% { opacity: 1; transform: translateY(0) scale(1); }
   }
 
   /* --- GÜNDEM GÖRÜNÜMÜ --- */
@@ -129,7 +123,7 @@
   .search-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 12px 20px; color: var(--text-main); outline: none; width: 280px; transition: all 0.3s; }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
 
-  .ai-briefing { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05)); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .ai-briefing { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05)); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; overflow: hidden; transition: opacity 0.3s; }
   .ai-briefing::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); box-shadow: 0 0 15px var(--accent); }
   .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
   .ai-icon { font-size: 20px; background: rgba(139, 92, 246, 0.2); padding: 8px; border-radius: 12px; }
@@ -158,21 +152,23 @@
   .market-total { font-size: 48px; font-weight: 800; letter-spacing: -1px; }
   .market-total span { font-size: 24px; color: var(--text-muted); }
   
-  .market-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-bottom: 32px; }
-  .market-card { border-radius: var(--radius-lg); padding: 20px; position: relative; overflow: hidden; color: #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+  /* Grid yapısını genişlettik, çok hisse olması durumunda alta kayacak */
+  .market-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  
+  .market-card { border-radius: var(--radius-lg); padding: 16px; position: relative; overflow: hidden; color: #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
   .mc-purple { background: linear-gradient(135deg, #7c3aed, #4c1d95); }
   .mc-orange { background: linear-gradient(135deg, #f59e0b, #b45309); }
   .mc-red { background: linear-gradient(135deg, #ef4444, #991b1b); }
   .mc-cyan { background: linear-gradient(135deg, #06b6d4, #164e63); }
   .mc-green { background: linear-gradient(135deg, #10b981, #064e3b); }
 
-  .mc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-  .mc-icon { background: rgba(255,255,255,0.2); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;}
-  .mc-label { font-size: 13px; font-weight: 600; opacity: 0.9; }
-  .mc-price { font-size: 28px; font-weight: 800; margin-bottom: 4px; }
-  .mc-change { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 600; background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 8px; }
+  .mc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .mc-icon { background: rgba(255,255,255,0.2); width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 12px;}
+  .mc-label { font-size: 12px; font-weight: 600; opacity: 0.9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100px; }
+  .mc-price { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
+  .mc-change { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; background: rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 6px; }
   
-  .mc-chart-container { height: 60px; margin-top: 16px; width: 100%; }
+  .mc-chart-container { height: 50px; margin-top: 12px; width: 100%; }
 
   .mobile-widgets { display: none; }
   .status-msg { font-size: 14px; color: var(--text-muted); text-align: center; padding: 20px;}
@@ -193,7 +189,6 @@
   .modal-body { font-size: 16px; line-height: 1.8; color: #cbd5e1; }
   .modal-link { display: inline-block; margin-top: 32px; background: var(--text-main); color: var(--bg-main); text-decoration: none; padding: 14px 28px; border-radius: 12px; font-weight: 600; text-align: center; transition: transform 0.2s;}
   .modal-link:hover { transform: translateY(-2px); }
-
 
   /* --- 📱 MOBİL UYUMLULUK --- */
   @media (max-width: 768px) {
@@ -224,8 +219,7 @@
     .feed-grid { grid-template-columns: 1fr; gap: 16px; }
 
     .market-total { font-size: 32px; }
-    .market-grid { grid-template-columns: 1fr; }
-    .mc-chart-container { height: 50px; }
+    .market-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); } /* Mobilde 2 sütun */
     
     .mobile-widgets {
       display: flex; overflow-x: auto; gap: 10px; padding: 0 0 16px 0;
@@ -299,7 +293,8 @@
         <input type="search" class="search-box" id="searchInput" placeholder="Haberlerde ara...">
       </div>
 
-      <div class="ai-briefing glass">
+      <!-- GÜNÜN ÖZETİ (Sadece Tümü'nde Görünür) -->
+      <div class="ai-briefing glass" id="aiBriefingCard">
         <div class="ai-header">
           <div class="ai-icon">✨</div>
           <div class="ai-title">Günün Özeti</div>
@@ -357,6 +352,7 @@ let readLinks = new Set(JSON.parse(localStorage.getItem('radar_read') || '[]'));
 let likedLinks = new Set(JSON.parse(localStorage.getItem('radar_liked') || '[]'));
 let marketData = null;
 let stocksData = null;
+let cryptoData = null;
 
 function esc(str) {
   if(!str) return '';
@@ -372,19 +368,14 @@ function timeAgo(dateStr) {
   return Math.round(diff / 1440) + ' gün önce';
 }
 
-// 🚀 SEKME GEÇİŞ ANİMASYONLU FONKSİYON
 function switchView(viewName, el) {
   document.querySelectorAll('.sidebar > .nav-item').forEach(n => n.classList.remove('active'));
   if(el) el.classList.add('active');
 
-  document.querySelectorAll('.view-section').forEach(v => {
-    v.classList.remove('active');
-  });
-  
-  const targetView = document.getElementById('view-' + viewName);
-  targetView.classList.add('active');
+  document.querySelectorAll('.view-section').forEach(v => v.classList.remove('active'));
+  document.getElementById('view-' + viewName).classList.add('active');
 
-  // Grafiklerin animasyonlu çizilmesi için (CSS animasyonu bittikten sonra)
+  // Grafikleri çiz
   if(viewName === 'market') {
     setTimeout(() => { renderMarketCharts(); }, 100);
   }
@@ -423,8 +414,18 @@ function selectCategory(id, el) {
   document.querySelectorAll('.nav-item[data-id]').forEach(n => n.classList.remove('active'));
   el.classList.add('active');
   activeCat = id;
+  
   const title = id === 'all' ? 'Gündem Akışı' : CATEGORIES[id].label;
   document.getElementById('feedTitle').textContent = title + ' Akışı';
+  
+  // 🚀 GÜNÜN ÖZETİ SADECE "TÜMÜ" SEÇİLİYSE GÖRÜNSÜN
+  const aiCard = document.getElementById('aiBriefingCard');
+  if(id === 'all') {
+    aiCard.style.display = 'block';
+  } else {
+    aiCard.style.display = 'none';
+  }
+
   renderNews();
 }
 
@@ -507,6 +508,7 @@ async function loadData() {
     allNews = data.items || [];
     marketData = data.market;
     stocksData = data.stocks;
+    cryptoData = data.crypto; // Yeni eklenen kripto verisi
 
     renderNews();
     renderAIBriefing();
@@ -551,36 +553,50 @@ function renderMarketView() {
     return;
   }
 
-  if (marketData && marketData.gold_gram_try) {
+  if (marketData && marketData.ceyrek_altin_try) {
+    totalEl.textContent = `₺${marketData.ceyrek_altin_try.toLocaleString('tr-TR')}`;
+  } else if (marketData && marketData.gold_gram_try) {
     totalEl.textContent = `₺${marketData.gold_gram_try.toLocaleString('tr-TR')}`;
-  } else {
-    totalEl.textContent = `₺50.28`; 
   }
 
   let html = '';
   const cards = [];
+  const colors = ['mc-purple', 'mc-orange', 'mc-red', 'mc-cyan', 'mc-green'];
+  let colorIdx = 0;
 
+  // Döviz ve Altın
   if (marketData) {
-    if (marketData.usdtry) cards.push({ label: 'USD / TRY', price: marketData.usdtry, change: 0.4, colorClass: 'mc-purple', icon: '$' });
-    if (marketData.gold_gram_try) cards.push({ label: 'Gram Altın', price: marketData.gold_gram_try, change: 1.2, colorClass: 'mc-orange', icon: '🪙' });
-    if (marketData.eurtry) cards.push({ label: 'EUR / TRY', price: marketData.eurtry, change: -0.2, colorClass: 'mc-red', icon: '€' });
+    if (marketData.usdtry) cards.push({ label: 'USD / TRY', price: marketData.usdtry, change: 0.4, icon: '$' });
+    if (marketData.eurtry) cards.push({ label: 'EUR / TRY', price: marketData.eurtry, change: -0.2, icon: '€' });
+    if (marketData.gold_gram_try) cards.push({ label: 'Gram Altın', price: marketData.gold_gram_try, change: 1.2, icon: '🪙' });
+    if (marketData.ceyrek_altin_try) cards.push({ label: 'Çeyrek Altın', price: marketData.ceyrek_altin_try, change: 1.1, icon: '🥇' });
   }
   
-  if (stocksData) {
-    stocksData.slice(0, 3).forEach(s => {
-      if (s.price == null) return;
-      let cClass = s.change_pct >= 0 ? 'mc-green' : 'mc-cyan';
-      cards.push({ label: s.label, price: s.price, change: s.change_pct, colorClass: cClass, icon: '📈' });
+  // Kripto
+  if (cryptoData && cryptoData.length > 0) {
+    cryptoData.forEach(c => {
+      if (c.price) cards.push({ label: c.label, price: c.price, change: c.change_pct || 0, icon: '₿' });
     });
   }
 
+  // Hisseler
+  if (stocksData) {
+    stocksData.forEach(s => {
+      if (s.price == null) return;
+      cards.push({ label: s.label, price: s.price, change: s.change_pct || 0, icon: '📈' });
+    });
+  }
+
+  // Kartları Renklendir ve HTML'e Dök
   cards.forEach((c, index) => {
     const isUp = c.change >= 0;
     const sign = isUp ? '+' : '';
     const arrow = isUp ? '▲' : '▼';
+    const colorClass = colors[colorIdx % colors.length];
+    colorIdx++;
     
     html += `
-      <div class="market-card ${c.colorClass}">
+      <div class="market-card ${colorClass}">
         <div class="mc-header">
           <div class="mc-label">${esc(c.label)}</div>
           <div class="mc-icon">${c.icon}</div>
@@ -639,7 +655,7 @@ function renderMarketCharts() {
         maintainAspectRatio: false,
         plugins: { legend: { display: false }, tooltip: { enabled: false } },
         scales: { x: { display: false }, y: { display: false } },
-        animation: { duration: 2000, easing: 'easeOutQuart' } // Daha yumuşak çizim
+        animation: { duration: 2000, easing: 'easeOutQuart' }
       }
     });
   });

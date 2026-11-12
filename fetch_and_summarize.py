@@ -10,6 +10,7 @@ import concurrent.futures
 
 import requests
 import trafilatura
+from googlenewsdecoder import gnewsdecoder # YENİ: Google News link çözücü
 
 # --- YAPILANDIRMA ---
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -32,9 +33,9 @@ CATEGORIES = [
     {"id": "dunya", "label": "Dünya", "query": None, "edition": EN},
     {"id": "gundem", "label": "Gündem", "query": "türkiye gündem", "edition": TR},
     {"id": "corlu", "label": "Çorlu", "query": "Çorlu Tekirdağ", "edition": TR},
-    # YENİ: MHA Haber (Doğrudan site RSS'i)
     {"id": "mha", "label": "MHA Haber", "url": "https://www.mhahaber.com/rss", "edition": TR},
 ]
+
 MAX_AGE_DAYS = 6 / 24
 MIN_ITEMS_PER_CAT = 3
 MAX_ITEMS_PER_CAT = 12
@@ -42,7 +43,6 @@ MAX_TEXT_LENGTH = 3500
 
 # --- HABER ÇEKME ---
 def build_url(cat):
-    # Eğer kategoride doğrudan bir "url" tanımlıysa onu kullan (MHA Haber gibi)
     if cat.get("url"):
         return cat["url"]
     
@@ -178,6 +178,16 @@ def fetch_stocks():
 # --- METİN ÇEKME VE GROQ (HABER ÖZETLEME) ---
 def fetch_article_text(url):
     try:
+        # 1. Google News linkini çöz (Eğer Google News linkiyse)
+        if "news.google.com" in url:
+            try:
+                decoded = gnewsdecoder(url)
+                if decoded.get("status"):
+                    url = decoded["decoded_url"]
+            except Exception as e:
+                print(f"  ! Link çözülemedi: {e}", file=sys.stderr)
+
+        # 2. Çözülen gerçek linke git ve tam metni çek
         downloaded = trafilatura.fetch_url(url)
         if not downloaded: return ""
         text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
@@ -221,16 +231,16 @@ def summarize_batch(items):
             break
     return [""] * len(items)
 
-# --- KATEGORİYE ÖZEL ANALİZLER (RADAR AI BRIEFINGS) ---
+# --- KATEGORİYE ÖZEL ANALİZLER (GÜÇLENDİRİLMİŞ PROMPT) ---
 def generate_category_briefings(all_news):
     if not all_news: return {}
-    top_news = all_news[:20]
+    top_news = all_news[:30] # Daha fazla haber alalım ki sekmeler boş kalmasın
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     
     prompt = (
         "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki haberleri okuyup 3 farklı alanda analiz yaz. "
         "Her analiz kendi alanındaki gelişmeleri özetleyen, 2-3 cümlelik, akıcı ve profesyonel bir metin olmalı. "
-        "Eğer o kategoride yeterli haber yoksa 'Bugün bu alanda öne çıkan bir gelişme yok.' yaz. "
+        "DİKKAT: Eğer 'teknoloji', 'ekonomi' veya 'gundem' alanında çok az haber olsa bile, elindeki verilerden yola çıkarak MUTLAKA bir analiz cümlesi yaz. ASLA boş bırakma, 'gelişme yok' deme. "
         "Çıktıyı KESİNLİKLE şu JSON formatında ver: "
         '{"teknoloji": "...", "ekonomi": "...", "gundem": "..."}'
         "Başka hiçbir şey yazma.\n\nHaberler:\n" + haber_metni
@@ -267,21 +277,14 @@ def send_smart_notification(new_items, market, crypto, stocks):
     if not NTFY_TOPIC: return
     sent_special = False
 
-    # 1. Ücretsiz Oyun Fırsatı Kontrolü
     new_games = [it for it in new_items if it.get("catId") == "oyun"]
     for game in new_games:
         try:
-            requests.post(
-                f"https://ntfy.sh/{NTFY_TOPIC}",
-                data=f"{game['title']}".encode("utf-8"),
-                headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"},
-                timeout=10
-            )
+            requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=f"{game['title']}".encode("utf-8"), headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"}, timeout=10)
             sent_special = True
             time.sleep(1)
         except: pass
 
-    # 2. Piyasa Alarmı Kontrolü
     alarms = []
     if stocks:
         for s in stocks:
@@ -296,25 +299,14 @@ def send_smart_notification(new_items, market, crypto, stocks):
 
     for alarm in alarms:
         try:
-            requests.post(
-                f"https://ntfy.sh/{NTFY_TOPIC}",
-                data=alarm.encode("utf-8"),
-                headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend,rotating_light", "Priority": "high"},
-                timeout=10
-            )
+            requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=alarm.encode("utf-8"), headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend,rotating_light", "Priority": "high"}, timeout=10)
             sent_special = True
             time.sleep(1)
         except: pass
 
-    # 3. Genel Bildirim
     if new_items and not sent_special:
         try:
-            requests.post(
-                f"https://ntfy.sh/{NTFY_TOPIC}",
-                data=f"RADAR: {len(new_items)} yeni haber eklendi. Detaylar uygulamada.".encode("utf-8"),
-                headers={"Title": "RADAR Güncel", "Tags": "newspaper"},
-                timeout=10
-            )
+            requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=f"RADAR: {len(new_items)} yeni haber eklendi. Detaylar uygulamada.".encode("utf-8"), headers={"Title": "RADAR Güncel", "Tags": "newspaper"}, timeout=10)
         except: pass
 
 # --- ANA AKIŞ ---
@@ -348,7 +340,7 @@ def main():
     print(f"Toplam {len(all_items)} haber. {len(need_summary)} yeni özetlenecek.")
 
     if need_summary:
-        print("Tam metinler çekiliyor (Paralel)...")
+        print("Tam metinler çekiliyor (Linkler çözülüyor)...")
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
             texts = list(executor.map(lambda i: fetch_article_text(i["link"]), need_summary))
             for it, txt in zip(need_summary, texts): it["text"] = txt
@@ -390,7 +382,6 @@ def main():
     os.replace(tmp_file, "news.json")
     
     print("news.json başarıyla yazıldı.")
-    
     send_smart_notification(need_summary, m_data, c_data, s_data)
 
 if __name__ == "__main__":

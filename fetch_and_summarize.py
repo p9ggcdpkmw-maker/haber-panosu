@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve AI Özetleyici (Akıllı Önbellekli)
+RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -216,7 +216,7 @@ def summarize_batch(items):
             break
     return [""] * len(items)
 
-# --- YENİ: KATEGORİYE ÖZEL ANALİZLER (RADAR AI BRIEFINGS) ---
+# --- KATEGORİYE ÖZEL ANALİZLER (RADAR AI BRIEFINGS) ---
 def generate_category_briefings(all_news):
     if not all_news: return {}
     top_news = all_news[:20]
@@ -245,7 +245,7 @@ def generate_category_briefings(all_news):
         print(f"  ! Briefing hatası: {e}", file=sys.stderr)
         return {"teknoloji": "Analiz hazırlanamadı.", "ekonomi": "Analiz hazırlanamadı.", "gundem": "Analiz hazırlanamadı."}
 
-# --- AKILLI CACHE (ÖNBELLEK) VE BİLDİRİM ---
+# --- AKILLI CACHE VE AKILLI BİLDİRİM ---
 def load_cache():
     cache = {}
     briefings = {}
@@ -258,15 +258,62 @@ def load_cache():
     except: pass
     return cache, briefings
 
-def send_notification(new_count):
-    if not NTFY_TOPIC or new_count <= 0: return
-    try:
-        requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=f"RADAR: {new_count} yeni haber eklendi".encode("utf-8"), headers={"Title": "RADAR Güncel", "Tags": "newspaper"}, timeout=10)
-    except: pass
+def send_smart_notification(new_items, market, crypto, stocks):
+    if not NTFY_TOPIC: return
+    sent_special = False
+
+    # 1. Ücretsiz Oyun Fırsatı Kontrolü
+    new_games = [it for it in new_items if it.get("catId") == "oyun"]
+    for game in new_games:
+        try:
+            requests.post(
+                f"https://ntfy.sh/{NTFY_TOPIC}",
+                data=f"{game['title']}".encode("utf-8"),
+                headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"},
+                timeout=10
+            )
+            sent_special = True
+            time.sleep(1) # Ntfy rate limitine takılmamak için
+        except: pass
+
+    # 2. Piyasa Alarmı Kontrolü (Hisse ve Kripto %2'den fazla hareket)
+    alarms = []
+    if stocks:
+        for s in stocks:
+            if s.get("change_pct") is not None and abs(s["change_pct"]) >= 2.0:
+                yon = "yükseldi" if s["change_pct"] > 0 else "düştü"
+                alarms.append(f"{s['label']} %{abs(s['change_pct']):.2f} {yon}!")
+    if crypto:
+        for c in crypto:
+            if c.get("change_pct") is not None and abs(c["change_pct"]) >= 2.0:
+                yon = "yükseldi" if c["change_pct"] > 0 else "düştü"
+                alarms.append(f"{c['label']} %{abs(c['change_pct']):.2f} {yon}!")
+
+    for alarm in alarms:
+        try:
+            requests.post(
+                f"https://ntfy.sh/{NTFY_TOPIC}",
+                data=alarm.encode("utf-8"),
+                headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend,rotating_light", "Priority": "high"},
+                timeout=10
+            )
+            sent_special = True
+            time.sleep(1)
+        except: pass
+
+    # 3. Genel Bildirim (Eğer özel bir alarm atılmadıysa ve yeni haber varsa)
+    if new_items and not sent_special:
+        try:
+            requests.post(
+                f"https://ntfy.sh/{NTFY_TOPIC}",
+                data=f"RADAR: {len(new_items)} yeni haber eklendi. Detaylar uygulamada.".encode("utf-8"),
+                headers={"Title": "RADAR Güncel", "Tags": "newspaper"},
+                timeout=10
+            )
+        except: pass
 
 # --- ANA AKIŞ ---
 def main():
-    # Hem haberleri hem de eski AI analizlerini önbellekten yükle
     cache, old_briefings = load_cache()
     all_items = []
     
@@ -311,8 +358,7 @@ def main():
 
     print("Hava durumu, piyasa ve kripto çekiliyor...")
     
-    # 🚀 TOKEN TASARRUFU MANTIĞI (SMART CACHE)
-    # Eğer yeni özetlenecek haber sayısı 0 ise ve eski analizler duruyorsa, yapay zekayı hiç çalıştırma!
+    # TOKEN TASARRUFU MANTIĞI (SMART CACHE)
     if len(need_summary) == 0 and old_briefings:
         print("Yeni haber yok. Eski RADAR AI analizleri kullanılıyor (Token tasarrufu).")
         briefings = old_briefings
@@ -320,14 +366,19 @@ def main():
         print("Yeni haberler var. RADAR AI Günün Analizleri hazırlanıyor...")
         briefings = generate_category_briefings(all_items)
 
+    # Verileri topla
+    m_data = fetch_market()
+    c_data = fetch_crypto()
+    s_data = fetch_stocks()
+
     out = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "briefings": briefings,
         "items": all_items,
         "weather": fetch_weather(),
-        "market": fetch_market(),
-        "crypto": fetch_crypto(),
-        "stocks": fetch_stocks(),
+        "market": m_data,
+        "crypto": c_data,
+        "stocks": s_data,
     }
     
     tmp_file = "news.json.tmp"
@@ -336,7 +387,9 @@ def main():
     os.replace(tmp_file, "news.json")
     
     print("news.json başarıyla yazıldı.")
-    send_notification(len(need_summary))
+    
+    # YENİ: Akıllı Bildirim Gönder
+    send_smart_notification(need_summary, m_data, c_data, s_data)
 
 if __name__ == "__main__":
     main()

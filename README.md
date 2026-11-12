@@ -1,2 +1,2 @@
-# haber-panosu
+# RADAR
 Güncel haber listesi 

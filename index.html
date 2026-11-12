@@ -73,18 +73,33 @@
     box-shadow: 0 0 40px rgba(0,0,0,0.8);
   }
 
+  /* DÜZELTİLEN LOGO KISMI */
   .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: var(--text-main);
+    margin-bottom: 24px;
+    width: 100%;
+    padding-left: 28px;
+    transition: all 0.3s;
+  }
+  .logo-icon {
     font-size: 24px;
     color: var(--accent);
-    margin-bottom: 20px;
     text-shadow: 0 0 15px var(--accent);
-    transition: all 0.3s;
-    width: 100%;
-    text-align: center;
+    flex-shrink: 0;
+    margin-left: 2px;
   }
-  .sidebar:hover .logo {
-    text-align: left;
-    padding-left: 28px;
+  .logo-text {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .sidebar:hover .logo-text {
+    opacity: 1;
   }
 
   .nav-item {
@@ -128,7 +143,7 @@
     gap: 20px;
     max-width: 1400px;
     margin: 0 auto;
-    margin-left: 120px; /* Sidebar için boşluk */
+    margin-left: 120px;
     padding: 20px 20px 20px 0;
     height: 100vh;
     overflow: hidden;
@@ -162,6 +177,33 @@
     transition: all 0.3s;
   }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
+
+  /* 🚀 GÜNÜN ÖZETİ (AI BRIEFING) KARTI */
+  .ai-briefing {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05));
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ai-briefing::before {
+    content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%;
+    background: var(--accent);
+    box-shadow: 0 0 15px var(--accent);
+  }
+  .ai-header {
+    display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+  }
+  .ai-icon {
+    font-size: 20px; background: rgba(139, 92, 246, 0.2); padding: 8px; border-radius: 12px;
+  }
+  .ai-title { font-size: 18px; font-weight: 700; color: #fff; }
+  .ai-badge { font-size: 10px; background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 10px; font-weight: 700; letter-spacing: 0.5px;}
+  .ai-content { font-size: 15px; color: #cbd5e1; line-height: 1.6; }
+  .ai-content ul { margin-top: 10px; margin-left: 20px; }
+  .ai-content li { margin-bottom: 8px; }
 
   /* Haber Kartları */
   .feed-grid {
@@ -252,7 +294,6 @@
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
 
-  /* Borsa Şeridi Varsayılan Olarak Gizli (PC'de görünmez) */
   .mobile-widgets { display: none; }
 
   /* --- 📱 MOBİL UYUMLULUK --- */
@@ -261,18 +302,15 @@
   }
   
   @media (max-width: 768px) {
-    body {
-      overflow-y: auto; /* Mobilde doğal sayfa kaydırması */
-    }
+    body { overflow-y: auto; }
     .app-container { 
-      display: block; /* Mobilde flex yerine block daha güvenli */
-      margin-left: 70px; /* 10px sol + 50px sidebar + 10px boşluk */
+      display: block; 
+      margin-left: 70px; 
       padding: 10px 10px 40px 0;
       height: auto; 
       overflow: visible; 
     }
     
-    /* Mobilde Sol Menü */
     .sidebar { 
       top: 10px; left: 10px; bottom: 10px;
       width: 50px !important;
@@ -281,23 +319,17 @@
     }
     .sidebar:hover { width: 50px !important; align-items: center; } 
     
-    .logo { display: none; }
+    .logo { display: none; } /* Mobilde logo tamamen gizli */
     .nav-item { padding: 14px 0; justify-content: center; border-left: none; }
     .sidebar:hover .nav-item { padding-left: 0; justify-content: center;}
     .nav-item.active { background: rgba(139, 92, 246, 0.15); border-radius: 12px; }
     .nav-text { display: none !important; }
     .nav-dot { width: 10px; height: 10px; }
 
-    /* Ana İçerik */
-    .main-feed { 
-      overflow-y: visible; 
-      padding-right: 0; 
-      height: auto;
-    }
+    .main-feed { overflow-y: visible; padding-right: 0; height: auto; }
     .feed-header { flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px;}
     .search-box { width: 100%; padding: 10px 16px;}
     
-    /* Mobil Borsa Şeridi */
     .mobile-widgets {
       display: flex;
       overflow-x: auto;
@@ -329,6 +361,10 @@
     .mob-widget .sub { font-size: 11px; font-weight: 600; margin-top: 2px;}
 
     .feed-grid { grid-template-columns: 1fr; gap: 16px; }
+    
+    /* Mobilde AI Briefing kartı daha kompakt */
+    .ai-briefing { padding: 16px; margin-bottom: 16px; }
+    .ai-content { font-size: 14px; }
   }
 </style>
 </head>
@@ -336,7 +372,10 @@
 
 <!-- SOL MENÜ -->
 <aside class="sidebar glass">
-  <div class="logo">●</div>
+  <div class="logo">
+    <div class="logo-icon">📡</div>
+    <div class="logo-text">RADAR</div>
+  </div>
   <div class="nav-item active" data-id="all">
     <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> 
     <span class="nav-text">Tümü</span>
@@ -353,6 +392,18 @@
     <div class="feed-header">
       <div class="feed-title" id="feedTitle">Gündem Akışı</div>
       <input type="search" class="search-box" id="searchInput" placeholder="Haberlerde ara...">
+    </div>
+
+    <!-- 🚀 YENİ: GÜNÜN ÖZETİ (RADAR AI BRIEFING) -->
+    <div class="ai-briefing glass">
+      <div class="ai-header">
+        <div class="ai-icon">✨</div>
+        <div class="ai-title">Günün Özeti</div>
+        <div class="ai-badge">RADAR AI</div>
+      </div>
+      <div class="ai-content" id="aiBriefingContent">
+        Günün öne çıkan gelişmeleri analiz ediliyor...
+      </div>
     </div>
     
     <div class="feed-grid" id="newsGrid">
@@ -527,9 +578,30 @@ async function loadData() {
     renderNews();
     renderMarket(data.market, data.stocks);
     renderWeather(data.weather);
+    renderAIBriefing(); // Günün özetini oluştur
   } catch (e) {
     document.getElementById('newsGrid').innerHTML = `<div class="status-msg">Bağlantı hatası: ${e.message}</div>`;
   }
+}
+
+// 🚀 YENİ: GÜNÜN ÖZETİNİ OLUŞTURAN FONKSİYON
+function renderAIBriefing() {
+  const container = document.getElementById('aiBriefingContent');
+  if (!allNews || allNews.length === 0) {
+    container.innerHTML = 'Şu an analiz edilecek haber bulunmuyor.';
+    return;
+  }
+
+  // Şimdilik en güncel 3 haberi özet olarak listeliyoruz.
+  // Python tarafı bağlandığında burası gerçek AI metni ile değiştirilecek.
+  const topNews = allNews.slice(0, 3);
+  let html = '<p style="margin-bottom: 12px; color: #fff;">Yapay zeka analizine göre bugünün öne çıkan başlıkları:</p><ul>';
+  topNews.forEach(n => {
+    html += `<li><strong>${esc(n.title)}</strong> <span style="font-size:12px; color:var(--text-muted);">(${esc(n.cat)})</span></li>`;
+  });
+  html += '</ul>';
+  
+  container.innerHTML = html;
 }
 
 function renderMarket(market, stocks) {

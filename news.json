@@ -1,17 +1,61 @@
 {
-  "updated": "2026-11-12T09:27:09.939872+00:00",
-  "briefing": "Merhaba, bugünün öne çıkan gelişmeleri şunlar: Eski OECD Genel Sekreteri Ángel Gurría, küreselleşmenin durdurulamadığı gibi yapay zekanın da durdurulamayacağını vurguladı. Vietnam ve Japonya, ortak araştırma programlarıyla yarı iletken ve yapay zeka teknolojilerinde uzmanlaşmayı hedeflerken, Vietnam Bilim ve Teknoloji Bakanı Vu Hai Quan, yerel düzeyde 29 teknolojik zorluğun tespit edildiğini ve destek sağlanacağını açıkladı. Nvidia CEO’su Jensen Huang’ın olası görevden alınması spekülasyonları, Avrupa teknoloji hisse senetlerinde gerilemeye yol açtı; aynı zamanda Çin’in yapay zeka çözümlerinin Japonya’ya yayılması milyonlarca çalışanı iş kaybı riskiyle karşı karşıya bırakıyor. Yapay zeka, reklamcılık ve iş dünyasında yeni",
+  "updated": "2026-11-12T09:52:46.520829+00:00",
+  "briefing": "Merhaba, bugünün öne çıkan gelişmeleri şunlar: Vietnam ve Japonya, yarı iletken ve yapay zeka teknolojilerinde uzmanlaşmak amacıyla ortak araştırma iş birliğine imza attı. Nvidia’nın CEO’su Jensen Huang’ın görevden alınma ihtimali, Avrupa teknoloji hisselerinde gerilemeye yol açtı. Vietnam bakanı Vu Hai Quan, genç öğrenciler arasında yapay zekâ kullanımının sınırlandırılması gerektiğini vurguladı. Uzmanlar, yapay zekânın gazetecilik ve reklamcılık gibi alanlarda süreçleri dönüştüreceğini, ancak insan faktörünün hâlâ kritik olduğunu belirtiyor.",
   "items": [
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
-      "title": "Eski OECD Genel Sekreteri Gurria: Küreselleşmeyi durduramadığınız gibi yapay zekayı da durduramazsınız",
-      "source": "Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWFpySmxKdU40SXRYdXp2TTdpQmVKSUxESEtSOEJvcW9jWkpqT1BiWVN3bGFFaFlDTkJmc2thSGFVc0hwaHM0NjdGZU9pN2sydHQ0Rlljb3o3M2tfdzdNeUp1TDYzVS0tdVpadFpFNDNxdW5RYmcyaEJ0SVJpdFR0WGRtN2JyNFpabGtFZmFwYVNCQWR6R3J5VVFjQUpjNVdlX1lOTndMam1pRWV0OGFYVkJCUEt2Z0xOTlk4Rlh0ZlE1RHJyaE1pdTBTcUhpYVFwMC1UUXZ0Ql9JcUw5djhuc1NnU0s?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 09:22:30 GMT",
+      "title": "Bakan Vu Hai Quan: 'Genç öğrenciler için yapay zekâ kullanımını sınırlamayı düşünün'",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUm8ySVFfN24tOVFHZWRaRHZZQnZ1cm4zdklDQV9XWGp2TjR3Z0gzLXpjc2F6QmpFWGpRTXhDNmdadVZXblg0bDJwX3BZQ1FZeTFHRm9FWlM2Z3JYb1JFM19CdHhlQk1UT3pMdjNlWGw2OHpQcE5FWGw5dlZsYUFXbWlKVE1jVUFINEpzREUwX20xczlNX1VJ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:48:34 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Eski OECD Genel Sekreteri Ángel Gurría, küreselleşmenin durdurulamadığı gibi yapay zekanın da durdurulamayacağını belirtti."
+      "summary": "Tam metne ulaşılamadı. Bakan Vu Hai Quan, genç öğrenciler arasında yapay zekâ kullanımının sınırlandırılması gerektiğini belirtti."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay zekâ gazetecilerin yerini almayacak, ancak yapay zekâyı nasıl kullanacağını bilmeyen gazetecilerin yerini yapay zekâ alabilir.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYjRrVTNGZkRaYmkyUzVvN0NvZVZwamtqbDJCdGxzR21HVUlaRkVzSklUS0tNQTlxYWdmblNCNk1lOXlJMVJSMEZkcWh3VzdnMDY2Q1VzRTFuSThlYVdOQXBFbzQtTHJSWXI4Q29DdElzdGFXRzd1NGJZdEFRN0NUS29YaG52VFBpYnJLc0xUX1R4dHR6aFV5Q0xJbU5RSjhs?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:48:33 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Yapay zekânın gazetecilerin yerini tamamen almayacağı, fakat teknolojiyi etkin kullanamayan gazetecilerin yerini alabileceği vurgulandı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Dijital rekabet sıralamalarını somut sonuçlara dönüştürmek.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcmF2eVkxTjBORU9uX2xiMmM3Z19KeU5NbHc5S0hWVGIzVy1MU0l5R3JwMjhZX2REVlUyUVBhRUZLM0ZQLUpQT1htazUyMFZNVW16SzF6LWVuN2ptZVpqNHZmeUpIQjZfb0xET1ZIWnZSV05IOVlCajRtTWNpN1RyVmphSnJQUEEzUktublNLdw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:48:33 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Dijital rekabet sıralamalarının pratik sonuçlara çevrilmesi gerektiği ifade edildi."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "\"yapay Zeka, Oyunun Kuralı Haline Gelecek, Yaygınlaşıp Genelleşecek\"",
+      "source": "Analiz Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR1NIeWVQVHlZc0VZdnU2cWFKS2N1VUV1NUJLc1FDTTRWMmNOZUUzdk5RV0hCNVRxaVJtU0pQS1NMZF9oNEM1VzR2Y25sSGpUaGd2MlRNUkFPVnBYdFBaWXFIY3B6SnRGRURnLUhtT1RTcjBmekZQN25sN25PNGNBR0xUV0VWYTlWa3ZaTWlBbnpsSTlFWXFRVE9tQVNnWmMyWkdlQmx5NnNRUQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:42:46 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, yapay zekanın gelecekte oyun sektörünün temel kuralı olacağı ve yaygınlaşarak genel bir standart hâline geleceğini öne sürüyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay Zekâ Çağında İnsan ve Kişisel Gelişim: Öz Farkındalık, Özerklik ve İnsani Bağların Geleceği",
+      "source": "- Medikal News",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNzBaVjI1TlNUd0tzaVRNX1NkZmZid1JkVnBvaXllS2QwYS1PSWxzSDVGZXp3dVFYZU1sZUVLLUhXaWd2dWFRTGdnQjZTUlRhSnZ5d3dMQlN1M3YzbEI2VkZZQWRZeGtERnUxRkFUZXJpekdOdXhNODhtczhqT0N5alo5SWFEM1NIZGNQMEdQTkNZM0J6RmwxNHJ3eU5aNnF3RWctNXhhUEUzd1VYemNsdDJhYWNueWdIZEp1YW5jYU5Idw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:25:52 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, yapay zekâ çağında bireylerin öz farkındalık, özerklik ve insani bağları geliştirmesinin önemine değiniyor."
     },
     {
       "cat": "Teknoloji",
@@ -21,7 +65,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbGNFd2pPa3lIU1VOYTV2WG1NT0NIX0k5dEtoYkltd2xZY3NCLUU2YW5mQjdnZ0w2MnYxWmh0aUI1ZzZNMVA2U1h5NXNwUlpMbmE2MFVCVEd1dGZ4NnZLamVNQlBUWExZcTdfdUs2MmxNZXZram9UTnNrYkNZSC1RUDVxWThGMUdBNHI0UEtWRk9EOThNakF4U0tOLThfYXplSldiWm5NbFlVUQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 09:15:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Vietnam ve Japonya, araştırma iş birliği sayesinde yarı iletken ve yapay zeka teknolojilerinde uzmanlaşmayı hedefliyor."
     },
     {
@@ -83,46 +126,6 @@
       "pubDate": "Thu, 12 Nov 2026 08:21:58 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Başlığa göre, yapay zekânın dijital çağda gazetecilik üzerindeki etkileri ve olası değişiklikler inceleniyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Çin'den Japonya'ya Asya'da yapay zeka dönüşümü: Milyonlarca çalışan risk altında",
-      "source": "Cumhuriyet",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSDlHOEZBRE5hbmYwYWlNckFURHdGMmc3RGtoUHVZMjZmNUNwNlhRdzZCYWZSNkh1d3J1Tl9VTHZFRWpEenZjTzg5TjRuRGZRUWZ0YTBsQzVpTVBaeVdJYjN6RkoxRHAxS0R4b0pjcWoxeTdRV2I2dkVENDk1dEoxVTBHTFp3dW1SRzZES1k0R2ZsVTNKSjNYcXNSQWxGQmgzQnRTeVZCOVpXbmp5bFE0S0JUMGpKcjdmem9aTWRMVDA?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 08:11:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Çin'in yapay zeka teknolojileri Japonya'ya yayılıyor ve bu dönüşümde milyonlarca çalışan iş kaybı riskiyle karşı karşıya."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Uluslararası uzmanlar, çiftçilerin mahsullerini izlemelerine yardımcı olmak için yapay zekanın kullanımına ilişkin öneriler sunuyor.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONk1NMDZ6MEtJbS1LOUcxSkVmQWdic1BudEpuOEZkenNHTHVrNW1zd1Yzbm5fRjlmMGZlZnFVcjUySUtoajF1ZG1zbHo4YjVoYXIzeUZ2bUV3NU1zYnh5ck13T0t4TGlTcVhLWmJmVUFpbkxzdzhLR1NCNTZ5cFlNaWJEWkYzV1JMVFo3UnR2OWxaVWt3d1R5TEFn?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 08:00:56 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Uluslararası uzmanlar, çiftçilerin mahsullerini izlemelerine yardımcı olmak amacıyla yapay zekanın kullanımına ilişkin öneriler sunuyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "NVIDIA Yönetimi Jensen Huang'ı Görevden Alabilir: Seçenekler Değerlendiriliyor!",
-      "source": "Webtekno",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT1NHenVQbl8wWUx6MVo2Q2k0RHhaalBFbTRVVTBhZ0JFVXVzRmQ0QUs2X2xMWmpUcDBiTjQtdjN6cmRjOEM3amZlRm9xb3ZaMFRGZlYyUkdjN0dmU21tNHRfWHBpRHlUc3pLSkxPSVJzYjdwOUd5eDAxWTdncmlhakVfMXFNdW5JNmNQVw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 08:00:44 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. NVIDIA yönetimi, CEO Jensen Huang'ın görevden alınması olasılığını değerlendiriyor ve çeşitli seçenekleri inceliyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Microsoft, ilk çeyrek gelir ve kâr beklentilerini aşmasına rağmen yapay zekaya geçiş sürecini hızlandırıyor. Şirket, maliyetleri dengelemek amacıyla iş gücünün yaklaşık yüzde 30’una işten ayrılma teşvik paketleri sunuyor. Bu kapsamda yaklaşık 60 bin çalışanın",
-      "source": "Instagram",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56Z1RWdnA4Wk9UVnRQMy1BenRJZzdESXQ4YjdXNkkwWWdRTm9nUTRlTDlRN3dHV21jcEttN0Q4WUVqRXc0cDhYS3BRd2YtM2FjQUE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 07:54:41 GMT",
-      "image": null,
-      "summary": "Microsoft, ilk çeyrek gelir ve kâr beklentilerini aşmasına rağmen yapay zekaya geçiş sürecini hızlandırıyor. Şirket, maliyetleri dengelemek için iş gücünün yaklaşık yüzde 30’una, yaklaşık 60 bin çalışana, işten ayrılma teşvik paketleri sunuyor."
     },
     {
       "cat": "Bilim",
@@ -247,6 +250,27 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "Nasdaq-100 futures slide, dragged lower as Nvidia sell-off resumes: Live updates",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00cTdQYjhOUVlzVEZnQndNN1NKNzBJSjIta1lDWVlVXzhDcXkwWWpVRnE3c1VMTVF2bkZ5WnhHU2NSd2ZRZlI4RVRjREJvbG9xWDZJRF9QMG1MNE40ZGdESkpmZXhsOUhCTUcyZGZiOGhfTjdiSUk4?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:18:29 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Nvidia satışlarının sürmesiyle Nasdaq-100 vadeli sözleşmelerinin düşüşte olduğunu bildiriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Dangerous search for survivors continues after deadly building collapse in Brooklyn",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RZkdYZk4zZ1NacXpLb25ncXd1WXJTX3c5aFlhM2lGYzRoSjFiZTlVeTItS0ZPSUwwOTJkdk1XaUxCYU5QbGpVTXN1YUpVUjIwT1FJNWhMdEJIUV8xTERyYmFzTFZLVDVBaUZRc2sydHpxWVNobG9qS2tGcGhxWHc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:13:00 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı. New York'ta bir binanın çökmesi sonucu en az bir kişi hayatını kaybetti ve 12 kişi yaralandı; geniş çaplı kurtarma çalışmaları sürüyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "Mammoth crowds greet Pope Leo on return to Peru, his adopted homeland",
       "source": "The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeUpuTEFWN2VuSlF3TnN5Z2MyeUg4dmt5WmVYNHBIUjJLMDNaMnh2OXVibjZUT3BGZmtXT1lTSnFhX1M4dU8wYVpsNi1XX3Y5SXRObkkxSmdCQU53OFMtTkxVcTBIVEo1UE5RUHZmVnpCNV9FblhuM3QxdlVILS1pWWJ2dzEzYmRLMUoybmpneFlPeW1YYUE?oc=5",
@@ -262,8 +286,28 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbWJsX09iak1JNmhabW1OdjdOVW84Yk5iYVI0YmJJeEE1LTc0YTAyamNncXpSbHNGT1ZNOGlNWFotMDNybEo4Uk9oVmVzeEpzdnBsWWxrb3pPbldXQmhMQWd3T3pHd2lGN0xqVVhwSjlBWEwwRXR2U0FLOXZmdTZBWC05Vmx4RVc4ek53ZnBqQ1BBRUlyNWc?oc=5",
       "pubDate": "Thu, 12 Nov 2026 08:23:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Kurtarma ekiplerinin bildirdiğine göre, Gazze'deki bir hastaneye yönelik saldırıda en az 6 kişi öldü ve 20 kişi yaralandı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Who could run Nvidia after Jensen Huang?",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONGwtcHF0SDE5RmFBeWN0VXJzVzhLT0VIV3p4U2FEUkJETzl0bHptWURPUFd0MnBDWF9TUkx4c3pvNm9Oc1RjbE9hUVIyQTZRLVdOd0hvQm9mQzl6QnNRWERBM21iZ0JsejF5eUtzZVZFcTdOcXNYZkZsZmNNUkUySm04R28?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 07:54:52 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Financial Times'ın \"Who could run Nvidia after Jensen Huang?\" başlıklı haberi, Nvidia'nın kurucu CEO'su Jensen Huang'un olası bir ayrılığının ardından şirket yönetimini kim üstleneceği konusunu inceliyor. Tam metne ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Scott Colom, a Democrat, Wins Mississippi Senate Election",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRTNHZFFRdHFUWjJ5Yk4xZGNtemYyR3B3UENkcHE3NG5TOUo3ai0ydnFGQ2k5YU1IbkNLdG4tNHR4dTZES01xQVlrMHN2YUdVUVJoQzNEcFdzN3N2Q1d0Z0lwZE1sM2I0dGFZY250Zk91QUtjczEtS1dsQTh0YjJ5MmpxZkltaGU0R2J3MXpqSzMxdw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 07:12:00 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı. Başlık, Demokrat Scott Colom'un Mississippi Senato seçimini kazandığını bildiriyor."
     },
     {
       "cat": "Dünya",
@@ -278,16 +322,6 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Dangerous search for survivors continues after deadly building collapse in Brooklyn",
-      "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RZkdYZk4zZ1NacXpLb25ncXd1WXJTX3c5aFlhM2lGYzRoSjFiZTlVeTItS0ZPSUwwOTJkdk1XaUxCYU5QbGpVTXN1YUpVUjIwT1FJNWhMdEJIUV8xTERyYmFzTFZLVDVBaUZRc2sydHpxWVNobG9qS2tGcGhxWHc?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 06:31:30 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. New York'ta bir binanın çökmesi sonucu en az bir kişi hayatını kaybetti ve 12 kişi yaralandı; geniş çaplı kurtarma çalışmaları sürüyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "Hegseth and his entourage scolded by military sentinel at Tomb of the Unknowns",
       "source": "The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZkd0azd3NU5ldWVWYnkwdktUV1ZHR0l6alR1U1VtbjlSYXdEWWRFcHVtSTdUMXE1anpOaUxLaWVsQXdycEFXVjh0LWU0eV9yMUNxaUFQcndSU0xILWZwRFVOdG5CcXMtODM5aW4zaEdYclhBcUN0dzNIclM0N2txWVFqU3VLRDJpR21WR1NiZWYzaGRCdldLcmtDcHRLODFSSWtIaEgwRnpZd2RUcHc?oc=5",
@@ -298,33 +332,23 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Zac Affleck Says He Regrets How He Treated Jen Amid Divorce, Sources Say No Bad Blood",
-      "source": "TMZ",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUk9wN0ZLd1V2eEJ6RXQ3Yi0ySE12QXduUHVBSjVVUjJ2LVV1a3B4OHdtRjZKNlY2aWVGMnpqRXZzWDFqbm5zeXFNeC1CV1kxQnZsVEVpX2tSZUZ1eXMwQ0xnVGs3RkxlX3A1M3gtVHRteGNULWlocUZoOHNjbmdlWmVCNlM3M3N5T2lPZl9rTEYtbjlpNU5iMUc4Z2FwTG41bEE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 05:24:18 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Zac Affleck, boşanma sürecinde Jen'e karşı tutumundan pişman olduğunu söyledi. Kaynaklar, çift arasında ciddi bir düşmanlık olmadığını belirtiyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Scott Colom, a Democrat, Wins Mississippi Senate Election",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRTNHZFFRdHFUWjJ5Yk4xZGNtemYyR3B3UENkcHE3NG5TOUo3ai0ydnFGQ2k5YU1IbkNLdG4tNHR4dTZES01xQVlrMHN2YUdVUVJoQzNEcFdzN3N2Q1d0Z0lwZE1sM2I0dGFZY250Zk91QUtjczEtS1dsQTh0YjJ5MmpxZkltaGU0R2J3MXpqSzMxdw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 05:24:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, Demokrat Scott Colom'un Mississippi Senato seçimini kazandığını bildiriyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "SS United States updates: Ship completes final voyage, sinks to gulf floor to become artificial reef",
       "source": "ABC7 New York",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdmxyLV9wNkFXeVk2UDEyWk0tdEM0RHlyRER2RWlEYUFxWlBWSGg0cEpFbUptSFk4cVVyY2JWYUk5Q09jQmlOeHR6blI3SGxqaDZJNEZJUFU5SWZVN1g1SV9GcUR2WFZXRUN3TmQzbkJhZnp3WDNTLUFhVG9RNk1mZmRqX2NPRXotbVFOOU00RVNCb1htbnRxdEtWLXJTTm5DOXp2NTVaT2FIQ09pbk1Ra0hKcmtkVERzbGt3RFZLM2tPVllscENZMEZlX2kyZEpMQmd5bk16eXlnY21JeWF2MQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 05:20:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. SS United States gemisi son yolculuğunu tamamlayarak Körfez tabanına batırıldı ve yapay resif olarak kullanılacak."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Mauricio Pochettino, Manchester United and a move 10 years in the making",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbkdUclg0MXFFM1ZEdVV1LXNCMk9fSml1NmJfTGRtNjlRNUJOd2NUX1ItaGY3N0syQjZiOFlqaXdJaWhRclNKckljRUJvS3NXcC1raG9iOExWMmdaWWR2a1JUVjJ6SjJWa3plRzgyUW9ManJsX2hkZU9lZXNUWFhxUGdlVHFITWVXVGVxQzN2X0h0ZWd4NFdNZ0RBN0pxaExpVnVJWWI4UXE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 05:15:55 GMT",
+      "image": null,
+      "text": "",
+      "summary": "The New York Times'ın \"Mauricio Pochettino, Manchester United and a move 10 years in the making\" başlıklı haberi, Mauricio Pochettino'nun Manchester United’a transferinin on yıllık bir sürecin ardından gerçekleşmesi konusunu ele alıyor. Tam metne ulaşılamadı."
     },
     {
       "cat": "Dünya",
@@ -344,8 +368,29 @@
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcV9JZVNFV3pwMGVocWp6SFBQTW5jR2pjRDRXSE9DbV9xVWhSRXE4U0RkcVV6WGN3Z3ZHazVkNnlTVEVKZDRPakhmQk92UXcwdEtHNDVsVFY3QUJOSjRwMUlEaWNzWFl4Mkw1NXhyWVVkRXZ3bVd1cHdPV2FEOHNSYWVXWjlGNTM3aHhTVTFKRElaQjFUOUJ1RFdSdDAzV25QTmJyYnJKNG5VSThzU0Z2OWliZG9IbncwN2EzU0RKcnZvM1FkenEyc01nNjBRZw?oc=5",
       "pubDate": "Thu, 12 Nov 2026 04:14:50 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Güney Karolina'da, bir çocuğu diri diri gömülen bir çocuğun babası, cinayet girişimi suçlamasıyla tutuklandı."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Kırmızı bültenle aranan Sercan Sayal Türkiye'ye getiriliyor",
+      "source": "Manşet Haber",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObnd1RmFXbTBxVVlYblZ1a3dMNm9ESTNQcHdndTM2a2gzbnFxdTdidktSZmdxSEZLR1hoQi1IeDdNQjMySDBleVhnODF6TlRiYk40VFR0VmNnYzBhMzdFemtzTkhnb1FpQXNDekllQ1VuQnJvbGlXTkkydjE0V3FDc2YyYmNWbE9kckwzWWFWMjVyWnRKc1NGcG9XMEVjUQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:41:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Manşet Haber'in \"Kırmızı bültenle aranan Sercan Sayal Türkiye'ye getiriliyor\" başlıklı haberi, kırmızı bültenle aranan Sercan Sayal'ın Türkiye'ye getirileceğini duyuruyor. Tam metne ulaşılamadı."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Türkiye'nin su kaynaklarında yüzde 25 azalma riski!",
+      "source": "Manşet Haber",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbElGZTVvNWZvWS1LX1lhYXplVkVZeXJ5UE40cE9jaWZHOUU2Y1RQRTdyVUZvbExpZEItekJzMWlBMlBHaWhzMDNSWnZWYzBKQnpESXZTX29IWWdPdnMwSEtOV2RzbXl5dGYyei0wZHlKRElrVkNYNUQ3VXRYMXZ0UThRaUFlcEE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:19:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Türkiye'nin su kaynaklarında yüzde 25 azalma riski var."
     },
     {
       "cat": "Gündem",
@@ -419,32 +464,32 @@
     }
   ],
   "weather": {
-    "temp": 18.8,
-    "desc": "Az bulutlu"
+    "temp": 19.1,
+    "desc": "Parçalı bulutlu"
   },
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6364.5,
-    "ceyrek_altin_try": 11137.88
+    "gold_gram_try": 6375.65,
+    "ceyrek_altin_try": 11157.39
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3682644,
-      "change_pct": -0.4850704204861566
+      "price": 3687307,
+      "change_pct": -0.3098774831442518
     },
     {
       "label": "Ethereum",
-      "price": 102569,
-      "change_pct": -0.6252408664029221
+      "price": 102711,
+      "change_pct": -0.4334548955330014
     }
   ],
   "stocks": [
     {
       "label": "BIST 100",
-      "price": 11833.97,
-      "change_pct": 1.48
+      "price": 11825.43,
+      "change_pct": 1.4
     },
     {
       "label": "S&P 500",
@@ -458,28 +503,28 @@
     },
     {
       "label": "THY",
-      "price": 319.0,
-      "change_pct": 1.35
+      "price": 319.25,
+      "change_pct": 1.43
     },
     {
       "label": "Aselsan",
-      "price": 348.0,
-      "change_pct": 1.38
+      "price": 347.25,
+      "change_pct": 1.17
     },
     {
       "label": "Garanti BBVA",
-      "price": 155.1,
-      "change_pct": 0.19
+      "price": 154.0,
+      "change_pct": -0.52
     },
     {
       "label": "BİM",
-      "price": 385.0,
-      "change_pct": 1.99
+      "price": 385.25,
+      "change_pct": 2.05
     },
     {
       "label": "Ereğli Demir Çelik",
-      "price": 32.28,
-      "change_pct": 2.35
+      "price": 32.34,
+      "change_pct": 2.54
     },
     {
       "label": "Şişecam",

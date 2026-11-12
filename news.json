@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-12T15:00:07.149953+00:00",
+  "updated": "2026-11-12T15:03:09.891962+00:00",
   "briefings": {
-    "teknoloji": "Analiz hazırlanamadı.",
-    "ekonomi": "Analiz hazırlanamadı.",
-    "gundem": "Analiz hazırlanamadı."
+    "teknoloji": "Vietnam, genç öğrencilerin yapay zeka erişimini sınırlandırma ve dijital ortam güvenliğini güçlendirme adımları atarken, HanoiGo platformu AI‑ve 360° VR entegrasyonu ile dijital turizmi yeniliyor. Nvidia CEO'su Jensen Huang'ın istifası ve AI asistanları için 10 milyar dolarlık rekabet, küresel teknoloji ekosisteminde yön değişimlerine işaret ediyor.",
+    "ekonomi": "ABD işsizlik başvurularının 200 bin seviyesine yükselmesi, altın fiyatının 3.900 $/oz civarına ulaşmasıyla birlikte yatırımcıların risk iştahını azaltması gözlemleniyor. Nvidia CEO değişikliği ve Çin'in AI veri merkezi yatırımı da teknoloji hisselerinin dalgalanmasına ve bölgesel rekabetin ekonomik boyut kazanmasına neden oluyor.",
+    "gundem": "ABD'de Brooklyn'de bina çöküşü ve Washington'da silahlı saldırı gibi trajik olaylar, toplumsal güvenlik kaygılarını artırıyor. Aynı zamanda ICE'ın göçmen tutuklamalarındaki rekor artış ve Gazze'deki hastane bombalaması, uluslararası insan hakları ve göç politikaları tartışmalarını yeniden gündeme taşıyor."
   },
   "items": [
     {
@@ -249,6 +249,17 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "Nvidia CEO Jensen Huang resigns, Colette Kress named interim chief: Live updates",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQLXdpNk1zM3AtTjV1OFB4d0xkbXhnQkhIYUtYVWRxalR2dVJLZ0d6ajJDdS1Nb05ycVZnNnkxbGkzLXF4WVB1NnVlREtiVWdBOE9vbFRERGh2NGxjUGt0T01CbjVrZEUzZjB3UVhacUlZYnBxMURYV2pmQXBMdw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:12:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Nvidia’nın CEO’su Jensen Huang istifa etti ve Colette Kress geçici başkan olarak atandı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say",
       "source": "NBC News",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5",
@@ -259,7 +270,7 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Active shooter strikes multiple people near Logan Circle",
+      "title": "One dead, at least 4 injured during active shooting near Logan Circle",
       "source": "NBC4 Washington",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMUNqSllBbEU0V2hnYktmYkpQLWNuZDJwNVNjdTg1Q0RnX2JiQWRtdnVqVU1zaV8wZF9IRXF5cUdOTWZQSW5NZXNRekw0NGJXTFVmN0piRDJ3c3BDZkZWaXdDQXQxUXdCYnBWei1lbkE4ZDdpN0pBRW5WNDRfSUdOUmxPdXRYZWpYc0hNZ0ZEdWlrZGFvdUVDLVRpUWhvY0thNzA5MDdUNW0tZ9IBsgFBVV95cUxOQnQ3NkZ5SmtaZXdSWW1rMVdsdGlpMmpmRkpOQl9JRGhsaDd1R2YwMjRkSm9QaEVNUGk1cXZjMlRoSW1LSDBwbWZYSTlUZDRhcUFOWkJHdVhaTkI1TW13c09jT2ZMaVA1WVV1RktRQk5FblpBdWFabDFlWmxwNF8tSk5fUllYQ1paazRaNXZzZlU4R21feXNQSU5ldmY0NnFTOGt5RloxVzNHR3JYeEpzMFdB?oc=5",
       "pubDate": "Thu, 12 Nov 2026 13:33:52 GMT",
@@ -299,46 +310,34 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Nvidia live updates: Stock tanks after new affair allegations, board reportedly preparing to oust Jensen Huang",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOOVpSMjRTWHdZLUc5Z0xfWUplcDFRVFVLRU5iV0p3bXd6TjM2TlhXYnV4bkp2elFhVklxbko1cnlJZ1lQal9HV1RZVEdqSVlaSldqNjJ0bGtPdnRuc2ZOWXN3T1k4VDdObTVkZWlzTlExSE5RYXBheFhtMF9NUGxPdWJMSmRGVm1mY09aSGQ3WTFBVndsUVZhdnJpQzhTQVBwdW0yVGVhb29URlhMTGtIbWpIdFlhTG9KVS0xekYyekx0OW9uNjFfOHB0ZnZlQUNsa1M1OGEwNGxVeVVlZGNCVW5Xd0JVX2lneXFxcUhPVFViYkRnMzdjWg?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:00:56 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Nvidia hisseleri yeni bir skandal iddiası nedeniyle düşüş gösterdi ve yönetim kurulunun Jensen Huang'ı görevden almaya hazırlanmakta olduğu bildirildi."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "Nebius Stock Tumbles After Earnings as CEO Warns of Revenue Delay",
       "source": "Barron's",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FWHlJeHh0OVJrUlZ3bHhVTkJIeFFQcWg4a1hkZERkVzR2eU9GNTNHVHBsY2hHaXliZjBqQXJIQ0VLbUVaeHlBM3ZQWllrdURxRjdpZDBHTDlBdk9PMklWMFdnMFdoVlFkc2FUbHEyRHhoOVdMMFNJSg?oc=5",
       "pubDate": "Thu, 12 Nov 2026 12:38:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başlığa göre, Nebius hisse senetleri kazanç raporunun ardından geriledi ve CEO, gelirlerin gecikebileceği uyarısında bulundu."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "With Jim Jordan as leader, House Republicans signal they're ready to fight",
+      "title": "Democrat Scott Colom wins Mississippi 2026 Senate race, flipping seat in upset",
       "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LckZ5QVJyaHpjU0Y4TTBPTFZBdk5FZ2JhXzBrOUs5RVMwbVNUaldrUDdmb0xYYi1rcE9vWjg5ZVlBNjdzMWRlN3RHR3Q4V2dyR2hxZHN1NV9lc1pGcHgtaTNpd3hQWGMzWGtSblNEQV9veTlubjJXOTJCb25XZlE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:24:54 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON2RjbDYxLUNjQnM2YWl5eDdRWC1rd0NyMUJKOHl3bWd1SVhkRDdBNEVfSVY5UC14R1N4a0NNR2QzLU9acTBScmh3ai1za2VMUVFJZnZKMmM5eFB6ejZWNFl4ekdNV2o0cHNkdG9rWHQwajdzdjczYk9SS19vRzkyYnBsdlJWcFpwcUE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:20:32 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Jim Jordan'ın liderliğindeki Temsilciler Meclisi Cumhuriyetçileri, mücadeleye hazır olduklarını gösterdi."
+      "summary": "Tam metne ulaşılamadı. Demokrat Scott Colom, Mississippi’de 2026 Senato seçimlerini kazanarak sandalyeyi elde etti."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Patrick Stewart’s widow Sunny Ozell breaks silence on actor’s death at 86",
-      "source": "Page Six",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSm5hTlNKTk1zUGd1ZEVvbVVmZkZkbWZDMEJKRFJiOVB3UjMzemFIMUlvTTFuQnV3OXFwQTFzODk5Y2txbWY5VmF0eU1LS0cwWFFIWlltMkNEOTl0RERKMUxMWGZTM3ZyMkdKNHJlN1pNS3lEdGd6MVhXcUZGdzFyZl9UQTVvalFibUxvUVByMUFQdk8xR3FiLWN0VHBaaWRDajBsZzlsOW1pMFVLLXMybkVOZVhXbHlEU3c?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:05:00 GMT",
+      "title": "Single and trying to find love? Be sure you're not 'floodlighting'",
+      "source": "USA Today",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdldNWUp0ckdWbnBLTHZpemtPeFlPblJmUkFmR091N1UzSERQaEJDQktuUHRTeGF1Ymk4YmZyRzFfbDVTak1iM2ZVcDhEVjIwSnZkaFZSaUFZRkVFNnB4R0FlZXo3ZG9sR3dSclA0SXpTRVpva2tfYWtmQkYwdFNveFAtSkNQREV0Q3BPbGZhakJjN2JJZGJQMUFwNExxbFpkcm5zeEtSMEFfdkc3R280cmJGZlNYX0U?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:02:00 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Patrick Stewart'in 86 yaşında vefatının ardından eşi Sunny Ozell, ölümle ilgili sessizliğini bozarak bir açıklama yaptı."
+      "summary": "Tam metne ulaşılamadı. Bekar bireylerin aşk arayışında \"floodlighting\" davranışından kaçınmaları gerektiği vurgulanıyor."
     },
     {
       "cat": "Dünya",
@@ -378,7 +377,6 @@
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdGNyekRBTmJjMXJ0UjdELXFSRldLY1hBWW5PZVV1NUw4LU5raWNjRC0tRG9OcDBDQjhuX3F0Yjc1eG1qT0hGelNaT0hZbVkxcE5UWFRxU2Y2REhLM3o0LUktMllYWHFHV09FdEhqOF9xTWEtVjZEdm9lejlER3djZ1l5WFhMdjhqSlZuOFh2SDFsSm91LVo5Vg?oc=5",
       "pubDate": "Thu, 12 Nov 2026 13:20:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Muratpaşa Belediyesi tarafından düzenlenen etkinlikte Türkiye haritası sergilendi ve katılımcılara duyuruldu."
     },
     {
@@ -479,7 +477,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRnRZVURlOTY3NlRmZ1BuX3NoRzBHQjVSbl9rUDl5MlJiaWdJVk9ic1Ffd3JibHZzckdTbGhaNDkzQ3RNUjNhcFEyUDBfNmkyQkRiTVkzU0plZHZFa3RTQlV6a2U5N3daT203QU01YVhXSEZaS1BHU1hmc0dtcEc0Q203d0ZxVnh5elhRSVZJeWZkOU1kUkk2RGllRWhkZllrREQwNm16WTBGZw?oc=5",
       "pubDate": "Thu, 12 Nov 2026 14:49:28 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Tekirdağ'da 5 metre derinliğindeki çukura düşen bir işçi olayında yaşamını yitirdi."
     },
     {
@@ -490,7 +487,6 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelFQN0Izb24yY1FBRTB4bkZjeERCUGdCOFFjYWhmV3pNS204WXpQSFFrUlN4TjFRWFpRMGRTUUJIdEo2QkszOXZlbDRxQWp6a3QzQlc4LV92Qm1RSVhGcWctVlo3LXB5UUlscGRxVy1GbUtteUZhekd1c1hoOU94dG9BQzg3X3lMeTJlRl9aZzNXRTBKLWlyRUxPMG41WWFHeUE?oc=5",
       "pubDate": "Thu, 12 Nov 2026 14:45:20 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Çorlu'daki atık tesisinde bir işçi çukura düşmüş ve olayda yaşamını yitirmiştir."
     },
     {
@@ -601,7 +597,6 @@
       "link": "https://www.mhahaber.com/cumhuriyetin-43uncu-yili-toren-ve-etkinliklerle-kutlanacak",
       "pubDate": "Thu, 12 Nov 2026 14:32:31 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-90.webp",
-      "text": "Kıbrıs Türk halkının özgürlük ve varoluş mücadelesinin simgesi olan Kuzey Kıbrıs Türk Cumhuriyeti’nin (KKTC) kuruluşunun 43’üncü yıl dönümü, ülke genelinde düzenlenecek tören ve etkinliklerle kutlanacak.\nMilli Günleri Kutlama Merkez Komitesi Başkanlığı’ndan yapılan açıklamaya göre, resmi kutlama programı cumartesi günü saat 12.00’de Cumhurbaşkanı Tufan Erhürman’ın Bayrak Radyo ve Televizyon Kurumu’ndan (BRTK) yapacağı konuşma ve 21 pare top atışıyla başlayacak.\nAynı gün saat 15.00’te Dr. Fazıl Küçük Anıt Mezarı’nda, saat 15.30’da ise Rauf Raif Denktaş Anıt Mezarı’nda tören düzenlenecek.\n- Cumhuriyet Korteji yarın...\nMilli Eğitim Bakanlığı tarafından geleneksel olarak düzenlenen “Cumhuriyet Korteji”, yarın saat 10.00’da Lefkoşa Diren Çemberi Anıtı (Mor Çember) önünden başlayacak ve Cumhurbaşkanlığı’nda sona erecek.\nKortejde, Lefkoşa bölge okullarından yaklaşık 3 bin öğrenci, 100’er metrelik KKTC ve Türkiye Cumhuriyeti bayraklarını taşıyacak.\n- 15 Kasım’da törenler Cumhurbaşkanlığı’ndaki tebrik kabulüyle başlayacak\nCumhuriyetin 43’üncü yılının kutlanacağı 15 Kasım Pazar günü törenler, Cumhurbaşkanı Tufan Erhürman’ın saat 08.45’te Cumhurbaşkanlığı’nda tebrikleri kabul etmesiyle başlayacak. Ardından Lefkoşa Atatürk Anıtı’nda saat 09.30’da protokol sırasına göre çelenkler sunulacak. Saygı duruşunda bulunulması ve İstiklal Marşı eşliğinde bayrakların göndere çekilmesinin ardından Atatürk Anıtı Özel Defteri imzalanacak.\n- Dr. Fazıl Küçük Bulvarı’ndaki resmigeçit töreni\nDr. Fazıl Küçük Bulvarı’ndaki resmigeçit töreni, saat 10.00’da İstiklal Marşı, tören birliklerinin denetlenmesi ve halkın bayramının kutlanmasıyla başlayacak.\nMesaj teatisinin ardından Lefke ve Erenköy’den getirilen bayraklar Cumhurbaşkanı Tufan Erhürman’a takdim edilecek.\nCumhurbaşkanı Erhürman ve Türkiye Cumhuriyeti Cumhurbaşkanlığı temsilcisinin konuşmalarıyla devam edecek tören, Milli Savunma Bakanlığı Mehteran Birliği’nin konserinin ardından resmigeçitle sona erecek.\n- Türk Yıldızları’nın gösterisi Girne’de\nLefkoşa’daki resmigeçit töreninin ardından kutlamalar Girne’de devam edecek. Türk Hava Kuvvetlerinin akrobasi timi Türk Yıldızları, saat 15.30’da Girne Kordonboyu’ndaki Atatürk Anıtı önünde gösteri uçuşu gerçekleştirecek.\n- Cumhurbaşkanlığı’nda resepsiyon\nKKTC’nin 43’üncü kuruluş yıl dönümü kutlamaları kapsamında, Cumhurbaşkanı Tufan Erhürman ve eşi Nilden Bektaş Erhürman tarafından pazar günü saat 19.00’da Cumhurbaşkanlığı’nda resepsiyon düzenlenecek.\n- Gazimağusa’da fener alayı düzenlenecek\nKutlamalar kapsamında cumartesi günü Gazimağusa’da fener alayı düzenlenecek. Saat 17.30’da Zafer Anıtı’ndan başlayacak fener alayı, Namık Kemal Meydanı’nda sona erecek.\nFener alayının ardından Güvenlik Kuvvetleri Komutanlığı (GKK) Bandosu konser verecek, Gazimağusa Belediyesi Halk Dansları Topluluğu gösteri sunacak. Etkinlik, Soyhan Bilgeer ve Emrah Daban konserleriyle tamamlanacak.\n- İlçelerdeki törenler\nKaymakamlıklardan verilen bilgiye göre, Cumhuriyetin 43’üncü yıl dönümü ilçelerde de düzenlenecek törenlerle kutlanacak.\nLefkoşa’da Şehitler Anıtı’ndaki tören, saat 08.30’da protokol sırasına göre çelenklerin anıta sunulmasıyla başlayacak. Saygı duruşunda bulunulması ve İstiklal Marşı eşliğinde bayrakların göndere çekilmesinin ardından tören, Anıt Özel Defteri’nin imzalanmasıyla sona erecek.\nGazimağusa’daki ilk tören, saat 14.30’da Zafer Anıtı önünde gerçekleştirilecek. Çelenklerin sunulmasının ardından saygı duruşunda bulunulacak ve İstiklal Marşı eşliğinde bayraklar göndere çekil",
       "summary": "Kuzey Kıbrıs Türk Cumhuriyeti, 43. kuruluş yıl dönümünü 15 Kasım Pazar günü çeşitli tören ve etkinliklerle kutlayacak. Cumhurbaşkanı Tufan Erhürman Bayrak Radyo ve Televizyon Kurumu'nda konuşma yapacak, Dr. Fazıl Küçük ve Rauf Raif Denktaş anıt mezarlarında törenler düzenlenecek; ayrıca 3 bin öğrenciyle gerçekleştirilecek Cumhuriyet Korteji, fener alayı ve Türk Yıldızları hava gösterisi gibi etkinlikler de planlandı."
     },
     {
@@ -722,41 +717,41 @@
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6259.27,
-    "ceyrek_altin_try": 10953.72
+    "gold_gram_try": 6255.55,
+    "ceyrek_altin_try": 10947.21
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3591884,
-      "change_pct": -2.692515569116006
+      "price": 3589858,
+      "change_pct": -2.8420089966811366
     },
     {
       "label": "Ethereum",
-      "price": 100590,
-      "change_pct": -2.4284646548465236
+      "price": 100393,
+      "change_pct": -2.7176481760473306
     }
   ],
   "stocks": [
     {
       "label": "BIST 100",
-      "price": 11806.75,
+      "price": 11806.87,
       "change_pct": 1.24
     },
     {
       "label": "S&P 500",
-      "price": 7599.56,
-      "change_pct": -0.26
+      "price": 7584.56,
+      "change_pct": -0.46
     },
     {
       "label": "Nasdaq",
-      "price": 25387.19,
-      "change_pct": -0.31
+      "price": 25298.31,
+      "change_pct": -0.66
     },
     {
       "label": "THY",
-      "price": 319.75,
-      "change_pct": 1.59
+      "price": 319.5,
+      "change_pct": 1.51
     },
     {
       "label": "Aselsan",
@@ -765,13 +760,13 @@
     },
     {
       "label": "Garanti BBVA",
-      "price": 152.4,
-      "change_pct": -1.55
+      "price": 152.5,
+      "change_pct": -1.49
     },
     {
       "label": "BİM",
-      "price": 386.25,
-      "change_pct": 2.32
+      "price": 387.0,
+      "change_pct": 2.52
     },
     {
       "label": "Ereğli Demir Çelik",
@@ -785,33 +780,33 @@
     },
     {
       "label": "Apple",
-      "price": 358.77,
-      "change_pct": 0.96
+      "price": 358.71,
+      "change_pct": 0.94
     },
     {
       "label": "Microsoft",
-      "price": 525.8,
-      "change_pct": 0.9
+      "price": 524.25,
+      "change_pct": 0.6
     },
     {
       "label": "Nvidia",
-      "price": 162.74,
-      "change_pct": -6.32
+      "price": 160.78,
+      "change_pct": -7.45
     },
     {
       "label": "Tesla",
-      "price": 392.61,
-      "change_pct": 0.46
+      "price": 390.76,
+      "change_pct": -0.01
     },
     {
       "label": "Meta",
-      "price": 626.52,
-      "change_pct": -0.36
+      "price": 623.83,
+      "change_pct": -0.79
     },
     {
       "label": "Alphabet",
-      "price": 296.76,
-      "change_pct": 1.13
+      "price": 295.06,
+      "change_pct": 0.55
     }
   ]
 }

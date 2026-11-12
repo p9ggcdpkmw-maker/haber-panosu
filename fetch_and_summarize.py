@@ -236,7 +236,7 @@ def generate_daily_briefing(all_news):
         resp = requests.post(
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-            json={"model": GROQ_MODEL, "max_tokens": 500, "messages": [{"role": "user", "content": prompt}]},
+            json={"model": GROQ_MODEL, "max_tokens": 1000, "messages": [{"role": "user", "content": prompt}]},
             timeout=30
         )
         resp.raise_for_status()

@@ -124,7 +124,6 @@
   .search-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 12px 20px; color: var(--text-main); outline: none; width: 280px; transition: all 0.3s; }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
 
-  /* RADAR AI KUTUSU VE SEKMELERİ */
   .ai-briefing { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05)); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; overflow: hidden; transition: opacity 0.3s; }
   .ai-briefing::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); box-shadow: 0 0 15px var(--accent); }
   .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
@@ -194,18 +193,16 @@
   .modal-link { display: inline-block; margin-top: 32px; background: var(--text-main); color: var(--bg-main); text-decoration: none; padding: 14px 28px; border-radius: 12px; font-weight: 600; text-align: center; transition: transform 0.2s;}
   .modal-link:hover { transform: translateY(-2px); }
 
-  /* 🚀 AYARLAR MODALI TASARIMI */
+  /* AYARLAR MODALI TASARIMI */
   .pref-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px;}
   .pref-item { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid var(--border); cursor: pointer; transition: all 0.2s; }
   .pref-item:hover { background: rgba(255,255,255,0.08); }
   .pref-label { font-weight: 600; font-size: 15px; display: flex; align-items: center; gap: 12px;}
   .pref-dot { width: 10px; height: 10px; border-radius: 50%; }
-  /* Özel Checkbox */
   .checkbox-custom { width: 24px; height: 24px; border-radius: 6px; border: 2px solid var(--text-muted); display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
   .pref-item.selected .checkbox-custom { background: var(--accent); border-color: var(--accent); }
   .checkbox-custom::after { content: '✓'; color: white; font-size: 14px; font-weight: bold; display: none; }
   .pref-item.selected .checkbox-custom::after { display: block; }
-  
   .btn-save { width: 100%; padding: 14px; background: var(--accent); color: white; border: none; border-radius: 12px; font-weight: bold; font-size: 16px; cursor: pointer; transition: background 0.2s; }
   .btn-save:hover { background: #7c3aed; }
 
@@ -279,7 +276,6 @@
   </div>
   <!-- Kategoriler JS ile eklenecek -->
 
-  <!-- YENİ: AYARLAR BUTONU -->
   <div style="flex:1"></div>
   <div class="nav-separator"></div>
   <div class="nav-item" onclick="openSettings()">
@@ -366,7 +362,7 @@
   </div>
 </div>
 
-<!-- YENİ: AYARLAR MODALI -->
+<!-- AYARLAR MODALI -->
 <div class="modal-overlay" id="settingsModal">
   <div class="modal-content">
     <button class="modal-close" onclick="closeModal('settingsModal')">✕</button>
@@ -392,7 +388,8 @@ const CATEGORIES = {
   doga:      { label: 'Doğa', color: '#84cc16' },
   dunya:     { label: 'Dünya', color: '#8b5cf6' },
   gundem:    { label: 'Gündem', color: '#a1a1aa' },
-  corlu:     { label: 'Çorlu', color: '#ec4899' }
+  corlu:     { label: 'Çorlu', color: '#ec4899' },
+  mha:       { label: 'MHA Haber', color: '#f97316' } // YENİ EKLENDİ
 };
 
 let allNews = [];
@@ -406,7 +403,6 @@ let cryptoData = null;
 let briefingsData = {};
 let currentBriefingTab = 'genel';
 
-// 🚀 YENİ: KULLANICI TERCİHLERİNİ YÜKLE (Boşsa null olur, tümünü gösterir)
 let userPrefs = JSON.parse(localStorage.getItem('radar_prefs')) || null; 
 
 function esc(str) {
@@ -451,16 +447,13 @@ function startClock() {
   setInterval(tick, 1000);
 }
 
-// 🚀 YENİ: SADECE TERCİH EDİLEN KATEGORİLERİ MENÜYE EKLE
 function initSidebarCategories() {
   const sidebar = document.querySelector('.sidebar');
-  // Eski kategorileri temizle (Tümü ve Ayarlar hariç)
   document.querySelectorAll('.nav-item[data-id]').forEach(e => {
     if(e.dataset.id !== 'all') e.remove();
   });
 
   Object.keys(CATEGORIES).forEach(id => {
-    // Eğer tercih yapılmışsa ve bu kategori tercihler arasında yoksa, menüye EKLEME
     if (userPrefs && userPrefs.length > 0 && !userPrefs.includes(id)) return;
 
     const cat = CATEGORIES[id];
@@ -470,7 +463,6 @@ function initSidebarCategories() {
     el.innerHTML = `<div class="nav-dot" style="background:${cat.color}; color:${cat.color}"></div> <span class="nav-text">${cat.label}</span>`;
     el.onclick = () => { switchView('news', document.getElementById('nav-news')); selectCategory(id, el); };
     
-    // Ayarlar butonunun hemen üstüne ekle
     const settingsBtn = sidebar.lastElementChild;
     sidebar.insertBefore(el, settingsBtn);
   });
@@ -490,7 +482,6 @@ function selectCategory(id, el) {
   document.getElementById('feedTitle').textContent = title + ' Akışı';
   
   const aiCard = document.getElementById('aiBriefingCard');
-  // Eğer Tümü seçiliyse AI kartını göster, diğerlerinde gizle
   if(id === 'all') { aiCard.style.display = 'block'; } 
   else { aiCard.style.display = 'none'; }
 
@@ -503,17 +494,14 @@ function renderNews() {
   
   let filtered = allNews;
 
-  // 1. Filtreleme: Eğer "Tümü" seçiliyse ve kullanıcı tercihi varsa, sadece tercihleri göster
   if (activeCat === 'all') {
     if (userPrefs && userPrefs.length > 0) {
       filtered = allNews.filter(n => userPrefs.includes(n.catId));
     }
   } else {
-    // Belirli bir kategori seçildiyse onu göster
     filtered = allNews.filter(n => n.catId === activeCat);
   }
   
-  // 2. Arama Filtresi
   if (searchQ) {
     const q = searchQ.toLocaleLowerCase('tr');
     filtered = filtered.filter(n => n.title.toLocaleLowerCase('tr').includes(q));
@@ -592,14 +580,12 @@ function openModal(item, cat) {
   renderNews(); 
 }
 
-// 🚀 YENİ: AYARLAR MODALI MANTIĞI
 function openSettings() {
   const list = document.getElementById('prefList');
   list.innerHTML = '';
   
   Object.keys(CATEGORIES).forEach(id => {
     const cat = CATEGORIES[id];
-    // Kullanıcının seçip seçmediğini kontrol et (Tercih yoksa hepsi seçili sayılır)
     const isSelected = !userPrefs || userPrefs.includes(id);
     
     const el = document.createElement('div');
@@ -614,10 +600,7 @@ function openSettings() {
       <div class="checkbox-custom"></div>
     `;
     
-    el.onclick = () => {
-      el.classList.toggle('selected');
-    };
-    
+    el.onclick = () => { el.classList.toggle('selected'); };
     list.appendChild(el);
   });
   
@@ -626,11 +609,8 @@ function openSettings() {
 
 function savePreferences() {
   const selectedIds = [];
-  document.querySelectorAll('.pref-item.selected').forEach(el => {
-    selectedIds.push(el.dataset.id);
-  });
+  document.querySelectorAll('.pref-item.selected').forEach(el => { selectedIds.push(el.dataset.id); });
   
-  // Eğer hepsi seçiliyse tercihi sıfırla (tümünü göster)
   if (selectedIds.length === Object.keys(CATEGORIES).length) {
     userPrefs = null;
     localStorage.removeItem('radar_prefs');
@@ -640,11 +620,8 @@ function savePreferences() {
   }
   
   closeModal('settingsModal');
-  
-  // Arayüzü yenile
   initSidebarCategories();
   
-  // Eğer kullanıcı seçili olmayan bir kategorideyse, "Tümü"ne dön
   if (activeCat !== 'all' && !selectedIds.includes(activeCat) && userPrefs) {
     selectCategory('all', document.querySelector('.nav-item[data-id="all"]'));
   } else {
@@ -652,9 +629,7 @@ function savePreferences() {
   }
 }
 
-function closeModal(modalId) { 
-  document.getElementById(modalId).classList.remove('active'); 
-}
+function closeModal(modalId) { document.getElementById(modalId).classList.remove('active'); }
 
 document.getElementById('newsModal').addEventListener('click', (e) => { if (e.target.id === 'newsModal') closeModal('newsModal'); });
 document.getElementById('settingsModal').addEventListener('click', (e) => { if (e.target.id === 'settingsModal') closeModal('settingsModal'); });
@@ -800,7 +775,6 @@ function renderMarketCharts() {
 
 document.getElementById('searchInput').addEventListener('input', (e) => { searchQ = e.target.value.trim(); renderNews(); });
 
-// Başlatma
 startClock();
 initSidebarCategories();
 loadData();

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T17:44:23.197965+00:00",
+  "updated": "2026-11-12T18:32:54.952395+00:00",
   "briefings": {
     "teknoloji": "Analiz hazırlanamadı.",
     "ekonomi": "Analiz hazırlanamadı.",
@@ -9,12 +9,22 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
+      "title": "Yapay zekâ bazı meslekleri değiştiriyor! Gençlerin yöneldiği yeni alanlar",
+      "source": "Sabah",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQVlKY0s0dkhpTE1QUEdpMXdvMzhFQldYOXRkZElhdmRPOW5vM0hmWWVsbG04UE9yLXlja0QyMnZFNDRXY29FNk1zZ0hRNU5oWlZFOEEwMF9FS0NUNkR0ang5dG1WZmhUakhPZjlaRW5zaVljeXJSa2prdnZPMjNXQ0N6ODFCRDNIcFpUTWhpcXhOSFR1aWlERG1CZEdPTUJBdXhNVUpzTWtMUXNGa2M0YQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:52:21 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
       "title": "Gartner: Yapay Zekâ 2030’a Kadar İş Kaybından Fazla Yeni İstihdam Yaratacak",
       "source": "ÇözümPark",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa19EVFhWc3p5Y2szY084NkJpWUEzSW9LeFFCRTB1VjZYTnJIWERYSkpFZmVPd3BSSVF0Y254UU1XVjZYY3kyd3JFczhQWkVoc18tcGFsdm9MdzI0NmlwNVNjQ1JvLWcyNGJSZmNSYnZWLXNidWZwRng2b2hRSl90M0RRdTlXYnJ6NHFaaUV5R1ppN1I3SFkwd2Z6bVgtdlpyWnc?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:04:52 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Gartner, yapay zekânın 2030’a kadar iş kaybından daha fazla yeni istihdam yaratacağını belirtiyor."
     },
     {
@@ -25,7 +35,6 @@
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRG1HeEtDVFJNTV9KNWhkQWZvWVdTVHE0dFBsdGhKUi16MmpfcGVqUnoxTU9YWUpnTkVSVWhRcFhHUUpTbG1zS2dkaVNqWVhTTGhYc1UxczVRSWZoVl9NbGlSSDBXY3NKWlpDTm9HdEpub21pcXFrb1d2ZldLalExNTV2RkFvaE9GYkxSRTdjTjBITjg?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:43:03 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Itaú Unibanco, yapay zekâ çağında yazılım teslimatını Harness platformu üzerinden standartlaştıracağını duyurdu."
     },
     {
@@ -37,16 +46,6 @@
       "pubDate": "Thu, 12 Nov 2026 16:41:09 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Nvidia, CEO'su Jensen Huang liderliğinde, grafik işlemcilerinden yapay zeka altyapı çözümlerine yöneldi."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Google, DNA mutasyonlarını analiz eden AlphaGenome 2'yi tanıttı",
-      "source": "DonanımHaber",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaGFkek84SVlRQ1M3allEcE9ZSHhmRTVCeWQxemhDUHpHNDVBTEFTM25OWW1xNi1kWXNYM18ycE9ZS19kNjJYYWtHaHNoZFJIOHkyWDNfQkxDY2hTYU1aRUlsWXhWZ0VoV2J4UWprTm1hNXV4LVUwZXJaTWxBUW1NeF9lNFJBUVo5WXJsVW5XaHFMZldFclpnbFBYSDd2N0I4?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:02:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Google, DNA mutasyonlarını incelemek için AlphaGenome 2 adlı yeni bir analiz aracını tanıttı."
     },
     {
       "cat": "Teknoloji",
@@ -71,6 +70,17 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
+      "title": "Çin, gökbilim araştırma uydularını fırlattı",
+      "source": "Cumhuriyet",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQzhqbnZSLXNCNjR4cXduV01UZlZLT3U3dEgtXzVNeFM4QmtWTVVNSE1QVlUxVGFRMGhuSHNMbUV6bGpmUVVucDlTVFYtM1F3RGI2SG9PcjdzdFlMc3JoWFpvX3NuQ2t0Yy1jTWlrZjJidGVIblIzN0xia2pHemhXbzFCdHR5cHFnSjdOd010Ulpkc3pHUnFDa2FCZ2k?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:30:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
       "title": "Demokratik süreçlerde yapay zeka kullanımına denetim çağrısı",
       "source": "Cumhuriyet",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWRvM1RpM3Jyc3I0bExwZTNQcWd6M2IxTjA5YUFuUlR1UDRyaDNBd2V2Y18zYXc2eWJCQ09KaXFxUV9PUURJVXlLTjQwVDl2ZTZ2ZnROdlhMWTQzWEhnUm9kNHpFc0RoZS1la0k3RG1KMWQ3eXZFbmt6by1tUjRIcV9uQkpaenBpc0lWS3VySU5uU1A1dVBSS0dVZGQtalVjaTBkSHQ5dzJxcHZfSTZ0Rk03MUc?oc=5",
@@ -86,7 +96,6 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdmZOd3JhekROdWU0aVdOZWZ5S2dVVVdGTmRvT2gwTy1Yb2VUbjhQTGxjY2lVYTVuU2J0d3lNZkdlY0NKNTQ5QWpDd0NrQjdyQjdXVjFMWUJkbG0wYUpWZy1rekRPOXhKXzd3NGNwN3R4a09sOVVkVFc1eVI5bExxNUplN1NIMTEtaDU4VnN6MmJ4Szg5S2RqRzF3?oc=5",
       "pubDate": "Thu, 12 Nov 2026 15:16:55 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. MESAM, yapay zekâya ilişkin telif hakları konusunda bir rapor tanıttı."
     },
     {
@@ -118,16 +127,6 @@
       "pubDate": "Thu, 12 Nov 2026 14:44:31 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Vietnam.vn, dijital ortamın güvenliğini koruma, yapay zekanın yönetimi ve teknoloji denemeleri için yeni bir çerçeve oluşturma konularını ele alıyor. Bu adımlar, dijital ekosistemin güvenli ve kontrollü gelişimini hedefliyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "NVIDIA CEO’su Jensen Huang'dan Beklenen İstifa Geldi!",
-      "source": "PC Hocası",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wZkJQLWtxNzhDaWJ3Wnh0YktlVzFmLV9XbFIyeDVRbWJhcjVjYkxJNUdISkJxdWlfTTlqdkQ1Q3RhUzJkWVZlclIydUFZWWxWZkoxdmpsRlEwSE5VLWJwSzRxbEZxN0JnOU9BVkx0a1F3aWlvby1Xb2RfbVJTNDQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 14:41:11 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlıkta, NVIDIA CEO’su Jensen Huang’ın istifa edeceği beklentisinin ortaya çıktığı belirtiliyor."
     },
     {
       "cat": "Bilim",
@@ -172,23 +171,23 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
-      "title": "WAiFF İstanbul'da yapay zeka destekli ödül alan filmler, 2027'de Cannes'da Türkiye'yi temsil edecek",
-      "source": "Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTm9xN2hhZGpEQUF3SzI0MmpleGdnTjhVOW9TSmZvS3NVU1JWMW5sZWdJUmNtU0RaUnRvNjlrSnNoX2xsMzVfcGFGbUY2WGFXWlh5Y3p4SUpQOTQ3YTNzVFZhajBqODd6VC1ZcnVUX1VEbG9KWHQ3UDdoTzBqdGdZSDNSYklSUHdOVDQ3Ym8xcExUdmt0Q09zVTR5cmpiOTF4TEpxU3AzYmJlT0R5UmhRa21sSXd6UjNKSU5aUFlQdVlRdVlaYXUxVWlYUk5Nc1E?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 18:55:24 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. WAiFF İstanbul'da yapay zeka destekli ödül alan filmler, 2027 yılında Cannes Film Festivali'nde Türkiye'yi temsil edecek. Bu filmler, yapay zekanın sinema alanındaki uygulamasını öne çıkarıyor."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
       "title": "WAiFF İstanbul'da Yapay Zekâ Sineması Yarıştı: Kazananlar Cannes Yolcusu",
       "source": "Dosya Haber",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNTV4TURSYXowWnpXMUlQMEVibnBEMXQ3eEJ5MG4tTGdzSU5rR0dHdjNqdzBQSnlpdW5jWHV4OTNiaHYtSXBXcHViMWNjS2lGY0IyUlNGZV9wdjFOZllFbXVaUEd6ZlpWT2FINGVHZktJYjBidnluMm1ITW94Y2VVS01OdnQ2QVpUOVVCcG9GQTFxVUZQLXFwVWZWTk1Pdjl6emlWel9CMFF5c1JTc1E?oc=5",
       "pubDate": "Wed, 11 Nov 2026 18:51:55 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. WAiFF, İstanbul’da Yapay Zekâ Sineması yarışması düzenledi ve kazananlar Cannes’a gönderileceğini açıkladı."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "WAiFF İstanbul'da 124 film yarıştı ve kazananlar Nisan 2027'de Cannes'a gidecek",
+      "source": "Haberler",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbDhyQVFPeHo2T2N5UEthQ1E4QkJnZFlxSGZUOWp0RVlYQXAyUG4ydWJRU2RvWTBoa1BhVmQ2QkdUMzY3S2JLd3hjSDBFOUZzYk5RZFZ3akxiZElnbE91aDB3SVpiai1EMWhHaVFHNmMyMjFqWHUtNC1tSkd1QXdkN0IyU0NCcF9Hd0dBRWI1UWkySE1TaGdrMWhyZi10Z9IBmgFBVV95cUxNT3VpYmhwX0JsVXR0cDNJckpKb3VGSXN2ZVh5MkhwMXNoVGZGdmx5b0pXRTctWFZ3OERVQ3duRWJxT25GREViWUVHM3NSQkV1VWhaM0FzVG1JSlE1MVVHdmxWZ1RRaHg5bjYyWHN0dHpCZjJhNGJsenNpbTBTLTdhTlU0LWo4ZV93dG5nYkJUamhELUNEVWhLWWZ3?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 17:53:32 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -256,42 +255,63 @@
       "title": "Nvidia live updates: Jensen Huang agrees to testify before Congress following resignation",
       "source": "CNBC",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQLXdpNk1zM3AtTjV1OFB4d0xkbXhnQkhIYUtYVWRxalR2dVJLZ0d6ajJDdS1Nb05ycVZnNnkxbGkzLXF4WVB1NnVlREtiVWdBOE9vbFRERGh2NGxjUGt0T01CbjVrZEUzZjB3UVhacUlZYnBxMURYV2pmQXBMdw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:34:00 GMT",
+      "pubDate": "Thu, 12 Nov 2026 18:12:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Nvidia CEO'su Jensen Huang, istifasını takiben Kongre önünde ifade vermeyi kabul etti. Bu gelişme, şirketin gelecekteki politikalarını ve düzenleyici ilişkilerini etkileyebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Scout Is Finally Building Real Vehicles At Its $2-Billion Factory",
-      "source": "Motor1.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNzg2YXo2cnlNRlBVTWIzb0IyRVVZamp1VTZLOElNZ3A5b0pTdFpBVWY0QmMtSnU4UUgzRlJHSTZkSUZManBzYWpoLWl5dFU2WXNQM1VsTlRILWhvQS1uZlJ3VzM2TXRDUG4zMzRNTDNzQ0hmQ2l5cmZucUdZZVN2dUVkaE5mM2czWGc?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:31:57 GMT",
+      "title": "Trump says no deal needed with Iran, closes down Vance negotiations",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnhHOUZCeEwzbmN5alpPZm1fbjRvQ2ltdmYydUE0VE02ZnMtYzhOLUp3eWotVXQ5aTYwSFlpYXZyWmRsRjhBRi1iS08zMWJFYUNVQnZLNXY5TnRsN0p4cVF1eVppQ0hsa1I5Y0hLaWlOMmRzZWV0Q09hdlpOal9YSVJOdXNPZFVyYlZQemhFeVRGUUUwOE1CcEZIRHR1Ul9wckU5WVBVeTh0TTBKaGtDN091X0hxM1BYUjNz?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 18:05:38 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Scout, 2 milyar dolarlık fabrikasında gerçek araçlar üretmeye başladı. Şirket, bu adımla otomotiv sektöründeki konumunu güçlendirmeyi hedefliyor."
+      "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
+      "title": "Brooklyn building collapse in Flatbush live updates: 8 dead, 18 hurt as search goes on",
       "source": "ABC7 New York",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:30:00 GMT",
+      "pubDate": "Thu, 12 Nov 2026 18:03:00 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Brooklyn, Flatbush bölgesinde bir binanın çökmesi sonucu 8 kişi hayatını kaybetti, 17 kişi yaralandı. Yetkililer aramayı sürdürerek daha fazla kayıp olup olmadığını araştırıyor."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "‘Joni Mitchell sang Both Sides, Now over the phone to me’: folk music legend Judy Collins on her 87 remarkable years",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQeU9XOWc0XzI5bHpwaVFhZHltREJaVVR2cmtGb3VpSHRxaUM3TDBYRVpMTko2RTYzQlk1N1pCTGI3WEJ0TWluZ29hQ0EwUl8yZVRuT2FyeVN6d0RZd1B1bjdoUDFkcGgzRjJGYTdCSFJCLUVZSkZHbEFTMFo2Y29GX1VmX3I1RUpSV2xuZ2hiblhWenRHWnN5eERfV0lPVXRfVjBSWTBZM25acV91dlBSWGk5Y0lia1U5WVhlaUdXVXlHdy05QlNCM1dmQmhIMUdjajZUYWlDeWxPMXJuQjE1QlprSGt4d0tmbDhEY0RkOA?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:41:00 GMT",
+      "title": "US envoys meet with Putin in Moscow on Ukraine talks, then head for Dublin to see Zelenskyy",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFZuQ05KbXhLT294akRzMl9XWE5rUmRhV01fSDY4VVF6dnNaZVlCUzdCd1I2TnI0azFRT1VHcW1hVm9oMWhUNTZaVUc0QjNVNkNseGxYTGU3RmpSWXppTVZ4TzVRWEpxdE1tOVc3NDJYdFZmdWhoeFBvSXc4MXV4N0JUSW95SzlZalpwcERuU3hRNHpSbVBwNXl1Y19kUDU1d2c?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:55:00 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlıktan çıkarım: Judy Collins, 87 yaşında, Joni Mitchell'in \"Both Sides\" şarkısını telefonda kendisine söylemesiyle ilgili anılarını paylaşıyor."
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Cancer society issues most specific prostate cancer screening guidelines yet",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXZkeVJmajBPYlpEanV1R0cxSmpSd0ROeVg5b1ZGQ09OYXBtVzctZmszc1hiQVN0aXM0LVpNRFAySTRtRVEydVczeUNyZHRxUGhTSGlGX2hpUXdNTFh4LUE0WUVwd016bDZLTUNUQXppUzJadEVQYWpIUFVLUk9YUEF3di1iT3BITmtXUEhqSlBQRGRrSlNOTlZ5RWs3RUc3VG56ZDBEaUFvREpNQlZPZUNWemdrU2lGaldZ0gHAAUFVX3lxTFA4NHRKeWhoRTlZVERRNzNRTnFIdEc1TXMzTFIwQjNTZS1UUEpiZDZXdTZuMF9YNWNUTFYzZHlJWEtIRThFWjFMaVpBRDZCcGdreVFRdzg2SW1vSEpzVzViMDZEdGhHU1VCYWpqMGNVbThqYXNuYmhwM2U5UHlTUExienMyOTBwSTZmeEhxOWg2TUFBUU4xZmFfZDhpcXBCVjEyc2hRb05zd1lXbnlLLWszT0RNTERCUDdxLUMzckdZaw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:41:15 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead",
+      "source": "CBS News",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95dkVUTlk2aDQ5YWFfUFBxNWRuSDBoQkdsRlpwN2J6ZTZaSDF0STRpTktzVm0yQTBEd3Z1XzVJT2tXb2M3cVFyejJRZ2k1R3JuMlJpQ1pnRmw3YXJ1NEpaY0xKblVHcnd1NmFoMkt3?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:38:02 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
     },
     {
       "cat": "Dünya",
@@ -301,62 +321,40 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:23:30 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başlıktan çıkarım: İsrail'in Gazze'deki Nasser Hastanesi'ne yaptığı saldırıda en az altı kişi öldü."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Man Utd's Mauricio Pochettino pursuit and Michael Carrick decisions",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IaUFNY0pfYVNpQVVfXzR0RGNaNHlZYVBJNzV6aFBteDVFTjQ3ZG05LTRfWjBqZW00cEtaUGVyYUhXUGFSSngxY2NVdGZDMTBzMlF4ZXVIMWJwTkgyQ3dEWE90MjlDZ0NT?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:12:39 GMT",
+      "title": "Hegseth awards medal to soldier who reprimanded him and aides at Arlington Cemetery",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcGVHWjZEelgzdUZvS0xWdXhUbFlycGNtSjhpX19rdHU2N3BoOERVamZNVFNPZXRIWFBWMU1lal9TdW5PVm1BUmphMENYeU9nXzlhbjJoODNnLUlKX3FrVm1tYnRsR3FqREJXenJwMnRIZ1RpRnEwdEp1VE80YU5ObVlOMG12SkVrTl9xTw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:15:28 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlıktan çıkarım: Manchester United, teknik direktör olarak Mauricio Pochettino'yu hedefliyor ve Michael Carrick'in kararları tartışılıyor."
+      "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Gunman dead after killing 1, injuring 4 in mass shooting at gym in DC's Logan Circle",
-      "source": "WJLA",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRUZMUGh2T1VCZnAxNUwwX1Rjb1ZJR1FaYllSMi10N0FwX3VTRVBBMFl6Y3J5U09Lb2tGZnl4eHlCekhBRmdFTE1XeUNyRG1NZzFVMWp3XzJYOEhWOVBuT01qTjMzblF6U3pNTVdIRGZRams5WlJjbUp0T3ZXYlRVOWNSdjBsakFWVEFLU3lSbXhkb05lbzFWSDdCdWtUdF9sbG05cmxmSndwVWxEa1dEd1AzVUw0alA1?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:12:35 GMT",
+      "title": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:01:18 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Washington DC'deki Logan Circle bölgesinde bir spor salonunda silahlı saldırı gerçekleşti; saldırgan bir kişi öldü, bir kişi hayatını kaybetti ve dört kişi yaralandı."
+      "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Trump: ‘Huge CARAVANS are … beginning illegal march through Mexico’",
-      "source": "The Hill",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcThNWG5RakRQNHBpaHhnSTNPLTkyZFotVy1jMkJhNDM4NVdmYVMtMm44U1RrbTBiRkk0RWhOdVNhdnd6em1BS201YXJvbmxZTVNBTlkteWRrR1BWSUZqTjdIcndWX1BpNWNsRzhjVHczeDl5RFZCTXYyYWdQVGYtT0tVYS13MThfMENIODF1QjVUODY2aEQ3QUNUdmVIZDRmY3cwaGx30gGrAUFVX3lxTE9Nb2Q2SjdCOUJnVmpoeGQ2S3NWakp3b0J6VmxzMGVDay1mOVJTSnRCSDNnQjBUX0V3eUZyakZwalQ5Mmp2QWpSTnFOT0FIMU9ZbDNPOWtaWGZwcGxPMkt4Mk9fLTJna2M4Rm9HVEdyY1pkYkhlX1c1RTJ3MmZXZnY4QmllWFN2TmVqQmVsOHVmS3RxeDIweDUxM3lOWlBTTTFiMVozVWtXblM1Zw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:38:00 GMT",
+      "title": "Seattle scientists help unveil ‘landmark’ findings on human brain",
+      "source": "The Seattle Times",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUUR6VzJCQ2JvbmlOM1ZZeUNkSHBmY0dTWnkzR2wxR3g1dDh4NzBqVzZHc3lLeWxtWFhiX2hHUkhDQUZFMzMxS1RYb3JVZkxOeU1KaGhJdlFRc2FNd3lTaWozU3lhU0RPWTdlWTFRQnVld1p2RE0zbHR3UDh3aHhncjkxX09hNVR0TDEyWGRSOVM1LTdWTS1rT2o3U19YZzBXQnNidTc3T3BRSHdJUVZWUURZMA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:00:00 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Eski ABD Başkanı Donald Trump, Meksika üzerinden geçen büyük göçmen karavanlarının yasa dışı bir yürüyüş başlattığını iddia etti."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Longtime sports broadcaster Dan Hicks dies at age 64",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNellrekNWMG53TGg0SWYxN1JqRDZaZVVndFhLZGpYd19QNl92LWxBUEVXYVJKaVRMMjZTd29TVk0zcXhzaEJDM00wUDhWbENUdlV6SXVWaG1sZS1mYWJBQkUwSEhqQVIybkllZTB5YWQ5Z0tGYXVhZ3ZmTU5Rbi1KNGlWN3ZvQXUzTmNiSHRJR056N1d5Y0E?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:30:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. 64 yaşındaki uzun yıllar spor yayıncılığı yapan Dan Hicks, ESPN tarafından bildirildiği gibi vefat etti."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GVkpKYjhub0lKY3JLamNqdW91aWl4YnAwbVZZV3J5YWR6b1k4SnBXcWRkOWJSOUdFcXlLUHl5WlNuYU1tNlF2TFF4bkxudVVtYUVIWG0wb2RRR0J4YkQ2eWRpMUxOdzFldHRfT0hPMGpSVEhHcFRTT1QwSENIckk?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:23:06 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, Trump'ın Vance'ı İran görüşmelerinden çekerek sahtecilik kampanyasına odaklanacağını söylediğini belirttiğini bildiriyor."
+      "summary": ""
     },
     {
       "cat": "Dünya",
@@ -371,12 +369,35 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "What to Know About New Prostate Cancer Screening Recommendations",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVFaR1Z5MnhyTlR1dnZoRFhLNnVHTXBaZlhQNi04MUpTSDVjNG04ZExUNVhmR1VfazJEVjRtcWtLQU9sbnJKYXFOTzB6aEJVbURUdURxOXRpUXd4clJZX1ZISXJ6QklybUlhelpsWFZHeklON1ZHdXZRbDZzVmZRa25rZ010THc?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:04:01 GMT",
+      "title": "Pochettino expected to lead US in Nations League games before Manchester United move",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbi1mUm9XMVRLUUxENXg2eC0wbkVEX0VVcnFCd1BldmNuR05lQUd3MUJoaXM5eHRDZ1FNRHo0dUZKT0VLNWVuNHh5MjMxYWFibV8zaW12VzRJTHVrS2V6ZVQ0WU9tVFBhN2Q1ZmxZTW9LNkZXUzF1UjRkcG1uNnMtMVZfZWlPVUpMdTJmdjRpQkZodjZHV2tWeS16S19oQU90NGFuYV9NSVRlcHM?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:04:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. New York Times, prostat kanseri tarama konusunda yeni önerilerin yayınlandığını duyurdu; bu öneriler hastalar ve doktorlar için tarama yaşları ve yöntemlerinde değişiklikler içerebilir."
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "YUNAN VEKİLDEN ATİNA’YA SERT ELEŞTİRİ: “TÜRKİYE İSTEDİĞİNİ ALDI”",
+      "source": "Mağusa Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT3JIRzNSN185VWNWYzBGN0xaWGthbnVvRDNONzdnQlJ0SU41c2dKSFNucGFnVDhUXzJXTUZ2RGVxMjVuTGhpWjJ6Z2txZkdJSHVYUldHS1VncWI4RzU4clFmV1JjaENTeFl6OVFFZk1JZmxZTmRQMW5YWWk1b0ZodmZDZG04RlozMkVjOUR3?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:22:32 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Malatya'daki helikopter kazası Türkiye'yi yasa boğdu! Siyasilerden taziye mesajları",
+      "source": "Sabah",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTGNoTGRWekRPcFJXenllMHpxU0E5NXRUWFBfRUVLZ0NYZDhrMklGeHh3enhGSmtZZGFiZk5YODJTaktlN3k1ZmtYdUV0VmN4c28yVjBFZENBUXlQQUs3b3VvR0VPTUFmT0JFR3Zyb2tSdTFTRnJjc0R6cnhwdHJ1ZFcwdUFac2o1b2MzZndBaTloelhRaGRIaV8tUzdlM2NDOTlGWjM4MkZ5YUZDRHAtTWhoemhaT0dWLTN4cTZHLTHSAcMBQVVfeXFMTmNNdGNGRXE3Y1VISDhUbXhibWswUUh2Y2xpMDlXUFVGTF9QOHBYVnVWMW8wT1ZpYnZCb1EwS2R6OTE3ZGRFaXBDY0g4N3F4UVpzYjlweTJpOFZ2d2VHMXBTbVRMSExOTlBZM1VHN0pZQTRmRWRNTmF6ZUFVMFJETmhKdnFqOEFZTS0xNF9JeHJyU1I2ZW1kYTU2MkcyVDFDd1UxZUFod2hPVlNvZDFUbEpWQ2ZRdjBVVkhwMVdTZmRxVUV3?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:00:17 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
     },
     {
       "cat": "Gündem",
@@ -386,8 +407,18 @@
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNX0t1dUV4ZmpQLXQyQW1neGJUbnFfX2FQeE1ZTmJGRHZEcnN6NGJaMWU4bUpFTlkwc0RvcXpmNThGZ3ZDMllSX2dQN01UMGVmTUYwYXVKbVlyYkYzMGFNMzZTcjVBQVZDZ0JCRDI5T0xJaVY5ZmRJWHVxOGs1UG9iRXpTcnpqWml1SGoxNC03dWNjalhkdHRhSWtUM21NVXRCT0wzWDNuWGdpaWtDSWZqelVwbGJ0OXFnM0xaaDc3T1pLSnNEWkhCbTV2QWJVSmFkbGUwdnlDMUNUZw?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:53:23 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Malatya’da eğitim uçuşu sırasında bir askeri helikopter düşmüş ve dört asker şehit olmuştur."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "SON DAKİKA I Başkan Erdoğan: Türkiye, hayallerini gerçeklere dönüştürmede usta bir ülkedir",
+      "source": "Sabah",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXMxT3pQYU5pdXZCaTZXQ1JCTTRiZ0lmb29MMnNQZFBXa0k2dkZ6UHVMU3NvNURVTjlCVUNrczJ4bHhoVGtpZTJfV1NuYWdRaUZUTFI0c0F6anF5a1Z2VnNHOWtMenFkeVYxOVJMNjEyTlQ4ODZNcXhTUnJkcGpoWnRZX0pKbU1TTU5EaFlaV0JISEVoUm11YnRKdGpyb1Yt0gGjAUFVX3lxTE1URDlFTWwtV3Q2WE5tYjhSQnRvR0czdVE1MTNLVjlGS2ZyN0VHZFlBLXA0S1RYVlRTaFF4amFJcjYxVVdhN1BILVNwLWxMNEVuRUpDLTdCSDFpVGhLUC1PdThfalI2eWZwdWJjek5QVEZYMWtwNmZ1X2toVDlNRGpxenVKT2MwdHRMbXgwZnVERlV1eW5RbFRONVFFMWhTblF1Vzg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:04:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
     },
     {
       "cat": "Gündem",
@@ -420,46 +451,6 @@
       "summary": "Tam metne ulaşılamadı. Muratpaşa Belediyesi tarafından düzenlenen etkinlikte Türkiye haritası sergilendi ve katılımcılara duyuruldu."
     },
     {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Türkiye Sanayi Karbonsuzlaşma Yatırım Platformu COP31'de tanıtıldı",
-      "source": "Gazete Vatan",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb0tfOTF3cERwalQzNnRxd0dHTWZldkNySjBadldNMWVpZ0gySWktT2ZhMVhuLXlYMHA1dFdzdzRkWUNCT1ByT2Q4ajhIQ3hfUnV2R214WjNrZ2lILWhZc1R1cGZBZEtOTXl1R19lTWR1LXJpY1h4OXZ4bEJ3VEZBMHBZSFRpS25TRVpqV1JqWDNGNTl4eVhLdWs2WmRmLThsanJGcW9KMWNZR2xH?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:26:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, Türkiye Sanayi Karbonsuzlaşma Yatırım Platformu’nun COP31 kapsamında tanıtıldığını bildiriyor."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "TÜRKİYE CUMHURİYETİ FİNANSMANIYLA TARIM, TURİZM, SANAYİ HİBE PROGRAMLARI VE GİRİŞİMCİLİK PROJESİ BAŞVURULARI DEVAM EDİYOR",
-      "source": "Mağusa Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObDlRRzhIYXpkTllBdS1qd2M0bjBoOWd1SHB4anloOUNnNDJMTEluMS14YkRaNkI4Q0VmZXNxSUlJdktWdHhCenBkLTFvbHBNTE9GV3pXWF9RWlZUWmJ0aktXendSU1d3cHh1aWJ2VUlNM2hsUkYzamZlclpDWG03Yl81djN4SDQtNS1zbVAzWjlneWdSSDdDTFhoUDNneTh5amxJLWo2NHRxSEZKazBaNlZwa2lKd2xzQk80RjNpS0plMDh6ZnJLV0JSYW9XRjY4NGdXN1V0dTJLbzNH?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:14:44 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Türkiye Cumhuriyeti finansmanı ile tarım, turizm, sanayi hibe programları ve girişimcilik projesi başvurularının hâlen devam ettiği belirtiliyor. Başvuru sahiplerinin bu desteklerden faydalanmak için başvurularını sürdürmeleri bekleniyor."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Suç örgütü lideri Sercan Sayal Türkiye’ye getirildi",
-      "source": "DHA | Demirören Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTEo5UzBXZFZFUVFuWmpBaThoNElWU1JyRTFZd1JvLWdiUzBhRmRySTh1YmRxdVRwblNNa1ZubW1yZjduU0djV3hSc2hGN01CYzZFcElKMGZFQzNCUndQbHVuVHkySWdQanU3bWx6Qy1Rekt6RnJkWjMzcno0WnRVUmJRMTRVam5taGtZb2tqX21QQQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:10:34 GMT",
-      "image": null,
-      "summary": "Suç örgütü lideri Sercan Sayal, Türkiye'ye getirildi. Tam metne ulaşılamadı."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "TÜRKİYE MSB’DEN SOMALİ’YE 15 BİN ASKER GÖNDERİLECEĞİ İDDİASINA YALANLAMA",
-      "source": "Mağusa Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa0xOWjlyc3k0NndzMzVkX002U0oyTWdncDVCbVpVRzN0YWZaekNhWnU4eGs0TmFsaXhFUmFpbGVVWXIxNGZRQkNxUGxsbjRTckR5RjNDVjdzZ0lSdjl4cnRmNlFDX1ZWS3JocUlPS2ZxQjI3U21qel9BWHhsam51VnRfaHZpZ2xzcV9DcEs1VTJ4d2Z0QnltSnNOaw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:57:54 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, Türkiye Milli Savunma Bakanlığı’nın Somalî’ye 15 bin asker gönderileceği iddiasının yalanlandığını bildiriyor."
-    },
-    {
       "cat": "Çorlu",
       "catId": "corlu",
       "title": "Çorlu'da 5 metrelik biyogaz çukuruna düşen işçi hayatını kaybetti",
@@ -467,7 +458,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2ZHMFJOSVFBckc4SDNCMnE1UFg2dENubS1kQVk2V1pxNkJxc1ljUlN4R0JtTnZqN2tSbXhzelZkVTBLRFVRT1BhMHU5ajJIOVozRHNYUURTU1hZQUFYeDZQY0FtUC1xLWNBQWhuRkxVU1VxLVlxOUlRVXpmTHFERkxiVEkyWGhGVXVRMmMxNWVDdTF0V2s3VWRRTVFUbU9YbkxqRTJ2Z1M1NlVTSW16WQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:27:54 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Çorlu’da 5 metrelik biyogaz çukuruna düşen bir işçi hayatını kaybetmiştir."
     },
     {
@@ -478,7 +468,6 @@
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdDliSk1zM0Y0SDVqanQyNml5alNmSHEtZGg5YllkbEpJQWZQYV9aVm5OREdqbXA2RzduZEg1U1hhOE1LM3VkRFpoY3RyOTdldGhzeTBieXVPdGY0cmxEMk9fUjAyTTdLeVlHeFlLeTN6Z0ctSnUyZWhraS01LUI1TTAyZThaQQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:16:20 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Çorlu’daki bir biyogaz tesisinde çalışan bir işçi hayatını kaybetmiştir."
     },
     {
@@ -489,7 +478,6 @@
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUUFmQ29yYlR5ejA5YzlqS0o4WnRYLW94U1RuNnZUUkRvM2lUTU5maDh0ZFJqWURHOW1xNExMLWVDeUYyb3pGZllQSFRPNlp4VFEzQ2dsNnBCZ2xmbGkwcUxyZmFhSGpmOWhXWHJDV1FNLWhzU0tMT24zZF9kZzRRaU5QY0E5Tm1IeENUR1F6OEhWWTM2UkRSem5hX2JBQXcxb1FaN2pfeGh6cWFpRHJRTzIwOGZrZTNUVzRhODl1Yk9Ya0tPN0RGMWt3?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:03:56 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Tekirdağ'da biyogaz tesisinde çukura düşen işçi hayatını kaybetti."
     },
     {
@@ -500,7 +488,6 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONTlpbVk5M005eU9ZOW9pLUJhTDI1RzhKdEs1bE5rMk5FVHJ3NUczVGZ2RVhuX056a1VoTmJuemNkWlFqYzY4T3hFRHdOd0ItR09fRlh2MFBTM0VMR1dRU3JudjE2OVRRVGd3U09BcnVrZW5mYjZSSjBENXFrTjN5MExGWjBjRllPcWhtN1Z0eFBZamFqZE53Q0xsbw?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:51:03 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. 23. Çorlu Evcil Kanatlılar Festivali Kapılarını Açıyor."
     },
     {
@@ -566,6 +553,17 @@
     {
       "cat": "Çorlu",
       "catId": "corlu",
+      "title": "Tekirdağ'da feci iş kazası: 5 metrelik biyogaz çukuruna düşen işçi hayatını kaybetti",
+      "source": "GZT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTDl4ZkhJQXdTZy1Dem9MUnNNODRoVUhXSnMyWnAxQ0NIcTVPOXV4dnhhSHVLRF9jQlYtNElRVUxLbENhaE1lVmNaNW5KSDZQa2xXZ1FwLWNkMjFrZVRwQzBkOTZMX213bUd4cGUzRGhtQ3FHaEs2NmRRLUJBRzRkOUNqSEM0X0ZFU3BhUDFfWFFGTFdad1ppdm1vZXdIdnhTbTZsYS1yN0twX19pcUlzNWRZUzkzRmZM?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:23:29 GMT",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Çorlu",
+      "catId": "corlu",
       "title": "Tekirdağ'da iş cinayeti: Tesiste biyogaz çukuruna düşen işçi öldü",
       "source": "Cumhuriyet",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWXFjYy05X2NDUlMyd2NScGdELWVHdjdtM1YzWUozUW9yaTBqbGRBYnBFSXFWSG9tMlR1a1BBVkdMSGRoSnRaVEFNbmlhai1DM1g5OVhJMEY2Ty1rQTRwcXRPWXpXN28wUU5OV2ZTRGxLNmJGUVJuXzhCT0ljX1NRX25kWEdwMDFzVUI1NVpDcXBZbWhkT1YtM1E3dl9LeUJRT0h1QUVxTjVoclBkUnBj?oc=5",
@@ -574,15 +572,26 @@
       "summary": "Tam metne ulaşılamadı. Tekirdağ'da bir biyogaz tesisinde işçi çukuruna düşerek öldü."
     },
     {
-      "cat": "Çorlu",
-      "catId": "corlu",
-      "title": "Tesiste biyogaz çukuruna düşen işçi öldü",
-      "source": "Habertürk",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTGdqeGJaUVR6d1lYOFZmbDhpOUVlY21FNC1JR2JxeXFueUdORDd2WXpRZDA4eFFjWjJ4Y19rRm9yOHB5bWdoY2hTRkx1cEdJODV0SThPeEMyVTlyR2g2WW9lNzBfNkJWMWdScWo3ejRUMlkyYTFsOTR6bjNJQS1YS3VzTWR5OFVncjRvX3JhVGhwVm1fbTRxd1luTVdZYVRqSWdOaGVnS1drUQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 14:18:50 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Tesiste biyogaz çukuruna düşen işçi öldü."
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "ALSANCAK VE LAPTA’NIN BAZI BÖLGELERİNDE YARIN ELEKTRİK KESİNTİSİ YAPILACAK",
+      "source": "",
+      "link": "https://www.mhahaber.com/alsancak-ve-laptanin-bazi-bolgelerinde-yarin-elektrik-kesintisi-yapilacak",
+      "pubDate": "Thu, 12 Nov 2026 18:25:09 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/mha-sari-beyaz-273-960x540.webp",
+      "text": "Kıbrıs Türk Elektrik Kurumu (Kıb-Tek), Alsancak Almond Tatil köyü, Lapta Gençlik Kampı ve Lapta Ortaokulu civarında yarın elektrik kesintisi olacağını duyurdu.\nKıb-Tek'ten yapılan açıklamada, orta gerilim elektrik şebekesinde yapılacak bakım çalışması nedeniyle 12.30 ile 14.00 saatleri arasında belirtilen bölgelere elektrik verilemeyeceği kaydedildi.\n(FS/TUĞ)",
+      "summary": ""
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "GAZİVEREN’DE FECİ KAZA: 22 YAŞINDAKİ SÜRÜCÜ HAYATINI KAYBETTİ",
+      "source": "",
+      "link": "https://www.mhahaber.com/gaziverende-feci-kaza-22-yasindaki-surucu-hayatini-kaybetti",
+      "pubDate": "Thu, 12 Nov 2026 18:10:02 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/89e3c2de-b595-4ca9-88f5-08743209d9b4-960x540.webp",
+      "text": "Gaziveren’de bugün saat 16.30 sıralarında meydana gelen trafik kazası, bir gencin hayatını kaybetmesiyle sonuçlandı.\nPolisten verilen bilgiye göre, Gaziveren 1’inci Cadde üzerinde Mervan Güceyü (22), yönetimindeki KY 275 plakalı araçla batı istikametine doğru seyrettiği sırada sağa meyilli viraja geldiğinde direksiyon hâkimiyetini kaybetti.\nKontrolden çıkan araç, yolun güney kısmından çıkarak bir işletmenin önündeki beton zemine çarptı. Çarpmanın etkisiyle takla atan araç, tavanı üzerinde durdu.\nHASTANEDE HAYATINI KAYBETTİ\nKazada ağır yaralanan sürücü Mervan Güceyü, kaldırıldığı Cengiz Topel Devlet Hastanesi’nde yapılan tüm müdahalelere rağmen kurtarılamayarak yaşamını yitirdi.\nAraçta yolcu olarak bulunan Ahmet Cihan Açıkbaş (20) ise yaralı olarak kaldırıldığı aynı hastanenin acil servisinde müşahede altına alındı.\nPolisin kazayla ilgili soruşturması devam ediyor.",
+      "summary": ""
     },
     {
       "cat": "MHA Haber",
@@ -592,8 +601,18 @@
       "link": "https://www.mhahaber.com/baede-trafik-faciasi-23-araclik-kazada-14-can-kaybi",
       "pubDate": "Thu, 12 Nov 2026 17:39:40 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/0bed8754-7f22-4c70-8f35-0b84a9c65da1-960x586.webp",
-      "text": "Birleşik Arap Emirlikleri'nin Fuceyra Emirliği'nde çok sayıda aracın karıştığı zincirleme trafik kazası meydana geldi.\n23 aracın birbirine çarptığı kazada, ilk belirlemelere göre 14 kişi yaşamını yitirirken, 30 kişi de yaralandı.\nİLK BİLANÇO: 14 ÖLÜ, 30 YARALI\nKazanın ardından açıklanan ilk bilgiler, olayda çok sayıda can kaybı ve yaralanma yaşandığını ortaya koydu.\nKazanın meydana geliş nedeni ve yaralıların sağlık durumuna ilişkin henüz ayrıntılı bilgi verilmedi.",
       "summary": "Birleşik Arap Emirlikleri'nde Fuceyra Emirliği'nde 23 aracın karıştığı zincirleme trafik kazasında 14 kişi hayatını kaybederken 30 kişi yaralandı; kazanın nedeni ve yaralıların sağlık durumu hakkında henüz ayrıntılı bilgi bulunmamaktadır."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "TRUMP’TAN NVIDIA’NIN ZİRVESİNE SÜRPRİZ İSİM!",
+      "source": "",
+      "link": "https://www.mhahaber.com/trumptan-nvidianin-zirvesine-surpriz-isim",
+      "pubDate": "Thu, 12 Nov 2026 17:39:40 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/c3ec3f19-9580-4671-8048-c8bc39414c6a-960x540.webp",
+      "text": "ABD Başkanı Donald Trump, teknoloji devi Nvidia'nın Üst Yöneticisi (CEO) Jensen Huang'ın istifasının ardından dikkat çeken bir öneride bulundu.\nTrump, Truth Social hesabından yaptığı paylaşımda, Huang'ın yerine Apple Yönetim Kurulu Başkanı Tim Cook'un getirilmesi gerektiğini belirtti.\n“BİR EFSANENİN YERİNİ BAŞKA BİR EFSANE ALIYOR”\nHuang'ın Nvidia'da başarılı çalışmalar gerçekleştirdiğini ifade eden Trump, şirketin başına geçebilecek en uygun kişinin Tim Cook olduğunu savundu.\nTrump, paylaşımında her iki yöneticiyi de överek “Bir efsanenin yerini başka bir efsane alıyor” değerlendirmesinde bulundu.\nNVIDIA'DA ÜST DÜZEY GÖREV DEĞİŞİKLİĞİ\nABD merkezli teknoloji şirketi Nvidia, Jensen Huang'ın CEO'luk ve yönetim kurulu üyeliği görevlerinden ayrıldığını duyurdu.\nŞirket, finans direktörü Colette Kress'in geçici CEO olarak görevlendirildiğini açıkladı.\nNvidia Yönetim Kurulu, kalıcı CEO'nun belirlenmesi için şirket içinden ve dışından adayların değerlendirileceği bir süreç başlattı.\nTIM COOK'UN KARARI MERAK EDİLİYOR\nApple'da 15 yıl boyunca CEO olarak görev yapan Tim Cook, Eylül 2026'da bu görevinden ayrılarak şirketin Yönetim Kurulu Başkanlığına geçmişti.\nTrump'ın önerisine ilişkin Apple ve Tim Cook'tan henüz bir açıklama gelmezken, Nvidia'nın yeni CEO'sunun kim olacağı belirsizliğini koruyor.",
+      "summary": ""
     },
     {
       "cat": "MHA Haber",
@@ -603,7 +622,6 @@
       "link": "https://www.mhahaber.com/dsoden-gazze-raporu-saglik-hizmetlerine-1056-saldiri",
       "pubDate": "Thu, 12 Nov 2026 17:34:02 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/c1853263-7cdf-4127-9aaa-11a34c8e0e45-960x586.webp",
-      "text": "Dünya Sağlık Örgütü (DSÖ) Genel Direktörü Tedros Adhanom Ghebreyesus, Gazze Şeridi’nde sağlık hizmetlerine yönelik saldırılara ilişkin verileri paylaştı.\nGhebreyesus, Ekim 2023’ten bu yana bölgede sağlık hizmetlerini hedef alan toplam 1056 saldırının belgelendiğini duyurdu.\n1010 KİŞİ HAYATINI KAYBETTİ\nDSÖ Genel Direktörü, söz konusu saldırılar sonucunda 1010 kişinin yaşamını yitirdiğini, 1725 kişinin ise yaralandığını açıkladı.\nGazze’de sağlık tesisleri ve sağlık çalışanlarının korunması gerektiğine dikkat çeken Ghebreyesus, sağlık hizmetlerine yönelik saldırıların durdurulması çağrısını yineledi.\nDSÖ, bölgede sağlık hizmetlerine erişimin güvence altına alınması gerektiğini vurguluyor.",
       "summary": "Dünya Sağlık Örgütü, Ekim 2023'ten bu yana Gazze Şeridi'nde sağlık hizmetlerine yönelik 1.056 saldırıyı belgelendiğini ve bu saldırılar sonucunda 1.010 kişinin öldüğünü, 1.725 kişinin yaralandığını açıkladı; WHO, sağlık tesis ve çalışanlarının korunması çağrısında bulundu."
     },
     {
@@ -614,7 +632,6 @@
       "link": "https://www.mhahaber.com/washingtonda-silahli-saldiri-1-olu-4-yarali",
       "pubDate": "Thu, 12 Nov 2026 17:27:10 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/0779ba36-d6f8-495b-9b5b-a58018391319-960x586.webp",
-      "text": "ABD'nin başkenti Washington'da Beyaz Saray yakınlarında meydana gelen silahlı saldırıda 5 kişi vuruldu. Polis tarafından paylaşılan güncel bilgilere göre, saldırıda 1 kişi yaşamını yitirirken 4 kişi yaralandı.\nOlay, Beyaz Saray'a yaklaşık 1,5 kilometre uzaklıktaki Logan Circle semtinde, yerel saatle 08.00 sıralarında meydana geldi.\nBÖLGEDE GÜVENLİK ÖNLEMLERİ ARTIRILDI\nSilah seslerinin duyulmasının ardından bölgeye çok sayıda polis ve acil müdahale ekibi sevk edildi.\nSaldırının bir spor salonunda ve çevresinde gerçekleştiği belirtilirken, güvenlik gerekçesiyle çevredeki yollar trafiğe kapatıldı ve yakınlardaki okullarda güvenlik önlemleri alındı.\nSALDIRGAN ÖLÜ BULUNDU\nPolis ekiplerinin olayın ardından bir apartman dairesine sığınan şüpheliyle iletişim kurduğu bildirildi.\nYetkililerin açıklamalarına göre, daireden silah sesi duyulmasının ardından içeri giren ekipler saldırganı kendisini vurmuş halde buldu. Saldırganın hayatını kaybettiği bildirildi.\nSaldırının nedenine ilişkin soruşturma devam ediyor.",
       "summary": "Washington'da Beyaz Saray yakınlarındaki Logan Circle semtinde gerçekleşen silahlı saldırıda 5 kişi vuruldu, bunlardan biri hayatını kaybederken 4 kişi yaralandı; saldırganın da olay sonrası ölümle sonuçlanan bir müdahaleyle öldüğü bildirildi ve soruşturma sürüyor."
     },
     {
@@ -625,7 +642,6 @@
       "link": "https://www.mhahaber.com/yunan-vekilden-atinaya-sert-elestiri-turkiye-istedigini-aldi",
       "pubDate": "Thu, 12 Nov 2026 17:22:32 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/d58dd2a2-ada9-4300-b8a0-947b6184d010-960x540.webp",
-      "text": "Yunanistan'ın bağımsız milletvekili Theodora Çakri, Fransa'nın Türkiye'ye gönderdiği diplomatik notayı Atina açısından yenilgi olarak değerlendirdi. Çakri, Ankara'nın savaş gemisi göndermeden diplomatik yollarla istediğini elde ettiğini savundu.\nHABER METNİ\nYunanistan'ın eski Sanayi Bakan Yardımcısı ve bağımsız milletvekili Theodora Çakri, Fransa'nın deniz altı elektrik bağlantısı projesi kapsamında Türkiye'ye gönderdiği diplomatik notaya ilişkin dikkat çeken açıklamalarda bulundu.\nMilitaire internet sitesinde kaleme aldığı makalede Çakri, Yunanistan ile Güney Kıbrıs Rum Yönetimi (GKRY) arasındaki elektrik bağlantısı projesine ilişkin gelişmeleri değerlendirdi.\nFransa'nın araştırma faaliyetleri öncesinde Türkiye'yi diplomatik notayla bilgilendirmesini eleştiren Çakri, bu gelişmeyi Ankara açısından kazanım, Atina açısından ise yenilgi olarak nitelendirdi.\n“TÜRKİYE SAVAŞ GEMİSİ GÖNDERMEDEN İSTEDİĞİNİ ALDI”\nÇakri, Türkiye'nin herhangi bir savaş gemisi göndermeden diplomatik yollarla istediğini elde ettiğini öne sürerek Fransa'nın diplomatik notasının Ankara'nın Doğu Akdeniz'deki konumunu güçlendirdiğini savundu.\nYunanistan'ın yayımladığı NAVTEX'te araştırmaların Yunan kıta sahanlığında yapılacağına ilişkin açık bir ifade bulunmadığını belirten Çakri, Türkiye'nin karşı NAVTEX'inde ise bölgenin Türk kıta sahanlığı içerisinde olduğunun vurgulandığına dikkat çekti.\nMİÇOTAKİS HÜKÜMETİNE ELEŞTİRİ\nFransa'nın diplomatik notasının Türkiye ile Libya arasındaki deniz yetki alanları anlaşmasının dolaylı biçimde tanınması sonucunu doğurabileceğini ileri süren Çakri, Yunanistan Başbakanı Kiryakos Miçotakis hükümetinin Fransa'dan beklediği desteği alamadığını ifade etti.\nÇakri, Yunan hükümetine diplomatik notanın içeriğini kamuoyuyla paylaşma ve Fransa ile Türkiye arasında gerçekleştirilen temaslara ilişkin açıklama yapma çağrısında bulundu.",
       "summary": "Yunan bağımsız milletvekili ve eski Sanayi Bakan Yardımcısı Theodora Çakri, Fransa’nın Türkiye’ye gönderdiği deniz altı elektrik bağlantısı projesiyle ilgili diplomatik notayı Atina açısından yenilgi, Ankara açısından ise kazanç olarak nitelendirdi. Çakri, Türkiye’nin savaş gemisi göndermeden istediğini elde ettiğini ve notanın Doğu Akdeniz’deki konumunu güçlendirdiğini iddia etti."
     },
     {
@@ -636,7 +652,6 @@
       "link": "https://www.mhahaber.com/trumptan-meksikaya-sert-uyari-vergi-tehdidi",
       "pubDate": "Thu, 12 Nov 2026 17:12:02 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/ae291e2d-8552-43bd-aa7d-e7ac80490089-960x540.webp",
-      "text": "ABD Başkanı Donald Trump, Meksika üzerinden ABD sınırına doğru ilerleyen göçmen grupları nedeniyle Meksika yönetimini gümrük vergilerini artırmakla tehdit etti.\nTrump, sosyal medya hesabından yaptığı açıklamada, Meksika'nın göçmen gruplarını derhal durdurması gerektiğini belirterek aksi halde ülkeye uygulanan gümrük vergilerinin iki katına çıkarılacağını duyurdu.\n“HİÇBİR TAVİZ VERİLMEYECEK”\nABD'ye yönelen göçmenlerin ülkeye kabul edilmeyeceğini vurgulayan Trump, sınır güvenliği konusunda kararlı olduklarını ifade etti.\nMeksika yönetimine açık uyarıda bulunan Trump, göçmenlerin ilerleyişinin durdurulmaması halinde ekonomik yaptırımların devreye alınacağını belirtti.\nYAKLAŞIK 1500 GÖÇMEN YOLA ÇIKTI\nUluslararası basında yer alan haberlere göre, çoğunluğu Orta Amerika ülkelerinden yaklaşık 1500 göçmen, Meksika'nın güneyindeki Tapachula kentinden kuzeye doğru hareket etti.\nMeksika Devlet Başkanı Claudia Sheinbaum ise Trump'ın açıklamalarına karşılık, göçmen kafilelerinin ABD sınırına ulaşmadığını belirtti.\nTrump'ın gümrük vergilerini iki katına çıkarma tehdidinin uygulanıp uygulanmayacağı ise henüz netlik kazanmadı.",
       "summary": "ABD Başkanı Donald Trump, Meksika üzerinden ABD sınırına ilerleyen göçmen grupları nedeniyle Meksika’yı gümrük vergilerini iki katına çıkarmakla tehdit etti ve göçmen akışını derhal durdurmasını istedi. Uluslararası basında yaklaşık 1.500 göçmenin Tapachula’dan kuzeye hareket ettiği belirtilirken, Meksika Devlet Başkanı Claudia Sheinbaum bu göçmenlerin hâlâ ABD sınırına ulaşmadığını söyledi."
     },
     {
@@ -647,7 +662,6 @@
       "link": "https://www.mhahaber.com/malatyada-askeri-helikopter-faciasi-4-sehit",
       "pubDate": "Thu, 12 Nov 2026 17:03:01 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/719d79fc-0ced-4b7c-99ed-cca3fec9ad65-960x586.webp",
-      "text": "Malatya'nın Yeşilyurt ilçesine bağlı Samanköy mevkisinde meydana gelen askerî helikopter kazasında 4 asker şehit oldu.\nEdinilen bilgilere göre, saat 18.45 sıralarında S-70 tipi askerî helikopter, henüz belirlenemeyen bir nedenle kaza kırıma uğradı.\nKazanın ardından bölgeye çok sayıda itfaiye, sağlık ve AFAD ekibi sevk edildi.\nMSB'DEN ACI AÇIKLAMA\nMilli Savunma Bakanlığı (MSB), kazaya ilişkin yaptığı açıklamada helikopterde bulunan 4 askerin şehit olduğunu duyurdu.\nBakanlık, kazanın nedeninin henüz belirlenemediğini bildirirken olayla ilgili inceleme başlatıldı.\nKazanın kesin nedeninin yapılacak araştırmaların ardından netlik kazanması bekleniyor.",
       "summary": "Malatya’nın Yeşilyurt ilçesine bağlı Samanköy’de S‑70 tipi askeri helikopter, saat 18.45’te nedeni belirlenemeyen bir sebeple kırıma uğrayarak 4 askerin şehit olmasına yol açtı. Olayın ardından itfaiye, sağlık ve AFAD ekipleri bölgeye sevk edildi; Milli Savunma Bakanlığı kazanın nedenini araştırdığını duyurdu."
     },
     {
@@ -658,7 +672,6 @@
       "link": "https://www.mhahaber.com/trump-ile-netanyahu-arasinda-iran-krizi-iddiasi",
       "pubDate": "Thu, 12 Nov 2026 16:33:42 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/download-960x585.webp",
-      "text": "ABD Başkanı Donald Trump ile İsrail Başbakanı Binyamin Netanyahu arasında İran'a yönelik askerî operasyonların yeniden başlatılması konusunda ciddi görüş ayrılıkları yaşandığı iddia edildi.\nİsrail'in Yedioth Ahronoth gazetesine göre, iki lider hafta sonu gerçekleştirdikleri telefon görüşmesinde İran konusunu ele aldı.\nGörüşmenin içeriğini bilen kaynaklar, konuşmanın alışılmışın dışında sert geçtiğini ileri sürdü. Kaynaklardan biri görüşmeyi \"cehennemden fırlamış bir bağırma kavgası\" olarak nitelendirdi.\nİSRAİL'DEN İDDİALARA YALANLAMA\nİsrail Başbakanlık Ofisi, Trump ile Netanyahu arasında bağrışma yaşandığı yönündeki haberleri reddetti.\nYetkililer, telefon görüşmesinin çatışmacı bir atmosferde geçmediğini savunurken iki lider arasında sert tartışma yaşandığı iddialarının gerçeği yansıtmadığını belirtti.\nİRAN KONUSUNDA GÖRÜŞ AYRILIĞI\nHabere göre Trump yönetimi, İran ile diplomatik bir anlaşmaya varma ihtimalini değerlendirmeyi sürdürürken Netanyahu, İran yönetimi değişmeden nükleer tehdidin kalıcı olarak ortadan kaldırılamayacağını savunuyor.\nİran'a yönelik askerî saldırıların yeniden başlatılıp başlatılmayacağı konusu, Washington ile Tel Aviv arasındaki temel anlaşmazlık noktalarından biri olarak gösteriliyor.\nNETANYAHU'NUN TRUMP'A BASKI YAPTIĞI İDDİASI\nFinancial Times gazetesinin 10 Kasım'da yayımladığı haberde, Netanyahu'nun İran'a yönelik saldırıların yeniden başlaması için Trump'ı sık sık aradığı öne sürüldü.\nGörüşmelere ilişkin bilgi sahibi bir diplomat, Netanyahu'nun Trump üzerinde baskı kurduğunu, Beyaz Saray içindeki ve dışındaki bazı isimlerin ise yeni bir askerî operasyonu engellemeye çalıştığını iddia etti.\nBölgedeki Arap liderlerin de gerilimin yeniden tırmanmasından endişe duyduğu ve Trump'a diplomatik müzakerelere öncelik verilmesi çağrısında bulunduğu aktarıldı.\nTrump ise İran'a yönelik yeni bir askerî harekâtın şu aşamada gerekli olmadığını ifade etmişti.",
       "summary": "ABD Başkanı Donald Trump ile İsrail Başbakanı Binyamin Netanyahu arasında İran'a yönelik askerî operasyonların yeniden başlatılması konusunda görüş ayrılıkları olduğu iddia edildi. İsrail Başbakanlık Ofisi iddiaları reddederken, Trump diplomatik bir çözüm arayışını sürdürdüğünü, Netanyahu ise nükleer tehdidin ortadan kalkmayacağını savunarak askeri müdahaleyi desteklediği bildirildi. Financial Times'ın 10 Kasım tarihli haberine göre Netanyahu, Trump'ı baskı altına almaya çalıştığını iddia etti."
     },
     {
@@ -680,58 +693,28 @@
       "pubDate": "Thu, 12 Nov 2026 15:59:05 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-95.webp",
       "summary": "Cumhuriyetçi Türk Partisi Genel Başkanı Sıla Usar İncirli, Antalya’da COP31 Liderler Zirvesi kapsamında Cumhurbaşkanı Yardımcısı Cevdet Yılmaz ile bir araya geldi. Görüşmede Kıbrıs Türk halkının ekonomik ve sosyal kalkınması, sürdürülebilir büyüme, yeşil dönüşüm, enerji güvenliği ve iklim adaleti konuları ele alındı. İncirli, Türkiye ile Kuzey Kıbrıs arasındaki tarihsel bağların stratejik iş birliğine dayandığını vurguladı."
-    },
-    {
-      "cat": "MHA Haber",
-      "catId": "mha",
-      "title": "MACRON’UN KARŞILAMA TÖRENİNDE PEŞ PEŞE BAYILMA!",
-      "source": "",
-      "link": "https://www.mhahaber.com/macronun-karsilama-toreninde-pes-pese-bayilma",
-      "pubDate": "Thu, 12 Nov 2026 15:58:05 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/61a227f2-bd19-4170-82c5-c11c0f8add69-960x540.webp",
-      "summary": "Fransa Cumhurbaşkanı Emmanuel Macron, Slovakya Cumhurbaşkanı Peter Pellegrini’yi Elysee Sarayı’nda karşılarken, tören girişindeki iki muhafız aniden bayıldı ve yere düştü. Olayın ardından yetkililer müdahale etti, ancak iki güvenlik görevlisinin sağlık durumu hakkında henüz resmi bir açıklama yapılmadı."
-    },
-    {
-      "cat": "MHA Haber",
-      "catId": "mha",
-      "title": "AKEL, KKTC’NİN İLANINI PROTESTO ETMEK İÇİN SOKAĞA ÇIKIYOR!",
-      "source": "",
-      "link": "https://www.mhahaber.com/akel-kktcnin-ilanini-protesto-etmek-icin-sokaga-cikiyor",
-      "pubDate": "Thu, 12 Nov 2026 15:56:10 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-94.webp",
-      "summary": "AKEL Partisi, 13 Kasım Cuma günü Lefkoşa’da KKTC’nin 43. ilan yıldönümünü protesto etmek amacıyla saat 19.00’da Orfeas Barikatı’nda yürüyüş ve etkinlik düzenleyecek. Parti, KKTC’yi “hukuk dışı” ve “sözde devlet” olarak nitelendirerek, Türkiye’nin adadaki varlığına ve Kıbrıs’ın bölünmüşlüğüne karşı mesaj vermeyi hedefliyor."
-    },
-    {
-      "cat": "MHA Haber",
-      "catId": "mha",
-      "title": "ÜSTEL: UBP’NİN TEK BAŞINA İKTİDARININ AYAK SESLERİ GELİYOR!",
-      "source": "",
-      "link": "https://www.mhahaber.com/ustel-ubpnin-tek-basina-iktidarinin-ayak-sesleri-geliyor",
-      "pubDate": "Thu, 12 Nov 2026 15:50:13 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-93.webp",
-      "summary": "UBP Genel Başkanı ve Başbakan Ünal Üstel, İskele ve Lefkoşa’da düzenlenen etkinliklerde koşulsuz bedelli askerlik açılımının UBP’nin tek başına iktidar hedefini güçlendirdiğini belirtti. Üstel, gençlere ve girişimcilere maaş ve sigorta primi desteği sağlandığını, bu desteklerin önümüzdeki dönemde artırılacağını açılayarak partinin birinci parti olduğunu vurguladı."
     }
   ],
   "weather": {
-    "temp": 17.0,
+    "temp": 16.8,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6262.98,
-    "ceyrek_altin_try": 10960.22
+    "gold_gram_try": 6275.11,
+    "ceyrek_altin_try": 10981.44
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3606033,
-      "change_pct": -3.66753288512903
+      "price": 3613481,
+      "change_pct": -3.4413545207180802
     },
     {
       "label": "Ethereum",
-      "price": 100999,
-      "change_pct": -3.891356595235651
+      "price": 101456,
+      "change_pct": -3.2960134700145063
     }
   ],
   "stocks": [
@@ -742,13 +725,13 @@
     },
     {
       "label": "S&P 500",
-      "price": 7633.74,
-      "change_pct": 0.19
+      "price": 7627.88,
+      "change_pct": 0.11
     },
     {
       "label": "Nasdaq",
-      "price": 25493.79,
-      "change_pct": 0.11
+      "price": 25471.47,
+      "change_pct": 0.02
     },
     {
       "label": "THY",
@@ -782,33 +765,33 @@
     },
     {
       "label": "Apple",
-      "price": 355.29,
-      "change_pct": -0.02
+      "price": 355.84,
+      "change_pct": 0.14
     },
     {
       "label": "Microsoft",
-      "price": 528.62,
-      "change_pct": 1.44
+      "price": 525.75,
+      "change_pct": 0.89
     },
     {
       "label": "Nvidia",
-      "price": 165.4,
-      "change_pct": -4.79
+      "price": 165.78,
+      "change_pct": -4.58
     },
     {
       "label": "Tesla",
-      "price": 392.61,
-      "change_pct": 0.46
+      "price": 392.25,
+      "change_pct": 0.37
     },
     {
       "label": "Meta",
-      "price": 626.47,
-      "change_pct": -0.37
+      "price": 624.66,
+      "change_pct": -0.65
     },
     {
       "label": "Alphabet",
-      "price": 301.61,
-      "change_pct": 2.78
+      "price": 301.48,
+      "change_pct": 2.73
     }
   ]
 }

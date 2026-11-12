@@ -9,7 +9,6 @@
 <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%239b51e0'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle' fill='white'%3E📡%3C/text%3E%3C/svg%3E">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%239b51e0'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle' fill='white'%3E📡%3C/text%3E%3C/svg%3E">
 <title>RADAR</title>
-<!-- Grafikler için Chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
   :root {
@@ -91,7 +90,7 @@
     padding: 20px 20px 20px 0; height: 100vh; overflow: hidden;
   }
 
-  /* --- ÜST PANEL (HEADER) --- */
+  /* --- ÜST PANEL --- */
   .top-bar {
     display: flex; justify-content: space-between; align-items: center;
     padding: 16px 24px; border-radius: var(--radius-lg);
@@ -100,7 +99,6 @@
   .top-time { font-size: 20px; font-weight: 700; }
   .top-date { font-size: 14px; color: var(--text-muted); margin-top: 2px; }
   .top-weather { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; border-left: 1px solid var(--border); padding-left: 24px; }
-  
   .top-right { display: flex; align-items: center; gap: 16px; }
   .system-status { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--green); font-weight: 600; background: rgba(16, 185, 129, 0.1); padding: 6px 12px; border-radius: 20px; }
   .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 10px var(--green); animation: pulse 2s infinite; }
@@ -108,10 +106,22 @@
   .greeting { font-size: 14px; font-weight: 500; }
   .avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), var(--accent-cyan)); display: flex; align-items: center; justify-content: center; font-weight: bold; }
 
-  /* --- İÇERİK ALANI --- */
+  /* --- İÇERİK ALANI VE ANİMASYON --- */
   .content-area { display: flex; gap: 20px; flex: 1; overflow: hidden; }
-  .view-section { display: none; width: 100%; height: 100%; overflow-y: auto; padding-right: 8px; }
-  .view-section.active { display: block; }
+  
+  .view-section { 
+    display: none; width: 100%; height: 100%; overflow-y: auto; padding-right: 8px; 
+  }
+  
+  /* 🚀 YENİ: SEKME GEÇİŞ ANİMASYONU */
+  .view-section.active { 
+    display: block; 
+    animation: fadeSlideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+  @keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 
   /* --- GÜNDEM GÖRÜNÜMÜ --- */
   .feed-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
@@ -142,7 +152,7 @@
   .action-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-main); }
   .action-btn.liked { color: var(--accent); background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.3); }
 
-  /* 🚀 --- PİYASALAR (BORSA) GÖRÜNÜMÜ (Görseldeki Tasarım) --- */
+  /* --- PİYASALAR GÖRÜNÜMÜ --- */
   .market-header { margin-bottom: 24px; }
   .market-title { font-size: 14px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
   .market-total { font-size: 48px; font-weight: 800; letter-spacing: -1px; }
@@ -150,7 +160,6 @@
   
   .market-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-bottom: 32px; }
   .market-card { border-radius: var(--radius-lg); padding: 20px; position: relative; overflow: hidden; color: #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
-  /* Görseldeki Renk Paleti */
   .mc-purple { background: linear-gradient(135deg, #7c3aed, #4c1d95); }
   .mc-orange { background: linear-gradient(135deg, #f59e0b, #b45309); }
   .mc-red { background: linear-gradient(135deg, #ef4444, #991b1b); }
@@ -163,12 +172,9 @@
   .mc-price { font-size: 28px; font-weight: 800; margin-bottom: 4px; }
   .mc-change { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 600; background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 8px; }
   
-  /* Mini Grafik Alanı */
   .mc-chart-container { height: 60px; margin-top: 16px; width: 100%; }
 
-  /* --- MOBİL BORSA ŞERİDİ (Eski tasarım, mobilde üstte kalacak) --- */
   .mobile-widgets { display: none; }
-
   .status-msg { font-size: 14px; color: var(--text-muted); text-align: center; padding: 20px;}
   ::-webkit-scrollbar { width: 6px; height: 6px;}
   ::-webkit-scrollbar-track { background: transparent; }
@@ -204,27 +210,23 @@
     .nav-dot { width: 10px; height: 10px; }
     .nav-icon { font-size: 20px; }
 
-    /* Mobil Üst Panel */
     .top-bar { padding: 12px; flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
     .top-left { flex-wrap: wrap; gap: 12px; width: 100%; justify-content: space-between; }
     .top-time { font-size: 16px; }
     .top-date { font-size: 12px; }
     .top-weather { border-left: none; padding-left: 0; font-size: 13px; }
-    .top-right { display: none; /* Mobilde sistemi ve avatarı gizle, yer kaplamasın */ }
+    .top-right { display: none; }
 
-    /* İçerik */
     .content-area { display: block; overflow: visible; }
     .view-section { overflow-y: visible; padding-right: 0; }
     .feed-header { flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px;}
     .search-box { width: 100%; padding: 10px 16px; }
     .feed-grid { grid-template-columns: 1fr; gap: 16px; }
 
-    /* Borsa Görünümü Mobilde */
     .market-total { font-size: 32px; }
     .market-grid { grid-template-columns: 1fr; }
     .mc-chart-container { height: 50px; }
     
-    /* Mobil Borsa Şeridi (Sadece Gündem sekmesinde en üstte) */
     .mobile-widgets {
       display: flex; overflow-x: auto; gap: 10px; padding: 0 0 16px 0;
       margin-bottom: 16px; border-bottom: 1px solid var(--border);
@@ -247,7 +249,6 @@
     <div class="logo-text">RADAR</div>
   </div>
   
-  <!-- ANA SEKMELER -->
   <div class="nav-item active" id="nav-news" onclick="switchView('news', this)">
     <div class="nav-icon">📰</div>
     <span class="nav-text">Gündem</span>
@@ -259,7 +260,6 @@
 
   <div class="nav-separator"></div>
 
-  <!-- HABER KATEGORİLERİ (Sadece Gündem sekmesinde çalışır) -->
   <div class="nav-item active" data-id="all" onclick="selectCategory('all', this)">
     <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> 
     <span class="nav-text">Tümü</span>
@@ -270,7 +270,6 @@
 <!-- ANA İÇERİK -->
 <div class="app-container">
   
-  <!-- YENİ ÜST PANEL -->
   <header class="top-bar glass">
     <div class="top-left">
       <div>
@@ -286,15 +285,13 @@
         <div class="status-dot"></div> Sistem Aktif
       </div>
       <div class="greeting" id="greetingText">İyi Günler 👋</div>
-      <div class="avatar">N</div> <!-- Kullanıcı Baş Harfi -->
+      <div class="avatar">N</div>
     </div>
   </header>
 
   <div class="content-area">
     
-    <!-- 📰 GÜNDEM GÖRÜNÜMÜ -->
     <div class="view-section active" id="view-news">
-      <!-- MOBİL BORSA ŞERİDİ -->
       <div class="mobile-widgets" id="mobileWidgets"></div>
 
       <div class="feed-header">
@@ -316,16 +313,13 @@
       </div>
     </div>
 
-    <!-- 📈 PİYASALAR GÖRÜNÜMÜ (YENİ) -->
     <div class="view-section" id="view-market">
       <div class="market-header">
         <div class="market-title">Toplam Piyasa Takibi</div>
         <div class="market-total" id="marketTotal">₺ --.--</div>
       </div>
 
-      <div class="market-grid" id="marketGrid">
-        <!-- Kartlar JS ile buraya gelecek -->
-      </div>
+      <div class="market-grid" id="marketGrid"></div>
     </div>
 
   </div>
@@ -363,9 +357,7 @@ let readLinks = new Set(JSON.parse(localStorage.getItem('radar_read') || '[]'));
 let likedLinks = new Set(JSON.parse(localStorage.getItem('radar_liked') || '[]'));
 let marketData = null;
 let stocksData = null;
-let chartInstances = []; // Grafikleri tutmak için
 
-// --- YARDIMCI FONKSİYONLAR ---
 function esc(str) {
   if(!str) return '';
   return String(str).replace(/[&<>"']/g, function(m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]; });
@@ -380,30 +372,29 @@ function timeAgo(dateStr) {
   return Math.round(diff / 1440) + ' gün önce';
 }
 
-// --- SEKME GEÇİŞİ (SPA Mantığı) ---
+// 🚀 SEKME GEÇİŞ ANİMASYONLU FONKSİYON
 function switchView(viewName, el) {
-  // Menü aktifliğini güncelle (Sadece ana sekmeler için)
   document.querySelectorAll('.sidebar > .nav-item').forEach(n => n.classList.remove('active'));
   if(el) el.classList.add('active');
 
-  // Görünümleri gizle/göster
-  document.querySelectorAll('.view-section').forEach(v => v.classList.remove('active'));
-  document.getElementById('view-' + viewName).classList.add('active');
+  document.querySelectorAll('.view-section').forEach(v => {
+    v.classList.remove('active');
+  });
+  
+  const targetView = document.getElementById('view-' + viewName);
+  targetView.classList.add('active');
 
-  // Eğer Piyasalar sekmesi açıldıysa grafikleri yeniden çiz (görünmezken boyut alamıyorlar)
+  // Grafiklerin animasyonlu çizilmesi için (CSS animasyonu bittikten sonra)
   if(viewName === 'market') {
-    setTimeout(renderMarketCharts, 50);
+    setTimeout(() => { renderMarketCharts(); }, 100);
   }
 }
 
-// --- SAAT, TARİH VE SELAMLAMA ---
 function startClock() {
   function tick() {
     const now = new Date();
     document.getElementById('clockTime').textContent = now.toLocaleTimeString('tr-TR', {hour: '2-digit', minute:'2-digit'});
     document.getElementById('clockDate').textContent = now.toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' });
-    
-    // Selamlama
     const hour = now.getHours();
     let greet = "İyi Geceler";
     if (hour >= 5 && hour < 12) greet = "Günaydın";
@@ -415,7 +406,6 @@ function startClock() {
   setInterval(tick, 1000);
 }
 
-// --- SOL MENÜ KATEGORİLERİ ---
 function initSidebarCategories() {
   const sidebar = document.querySelector('.sidebar');
   Object.keys(CATEGORIES).forEach(id => {
@@ -438,7 +428,6 @@ function selectCategory(id, el) {
   renderNews();
 }
 
-// --- HABERLERİ RENDER ETME ---
 function renderNews() {
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '';
@@ -481,7 +470,6 @@ function renderNews() {
   });
 }
 
-// --- GÜNÜN ÖZETİ ---
 function renderAIBriefing() {
   const container = document.getElementById('aiBriefingContent');
   if (!allNews || allNews.length === 0) { container.innerHTML = 'Analiz edilecek haber yok.'; return; }
@@ -492,7 +480,6 @@ function renderAIBriefing() {
   container.innerHTML = html;
 }
 
-// --- MODAL ---
 function openModal(item, cat) {
   readLinks.add(item.link);
   localStorage.setItem('radar_read', JSON.stringify(Array.from(readLinks)));
@@ -512,7 +499,6 @@ function toggleLike(link, btn) {
   localStorage.setItem('radar_liked', JSON.stringify(Array.from(likedLinks)));
 }
 
-// --- VERİ ÇEKME ---
 async function loadData() {
   try {
     const res = await fetch('news.json?t=' + Date.now());
@@ -524,22 +510,20 @@ async function loadData() {
 
     renderNews();
     renderAIBriefing();
-    renderMarketView(); // Borsa sekmesini doldur
-    renderWeatherHeader(data.weather); // Üst panel hava durumu
-    renderMobileMarketStrip(); // Mobil üst şerit
+    renderMarketView(); 
+    renderWeatherHeader(data.weather); 
+    renderMobileMarketStrip(); 
     
   } catch (e) {
     document.getElementById('newsGrid').innerHTML = `<div class="status-msg">Bağlantı hatası: ${e.message}</div>`;
   }
 }
 
-// --- HAVA DURUMU (ÜST PANEL) ---
 function renderWeatherHeader(weather) {
   if (!weather || weather.temp == null) return;
   document.getElementById('weatherText').textContent = `${Math.round(weather.temp)}°C · ${weather.desc} (Çorlu)`;
 }
 
-// --- MOBİL BORSA ŞERİDİ ---
 function renderMobileMarketStrip() {
   const container = document.getElementById('mobileWidgets');
   if (!marketData) return;
@@ -558,7 +542,6 @@ function renderMobileMarketStrip() {
   container.innerHTML = html;
 }
 
-// 🚀 --- PİYASALAR (BORSA) SEKMESİ GÖRÜNÜMÜ ---
 function renderMarketView() {
   const grid = document.getElementById('marketGrid');
   const totalEl = document.getElementById('marketTotal');
@@ -568,17 +551,13 @@ function renderMarketView() {
     return;
   }
 
-  // Toplam Piyasa Değeri (Görseldeki "Total Balance" etkisi için temsili bir hesap)
   if (marketData && marketData.gold_gram_try) {
     totalEl.textContent = `₺${marketData.gold_gram_try.toLocaleString('tr-TR')}`;
   } else {
-    totalEl.textContent = `₺50.28`; // Fallback
+    totalEl.textContent = `₺50.28`; 
   }
 
   let html = '';
-  chartInstances = []; // Eski grafikleri temizle
-
-  // Kart tanımlamaları (Renkler ve İkonlar)
   const cards = [];
 
   if (marketData) {
@@ -616,14 +595,8 @@ function renderMarketView() {
   });
 
   grid.innerHTML = html;
-
-  // Grafikler sadece sekme görünür olduğunda çizilebilir (boyut sorunu olmaması için)
-  if (document.getElementById('view-market').classList.contains('active')) {
-    renderMarketCharts();
-  }
 }
 
-// Grafik Çizim Fonksiyonu (Chart.js)
 function renderMarketCharts() {
   const cards = document.querySelectorAll('.market-card');
   
@@ -631,19 +604,16 @@ function renderMarketCharts() {
     const canvas = card.querySelector('canvas');
     if (!canvas) return;
     
-    // Simüle edilmiş grafik verisi (Mevcut fiyat etrafında dalgalanma)
-    // Gerçekte Python API'den geçmiş veri çekilebilir
     const basePrice = parseFloat(card.querySelector('.mc-price').textContent.replace(/\./g, '').replace(',', '.'));
     const dataPoints = [];
-    let current = basePrice * 0.98; // Başlangıç noktası
+    let current = basePrice * 0.98;
     
     for (let j = 0; j < 20; j++) {
       current = current + (Math.random() - 0.45) * (basePrice * 0.01);
       dataPoints.push(current);
     }
-    dataPoints.push(basePrice); // Son nokta her zaman güncel fiyat
+    dataPoints.push(basePrice);
 
-    // Çizgi rengi beyaz olsun
     const ctx = canvas.getContext('2d');
     new Chart(ctx, {
       type: 'line',
@@ -669,13 +639,12 @@ function renderMarketCharts() {
         maintainAspectRatio: false,
         plugins: { legend: { display: false }, tooltip: { enabled: false } },
         scales: { x: { display: false }, y: { display: false } },
-        animation: { duration: 1500, easing: 'easeOutQuart' }
+        animation: { duration: 2000, easing: 'easeOutQuart' } // Daha yumuşak çizim
       }
     });
   });
 }
 
-// --- BAŞLATMA ---
 document.getElementById('searchInput').addEventListener('input', (e) => { searchQ = e.target.value.trim(); renderNews(); });
 
 startClock();

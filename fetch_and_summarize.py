@@ -19,7 +19,7 @@ if not GROQ_API_KEY:
     sys.exit(1)
 
 # Daha stabil ve Türkçe'ye çok daha hakim bir model
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
 TR = {"hl": "tr", "gl": "TR", "ceid": "TR:tr"}

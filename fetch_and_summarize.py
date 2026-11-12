@@ -216,34 +216,37 @@ def summarize_batch(items):
             break
     return [""] * len(items)
 
-# --- YENİ: GÜNÜN ÖZETİ (RADAR AI BRIEFING) ---
-def generate_daily_briefing(all_news):
-    """En güncel 10 haberi alır ve Groq ile tek bir akıcı 'Günün Özeti' paragrafı yazar."""
-    if not all_news: return "Bugün için özetlenecek önemli bir gelişme bulunamadı."
+# --- YENİ: KATEGORİYE ÖZEL ANALİZLER (RADAR AI BRIEFINGS) ---
+def generate_category_briefings(all_news):
+    """Tek bir istekte 3 farklı kategori için özet çıkarır."""
+    if not all_news: return {}
     
-    # En son eklenen 10 haberi al
-    top_news = all_news[:10]
-    haber_metni = "\n".join([f"- {h['title']}: {h.get('summary', '')}" for h in top_news])
+    # Sadece en güncel 20 haberi al (Token limitini korumak için)
+    top_news = all_news[:20]
+    haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     
     prompt = (
-        "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki bugünün öne çıkan haberlerini okuyup, "
-        "kullanıcıya 'Merhaba, bugünün öne çıkan gelişmeleri şunlar:' diyerek başlayan, 3-4 cümlelik akıcı, "
-        "tarafsız ve profesyonel bir 'Günün Özeti' metni yaz. Önemli detayları (şirket isimleri, ülke, rakam) koru. "
-        "Sadece özet metnini döndür, başka bir şey yazma.\n\nHaberler:\n" + haber_metni
+        "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki haberleri okuyup 3 farklı alanda analiz yaz. "
+        "Her analiz kendi alanındaki gelişmeleri özetleyen, 2-3 cümlelik, akıcı ve profesyonel bir metin olmalı. "
+        "Eğer o kategoride yeterli haber yoksa 'Bugün bu alanda öne çıkan bir gelişme yok.' yaz. "
+        "Çıktıyı KESİNLİKLE şu JSON formatında ver: "
+        '{"teknoloji": "...", "ekonomi": "...", "gundem": "..."}'
+        "Başka hiçbir şey yazma.\n\nHaberler:\n" + haber_metni
     )
     
     try:
         resp = requests.post(
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-            json={"model": GROQ_MODEL, "max_tokens": 1000, "messages": [{"role": "user", "content": prompt}]},
+            json={"model": GROQ_MODEL, "max_tokens": 1000, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
             timeout=30
         )
         resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"].strip()
+        data = json.loads(resp.json()["choices"][0]["message"]["content"])
+        return data
     except Exception as e:
-        print(f"  ! Briefing (Günün Özeti) hatası: {e}", file=sys.stderr)
-        return "Günün özeti şu an oluşturulamıyor, lütfen aşağıdaki haberlere göz atın."
+        print(f"  ! Briefing hatası: {e}", file=sys.stderr)
+        return {"teknoloji": "Analiz hazırlanamadı.", "ekonomi": "Analiz hazırlanamadı.", "gundem": "Analiz hazırlanamadı."}
 
 # --- CACHE VE BİLDİRİM ---
 def load_cache():
@@ -307,12 +310,13 @@ def main():
             if i + CHUNK_SIZE < len(need_summary): time.sleep(2)
 
     print("Hava durumu, piyasa ve kripto çekiliyor...")
-    print("Günün Özeti (RADAR AI) hazırlanıyor...")
-    gunun_ozeti = generate_daily_briefing(all_items)
+    
+    print("RADAR AI Günün Analizleri hazırlanıyor...")
+    briefings = generate_category_briefings(all_items)
 
     out = {
         "updated": datetime.now(timezone.utc).isoformat(),
-        "briefing": gunun_ozeti, # YENİ: AI Özeti
+        "briefings": briefings, # YENİ: Kategoriye özel AI analizleri
         "items": all_items,
         "weather": fetch_weather(),
         "market": fetch_market(),

@@ -1,130 +1,142 @@
 {
-  "updated": "2026-11-12T13:43:04.644088+00:00",
+  "updated": "2026-11-12T14:52:04.522650+00:00",
   "briefings": {
-    "teknoloji": "Türkiye'de Paribu Intelligence ve yerli mühendislik projeleriyle AI destekli işlem ve enerji çözümleri ortaya koyulurken, Manisa'da trafik sistemlerinde yerli teknoloji kullanılmaya başlandı. Uluslararası alanda ise Vietnam‑Güney Kore iş birliği, Meta'nın AI veri merkezi tedarik zinciri anlaşmaları ve TSMC'nin milyar dolarlık AI çip yatırımı, Avrupa'da 8,5 milyar dolarlık Agile Robots yatırımı gibi büyük ölçekli yatırımlar ve iş birlikleri gerçekleşti. Ayrıca, AI'nin istihdam üzerindeki etkileri Asya’da işten çıkarmalarla tartışılırken, CEO'ların doğru problem seçimi vurgusu yapılıyor.",
-    "ekonomi": "Bugün bu alanda öne çıkan bir gelişme yok.",
-    "gundem": "Bugün bu alanda öne çıkan bir gelişme yok."
+    "teknoloji": "Analiz hazırlanamadı.",
+    "ekonomi": "Analiz hazırlanamadı.",
+    "gundem": "Analiz hazırlanamadı."
   },
   "items": [
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
-      "title": "Paribu Intelligence emir hazırlıyor, son onayı kullanıcı veriyor",
-      "source": "Teknoblog",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeEpfTVlyeWdjSXNpbGZwMEVkOExZXzNpa3A0bmktaE9FTXA1aEw1akxKc1FIZ0Z6b3BBMVAzemVqQmZCT1lDbmxZZnBoV3F2QldMRE5NblMxNExlaXVONG45dXV5UXpMRncxaTRMZUZ0Tm5CdGpYUG5UeDVyRzBRTHRzY2N3aElCbm5KNGNzMGhkcEV4?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:10:43 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Paribu Intelligence bir emir hazırlıyor ve son onayı kullanıcılara veriyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Üçüncü Ulusal Yapay Zekâ Buluşması’nın Ardından",
-      "source": "Fintechtime",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTGFDNkJpdUlQdjJ3UWV3ajdEZEUtZDJDSjVDNHRQTElOcU1RN0h4TEJUeGxITC1nZ1R3VzIzbm1Vb194aE56NEJObDlWa3FtSm9nY1h0dHNwZ2pBV0ZVemJPZFhhUGtUSFhfTGU0LUU0T1hIX3NRaG5ONkNjaEZVY3djYVk2dw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:04:24 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Üçüncü Ulusal Yapay Zekâ Buluşması gerçekleşti."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Vietnam ve Güney Kore, yarı iletken ürünlerin ticarileştirilmesini teşvik ediyor.",
+      "title": "Genç öğrenciler için yapay zeka kullanımını kısıtlamayı düşünün.",
       "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb0hPWnhfZGZ3SVRCYWhyN0ZlR09lWm1VM1pLanc1czlWNWF0alk5M0Z6QlhNOTVFTlZ3d2ZyVmVYVGJXSXowNHkwYThiSlhIdEF4S0xodXRBOTFRc3ZUTU91djgzbXBoNDJQdHgxSGJTVVBJWDlJQVA1T2M1SmdOdWtSWkJkcndvNk40VA?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:45:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXd6LTlySWg4di1kcnN5SEJMRUswa3k1dVhIU19TNWdqalE3Tk42Yl8wS0FpRnRFNGg1bXh1VWNsMU1sQTVfRUpWSTRoRzlsbG8zQTZWZWFXOGVmSkNRNkFYbkpNNlBVeTlpYTljdmR0dHhSSEFJQ0NkdVU2dUpVVEpB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:44:31 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Vietnam ve Güney Kore, yarı iletken ürünlerin ticarileştirilmesini teşvik ediyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Vietnam.vn, genç öğrenciler için yapay zeka kullanımının sınırlandırılmasını düşündüklerini belirtti. Bu öneri, gençlerin teknolojiye erişimini düzenlemeyi amaçlıyor."
     },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
-      "title": "Yapay zekâ çağındaki CEO'ların her çözüm önerisini sunmak yerine doğru sorunu seçmeleri gerekiyor.",
+      "title": "Bảo vệ an toàn môi trường số, quản lý AI và thể chế thử nghiệm công nghệ",
       "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFhjd2x0aE9rWDMxNWdFUkE1R2FmVXZzRWRjU2lPd2JQNnkxVVVPTVZwYzItTTl1OUhWUmp1RUppU21maXpBSFpaNDlHUURTZzRxLUdpQUV4TUpOS21zR3pXU21QOFpwdmM5Wjg4Uml4a3dwaDVHRHFNVWhCeFhtREx6d01NaUdqcFhKVVVKajVEUQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:45:35 GMT",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUWxGeGdxLWFyQVBHY2JVdGNwdFZYMW9JMmkwRGpQOHF6XzNoaFQ3VHJPeTJrLU03aWxmUXQzRUZoVjUwUkduTXM1bVFxSlpKLTBQanZ0SVk2UGFrYnJsYkttTXA3dFZZY3BRMzgtNDZBU3U2cktLc1k0enBLQ1M4djFKeU8zQ2pNakQyMG8xb3lXSVVXTHp0MHVzVHI5UQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:44:31 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, yapay zekâ çağında CEO'ların tüm çözüm önerilerini sunmak yerine doğru sorunu seçmeleri gerektiğini vurguluyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Vietnam.vn, dijital ortamın güvenliğini koruma, yapay zekanın yönetimi ve teknoloji denemeleri için yeni bir çerçeve oluşturma konularını ele alıyor. Bu adımlar, dijital ekosistemin güvenli ve kontrollü gelişimini hedefliyor."
     },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
-      "title": "Teknoloji devleri 8,5 milyar dolarlık Alman robotik girişimi Agile Robots'a yatırım yapıyor",
-      "source": "Forbes Türkiye",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNFloVnY3STczQ2ZLUEVNWDNfa3pVUFo1NkFkUUpDN19kenNzWWlXaHV3azI5dEg0UF9XNExvOUhsS2h1S0haNjY0elowdUVla1g4Rmp1SWR5MUJRdmh6UHVRYTM4MU81b21Ja3hKZmhuS21oX25iV25tbTR5SnFOYnlHMFlmbXJiSGxNbHlRak5WMHNvZW1jUG5McHJDT1lkbFNobW1URndVN3hlSkN2SVZUWndUZ3lFNVE1d05VcUNvRTQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:32:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, teknoloji devlerinin 8,5 milyar dolarlık bir yatırım yaparak Alman robotik girişimi Agile Robots'a desteklediğini bildiriyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Meta, Yapay Zekâ Veri Merkezi Tedarik Zincirleri İçin Çok Yıllı Anlaşmaları Ayrıntılandırdı",
-      "source": "Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSE5SSUVsS3lCbjV1S1d3T29xMFN2cERLN0JVbTlfWXpLOTNUS0VhVXdTQUlvbFM0Yjl1VTdFdWlGOTNwTmVReE16MjZ4RjBQNE8zOGx4RDB2Tm1QbG5jVGZrWXNOQi04RDhYMThHZVpyQlRTbGpZNkJRYV9UMjdtSl80WDRTNW5JdUJvZ2R2SWY?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:26:01 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, Meta'nın yapay zekâ veri merkezi tedarik zincirleri için çok yıllı anlaşmalarını detaylandırdığını ifade ediyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Asya'da işten çıkarmalar artarken yapay zekanın etkisi tartışılıyor",
-      "source": "Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYm5XUTQ1cGtuRXJSMWRhZmoxcW1LeEhSaE9ScWJkdE9jLWZKU1piblAyc3NPYlA3b2JZMGVHbDk1UEs0SmxGeEpCdnAxQlNuc29vaEpVV29UcjlSMkhDS1hMVk1Wa2RUVDlpMlE1VHQtUC1obTd1RVVsRjdjR3FWYUdjRHBzSjN5TVlwblZyLXhaSnktNnV3MVI5MFBRRndWZWt1Y2djUUN6S1U?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:20:03 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Asya’da işten çıkarmalar artıyor. Bu gelişme, yapay zekanın istihdam üzerindeki etkisinin tartışılmasına neden oluyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Manisa trafiğinde yerli teknoloji dönemi başlıyor",
-      "source": "Manisa Haberleri",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdTQtQWdtNV9WTTBIMlhsTXdjQzVES0VoN1NIWjBDQm5yNkFFYkpvRVZqbUw3WklJamlzWjRoVVF0QmhDbFM0OVZLelJyeFRVRDJJeFVLZEtxNEJjNHh5dTVsblZRSFA0SkNHRnlqWFJ0aDZ3M0dwOXBDRzRoUmFkc0taQjlBRDBf0gGOAUFVX3lxTE5JT1RjRm45TEVTY3FyM1J6MzhpZ2lQU0pRVjM2LTk2UU9sRzJIOHNJUS1pZ2pJZF9haEJpeXlONF9zLXRzcThoQmk2eWpVMkVHX1BwMVpERlZ2LTVmWG1ucWNMMmlfUWRGd1MxSVVGMFpTTndDenFETHVWbzItdHV3TXl3OWlEWjQyeU1YOEE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:14:00 GMT",
-      "image": null,
-      "summary": "Manisa'da trafik sistemlerinde yerli teknoloji kullanımının başlatıldığı belirtiliyor. Bu dönemin yerli çözümlerle trafik yönetimini geliştirmeyi hedeflediği ifade ediliyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Yerli mühendislikle enerji tesislerinde yapay zekalı önlem",
-      "source": "Platin Dergisi",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeEZSNm5WbF9xYVhkenpsUnVzc29ndFRIZFpVQUplOHRDcTJpbk9aWktqdm5xdnpucGRaOVpSWjRTdHlvLWQtMFFPLWNYNTFQUFVINmZVVkxGeVFtRjhqdXVhX2pqWDA3NEN4NjZQbG9DSFJlZC1TbU9reE1nVnQya19sMmlXdklSQm56Q2xPdkNPZEhESWFVMlE2SENMQXZaWU5USExuS00?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:13:00 GMT",
-      "image": null,
-      "summary": "Enerji tesislerinde yerli mühendisler tarafından geliştirilen yapay zekâ tabanlı önlemlerin uygulanmaya konulduğu bildiriliyor. Bu önlemlerin tesis güvenliği ve verimliliğini artırması amaçlanıyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Nothing’in ekransız yapay zeka cihazı yeni videoda göründü",
-      "source": "Teknoblog",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUmtLajh3UlJ5aXJKWGU0Vy1WZ1dQdGNlcmlmQnoyNGNFa2xxY1pMYTI4NksweXdmRjl4TWdRR19YTWNUUjJoR0tFbEMxODNkOGZUUUV6UGtCYVJKSy1VTmFtbTB6cU5vdVVpMGdvbE9uZzE0TXJnY0ZEdml6c1pNWlFyQVJZMHZJallERw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:05:37 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Nothing, ekransız yapay zeka cihazını yeni bir videoda tanıttı."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Çip devinden yapay zeka dünyasını sarsan bir milyar dolarlık hamle: TSMC kesenin ağzını açtı",
-      "source": "GZT",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYWpEd2ZoWUhaX1F0Y0dMM25rak5nMWtPRGJBX1BsZS0wR18tbWRNTkNTSmhpLUk0dEhXUzhZUHpjTm9aZnA3YlZXN3ZJVS1CR1BsMXFLeFdGbXdtWDA3V0pDYUJYQXVVY3hQVjdnWnhfWWMzN0pxWVFSTmNvS2NMeEpuemx0UThNYklHSmZZeFZDNUxjOWE4OEU2b01OXzktVTBnc19lU0pFWXhJWDVJNkt2MEJIUEN4U0RRaDhRd3d4V2JJRTJUa251d2pEUmhhTEZaVg?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:48:06 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlıkta, çip üreticisi TSMC'nin yapay zeka sektörünü etkileyen bir milyar dolarlık yatırım yaptığı ve maliyetleri artırdığı belirtiliyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Vietnam ve Güney Kore arasında yapay zeka ve yarı iletkenler alanlarında iş birliğinin genişletilmesi.",
+      "title": "Hanoi, yapay zeka ve 360° sanal gerçekliği entegre eden HanoiGo dijital turizm platformunu yakında kullanıma sunacak.",
       "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMUttV3MtdDI0NFZmOGxRZWlqMTc4M1JZdWJMSTl3eWJBT2Z5LXM3bmhCSlpTYUxpTG1OQTFwWVR3aXRORE51TlhyUEctUG15YlBQaHlYRVFzZGdmMmtVQUdzcWRCc3p0aWlURXJlai1JSFpHY0lBQWIzUXg0S29iVkF2aVR5YXh3TnBSQmtsV0I4YnR2?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:46:59 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQczFZRmdDaUZMNzctZTJpTGh5YWpoTnRkOWx0Mmd2ZFpaRDAxdjJwbTJxSFhhbFE5MXdmdndkdkxqRmxmdHVrTkNoaWlxd2szYWRRdE5IQy1DWm5jSWszTnQ5VDFwX2poUmp3N0NUMkk2dTNJNm1uTmdNaHZhMzJmSDJ6Wlo3dHBaM3dCSzF5NzE3NkREN2xFdDdNSFIyVTFSeEpnQWlB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:44:01 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Vietnam ve Güney Kore, yapay zeka ve yarı iletken alanlarında iş birliğini genişletmeyi planlıyor. Bu adım, iki ülkenin teknoloji ortaklıklarını güçlendirmeyi hedefliyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Vietnam.vn, Hanoi'nin yapay zeka ve 360° sanal gerçeklik teknolojilerini birleştiren HanoiGo adlı dijital turizm platformunu yakında hizmete açacağını duyurdu. Platform, ziyaretçilere interaktif ve immersive bir şehir keşfi sunmayı planlıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "NVIDIA CEO’su Jensen Huang'dan Beklenen İstifa Geldi!",
+      "source": "PC Hocası",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wZkJQLWtxNzhDaWJ3Wnh0YktlVzFmLV9XbFIyeDVRbWJhcjVjYkxJNUdISkJxdWlfTTlqdkQ1Q3RhUzJkWVZlclIydUFZWWxWZkoxdmpsRlEwSE5VLWJwSzRxbEZxN0JnOU9BVkx0a1F3aWlvby1Xb2RfbVJTNDQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:41:11 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıkta, NVIDIA CEO’su Jensen Huang’ın istifa edeceği beklentisinin ortaya çıktığı belirtiliyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Gelecek Kongre, yapay zeka ve gelişmekte olan teknolojiler için kuralları belirleyecek. Öncelikle bu teknolojileri kullanmaları gerekmektedir.",
+      "source": "CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb0ZlYnZGZi1icUR5Z05RYU50cTN4WTlYT0s1UFR1RWkxY3gyYVB3NmkxazVaU3NmaTZhb2hkVmQ1VUVNekktYnkyNE13U3pRNXdEQlJUYUZ6UkhTVzE2Vi00RUZtWWkzYVUyaXdESlg1djA3VF9qYzYxdkc0czhYYk1aWGdHTGxaNkktRW1LUVl6ZnZpX3pEcXl3SEdIY3dGenY3Y3Q5YlpxTUxhZjhXN3ZiMEdycXNkT0h6Ny1jUGN0Sk5qdlFMV2pBTUY0MUFKZ08zYQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:24:51 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Gelecek Kongre’nin yapay zeka ve gelişmekte olan teknolojiler için kurallar koyacağını ve bu teknolojileri öncelikle kullanmaları gerektiğini ifade ediyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Nvidia CEO'su Jensen Huang istifa etti: Yeni CEO aranıyor",
+      "source": "DonanımHaber",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYlE4dkhtc1hCTDRIeElpZ1lDbmNXR1RJR29icGstai1sTXhrY3czTllXUXhlMmJfVGZLQmNTNUF1VGtRT2pJRV9vcFZ2dHdvTkVNN1NDVzRrVmxfc3BxOTRYM2VIYXN5Rzh4YWRDdFFxUUVHRnoyaGxTdE9oR24wVVhMVjVXZGJoTzM2ZFVmOUJGdTR2Z1hUaQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:18:47 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıkta, Nvidia CEO’su Jensen Huang’ın istifa ettiği ve yeni bir CEO’nun aranmakta olduğu bilgisi yer alıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay Zekâ Asistanlarında 10 Milyar Dolarlık Yarış: Seyahat Sektörünü Neler Bekliyor?",
+      "source": "Turizm Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdnZGeGRhNlpxVU5DYV90ZDFOQ3BKMENiT0oyYWZmbWFXdVFBS2FUZExvZzNLNUhZVWVUbmJ4TEhiYUVKNFFBVVAwUFdfMnBOdmhtUHYzVDdZUEh0U3dwZm0xVnpyUnhLSnctU2RpRV9hRkxrenF3UlVidGZZRVFuNFNBLVJBdkZrbWNla2ZlX3pNU2FVZVcySGNsWC1xVkZQTUxFUmkzdTlvZlo2ZldkMkJHOHZtMFAzUXMzN2puSkpKMXBZb0FR?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:10:26 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, yapay zekâ asistanları için 10 milyar dolarlık bir rekabetin seyahat sektöründe önemli etkileri olacağı öngörülüyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "‘Hikâyenin Geleceği Oluşturuluyor’",
+      "source": "www.milliyetsanat.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMFh1WWRMb0dOcExnaEJ1VWpxdFY4aU0yaGtOXzQySHVEaHppQkFYcHBHNWhiaXFaR0RWUmFGZ1c3R2xDNnptTHQ1TkJucENqWjcyMHhKekREbml1MGFueE9ITzNrVUpqSmxRbjQxQnZQbnRwREY4MWIzV2w5NTZvRWlhak83MUZlQnBFTA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:59:32 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, ‘Hikâyenin Geleceği Oluşturuluyor’ ifadesi, anlatıların geleceğiyle ilgili bir proje ya da etkinliğe işaret ediyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "\"Vietnam Malı\" markası altında yapay zeka geliştiriyoruz.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5aMGtaWlUwdlVDVkNYa1N6NzhFSm9iWmp2NE9uNW9zZm5kcjMtaWZJRFdGY2FiVUItR05KRWZVUjhkS21IUVRLNGJGYzlGcWxISDFTTGZqczVKUmJhNDlrUm9EUm10TUMxZ0M0ekJZYUxjeXh0bzlwekVZTmU?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:56:20 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, ‘Vietnam Malı’ markası altında bir yapay zekâ geliştirme girişimi yürütülüyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay zekâ artık bir tercih değil, hayatta kalma meselesi!",
+      "source": "Technopat",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN2JyZnB2NmxSZWRGZnVQS3JsdjlKYWhfYXBJQzBpRXhQLTQtV1BrODlCOHBwR2t3Y0J6aG9oMkl5MldoaEtyNVM5VkNhQnRIRExEUFpSUmZBOVlPRUthcVlqQ1kzZjkzWTM1TXJoemtTVXk5Z1BMdGttdEdTVUxYQ3pPYUFnTDlndkRoZlFGS0dGVktjR09JaHZ30gGfAUFVX3lxTE9zM3FucFFqQmZmTmFqRGlsdmdveF9MZ29KSFJ4Qmg0c2FOXzhPRW80MmhMOEdISEo4Rnc2YmR3N09GM2FFSnpFbHY3eXZGNGNONFdfSzJpdlNUcnMxLVMzS09jYnpmNzhXd1VEeFBNVDdQeVhNRkhHYkl3ZTZYOW9uQ1NjREdFcWgtaVJUWDlKaER6dFp3VU4xckxRZTVFUQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:48:30 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Yapay zekâ artık bir tercih olmaktan çıkıp, işletmeler ve kurumlar için hayatta kalma gereksinimi haline gelmiştir. Bu durum, şirketlerin rekabet avantajı sağlamak ve verimliliklerini artırmak için yapay zekâ çözümlerine yatırım yapmalarını zorunlu kılıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Çin, 'patates başkentini' bir yapay zeka veri merkezine dönüştürüyor: Vietnam için bir ders.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdVBIVW4xeHFham9rZW1MTGl5NUtlRUZMa1B5Mmt1RnZwM0ExWE5lNlpjeUxrd1lXM2I2aWxQVEJrSS1oU3hSVlpJTU1YekV6Rl9IRmdiWWV3bXNQeS1OWjNoTU43MlBWOFVmdldnOUt2QVIyZDl1NnJObFB3cnVPcjF2T2VFWmdPMG9YeW1hNDFoUHBKREJhNTV0REZaV2VfTVFZSWpQdGZNQQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:44:20 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Çin, patates üretimiyle bilinen bir bölgeyi yapay zeka veri merkezine dönüştürüyor. Bu hamle, Vietnam için teknoloji altyapısının güçlendirilmesi gerektiğine dair bir uyarı niteliği taşıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Bilim ve teknolojinin gelişiminde kaynakların kilidini açmak ve darboğazları ortadan kaldırmak.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT0I5Rlc2WjVVYXJMWmhzSEc1M1g5aDNOd3VUTUljblZDT01fbjFDcXN1TmdjS1NsdnJQSksxbW9CbnF0N3RpdF9tQUdRaDE0SktwTWdKQmUtWXJQbDdiaGNaQWRxak5ESkJzRUFpRDJ2cjlWRzVOOUFUMm5nME9UYm9Ca2lUbENnNXJtVEZZaTN2TDJUd04tdndtQQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:42:21 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Bilim ve teknolojinin ilerlemesinde kaynakların serbest bırakılması ve mevcut darboğazların ortadan kaldırılması hedefleniyor. Bu yaklaşım, Ar‑Ge verimliliğini artırarak inovasyonu hızlandırmayı amaçlıyor."
     },
     {
       "cat": "Bilim",
@@ -159,32 +171,23 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
+      "title": "WAiFF İstanbul'da yapay zeka destekli ödül alan filmler, 2027'de Cannes'da Türkiye'yi temsil edecek",
+      "source": "Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTm9xN2hhZGpEQUF3SzI0MmpleGdnTjhVOW9TSmZvS3NVU1JWMW5sZWdJUmNtU0RaUnRvNjlrSnNoX2xsMzVfcGFGbUY2WGFXWlh5Y3p4SUpQOTQ3YTNzVFZhajBqODd6VC1ZcnVUX1VEbG9KWHQ3UDdoTzBqdGdZSDNSYklSUHdOVDQ3Ym8xcExUdmt0Q09zVTR5cmpiOTF4TEpxU3AzYmJlT0R5UmhRa21sSXd6UjNKSU5aUFlQdVlRdVlaYXUxVWlYUk5Nc1E?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 18:55:24 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. WAiFF İstanbul'da yapay zeka destekli filmler ödül kazandı ve bu filmler 2027'de Cannes Film Festivali'nde Türkiye'yi temsil edecek."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
       "title": "WAiFF İstanbul'da Yapay Zekâ Sineması Yarıştı: Kazananlar Cannes Yolcusu",
       "source": "Dosya Haber",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNTV4TURSYXowWnpXMUlQMEVibnBEMXQ3eEJ5MG4tTGdzSU5rR0dHdjNqdzBQSnlpdW5jWHV4OTNiaHYtSXBXcHViMWNjS2lGY0IyUlNGZV9wdjFOZllFbXVaUEd6ZlpWT2FINGVHZktJYjBidnluMm1ITW94Y2VVS01OdnQ2QVpUOVVCcG9GQTFxVUZQLXFwVWZWTk1Pdjl6emlWel9CMFF5c1JTc1E?oc=5",
       "pubDate": "Wed, 11 Nov 2026 18:51:55 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. WAiFF, İstanbul’da Yapay Zekâ Sineması yarışması düzenledi ve kazananlar Cannes’a gönderileceğini açıkladı."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "WAiFF İstanbul'da 124 film yarıştı ve kazananlar Nisan 2027'de Cannes'a gidecek",
-      "source": "Haberler",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbDhyQVFPeHo2T2N5UEthQ1E4QkJnZFlxSGZUOWp0RVlYQXAyUG4ydWJRU2RvWTBoa1BhVmQ2QkdUMzY3S2JLd3hjSDBFOUZzYk5RZFZ3akxiZElnbE91aDB3SVpiai1EMWhHaVFHNmMyMjFqWHUtNC1tSkd1QXdkN0IyU0NCcF9Hd0dBRWI1UWkySE1TaGdrMWhyZi10Z9IBmgFBVV95cUxNT3VpYmhwX0JsVXR0cDNJckpKb3VGSXN2ZVh5MkhwMXNoVGZGdmx5b0pXRTctWFZ3OERVQ3duRWJxT25GREViWUVHM3NSQkV1VWhaM0FzVG1JSlE1MVVHdmxWZ1RRaHg5bjYyWHN0dHpCZjJhNGJsenNpbTBTLTdhTlU0LWo4ZV93dG5nYkJUamhELUNEVWhLWWZ3?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 17:53:32 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. WAiFF İstanbul'da 124 film yarıştı; kazanan filmler Nisan 2027'de Cannes Film Festivali'ne katılacak."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Yozgat'ta Abdal Türküleri Yankılanacak!",
-      "source": "Yozgat Çamlık Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSkpuWXlfb3hEV1h5ckNLQVlTbDV0ajJwdHhPTHl5TUhoYlRfb05YOVZtZmtDSjlIRHc4MnkxTHBzQmxTRGNWZGJuRmZOaC1zTGItMFVRQ1ZoaW14YkR6bFJ0VXlWVTFPVDJPSkVFVXdSeEV5cTlvRnZmZTNNYjAzM1BDQTBDakc2RTR1ZFZzcHlsdlU?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 13:04:23 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Yozgat'ta Abdal türkülerinin sesine yer verilecek bir etkinlik planlanıyor."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -249,6 +252,59 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "ICE deportations and arrests hit record high as Trump faces reckoning over immigration crackdown",
+      "source": "CBS News",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtaWRMd0lHQ0NNelV0T3Joa2d4WHloQnJDczZPdlJhY2RieG1DTFU5N3dzaVpyTG5zYzF4MVVyeVA3NDdoR19PcXdyTXBWdWszdzE2aUZfaFdySVNreUlxTTMza0FVYVRUajY5VFpzU2lQcEhFZExDWl9B?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:30:37 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı. ICE, göçmen kaçırma ve tutuklamalarında rekor seviyeye ulaştı; bu durum, Trump'ın göçmen politikalarına yönelik artan eleştirileriyle birlikte ortaya çıktı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Nvidia board weighs Jensen Huang’s future as mounting scandal upends US tech giant",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLXBTU3VDVzhyWkZsZWt4X3dGZkY5Q0tiMV83VkJzeHBPWTRvSGIyVTQ0TEdfRDJPVHVnRXVUZnhERnBKTjZtcUJrTVFQRW5idEk0UElvNjB5bENMTDdETkNDLU5nLU8wbUpPWUhKQlp0d01iTm01b3dJeEFLVzRuSGVrQUEwM0pUdF9VT05MM2FNSzBMS0E?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:40:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Nvidia yönetim kurulu, artan bir skandalın şirketi etkilediği ortamda CEO Jensen Huang’ın görevde devam edip etmeyeceğini değerlendiriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:36:58 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı. İsrailli hava saldırısı, Gazze’deki Nasser Hastanesi’ni vurdu ve en az altı kişinin öldüğünü bildiriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Active shooter strikes multiple people near Logan Circle",
+      "source": "NBC4 Washington",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMUNqSllBbEU0V2hnYktmYkpQLWNuZDJwNVNjdTg1Q0RnX2JiQWRtdnVqVU1zaV8wZF9IRXF5cUdOTWZQSW5NZXNRekw0NGJXTFVmN0piRDJ3c3BDZkZWaXdDQXQxUXdCYnBWei1lbkE4ZDdpN0pBRW5WNDRfSUdOUmxPdXRYZWpYc0hNZ0ZEdWlrZGFvdUVDLVRpUWhvY0thNzA5MDdUNW0tZ9IBsgFBVV95cUxOQnQ3NkZ5SmtaZXdSWW1rMVdsdGlpMmpmRkpOQl9JRGhsaDd1R2YwMjRkSm9QaEVNUGk1cXZjMlRoSW1LSDBwbWZYSTlUZDRhcUFOWkJHdVhaTkI1TW13c09jT2ZMaVA1WVV1RktRQk5FblpBdWFabDFlWmxwNF8tSk5fUllYQ1paazRaNXZzZlU4R21feXNQSU5ldmY0NnFTOGt5RloxVzNHR3JYeEpzMFdB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:33:52 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Logan Circle yakınlarında bir aktif silahlı saldırı gerçekleşti ve birden fazla kişi yaralandı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Gold price tests $3,900/oz after U.S. weekly jobless claims rise to 200k",
+      "source": "Kitco",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2J2bElPMzYyNl9ZeUlBd3Y3QkR5amJPS01TS0RxbkE3VEJKNS14OU9IVWVsLUpEMlk1Y2VRNkYtT3NLcU9KMG1oeUR1a1gxOVpQczE5aFRkU3lRSEdBQm9BdWo4LUpfQlgyVTktU3EwNS1lTUphdkxxT29BY1Y2aHZTQ1lzMmJBYXpVbzkyMndscTNyRXVfRWRMeENRVVpWMVN6VHZ6c1c4VFZhWDhr?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:31:08 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Altın fiyatı, ABD'nin haftalık işsizlik başvurularının 200 bin'e yükselmesinin ardından ons başına 3.900 dolara yaklaştı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
       "source": "ABC7 New York",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
@@ -259,84 +315,24 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Mammoth crowds greet Pope Leo on return to Peru, his adopted homeland",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeUpuTEFWN2VuSlF3TnN5Z2MyeUg4dmt5WmVYNHBIUjJLMDNaMnh2OXVibjZUT3BGZmtXT1lTSnFhX1M4dU8wYVpsNi1XX3Y5SXRObkkxSmdCQU53OFMtTkxVcTBIVEo1UE5RUHZmVnpCNV9FblhuM3QxdlVILS1pWWJ2dzEzYmRLMUoybmpneFlPeW1YYUE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:02:47 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Papa Leo, doğduğu ülke olarak benimsediği Peru’ya dönüşünde büyük kalabalıklar tarafından karşılandı. Geliş, yerel halk ve Katolik topluluğu arasında coşkulu bir kutlamaya yol açtı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Why ‘brainier’ sports may be better for people with ADHD",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNN014dWZwb2tac1hJQThvMjBhY0lROXVOdy1FT0toWkRBQlJhM3JoN2xUWG5OQmszdUhYNUduckI0Y0RxSm9hSEdJTE1fZ19jWk50UWhkY2dYc2Z5d1d0bWFieGxXRFE2WjFXalk3TWtKeEtweFUxZ2c3ZVZNYkZVcktTTndRWHR4Sm45S2h0RW1DX2ZUYW1TMi1HSDIzVnFReFE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:02:39 GMT",
-      "image": null,
-      "summary": "‘Brainier’ (beyin gücü yüksek) sporların ADHD'li bireyler için daha faydalı olabileceği öne sürülüyor. Tam metne ulaşılamadı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Nvidia live updates: Stock tanks after new affair allegations, board reportedly preparing to oust Jensen Huang",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOOVpSMjRTWHdZLUc5Z0xfWUplcDFRVFVLRU5iV0p3bXd6TjM2TlhXYnV4bkp2elFhVklxbko1cnlJZ1lQal9HV1RZVEdqSVlaSldqNjJ0bGtPdnRuc2ZOWXN3T1k4VDdObTVkZWlzTlExSE5RYXBheFhtMF9NUGxPdWJMSmRGVm1mY09aSGQ3WTFBVndsUVZhdnJpQzhTQVBwdW0yVGVhb29URlhMTGtIbWpIdFlhTG9KVS0xekYyekx0OW9uNjFfOHB0ZnZlQUNsa1M1OGEwNGxVeVVlZGNCVW5Xd0JVX2lneXFxcUhPVFViYkRnMzdjWg?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:00:56 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Nvidia’nın hisse senedi, yönetim kurulunun CEO Jensen Huang’ı görevden almayı düşündüğü iddiaları nedeniyle düşüş gösterdi."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:52:46 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. İsrailli hava saldırısı, Gazze’deki Nasser Hastanesi’ni vurdu ve en az altı kişinin öldüğünü bildiriyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Stocks making the biggest moves premarket: Nvidia, AMD, Corteva & more",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSnRjVVEyQTc5NnhZY0wwMEZ2dk9kOHVPVzVOWDBXbVR6bW1WYVVuUUpsRzlPRzJCdTBWa3FoSUo1d3ZaMy1EamVyV3NDQktCN3FTMHRlMjNBalVhaUdXdHpjQ3JhSWJxVndhNVdIVDk5NnNJZmZlVGM5UjlUUjVTeE85ekw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:50:00 GMT",
+      "title": "Ebola in DR Congo: Millions of dollars going missing as virus spreads, MSF warns",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LZHZGWnNNZUdtLXNjT2FXZEFQcXNiWkxsdzN1bHhXLXNBcFg5MlI1dzBuaXhYanp1N3JtSkNKMUY0VS1QRjNTcm9ES3pqNGhjNDIxNG9DSUJLajA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:02:37 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, ön piyasa saatlerinde Nvidia, AMD ve Corteva gibi şirketlerin hisse senetleri en büyük hareketleri gösterdi."
+      "summary": "Tam metne ulaşılamadı. Kongo Demokratik Cumhuriyeti'nde Ebola salgını yayılırken, MSF milyon dolarlık fonların kaybolduğunu uyardı."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "ICE deportations and arrests hit record high as Trump faces reckoning over immigration crackdown",
+      "title": "Democrat Scott Colom wins Mississippi 2026 Senate race, flipping seat in upset",
       "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtaWRMd0lHQ0NNelV0T3Joa2d4WHloQnJDczZPdlJhY2RieG1DTFU5N3dzaVpyTG5zYzF4MVVyeVA3NDdoR19PcXdyTXBWdWszdzE2aUZfaFdySVNreUlxTTMza0FVYVRUajY5VFpzU2lQcEhFZExDWl9B?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:23:30 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. ICE, göçmen kaçırma ve tutuklamalarında rekor seviyeye ulaştı; bu durum, Trump'ın göçmen politikalarına yönelik artan eleştirileriyle birlikte ortaya çıktı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Patrick Stewart’s widow Sunny Ozell breaks silence on actor’s death at 86",
-      "source": "Page Six",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSm5hTlNKTk1zUGd1ZEVvbVVmZkZkbWZDMEJKRFJiOVB3UjMzemFIMUlvTTFuQnV3OXFwQTFzODk5Y2txbWY5VmF0eU1LS0cwWFFIWlltMkNEOTl0RERKMUxMWGZTM3ZyMkdKNHJlN1pNS3lEdGd6MVhXcUZGdzFyZl9UQTVvalFibUxvUVByMUFQdk8xR3FiLWN0VHBaaWRDajBsZzlsOW1pMFVLLXMybkVOZVhXbHlEU3c?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:05:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Patrick Stewart’ın eşi Sunny Ozell, 86 yaşında vefat eden eşinin ölümüne dair konuşarak sessizliğini bozdu."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Single and trying to find love? Be sure you're not 'floodlighting'",
-      "source": "USA Today",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdldNWUp0ckdWbnBLTHZpemtPeFlPblJmUkFmR091N1UzSERQaEJDQktuUHRTeGF1Ymk4YmZyRzFfbDVTak1iM2ZVcDhEVjIwSnZkaFZSaUFZRkVFNnB4R0FlZXo3ZG9sR3dSclA0SXpTRVpva2tfYWtmQkYwdFNveFAtSkNQREV0Q3BPbGZhakJjN2JJZGJQMUFwNExxbFpkcm5zeEtSMEFfdkc3R280cmJGZlNYX0U?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:02:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON2RjbDYxLUNjQnM2YWl5eDdRWC1rd0NyMUJKOHl3bWd1SVhkRDdBNEVfSVY5UC14R1N4a0NNR2QzLU9acTBScmh3ai1za2VMUVFJZnZKMmM5eFB6ejZWNFl4ekdNV2o0cHNkdG9rWHQwajdzdjczYk9SS19vRzkyYnBsdlJWcFpwcUE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:20:32 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, bekar ve aşk arayan kişilere, 'floodlighting' olarak adlandırılan davranıştan kaçınmaları tavsiye ediliyor."
+      "summary": "Tam metne ulaşılamadı. Demokrat Scott Colom, 2026 Mississippi Senato seçiminde sürpriz bir galibiyet alarak sandalyeyi devraldı."
     },
     {
       "cat": "Dünya",
@@ -351,22 +347,34 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "Review: Apple’s M6 iMac is pricey, but it’s still a good choice for a clean desk",
+      "source": "Ars Technica",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczRYQ3pNWnpia0JTVER5c0t5WXMtZ3BEMjdEejNVd1NSV0J6V0ppSEZOOHVRNGVPUElvcnRjcXNUUXR6ZjBtVnp2NGpXVURVOXk1UGdTVnpiWUhTUGJsVkpJSi14dHZvUG5ic1R0N2ttMURuLWgzWDByOEFOcGVub0wtMGpHWjk3Vm5GOWxjOW9VV2NOSjhGWXJ0UHhRNFZTdVhFQWx4NTU4bWtVZWthOTRQNTNNa1pXV1E?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:00:37 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Apple’ın M6 çipiyle donatılmış iMac modeli yüksek fiyatlı olsa da, temiz bir çalışma masası için hâlâ iyi bir seçenek olarak değerlendiriliyor. Bu iMac, güçlü performans ve minimalist tasarımı birleştiriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Dan Sullivan Gets Bad News From One Of Alaska’s Reddest Regions",
+      "source": "Newsweek",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOHUya1ZLVk0xWUx0MVIyZUNxdV9WNkRiR01GUklDTlZDTDBJcktSekxPWnpnNGNERElMVGxSbXVHenlrbmt0RktHOHhnOWhkNlF4T0lHczI4M1NrS09TeVM4a1ZNVDl3cnlTdEhNZ1dFOHdUOG05TTlkYUJHUGlDdnVkZVM3WlVqdnotYVpuUC00azBmaUJEWTZkOA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:53:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Alaska’nın en kırmızı bölgelerinden birinde Senato Üyesi Dan Sullivan olumsuz bir gelişme ile karşılaşıyor. Bu haber, bölgedeki ekonomik ya da çevresel sorunların etkisini vurguluyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "Manchester United part ways with Michael Carrick - The Athletic",
       "source": "The New York Times",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcnd5M01CSnpYSDloM0sxV0Q0aDB6WUpmeVN5R2V5ejVkeUJ0NzY0eEo3SUozcnVQWVcwRWZ2UmRXTExXdlNQNG1JWWtURVpSRGZob2liWU1KQWg4b0xPai1lRlRjRVFEckhxaDhTSHREQUdYbXJ1SlBtZmtuSHN0bDBhUDZzUFRfR19fWEZleE5vSkEwNjlqYmR6SUVHUmh0ZkM4OXRRRQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 11:47:48 GMT",
       "image": null,
       "summary": "Manchester United, Michael Carrick ile yollarını ayırdı. Tam metne ulaşılamadı; bu başlık dışındaki detaylar bilinmiyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Boy found alive after 6 days lost in Australian wilderness: \"He's grounded for life\"",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNUI0aWZDT0JFZkloM3NKSXV0bGhJamcyYklyUHB6RDZ3Z3JRMGcxSHNqRExRbTNYLUVqc0pUODF6d3M0S2hlQmJLbU1GTlFWNTJ4ZC1TOGdMTEFtbXgtRzM4ZGNCYS1BVmx3cXRUWHQ2M1NRZG9wWGh6VVVzVmhjNDl0ZkNHdw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:41:00 GMT",
-      "image": null,
-      "summary": "Avustralya vahşi doğasında 6 gün kaybolduktan sonra bir çocuk hayatta bulundu. Olay sonrası, çocuğa 'Hayatı boyunca evine dönmeyecek' şeklinde bir yorum yapıldı."
     },
     {
       "cat": "Gündem",
@@ -421,6 +429,17 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
+      "title": "TÜRKİYE VE KANADA’DAN NÜKLEER ENERJİDE YENİ İŞ BİRLİĞİ",
+      "source": "Mağusa Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT2pkOGdaNWNpbFBsSF96TWJOMVlQX1N1Q2JpalBrdTdiY2F2UGJXZUZPcWM3azQ3aG1CY0ZHM1FELWRidWc3aFhTc1NyRkZFNnNlcDNOcmJqY0VER2FHTmlqWDZZUmV6ZjZEUWF2bmE5YUZLZW5MTmJRQml4ZlhUaGJMVHI?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:48:10 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Türkiye ve Kanada arasında nükleer enerji alanında yeni bir iş birliği anlaşması yapılmış. İş birliği, iki ülkenin nükleer enerji projelerinde ortak araştırma ve yatırım yapmasını kapsıyor."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
       "title": "Kırmızı bültenle aranan Sercan Sayal Türkiye'ye getiriliyor",
       "source": "Manşet Haber",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVi1aSy1BMmNuRWVFVXc5X1NEMVhlYV9jR3NRREVnVE1kRHVMcnVpRlFnbVl4UW9LZGZGRmJBZ1hWT003cUtDOFJKVGE3TjBsZE10UDhHQ2UtdVkzU0E0OWJ4b0ZkV2VCUk52UGg3LWVqQndrQ1E1blR1OTdzSEJZdENaNWF6OUFXd0ZWOVQ5WjE4RjRPN3JGT28yOA?oc=5",
@@ -469,14 +488,48 @@
       "summary": "Tam metne ulaşılamadı. Türkiye Dışişleri, İsrail’in Cumhurbaşkanı Erdoğan’a yönelik açıklamasına tepkisini dile getirdi."
     },
     {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Orman yangınlarıyla mücadele için Türkiye öncülüğünde Antalya Eylem Planı başlatıldı",
-      "source": "Manşet Haber",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUFHM0U0S3Q1akhncWJmbzNXVVpjdmdqbU9wMmd0bDlOTVRXb1otRUg0VVNSMEQtRFM3M2pvNjc5VU9TZEU1Z0FsUTAwTkxTbXp3aDlGOVFXTHBPandCZzk3dVVUeVlJZHFObTF5VURkdFZUbzNqS0dOaDJuWDNycGRPYmJFclQ2NU03TjRHaEswZG5HeTFfWmJ4dlotYkhvcC1hVFNsN2dqT19UN1hKVW9xeGJoUQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 08:27:00 GMT",
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Çorlu'da biyogaz tesisinde iş cinayeti: Biyogaz çukuruna düşen işçi hayatını kaybetti",
+      "source": "Evrensel.net",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTGJUNllmU1IzV2pjbGRacUR3UjhIREZkZTdjMm1LNjBPWlF0bFdCZXJ4dnhsN3VadktZS2phcjdHM3M3NlFGR3FPc0FtS2wwVlNNSFdDcV92cEZKRzZxTmxhMG1YSjFfVGR6ZkxMV0VGRmlnbmxnc3UwMmdWaUVlOGVCeFVSNjV0ODNzcDhiWFZvVVEtZFk1OUd2b1BycUY5YTNaOVJhQXplZnloR3hrbVFyeVUwX2xlcTlnUUpVVQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:24:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Manşet Haber, Türkiye’nin öncülüğünde Antalya Eylem Planı’nın orman yangınlarıyla mücadele amacıyla başlatıldığını bildirdi."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Çorlu'da bir biyogaz tesisinde işçi biyogaz çukuruna düşerek hayatını kaybetti."
+    },
+    {
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Tekirdağ'da iş cinayeti: Tesiste biyogaz çukuruna düşen işçi öldü",
+      "source": "Cumhuriyet",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWXFjYy05X2NDUlMyd2NScGdELWVHdjdtM1YzWUozUW9yaTBqbGRBYnBFSXFWSG9tMlR1a1BBVkdMSGRoSnRaVEFNbmlhai1DM1g5OVhJMEY2Ty1rQTRwcXRPWXpXN28wUU5OV2ZTRGxLNmJGUVJuXzhCT0ljX1NRX25kWEdwMDFzVUI1NVpDcXBZbWhkT1YtM1E3dl9LeUJRT0h1QUVxTjVoclBkUnBj?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:23:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Tekirdağ'da bir biyogaz tesisinde işçi çukuruna düşerek öldü."
+    },
+    {
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Tesiste biyogaz çukuruna düşen işçi öldü",
+      "source": "Habertürk",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTGdqeGJaUVR6d1lYOFZmbDhpOUVlY21FNC1JR2JxeXFueUdORDd2WXpRZDA4eFFjWjJ4Y19rRm9yOHB5bWdoY2hTRkx1cEdJODV0SThPeEMyVTlyR2g2WW9lNzBfNkJWMWdScWo3ejRUMlkyYTFsOTR6bjNJQS1YS3VzTWR5OFVncjRvX3JhVGhwVm1fbTRxd1luTVdZYVRqSWdOaGVnS1drUQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:18:50 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Bir tesisin biyogaz çukuruna düşen işçi hayatını kaybetti."
+    },
+    {
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Tesiste biyogaz çukuruna düşen işçi öldü",
+      "source": "DHA | Demirören Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR0t0Rzk5cVhMWE5MZTZXNWVvcENQR3k0NGJ0ODM3OGN2LTUtQnZQNGVsWG9GX0ZMVXNvN0FkSnZjNTJZR29IaWhTNkNuT1JLdHNKVjk5eHhucTl6a2c4NlBwNGRmNUI5ZzBtUlpSMEpnYjR2akZIMG1UMWFKcURRTjFiemdjVVVfNHNoYkIzVndoSUNnRnAydzVEaHZWWF9ZbGZB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:18:50 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıkta belirtildiği gibi, tesiste biyogaz çukuruna düşen işçi yaşamını yitirdi."
     },
     {
       "cat": "Çorlu",
@@ -496,7 +549,6 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQTgxRGR6N0RzT3J1M1J0eXg3VTFMNXBZdGxyZHRXNktaT29SMWx6TzEyc2FFUlBMV1FMS1JZTzZpZEx1aDlWeWFWZUQ5b1JwQjZVVk05RHowdm5Iem9rbldIYzJnV3A2VEJVeHloNHI0a0RTZldNSE55eGJYV0I1ZnVkeTZFRU5LbE9DemxiMDFRUnlweGJIN0lNZ1FDc0l3X1QxbndoOElHUFlLNkk0?oc=5",
       "pubDate": "Thu, 12 Nov 2026 11:05:03 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başlığa göre, Çorlu’da gerçekleşen bir kazanın ardından kaçan sürücünün yakalandığı bildirildi."
     },
     {
@@ -522,13 +574,13 @@
     {
       "cat": "Çorlu",
       "catId": "corlu",
-      "title": "Takla atan hafif ticari aracın sürücüsü yaralandı",
-      "source": "DHA | Demirören Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckM2TC12XzFCT1BWalZXMU9icXlNa08yU1RheHdIWTdNRHJweUlsRkZidFRyNmpaeEN4b19SRlhFVnVZcWwwRkVWRk90MjdSQlBMUHJLNHlHRlhReW1mektVT1ljbHFzd0NLOWY4ZHFHbG9QU1FKd1FPVHh0UFd6SmpnZ0M1ejFGZHRpOU00TWZUQVN2WEh5Y1dRektWck1vQVNPbF9DalNXUQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:49:32 GMT",
+      "title": "Tekirdağ- Takla atan hafif ticari aracın sürücüsü yaralandı",
+      "source": "Milliyet",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUG9BSWRldVFMVXZBZWI1WElsaU80bjhXOFhBQXZCUHQ5dkpDWFcyR0ZPTTRycnozMVpSd3BoUDg4UkVMSW5OaWp2QUZCeWpMUmN6eXBXX3ZOUVhHeVVnQjdZanJ3Y2ZScjJuVktIMmk5NjhrdVNlQkhDbzZJQ19JdHl6aFVRM1dwTjJ5Vm56UkVFRkpVLV9NTDFwVDhYcnk0b1pZRWZXa0xwWWhaQ1o5aVJ3?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 10:55:31 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Takla atan hafif ticari araçta sürücü yaralandı."
+      "summary": "Tam metne ulaşılamadı. Başlıkta belirtildiği gibi, Tekirdağ'da takla atan hafif ticari aracın sürücüsü yaralanmıştır."
     },
     {
       "cat": "Çorlu",
@@ -539,65 +591,197 @@
       "pubDate": "Thu, 12 Nov 2026 10:07:00 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Tekirdağ’ın Çorlu ilçesinde 13 ve 14 Kasım tarihleri arasında planlı elektrik kesintisi gerçekleşecek."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "CUMHURBAŞKANI TUFAN ERHÜRMAN KKTC'YE DÖNDÜ",
+      "source": "",
+      "link": "https://www.mhahaber.com/cumhurbaskani-tufan-erhurman-kktcye-dondu",
+      "pubDate": "Thu, 12 Nov 2026 14:27:05 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-89.webp",
+      "text": "Cumhurbaşkanı Tufan Erhürman, Antalya'daki temaslarını tamamlayarak bugün yurda döndü.\nCumhurbaşkanlığı’ndan yapılan açıklamaya göre Erhürman, eşi Nilden Bektaş Erhürman ve beraberlerindeki heyetle, önceki gün COP31 Zirvesi dolayısıyla Antalya'ya gitmişti.",
+      "summary": "Cumhurbaşkanı Tufan Erhürman, Antalya'da COP31 Zirvesi kapsamında gerçekleştirdiği görüşmeleri tamamlayarak bugün Türkiye'ye döndü. Eşi Nilden Bektaş Erhürman ve heyetiyle birlikte seyahat etti."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "MANİFEST GRUBUNUN MENAJERİ TOLGA AKIŞ TAHLİYE EDİLDİ",
+      "source": "",
+      "link": "https://www.mhahaber.com/manifest-grubunun-menajeri-tolga-akis-tahliye-edildi",
+      "pubDate": "Thu, 12 Nov 2026 13:39:53 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/Manifest%20Menajeri%20Tahliye%20Edildi-960x540.webp",
+      "text": "Manifest müzik grubunun kurucusu ve menajeri Tolga Akış, tutuklu yargılandığı davada ilk kez hâkim karşısına çıktı. Mahkeme, Akış'ın adli kontrol şartıyla tahliyesine karar verdi.\nMAHKEMEDEN YURT DIŞINA ÇIKIŞ YASAĞI\nİstanbul 43. Asliye Ceza Mahkemesinde görülen duruşmada, hakkında “müstehcen yayınların yayımlanmasına aracılık etmek” suçlamasıyla 6 aydan 3 yıla kadar hapis cezası talep edilen Akış'ın savunması alındı.\nAkış, grubun konserinde sergilenen dans hareketlerinin suç oluşturmadığını savunarak hakkındaki suçlamaları kabul etmedi.\nMahkeme, Akış'ın yurt dışına çıkış yasağı şeklinde adli kontrol tedbiri uygulanarak tahliye edilmesine hükmetti.\nDAVA 18 MART 2027'YE ERTELENDİ\nManifest grubunun İstanbul'daki KüçükÇiftlik Park konserine ilişkin yürütülen soruşturma kapsamında tutuklanan Akış'ın davasında yargılama süreci devam ediyor.\nMahkeme, dosyanın mütalaa hazırlanması amacıyla savcılığa gönderilmesine ve bir sonraki duruşmanın 18 Mart 2027 tarihinde yapılmasına karar verdi.",
+      "summary": "Manifest grubunun kurucusu ve menajeri Tolga Akış, \"müstehcen yayınların yayımlanmasına aracılık\" suçlamasıyla tutuklu yargılandığı davada ilk kez hâkim karşısına çıktı ve adli kontrol şartıyla, yurt dışına çıkış yasağı ile tahliye edildi. Mahkeme, dosyanın mütalaa hazırlanması amacıyla savcılığa gönderilmesini ve bir sonraki duruşmanın 18 Mart 2027'de yapılmasına karar verdi."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "“ÇALMADIM, AY SONU ÖDÜYORUZ” DEDİ",
+      "source": "",
+      "link": "https://www.mhahaber.com/calmadim-ay-sonu-oduyoruz-dedi",
+      "pubDate": "Thu, 12 Nov 2026 13:37:48 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-88.webp",
+      "text": "3 bin TL’lik yiyecek için tutuklandı\n“ÇALMADIM, AY SONU ÖDÜYORUZ” DEDİ\nÇamlıbel’de bir markette çalışan Pakistan uyruklu H.A., toplam 3 bin 118 TL değerindeki yiyecekleri ödemeden aldığı iddiasıyla işvereninin şikâyeti üzerine tutuklanarak mahkemeye çıkarıldı. Hakkındaki suçlamaları reddeden zanlının mahkemede söylediği “Çalmadım, biz ay içinde borç alıyoruz, ay sonu ödüyoruz” sözleri dikkat çekti. Birkaç bin liralık yiyecek iddiası nedeniyle başlayan süreçte zanlıya 50 bin TL nakit teminat ve 500 bin TL’lik kefalet şartı getirildi.\nPOLİSE ŞİKAYET EDİLDİ\nGirne’ye bağlı Çamlıbel’de yaşanan olay, işveren ile çalışan arasındaki ilişkinin nasıl bir noktaya geldiğini gözler önüne serdi. YUS-MAR isimli markette çalışan Pakistan uyruklu H.A., işvereninin şikâyeti üzerine tutuklandı.\nH.A., çalıştığı marketten toplam değeri 3 bin 118 TL olan çeşitli ürünleri ödemeden aldığı iddiasıyla ‘Müstahdem tarafından sirkat’ suçlamasıyla karşı karşıya kaldı.\nİddia edilen ürünler arasında bal, ceviziçi, kuru incir, kuru üzüm, fildişi ve 100 GB internet paketi bulunuyor.\nZANLININ MAHKEMEDEKİ SÖZLERİ DİKKAT ÇEKTİ: “ÇALMADIM”\nMahkemede söz hakkı alan Pakistanlı işçi H.A., kendisine yöneltilen hırsızlık suçlamasını kabul etmedi.\nZanlı, savunmasında şu ifadeleri kullandı:\n“Çalmadım, biz ay içinde borç alıyoruz, ay sonu ödüyoruz.”\nH.A.’nın bu sözleri, olayın yalnızca ürünlerin ödenip ödenmediği meselesinden ibaret olmayabileceğini ortaya koydu. Zanlı, işyerinde ay içerisinde borç alınan ürünlerin ay sonunda ödendiğini savunarak kendisini savundu.\nOLAY 4 KASIM’DA YAŞANDI, 11 KASIM’DA POLİSE BİLDİRİLDİ\nÇamlıbel Polis Karakolu’nda görevli polis memuru Mustafa Durgel, Girne Kaza Mahkemesi’nde olayla ilgili bilgi verdi.\nPolis memuru Durgel, olayın 4 Kasım tarihinde meydana geldiğini, polise ise 11 Kasım tarihinde bildirildiğini anlattı.\nİşverenin şikâyeti üzerine başlatılan soruşturma kapsamında H.A. tutuklandı. Polis, soruşturmanın tamamlandığını ve zanlının ülkede çalışma izinli olduğunu mahkemeye aktardı.\nSoruşturmanın tamamlandığını belirten polis memuru, zanlının uygun teminat koşullarıyla serbest bırakılmasını talep etti.\nSORUŞTURMA TAMAMLANDI\nYargıç Mine G. Serden, H.A.’nın ileride görülecek davasında hazır bulunmasını sağlamak amacıyla yurt dışına çıkışını yasakladı.\nZanlının serbest kalabilmesi için 50 bin TL nakit teminat yatırmasına ve KKTC vatandaşı bir kişinin imza edeceği 500 bin TL’lik kefalet senedi imzalamasına emir verildi.",
+      "summary": "Çamlıbel’de YUS‑MAR marketinde çalışan Pakistan uyruklu H.A., 3 118 TL değerindeki yiyecekleri ödemeden aldığı iddiasıyla tutuklandı ve mahkemede “Çalmadım, ay içinde borç alıyoruz, ay sonu ödüyoruz” şeklinde savunma yaptı. Yargıç, 50 bin TL nakit teminat, 500 bin TL kefalet ve yurt dışına çıkış yasağı koşuluyla serbest bırakılmasını şart koştu; olay 4 Kasım’da gerçekleşip 11 Kasım’da polis tarafından bildirildi."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "15 KASIM CUMHURİYET YOL KOŞUSU’NDA ŞAMPİYONLAR BELLİ OLDU!",
+      "source": "",
+      "link": "https://www.mhahaber.com/cumhuriyet-yol-kosusunda-zirve-serin-ve-atikoglunun",
+      "pubDate": "Thu, 12 Nov 2026 13:35:35 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/rrrrrrr-960x545.webp",
+      "text": "Kıbrıs Türk Atletizm Federasyonu tarafından geleneksel olarak düzenlenen 15 Kasım Cumhuriyet Yol Koşusu, 12 Kasım Perşembe günü gerçekleştirildi.\nSabah saatlerinde büyükler kategorisinde 8 kilometrelik yarışla başlayan organizasyon, ardından düzenlenen okul yarışlarıyla devam etti.\nBÜYÜKLERDE SERİN VE ATİKOĞLU ZİRVEDE\nBüyük kadınlar kategorisinde Ayşe Serin 42 dakika 35 saniyelik derecesiyle birinci olurken, Birsen Kurt ikinci, Kadriye Debreli üçüncü sırada yer aldı.\nBüyük erkeklerde ise Veli Atikoğlu 27 dakika 27 saniyelik derecesiyle birinciliği elde etti. Yaşar Demirkent ikinci, Enver Yetkin Çelik üçüncü oldu.\nYAKIN DOĞU İLKOKULU’NDAN ÇİFTE ŞAMPİYONLUK\nOkullar arası takım yarışlarında Yakın Doğu İlkokulu, küçük kızlar ve küçük erkekler kategorilerinde birinciliğe ulaşarak çifte şampiyonluk sevinci yaşadı.\nYıldız kızlarda Erenköy Lisesi, yıldız erkeklerde Atleks Sanverler Ortaokulu birinci olurken, genç kızlarda Hala Sultan İlahiyat Koleji, genç erkeklerde Bülent Ecevit Anadolu Lisesi zirvede yer aldı.\nFERDİ KATEGORİLERDE DERECEYE GİRENLER\n- Küçük Kızlar (800 metre): Desen Arya Dönmezler (3:00), Valeriia Kestel (3:17), Ecrin Su Korkmaz (3:18).\n- Küçük Erkekler (1000 metre): Mehmet Salcı (3:42), Rüzgar Akın (3:46), Abdurrahman Demir (3:47).\n- Yıldız Kızlar (1500 metre): Avjin Dağ (5:29), Melisa Sadıkoğlu (5:44), Ayşe Demirci (5:50).\n- Yıldız Erkekler (2000 metre): Doran Veysioğlu (7:00), Eymen Tak (7:02), Arhan Mustafa Çakır (7:03).\n- Genç Kızlar (2000 metre): Damla Dönmez (8:03), Zeynep Değirmenci (8:40), Mira Türk (8:45).\n- Genç Erkekler (3000 metre): Teyon Alex Yiğit (10:03), Raif Selden (10:07), Mikhail Komyshin (10:08).\nTAKIM SIRALAMALARINDA İLK ÜÇ\nKüçük Kızlar: 1. Yakın Doğu İlkokulu, 2. Dr. Suat Günsel Devlet İlkokulu Lefkoşa, 3. Necat British College Lefkoşa.\nKüçük Erkekler: 1. Yakın Doğu İlkokulu, 2. Gönyeli İlkokulu, 3. Necat British College Lefkoşa.\nYıldız Kızlar: 1. Erenköy Lisesi, 2. Şehit Turgut Ortaokulu, 3. Muharrem Döveç Ortaokulu.\nYıldız Erkekler: 1. Atleks Sanverler Ortaokulu, 2. Şehit Turgut Ortaokulu, 3. Hala Sultan İlahiyat Koleji.\nGenç Kızlar: 1. Hala Sultan İlahiyat Koleji, 2. Erenköy Lisesi, 3. Bülent Ecevit Anadolu Lisesi.\nGenç Erkekler: 1. Bülent Ecevit Anadolu Lisesi, 2. Kurtuluş Lisesi, 3. 19 Mayıs Türk Maarif Koleji.",
+      "summary": "15 Kasım Cumhuriyet Yol Koşusu’nda büyük kadınlar kategorisinde Ayşe Serin 42 dk 35 sn ile birinci, büyük erkeklerde Veli Atikoğlu 27 dk 27 sn ile galip geldi. Yakın Doğu İlkokulu, küçük kız ve küçük erkek takımlarında birincilik elde ederek çifte şampiyonluk kazandı; ayrıca çeşitli yaş ve meslek gruplarında birçok okul ve atlet sıralamalarda yer aldı."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "KTOEÖS’TEN İSKELE’DE GREV VE EYLEM!",
+      "source": "",
+      "link": "https://www.mhahaber.com/ktoeosten-iskelede-grev-ve-eylem",
+      "pubDate": "Thu, 12 Nov 2026 13:29:57 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-87.webp",
+      "text": "Kıbrıs Türk Orta Eğitim Öğretmenler Sendikası (KTOEÖS), bugün öğleden sonra İskele merkez ve çevre okullarda grev yaptı.\nKTOEÖS Başkan ve üyeleri de İskele Ecevit Meydanı’nda pankart açarak eylem yaptı.\nPankartlarda, “Göç Yasası’na Dur De… Ayrıcalık Değil, Hakkımızı İstiyoruz”, “Yasal Haklarımızı İstiyoruz”, “Özeldeki Çalışmalarımı Gör, Hakkımı Ver\", “Süreyi, Değil, Niteliği Artır” ifadeleri dikkat çekti.\nBasın açıklamasında ise, KTOEÖS’ün tam gün eğitime karşı olmadığı vurgulanarak, altyapısı hazır olmadan ve kadro eksiğiyle uygulanmaya çalışılan tam gün eğitimin eziyete dönüştüğü kaydedildi.\nAçıklamada, “göç yasası” olarak nitelendirilen yasa ile öğretmenlerin yaşadıkları hak kayıplarına dikkat çekildi.\n-Karaoğulları\nKTOEÖS Başkanı Ahmet Karaoğulları, yaptığı basın açıklamasında, eylül ayından itibaren genel seçimler öncesi siyasilere mesajlarını iletmek için grev ve eylemler gerçekleştirdiklerini kaydetti.\nKaraoğulları, Ağustos 2023’ten beri plansız ve programsız , tek taraflı bir anlayışla hayata geçirildiğini iddia ettiği tam gün eğitimin öğrenci, öğretmen, veli ve okul idarelerine sıkıntı yarattığını söyledi.\nKaraoğulları, siyasi partilerden; seçim öncesi tam gün eğitim ile ilgili manifestolarını beklediklerini yineledi.\nKaraoğulları, 2008 ve 2011 sonrası ataması yapılan; ”tek sosyal güvenlik, göç yasası mağduru” üyelerinin yaşadıkları mağduriyetlere ilişkin siyasi partilerden açılım beklediklerini vurguladı.\nKaraoğulları, KTOEÖS olarak tam gün eğitime karşı olmadıklarını, tam gün eğitimin; paydaşların katılımıyla teorik anlamda planlaması hazırlanıp, müfredat içerikleri düzenlenip, devlet politikasına dönüştürülüp, kısa orta ve uzun vadeli uygulamalarla hayata geçirilmesi gerektiğini ifade etti.\nTam gün eğitimin geleceğe dair önemli reform niteliğinde bir uygulama olduğunu söyleyen Karaoğulları, “Son 3 yıldır hayata geçirilmeye çalışıldığı gibi plansız, programsız uygulanmaya çalışılması, ya da okul altyapılarının hala sağlıksız devam ediyor olması, öğretmen, okul idarecisi, atölye şefi, bölüm şefi gibi kadroların eksikliği nedeniyle tam gün eğitim, eğitim olmaktan ziyade öğretmen, öğrenci ve veliler için eziyete dönüşmüş bir uygulamadır.” dedi.",
+      "summary": "Birleşmiş Milletler Uluslararası Göç Örgütü (IOM), iklim değişikliğinin 2050 yılına kadar 216 milyon kişiyi kendi ülkeleri içinde yerinden edebileceğini öngörüyor. Bu rakam kesin bir göç sayısı değil, iklim etkilerine bağlı olası bir tahmindir ve uluslararası göç yerine iç göç hareketlerini kapsar. IOM, Antalya’da düzenlenen COP31 kapsamında iklim kaynaklı yerinden edilme riskine karşı dayanıklılık artırıcı projeler geliştirmeyi amaçlıyor."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "BM’DEN İKLİM GÖÇÜ UYARISI: 2050’YE KADAR 216 MİLYON KİŞİ YERİNDEN OLABİLİR",
+      "source": "",
+      "link": "https://www.mhahaber.com/bmden-iklim-gocu-uyarisi-2050ye-kadar-216-milyon-kisi-yerinden-olabilir",
+      "pubDate": "Thu, 12 Nov 2026 13:04:19 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/%C4%B0klim%20Krizi%20ve%20K%C4%B1y%C4%B1da%20G%C3%B6%C3%A7%E5%A4%A7%E5%B0%8F%E8%A7%84%E5%BE%8B-960x540.webp",
+      "text": "Birleşmiş Milletler (BM) Uluslararası Göç Örgütü (IOM), iklim değişikliğinin dünya genelinde milyonlarca insanı yaşadığı bölgeden ayrılmak zorunda bırakabileceği uyarısında bulundu.\nÖrgüt, sosyal medya hesabından yaptığı açıklamada, 2050 yılına kadar iklim değişikliğinin etkileri nedeniyle 216 milyona varan kişinin kendi ülkesi içinde başka bölgelere göç etmek zorunda kalabileceğini bildirdi.\nİKLİM DEĞİŞİKLİĞİ MİLYONLARCA İNSANI ETKİLEYEBİLİR\nIOM'un açıklamasında, iklim değişikliğinin insanların yaşam koşulları ve yerleşim alanları üzerindeki etkilerine dikkat çekildi.\nPaylaşılan 216 milyonluk tahminin, ülkeler arası göçü değil, insanların kendi ülkelerinin sınırları içerisinde gerçekleştirmek zorunda kalabileceği göç hareketlerini kapsadığı belirtildi.\nSöz konusu rakamın kesinleşmiş bir göç sayısı değil, iklim değişikliğinin olası etkilerine ilişkin bir öngörü olduğu vurgulandı.\nCOP31’DE İKLİM GÖÇÜNE KARŞI ÇÖZÜMLER GÜNDEMDE\nIOM, Antalya'da düzenlenen Birleşmiş Milletler İklim Değişikliği Konferansı (COP31) kapsamında iklim değişikliğinden etkilenen topluluklara yönelik çalışmalarını sürdürüyor.\nÖrgüt, farklı paydaşları bir araya getirerek iklim değişikliğinin olumsuz etkilerini azaltmaya yönelik çözümlerin uygulanabilir yatırım projelerine dönüştürülmesini amaçlıyor.\nBu çalışmalarla, iklim kaynaklı yerinden edilme riskine karşı toplulukların dayanıklılığının artırılması ve sürdürülebilir çözümlerin hayata geçirilmesi hedefleniyor.",
+      "summary": "Özet oluşturulamadı."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "SADIKOĞLU’NA BOĞAZİÇİ, ALTINOVA VE AĞILLAR’DA COŞKULU KARŞILAMA!",
+      "source": "",
+      "link": "https://www.mhahaber.com/sadikogluna-bogazici-altinova-ve-agillarda-coskulu-karsilama",
+      "pubDate": "Thu, 12 Nov 2026 12:30:22 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-86.webp",
+      "text": "BOĞAZİÇİ, ALTINOVA VE AĞILLAR’DA ZAFER ATEŞİ YAKILDI\nİSKELE BELEDİYE BAŞKANI VE İSKELE UBP BAŞKAN ADAYI HASAN SADIKOĞLU İSKELE VE 21 KÖY İÇİN SAHADA\nİskele Belediye Başkanı ve Ulusal Birlik Partisi İskele Belediye Başkan Adayı Hasan Sadıkoğlu, 6 Aralık’ta gerçekleştirilecek seçimler öncesinde İskele ve 21 köyü karış karış gezmeye başladı. Resmi propaganda sürecinin başlamasıyla birlikte sahaya inen Sadıkoğlu, ilk ziyaretlerini Boğaziçi, Ağıllar ve Altınova köylerine gerçekleştirdi.\nSADIKOĞLU’NUN ZİYARETLERİNE KONVOY EŞLİK ETTİ\nKendisine eşlik eden kalabalık konvoyla Boğaziçi, Altınova ve Ağıllar köylerini ziyaret eden İskele Belediye Başkanı ve Ulusal Birlik Partisi İskele Belediye Başkan Adayı Hasan Sadıkoğlu ve İskele Belediyesi Meclis Üyesi adayları vatandaşlarla bir araya gelerek hem sohbet etti hem de bölge halkının talep ve beklentilerini dinledi.\nKöylerde Sadıkoğlu için zafer ateşleri yakılırken, vatandaşların yoğun ilgisi ve coşkusu dikkat çekti. Ziyaretlerde sevgi gösterileriyle karşılanan Sadıkoğlu, gördüğü ilginin kendisi için büyük bir güç ve motivasyon olduğunu ifade etti.\n“GÜVENİNİZLE GELECEĞE, TECRÜBEMİZLE İLERİYE”\nHalkın kendisine duyduğu güvenin sorumluluğunu taşıdığını vurgulayan Sadıkoğlu, tecrübesi, hizmet anlayışı ve güçlü ekibiyle İskele’yi ve 21 köyü geleceğe taşımaya devam edeceklerini söyledi. Sadıkoğlu, “İskele ve 21 Köy için hep birlikte çalışacağız” mesajını da verdi.\nSADIKOĞLU: “İSKELE’NİN GELECEĞİNİ HALKIMLA BİRLİKTE ŞEKİLLENDİRİYORUM”\nİskele ve köylerine 12 yılda yaptıklarının, yeni dönemde yapacaklarının teminatı olduğunu ifade eden Başkan Adayı Hasan Sadıkoğlu, güçlü kararlar ve icraatın ancak güçlü bir ekiple mümkün olabileceğini vurgulayarak ‘Halkın desteği en büyük gücümüz İskele’nin geleceğini de halkım ile birlikte şekillendiriyorum’ dedi. Sadıkoğlu, halkın kendisine olan güvenini boşa çıkarmamak için çalışmaya, üretmeye ve İskele ve köylerini hak ettiği konuma getirene kadar da mücadele etmeye devam edeceklerini de söyledi.\nSADIKOĞLU: “ZAFERİMİZİ İLAN EDECEĞİMİZDEN KİMSENİN ŞÜPHESİ OLMASIN”\nSeçimlerin yapılacağı 6 Aralık’tan zaferle çıkacaklarından kimsenin şüphesi olmasın diyen İskele Belediye Başkanı ve Başkan Adayı Hasan Sadıkoğlu, 7 Aralık Pazartesi günü güçlerine güç katarak, gönülden hizmete devam edeceklerini söyledi.",
+      "summary": "Özet oluşturulamadı."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "ONALT: HAYVANCILIKTA ARTIK AÇIKLAMA DEĞİL, İCRAAT BEKLİYORUZ!",
+      "source": "",
+      "link": "https://www.mhahaber.com/onalt-hayvancilikta-artik-aciklama-degil-icraat-bekliyoruz",
+      "pubDate": "Thu, 12 Nov 2026 12:22:42 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-85.webp",
+      "text": "Hayvan Üreticileri ve Yetiştiricileri Birliği Başkanı Adil Onalt, hayvancılık sektöründe yaşanan sorunların artık üretimin sürdürülebilirliğini tehdit ettiğini savunarak, Tarım ve Doğal Kaynaklar Bakanlığı, Hayvancılık Dairesi ve Toprak Ürünleri Kurumu’na yönelik eleştirilerde bulundu.\nOnalt yaptığı yazılı açıklamada, mart ayındaki eylemler sırasında hayvancılara verilen sözlerin kasım ayının ortasına gelinmesine rağmen yerine getirilmediğini ileri sürerek, üreticilerin ekonomik açıdan daha zor koşullarla karşı karşıya kaldığını belirtti.\nOnalt, Tarım ve Doğal Kaynaklar Bakanı’nın, hayvancılara 10 bin ton arpa sözü verdiğini ancak aradan geçen aylara rağmen üreticinin beklediği desteği alamadığını öne sürdü.\nGüzelyurt ambarlarında bekletilen arpaların küflendiğini iddia eden Onalt, yem sıkıntısı yaşayan üreticiye bu arpaların neden zamanında ulaştırılmadığının açıklanmasını istedi.\nOnalt, küflenen arpaların sigorta kapsamında değerlendirilmesi konusuna da dikkat çekerek, söz konusu ürünlerin neden sigortalandığının ve sigortadan elde edilecek bedelin akıbetinin kamuoyuna açıklanması gerektiğini belirtti.\nHayvancılık Dairesi’nin denetim görevini yeterince yerine getirmediğini savunan Onalt, hem arpaların hem de hayvan yemlerinde kullanılan ham maddelerin gerekli kontrollerden geçirilmediğini öne sürdü.\n-“Et ve süt verimi düştü, üretici büyük kayıplara uğradı”\nDenetim eksikliğinin bedelini doğrudan üreticilerin ödediğini ifade eden Onalt, Toprak Ürünleri Kurumu tarafından satılan küflü arpaların hayvanların telef olmasına neden olduğunu iddia etti.\nYaşanan sorunların yalnızca hayvan kayıplarıyla sınırlı kalmadığını kaydeden Onalt, yem kalitesi ve denetimsizlik nedeniyle hayvanların et ve süt veriminde de ciddi gerileme yaşandığını ileri sürdü. Üreticilerin ekonomik açıdan ağır zarar gördüğünü ifade eden Onalt, “Bunun hesabını kim verecek?” diye sordu.\n-“Ekim ayında düzenleme yapılacaktı, hiçbir gelişme yok”\nDoğrudan gelir desteği konusunda ekim ayında düzenleme yapılacağının söylendiğini ancak herhangi bir somut adım atılmadığını savunan Onalt, süt fiyatlarında da üreticiyi rahatlatacak bir iyileştirme gerçekleştirilmediğini belirtti.\nYem ve diğer üretim girdilerindeki maliyet artışlarının hayvancının üzerindeki baskıyı artırdığını belirten Onalt, verilen sözlerin yerine getirilmemesinin sektörde ciddi bir güvensizlik yarattığını kaydetti.\nSeçim sürecinde farklı sektörlerin sorunlarına yönelik adımlar atıldığını ancak hayvancılığın geri planda bırakıldığını savunan Onalt, hükümetin önceliğinin üreticinin sorunlarını çözmek olması gerektiğini belirtti.\nHayvancılık sektöründe denetimlerin artırılması, yem kalitesinin güvence altına alınması, doğrudan gelir desteğinin düzenlenmesi ve süt fiyatlarının üretim maliyetleri dikkate alınarak, yeniden değerlendirilmesi gerektiğini ifade eden Onalt, Tarım ve Doğal Kaynaklar Bakanlığı’na sorumluluk alma çağrısında bulundu. Birlik Başkanı Onalt, “Artık açıklama değil, icraat bekliyoruz.” dedi.",
+      "summary": "Hayvan Üreticileri ve Yetiştiricileri Birliği Başkanı Adil Onalt, hayvancılık sektöründeki sorunların üretimin sürdürülebilirliğini tehdit ettiğini ve Tarım ve Doğal Kaynaklar Bakanlığı, Hayvancılık Dairesi ve Toprak Ürünleri Kurumu’na eleştirilerde bulunduğunu belirtti. Bakanın 10 000 ton arpa sözü vermesine rağmen arpaların kasım ayına kadar ulaşmaması, küflenmesi ve yem kalitesi denetim eksikliği nedeniyle hayvanların et ve süt veriminde düşüş ve ekonomik kayıplar yaşandığını iddia etti. Onalt, doğrudan gelir desteği ve süt fiyatı iyileştirmelerinin henüz gerçekleşmediğini, bu durumun sektörde güvensizlik yarattığını vurguladı."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "TÜRKİYE CUMHURİYETİ FİNANSMANIYLA TARIM, TURİZM, SANAYİ HİBE PROGRAMLARI VE GİRİŞİMCİLİK PROJESİ BAŞVURULARI DEVAM EDİYOR",
+      "source": "",
+      "link": "https://www.mhahaber.com/turkiye-cumhuriyeti-finansmaniyla-tarim-turizm-sanayi-hibe-programlari-ve-girisimcilik-projesi-basvurulari-devam-ediyor",
+      "pubDate": "Thu, 12 Nov 2026 12:14:44 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-84.webp",
+      "text": "Türkiye Cumhuriyeti Kalkınma ve Ekonomik İş Birliği Ofisi finans desteği ve Çukurova Kalkınma Ajansı teknik desteği ile yürütülmekte olan hibe programlarına başvurular 4 Aralık 2026’ya kadar devam edecek.\nProgram ile Kuzey Kıbrıs Türk Cumhuriyeti’ndeki tarım, turizm ve sanayi sektörlerinin potansiyelinin geliştirilmesinin yanı sıra girişimcilik ekosisteminin de büyümesi amaçlayan programlar için toplam 170 milyon TL kaynak ayrıldı.\n4 başlığa ayrılan programlara başvurmak isteyen adaylar www.tchibe.kei.gov.tr adresine, “Girişimcilik Projesi”ne başvurmak isteyen girişimci adayları ise www.girisimcilik.kei.gov.tr adresindeki adımları takip ederek kolayca başvurularını yapabilecek.\nOnline olarak alınacak başvurular için son tarih 4 Aralık 2026 olarak belirlendi. Adaylar, başvuru belgelerine ulaşabilmek ve detaylı bilgi alabilmek için, ilgili bakanlıkların web sitelerinin yanı sıra www.kei.gov.tr ve www.yaga.gov.ct.tr adreslerini ziyaret edebilirler.",
+      "summary": "Türkiye Cumhuriyeti Kalkınma ve Ekonomik İş Birliği Ofisi ve Çukurova Kalkınma Ajansı’nın desteklediği hibe programları, 4 Aralık 2026 tarihine kadar başvuruların kabul edileceği şekilde yürütülüyor. Toplam 170 milyon TL kaynak, Kuzey Kıbrıs Türk Cumhuriyeti’ndeki tarım, turizm, sanayi ve girişimcilik ekosistemini geliştirmeyi hedefleyen dört başlıkta dağıtılacak. Başvurular ilgili alanlara göre www.tchibe.kei.gov.tr ve www.girisimcilik.kei.gov.tr adreslerinden yapılabiliyor."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "RUM YÖNETİMİ’NDEN TÜRKİYE’NİN NAVTEX’İNE KARŞI HAMLE!",
+      "source": "",
+      "link": "https://www.mhahaber.com/rum-yonetiminden-turkiyenin-navtexine-karsi-hamle",
+      "pubDate": "Thu, 12 Nov 2026 12:14:41 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-83.webp",
+      "text": "Rum Yönetimi’nin, Yunanistan’ın ardından “Great Sea Interconnector” (GSI) projesi kapsamında araştırma faaliyetleriyle ilgili karşı NAVTEX yayımladığı bildirildi. Rum basınında yer alan haberlere göre, söz konusu gelişme, Türkiye’nin Fransız araştırma gemisi “Abeille Marengo”nun faaliyetlerine ilişkin yayımladığı NAVTEX’in ardından yaşandı.\nPolitis gazetesi, Rum Yönetimi’nin karşı NAVTEX’inin, GSI projesi kapsamında deniz araştırmalarının yeniden başlatılması sürecinde yayımlandığını yazdı. Haberde, Türkiye’nin Fransız gemisinin araştırma faaliyetlerine ilişkin duyurusunu reddettiği ve çalışmaların Türk kıta sahanlığı ile yetki alanları içerisinde gerçekleştirildiğini belirttiği aktarıldı.\nGazeteye göre, Fransız araştırma gemisi “Abeille Marengo”, geçen çarşamba akşamı Girit’teki İraklion Limanı’ndan Kerpe bölgesine gitmek üzere hareket etti. Geminin öncelikle alet ve ekipmanlarıyla ilgili testler yapacağı, ardından batimetrik araştırmalara başlayacağı belirtildi.\nTürkiye’nin, geminin hareketinin ardından yayımladığı NAVTEX’te, araştırmaların Türk kıta sahanlığı ve yetki alanları içerisindeki bir bölgede, Türk makamlarının onayıyla gerçekleştirildiğini bildirdiği kaydedildi.\nBu açıklamanın ardından Yunanistan’ın İraklion istasyonu aracılığıyla karşı NAVTEX yayımladığı ve Türkiye’nin duyurusunu geçersiz ve asılsız olarak nitelendirdiği ifade edildi. Rum Yönetimi de benzer bir adım atarak Larnaka’daki Arama Kurtarma Koordinasyon Merkezi (JRCC) aracılığıyla karşı NAVTEX yayımladı.\nRum tarafının duyurusunda, “Abeille Marengo” gemisinin Rum yönetiminin kendi kıta sahanlığı ve ilan ettiği Münhasır Ekonomik Bölgesi (MEB) içerisinde gerçekleştireceği araştırma faaliyetlerinin, Rum makamlarınca yayımlanan NW 345/26 numaralı uyarıyla bildirildiği belirtildi. Açıklamada ayrıca JRCC Larnaca/Cyprus Radio’nun, Rum Yönetimi’nin sorumluluk alanında NAVTEX yayımlamaya yetkili tek istasyon olduğu savunuldu.\nPALMAS’TAN GSI PROJESİ AÇIKLAMASI\nRum Savunma Bakanı Vasilis Palmas, konuya ilişkin açıklamasında Güney Kıbrıs ile Yunanistan’ın GSI projesini ilerletme konusundaki kararlılığını sürdürdüğünü belirtti. Palmas, iki ülkenin faaliyetlerini uluslararası hukuk ve deniz hukuku çerçevesinde yürüttüğünü savundu.\nFransız araştırma gemisinin 19 Kasım civarında Rum Yönetimi’nin ilan ettiği MEB’e girmesinin beklendiğine ilişkin soruyu yanıtlayan Palmas, yürütülen faaliyetlerin uluslararası hukuk kapsamında olduğunu ifade etti.\nGSI projesini önemli ve jeopolitik değere sahip bir girişim olarak nitelendiren Palmas, bölgede yaşanan uluslararası istikrarsızlık ve jeopolitik krizlere işaret ederek, kamuoyuna yapılan açıklamaların dikkatli ve sorumlu bir şekilde ele alınması gerektiğini söyledi.\nYUNANİSTAN’DA SİYASİ PARTİLERE BİLGİLENDİRME\nÖte yandan Alithia gazetesi, Yunanistan Dışişleri Bakanı Yorgos Yerapetridis’in cumartesi günü siyasi parti başkanlarını dış politika konuları ve GSI projesi hakkında bilgilendireceğini yazdı.\nHaberde, Yunanistan Başbakan Yardımcısı Kostis Hacıdakis’in de Fransa’nın Ankara’ya gönderdiği sözlü nota metninin siyasi parti başkanlarıyla paylaşılacağını açıkladığı belirtildi. Hacıdakis’in, proje açısından asıl önemli unsurun denizaltı elektrik kablosunun kendisi olduğuna dikkat çektiği aktarıldı.\nGSI projesi kapsamında araştırma faaliyetlerinin yeniden başlaması beklenirken, Türkiye, Yunanistan ve Rum Yönetimi arasında NAVTEX ve karşı NAVTEX açıklamalarıyla deniz yetki alanlarına ilişkin tartışmalar yeniden gündeme geldi.",
+      "summary": "Rum Yönetimi, “Great Sea Interconnector” (GSI) projesi kapsamında Fransız araştırma gemisi “Abeille Marengo”nin hareketiyle ilgili Türkiye’ye karşı bir NAVTEX yayımlayarak, geminin Rum’un ilan ettiği münhasır ekonomik bölgesi içinde araştırma yapacağını duyurdu. Türkiye, geminin Türkiye kıta sahanlığı içinde ve yetki alanları içinde hareket ettiğini belirten bir NAVTEX ve ardından Yunanistan’ın da karşı NAVTEX yayımladığını bildirdi. Rum Savunma Bakanı Vasilis Palmas, GSI projesinin uluslararası hukuk çerçevesinde ilerlediğini ve faaliyetlerin 19 Kasım’da Rum’un MEB’sine gireceğini söyledi."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "40 KİLO SARIMSAKLA YAKALANDILAR, CEZAEVİNE GÖNDERİLDİLER!",
+      "source": "",
+      "link": "https://www.mhahaber.com/40-kilo-sarimsakla-yakalandilar-cezaevine-gonderildiler",
+      "pubDate": "Thu, 12 Nov 2026 12:12:59 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-82.webp",
+      "text": "Ercan Havalimanı’nda gümrüğe beyan edilmemiş 40 kilo sarımsakla yakalanan A.H. ile R.H., “Gümrüksüz mal tasarrufu” suçundan çıkarıldıkları mahkemede 7 günü aşmayan süreyle cezaevine gönderildi.\nMahkemede meseleyle ilgili şahadet veren polis memuru Şerife Kutruza, olayla ilgili bulguları aktardı.\nKutruza, 11 Kasım 2026 tarihinde saat 12.00 sıralarında Türkiye’den gelen A.H. ile R.H.’ın valizlerinde yapılan aramada, gümrüğe beyan edilmemiş 40 kilo sarımsak tespit edilerek emare olarak alındığını söyledi.\nZanlılara 92 bin TL gümrük cezası kesildiğini ancak ödemeyi kabul etmediklerini belirten polis, iki kişinin ülkeye 30 günlük turist vizesiyle giriş yaptığını kaydetti. Soruşturmanın tamamlandığını ifade eden polis, zanlıların 7 gün süreyle cezaevine gönderilmesini talep etti.\nMahkemede söz alan A.H., “Sarımsakları akrabalarımız için getirdik, ekeceklerdi” dedi.\nYargıç Gizem Erciyas, huzurunda verilen şahadeti değerlendirerek zanlıların 7 günü aşmayan süreyle cezaevine gönderilmesine emir verdi.",
+      "summary": "Ercan Havalimanı'nda gümrüğe beyan edilmemiş 40 kg sarımsak taşıyan A.H. ve R.H. 'Gümrüksüz mal tasarrufu' suçundan mahkemede 92 000 TL ceza kesildi ve 7 gün içinde cezaevine gönderildi. Polis, iki kişinin 30 günlük turist vizesiyle giriş yaptığını ve ödemeyi kabul etmediklerini belirtti."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "TÜRKİYE MSB’DEN SOMALİ’YE 15 BİN ASKER GÖNDERİLECEĞİ İDDİASINA YALANLAMA",
+      "source": "",
+      "link": "https://www.mhahaber.com/turkiye-msbden-somaliye-15-bin-asker-gonderilecegi-iddiasina-yalanlama",
+      "pubDate": "Thu, 12 Nov 2026 11:57:54 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MSB%E2%80%99den%20Somali%20%C4%B0ddias%C4%B1na%20A%C3%A7%C4%B1klama-960x585.webp",
+      "text": "Türkiye Milli Savunma Bakanlığı (MSB), Somali'nin talebi üzerine ülkeye 15 bin Türk askeri gönderileceği yönündeki iddiaların gerçeği yansıtmadığını açıkladı.\nMSB Sözcüsü Tuğamiral Zeki Aktürk, TCG Savarona'da düzenlenen haftalık basın bilgilendirme toplantısında, Türkiye'nin Somali'deki askeri faaliyetlerine ilişkin değerlendirmelerde bulundu.\n“15 BİN ASKER GÖNDERİLECEĞİ İDDİALARI GERÇEĞİ YANSITMIYOR”\nBasın mensuplarının sorularını yanıtlayan Aktürk, Somali'ye geniş kapsamlı asker sevkiyatı yapılacağına ilişkin iddiaları yalanladı.\nAktürk, Somali'de görev yapan Türk askeri unsurlarının mevcut faaliyetlerini sürdürdüğünü belirterek, Türkiye'nin Somali'ye 15 bin asker göndereceği yönündeki haberlerin doğru olmadığını vurguladı.\nSOMALİ'DEKİ ASKERİ EĞİTİM FAALİYETLERİ SÜRÜYOR\nSomali'de konuşlu Somali-Türk Görev Kuvveti ile Hava Unsur Komutanlığının faaliyetlerine devam ettiğini bildiren Aktürk, Türk askeri personelinin Somali'nin terörle mücadele kapasitesinin geliştirilmesine destek verdiğini ifade etti.\nAktürk, ülkedeki çalışmaların askeri yardım, eğitim ve danışmanlık faaliyetleri kapsamında sürdürüldüğünü kaydetti.",
+      "summary": "Türkiye Milli Savunma Bakanlığı, Somali'ye 15 000 asker gönderileceği iddialarının gerçek olmadığını duyurdu. Bakanlık sözcüsü Zeki Aktürk, mevcut Türk askeri unsurlarının eğitim ve danışmanlık faaliyetlerini sürdürdüğünü ve geniş çaplı bir sevkiyatın planlanmadığını vurguladı."
     }
   ],
   "weather": {
-    "temp": 20.0,
+    "temp": 18.7,
     "desc": "Parçalı bulutlu"
   },
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6313.09,
-    "ceyrek_altin_try": 11047.91
+    "gold_gram_try": 6278.34,
+    "ceyrek_altin_try": 10987.1
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3644224,
-      "change_pct": -1.5900880917374711
+      "price": 3600561,
+      "change_pct": -2.64926436274846
     },
     {
       "label": "Ethereum",
-      "price": 101033,
-      "change_pct": -1.9335616821691985
+      "price": 100566,
+      "change_pct": -2.5776995777795997
     }
   ],
   "stocks": [
     {
       "label": "BIST 100",
-      "price": 11818.62,
-      "change_pct": 1.34
+      "price": 11816.72,
+      "change_pct": 1.33
     },
     {
       "label": "S&P 500",
-      "price": 7619.38,
-      "change_pct": 1.31
+      "price": 7607.41,
+      "change_pct": -0.16
     },
     {
       "label": "Nasdaq",
-      "price": 25466.19,
-      "change_pct": 1.6
+      "price": 25375.23,
+      "change_pct": -0.36
     },
     {
       "label": "THY",
-      "price": 319.5,
-      "change_pct": 1.51
+      "price": 320.25,
+      "change_pct": 1.75
     },
     {
       "label": "Aselsan",
-      "price": 346.5,
-      "change_pct": 0.95
+      "price": 345.25,
+      "change_pct": 0.58
     },
     {
       "label": "Garanti BBVA",
-      "price": 151.6,
-      "change_pct": -2.07
+      "price": 152.6,
+      "change_pct": -1.42
     },
     {
       "label": "BİM",
-      "price": 385.25,
-      "change_pct": 2.05
+      "price": 385.75,
+      "change_pct": 2.19
     },
     {
       "label": "Ereğli Demir Çelik",
@@ -606,38 +790,38 @@
     },
     {
       "label": "Şişecam",
-      "price": 36.14,
-      "change_pct": 2.55
+      "price": 36.12,
+      "change_pct": 2.5
     },
     {
       "label": "Apple",
-      "price": 355.63,
-      "change_pct": 2.04
+      "price": 357.43,
+      "change_pct": 0.58
     },
     {
       "label": "Microsoft",
-      "price": 521.12,
-      "change_pct": -2.26
+      "price": 525.15,
+      "change_pct": 0.77
     },
     {
       "label": "Nvidia",
-      "price": 173.73,
-      "change_pct": 2.92
+      "price": 162.22,
+      "change_pct": -6.63
     },
     {
       "label": "Tesla",
-      "price": 390.84,
-      "change_pct": 2.91
+      "price": 394.96,
+      "change_pct": 1.06
     },
     {
       "label": "Meta",
-      "price": 628.77,
-      "change_pct": -1.97
+      "price": 625.13,
+      "change_pct": -0.58
     },
     {
       "label": "Alphabet",
-      "price": 293.45,
-      "change_pct": 2.11
+      "price": 295.7,
+      "change_pct": 0.77
     }
   ]
 }

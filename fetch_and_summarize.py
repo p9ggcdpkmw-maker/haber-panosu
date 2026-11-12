@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Kusursuz Sürüm v2)
+RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (v3 - Hatasız Analiz)
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -196,9 +196,9 @@ def summarize_batch(items):
     
     prompt = (
         "Aşağıdaki haberleri Türkçe, 2-3 cümlelik, tarafsız ve anlaşılır şekilde özetle. "
-        "DİKKAT: Girdi metinleri İngilizce veya başka bir dilde olsa bile, SENİN ÇIKTIN KESİNLİKLE VE SADECE TÜRKÇE OLACAK. "
+        "DİKKAT: Girdi metinleri başka bir dilde olsa bile, SENİN ÇIKTIN KESİNLİKLE TÜRKÇE OLACAK. "
         "Eğer 'İçerik' kısmı sadece başlıktan oluşuyorsa, 'Tam metne ulaşılamadı' uyarısı ekleyerek başlıktan çıkarım yap. "
-        "Haberlerde olmayan bilgileri KESİNLİKLE uydurma. Önemli isim, tarih ve rakamları koru. "
+        "Haberlerde olmayan bilgileri KESİNLİKLE uydurma. "
         "Çıktıyı tam olarak şu JSON formatında ver: "
         '{"summaries": ["özet 1", "özet 2", ...]} '
         "Başka hiçbir şey yazma.\n\n" + "\n".join(lines)
@@ -210,17 +210,14 @@ def summarize_batch(items):
                 "https://api.groq.com/openai/v1/chat/completions",
                 headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
                 json={
-                    "model": GROQ_MODEL, 
-                    "max_tokens": 3000, 
-                    "temperature": 0.2,
+                    "model": GROQ_MODEL, "max_tokens": 3000, "temperature": 0.2,
                     "response_format": {"type": "json_object"}, 
                     "messages": [{"role": "user", "content": prompt}]
                 },
                 timeout=60
             )
             if resp.status_code == 429:
-                wait = min(int(resp.headers.get("Retry-After", 10 * (attempt + 1))), 30)
-                time.sleep(wait); continue
+                time.sleep(15); continue
             resp.raise_for_status()
             data = json.loads(resp.json()["choices"][0]["message"]["content"])
             arr = data.get("summaries", [])
@@ -231,18 +228,18 @@ def summarize_batch(items):
             break
     return [""] * len(items)
 
-# --- KATEGORİYE ÖZEL ANALİZLER (GENEL + DİĞERLERİ) ---
+# --- KATEGORİYE ÖZEL ANALİZLER (HAFİFLETİLMİŞ VE GÜVENLİ) ---
 def generate_category_briefings(all_news):
     if not all_news: return {}
-    top_news = all_news[:30] 
+    # 🚀 DÜZELTME: 30 haber yerine sadece en güncel 10 haberi analiz et (400 hatasını çözer)
+    top_news = all_news[:10] 
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     
-    # 🚀 DÜZELTME: "genel" anahtarı eklendi. Modelin 4 anahtarı da doldurması zorunlu kılındı.
     prompt = (
         "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki haberleri okuyup 4 farklı alanda analiz yaz. "
-        "Her analiz kendi alanındaki gelişmeleri özetleyen, 2-3 cümlelik, akıcı ve profesyonel bir metin olmalı. "
-        "DİKKAT: Her alan için MUTLAKA bir analiz cümlesi yaz. ASLA boş bırakma, 'gelişme yok' deme. "
-        "DİKKAT: Girdi metinlerinde yabancı dil olsa bile ÇIKTIN KESİNLİKLE TÜRKÇE OLACAK. "
+        "Her analiz 2-3 cümlelik, akıcı ve profesyonel bir metin olmalı. "
+        "DİKKAT: Her alan için MUTLAKA bir analiz cümlesi yaz. ASLA boş bırakma. "
+        "DİKKAT: ÇIKTIN KESİNLİKLE TÜRKÇE OLACAK. "
         "Çıktıyı KESİNLİKLE şu JSON formatında ver: "
         '{"genel": "...", "teknoloji": "...", "ekonomi": "...", "gundem": "..."}'
         "Başka hiçbir şey yazma.\n\nHaberler:\n" + haber_metni
@@ -253,9 +250,7 @@ def generate_category_briefings(all_news):
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
             json={
-                "model": GROQ_MODEL, 
-                "max_tokens": 1500, 
-                "temperature": 0.2,
+                "model": GROQ_MODEL, "max_tokens": 1500, "temperature": 0.2,
                 "response_format": {"type": "json_object"}, 
                 "messages": [{"role": "user", "content": prompt}]
             },
@@ -264,16 +259,17 @@ def generate_category_briefings(all_news):
         resp.raise_for_status()
         data = json.loads(resp.json()["choices"][0]["message"]["content"])
         
-        # Güvenlik ağı: Eğer Groq anahtarlardan birini unutursa boş string ata ki arayüz çökmesin
+        # Güvenlik ağı
         for key in ["genel", "teknoloji", "ekonomi", "gundem"]:
             if key not in data or not data[key]: data[key] = "Bu alan için özel bir gelişme bulunamadı."
-                
         return data
     except Exception as e:
         print(f"  ! Briefing hatası: {e}", file=sys.stderr)
-        return {"genel": "Analiz hazırlanamadı.", "teknoloji": "Analiz hazırlanamadı.", "ekonomi": "Analiz hazırlanamadı.", "gundem": "Analiz hazırlanamadı."}
+        # 🚀 DÜZELTME: Hata alsa bile boş dönmek yerine en iyi 3 haber başlığını özet olarak ver
+        fallback_text = "Günün öne çıkan başlıkları: " + ", ".join([h['title'] for h in top_news[:3]])
+        return {"genel": fallback_text, "teknoloji": "Analiz şu an hazırlanamıyor.", "ekonomi": "Analiz şu an hazırlanamıyor.", "gundem": "Analiz şu an hazırlanamıyor."}
 
-# --- AKILLI CACHE VE BİLDİRİM ---
+# --- CACHE VE BİLDİRİM ---
 def load_cache():
     cache = {}
     briefings = {}
@@ -289,7 +285,6 @@ def load_cache():
 def send_smart_notification(new_items, market, crypto, stocks):
     if not NTFY_TOPIC: return
     sent_special = False
-
     new_games = [it for it in new_items if it.get("catId") == "oyun"]
     for game in new_games:
         try:
@@ -353,7 +348,7 @@ def main():
     print(f"Toplam {len(all_items)} haber. {len(need_summary)} yeni özetlenecek.")
 
     if need_summary:
-        print("Tam metinler çekiliyor (Linkler çözülüyor)...")
+        print("Tam metinler çekiliyor...")
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
             texts = list(executor.map(lambda i: fetch_article_text(i["link"]), need_summary))
             for it, txt in zip(need_summary, texts): it["text"] = txt
@@ -369,10 +364,10 @@ def main():
     print("Hava durumu, piyasa ve kripto çekiliyor...")
     
     if len(need_summary) == 0 and old_briefings:
-        print("Yeni haber yok. Eski RADAR AI analizleri kullanılıyor (Token tasarrufu).")
+        print("Yeni haber yok. Eski analizler kullanılıyor.")
         briefings = old_briefings
     else:
-        print("Yeni haberler var. RADAR AI Günün Analizleri hazırlanıyor...")
+        print("Yeni haberler var. Analizler hazırlanıyor...")
         briefings = generate_category_briefings(all_items)
 
     m_data = fetch_market()

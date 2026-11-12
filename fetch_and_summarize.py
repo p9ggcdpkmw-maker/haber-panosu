@@ -1,6 +1,5 @@
 """
-RADAR - Haber Motoru ve Piyasa Takipçisi
-Haberleri çeker, tam metnini okur, Groq ile özetler, piyasa verilerini toplar ve news.json'a yazar.
+RADAR - Haber Motoru, Piyasa Takipçisi ve AI Özetleyici
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -35,10 +34,10 @@ CATEGORIES = [
     {"id": "corlu", "label": "Çorlu", "query": "Çorlu Tekirdağ", "edition": TR},
 ]
 
-MAX_AGE_DAYS = 6 / 24  # Son 6 saat
+MAX_AGE_DAYS = 6 / 24
 MIN_ITEMS_PER_CAT = 3
 MAX_ITEMS_PER_CAT = 12
-MAX_TEXT_LENGTH = 3500 # Groq token limitini aşmamak için metni kırp
+MAX_TEXT_LENGTH = 3500
 
 # --- HABER ÇEKME ---
 def build_url(cat):
@@ -50,16 +49,13 @@ def build_url(cat):
 def age_days(pub_date):
     try:
         d = parsedate_to_datetime(pub_date)
-        if d.tzinfo is None:
-            d = d.replace(tzinfo=timezone.utc)
+        if d.tzinfo is None: d = d.replace(tzinfo=timezone.utc)
         return (datetime.now(timezone.utc) - d).total_seconds() / 86400
-    except Exception:
-        return 999
+    except: return 999
 
 def extract_image(it):
     media = it.find("{http://search.yahoo.com/mrss/}content")
-    if media is None:
-        media = it.find("{http://search.yahoo.com/mrss/}thumbnail")
+    if media is None: media = it.find("{http://search.yahoo.com/mrss/}thumbnail")
     if media is not None and media.get("url"): return media.get("url")
     enclosure = it.find("enclosure")
     if enclosure is not None and enclosure.get("url"): return enclosure.get("url")
@@ -106,7 +102,7 @@ def fetch_category(cat):
 
 # --- HAVA DURUMU, PİYASA VE KRİPTO ---
 WEATHER_DESC = {0:"Açık",1:"Az bulutlu",2:"Parçalı bulutlu",3:"Kapalı",45:"Sisli",48:"Kırağı sisi",51:"Hafif çisenti",53:"Çisenti",55:"Yoğun çisenti",61:"Hafif yağmur",63:"Yağmur",65:"Şiddetli yağmur",71:"Hafif kar",73:"Kar",75:"Yoğun kar",80:"Sağanak",81:"Sağanak",82:"Şiddetli sağanak",95:"Gök gürültülü sağanak",96:"Dolu",99:"Şiddetli dolu"}
-WEATHER_LAT, WEATHER_LON = 41.1601, 27.8055 # Çorlu
+WEATHER_LAT, WEATHER_LON = 41.1601, 27.8055
 
 def fetch_weather():
     url = f"https://api.open-meteo.com/v1/forecast?latitude={WEATHER_LAT}&longitude={WEATHER_LON}&current_weather=true"
@@ -174,7 +170,7 @@ def fetch_stocks():
         except: pass
     return results
 
-# --- METİN ÇEKME VE GROQ ---
+# --- METİN ÇEKME VE GROQ (HABER ÖZETLEME) ---
 def fetch_article_text(url):
     try:
         downloaded = trafilatura.fetch_url(url)
@@ -185,7 +181,6 @@ def fetch_article_text(url):
 
 def summarize_batch(items):
     if not items: return []
-    
     lines = []
     for i, it in enumerate(items):
         content = it.get("text") if it.get("text") else it['title']
@@ -211,18 +206,44 @@ def summarize_batch(items):
             if resp.status_code == 429:
                 wait = min(int(resp.headers.get("Retry-After", 10 * (attempt + 1))), 30)
                 time.sleep(wait); continue
-            
             resp.raise_for_status()
             data = json.loads(resp.json()["choices"][0]["message"]["content"])
             arr = data.get("summaries", [])
-            if len(arr) == len(items):
-                return arr
-            else:
-                return (arr + ["Özet oluşturulamadı."] * len(items))[:len(items)]
+            if len(arr) == len(items): return arr
+            else: return (arr + ["Özet oluşturulamadı."] * len(items))[:len(items)]
         except Exception as e:
             print(f"  ! Groq hatası: {e}", file=sys.stderr)
             break
     return [""] * len(items)
+
+# --- YENİ: GÜNÜN ÖZETİ (RADAR AI BRIEFING) ---
+def generate_daily_briefing(all_news):
+    """En güncel 10 haberi alır ve Groq ile tek bir akıcı 'Günün Özeti' paragrafı yazar."""
+    if not all_news: return "Bugün için özetlenecek önemli bir gelişme bulunamadı."
+    
+    # En son eklenen 10 haberi al
+    top_news = all_news[:10]
+    haber_metni = "\n".join([f"- {h['title']}: {h.get('summary', '')}" for h in top_news])
+    
+    prompt = (
+        "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki bugünün öne çıkan haberlerini okuyup, "
+        "kullanıcıya 'Merhaba, bugünün öne çıkan gelişmeleri şunlar:' diyerek başlayan, 3-4 cümlelik akıcı, "
+        "tarafsız ve profesyonel bir 'Günün Özeti' metni yaz. Önemli detayları (şirket isimleri, ülke, rakam) koru. "
+        "Sadece özet metnini döndür, başka bir şey yazma.\n\nHaberler:\n" + haber_metni
+    )
+    
+    try:
+        resp = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
+            json={"model": GROQ_MODEL, "max_tokens": 500, "messages": [{"role": "user", "content": prompt}]},
+            timeout=30
+        )
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        print(f"  ! Briefing (Günün Özeti) hatası: {e}", file=sys.stderr)
+        return "Günün özeti şu an oluşturulamıyor, lütfen aşağıdaki haberlere göz atın."
 
 # --- CACHE VE BİLDİRİM ---
 def load_cache():
@@ -266,7 +287,6 @@ def main():
             it["summary"] = cached["summary"]
         else:
             need_summary.append(it)
-
         if not it.get("image") and cached and cached.get("image"):
             it["image"] = cached["image"]
 
@@ -276,26 +296,27 @@ def main():
         print("Tam metinler çekiliyor (Paralel)...")
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
             texts = list(executor.map(lambda i: fetch_article_text(i["link"]), need_summary))
-            for it, txt in zip(need_summary, texts):
-                it["text"] = txt
+            for it, txt in zip(need_summary, texts): it["text"] = txt
 
-        print("Groq ile özetleniyor...")
+        print("Groq ile haberler özetleniyor...")
         CHUNK_SIZE = 3
         for i in range(0, len(need_summary), CHUNK_SIZE):
             chunk = need_summary[i : i + CHUNK_SIZE]
             summaries = summarize_batch(chunk)
-            for it, s in zip(chunk, summaries):
-                it["summary"] = s
-            if i + CHUNK_SIZE < len(need_summary):
-                time.sleep(2)
+            for it, s in zip(chunk, summaries): it["summary"] = s
+            if i + CHUNK_SIZE < len(need_summary): time.sleep(2)
 
-    print("Hava durumu, piyasa, kripto ve hisseler çekiliyor...")
+    print("Hava durumu, piyasa ve kripto çekiliyor...")
+    print("Günün Özeti (RADAR AI) hazırlanıyor...")
+    gunun_ozeti = generate_daily_briefing(all_items)
+
     out = {
         "updated": datetime.now(timezone.utc).isoformat(),
+        "briefing": gunun_ozeti, # YENİ: AI Özeti
         "items": all_items,
         "weather": fetch_weather(),
         "market": fetch_market(),
-        "crypto": fetch_crypto(),  # Kripto eklendi
+        "crypto": fetch_crypto(),
         "stocks": fetch_stocks(),
     }
     

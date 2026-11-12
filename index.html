@@ -63,42 +63,51 @@
   .sidebar {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Noktaları tam ortala */
     gap: 12px;
     padding: 24px 0;
     border-radius: var(--radius-lg);
     overflow: hidden;
     transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    width: 80px; /* Normalde dar */
+    width: 80px; 
     white-space: nowrap;
   }
   
-  /* PC'de mouse ile üzerine gelince genişle */
   .sidebar:hover {
     width: 220px;
+    align-items: flex-start; /* Açılınca sola yasla */
   }
 
   .logo {
     font-size: 24px;
     color: var(--accent);
     margin-bottom: 20px;
-    text-align: center;
     text-shadow: 0 0 15px var(--accent);
     transition: all 0.3s;
+    width: 100%;
+    text-align: center;
   }
   .sidebar:hover .logo {
     text-align: left;
-    padding-left: 24px;
+    padding-left: 28px;
   }
 
   .nav-item {
     display: flex;
     align-items: center;
-    padding: 14px 28px;
+    width: 100%;
+    padding: 14px 0;
+    justify-content: center; /* Noktayı ortala */
     cursor: pointer;
     transition: all 0.2s;
     border-left: 3px solid transparent;
     gap: 16px;
   }
+  .sidebar:hover .nav-item {
+    justify-content: flex-start; /* Açılınca sola yasla */
+    padding-left: 25px;
+  }
+  
   .nav-item:hover { background: rgba(255,255,255,0.05); }
   .nav-item.active { 
     background: linear-gradient(90deg, rgba(139, 92, 246, 0.15), transparent); 
@@ -113,10 +122,9 @@
 
   .nav-text { 
     font-size: 14px; font-weight: 500; color: var(--text-muted);
-    opacity: 0; transition: opacity 0.2s, color 0.2s;
+    opacity: 0; transition: opacity 0.2s;
   }
   .nav-item.active .nav-text { color: var(--text-main); font-weight: 600; }
-  
   .sidebar:hover .nav-text { opacity: 1; }
 
   /* --- ORTA ALAN --- */
@@ -125,7 +133,7 @@
     flex-direction: column;
     overflow-y: auto;
     padding-right: 8px;
-    min-width: 0; /* Grid'in taşmasını engeller */
+    min-width: 0; 
   }
   .feed-header {
     display: flex;
@@ -172,7 +180,7 @@
     border-color: rgba(255, 255, 255, 0.15);
     box-shadow: 0 12px 30px rgba(0,0,0,0.5);
   }
-  .news-card.read { opacity: 0.4; filter: grayscale(80%); }
+  .news-card.read { opacity: 0.5; filter: grayscale(80%); }
   
   .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 12px; color: var(--text-muted); }
   .card-cat { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 12px; padding: 4px 10px; border-radius: 20px; background: rgba(255,255,255,0.05); border: 1px solid currentColor;}
@@ -234,6 +242,9 @@
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
 
+  /* Borsa Şeridi Varsayılan Olarak Gizli (PC'de görünmez) */
+  .mobile-widgets { display: none; }
+
   /* --- 📱 MOBİL UYUMLULUK --- */
   @media (max-width: 1100px) {
     .app-container { grid-template-columns: 80px 1fr; }
@@ -242,26 +253,27 @@
   
   @media (max-width: 768px) {
     .app-container { 
-      grid-template-columns: 60px 1fr; /* Sol menü iyice daraldı */
+      grid-template-columns: 60px 1fr; 
       padding: 10px; 
       gap: 10px;
       height: 100vh; 
       overflow: hidden; 
     }
     
-    /* Mobilde Sol Menü: Hep Dar Kalır, Genişlemez */
+    /* Mobilde Sol Menü: Sabit Dar */
     .sidebar { 
       padding: 16px 0; 
       border-radius: var(--radius-md);
       height: 100%;
       width: 60px !important; 
     }
-    .sidebar:hover { width: 60px !important; } /* Mobilde hover'ı iptal et */
+    .sidebar:hover { width: 60px !important; align-items: center; } 
     
     .logo { display: none; }
     .nav-item { padding: 14px 0; justify-content: center; border-left: none; }
+    .sidebar:hover .nav-item { padding-left: 0; justify-content: center;}
     .nav-item.active { background: rgba(139, 92, 246, 0.15); border-radius: 12px; }
-    .nav-text { display: none !important; } /* Mobilde yazıları tamamen gizle */
+    .nav-text { display: none !important; }
     .nav-dot { width: 10px; height: 10px; }
 
     /* Ana İçerik */
@@ -274,7 +286,7 @@
     .feed-header { flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px;}
     .search-box { width: 100%; padding: 10px 16px;}
     
-    /* Mobil Borsa Şeridi */
+    /* Mobil Borsa Şeridi (Sadece Mobilde Görünür) */
     .mobile-widgets {
       display: flex;
       overflow-x: auto;
@@ -287,7 +299,6 @@
       -webkit-overflow-scrolling: touch;
       scrollbar-width: none;
       width: 100%;
-      min-width: 0;
     }
     .mobile-widgets::-webkit-scrollbar { display: none; }
     
@@ -338,7 +349,7 @@
     </div>
   </main>
 
-  <!-- SAĞ PANEL -->
+  <!-- SAĞ PANEL (Sadece PC) -->
   <aside class="widgets">
     <div class="widget-card glass">
       <div class="widget-title"><span style="font-size:16px">💹</span> Piyasalar</div>
@@ -522,6 +533,10 @@ function renderMarket(market, stocks) {
     if (market.usdtry) {
       desktopHtml += `<div class="market-item"><div class="market-label">USD/TRY</div><div class="market-val">${market.usdtry.toFixed(2)}</div></div>`;
       mobileHtml += `<div class="mob-widget"><div class="label">USD/TRY</div><div class="val">${market.usdtry.toFixed(2)}</div></div>`;
+    }
+    if (market.eurtry) {
+      desktopHtml += `<div class="market-item"><div class="market-label">EUR/TRY</div><div class="market-val">${market.eurtry.toFixed(2)}</div></div>`;
+      mobileHtml += `<div class="mob-widget"><div class="label">EUR/TRY</div><div class="val">${market.eurtry.toFixed(2)}</div></div>`;
     }
     if (market.gold_gram_try) {
       desktopHtml += `<div class="market-item"><div class="market-label">Gram Altın</div><div class="market-val">₺${market.gold_gram_try.toLocaleString('tr-TR')}</div></div>`;

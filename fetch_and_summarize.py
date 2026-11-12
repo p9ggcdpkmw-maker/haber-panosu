@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi
+RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Kusursuz Sürüm)
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -10,7 +10,7 @@ import concurrent.futures
 
 import requests
 import trafilatura
-from googlenewsdecoder import gnewsdecoder # YENİ: Google News link çözücü
+from googlenewsdecoder import gnewsdecoder
 
 # --- YAPILANDIRMA ---
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -18,7 +18,8 @@ if not GROQ_API_KEY:
     print("HATA: GROQ_API_KEY bulunamadı!", file=sys.stderr)
     sys.exit(1)
 
-GROQ_MODEL = "openai/gpt-oss-120b"
+# Daha stabil ve Türkçe'ye çok daha hakim bir model
+GROQ_MODEL = "llama-3.3-70b-versatile"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
 TR = {"hl": "tr", "gl": "TR", "ceid": "TR:tr"}
@@ -43,9 +44,7 @@ MAX_TEXT_LENGTH = 3500
 
 # --- HABER ÇEKME ---
 def build_url(cat):
-    if cat.get("url"):
-        return cat["url"]
-    
+    if cat.get("url"): return cat["url"]
     ed = cat["edition"]
     if cat["query"]:
         return f"https://news.google.com/rss/search?q={quote(cat['query'])}&hl={ed['hl']}&gl={ed['gl']}&ceid={ed['ceid']}"
@@ -178,16 +177,11 @@ def fetch_stocks():
 # --- METİN ÇEKME VE GROQ (HABER ÖZETLEME) ---
 def fetch_article_text(url):
     try:
-        # 1. Google News linkini çöz (Eğer Google News linkiyse)
         if "news.google.com" in url:
             try:
                 decoded = gnewsdecoder(url)
-                if decoded.get("status"):
-                    url = decoded["decoded_url"]
-            except Exception as e:
-                print(f"  ! Link çözülemedi: {e}", file=sys.stderr)
-
-        # 2. Çözülen gerçek linke git ve tam metni çek
+                if decoded.get("status"): url = decoded["decoded_url"]
+            except: pass
         downloaded = trafilatura.fetch_url(url)
         if not downloaded: return ""
         text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
@@ -203,6 +197,7 @@ def summarize_batch(items):
     
     prompt = (
         "Aşağıdaki haberleri Türkçe, 2-3 cümlelik, tarafsız ve anlaşılır şekilde özetle. "
+        "DİKKAT: Girdi metinleri İngilizce veya başka bir dilde olsa bile, SENİN ÇIKTIN KESİNLİKLE VE SADECE TÜRKÇE OLACAK. "
         "Eğer 'İçerik' kısmı sadece başlıktan oluşuyorsa, 'Tam metne ulaşılamadı' uyarısı ekleyerek başlıktan çıkarım yap. "
         "Haberlerde olmayan bilgileri KESİNLİKLE uydurma. Önemli isim, tarih ve rakamları koru. "
         "Çıktıyı tam olarak şu JSON formatında ver: "
@@ -215,7 +210,13 @@ def summarize_batch(items):
             resp = requests.post(
                 "https://api.groq.com/openai/v1/chat/completions",
                 headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-                json={"model": GROQ_MODEL, "max_tokens": 3000, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
+                json={
+                    "model": GROQ_MODEL, 
+                    "max_tokens": 3000, 
+                    "temperature": 0.2, # Daha az yaratıcı, daha çok kuralcı
+                    "response_format": {"type": "json_object"}, 
+                    "messages": [{"role": "user", "content": prompt}]
+                },
                 timeout=60
             )
             if resp.status_code == 429:
@@ -231,16 +232,17 @@ def summarize_batch(items):
             break
     return [""] * len(items)
 
-# --- KATEGORİYE ÖZEL ANALİZLER (GÜÇLENDİRİLMİŞ PROMPT) ---
+# --- KATEGORİYE ÖZEL ANALİZLER (GÜÇLENDİRİLMİŞ PROMPT VE DİL KİLİDİ) ---
 def generate_category_briefings(all_news):
     if not all_news: return {}
-    top_news = all_news[:30] # Daha fazla haber alalım ki sekmeler boş kalmasın
+    top_news = all_news[:30] 
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     
     prompt = (
         "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki haberleri okuyup 3 farklı alanda analiz yaz. "
         "Her analiz kendi alanındaki gelişmeleri özetleyen, 2-3 cümlelik, akıcı ve profesyonel bir metin olmalı. "
         "DİKKAT: Eğer 'teknoloji', 'ekonomi' veya 'gundem' alanında çok az haber olsa bile, elindeki verilerden yola çıkarak MUTLAKA bir analiz cümlesi yaz. ASLA boş bırakma, 'gelişme yok' deme. "
+        "DİKKAT: Aşağıdaki metinlerde İngilizce veya başka dillerden (Vietnamca vb.) kelimeler olsa bile, SENİN ÇIKTIN KESİNLİKLE VE SADECE TÜRKÇE OLACAK. Yabancı tek bir kelime bile kullanma, gerekirse önce Türkçeye çevir. "
         "Çıktıyı KESİNLİKLE şu JSON formatında ver: "
         '{"teknoloji": "...", "ekonomi": "...", "gundem": "..."}'
         "Başka hiçbir şey yazma.\n\nHaberler:\n" + haber_metni
@@ -250,7 +252,13 @@ def generate_category_briefings(all_news):
         resp = requests.post(
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-            json={"model": GROQ_MODEL, "max_tokens": 1000, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
+            json={
+                "model": GROQ_MODEL, 
+                "max_tokens": 1500, 
+                "temperature": 0.2,
+                "response_format": {"type": "json_object"}, 
+                "messages": [{"role": "user", "content": prompt}]
+            },
             timeout=30
         )
         resp.raise_for_status()
@@ -260,7 +268,7 @@ def generate_category_briefings(all_news):
         print(f"  ! Briefing hatası: {e}", file=sys.stderr)
         return {"teknoloji": "Analiz hazırlanamadı.", "ekonomi": "Analiz hazırlanamadı.", "gundem": "Analiz hazırlanamadı."}
 
-# --- AKILLI CACHE VE AKILLI BİLDİRİM ---
+# --- AKILLI CACHE VE BİLDİRİM ---
 def load_cache():
     cache = {}
     briefings = {}
@@ -306,7 +314,7 @@ def send_smart_notification(new_items, market, crypto, stocks):
 
     if new_items and not sent_special:
         try:
-            requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=f"RADAR: {len(new_items)} yeni haber eklendi. Detaylar uygulamada.".encode("utf-8"), headers={"Title": "RADAR Güncel", "Tags": "newspaper"}, timeout=10)
+            requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Güncel", "Tags": "newspaper"}, timeout=10)
         except: pass
 
 # --- ANA AKIŞ ---

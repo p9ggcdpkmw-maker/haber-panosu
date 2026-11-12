@@ -2,7 +2,7 @@ name: RADAR Haber Botu
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 * * * *' # Her saat başı çalışır (örn: 13:00, 14:00, 15:00)
   workflow_dispatch: {}
 
 permissions:

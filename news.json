@@ -1,6 +1,72 @@
 {
-  "updated": "2026-11-12T05:50:29.006778+00:00",
+  "updated": "2026-11-12T06:56:23.845507+00:00",
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Kritik tesisler yapay zeka destekli kameralarla güvende",
+      "source": "Antalya Hürses",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcG5aUVRHVGhIOEp3ekliQzA4WFI3YWRrN2hlRll6OWgwV2hSX3Y3V1RISXhQOTk0WHhpdVFhQjAtM3RyZmJiVmd0QXZ5ZmM1Wm1fVEZ2NFVzMjlVVDFueXpOeTFVUWZsUUNXWm9rTnl4RW5TYmZYNUpuLXlDVGM5Z3VKc3JQT21qSk5tMm41cTZGUTFXYnk0?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 06:45:13 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıktan anlaşıldığına göre, kritik tesislerin güvenliği yapay zeka destekli kameralarla sağlanıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Küresel piyasalarda teknoloji rallisine Nvidia gölgesi düştü",
+      "source": "Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNmV5VDBrcFpsMnR0UHRlSEJZTnEtUVhJNEVLUURKNS1EM3BDMjlRQzE4QUc0bDZHam9Zc0oycWdEaTZJNU0yQkgzQnVuaWRUNUlLYWctZWdzYTVyOVNGc1BMNEhHQ240dExReFZmc0ZDMy1VdkIyM3ZXV2VPNUZ4Sml3ZUZEb1N5VHVGOTloeDVsNEhFbDJRNjJJbWE1YmJBLU9VZg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 06:22:36 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Nvidia'nın etkisi küresel teknoloji rallisinin üzerinde gölge etkisi yaratıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Seçimlerden sonra teknoloji devleri… Balayının sonu mu, yoksa nüfuzun yeniden müzakeresi mi?",
+      "source": "Şarkul Avsat Türkçe",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXhkN3BPak1WcjI3NUpaSU52dTBaN1h3d1QxQ0xyYS1IQnpxVUlLSFpXMFY4a0JmVVBiUnczbWlZXzN2cWtVWWNSWEdYaklkTE1OVFBxdlJJUG9SSGtoRXFxd2VNelBKVElyNzkwNExpbDJfbW1IcWFFNi1lSjRONjY0WDFuSnZiX2pOYTdJeWRrZndaQ3pCaUFDT1I3cXdDQ0g5WnFKa1dMUGV4YWU0ZGJveUFhQUs0NjdselQ0QU81Nmd5Ul9KTFZWdHdreXk4bjhMSU00aFZGXzE4aVFvekNTTDg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 06:20:35 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıktan çıkarılan anlam, seçim sonrası teknoloji devlerinin konumları ve nüfuzları üzerine yeni bir değerlendirme ya da müzakere dönemi olduğu."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Meta, kullanıcıların yaşını küresel olarak belirlemek için yapay zekayı kullanıyor.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbXZ2cy1vT2ZjNHI0dTQwMkRtUk1Qbl9PMzUxTGN4YW42S2IxSlBtTk9MOVZRRFptaGZwWXRsdHg0M1FTY1J5ZnZsSlBqWTRXbzVyd054YmNMUUhBTDZDUWZTMTRHUXdhNUxHcGpCSExuNHlHTnBfRVNJcUY2WU5TNWFZMEQ0N09oNDBjVw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 06:11:48 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıktan, Meta’nın yapay zekâ teknolojisiyle dünya çapında kullanıcıların yaşını belirlemeye çalıştığı anlaşılmaktadır."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Sert kayaya çarptı",
+      "source": "CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tUnlrTGt4UnVsd2V3ZmtuckN4dUJGWFpoelJ4OUhZR01vam1HYWR2RjRFMG1Od0RfMDExM0kxSGxoODVBWVd4NzdDcmRWMl9xZG5nOTJzdjZBUDk3YnNVQzdDSmhVdC1QZHJ1TQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 05:51:54 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıktan, bir nesnenin sert bir kayaya çarptığı anlaşılmaktadır."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Jensen Huang olmadan Nvidia ne olur?",
+      "source": "CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeGM5dm5tTktkS1pXS3VqVEQ4OWZpMmU2QjNyZ2JXaW5tNGVpS3FneGlBdFViZmdRNzBqdHNERl9jVHlDZ2ZYV1hLc3FEVFVWeGx6c2l1cjNaSURCdjYxdjFEUUlQcHBfTmxtV3JZQ2lPYkEwZGVFcFB1ODhoRkRUZXlmdw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 05:50:57 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıktan, Jensen Huang olmadan Nvidia’nın nasıl bir yol izleyeceği sorulmaktadır."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -9,8 +75,29 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM1RJQUZDeG81Zkl6aDE5cXFIVmhnWFJSYUpIWDZmMmxfRkg4YlZDQ0FsYnZMaWhPRGJsc01YY205TlIzSE5UWHNsZTQ0cjVCR0tDM0plbkFqaTJ2UVA4WjRkMTcyejFwZUtVWUk4QmlJckcyT213dnF3VVIwRm5taWNMbEUwNVBKZF9yS2tqVDZDZF96ZTNyTmh4Rk9sekNIeGtNYk15YnJuVzMtd01lOXc4dm1uLUg1NXFndGJBLUk?oc=5",
       "pubDate": "Thu, 12 Nov 2026 05:10:12 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Bakan Vu Hai Quan, bilim, teknoloji, inovasyon, dijital dönüşüm ve yapay zeka konularında sorulan soruları yanıtlıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Fractile 720 milyon dolar yatırım aldı, hedef yapay zekâ çipleri",
+      "source": "Teknoblog",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWmdNVGNpVHJyV0tOZUFUcVZILVFzbG0wRFdhMEFOTlMwdjczWWtMLVlvYUlKdlA0NHBzcUZvbmpKLWVjdUpmZW5NeHZNMnZaWVNEZ1o5cTFaSDJkTHNvRmJLNTNCMXBYWjVJY1RhdmczNzN2YzlvN1FEb1ZYXzB0VVVOY0JWUQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 05:03:05 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Fractile, bir yapay zekâ çipi geliştirme şirketi, 720 milyon dolar yatırım aldı. Şirket, bu finansmanla yapay zekâ çipleri üretmeyi hedefliyor. (Tam metne ulaşılamadı.)"
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "ByteDance’in Meta Muse’a rakip yapay zekâ ajanı yakında gelebilir",
+      "source": "Teknoblog",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTnNhdzRzZlA2YUp6a19RRW15blhLc2sweFdjV0c5bVU5bEttY1VUNjd0M1pzUlhpdjZoUEVCWVI4Q045cnZYSjNfUFBrcWwyZmhzOFlkOVFYYWN4RmRfSWUyclJGaVpVMmxjSnRIODh0YmpnMnR5RmdON2NOd054M3FDNjlKUHRpYzZac29iUQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 04:43:05 GMT",
+      "image": null,
+      "text": "",
+      "summary": "ByteDance, Meta’nın Muse ürününe rakip bir yapay zekâ ajanı geliştirdiğini duyurdu. Bu ajanının yakında piyasaya sürülmesi bekleniyor. (Tam metne ulaşılamadı.)"
     },
     {
       "cat": "Teknoloji",
@@ -30,7 +117,6 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4ycG9acE1lY1lTNlkxODR6cFU1ZnA4MkxNZ3VUMjVyVXR5NXlrMXpFWGJsanA1QXFXb1NJaXlibHhCTFIzVnVta2lqMWFPOER5ek8xclZoVzI5RVlIYUdNTnBJaUMzMDZmTjVCQm1kLXdIRjUwRTNUOA?oc=5",
       "pubDate": "Thu, 12 Nov 2026 04:25:59 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. COP31 kapsamında yapay zekanın iklim değişikliğiyle ilgili yeni bir sorun haline geldiği vurgulandı."
     },
     {
@@ -42,16 +128,6 @@
       "pubDate": "Thu, 12 Nov 2026 03:31:00 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Başlık, ayda madencilik, uzayda güneş paneli projeleri ve Hong Kong'da geleceğe yolculuk gibi çeşitli temaları içeriyor ve yazarın düşüncelerinin Türkiye’de kaldığını vurguluyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Hop Tri, VIMF x VIAF 2026'da yapay zeka çözümü ve sanal enerji santraliyle büyük beğeni topladı.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY3I1X3pGN3F5ZWszYjVnbE9wbUdDQXU5TEJ2dkdLcXVSWXRNOU9QVG9CM0NVOW5CQ0RKTU1iaU9hY1N4MDk2X29NN29HMmRBS2dUektYVC1YbjR3Rm9CUFl6aHZxTU5TMFJSZ2JBWTM3T3dzR3ZUN1ljS1RnVmNQWlB0NjBDMi1xQWJJc0xYSUZoblJ3RGtuazdscXpaVk9Ja0E?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 01:53:13 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Hop Tri, VIMF x VIAF 2026 etkinliğinde yapay zeka çözümü ve sanal enerji santraliyle büyük beğeni topladı."
     },
     {
       "cat": "Bilim",
@@ -116,6 +192,17 @@
     {
       "cat": "Ücretsiz Oyun",
       "catId": "oyun",
+      "title": "Steam'de İki Oyun Kısa Süreliğine Ücretsiz Oldu",
+      "source": "Fanzade",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOEJhTFdXY2ZvQkdDNFFDTEpER0tZZTY2eDJoeG1WTjN1U3RIdmpHRGMzV0lWRGVCUnNzZnR3Y25tQ2c0Z1RoSC10VmZtcUQwNTJpcFlSWnN2b29RUXNqOFNCUjZRandlWkpMeFlpakpIa0NGeGJZSlVuVEZ6QVdQc1VtbDFScVFfOE45Sg?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 23:55:29 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Steam platformunda iki oyun, sınırlı bir süre için ücretsiz olarak sunuldu. Kullanıcılar bu oyunları ücretsiz oynayabiliyor. (Tam metne ulaşılamadı.)"
+    },
+    {
+      "cat": "Ücretsiz Oyun",
+      "catId": "oyun",
       "title": "Epic Games 3 Oyunu Ücretsiz Veriyor! 12 Kasım’a Kadar Alın",
       "source": "TeknoTalk",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE96Y25ObURSaFhzUng3RjZSUUp0WGx6aTFRMTFQVkJudE9TdGc0YTRXaUYxZTBiVlg3dlh3bTRkSHRtSERQeEZTZjJfclRZZ0NnUHZKV1hDV3pRQXVCS0lTY0pJbGhSUk1WZ1hZQVNWS21ZcUhQMFV6MnJhNWs?oc=5",
@@ -134,55 +221,47 @@
       "summary": "Letem světem Applem, Epic Games'in iki yeni oyunu ücretsiz olarak sunduğunu ve bu oyunların strateji ve fantastik türlerine odaklandığını raporladı. Kullanıcıların indirme için platforma giriş yapması yeterli. Bu tür promosyonlar, ilgili türdeki oyuncu kitlesinin büyümesine katkı sağlayabilir."
     },
     {
-      "cat": "Ücretsiz Oyun",
-      "catId": "oyun",
-      "title": "Epic Games Cadılar Bayramı için İki Oyunu Ücretsiz Veriyor",
-      "source": "ShiftDelete.Net",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQXUxbUVTdldnWDFPZmVzaHd6MWpBNTRDWURBanpOTkJuRlkzZUVKUW12OEE1RzUtWjFCOFlqejFOZFhCZndqeWlxWFFZUnRiNXd2N3dpdG5vVUpoSldGUmdyUmpTQm5rbTNnc2MyajhYZlpjRmxibHk1Qm9nWURVV3A4NEg3eGFDcFE?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
-      "image": null,
-      "summary": "Epic Games, Cadılar Bayramı kutlamaları kapsamında iki popüler oyununu ücretsiz olarak sunacak. Oyuncular, bu fırsatla oyunları deneyimleme şansı bulacak. Ücretsiz oyun dağıtımları, şirketin pazar payını genişletme ve topluluk bağlılığını artırma stratejisi olarak görülüyor."
-    },
-    {
       "cat": "Doğa",
       "catId": "doga",
-      "title": "Diyarbakır'da Fırat Nehri'nde alabalık ve somon balıkları yaşamaya başladı",
+      "title": "Sinan Kutlu, Çermik'te nesli tükenme tehlikesindeki dağ keçilerini görüntüledi",
       "source": "Son Dakika",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc2lTUjBqTzdqMlh1azB4MHRXbmI2bXlyVl9nYWtLUzRwTDdfS1ZLSFFTWEUxTkpLZDBGTWl1UWhHQ1h0U01nTTdBaUhlaE1QQmhqVkRvc3hUQktkbVQ1LVJWdnZkd0lRS25QdTduR2RtVHlxLTRsZmNMNFFqYXFWaUp3VXI0LTNpSnFNN25KUDM5MGYydFFGUG1OTV90WlnSAZwBQVVfeXFMTzh4Rkd1dnZEZmNhQ3RCRjJiVkZUSGlVQk9XbnU2VExUV3Nna1hDMWdHUU5iM3B0V0F1UmV2UmZ3T2prX1VJcUtnd3hqNENHS0N2QVl6ZDBnbW9lWl9KczNvckp1ZGx4NnFmRDlLN0RGOGJ5UXJuX3B4TUVUYWhxY1d5SGFCWU9VNEw5eGMwZGl6WmFOa1d2X0s4SzZI?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 11:12:24 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVnNLYWl4bnE3b1QwTlRZYVBXSU92WVdhUjNHNndLRERXYldMeXVWWlU1QXMxbjVDb0hQeEQ0cDVrQm53X0VQQng3UFpjNlpvcVhMVXRfcGduRTg0Q2Qxd1pIQU1CZ281WGp6SFRjUjFZZTV0QVpnUHphLWdkRjhvRUtTYl96NmNTdFJVR1pMMjBxNnVhNGM2ZnoyMEtISDDSAZwBQVVfeXFMTzFvZE1MQXh6QUI4b09KLUk0ZVlEeXZjcVNiLWg0ak9HOHFyY0pHSEZvVi0xM253XzljQUxFUjg2Z3A3RjlKNi1yRmVQM2I3YXEwTG1rbkpkNHdoeVpCVElRaXlXWTFGOXpDYUs4Tm51Y3U3b09SeEVNak0wSWFwZ1QySzVQS2Z4VUdEUW5NZ2dEZTBRTVJUQnFMOU9W?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 06:30:41 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Diyarbakır’daki Fırat Nehri’ne alabalık ve somon balıkları yerleşmiş ve bu türlerin nehirde yaşamaya başlaması yerel ekosistemde yeni bir gelişme olarak kaydedildi."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Sinan Kutlu, Çermik'te nesli tükenme tehlikesindeki dağ keçilerini görüntüledi."
     },
     {
       "cat": "Doğa",
       "catId": "doga",
-      "title": "Meksika'da '100 koyun' felaketi. Adaya silahlı helikopterler gönderildi",
-      "source": "Nefes Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY1Z1ZXZrSFRTWHhBemxuYndQQ1hlYUdvTVdzUkNBWVFaYi1mS2xGS1h0TkhWRFg4bGhya214b3ZHSm9wVjlPVXloc1BGdTFXX1FHd2JNRERJU3VneUZZOXp2c1lka25kSjd5VkYtMFZWbVdybXFEVUhsOExBbmEwelFib1YwN0lGTWktc3lPZTJkME83Ulp2Yk5HbHJkd2xZS3c?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "title": "Diyarbakır Çüngüş'te ayı ve iki yavrusu Fırat kıyısında köpeklerce kovalandı",
+      "source": "Son Dakika",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOVcyUzlqWmg3VTVqcklCdzhMemFlSTh3REFsZGZ3a25mNUV5Yy1UQTNHN2lOVXAxOEpsWWVTRl9mV3JHZlk5TFN5c2lfLUJLa3NWQ3d6bWNnSUQ5SFg2b0piS2FkLUpETWtfT0o0c3Q0cEpmOEMtcEFsVFFoS0Zhb2E2TGx4aEtFWnU5eXdZQ2lCLVZuTEI0RzQ5b2Q3NG_SAZwBQVVfeXFMUDl2bVFtSlROUGFVblRBcHNyOEVyZ1BjaTZiSTdsVk1aampZbmtZSDZETzZxcXZ0Q1VMNGJTS3lSaFVsTS1jN0xGa2FBNnZ2UnBJdFEzQ2M3VXpBQ1NrQ1ZGLVVfMnBmenRyckxpS2VpTVBhdWlJU1BKZXBhVFY3bnpDeTlSSnlHa3Rpend5d0NZUWxyS3M4NGg5OEVP?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 06:19:08 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Meksika’da ‘100 koyun’ felaketi yaşanmış ve adaya silahlı helikopterler gönderilmiştir."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Diyarbakır Çüngüş'te ayı ve iki yavrusu Fırat kıyısında köpeklerce kovalandı."
     },
     {
       "cat": "Doğa",
       "catId": "doga",
-      "title": "İlkokul öğrencilerinden Hayvanları Koruma Günü etkinliği| Haberler",
-      "source": "Gazete Kadıköy",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjdZMXpMYlRNbHEyMW9RUTRaaHhxbUJfM3MxQzNDcHJtek94c3hxTjBySFhuemhXZXppV0xvejNsUDEtVjZrdGtvbm1wcnR4V0twRnZlUVN0dDhEbzNtT1JDMnMwZ1hCenpPYnAwcjJvUjJHX2hieTVIWGx5TURTelliMGRwOV9pR1RfaE9fWnQ4S0gwQnk0?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 07:00:00 GMT",
+      "title": "Sinop’ta sahipsiz hayvanlar için yeni tedbirler",
+      "source": "Medya Gazete",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWHVLMGZtb0xQT2VGMkd3MkRKWU9wbkl6VlliVmljUVZvUmtuelNPdG9hU1dhUG55RWRYdG1TcVRPVWdTakcwWlFHMHJneWhjT1UwWUtheWgyVTByNm9pRVBFZm0tSXEtc3NLTERJRVBzdkFxRm9aazNza1BSSTBVenZnajhFRVU?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 05:54:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, ilkokul öğrencilerinin Hayvanları Koruma Günü etkinliği düzenlediğini bildiriyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Sinop’ta sahipsiz hayvanlar için yeni tedbirler alındı."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Nvidia's shares plunge as US tech giant's board reportedly weighs ousting CEO Jensen Huang - follow live",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14cjNlT01lTmVjS3VCMFFkVjlKQk45UkhOWVpJZVdKZndqcXRKN2NSd2tjSWU4eWxGZzlXcGppZWQ2a3dKeUczVF9xUlNKUkRLQjM2bUhn?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 05:29:35 GMT",
+      "title": "Dangerous search for survivors continues after deadly building collapse in Brooklyn",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RZkdYZk4zZ1NacXpLb25ncXd1WXJTX3c5aFlhM2lGYzRoSjFiZTlVeTItS0ZPSUwwOTJkdk1XaUxCYU5QbGpVTXN1YUpVUjIwT1FJNWhMdEJIUV8xTERyYmFzTFZLVDVBaUZRc2sydHpxWVNobG9qS2tGcGhxWHc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 06:31:30 GMT",
       "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Nvidia hisseleri, şirket yönetim kurulunun CEO Jensen Huang'ın görevden alınmasını değerlendirdiği raporları sonrasında düşüş kaydetti."
+      "summary": "Tam metne ulaşılamadı. New York'ta bir binanın çökmesi sonucu en az bir kişi hayatını kaybetti ve 12 kişi yaralandı; geniş çaplı kurtarma çalışmaları sürüyor."
     },
     {
       "cat": "Dünya",
@@ -197,23 +276,57 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Dangerous search for survivors continues after deadly building collapse in Brooklyn",
-      "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RZkdYZk4zZ1NacXpLb25ncXd1WXJTX3c5aFlhM2lGYzRoSjFiZTlVeTItS0ZPSUwwOTJkdk1XaUxCYU5QbGpVTXN1YUpVUjIwT1FJNWhMdEJIUV8xTERyYmFzTFZLVDVBaUZRc2sydHpxWVNobG9qS2tGcGhxWHc?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 04:58:26 GMT",
+      "title": "Mississippi elects Democrat Scott Colom as state's first Black US senator since Reconstruction",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVVhWcG5USS14S1FTbUdWOGtpYjRXSWdoUlJ4Ym95VXFGdnQtdVgyY3pMcjFScHpQc0c3a202TWJVcHp6YjFobDFfRl9Ga01PSGdaTEhZREZXRmtKUFBQY1JWQ0NmTHM2aVZnUVdNS3lPZG5RbDVVdHZFZnBkNmlwNU1Sc21GV1RvY0dwVHlyekd0UFg5aUZlNU1nYkJQZE1Y?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 05:25:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. New York'ta bir binanın çökmesi sonucu en az bir kişi hayatını kaybetti ve 12 kişi yaralandı; geniş çaplı kurtarma çalışmaları sürüyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Mississippi, Demokrat Scott Colom'u, Rekonstrüksiyon sonrası ilk siyah ABD senatörü olarak seçti."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Democrat Scott Colom wins Senate race in Mississippi",
+      "title": "Hegseth and his entourage scolded by military sentinel at Tomb of the Unknowns",
       "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTXZtWTBkM2VKMVpsSzl2NHpJTUU2VHRleUdrV1JITFduVUJCY0Fkd05DMkxrYmxBaUJWOFU3aWJXNnNraC03YV9famltVVpKVzdDQ3RIcDM3c3ZyQkloQ1lXNUo0Q19GYURKN0RCT3Zyc2t2cHR4Ri16amdVTzR4U3JUb3BkSFhxN3Y1U2VLQ01MUlByNzliU2pDVnE2WF9POTZn?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 03:37:04 GMT",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZkd0azd3NU5ldWVWYnkwdktUV1ZHR0l6alR1U1VtbjlSYXdEWWRFcHVtSTdUMXE1anpOaUxLaWVsQXdycEFXVjh0LWU0eV9yMUNxaUFQcndSU0xILWZwRFVOdG5CcXMtODM5aW4zaEdYclhBcUN0dzNIclM0N2txWVFqU3VLRDJpR21WR1NiZWYzaGRCdldLcmtDcHRLODFSSWtIaEgwRnpZd2RUcHc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 05:20:59 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Demokrat Scott Colom, Mississippi'te Senato seçimlerini kazandı."
+      "summary": "Tam metne ulaşılamadı. Hegseth ve ekibi, Bilinmeyen Asker Mezarı'nda bir askeri nöbetçi tarafından uyarıldı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Famed ship SS United States to be sunk off coast of Florida",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ielVtR0tBWXI4cTlYTnRZM3pmbW9EVXVUdGtSVUdSN2tib2ZOamc2NTN5UWEzRUZtTklwTEpBQnp3WHcyWXJDdEVMWDl2akpycVRwT3ZEejZ2RTg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 04:03:13 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Ünlü SS United States gemisinin Florida kıyılarının açıklarında batırılması planlanıyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Frankie Muniz released from hospital after Daytona wreck",
+      "source": "Jayski",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdk84TlJXaFRONGZ6QlBORWlFaE1Ya2hGTnRSSzl0LVBQODJtanJzSnRRMHpNLUNnbUxzUTYxWVpjdm9WWTN0VVJGbE11eHUxNVZzN2pGZjA4ZWhkQTdabVdyT25lOWxaZllzaXZRaDFmR1dfRXlaYWJqRjVKSFM0MXJNc3VGNmdlSlN1SFBveTZ1Tl9NdlE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 03:47:02 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Frankie Muniz, Daytona pistinde yaşadığı kaza sonrası hastaneden taburcu edildi. Kaza, yarış sırasında meydana geldi ve Muniz'in sağlık durumu istikrarlı olduğu bildirildi."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XcTlzd01BSWFhRWROazZzbHhQNmpWLXRjY3Ayd291bVRRNUFfbnhlRnpJekdIZnhMWDVSeng2Q19aOXQydWltRnlxMEpfLXctZVJRMFM4eFBUREhxQW10YkdRLXBqTmszWWdEYUx0U2k0OWtwUEg4NVV6Vy0?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 03:25:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Elon Musk, Nvidia CEO'su Jensen Huang'ı işe almanın bir onur olacağını belirtti. Musk bu görüşünü bir röportajda dile getirdi."
     },
     {
       "cat": "Dünya",
@@ -228,76 +341,45 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
-      "source": "NPR",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdGEzdmFyWGVPSTdKOTczZFBVOV9oV2ZiVGNsbUZWaHU4VEVXaWRrSjRTLUp0aTMxWDdhd0RSRldjM0d6NWZrdVpvbkxwaDV2eXE1VWhKOF9IbkhCUGpydkE4X21icFpob0RnRnJFUkhIX1dyTVkyVWxyejBuWGI4UnU0TWhiWVBsSFFkT0pR?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 03:10:32 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Dünyanın en hızlı okyanus gemisi, en büyük yapay resif rekorunu kırmak amacıyla batırıldı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "How Trump maneuvered to the brink of building his 250-foot triumphal arch",
       "source": "The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbGh2RVBkNTA1WmJtV1hCVXU4RUFMakMxTkhhNDlTSmM4aHJZR0FZUEpVWnM3NjlGWHNtLXE0Y21PWnI3S0xPWl9YY3N1clM3bzlOTDVNZmk3Qm5hLS04LVhNR0hKV0NtNkY4RnEtVWxfelVKaWlzWkpTWXhQb2FTYlRuWHB2bEt3TXZtXzRSTnIwMkswOFdPUk90ODh3NXVibmFkU3RxVmk5YVZVZTFR?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 02:32:44 GMT",
+      "pubDate": "Thu, 12 Nov 2026 02:47:41 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Donald Trump, 250 feet yüksekliğindeki bir zafer takı taşı inşa etme eşiğine gelmek için izlediği adımları değerlendiriyor."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Hegseth's group reprimanded for making noise at Tomb of the Unknown Soldier",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdGNTeFpRQXBVOTU0QjlKdnl3Ri1EeG5oZ1RQNllEU2kzYVVUR2tKTVFxdnVwWFpfbFZzV25QeXFzWFc2YktKMVJTR0NZVEsyWnlsZXhEWmVFZ1hzVE50UkJpZEVXcWh1eVBVQXQ1Z3JOVTh6b25YNUp6c0prdmN0Q1h0bWRTRnhZZjMxMQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 01:33:58 GMT",
-      "image": null,
-      "summary": "Hegseth'in grubu, Bilinmeyen Asker Mezarı'nda ses çıkarması nedeniyle uyarı aldı. Tam metne ulaşılamadı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Brewers’ Jacob Misiorowski rolls to unanimous selection in NL Cy Young race",
-      "source": "BBWAA",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8yTW5BaWtnUzk4YWJpLThJQjdlSXY1bTFsU2VJQnE1eDNCYUpocDkwUVR0RUZEVTh2MGhIbWZDRjM?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 01:04:49 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı: Milwaukee Brewers'ın pitcher'ı Jacob Misiorowski, Ulusal Lig Cy Young yarışmasında oy birliğiyle seçildi. Seçimi, onun sezon performansının geniş takdir gördüğünü gösteriyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEWTAxeW5RS2RldkxaeEoySTNmZWR6WF9KRnZzRExJcXdBSTlDU3F6V0V6ZVA3a3R1bTZJM01UQndVM0UyWXRNb3hwSkhWTTdzdExXMjktYlUwc1U?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 00:49:05 GMT",
+      "title": "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest",
+      "source": "DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMHh4aG9MdmZ1bUU3cGp1ZnRMVExTMkl2NmZZTk1fOVBuYmdBWS1uNUdUTFFtVUFZSlk1YUxURDE2bGlmdW1OZDEyei0tRnNvZ3VPX0xlODlMSHFqX0FYbnlnZnh0YnJzelI2cmdnZnZNUGZSMTVIamsteFp4WUc3UmlOTHNEUW9LX3FMN3R0OTJiVXVEbGdPTkhCMS1NNDREMGfSAaIBQVVfeXFMT0ZTT2Q0bS1peXI1bGstaVNyYzRhSjBfR19zWlp0WHZ3ZmdmSk5YZkZvRWtNRXRzMlNmdnRtckpJNTlyeV9KWHhOcm1ycS1yS0xCczdiUnZwRXVQVWhZN3NxOFpYbE9nTGJUN3ctWl9jYUVRaEozZVE3M1Q2ZVp0MVJiNEVuaXczYzdvcGJBUGtadEJHUkVwY0h3dzY2aXViQW5B?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 02:18:18 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Poundland, acil görüşmelerin sürmesiyle kurtarma anlaşması için ek zaman elde ediyor."
+      "summary": "Tam metne ulaşılamadı. İspanya'da konut krizi, 14 yıl içinde gerçekleşen ilk genel grevi tetikledi ve yüz binlerce kişi protestoya katıldı. Grevin nedeni konut fiyatlarındaki artış ve kiraların yükselmesidir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Democrats Face Backlash After Missing Hegseth Impeachment Vote",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOURyZ0lrSVFQZHl4Z0FMa1hYRFFZM3dmd1UzYWxVbWpkaWo4dHFEY3V1cHdPakstSGZSX3RsWWRVaUVJbWR6c00zaGFpNk9EZDQ1UGxCWXhvR3ROWjNjLWg3M3lEdldLMmdQRGNlN0ZJTTZydXA5eEFIY1NrY05adXNnRktCV2wtaFVmZE04el9YRmxVMEUwNFl1OGN3QTc5R2FnaXJ3?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 00:21:37 GMT",
+      "title": "White House confronts Democrats over planned probes, claiming possible ‘criminality’",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMkF3VkJLSWtHYzVKNWo1bC1RYmhjSTZLV3lIdjJPSDRudEVXR0tNM0M4VWVtcHJ6VHQ5ME84SGlCVmYyWGRha2NZR1ZZdHQ4dVlsVG1vUXJFdzVoYnIxSlNfZ1NzQ1FWcTNYMFp1RlJEZUx0MkJlZ0pFRGZrX19nNG1QZVYwM1ZrSmtCb1ZPNUFSM28?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 01:36:00 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Demokratlar, Hegseth'in azil oylamasını kaçırmalarının ardından eleştiriyle karşılaştı."
+      "summary": "Tam metne ulaşılamadı. Beyaz Saray, planlanan soruşturmalara dair Demokratlarla çatışmaya girerek, bu soruşturmalarda suç unsuru olabileceğini iddia ediyor."
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "OSU abuse survivors blast Jim Jordan’s election as House minority leader",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNTlEaVFRcHdmNnh3Y1RQdDlOUTJqa1hPb1Q1cjJTdHh0cEdQd01DNndMb2NDeXFiTUtWcWp0NlFldVB3NENEdmRhYVVjcEpnaTJRLUVkbHVIQ3h2MHNVcktibV9nbnBRZ29tY1MzajduVkpXUjgxZWN5LXZyRFhsVXVRSWpRM1Fjd29pVERzcTc2UmI3TkF3bllZeFBrckx0dk05bmt4LU5EbWRTeXlocmxlUDc2Q2c?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 00:20:00 GMT",
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Türkiye-Belçika maçı saat kaçta? 12 Kasım maç programı",
+      "source": "Manşet Haber",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWkJwVmFqSFZmbjJfQUZDckdtLXl6T3piZjlMbjJ4X1Y5QnlSdUQ5RkVXaUlzRGNGRXI5MTZiTGc4RlRQUzNpdmRsMTBlaWduNGlqRThwc1E1N3BSbXBBbG9Ba2ZtQmtLUkplOExLVEUwMzdiNlliMDU2Q3d4clRtNjM5LWU2RWhIZUlWZg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 05:50:00 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. OSU taciz mağdurları, Jim Jordan’ın Temsilciler Meclisi azınlık lideri seçilmesine sert tepki gösterdi."
+      "summary": "Tam metne ulaşılamadı. Türkiye ile Belçika arasında oynanacak maçın saati ve 12 Kasım tarihindeki maç programı merak ediliyor."
     },
     {
       "cat": "Gündem",
@@ -318,16 +400,6 @@
       "pubDate": "Wed, 11 Nov 2026 16:25:04 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Başlığa göre, bir İsrailli analist, Türkiye ile İsrail arasında dakikalar içinde doğrudan bir çatışma yaşanabileceği iddiasında bulundu."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "O Ses Türkiye Yılbaşı Özel'de kimler var? Daha 17 iddiası gündem oldu!",
-      "source": "kayserihaber.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5EZ25YUnB2VnlVT3lwN0p1U3RlSkNmZGtFeFd2UFZaaWJuQW5fX1V4TlFJejZwREtKY01fLXBzcEJuelQzbWc2Mmk2eXlzdXBrMV9yekhOTFN0ejJoOTBOZFFnT2NzT253M2hYMEdrYVp6MGJXdXRn?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 14:00:00 GMT",
-      "image": null,
-      "summary": "O Ses Türkiye’nin yılbaşı özel programı, katılımcı sayısının 17 olduğu iddiasıyla gündemde. Tam metne ulaşılamadı."
     },
     {
       "cat": "Çorlu",
@@ -361,19 +433,19 @@
     }
   ],
   "weather": {
-    "temp": 14.3,
+    "temp": 15.6,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6428.35
+    "gold_gram_try": 6412.18
   },
   "stocks": [
     {
       "label": "BIST 100",
       "price": 11666.42,
-      "change_pct": 0.04
+      "change_pct": 0.0
     },
     {
       "label": "S&P 500",
@@ -388,22 +460,22 @@
     {
       "label": "THY",
       "price": 314.75,
-      "change_pct": 0.32
+      "change_pct": 0.0
     },
     {
       "label": "Aselsan",
       "price": 343.25,
-      "change_pct": 1.85
+      "change_pct": 0.0
     },
     {
       "label": "Garanti BBVA",
       "price": 154.8,
-      "change_pct": -0.39
+      "change_pct": 0.0
     },
     {
       "label": "BİM",
       "price": 377.5,
-      "change_pct": -0.98
+      "change_pct": 0.0
     },
     {
       "label": "Apple",

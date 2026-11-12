@@ -32,6 +32,8 @@ CATEGORIES = [
     {"id": "dunya", "label": "Dünya", "query": None, "edition": EN},
     {"id": "gundem", "label": "Gündem", "query": "türkiye gündem", "edition": TR},
     {"id": "corlu", "label": "Çorlu", "query": "Çorlu Tekirdağ", "edition": TR},
+    # YENİ: MHA Haber (Doğrudan site RSS'i)
+    {"id": "mha", "label": "MHA Haber", "url": "https://www.mhahaber.com/feed/", "edition": TR},
 ]
 
 MAX_AGE_DAYS = 6 / 24
@@ -41,6 +43,10 @@ MAX_TEXT_LENGTH = 3500
 
 # --- HABER ÇEKME ---
 def build_url(cat):
+    # Eğer kategoride doğrudan bir "url" tanımlıysa onu kullan (MHA Haber gibi)
+    if cat.get("url"):
+        return cat["url"]
+    
     ed = cat["edition"]
     if cat["query"]:
         return f"https://news.google.com/rss/search?q={quote(cat['query'])}&hl={ed['hl']}&gl={ed['gl']}&ceid={ed['ceid']}"
@@ -273,10 +279,10 @@ def send_smart_notification(new_items, market, crypto, stocks):
                 timeout=10
             )
             sent_special = True
-            time.sleep(1) # Ntfy rate limitine takılmamak için
+            time.sleep(1)
         except: pass
 
-    # 2. Piyasa Alarmı Kontrolü (Hisse ve Kripto %2'den fazla hareket)
+    # 2. Piyasa Alarmı Kontrolü
     alarms = []
     if stocks:
         for s in stocks:
@@ -301,7 +307,7 @@ def send_smart_notification(new_items, market, crypto, stocks):
             time.sleep(1)
         except: pass
 
-    # 3. Genel Bildirim (Eğer özel bir alarm atılmadıysa ve yeni haber varsa)
+    # 3. Genel Bildirim
     if new_items and not sent_special:
         try:
             requests.post(
@@ -358,7 +364,6 @@ def main():
 
     print("Hava durumu, piyasa ve kripto çekiliyor...")
     
-    # TOKEN TASARRUFU MANTIĞI (SMART CACHE)
     if len(need_summary) == 0 and old_briefings:
         print("Yeni haber yok. Eski RADAR AI analizleri kullanılıyor (Token tasarrufu).")
         briefings = old_briefings
@@ -366,7 +371,6 @@ def main():
         print("Yeni haberler var. RADAR AI Günün Analizleri hazırlanıyor...")
         briefings = generate_category_briefings(all_items)
 
-    # Verileri topla
     m_data = fetch_market()
     c_data = fetch_crypto()
     s_data = fetch_stocks()
@@ -388,7 +392,6 @@ def main():
     
     print("news.json başarıyla yazıldı.")
     
-    # YENİ: Akıllı Bildirim Gönder
     send_smart_notification(need_summary, m_data, c_data, s_data)
 
 if __name__ == "__main__":

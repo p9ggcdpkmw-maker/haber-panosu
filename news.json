@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-12T18:49:43.161829+00:00",
+  "updated": "2026-11-12T19:44:24.895662+00:00",
   "briefings": {
-    "genel": "Yapay zekâ, iş gücünden istihdama, yatırım stratejilerinden regülasyona kadar pek çok alanda dönüşüm yaratıyor. Bu süreç, hem fırsatları hem de riskleri beraberinde getirerek politika yapıcıların ve işletmelerin dikkatli bir denge kurmasını zorunlu kılıyor.",
-    "teknoloji": "Teknoloji sektörü, yapay zekânın yazılım teslimatında standartlaştırılması, Nvidia’nın grafik işlemcilerinden AI altyapısına yönelmesi ve Çin’in uzay araştırma uydularını fırlatmasıyla yeni bir evrim geçiriyor. Ayrıca, yapay zekâ odaklı fonların ve yetenek yönetimi stratejilerinin artması, sektörde inovasyon hızını artırıyor.",
-    "ekonomi": "Gartner’ın 2030’a kadar yapay zekâ sayesinde iş kaybından daha fazla yeni istihdam yaratılacağı öngörüsü, yatırımcıların AI‑tabanlı projelere yönelmesini tetikliyor; Norwest’in 4 milyar dolarlık fonu bu trendin bir yansıması. Aynı zamanda, yapay zekâya ilişkin telif hakları tartışmaları, uzun vadeli ekonomik modelleri de şekillendirecek.",
-    "gundem": "Demokratik süreçlerde yapay zekâ kullanımına denetim çağrısı, etik ve şeffaflık gereksinimlerini ön plana çıkarıyor; MESAM’ın telif hakları raporu da benzer bir düzenleyici ihtiyacı işaret ediyor. Yetenek mücadelesi ise, nitelikli iş gücünün çekilmesi ve elde tutulması için stratejik politikaların geliştirilmesini zorunlu kılıyor."
+    "genel": "Son haberlerde yapay zekânın iş gücünden istihdama, yatırım fonlarından kurumsal önceliklendirmeye kadar geniş bir yelpazede etkileri vurgulanıyor. Şirketler ve devletler, AI’nın getirdiği dönüşümle uyum sağlamak için stratejik adımlar atıyor.",
+    "teknoloji": "Kurumsal yapay zekada en kritik aşama yenilik değil, projelerin doğru önceliklendirilmesi olarak öne çıkıyor; Nvidia ise grafik işlemcilerinden kapsamlı AI altyapı çözümlerine yönelerek sektördeki konumunu güçlendiriyor. Ayrıca, YORD ve Itaú Unibanco gibi firmalar, AI odaklı vizyon ve standartlaştırma çalışmalarıyla teknolojik dönüşümü hızlandırıyor.",
+    "ekonomi": "Gartner’ın 2030’a kadar AI’nın iş kaybından daha fazla yeni istihdam yaratacağı tahmini, yatırımcıların yapay zekâ odaklı 4 milyar dolarlık fonlarıyla birleşerek ekonomik büyümeyi tetikleyebileceğini gösteriyor. Norwest’un fon duyurusu ve Itaú Unibanco’nun yazılım teslimatını standartlaştırma hamlesi, AI’nın verimlilik ve maliyet avantajlarını ekonomik açıdan pekiştiriyor.",
+    "gundem": "Demokratik süreçlerde yapay zekâ kullanımına denetim çağrısı, teknolojik ilerlemenin toplumsal ve etik sınırlarını yeniden tartışmaya açıyor. Yetenek mücadelesi ve gençlerin yeni AI odaklı meslekleri tercih etmesi, iş gücü politikalarının ve eğitim stratejilerinin güncellenmesini zorunlu kılıyor."
   },
   "items": [
     {
@@ -16,6 +16,28 @@
       "pubDate": "Thu, 12 Nov 2026 17:52:21 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Yapay zekâ bazı meslekleri değiştiriyor ve gençlerin yöneldiği yeni alanlar ortaya çıkıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "David Mařák, YORD’un Teknoloji Direktörü ve Kurucu Ortağı – Röportaj Dizisi",
+      "source": "Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa01EdHhDbWRyTjkwemczaEUzSFp3NE80YXJCSWNvYXRyS1Q5dWZpUkItWW01ck5aS0R4eTFFUGJOUko0VTdRaUloWmtXQ01VZHJBTUZuRTJOYkU4MlIwa0ZTOHhmZkhBMUR2YnJkc09kNU1iRTVOM0pfV3dZRUYzVHJRZTZqam8?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:34:14 GMT",
+      "image": null,
+      "text": "",
+      "summary": "David Mařák, YORD’un teknoloji direktörü ve kurucu ortağı olarak bir röportaj dizisine katıldı. Röportajda şirketin vizyonu ve teknolojik stratejileri ele alındı. Tam metne ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Kurumsal Yapay Zekânın En Zor Aşaması Yenilik Değil, Önceliklendirme",
+      "source": "Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ta2U4R1VPdnhXd3FsbVk3NGhZSTZIQ0hQTXQ5Mkg1cEl4NXV3RmgxWmdHSmQyLXhBaE82aDRkalhIM0JmQ05OYy1mWWxuR210TU5BT0RGT2lLcW1tbmduMEJ2eEV2dWJFUm1IWTR4bTd4WjMtWHo1Sg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:10:24 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Kurumsal yapay zekada en zor aşama yenilik yapmak değil, projeleri önceliklendirmektir. Şirketler kaynak dağılımı ve stratejik kararlar konusunda zorluk yaşıyor. Tam metne ulaşılamadı."
     },
     {
       "cat": "Teknoloji",
@@ -90,17 +112,6 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
-      "title": "Jensen Huang'ın yerine Nvidia'nın geçici CEO'su olarak kim atandı?",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWTE1BZ2tQLVctOWM0dHl1ZzJpVnZqMVFOOFdQb3ppaWljZVl5a2JHQ2VGYmNLeUhvX0FIbDkwSzk3dGxGNGdmVjYxUjNuY3dqeW1GT0lHUWRzMUpFRHN3U3BJUnZuS2I5Q3NKcDkzaDlFaVM2NlBtYTRES2N6WDQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:21:31 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Nvidia'nın kurucu CEO'su Jensen Huang'ın yerine geçici bir CEO atanmış."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
       "title": "MESAM'dan yapay zekaya telif resti: Rapor tanıtıldı",
       "source": "Odatv",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdmZOd3JhekROdWU0aVdOZWZ5S2dVVVdGTmRvT2gwTy1Yb2VUbjhQTGxjY2lVYTVuU2J0d3lNZkdlY0NKNTQ5QWpDd0NrQjdyQjdXVjFMWUJkbG0wYUpWZy1rekRPOXhKXzd3NGNwN3R4a09sOVVkVFc1eVI5bExxNUplN1NIMTEtaDU4VnN6MmJ4Szg5S2RqRzF3?oc=5",
@@ -117,16 +128,6 @@
       "pubDate": "Thu, 12 Nov 2026 15:16:00 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Başlık, yapay zekanın müzik endüstrisine etkilerini inceleyen bir çalışmanın sonuçlarını konu aldığını belirtiyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Genç öğrenciler için yapay zeka kullanımını kısıtlamayı düşünün.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXd6LTlySWg4di1kcnN5SEJMRUswa3k1dVhIU19TNWdqalE3Tk42Yl8wS0FpRnRFNGg1bXh1VWNsMU1sQTVfRUpWSTRoRzlsbG8zQTZWZWFXOGVmSkNRNkFYbkpNNlBVeTlpYTljdmR0dHhSSEFJQ0NkdVU2dUpVVEpB?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 14:44:31 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Vietnam.vn, genç öğrenciler için yapay zeka kullanımının sınırlandırılmasını düşündüklerini belirtti. Bu öneri, gençlerin teknolojiye erişimini düzenlemeyi amaçlıyor."
     },
     {
       "cat": "Bilim",
@@ -254,9 +255,19 @@
       "title": "Jensen Huang Resigns as Nvidia CEO After Affairs: Live Updates",
       "source": "The New York Times",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWxaN0tPUFI1US1TR2ppVnJqdmVuQTJLWmI0LVNDSDc0YkNOdjgxQUQ2elZjQjRQZzlyVlZuTGU4NndKOFJVT3dUeXBFNUhHV2c0d05lVndNVzZoZHZ6YWVqel8zN2l5Wnc0OXg3M3RxVWIxZ0RuMUptWm13YWRTR0dB?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 18:30:16 GMT",
+      "pubDate": "Thu, 12 Nov 2026 19:30:13 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Başlığa göre Jensen Huang, Nvidia CEO'su olarak görevinden istifa etti ve istifasının nedeni ilişkiler olduğu belirtiliyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Trump says no deal needed with Iran, closes down Vance negotiations",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnhHOUZCeEwzbmN5alpPZm1fbjRvQ2ltdmYydUE0VE02ZnMtYzhOLUp3eWotVXQ5aTYwSFlpYXZyWmRsRjhBRi1iS08zMWJFYUNVQnZLNXY5TnRsN0p4cVF1eVppQ0hsa1I5Y0hLaWlOMmRzZWV0Q09hdlpOal9YSVJOdXNPZFVyYlZQemhFeVRGUUUwOE1CcEZIRHR1Ul9wckU5WVBVeTh0TTBKaGtDN091X0hxM1BYUjNz?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 19:04:30 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı. Başkan Trump, İran'la bir anlaşmaya gerek olmadığını belirtti ve Vance ile yürütülen görüşmeleri sonlandırdı."
     },
     {
       "cat": "Dünya",
@@ -271,12 +282,46 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Trump says no deal needed with Iran, closes down Vance negotiations",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnhHOUZCeEwzbmN5alpPZm1fbjRvQ2ltdmYydUE0VE02ZnMtYzhOLUp3eWotVXQ5aTYwSFlpYXZyWmRsRjhBRi1iS08zMWJFYUNVQnZLNXY5TnRsN0p4cVF1eVppQ0hsa1I5Y0hLaWlOMmRzZWV0Q09hdlpOal9YSVJOdXNPZFVyYlZQemhFeVRGUUUwOE1CcEZIRHR1Ul9wckU5WVBVeTh0TTBKaGtDN091X0hxM1BYUjNz?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 18:05:38 GMT",
+      "title": "Is Microsoft Outlook down? Company investigates error reports from users",
+      "source": "NBC 5 Chicago",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRWpWeEZvUDdoNmFxbFJPYUl6ZW9zbkl2YUkzSDJYeVdvMXczSWlQY1hvUDBIYUFsd2FlZ0xDQi1SNnUtRTBEMS1TenB4b3ZsOG5EYUJuSjRtQVdMdmtIMzlEUUFBU1dVMDNjZk8tNzFZemZjbnRiN0RwUEkwaEZxTXBzam9tRmlHU0F5VjVEMjViOGgzSm1ONktQdFZyVTEza0wwODRpQ0gxU0dObmNCUEo4ZXV1R010c2fSAcIBQVVfeXFMUGNlVlByMFotcjRyWDJRX0JEQ2I3dFh1WVBQU0Z6QlZDNnlXU3NhUVBBTzdFdjI2WmVSSXVCS2ZhR2F3dERvSlc2aW4tai1YVkstaWFHanRvekkySG1EbkpWZkg0OWNpWC1zRGlDU29SRFp5MDg1RXJIRzU1MHQ1a3NuUGU4ZzVKVnRhUnp5LTFrQnFJNWFHeHJHSzdlS3lsSjdVbmpVLUVPQjB0YndfamdRTEZ1UEh4TURPWGZnVGJpalE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 18:20:01 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Başkan Trump, İran'la bir anlaşmaya gerek olmadığını belirtti ve Vance ile yürütülen görüşmeleri sonlandırdı."
+      "text": "",
+      "summary": "Microsoft Outlook hizmetinde kesinti yaşandığına dair kullanıcı raporları alındı ve şirket sorunu araştırıyor. Kullanıcılar e‑posta gönderme ve alma sorunları bildiriyor. Tam metne ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNUsyR2FaTnJ1UjdrekgxZGNjWjF3R05FdlByUGNBMTNTVEZScENmZ21RQzRpcXZzc2pxa0NqZGc2WGt6UVIxZF9uSTlSa3RGeGdhZDdKQlBsNEY4Z1c3NlRGMDFsR1g2NVNPcTlPTEY3SDZyMDBtYVFjQ2JkOVA0TmMxREhjSkg5ZXFaenJ6OUdwLTJ3YWMwcG4zTGZhNUdISlZEcFQ2cFdYN0QxRG05SjQ1RTJHZzg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 18:20:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Putin'in ABD ile görüşmelerinde sert bir tutum sergilediğini ve Ukrayna'nın Starlink hizmetinin tekrar kesintiye uğradığını bildiriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Not all sports help the brain in the same way. This is what may be best for ADHD.",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNN014dWZwb2tac1hJQThvMjBhY0lROXVOdy1FT0toWkRBQlJhM3JoN2xUWG5OQmszdUhYNUduckI0Y0RxSm9hSEdJTE1fZ19jWk50UWhkY2dYc2Z5d1d0bWFieGxXRFE2WjFXalk3TWtKeEtweFUxZ2c3ZVZNYkZVcktTTndRWHR4Sm45S2h0RW1DX2ZUYW1TMi1HSDIzVnFReFE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 18:00:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, farklı sporların beyin üzerindeki etkilerinin değişken olduğunu ve ADHD için en faydalı olabilecek sporun ne olabileceğini tartıştığını belirtiyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Gunman dead after killing 1, injuring 4 in mass shooting at gym in DC's Logan Circle",
+      "source": "WJLA",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRUZMUGh2T1VCZnAxNUwwX1Rjb1ZJR1FaYllSMi10N0FwX3VTRVBBMFl6Y3J5U09Lb2tGZnl4eHlCekhBRmdFTE1XeUNyRG1NZzFVMWp3XzJYOEhWOVBuT01qTjMzblF6U3pNTVdIRGZRams5WlJjbUp0T3ZXYlRVOWNSdjBsakFWVEFLU3lSbXhkb05lbzFWSDdCdWtUdF9sbG05cmxmSndwVWxEa1dEd1AzVUw0alA1?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:47:35 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Washington DC'nin Logan Circle bölgesindeki bir spor salonunda gerçekleşen toplu silahlı saldırıda bir kişinin öldürüldüğünü, dört kişinin yaralandığını ve saldırganın olay sonrası öldüğünü bildiriyor."
     },
     {
       "cat": "Dünya",
@@ -291,13 +336,24 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95dkVUTlk2aDQ5YWFfUFBxNWRuSDBoQkdsRlpwN2J6ZTZaSDF0STRpTktzVm0yQTBEd3Z1XzVJT2tXb2M3cVFyejJRZ2k1R3JuMlJpQ1pnRmw3YXJ1NEpaY0xKblVHcnd1NmFoMkt3?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:34:08 GMT",
+      "title": "“Evil All Along”: How Russell Brand Got Caught",
+      "source": "The Hollywood Reporter",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORVBUZHRCdVNWTFVWaEhVZl9SemZBMFZ1dmJWeEVidUtpd0JJLW5CbnVyclVxUGhpVEJld3RUQW8yTGRvLXFtR0JZNmF5X2RwcHVaMmlIN3ZUaUY5dldmNmZEWXFpY01ZbVFCb1BKRk9Sa0l6VXNjNFF6VHp1REwzWnNfc0xrcFV1YzZPWkpsSW9oeXBTUkN0djBkVU5TNUtCUFRCM1J4VU5QQmR6WEtZcnNjeHo0S2dDd1ZGOQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:30:22 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Washington, D.C.'nin Logan Circle semtinde bir silahlı saldırıda 1 kişi hayatını kaybetmiş, 4 kişi yaralanmış ve şüpheli de olayda ölmüş."
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Russell Brand'ın bir skandal ya da suçla ilgili yakalandığı bildiriliyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Home Sales in October Plummet to 16-Year Low",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ0E1TUlWR2V2SmJvZV9yczFEWkRydkltZW9JWVlma25Vcms0YVhpRFVaa05zdFRNckF5R2c5MDQ5UTRzVTgxNU1xSk9HNlBiUXdodzhodGZsZklJN296NzZsbHNiRThZeHN0NjJKaGJKMU5LelhBOERKWUdnTkVzNUZNdVZTTXZRZzdIY1JhcU8tTWc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:08:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Ekim ayında konut satışlarının 16 yıllık en düşük seviyeye düştüğü rapor edildi."
     },
     {
       "cat": "Dünya",
@@ -312,64 +368,13 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "US envoys meet with Putin in Moscow on Ukraine talks, then head for Dublin to see Zelenskyy",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFZuQ05KbXhLT294akRzMl9XWE5rUmRhV01fSDY4VVF6dnNaZVlCUzdCd1I2TnI0azFRT1VHcW1hVm9oMWhUNTZaVUc0QjNVNkNseGxYTGU3RmpSWXppTVZ4TzVRWEpxdE1tOVc3NDJYdFZmdWhoeFBvSXc4MXV4N0JUSW95SzlZalpwcERuU3hRNHpSbVBwNXl1Y19kUDU1d2c?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:55:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. ABD temsilcileri, Ukrayna konularını görüşmek üzere Moskova'da Putin ile bir araya geldi ve ardından Dublin'e giderek Zelenskyy ile görüşmeyi planladı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Cancer society issues most specific prostate cancer screening guidelines yet",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXZkeVJmajBPYlpEanV1R0cxSmpSd0ROeVg5b1ZGQ09OYXBtVzctZmszc1hiQVN0aXM0LVpNRFAySTRtRVEydVczeUNyZHRxUGhTSGlGX2hpUXdNTFh4LUE0WUVwd016bDZLTUNUQXppUzJadEVQYWpIUFVLUk9YUEF3di1iT3BITmtXUEhqSlBQRGRrSlNOTlZ5RWs3RUc3VG56ZDBEaUFvREpNQlZPZUNWemdrU2lGaldZ0gHAAUFVX3lxTFA4NHRKeWhoRTlZVERRNzNRTnFIdEc1TXMzTFIwQjNTZS1UUEpiZDZXdTZuMF9YNWNUTFYzZHlJWEtIRThFWjFMaVpBRDZCcGdreVFRdzg2SW1vSEpzVzViMDZEdGhHU1VCYWpqMGNVbThqYXNuYmhwM2U5UHlTUExienMyOTBwSTZmeEhxOWg2TUFBUU4xZmFfZDhpcXBCVjEyc2hRb05zd1lXbnlLLWszT0RNTERCUDdxLUMzckdZaw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:41:15 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Kanser derneği, şimdiye kadar yayımlanan en ayrıntılı prostat kanseri tarama yönergelerini duyurdu."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
-      "source": "NPR",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMDlPaXJTdDNSaVpCTzdGaWFTNWdXVk1fblJyVmdSMmVDbzQ4V2c0b2JqaFpkdUlYV044ZFRXaDg5X3dNbUl0S2R4empGZExhYTlJZVM3S0NmWm51N291MUY3bEdIVVBJVjBCOEI3QjNGMDh0YUc5cGtrVUtaNzJhZnZ2RWJ3OW00YzFpNTZkT0NtUmc?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:20:04 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. SS United States, Meksika Körfezi'nin dibine son yolculuğunu gerçekleştiriyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Hegseth awards medal to soldier who reprimanded him and aides at Arlington Cemetery",
-      "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcGVHWjZEelgzdUZvS0xWdXhUbFlycGNtSjhpX19rdHU2N3BoOERVamZNVFNPZXRIWFBWMU1lal9TdW5PVm1BUmphMENYeU9nXzlhbjJoODNnLUlKX3FrVm1tYnRsR3FqREJXenJwMnRIZ1RpRnEwdEp1VE80YU5ObVlOMG12SkVrTl9xTw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:15:28 GMT",
+      "title": "Pentagon backs war memorial guard who reprimanded Hegseth's group",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xS1l3eVdMTDdpeVFYejJObnEzZ1JHYjRVckdPbXdSRjJLdGV2SHlQZzRpcklOWlZSZS14dFlHRUp0aW91VDNsOU9iNWpKRGYxQkJ0a1lWam5SZ28?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:52:53 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Hegseth, Arlington Mezarlığı'nda kendisini ve yardımcılarını uyarı yapan bir askere madalya takdim etmiş."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:01:18 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı; başlığa dayanarak, Nvidia ile ilgili sorunların hisse senetlerini düşürdüğü ve petrol fiyatlarının hafifçe gerilediği belirtiliyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "TV’s Biggest Salaries: Zendaya, Nicolas Cage, Selena Gomez and More Stars Earning Huge Paychecks",
-      "source": "Variety",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS3lFZVZhLXFJbS1GcUNuMEdvZ2lmYXJxUWRyTEVxZ2Y4OFl0VGJzaVN1M2IxdWFrTkF1ZnRvZlg5R2NFSGl4b1RmSjlIZEcxQVR6Z3NSaDBjclFQMWN2VGpmU1EtZUcwekMwR1hFeWluUnA1aERJSVNJR0lmMWtycHdCaXJkYTRUUlhvemRHWVZfMktxR2ZvNEhSZ2dMVVV6NGVoanlB?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:00:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, TV’de en yüksek maaşları alan oyuncular arasında Zendaya, Nicolas Cage ve Selena Gomez gibi ünlüler bulunuyor."
+      "summary": "Tam metne ulaşılamadı. Pentagon, Hegseth grubunu uyarı yapan savaş anıtı bekçisini destekledi."
     },
     {
       "cat": "Gündem",
@@ -420,26 +425,6 @@
       "pubDate": "Thu, 12 Nov 2026 15:34:44 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Türkiye de dahil olmak üzere 53 ülke, Gazze'ye yönelik ortak bir çağrı yaparak İsrail'in eylemlerinden sorumlu tutulması gerektiğini belirtti."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Türkiye ile Afrika arasında kadın odaklı iş birliği!",
-      "source": "Manşet Haber",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNczFyR1pKakhQWXFXUDF6VkNnVV9XcnU1Y1dhSG9EOWV1cGJ3QVpmYm5XaTE2YWFNVlRLdTZzOTdYLUdzTTZ0N3N3UEpwVnJCVTlETy1fNDYwVkZCTXJxeEhVVFBsczJqT2JhdEphZnRFLTBvUjduMEN4OWRob01KbHJXNlh6NFFjcHc?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:26:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Türkiye ve Afrika ülkeleri arasında kadın odaklı bir iş birliği planı yürütülüyor."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Muratpaşa Belediyesi düzenledi Türkiye’nin haritası açıklandı",
-      "source": "Antalya Gündem Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdGNyekRBTmJjMXJ0UjdELXFSRldLY1hBWW5PZVV1NUw4LU5raWNjRC0tRG9OcDBDQjhuX3F0Yjc1eG1qT0hGelNaT0hZbVkxcE5UWFRxU2Y2REhLM3o0LUktMllYWHFHV09FdEhqOF9xTWEtVjZEdm9lejlER3djZ1l5WFhMdjhqSlZuOFh2SDFsSm91LVo5Vg?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:20:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Muratpaşa Belediyesi tarafından düzenlenen etkinlikte Türkiye haritası sergilendi ve katılımcılara duyuruldu."
     },
     {
       "cat": "Çorlu",
@@ -569,7 +554,6 @@
       "link": "https://www.mhahaber.com/cevad-prekazi-son-yolculuguna-ugurlandi",
       "pubDate": "Thu, 12 Nov 2026 18:29:58 GMT",
       "image": null,
-      "text": "Sırbistan'ın başkenti Belgrad'da, 8 Kasım'da 69 yaşında hayatını kaybeden eski Galatasaraylı futbolcu Cevad Prekazi için cenaze töreni düzenlendi.\nPrekazi, vasiyeti üzerine Galatasaray ve Partizan formalarının bulunduğu tabutunun başında dualar edilmesinin ardından son yolculuğuna uğurlandı.\nSırbistan’ın başkenti Belgrad’daki Bayraklı Camii’nde yapılan cenaze törenine Türkiye Cumhuriyeti Belgrad Büyükelçisi İlhan Saygılı, Galatasaray Spor Kulübü Başkanı Dursun Aydın Özbek, Yönetim Kurulu Genel Sekreteri Can Natan, Yönetim Kurulu Muhasip Üyesi Burak Kutluğ, Yönetim Kurulu Üyeleri Eray Yazgan ile Ozan Bingöl Yurtsever, Partizan Kulübü Başkanı Rasim Ljajic, eski futbolcumuz Sasa Ilic ile yakınları ve sevenleri katıldı.\nCevad Prekazi’nin naaşı öğle namazına müteakip kılınan cenaze namazı sonrası Belgrad’daki Lešće Mezarlığı’nda toprağa verildi.",
       "summary": "69 yaşındaki eski Galatasaraylı futbolcu Cevad Prekazi, 8 Kasım’da Belgrad’da hayatını kaybetti ve cenazesi Bayraklı Camii’nde düzenlenen törenle anıldı. Törende Türkiye Cumhuriyeti Belgrad Büyükelçisi, Galatasaray ve Partizan kulüp yetkilileri ve yakınları bulundu. Cenaze namazının ardından naaşı Belgrad’daki Lešće Mezarlığı’na defnedildi."
     },
     {
@@ -684,25 +668,25 @@
     }
   ],
   "weather": {
-    "temp": 16.7,
+    "temp": 16.4,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6275.43,
-    "ceyrek_altin_try": 10982.0
+    "gold_gram_try": 6280.6,
+    "ceyrek_altin_try": 10991.05
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3601946,
-      "change_pct": -3.7175051502517396
+      "price": 3591224,
+      "change_pct": -3.790678859919157
     },
     {
       "label": "Ethereum",
-      "price": 101169,
-      "change_pct": -3.443802240478145
+      "price": 100927,
+      "change_pct": -3.225813592737913
     }
   ],
   "stocks": [
@@ -713,13 +697,13 @@
     },
     {
       "label": "S&P 500",
-      "price": 7614.13,
-      "change_pct": -0.07
+      "price": 7600.87,
+      "change_pct": -0.24
     },
     {
       "label": "Nasdaq",
-      "price": 25411.12,
-      "change_pct": -0.22
+      "price": 25354.65,
+      "change_pct": -0.44
     },
     {
       "label": "THY",
@@ -753,33 +737,33 @@
     },
     {
       "label": "Apple",
-      "price": 355.86,
-      "change_pct": 0.14
+      "price": 355.61,
+      "change_pct": 0.07
     },
     {
       "label": "Microsoft",
-      "price": 523.58,
-      "change_pct": 0.47
+      "price": 522.74,
+      "change_pct": 0.31
     },
     {
       "label": "Nvidia",
-      "price": 164.59,
-      "change_pct": -5.26
+      "price": 164.06,
+      "change_pct": -5.57
     },
     {
       "label": "Tesla",
-      "price": 390.72,
-      "change_pct": -0.02
+      "price": 390.4,
+      "change_pct": -0.11
     },
     {
       "label": "Meta",
-      "price": 624.03,
-      "change_pct": -0.75
+      "price": 621.76,
+      "change_pct": -1.11
     },
     {
       "label": "Alphabet",
-      "price": 301.17,
-      "change_pct": 2.63
+      "price": 299.54,
+      "change_pct": 2.07
     }
   ]
 }

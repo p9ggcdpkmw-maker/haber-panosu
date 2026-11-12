@@ -49,7 +49,7 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
   }
 
-/* --- SOL MENÜ --- */
+  /* --- SOL MENÜ (KUSURSUZ HİZALAMA) --- */
   .sidebar {
     position: fixed; top: 20px; left: 20px; bottom: 20px; width: 80px;
     border-radius: var(--radius-lg); z-index: 1000;
@@ -59,15 +59,14 @@
   }
   .sidebar:hover { width: 240px; align-items: flex-start; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
 
-  .logo { display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 800; color: var(--text-main); margin-bottom: 16px; width: 100%; padding-left: 28px; height: 30px;}
-  .logo-icon { font-size: 24px; color: var(--accent); text-shadow: 0 0 15px var(--accent); display: flex; align-items: center;}
+  .logo { display: flex; align-items: center; gap: 14px; font-size: 20px; font-weight: 800; color: var(--text-main); margin-bottom: 16px; width: 100%; padding-left: 26px; height: 30px;}
+  .logo-icon { color: var(--accent); display: flex; align-items: center; justify-content: center; filter: drop-shadow(0 0 8px var(--accent)); }
   .logo-text { opacity: 0; transition: opacity 0.2s; }
   .sidebar:hover .logo-text { opacity: 1; }
 
   .nav-separator { width: 60%; height: 1px; background: var(--border); margin: 8px 0; transition: width 0.3s; }
   .sidebar:hover .nav-separator { width: 80%; }
 
-  /* KUSURSUZ HİZALAMA İÇİN SABİT YÜKSEKLİK */
   .nav-item {
     display: flex; align-items: center; width: 100%; height: 48px; 
     justify-content: center; cursor: pointer; transition: all 0.2s;
@@ -78,24 +77,20 @@
   .nav-item.active { background: linear-gradient(90deg, rgba(139, 92, 246, 0.15), transparent); border-left-color: var(--accent); }
   
   .nav-icon { 
-    font-size: 20px; 
-    width: 22px; 
-    height: 22px;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    line-height: 1;
-    opacity: 0.8;
+    width: 28px; height: 28px; /* SVG ve Noktalar için sabit alan */
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-muted); opacity: 0.7; transition: all 0.2s;
   }
-  .nav-item.active .nav-icon { opacity: 1; filter: drop-shadow(0 0 5px var(--accent)); }
+  .nav-item.active .nav-icon { color: var(--accent); opacity: 1; filter: drop-shadow(0 0 5px var(--accent)); }
+  .nav-item:hover .nav-icon { color: var(--text-main); opacity: 1; }
   
-  .nav-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .nav-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
   .nav-item.active .nav-dot { box-shadow: 0 0 12px currentColor; }
   
   .nav-text { font-size: 14px; font-weight: 500; color: var(--text-muted); opacity: 0; transition: opacity 0.2s; line-height: 1;}
   .nav-item.active .nav-text { color: var(--text-main); font-weight: 600; }
   .sidebar:hover .nav-text { opacity: 1; }
-  
+
   /* --- ANA YERLEŞİM --- */
   .app-container {
     display: flex; flex-direction: column; gap: 20px;
@@ -135,14 +130,12 @@
   .search-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 12px 20px; color: var(--text-main); outline: none; width: 280px; transition: all 0.3s; }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
 
-  /* 🚀 GÜNÜN ÖZETİ DÜZELTMESİ */
   .ai-briefing { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05)); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; overflow: hidden; transition: opacity 0.3s; }
   .ai-briefing::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); box-shadow: 0 0 15px var(--accent); }
   .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
   .ai-icon { font-size: 20px; background: rgba(139, 92, 246, 0.2); padding: 8px; border-radius: 12px; }
   .ai-title { font-size: 18px; font-weight: 700; color: #fff; }
   .ai-badge { font-size: 10px; background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 10px; font-weight: 700; letter-spacing: 0.5px;}
-  
   .ai-content { font-size: 15px; color: #cbd5e1; line-height: 1.6; }
   .ai-content p { margin-bottom: 12px; }
 
@@ -207,12 +200,12 @@
     .sidebar:hover { width: 50px !important; align-items: center; } 
     .logo { display: none; }
     .nav-separator { width: 80%; }
-    .nav-item { padding: 10px 0; justify-content: center; border-left: none; }
+    .nav-item { padding: 10px 0; justify-content: center; border-left: none; height: 44px;}
     .sidebar:hover .nav-item { padding-left: 0; justify-content: center;}
     .nav-item.active { background: rgba(139, 92, 246, 0.15); border-radius: 12px; }
     .nav-text { display: none !important; }
     .nav-dot { width: 10px; height: 10px; }
-    .nav-icon { font-size: 20px; }
+    .nav-icon { width: 24px; height: 24px;}
 
     .top-bar { padding: 12px; flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
     .top-left { flex-wrap: wrap; gap: 12px; width: 100%; justify-content: space-between; }
@@ -248,23 +241,30 @@
 <!-- SOL MENÜ -->
 <aside class="sidebar glass">
   <div class="logo">
-    <div class="logo-icon">📡</div>
+    <div class="logo-icon">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m17 5-5-3-5 3"/><path d="m17 19-5 3-5-3"/></svg>
+    </div>
     <div class="logo-text">RADAR</div>
   </div>
   
   <div class="nav-item active" id="nav-news" onclick="switchView('news', this)">
-    <div class="nav-icon">📰</div>
+    <div class="nav-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
+    </div>
     <span class="nav-text">Gündem</span>
   </div>
+  
   <div class="nav-item" id="nav-market" onclick="switchView('market', this)">
-    <div class="nav-icon">📈</div>
+    <div class="nav-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+    </div>
     <span class="nav-text">Piyasalar</span>
   </div>
 
   <div class="nav-separator"></div>
 
   <div class="nav-item active" data-id="all" onclick="selectCategory('all', this)">
-    <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> 
+    <div class="nav-icon"><div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div></div> 
     <span class="nav-text">Tümü</span>
   </div>
   <!-- Kategoriler JS ile eklenecek -->
@@ -411,7 +411,8 @@ function initSidebarCategories() {
     const el = document.createElement('div');
     el.className = 'nav-item';
     el.dataset.id = id;
-    el.innerHTML = `<div class="nav-dot" style="background:${cat.color}; color:${cat.color}"></div> <span class="nav-text">${cat.label}</span>`;
+    // SVG yerine JS ile üretilen kategoriler için noktayı .nav-icon içine alıyoruz ki hizalansın
+    el.innerHTML = `<div class="nav-icon"><div class="nav-dot" style="background:${cat.color}; box-shadow:0 0 10px ${cat.color}"></div></div> <span class="nav-text">${cat.label}</span>`;
     el.onclick = () => { switchView('news', document.getElementById('nav-news')); selectCategory(id, el); };
     sidebar.appendChild(el);
   });
@@ -474,13 +475,11 @@ function renderNews() {
   });
 }
 
-// 🚀 YENİ: GERÇEK AI BRIEFING METNİNİ BASAN FONKSİYON
 function renderAIBriefing() {
   const container = document.getElementById('aiBriefingContent');
   if (aiBriefingText && aiBriefingText.length > 10) {
     container.innerHTML = `<p>${esc(aiBriefingText)}</p>`;
   } else {
-    // Eğer Python'dan briefing gelmediyse eski yöntemle listele (Fallback)
     if (!allNews || allNews.length === 0) { container.innerHTML = 'Analiz edilecek haber yok.'; return; }
     const topNews = allNews.slice(0, 3);
     let html = '<p style="margin-bottom: 12px; color: #fff;">Bugünün öne çıkan başlıkları:</p><ul>';
@@ -518,10 +517,10 @@ async function loadData() {
     marketData = data.market;
     stocksData = data.stocks;
     cryptoData = data.crypto;
-    aiBriefingText = data.briefing || ""; // YENİ: AI özetini al
+    aiBriefingText = data.briefing || "";
 
     renderNews();
-    renderAIBriefing(); // Yeni fonksiyonu çağır
+    renderAIBriefing();
     renderMarketView(); 
     renderWeatherHeader(data.weather); 
     renderMobileMarketStrip(); 

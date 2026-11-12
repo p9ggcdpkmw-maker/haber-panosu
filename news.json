@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-12T12:21:59.307047+00:00",
+  "updated": "2026-11-12T12:31:28.298124+00:00",
   "briefings": {
-    "teknoloji": "Analiz hazırlanamadı.",
-    "ekonomi": "Analiz hazırlanamadı.",
-    "gundem": "Analiz hazırlanamadı."
+    "teknoloji": "Manisa’da yerli teknolojiyle trafik yönetimi başlatıldı, enerji tesislerinde yerli mühendislerin geliştirdiği yapay zekâ önlemler uygulanıyor ve TSMC’nin yapay zeka odaklı milyar dolarlık yatırımı sektöre yeni bir ivme kazandırdı. Ayrıca, Nothing’ın ekransız AI cihazı, Vietnam‑Kore ortaklığı ve çeşitli bakanlık açıklamaları yapay zekânın eğitim ve gençler üzerindeki kullanımını sınırlandırma tartışmalarını gündeme taşıdı.",
+    "ekonomi": "Bugün bu alanda öne çıkan bir gelişme yok.",
+    "gundem": "Bugün bu alanda öne çıkan bir gelişme yok."
   },
   "items": [
     {
@@ -14,7 +14,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdTQtQWdtNV9WTTBIMlhsTXdjQzVES0VoN1NIWjBDQm5yNkFFYkpvRVZqbUw3WklJamlzWjRoVVF0QmhDbFM0OVZLelJyeFRVRDJJeFVLZEtxNEJjNHh5dTVsblZRSFA0SkNHRnlqWFJ0aDZ3M0dwOXBDRzRoUmFkc0taQjlBRDBf0gGOAUFVX3lxTE5JT1RjRm45TEVTY3FyM1J6MzhpZ2lQU0pRVjM2LTk2UU9sRzJIOHNJUS1pZ2pJZF9haEJpeXlONF9zLXRzcThoQmk2eWpVMkVHX1BwMVpERlZ2LTVmWG1ucWNMMmlfUWRGd1MxSVVGMFpTTndDenFETHVWbzItdHV3TXl3OWlEWjQyeU1YOEE?oc=5",
       "pubDate": "Thu, 12 Nov 2026 12:14:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Manisa'da trafik sistemlerinde yerli teknoloji kullanımının başlatıldığı belirtiliyor. Bu dönemin yerli çözümlerle trafik yönetimini geliştirmeyi hedeflediği ifade ediliyor."
     },
     {
@@ -25,7 +24,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeEZSNm5WbF9xYVhkenpsUnVzc29ndFRIZFpVQUplOHRDcTJpbk9aWktqdm5xdnpucGRaOVpSWjRTdHlvLWQtMFFPLWNYNTFQUFVINmZVVkxGeVFtRjhqdXVhX2pqWDA3NEN4NjZQbG9DSFJlZC1TbU9reE1nVnQya19sMmlXdklSQm56Q2xPdkNPZEhESWFVMlE2SENMQXZaWU5USExuS00?oc=5",
       "pubDate": "Thu, 12 Nov 2026 12:13:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Enerji tesislerinde yerli mühendisler tarafından geliştirilen yapay zekâ tabanlı önlemlerin uygulanmaya konulduğu bildiriliyor. Bu önlemlerin tesis güvenliği ve verimliliğini artırması amaçlanıyor."
     },
     {
@@ -41,12 +39,13 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
-      "title": "Swimlane, Frost & Sullivan AI SOC Radar’da Vizyoner Lider seçildi",
-      "source": "Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRkdRQTRINGsyNDd6d0U3TWR2ZDZDcU1tV2NDYTNzUDByVGxkVk5GRkF1ZzNiNExRSlVfOHJqNTZ2Q1ctTEkyUk5GUmZfTWlzS0VEaW9TVUtmYTFlTVlwbjZLcXZGTFZnMXpHYlh5TlQxS19VWFJ3N3RNbWdpQ2g2RjZJckRreHdrb0NsV09lenFjZEticFE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:50:03 GMT",
+      "title": "Çip devinden yapay zeka dünyasını sarsan bir milyar dolarlık hamle: TSMC kesenin ağzını açtı",
+      "source": "GZT",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYWpEd2ZoWUhaX1F0Y0dMM25rak5nMWtPRGJBX1BsZS0wR18tbWRNTkNTSmhpLUk0dEhXUzhZUHpjTm9aZnA3YlZXN3ZJVS1CR1BsMXFLeFdGbXdtWDA3V0pDYUJYQXVVY3hQVjdnWnhfWWMzN0pxWVFSTmNvS2NMeEpuemx0UThNYklHSmZZeFZDNUxjOWE4OEU2b01OXzktVTBnc19lU0pFWXhJWDVJNkt2MEJIUEN4U0RRaDhRd3d4V2JJRTJUa251d2pEUmhhTEZaVg?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:48:06 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Swimlane, Frost & Sullivan’ın AI SOC Radar raporunda Vizyoner Lider olarak seçildi."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlıkta, çip üreticisi TSMC'nin yapay zeka sektörünü etkileyen bir milyar dolarlık yatırım yaptığı ve maliyetleri artırdığı belirtiliyor."
     },
     {
       "cat": "Teknoloji",
@@ -57,6 +56,17 @@
       "pubDate": "Thu, 12 Nov 2026 11:46:59 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Vietnam ve Güney Kore, yapay zeka ve yarı iletken alanlarında iş birliğini genişletmeyi planlıyor. Bu adım, iki ülkenin teknoloji ortaklıklarını güçlendirmeyi hedefliyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Bilim ve Teknoloji Bakanı: Belki de genç öğrencilerin yapay zekayı kullanmasını yasaklamalıyız.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbnc4NGVCcTVNaFpKR2dRbnNQc1A4OWg1WEZJUjEwMjdFSUJQeTIxQ1hmeG1uMWdNb3Itb1NyTkdvWGFKT0g3U2VzckRyMHJGXzB3V3FuU1N5VnBOYkhJRm1YVWM3dWcyWVpoOGZvOWpjYUgzNC1KdlhJY3BsTWFvQjFCczRaV1BN?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:45:01 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Bilim ve Teknoloji Bakanı'nın genç öğrencilere yapay zekâ kullanımının yasaklanması gerektiği yönünde olası bir öneri sunduğunu ifade ediyor."
     },
     {
       "cat": "Teknoloji",
@@ -101,32 +111,24 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
-      "title": "İnsansız hava araçlarına hakim olmak, her teknolojik aşamaya değinmeyi gerektirir.",
+      "title": "Melisa Sabancı Tapan'dan Singapur'da yapay zekâ mesajı, her teknoloji yatırımının yanında insana da yatırım yapılmalı",
+      "source": "Patronlar Dünyası",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPd3pVZHNJNi1nVUlsR0lBZWpyZnZOSlJyR2l1eTZEOENFX2RPTmdzOFAyTGJLakNwLWNra212TTdXaEdQZHZqcllQTnlrb2dYNHotQTZPeDJMQzNCdF9RN1RFYTVLekNKZFVPcndLX2lndERheWcxR1l5LUNTYVhBdEdONldSZUt2RWFPZUNxQ0hsc3BtZWJWZUwtQl8wVDg5UHVjejAteVpsT2pHZVBnWDFDdlZhMEdQdk5mWTJXSFdvNlppT3hnNjZVTFpGMmNxVzNUVE1pV1ZhUGk2OHpUaw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:06:01 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Melisa Sabancı Tapan'ın Singapur'da yapay zekâ üzerine yaptığı konuşmada, teknoloji yatırımlarının yanı sıra insan odaklı yatırımların da önemine vurgu yaptığını belirtiyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Bilim ve Teknoloji Bakanı Vu Hai Quan: Yapay zekanın kullanımı genç öğrencilerle sınırlı tutulmalıdır.",
       "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmlTZTlsUGZaQ1VWUzY0dHNMa2QwRUJmMmV2dW1oRzBJenBZYnhXa05vLS1RZm82czVUNV9OaTB1ckNpaDRXMnJFSGlrT1ZQNmJuWFlYMHhOYkpCRnFJaUFKN1hGR1U0RmRpZUo0TE1WTmF6WHFPaXctbmJTbEUtRnJYX0Q?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:00:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORGlxWDVMM3lsb0wyNUU5NXZ5UnhIcGQ2MGpWcHZxOWVKNFNTOHlxTGFGbnpVUGJzQVNDb2lUVXVRN3dDUHZyaVNudVVCeVVsMzNwMGtXWkFCOWI3YkpUWTRoWlJQSFpZaXhTcndscnZCNjRMWGxzX1IwakhMMURUNnJhUUhtQzBkdE1KMXN2QkJDWDNaRHBjQzl5ekpSTTgwWExuRXJ3SU42dUJwZ2RRMnlJQQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:01:50 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, insansız hava araçlarına hâkim olmak, her teknolojik aşamayı kapsayan bir yaklaşım gerektirir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Kasapoğlu’ndan üniversitelilere yapay zeka uyarısı: 'Algoritmalara teslim olmayın'",
-      "source": "Ege Postası",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOWdrTm9ISWdqOGRaNEEya3k5Zmo2VWNQYURGSVROakdPUER4blpha1lmbzdRczJpT2E5UVZwVFVkTmg5aGRsem5MSk1ITGswWlF0dlRNeWk5RXU4WnRHREpBcjctSXVONGNLTHEzYUtEcURRMzhaMDBLSUJGN2pZZTF2UHVDQjlST1NXZ04wN1VXZ3NKYlU0dHQ3UzVwOEVSUGFzNFljU25qZVk4eTFFMXBOeG94b2MzdTQw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:59:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Kasapoğlu, üniversite öğrencilerine yapay zekâ kullanımında algoritmalara tamamen güvenmemelerini tavsiye etti."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Yapay zeka pazarı büyüyor: Harcamalar 2027'de 4 trilyon doları aşacak",
-      "source": "Yeni Asya",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa2RLMzliTXZhdzJKVzcxX0FHWXBkSFY5NFdXaFVaa0hUaFE4MkVXRWlQZ1JMaV9BeXo1TjRnOU1oem1Vdl9JNzFMMVJ3R1VlV04tVU9oZWR6SFJPdElRS1AzaGZHZWw0QU5fa0UyQWJ2TlF0a2h1ay1zcTd4VkdsZXdFYjZUNmcteWZNbXB4YWo3Rk05cDk4UkNuYlNqcmJxb0R1UGUwMVFaUk9ld3l0amFfOGJJXzI0cGVR?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:58:00 GMT",
-      "image": null,
-      "summary": "Yapay zeka pazarının büyüdüğü ve harcamaların 2027'de 4 trilyon doları aşacağı belirtiliyor. Tam metne ulaşılamadı."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Bilim ve Teknoloji Bakanı Vu Hai Quan, yapay zekanın kullanımının sadece genç öğrencilerle sınırlı tutulması gerektiğini belirtti."
     },
     {
       "cat": "Bilim",
@@ -161,23 +163,23 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
-      "title": "WAiFF İstanbul'da yapay zeka destekli ödül alan filmler, 2027'de Cannes'da Türkiye'yi temsil edecek",
-      "source": "Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTm9xN2hhZGpEQUF3SzI0MmpleGdnTjhVOW9TSmZvS3NVU1JWMW5sZWdJUmNtU0RaUnRvNjlrSnNoX2xsMzVfcGFGbUY2WGFXWlh5Y3p4SUpQOTQ3YTNzVFZhajBqODd6VC1ZcnVUX1VEbG9KWHQ3UDdoTzBqdGdZSDNSYklSUHdOVDQ3Ym8xcExUdmt0Q09zVTR5cmpiOTF4TEpxU3AzYmJlT0R5UmhRa21sSXd6UjNKSU5aUFlQdVlRdVlaYXUxVWlYUk5Nc1E?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 18:55:24 GMT",
-      "image": null,
-      "text": "",
-      "summary": "WAiFF İstanbul etkinliğinde yapay zeka destekli filmler ödül kazandı ve bu filmlerin 2027 Cannes Film Festivali'nde Türkiye'yi temsil edeceği duyuruldu. Ödül alan filmlerin yapay zekâ kullanımının öne çıktığı vurgulandı."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
       "title": "WAiFF İstanbul'da Yapay Zekâ Sineması Yarıştı: Kazananlar Cannes Yolcusu",
       "source": "Dosya Haber",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNTV4TURSYXowWnpXMUlQMEVibnBEMXQ3eEJ5MG4tTGdzSU5rR0dHdjNqdzBQSnlpdW5jWHV4OTNiaHYtSXBXcHViMWNjS2lGY0IyUlNGZV9wdjFOZllFbXVaUEd6ZlpWT2FINGVHZktJYjBidnluMm1ITW94Y2VVS01OdnQ2QVpUOVVCcG9GQTFxVUZQLXFwVWZWTk1Pdjl6emlWel9CMFF5c1JTc1E?oc=5",
       "pubDate": "Wed, 11 Nov 2026 18:51:55 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. WAiFF, İstanbul’da Yapay Zekâ Sineması yarışması düzenledi ve kazananlar Cannes’a gönderileceğini açıkladı."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "WAiFF İstanbul'da 124 film yarıştı ve kazananlar Nisan 2027'de Cannes'a gidecek",
+      "source": "Haberler",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbDhyQVFPeHo2T2N5UEthQ1E4QkJnZFlxSGZUOWp0RVlYQXAyUG4ydWJRU2RvWTBoa1BhVmQ2QkdUMzY3S2JLd3hjSDBFOUZzYk5RZFZ3akxiZElnbE91aDB3SVpiai1EMWhHaVFHNmMyMjFqWHUtNC1tSkd1QXdkN0IyU0NCcF9Hd0dBRWI1UWkySE1TaGdrMWhyZi10Z9IBmgFBVV95cUxNT3VpYmhwX0JsVXR0cDNJckpKb3VGSXN2ZVh5MkhwMXNoVGZGdmx5b0pXRTctWFZ3OERVQ3duRWJxT25GREViWUVHM3NSQkV1VWhaM0FzVG1JSlE1MVVHdmxWZ1RRaHg5bjYyWHN0dHpCZjJhNGJsenNpbTBTLTdhTlU0LWo4ZV93dG5nYkJUamhELUNEVWhLWWZ3?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 17:53:32 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. WAiFF İstanbul'da 124 film yarıştı; kazanan filmler Nisan 2027'de Cannes Film Festivali'ne katılacak."
     },
     {
       "cat": "Sanat",
@@ -252,23 +254,34 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "ICE deportations and arrests hit record high as Trump faces reckoning over immigration crackdown",
+      "source": "CBS News",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtaWRMd0lHQ0NNelV0T3Joa2d4WHloQnJDczZPdlJhY2RieG1DTFU5N3dzaVpyTG5zYzF4MVVyeVA3NDdoR19PcXdyTXBWdWszdzE2aUZfaFdySVNreUlxTTMza0FVYVRUajY5VFpzU2lQcEhFZExDWl9B?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:23:30 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. ICE, göçmen kaçırma ve tutuklamalarında rekor seviyeye ulaştı; bu durum, Trump'ın göçmen politikalarına yönelik artan eleştirileriyle birlikte ortaya çıktı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Live Updates: At Least 6 Dead in Brooklyn Building Collapse, as Crews Scour Rubble",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWdsbjQ4bnJQMWRkNkpfVDd2aVlQTG05bC0yUk1nVDBTaGNiT2FySzdjQ2plZDg3cFNDZHNoaHBoOWJLUW1JeDVMTjdWQUw2ckk5cUNXRlM0WjJoRWZwWGZ6NXhIUkkwVjNEcmc2S0xySUI3RUp0Y2llZnhIOVJGSFNmX2M3dw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:16:29 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Brooklyn'da bir bina çöküşünde en az 6 kişi hayatını kaybetti ve kurtarma ekipleri enkazı araştırıyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "Manchester United part ways with Michael Carrick",
       "source": "The New York Times",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcnd5M01CSnpYSDloM0sxV0Q0aDB6WUpmeVN5R2V5ejVkeUJ0NzY0eEo3SUozcnVQWVcwRWZ2UmRXTExXdlNQNG1JWWtURVpSRGZob2liWU1KQWg4b0xPai1lRlRjRVFEckhxaDhTSHREQUdYbXJ1SlBtZmtuSHN0bDBhUDZzUFRfR19fWEZleE5vSkEwNjlqYmR6SUVHUmh0ZkM4OXRRRQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 11:47:48 GMT",
       "image": null,
       "summary": "Manchester United, Michael Carrick ile yollarını ayırdı. Tam metne ulaşılamadı; bu başlık dışındaki detaylar bilinmiyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Brooklyn building collapse in Flatbush live updates: 6 dead, 19 hurt as search goes on",
-      "source": "ABC7 New York",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:45:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Flatbush'ta bir bina çöktü ve 6 kişi hayatını kaybederken 19 kişi yaralandı."
     },
     {
       "cat": "Dünya",
@@ -298,7 +311,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOFZuR1d1MTZQNzk4NW9hbHFXV21kYV9QZ0gwQ21ScFJJVlBFd2ViWkRhMkNsUUs5ekxPM05lem5hYWp2T2Y4djFtcVdXUk1LYmREcGk2VDVGUTVaZUdtUHBTRE9jMEx5WUk1RllFTTVMZWN4Z3NjRlJhM2VTR0M4aVhxZ05fR3hkM21B?oc=5",
       "pubDate": "Thu, 12 Nov 2026 11:30:01 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Scout Motors'un Güney Karolina'da 2 milyar dolarlık fabrikası tamamlanmak üzereyken, 212 000 araç rezervasyonu olduğu bildirildi."
     },
     {
@@ -314,13 +326,24 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:50:15 GMT",
+      "title": "Stock Market Today: Nvidia Shares Tumble Over Leadership Crisis — Live Updates",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQXzdoajdJLXc3MUJTYU9DWVVGZHlwamh3MUxkRWxRTEt4eXVaMnBzdXZpYXc4SWFoTmVQUF9sNEhhaHlzaFhFQ1dnMk1zblo5V1hqbDJ4M1d3ZmxZaTluZjhrUVNaT3k4OVZaMWtmX1FBWVIyOVlVM3BlRE9lM0RvYVZGVVFMYkE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 10:41:00 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Bloomberg'e göre, Nvidia sorunları nedeniyle hisse senetleri düşüş gösterdi ve petrol fiyatları hafif geriledi."
+      "summary": "Tam metne ulaşılamadı. Nvidia hisseleri, şirketin yönetim krizine bağlı olarak değer kaybetti."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Microsoft confirms Windows security updates installation issues",
+      "source": "BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdWZ0MFhYUmdlQ0U5c0J6OW5xQmVyMGtWUVNZOVEtdjRWSmhHVmQtbW1kbV9DQ2dpZUpLVkVvdHRRR0xkRXg2UTJzQWhld3ZkakxXOHBnYkpiSERNM1dqdGhwNUZ3X0xVbWtBZ1VQT2hzczBPa3JDbzFZSHF4N2VpMDlKTFNvTHZCZkllLXJtOE50M1N1M2RESy1mSjRZRmp6SDM3dHNkVU9TNnQ2TmdsekoyMkdrZVY0ZXU2WDg4LURIcjR0OS1vVnBSOW5PeGVMSU9j0gHYAUFVX3lxTE45b1BRXzFPRE5jb2MzT01TLUZqUkpvd2RFYTVmaDh3OWMyWGh1SGlPQlJQcXI1RmZFT1hJYWxJU1JjMllVOWUwb190NW90bUhHNld0Tl9tTnFGZjl5a2VCRklDOFpXYlAtajB5RkNvNmVRMTF6elNQTk9SWHgtbE4tTUtaSVZUYlMtY3hjdHBLSHNfOVhvbDNIeWh2Ym8zSXVpUThpRWJxTTVraXl6QkNDZ25PWUh4dEVZeXp2TmI5dDVXZEl1TWdFYmdIMVQyelFrTHNUdkZwaQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 10:24:07 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Microsoft, Windows güvenlik güncellemelerinin kurulumu sırasında sorunlar olduğunu doğruladı."
     },
     {
       "cat": "Dünya",
@@ -335,42 +358,24 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Ukraine peace talks: Jared Kushner and Steve Witkoff arrive in Russia for meeting with Putin",
-      "source": "DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNHg4ZG1SOVY2OEJGVzQzSDFfaDlFMGdzdXY3Rkl4ejZ4WkUwOERVbkIwVW9iaVZuUHlvS3NHX1RnUEdqQjlxd3ZFNDlYLUdrTGFVYWZMQmZQTmVnR292ejQ4N05mSjJ1U25VcFRoeUdfYmV3RVo0aFFGWXB3aVMyUm9YSHZNUlA1a3NjYkRQdXg3bWo4TzVqa1g0STE5enk3M2NF?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 09:49:41 GMT",
+      "title": "How Scott Colom defied the odds to go from district attorney to Mississippi's Democratic US Senator",
+      "source": "NPR",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcldJQkxVaFZ2bG5FaGdzejZRb01LUVhsZ015enZ4VUFrM0t0ZmtmOW9tbTFQWnhLeUFkZ05Jd1ZSVDU5eEVPbmpvaC1VcmdaY29KVFNySE9LMFhwWEpxMFI0eXFyMVcwNXIxY1ZJS1UtRk1nU2ExNkQ0amV0LWpleWdjdmdTQVFraEdXRGhGcWpxT2taY0M1VW5xQm9SRDB3UXd4ZzV3?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 10:00:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Jared Kushner ve gayrimenkul yatırımcısı Steve Witkoff, Ukrayna barış görüşmeleri kapsamında Rusya'ya gelerek Başkan Putin ile görüşme gerçekleştirdiler."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Scott Colom'un bölge savcılığından Mississippi'in Demokrat ABD Senatörü olma yolculuğunu ve zorlukları aştığını belirtiyor."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "A missing teen is found alive after 6 days in the Australian woodlands",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZWg1VlRMZk50OEc3NTl3bjc2MDRoaUJhYTZDUF9iZFhxeW5PeDBIVHJOallGTHVNY1Mwd1pJaC1SdURMd2RiRjZ2cVhkSEhYU09nQ2d3NW1RNnR3U3RPell0RmNQUTVVeFk0eE5QMXlQdk56OHdMYlUtelpqV3NDUU9yQmVUM0xxWGVNWC1ZNmYwSlZpMXlMTUJRRUVwYmYyZTJDedIBqgFBVV95cUxQNWNsV0JTVm1nOUpOa1pfd3VvN2I0T01idHBIR0tEb3RQVkFSbmk2LVNRam9mb1kxOWh4X3J5dTNCV2k0ZVJhVnhKU2s0eVQ0WTdxb3BLWWpVaUpyN3UyQ09BY19yREFwVDBoN29ZSXJhNFBfLVVmV2NoOFFnZFBuTkhlZ24tYlZqdDBYOXdZdHhXMDBiajVUeEFGNXVfVk5KbndaZWxLWEx1UQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 08:25:51 GMT",
+      "title": "Jim Jordan’s win throws the future of the Freedom Caucus into question",
+      "source": "Politico",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdVkyUk1CMXFTcElKOTNfZDBoUjFtejlfTzhVNWhhbm5MVnc2WnlJWE1XMWdRN01mSUppSVJNaEJQR0pSUDdzLVJ5cjJiSVhQeDhuSXNRMDRUVVpPMFBaS2I4TlEtWDVnS0J5enBwcVhJS0pvZ01BTXVieGE1aW96SWtIUlZhdDNZ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 09:45:00 GMT",
       "image": null,
-      "summary": "Avustralya ormanlarında 6 gün kayıp olan bir genç, hayatta bulundu. Tam metne ulaşılamadı; bu olayın yalnızca başlığına dayanılarak özetlenmiştir."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Late Billionaire Ted Turner: Ex-Wife Jane Fonda Not Named in 2025 Will",
-      "source": "TMZ",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LenRQVFBSenpubWp2ekdmcF8yUEs0cFhwT3lYTW16QUttdDQ4QkdvbVBuZUpyZXRPZGJtOTQ4OWl2V3lZNVFkNlZsMnB6MVMxUnBZRWtxMzdrcVdIRHRGcGk3TVNIcTVWR1hIRHFkSkRyeXBHZm1JZVFaQQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 08:00:49 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Ölen milyarder Ted Turner'ın 2025 yılı vasiyetinde eski eşi Jane Fonda isim olarak yer almamaktadır."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Scott Colom, a Democrat, Wins Mississippi Senate Election",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRTNHZFFRdHFUWjJ5Yk4xZGNtemYyR3B3UENkcHE3NG5TOUo3ai0ydnFGQ2k5YU1IbkNLdG4tNHR4dTZES01xQVlrMHN2YUdVUVJoQzNEcFdzN3N2Q1d0Z0lwZE1sM2I0dGFZY250Zk91QUtjczEtS1dsQTh0YjJ5MmpxZkltaGU0R2J3MXpqSzMxdw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 07:12:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, Demokrat Scott Colom'un Mississippi Senato seçimini kazandığını bildiriyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Jim Jordan'ın galibiyetinin Freedom Caucus'un geleceğini belirsiz hale getirdiğini ifade ediyor."
     },
     {
       "cat": "Gündem",
@@ -380,7 +385,6 @@
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTEo5UzBXZFZFUVFuWmpBaThoNElWU1JyRTFZd1JvLWdiUzBhRmRySTh1YmRxdVRwblNNa1ZubW1yZjduU0djV3hSc2hGN01CYzZFcElKMGZFQzNCUndQbHVuVHkySWdQanU3bWx6Qy1Rekt6RnJkWjMzcno0WnRVUmJRMTRVam5taGtZb2tqX21QQQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 12:10:34 GMT",
       "image": null,
-      "text": "",
       "summary": "Suç örgütü lideri Sercan Sayal, Türkiye'ye getirildi. Tam metne ulaşılamadı."
     },
     {
@@ -486,16 +490,6 @@
     {
       "cat": "Çorlu",
       "catId": "corlu",
-      "title": "Çorlu Haberleri - Kaza yaptıktan sonra kaçan sürücü yakalandı - Tekirdağ Haberleri",
-      "source": "Hürriyet",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQTgxRGR6N0RzT3J1M1J0eXg3VTFMNXBZdGxyZHRXNktaT29SMWx6TzEyc2FFUlBMV1FMS1JZTzZpZEx1aDlWeWFWZUQ5b1JwQjZVVk05RHowdm5Iem9rbldIYzJnV3A2VEJVeHloNHI0a0RTZldNSE55eGJYV0I1ZnVkeTZFRU5LbE9DemxiMDFRUnlweGJIN0lNZ1FDc0l3X1QxbndoOElHUFlLNkk0?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:05:03 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Çorlu'da kaza sonrası kaçan sürücünün yakalandığı bildirildi."
-    },
-    {
-      "cat": "Çorlu",
-      "catId": "corlu",
       "title": "Kaza yaptıktan sonra kaçan sürücü yakalandı",
       "source": "Milliyet",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRV9zT3B3WHlqV1JyLTdweG1nbXlONERqVkZsMnNyTjNtWkZWc2pCTzllZDdTSGpWTFMxMGhOa1FKRHNtemFHR3BBNGdqQ2pYZVZKcEwxSmIxODN2emFEb1Y0Z3NqX3R1dDZPa3dpR0VpVEJicG95RXhsYnJDU2tJMWVzN1MyY2dUOEIxekprQ3huSWRkV2NEODNDdk1LRnpiX0lmNF8xSjBCMV95VXc?oc=5",
@@ -526,16 +520,6 @@
     {
       "cat": "Çorlu",
       "catId": "corlu",
-      "title": "Takla atan hafif ticari aracın sürücüsü yaralandı",
-      "source": "DHA | Demirören Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckM2TC12XzFCT1BWalZXMU9icXlNa08yU1RheHdIWTdNRHJweUlsRkZidFRyNmpaeEN4b19SRlhFVnVZcWwwRkVWRk90MjdSQlBMUHJLNHlHRlhReW1mektVT1ljbHFzd0NLOWY4ZHFHbG9QU1FKd1FPVHh0UFd6SmpnZ0M1ejFGZHRpOU00TWZUQVN2WEh5Y1dRektWck1vQVNPbF9DalNXUQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:49:32 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Takla atan hafif ticari aracın sürücüsü yaralandı."
-    },
-    {
-      "cat": "Çorlu",
-      "catId": "corlu",
       "title": "Tekirdağ Çorlu’da 13 ve 14 Kasım’da Elektrik Kesintisi Yaşanacak",
       "source": "Batman Rehber Gazetesi",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSEZQSDBqZnQwdnd2VmRxZ2lzVDQwU2d0R0Rfc0x4R1FUbWZjLXA5Mk1pdDVEZGNNb09GZWZLMTZKTGVmTXlCeWFuc1VPZ2hlYkJKZ0VRblBRNFVVb1FwQVRueWJSaUFLdjFzNEhYV0I4STVGOW44b3o2VElpUnFOMTM4cXNaSTZYbkRYN1dtYlFZRUJpR1VXUFlLQQ?oc=5",
@@ -545,32 +529,32 @@
     }
   ],
   "weather": {
-    "temp": 20.1,
+    "temp": 20.2,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6382.12,
-    "ceyrek_altin_try": 11168.71
+    "gold_gram_try": 6371.29,
+    "ceyrek_altin_try": 11149.76
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3670384,
-      "change_pct": -1.2456986029684107
+      "price": 3657986,
+      "change_pct": -1.4150061528062208
     },
     {
       "label": "Ethereum",
-      "price": 101821,
-      "change_pct": -1.400611022589929
+      "price": 101484,
+      "change_pct": -1.5449912440984772
     }
   ],
   "stocks": [
     {
       "label": "BIST 100",
-      "price": 11876.03,
-      "change_pct": 1.84
+      "price": 11879.81,
+      "change_pct": 1.87
     },
     {
       "label": "S&P 500",
@@ -584,33 +568,33 @@
     },
     {
       "label": "THY",
-      "price": 323.75,
-      "change_pct": 2.86
+      "price": 323.25,
+      "change_pct": 2.7
     },
     {
       "label": "Aselsan",
-      "price": 347.75,
-      "change_pct": 1.31
+      "price": 346.5,
+      "change_pct": 0.95
     },
     {
       "label": "Garanti BBVA",
-      "price": 153.5,
-      "change_pct": -0.84
+      "price": 153.9,
+      "change_pct": -0.58
     },
     {
       "label": "BİM",
-      "price": 386.0,
-      "change_pct": 2.25
+      "price": 386.5,
+      "change_pct": 2.38
     },
     {
       "label": "Ereğli Demir Çelik",
-      "price": 32.42,
-      "change_pct": 2.79
+      "price": 32.5,
+      "change_pct": 3.04
     },
     {
       "label": "Şişecam",
-      "price": 36.38,
-      "change_pct": 3.23
+      "price": 36.34,
+      "change_pct": 3.12
     },
     {
       "label": "Apple",

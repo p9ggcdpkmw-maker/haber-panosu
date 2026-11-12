@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve AI Özetleyici
+RADAR - Haber Motoru, Piyasa Takipçisi ve AI Özetleyici (Akıllı Önbellekli)
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -218,10 +218,7 @@ def summarize_batch(items):
 
 # --- YENİ: KATEGORİYE ÖZEL ANALİZLER (RADAR AI BRIEFINGS) ---
 def generate_category_briefings(all_news):
-    """Tek bir istekte 3 farklı kategori için özet çıkarır."""
     if not all_news: return {}
-    
-    # Sadece en güncel 20 haberi al (Token limitini korumak için)
     top_news = all_news[:20]
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     
@@ -248,16 +245,18 @@ def generate_category_briefings(all_news):
         print(f"  ! Briefing hatası: {e}", file=sys.stderr)
         return {"teknoloji": "Analiz hazırlanamadı.", "ekonomi": "Analiz hazırlanamadı.", "gundem": "Analiz hazırlanamadı."}
 
-# --- CACHE VE BİLDİRİM ---
+# --- AKILLI CACHE (ÖNBELLEK) VE BİLDİRİM ---
 def load_cache():
     cache = {}
+    briefings = {}
     try:
         with open("news.json", "r", encoding="utf-8") as f:
             old = json.load(f)
             for it in old.get("items", []):
                 if it.get("link"): cache[it["link"]] = {"summary": it.get("summary", ""), "image": it.get("image")}
+            briefings = old.get("briefings", {})
     except: pass
-    return cache
+    return cache, briefings
 
 def send_notification(new_count):
     if not NTFY_TOPIC or new_count <= 0: return
@@ -267,7 +266,8 @@ def send_notification(new_count):
 
 # --- ANA AKIŞ ---
 def main():
-    cache = load_cache()
+    # Hem haberleri hem de eski AI analizlerini önbellekten yükle
+    cache, old_briefings = load_cache()
     all_items = []
     
     print("Kategoriler çekiliyor...")
@@ -311,12 +311,18 @@ def main():
 
     print("Hava durumu, piyasa ve kripto çekiliyor...")
     
-    print("RADAR AI Günün Analizleri hazırlanıyor...")
-    briefings = generate_category_briefings(all_items)
+    # 🚀 TOKEN TASARRUFU MANTIĞI (SMART CACHE)
+    # Eğer yeni özetlenecek haber sayısı 0 ise ve eski analizler duruyorsa, yapay zekayı hiç çalıştırma!
+    if len(need_summary) == 0 and old_briefings:
+        print("Yeni haber yok. Eski RADAR AI analizleri kullanılıyor (Token tasarrufu).")
+        briefings = old_briefings
+    else:
+        print("Yeni haberler var. RADAR AI Günün Analizleri hazırlanıyor...")
+        briefings = generate_category_briefings(all_items)
 
     out = {
         "updated": datetime.now(timezone.utc).isoformat(),
-        "briefings": briefings, # YENİ: Kategoriye özel AI analizleri
+        "briefings": briefings,
         "items": all_items,
         "weather": fetch_weather(),
         "market": fetch_market(),

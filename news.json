@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-12T18:32:54.952395+00:00",
+  "updated": "2026-11-12T18:38:36.205555+00:00",
   "briefings": {
-    "teknoloji": "Analiz hazırlanamadı.",
-    "ekonomi": "Analiz hazırlanamadı.",
-    "gundem": "Analiz hazırlanamadı."
+    "teknoloji": "Yapay zekâ, mevcut meslekleri dönüştürürken gençlerin yeni alanlara yönelmesi hız kazandı; Gartner’ın 2030’a kadar iş kaybından daha fazla istihdam yaratacağı öngörüsü bu trendi destekliyor. Nvidia, grafik işlemcilerinden yapay zeka altyapısına geçişini hızlandırarak sektörde standartlaşmış yazılım teslimatı platformu Harness’ı benimseyecek. Çin’in gökbilim araştırma uydularını fırlatması ve yapay zekâ denetimi çağrısı, teknolojik gelişmelerin hem uzay hem de demokratik süreçlerdeki etkisini gösteriyor.",
+    "ekonomi": "Yapay zekâ odaklı 4 milyar dolarlık Norwest fonu, yatırım önceliklerinde AI’yı merkez konuma taşıyarak küresel sermaye akışını yönlendiriyor. Itaú Unibanco’nun yazılım teslimatını standartlaştırma hamlesi, operasyonel verimliliği artırarak maliyet tasarrufu ve rekabet avantajı sağlama potansiyeli taşıyor. Bu gelişmeler, AI’nın iş gücü piyasasını yeniden şekillendirirken ekonomik büyüme dinamiklerine de olumlu yansımalar vaat ediyor.",
+    "gundem": "ABD Başkanı Trump’ın İran’la anlaşma gerekliliğini reddetmesi ve Vance görüşmelerinin sonlandırılması, Orta Doğu diplomasi gündemini yeniden şekillendiriyor. ABD temsilcilerinin Moskova’da Putin ile Ukrayna konularını görüşmesi ve ardından Dublin’de Zelenskyy ile temas planlaması, uluslararası ilişkilerde çok yönlü bir yaklaşım sergiliyor. Bu politik hareketler, küresel güvenlik ve bölgesel istikrar tartışmalarını ön plana çıkarıyor."
   },
   "items": [
     {
@@ -15,7 +15,7 @@
       "pubDate": "Thu, 12 Nov 2026 17:52:21 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Yapay zekâ bazı meslekleri değiştiriyor ve gençlerin yöneldiği yeni alanlar ortaya çıkıyor."
     },
     {
       "cat": "Teknoloji",
@@ -76,7 +76,7 @@
       "pubDate": "Thu, 12 Nov 2026 15:30:00 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Çin, gökbilim araştırma uydularını fırlattı."
     },
     {
       "cat": "Teknoloji",
@@ -187,7 +187,7 @@
       "pubDate": "Wed, 11 Nov 2026 17:53:32 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. WAiFF İstanbul'da 124 film yarıştı; kazananlar Nisan 2027'de Cannes'a gidecek."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -268,7 +268,7 @@
       "pubDate": "Thu, 12 Nov 2026 18:05:38 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Başkan Trump, İran'la bir anlaşmaya gerek olmadığını belirtti ve Vance ile yürütülen görüşmeleri sonlandırdı."
     },
     {
       "cat": "Dünya",
@@ -283,13 +283,35 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "Gunman dead after killing 1, injuring 4 in mass shooting at gym in DC's Logan Circle",
+      "source": "WJLA",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRUZMUGh2T1VCZnAxNUwwX1Rjb1ZJR1FaYllSMi10N0FwX3VTRVBBMFl6Y3J5U09Lb2tGZnl4eHlCekhBRmdFTE1XeUNyRG1NZzFVMWp3XzJYOEhWOVBuT01qTjMzblF6U3pNTVdIRGZRams5WlJjbUp0T3ZXYlRVOWNSdjBsakFWVEFLU3lSbXhkb05lbzFWSDdCdWtUdF9sbG05cmxmSndwVWxEa1dEd1AzVUw0alA1?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:32:35 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. DC'nin Logan Circle bölgesindeki bir spor salonunda gerçekleşen toplu silahlı saldırıda bir kişi öldü, dört kişi yaralandı ve saldırgan olay yerinde öldürüldü."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "US envoys meet with Putin in Moscow on Ukraine talks, then head for Dublin to see Zelenskyy",
       "source": "AP News",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFZuQ05KbXhLT294akRzMl9XWE5rUmRhV01fSDY4VVF6dnNaZVlCUzdCd1I2TnI0azFRT1VHcW1hVm9oMWhUNTZaVUc0QjNVNkNseGxYTGU3RmpSWXppTVZ4TzVRWEpxdE1tOVc3NDJYdFZmdWhoeFBvSXc4MXV4N0JUSW95SzlZalpwcERuU3hRNHpSbVBwNXl1Y19kUDU1d2c?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:55:00 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. ABD temsilcileri, Ukrayna konularını görüşmek üzere Moskova'da Putin ile bir araya geldi ve ardından Dublin'e giderek Zelenskyy ile görüşmeyi planladı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Pentagon backs war memorial guard who reprimanded Hegseth's group",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xS1l3eVdMTDdpeVFYejJObnEzZ1JHYjRVckdPbXdSRjJLdGV2SHlQZzRpcklOWlZSZS14dFlHRUp0aW91VDNsOU9iNWpKRGYxQkJ0a1lWam5SZ28?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:52:53 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Pentagon, Hegseth'in grubunu uyardığı için savaş anıtı bekçisini desteklediğini açıkladı."
     },
     {
       "cat": "Dünya",
@@ -300,18 +322,7 @@
       "pubDate": "Thu, 12 Nov 2026 16:41:15 GMT",
       "image": null,
       "text": "",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95dkVUTlk2aDQ5YWFfUFBxNWRuSDBoQkdsRlpwN2J6ZTZaSDF0STRpTktzVm0yQTBEd3Z1XzVJT2tXb2M3cVFyejJRZ2k1R3JuMlJpQ1pnRmw3YXJ1NEpaY0xKblVHcnd1NmFoMkt3?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:38:02 GMT",
-      "image": null,
-      "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Kanser derneği, şimdiye kadar yayımlanan en ayrıntılı prostat kanseri tarama yönergelerini duyurdu."
     },
     {
       "cat": "Dünya",
@@ -326,13 +337,13 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Hegseth awards medal to soldier who reprimanded him and aides at Arlington Cemetery",
-      "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcGVHWjZEelgzdUZvS0xWdXhUbFlycGNtSjhpX19rdHU2N3BoOERVamZNVFNPZXRIWFBWMU1lal9TdW5PVm1BUmphMENYeU9nXzlhbjJoODNnLUlKX3FrVm1tYnRsR3FqREJXenJwMnRIZ1RpRnEwdEp1VE80YU5ObVlOMG12SkVrTl9xTw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:15:28 GMT",
+      "title": "Man Utd's Mauricio Pochettino pursuit and Michael Carrick decisions",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IaUFNY0pfYVNpQVVfXzR0RGNaNHlZYVBJNzV6aFBteDVFTjQ3ZG05LTRfWjBqZW00cEtaUGVyYUhXUGFSSngxY2NVdGZDMTBzMlF4ZXVIMWJwTkgyQ3dEWE90MjlDZ0NT?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:12:39 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Manchester United, Mauricio Pochettino'un takibe alınması ve Michael Carrick'in kararlarıyla ilgili gelişmeleri ele alıyor."
     },
     {
       "cat": "Dünya",
@@ -343,7 +354,7 @@
       "pubDate": "Thu, 12 Nov 2026 16:01:18 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı; başlığa dayanarak, Nvidia ile ilgili sorunların hisse senetlerini düşürdüğü ve petrol fiyatlarının hafifçe gerilediği belirtiliyor."
     },
     {
       "cat": "Dünya",
@@ -354,28 +365,18 @@
       "pubDate": "Thu, 12 Nov 2026 16:00:00 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı; başlığa göre, Seattle'daki bilim insanları insan beyni üzerine önemli bulgular ortaya koymuş."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Ebola in DR Congo: Millions of dollars going missing as virus spreads, MSF warns",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LZHZGWnNNZUdtLXNjT2FXZEFQcXNiWkxsdzN1bHhXLXNBcFg5MlI1dzBuaXhYanp1N3JtSkNKMUY0VS1QRjNTcm9ES3pqNGhjNDIxNG9DSUJLajA?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:18:20 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, DR Kongo'da Ebola salgını sırasında milyonlarca doların kaybolduğunu ve MSF'nin bunu uyardığını bildiriyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Pochettino expected to lead US in Nations League games before Manchester United move",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbi1mUm9XMVRLUUxENXg2eC0wbkVEX0VVcnFCd1BldmNuR05lQUd3MUJoaXM5eHRDZ1FNRHo0dUZKT0VLNWVuNHh5MjMxYWFibV8zaW12VzRJTHVrS2V6ZVQ0WU9tVFBhN2Q1ZmxZTW9LNkZXUzF1UjRkcG1uNnMtMVZfZWlPVUpMdTJmdjRpQkZodjZHV2tWeS16S19oQU90NGFuYV9NSVRlcHM?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:04:00 GMT",
+      "title": "The Evolving Story of How Chemistry Became Biology",
+      "source": "Quanta Magazine",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTFQekJUYW8yRloyNlFNWjE0UXZSeDJBLTFZNWZRUjE3bURvdkEzRF9XSTNFNnJpeXQxcjZuQ1BvQnhBcjBmZ0NjRVNDLTdVeC02V2dkcTgxSkQwWVY0d0ZxeHpwNEtZVEVOeG52a2FwTDFzOEpDaFZLTXVTeXVTeUNWcDVEc3gwbDNmMU1MdUF5b01kcmc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:50:14 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı; başlığa göre, kimyanın biyolojiye dönüşüm süreci tarihsel olarak inceleniyor."
     },
     {
       "cat": "Gündem",
@@ -386,7 +387,7 @@
       "pubDate": "Thu, 12 Nov 2026 17:22:32 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Yunan vekili Atina’ya sert eleştiride bulundu: “Türkiye istediğini aldı”."
     },
     {
       "cat": "Gündem",
@@ -397,7 +398,7 @@
       "pubDate": "Thu, 12 Nov 2026 17:00:17 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Malatya’daki helikopter kazası Türkiye’yi yasa boğdu; siyasetçiler taziye mesajları gönderdi."
     },
     {
       "cat": "Gündem",
@@ -418,7 +419,7 @@
       "pubDate": "Thu, 12 Nov 2026 16:04:00 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Başkan Erdoğan, Türkiye’nin hayallerini gerçeklere dönüştürmede usta bir ülke olduğunu belirtti."
     },
     {
       "cat": "Gündem",
@@ -559,7 +560,7 @@
       "pubDate": "Thu, 12 Nov 2026 14:23:29 GMT",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Tam metne ulaşılamadı. Tekirdağ'da 5 metrelik biyogaz çukuruna düşen işçi olay yerinde hayatını kaybetti."
     },
     {
       "cat": "Çorlu",
@@ -580,7 +581,7 @@
       "pubDate": "Thu, 12 Nov 2026 18:25:09 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/mha-sari-beyaz-273-960x540.webp",
       "text": "Kıbrıs Türk Elektrik Kurumu (Kıb-Tek), Alsancak Almond Tatil köyü, Lapta Gençlik Kampı ve Lapta Ortaokulu civarında yarın elektrik kesintisi olacağını duyurdu.\nKıb-Tek'ten yapılan açıklamada, orta gerilim elektrik şebekesinde yapılacak bakım çalışması nedeniyle 12.30 ile 14.00 saatleri arasında belirtilen bölgelere elektrik verilemeyeceği kaydedildi.\n(FS/TUĞ)",
-      "summary": ""
+      "summary": "Kıbrıs Türk Elektrik Kurumu, Alsancak Almond Tatil Köyü, Lapta Gençlik Kampı ve Lapta Ortaokulu civarında 12:30‑14:00 saatleri arasında orta gerilim şebekesinde bakım çalışması yapacak ve bu bölgelerde elektrik kesintisi olacak."
     },
     {
       "cat": "MHA Haber",
@@ -591,7 +592,7 @@
       "pubDate": "Thu, 12 Nov 2026 18:10:02 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/89e3c2de-b595-4ca9-88f5-08743209d9b4-960x540.webp",
       "text": "Gaziveren’de bugün saat 16.30 sıralarında meydana gelen trafik kazası, bir gencin hayatını kaybetmesiyle sonuçlandı.\nPolisten verilen bilgiye göre, Gaziveren 1’inci Cadde üzerinde Mervan Güceyü (22), yönetimindeki KY 275 plakalı araçla batı istikametine doğru seyrettiği sırada sağa meyilli viraja geldiğinde direksiyon hâkimiyetini kaybetti.\nKontrolden çıkan araç, yolun güney kısmından çıkarak bir işletmenin önündeki beton zemine çarptı. Çarpmanın etkisiyle takla atan araç, tavanı üzerinde durdu.\nHASTANEDE HAYATINI KAYBETTİ\nKazada ağır yaralanan sürücü Mervan Güceyü, kaldırıldığı Cengiz Topel Devlet Hastanesi’nde yapılan tüm müdahalelere rağmen kurtarılamayarak yaşamını yitirdi.\nAraçta yolcu olarak bulunan Ahmet Cihan Açıkbaş (20) ise yaralı olarak kaldırıldığı aynı hastanenin acil servisinde müşahede altına alındı.\nPolisin kazayla ilgili soruşturması devam ediyor.",
-      "summary": ""
+      "summary": "Gaziveren 1. Cadde üzerinde 16:30 civarında Mervan Güceyü (22) sürücülüğündeki KY 275 plakalı araç sağa meyilli viraja girerken direksiyon hakimiyetini kaybedip bir işletmenin önündeki beton zemine çarptı ve takla attı. Araç tavanı üzerinde dururken sürücü hastanede yapılan müdahalelere rağmen yaşamını yitirdi; yolcu Ahmet Cihan Açıkbaş (20) ise yaralı olarak hastanede tedavi altında."
     },
     {
       "cat": "MHA Haber",
@@ -612,7 +613,7 @@
       "pubDate": "Thu, 12 Nov 2026 17:39:40 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/c3ec3f19-9580-4671-8048-c8bc39414c6a-960x540.webp",
       "text": "ABD Başkanı Donald Trump, teknoloji devi Nvidia'nın Üst Yöneticisi (CEO) Jensen Huang'ın istifasının ardından dikkat çeken bir öneride bulundu.\nTrump, Truth Social hesabından yaptığı paylaşımda, Huang'ın yerine Apple Yönetim Kurulu Başkanı Tim Cook'un getirilmesi gerektiğini belirtti.\n“BİR EFSANENİN YERİNİ BAŞKA BİR EFSANE ALIYOR”\nHuang'ın Nvidia'da başarılı çalışmalar gerçekleştirdiğini ifade eden Trump, şirketin başına geçebilecek en uygun kişinin Tim Cook olduğunu savundu.\nTrump, paylaşımında her iki yöneticiyi de överek “Bir efsanenin yerini başka bir efsane alıyor” değerlendirmesinde bulundu.\nNVIDIA'DA ÜST DÜZEY GÖREV DEĞİŞİKLİĞİ\nABD merkezli teknoloji şirketi Nvidia, Jensen Huang'ın CEO'luk ve yönetim kurulu üyeliği görevlerinden ayrıldığını duyurdu.\nŞirket, finans direktörü Colette Kress'in geçici CEO olarak görevlendirildiğini açıkladı.\nNvidia Yönetim Kurulu, kalıcı CEO'nun belirlenmesi için şirket içinden ve dışından adayların değerlendirileceği bir süreç başlattı.\nTIM COOK'UN KARARI MERAK EDİLİYOR\nApple'da 15 yıl boyunca CEO olarak görev yapan Tim Cook, Eylül 2026'da bu görevinden ayrılarak şirketin Yönetim Kurulu Başkanlığına geçmişti.\nTrump'ın önerisine ilişkin Apple ve Tim Cook'tan henüz bir açıklama gelmezken, Nvidia'nın yeni CEO'sunun kim olacağı belirsizliğini koruyor.",
-      "summary": ""
+      "summary": "ABD Başkanı Donald Trump, Jensen Huang'ın istifasını takiben Nvidia CEO'su olarak Apple Yönetim Kurulu Başkanı Tim Cook'un önerdiğini duyurdu. Nvidia, Huang'ın görevden ayrıldığını ve finans direktörü Colette Kress'in geçici CEO olarak atandığını, kalıcı CEO seçimi için adayların değerlendirileceğini bildirdi. Tim Cook'un Apple CEO'luğundan Eylül 2026'da ayrılarak yönetim kurulu başkanlığına geçtiği ve öneriye dair henüz bir açıklama yapılmadığı belirtildi."
     },
     {
       "cat": "MHA Haber",
@@ -702,19 +703,19 @@
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6275.11,
-    "ceyrek_altin_try": 10981.44
+    "gold_gram_try": 6280.44,
+    "ceyrek_altin_try": 10990.77
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3613481,
-      "change_pct": -3.4413545207180802
+      "price": 3615119,
+      "change_pct": -3.4524611878714397
     },
     {
       "label": "Ethereum",
-      "price": 101456,
-      "change_pct": -3.2960134700145063
+      "price": 101594,
+      "change_pct": -3.132673319383715
     }
   ],
   "stocks": [
@@ -725,13 +726,13 @@
     },
     {
       "label": "S&P 500",
-      "price": 7627.88,
-      "change_pct": 0.11
+      "price": 7624.79,
+      "change_pct": 0.07
     },
     {
       "label": "Nasdaq",
-      "price": 25471.47,
-      "change_pct": 0.02
+      "price": 25468.6,
+      "change_pct": 0.01
     },
     {
       "label": "THY",
@@ -765,33 +766,33 @@
     },
     {
       "label": "Apple",
-      "price": 355.84,
-      "change_pct": 0.14
+      "price": 355.89,
+      "change_pct": 0.15
     },
     {
       "label": "Microsoft",
-      "price": 525.75,
-      "change_pct": 0.89
+      "price": 526.12,
+      "change_pct": 0.96
     },
     {
       "label": "Nvidia",
-      "price": 165.78,
-      "change_pct": -4.58
+      "price": 166.01,
+      "change_pct": -4.44
     },
     {
       "label": "Tesla",
-      "price": 392.25,
-      "change_pct": 0.37
+      "price": 391.94,
+      "change_pct": 0.29
     },
     {
       "label": "Meta",
-      "price": 624.66,
-      "change_pct": -0.65
+      "price": 625.93,
+      "change_pct": -0.45
     },
     {
       "label": "Alphabet",
-      "price": 301.48,
-      "change_pct": 2.73
+      "price": 301.68,
+      "change_pct": 2.8
     }
   ]
 }

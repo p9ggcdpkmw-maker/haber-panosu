@@ -33,7 +33,7 @@ CATEGORIES = [
     {"id": "gundem", "label": "Gündem", "query": "türkiye gündem", "edition": TR},
     {"id": "corlu", "label": "Çorlu", "query": "Çorlu Tekirdağ", "edition": TR},
     # YENİ: MHA Haber (Doğrudan site RSS'i)
-    {"id": "mha", "label": "MHA Haber", "url": "https://www.mhahaber.com/feed/", "edition": TR},
+    {"id": "mha", "label": "MHA Haber", "url": "https://www.mhahaber.com/rss", "edition": TR},
 
 MAX_AGE_DAYS = 6 / 24
 MIN_ITEMS_PER_CAT = 3

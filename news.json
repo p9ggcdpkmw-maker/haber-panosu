@@ -1,11 +1,44 @@
 {
-  "updated": "2026-11-12T15:03:09.891962+00:00",
+  "updated": "2026-11-12T15:48:22.541156+00:00",
   "briefings": {
-    "teknoloji": "Vietnam, genç öğrencilerin yapay zeka erişimini sınırlandırma ve dijital ortam güvenliğini güçlendirme adımları atarken, HanoiGo platformu AI‑ve 360° VR entegrasyonu ile dijital turizmi yeniliyor. Nvidia CEO'su Jensen Huang'ın istifası ve AI asistanları için 10 milyar dolarlık rekabet, küresel teknoloji ekosisteminde yön değişimlerine işaret ediyor.",
-    "ekonomi": "ABD işsizlik başvurularının 200 bin seviyesine yükselmesi, altın fiyatının 3.900 $/oz civarına ulaşmasıyla birlikte yatırımcıların risk iştahını azaltması gözlemleniyor. Nvidia CEO değişikliği ve Çin'in AI veri merkezi yatırımı da teknoloji hisselerinin dalgalanmasına ve bölgesel rekabetin ekonomik boyut kazanmasına neden oluyor.",
-    "gundem": "ABD'de Brooklyn'de bina çöküşü ve Washington'da silahlı saldırı gibi trajik olaylar, toplumsal güvenlik kaygılarını artırıyor. Aynı zamanda ICE'ın göçmen tutuklamalarındaki rekor artış ve Gazze'deki hastane bombalaması, uluslararası insan hakları ve göç politikaları tartışmalarını yeniden gündeme taşıyor."
+    "teknoloji": "Analiz hazırlanamadı.",
+    "ekonomi": "Analiz hazırlanamadı.",
+    "gundem": "Analiz hazırlanamadı."
   },
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yetenek Mücadelesi (Bölüm 2): Yeteneği Çekme, Kullanma ve Elde Tutma",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWmVqbU9VcmpueVJqaThVNVYwWTRNUDZxWU5OaUNvSVFjTkpqT2JfV2pKSmREeTdGT1ZxU3pnZ3FJTmVBSi13Y1p3UGFpUE5Fd1dIY2ZPRHM2QjJJb1ptMTF4THJJZzlBcDM2X3IzV19ZZnJJWF9GN294RmlrQnpSVWdqbjg4Zw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:34:43 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Yetenek Mücadelesi adlı serinin ikinci bölümünün yeteneği çekme, kullanma ve elde tutma konularını ele aldığını gösteriyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Demokratik süreçlerde yapay zeka kullanımına denetim çağrısı",
+      "source": "Cumhuriyet",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWRvM1RpM3Jyc3I0bExwZTNQcWd6M2IxTjA5YUFuUlR1UDRyaDNBd2V2Y18zYXc2eWJCQ09KaXFxUV9PUURJVXlLTjQwVDl2ZTZ2ZnROdlhMWTQzWEhnUm9kNHpFc0RoZS1la0k3RG1KMWQ3eXZFbmt6by1tUjRIcV9uQkpaenBpc0lWS3VySU5uU1A1dVBSS0dVZGQtalVjaTBkSHQ5dzJxcHZfSTZ0Rk03MUc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:24:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, demokratik süreçlerde yapay zekanın kullanımına denetim getirilmesi gerektiğini vurgulayan bir çağrıyı işaret ediyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay zekanın müzik endüstrisine etkisini araştıran çalışmanın sonuçları",
+      "source": "Cumhuriyet",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWml5azNuWjFTZEwxSnphTnVrMEFUeGtTaXM3MlJiczNpclQ4R3Q1M28xdGoyVlNBSk5IdmxlVVp3eGlNU0ZYZ183SW5wMkRXdnFqblRjaXNqcGNLZVYxMmFiRmFtb3hGY2JOa3QzRlQ2R1dEZXRYMzZNVGc5c3VnM2ZrcnZhUVVYdklnU19sdGc5THhWWjFPRnI1LUtyOWpsdlVjeUdEd3Ruc3VxejJnRDZyeUJYOWFaZkN2STJINFcyZ2dn?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:16:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, yapay zekanın müzik endüstrisine etkilerini inceleyen bir çalışmanın sonuçlarını konu aldığını belirtiyor."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -49,6 +82,17 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
+      "title": "İnkâr, Pazarlık, Öfke: Yapay Z zekâyla İlişkimiz Bundan Sonra Nereye Evriliyor?",
+      "source": "Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WY1Y3WHpPeFZwUG1BYTJsSTNrOEw5cm41anIwRTIzTWRqSEpNSW9saW9lWmdDWjFobHBPWF8wUGtsWHZpY3prTG51QVR2T0RPV2ptXzNzMEtkY2lQTlVwZjI1Y1NhQQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:32:43 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, yapay zekâyla insanlar arasındaki ilişkinin inkar, pazarlık ve öfke gibi duygusal süreçleri içerebileceğini ima ediyor. Bu bağlamda ilişkimizin gelecekte nasıl evrileceği sorusu öne çıkıyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
       "title": "Gelecek Kongre, yapay zeka ve gelişmekte olan teknolojiler için kuralları belirleyecek. Öncelikle bu teknolojileri kullanmaları gerekmektedir.",
       "source": "CoinDesk",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb0ZlYnZGZi1icUR5Z05RYU50cTN4WTlYT0s1UFR1RWkxY3gyYVB3NmkxazVaU3NmaTZhb2hkVmQ1VUVNekktYnkyNE13U3pRNXdEQlJUYUZ6UkhTVzE2Vi00RUZtWWkzYVUyaXdESlg1djA3VF9qYzYxdkc0czhYYk1aWGdHTGxaNkktRW1LUVl6ZnZpX3pEcXl3SEdIY3dGenY3Y3Q5YlpxTUxhZjhXN3ZiMEdycXNkT0h6Ny1jUGN0Sk5qdlFMV2pBTUY0MUFKZ08zYQ?oc=5",
@@ -87,46 +131,6 @@
       "summary": "Tam metne ulaşılamadı. Başlığa göre, ‘Hikâyenin Geleceği Oluşturuluyor’ ifadesi, anlatıların geleceğiyle ilgili bir proje ya da etkinliğe işaret ediyor."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "\"Vietnam Malı\" markası altında yapay zeka geliştiriyoruz.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5aMGtaWlUwdlVDVkNYa1N6NzhFSm9iWmp2NE9uNW9zZm5kcjMtaWZJRFdGY2FiVUItR05KRWZVUjhkS21IUVRLNGJGYzlGcWxISDFTTGZqczVKUmJhNDlrUm9EUm10TUMxZ0M0ekJZYUxjeXh0bzlwekVZTmU?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:56:20 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, ‘Vietnam Malı’ markası altında bir yapay zekâ geliştirme girişimi yürütülüyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Yapay zekâ artık bir tercih değil, hayatta kalma meselesi!",
-      "source": "Technopat",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN2JyZnB2NmxSZWRGZnVQS3JsdjlKYWhfYXBJQzBpRXhQLTQtV1BrODlCOHBwR2t3Y0J6aG9oMkl5MldoaEtyNVM5VkNhQnRIRExEUFpSUmZBOVlPRUthcVlqQ1kzZjkzWTM1TXJoemtTVXk5Z1BMdGttdEdTVUxYQ3pPYUFnTDlndkRoZlFGS0dGVktjR09JaHZ30gGfAUFVX3lxTE9zM3FucFFqQmZmTmFqRGlsdmdveF9MZ29KSFJ4Qmg0c2FOXzhPRW80MmhMOEdISEo4Rnc2YmR3N09GM2FFSnpFbHY3eXZGNGNONFdfSzJpdlNUcnMxLVMzS09jYnpmNzhXd1VEeFBNVDdQeVhNRkhHYkl3ZTZYOW9uQ1NjREdFcWgtaVJUWDlKaER6dFp3VU4xckxRZTVFUQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:48:30 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Yapay zekâ artık bir tercih olmaktan çıkıp, işletmeler ve kurumlar için hayatta kalma gereksinimi haline gelmiştir. Bu durum, şirketlerin rekabet avantajı sağlamak ve verimliliklerini artırmak için yapay zekâ çözümlerine yatırım yapmalarını zorunlu kılıyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Çin, 'patates başkentini' bir yapay zeka veri merkezine dönüştürüyor: Vietnam için bir ders.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdVBIVW4xeHFham9rZW1MTGl5NUtlRUZMa1B5Mmt1RnZwM0ExWE5lNlpjeUxrd1lXM2I2aWxQVEJrSS1oU3hSVlpJTU1YekV6Rl9IRmdiWWV3bXNQeS1OWjNoTU43MlBWOFVmdldnOUt2QVIyZDl1NnJObFB3cnVPcjF2T2VFWmdPMG9YeW1hNDFoUHBKREJhNTV0REZaV2VfTVFZSWpQdGZNQQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:44:20 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Çin, patates üretimiyle bilinen bir bölgeyi yapay zeka veri merkezine dönüştürüyor. Bu hamle, Vietnam için teknoloji altyapısının güçlendirilmesi gerektiğine dair bir uyarı niteliği taşıyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Bilim ve teknolojinin gelişiminde kaynakların kilidini açmak ve darboğazları ortadan kaldırmak.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT0I5Rlc2WjVVYXJMWmhzSEc1M1g5aDNOd3VUTUljblZDT01fbjFDcXN1TmdjS1NsdnJQSksxbW9CbnF0N3RpdF9tQUdRaDE0SktwTWdKQmUtWXJQbDdiaGNaQWRxak5ESkJzRUFpRDJ2cjlWRzVOOUFUMm5nME9UYm9Ca2lUbENnNXJtVEZZaTN2TDJUd04tdndtQQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:42:21 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Bilim ve teknolojinin ilerlemesinde kaynakların serbest bırakılması ve mevcut darboğazların ortadan kaldırılması hedefleniyor. Bu yaklaşım, Ar‑Ge verimliliğini artırarak inovasyonu hızlandırmayı amaçlıyor."
-    },
-    {
       "cat": "Bilim",
       "catId": "bilim",
       "title": "NASA'nın 1,5 tonluk gözlemevi ve 22 yıllık uzay keşif yolculuğu.",
@@ -139,32 +143,23 @@
     {
       "cat": "Bilim",
       "catId": "bilim",
+      "title": "Bilim dünyasını heyecanlandıran keşif! Dünya’ya benzeyen yeni bir gezegen adayı keşfedildi",
+      "source": "Sabah",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb01zWU45R0RSZVI0QUJYU09abEpwaTdGRURLS2swUzZfNldQN2pCbWNDamFFRFkwY0FfY0k4TzBxLXpxeTJJazBpbUh0MHRQX1JQRE8yQl9vWVBpYUl3X09oWU1FM3dNSkZoaFYybDQ3TnVvRnd2SDlVRmo5RzJKZ1I0V0JfTTExVWZUOWRhTnlERVR4bWdBQXdtSkx3eFl1WUxPT0M4X0xNaXJXWjhqQ20ySl9kWl8zRHR6eUpMbDFEU2JGcXZaMm9rUl_SAc8BQVVfeXFMTjBHd1RjR09tWmpoNTlodXpFT3dEV3k2X2Nwa2pVRmhNV3pkeEN6S3ZHTkhyeTRCcWxpOWZZbDJEWG5ESGhzSkFVUGZBT3F2a2w3bHdQZkdfbGpNY1FDTG1SajJlNVhJanpkNHNwcmFpSnNMMDVkZnkyWVVqU3ZqOWFUX3VQd1l3blRrREFSMjFlYm42dU93Y3RiTGwxdnUyd3ZnS0hfb1ozaWU3RE9xaEJQZVR2WUtxYVVIQUctMWVQTkR1ak42S1FKSnhLN2p3?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 18:30:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, bilim dünyasını heyecanlandıran ve Dünya’ya benzer yeni bir gezegen adayı keşfedildiğini belirtiyor. Keşfin detayları ve adayın özellikleri haberin tam metninde bulunuyor."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
       "title": "SON DAKİKA HABERLER: Bilim insanlarını şaşırtan gizemli keşif! 'Daha önce böylesi görülmedi'",
       "source": "Milliyet",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOM0NuUmtIaER0MTJKREtEVnF1TTkzN2xnYl9lbzZUSWVBZVV2eUFOOVhaSFpLRmprLUUtQTlVZUQxM1VneC03VmVkdERESVlPYlFSRmd3ZzJRZG5yMUZmeGxYWUx2eXN0N0hqUlJSd3otSmNoVXRwRUQxczhDM29GUDBjQUJya3EwWnQ1WXRWNkZSQlhGWVRoVF9RNjZyWnNtcWJwRllqeWlaOVV1amNBamZmX0JQOG1XQ2l6Q0Jn?oc=5",
       "pubDate": "Sat, 17 Oct 2026 07:00:00 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Bilim insanlarını şaşırtan gizemli bir keşif yapıldı ve 'daha önce böylesi görülmedi' ifadeleriyle haber verildi."
-    },
-    {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "Antalya Bilim Merkezi’nde hafta sonu bilim ve keşif dolu etkinlikler",
-      "source": "Kepez Belediyesi",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdFg1Y1RZcm1ZZURUQlEzVUNNVi1VaHVTZkJ0RGphb3JQR2QyNXo2MHBob192dHA3S1dvV21fZ0JBTnJXVnJyMzF6Vl9pLXFSbENMMjlHcElVQ1RwMVZOODdxUWxUV1V0UTVUQi1GNDB1VEl2b2g0SEYxMzlLdUFPajViTV9XVjF2OHpHYVd2NFhSeXhqZnNFUTBkR2F0cV9DaGxOVDJRd1FQNDhZ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Antalya Bilim Merkezi'nde hafta sonu bilim ve keşif odaklı etkinlikler düzenlenecek."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "WAiFF İstanbul'da yapay zeka destekli ödül alan filmler, 2027'de Cannes'da Türkiye'yi temsil edecek",
-      "source": "Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTm9xN2hhZGpEQUF3SzI0MmpleGdnTjhVOW9TSmZvS3NVU1JWMW5sZWdJUmNtU0RaUnRvNjlrSnNoX2xsMzVfcGFGbUY2WGFXWlh5Y3p4SUpQOTQ3YTNzVFZhajBqODd6VC1ZcnVUX1VEbG9KWHQ3UDdoTzBqdGdZSDNSYklSUHdOVDQ3Ym8xcExUdmt0Q09zVTR5cmpiOTF4TEpxU3AzYmJlT0R5UmhRa21sSXd6UjNKSU5aUFlQdVlRdVlaYXUxVWlYUk5Nc1E?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 18:55:24 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. WAiFF İstanbul'da yapay zeka destekli filmler ödül kazandı ve bu filmler 2027'de Cannes Film Festivali'nde Türkiye'yi temsil edecek."
     },
     {
       "cat": "Sanat",
@@ -175,6 +170,17 @@
       "pubDate": "Wed, 11 Nov 2026 18:51:55 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. WAiFF, İstanbul’da Yapay Zekâ Sineması yarışması düzenledi ve kazananlar Cannes’a gönderileceğini açıkladı."
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "WAiFF İstanbul'da 124 film yarıştı ve kazananlar Nisan 2027'de Cannes'a gidecek",
+      "source": "Haberler",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbDhyQVFPeHo2T2N5UEthQ1E4QkJnZFlxSGZUOWp0RVlYQXAyUG4ydWJRU2RvWTBoa1BhVmQ2QkdUMzY3S2JLd3hjSDBFOUZzYk5RZFZ3akxiZElnbE91aDB3SVpiai1EMWhHaVFHNmMyMjFqWHUtNC1tSkd1QXdkN0IyU0NCcF9Hd0dBRWI1UWkySE1TaGdrMWhyZi10Z9IBmgFBVV95cUxNT3VpYmhwX0JsVXR0cDNJckpKb3VGSXN2ZVh5MkhwMXNoVGZGdmx5b0pXRTctWFZ3OERVQ3duRWJxT25GREViWUVHM3NSQkV1VWhaM0FzVG1JSlE1MVVHdmxWZ1RRaHg5bjYyWHN0dHpCZjJhNGJsenNpbTBTLTdhTlU0LWo4ZV93dG5nYkJUamhELUNEVWhLWWZ3?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 17:53:32 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, WAiFF İstanbul’da 124 filmin yarıştığını ve kazananların Nisan 2027’de Cannes Film Festivali’ne katılacağını bildiriyor. Etkinliğin organizatörleri ve film listesi haberin tam metninde yer alıyor."
     },
     {
       "cat": "Ücretsiz Oyun",
@@ -239,23 +245,100 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "ICE deportations and arrests hit record high as Trump faces reckoning over immigration crackdown",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtaWRMd0lHQ0NNelV0T3Joa2d4WHloQnJDczZPdlJhY2RieG1DTFU5N3dzaVpyTG5zYzF4MVVyeVA3NDdoR19PcXdyTXBWdWszdzE2aUZfaFdySVNreUlxTTMza0FVYVRUajY5VFpzU2lQcEhFZExDWl9B?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 14:30:37 GMT",
+      "title": "Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
+      "source": "ABC7 New York",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:35:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. ICE, göçmen kaçırma ve tutuklamalarında rekor seviyeye ulaştı; bu durum, Trump'ın göçmen politikalarına yönelik artan eleştirileriyle birlikte ortaya çıktı."
+      "summary": "Tam metne ulaşılamadı. Brooklyn, Flatbush bölgesinde bir binanın çökmesi sonucu 8 kişi hayatını kaybetti, 17 kişi yaralandı. Yetkililer aramayı sürdürerek daha fazla kayıp olup olmadığını araştırıyor."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Nvidia CEO Jensen Huang resigns, Colette Kress named interim chief: Live updates",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQLXdpNk1zM3AtTjV1OFB4d0xkbXhnQkhIYUtYVWRxalR2dVJLZ0d6ajJDdS1Nb05ycVZnNnkxbGkzLXF4WVB1NnVlREtiVWdBOE9vbFRERGh2NGxjUGt0T01CbjVrZEUzZjB3UVhacUlZYnBxMURYV2pmQXBMdw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 14:12:00 GMT",
+      "title": "Wall St set to open lower after Nvidia CEO steps down",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:26:58 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Nvidia’nın CEO’su Jensen Huang istifa etti ve Colette Kress geçici başkan olarak atandı."
+      "summary": "Tam metne ulaşılamadı. Reuters haberine göre, Nvidia CEO'sunun istifası sonrası Wall Street'in daha düşük bir seviyede açılması bekleniyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Live updates: At least 4 shot in Washington, DC, police say",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxRDBQN3NNZV80TkVLTktzU0V2VzdEYVIwNWRqYkhsd1lZYnRCVkxSdzZzREg0cHVPVjNLSmxwclBxRERaR2Vwb1ducldyWDQybzdfZ2M3M1R1dFBBczd2ZFhESjFEd1BaU3IyWmJhSVRDbHdt?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:13:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. CNN haberine göre, Washington, DC'de en az dört kişinin vurulduğu bildirildi."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Dan Hicks, longtime NBC sportscaster, dies at 64",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY1AxZkpjSVdiNGJiRS1SSjFPeDJGQ25IeTNIM2VkZVNqZWRTWWlodWFtNWQ1RlduWWFGS1YwcFY3d2tMQjVQZzVtMzRRaG9aVGY0dVhjUTY3d2F1dURsVkVWLVFJTHM3RnZYZlVhb1RCUllaNDVURFlnSmlDa0FCQkpFYnlBektRSUxyRDNFcWtvX3BWR3dhX2duamFLeHQ2?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:49:43 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metine ulaşılamadı. Yahoo Sports haberine göre, uzun yıllar NBC'de spor yorumculuğu yapan Dan Hicks, 64 yaşında vefat etti."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMVE2M21kYUJiU0wzeC1rb3cwY1FzNXV1bHpzT184bXZsM2FabkdUT2M1MWRDYUVoVHhvdVVtRTk5dVpBUXN1Rm14ZFFERzY2d1NfTTEyamRrdFJLNl9DNEVRZkNYNWl5anpGRGRUU0lXWHJiOFNWOU4yZVpHVThQMGE4eXl1R21TYVNZ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:36:35 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Nvidia’nın finans müdürü Colette Kress, Jensen Huang’ın şirketten ayrılması üzerine geçici CEO olarak atandı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "‘Joni Mitchell sang Both Sides, Now over the phone to me’: folk music legend Judy Collins on her 87 remarkable years",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQeU9XOWc0XzI5bHpwaVFhZHltREJaVVR2cmtGb3VpSHRxaUM3TDBYRVpMTko2RTYzQlk1N1pCTGI3WEJ0TWluZ29hQ0EwUl8yZVRuT2FyeVN6d0RZd1B1bjdoUDFkcGgzRjJGYTdCSFJCLUVZSkZHbEFTMFo2Y29GX1VmX3I1RUpSV2xuZ2hiblhWenRHWnN5eERfV0lPVXRfVjBSWTBZM25acV91dlBSWGk5Y0lia1U5WVhlaUdXVXlHdy05QlNCM1dmQmhIMUdjajZUYWlDeWxPMXJuQjE1QlprSGt4d0tmbDhEY0RkOA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:30:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. 87 yaşındaki folk müzik efsanesi Judy Collins, Joni Mitchell’in ‘Both Sides’ şarkısını seslendirmiş ve şu anda telefonla iletişim kuruyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Before Scott Colom, these two men were the last black US senators in Mississippi",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43akR4UEZSc2l5WmVBVE45VmVIbG1ESWJwUk8zb19HOUk5Sy1uaUtnZVZaQ2U3SEM2R0EwOGZxSHVHTVRLTnprWEJKRGhVc0dGOUoxd1U3UG9jZmM?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:12:55 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Scott Colom’dan önce Mississippi’te son iki siyah ABD senatörü bu iki isimdi."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "I tried Google’s AI glasses and Meta’s finally got real competition",
+      "source": "The Verge",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWY2bS1iWjBpaThyc1hBeHc1UWdETUk0UDlDRnQyMTh4cXVwSVpMRUhhMWE2bFpOLV9mRFNlMUtmWTdNUlZYNnIxdngtczh2N19CNzkxLWwyVFBMcm81WU1wdzRwM2RVcU41U1plWXdSNTVxUkFEQmRqSDd2YmFlc3FmbjNfcVBpOEE1VFRtdFBqeUxoMEM4?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:00:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Google’ın yapay zekâ destekli gözlüklerini denediğimizi ve bu deneyimin Meta’nın benzer ürünlerine gerçek bir rakip oluşturduğunu belirtiyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Apple HomeView Review: A Versatile Smart Display And Siri-Powered Home Hub",
+      "source": "Engadget",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yc2MtZ1d1c21MalB1cUt2V0R3eEJFb2huZ2hLUEVkaTVqQU5Oand3b29nWFlQdk5wR3NJazVHUUtWaEpHLTl6TDBqUE1HNWJycHpkX3NXLUtKcldoSG1UWEdOXzE4UQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:00:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Apple HomeView'un çok yönlü bir akıllı ekran ve Siri destekli bir ev hub'ı olarak incelendiğini ifade ediyor."
     },
     {
       "cat": "Dünya",
@@ -270,12 +353,12 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "One dead, at least 4 injured during active shooting near Logan Circle",
-      "source": "NBC4 Washington",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMUNqSllBbEU0V2hnYktmYkpQLWNuZDJwNVNjdTg1Q0RnX2JiQWRtdnVqVU1zaV8wZF9IRXF5cUdOTWZQSW5NZXNRekw0NGJXTFVmN0piRDJ3c3BDZkZWaXdDQXQxUXdCYnBWei1lbkE4ZDdpN0pBRW5WNDRfSUdOUmxPdXRYZWpYc0hNZ0ZEdWlrZGFvdUVDLVRpUWhvY0thNzA5MDdUNW0tZ9IBsgFBVV95cUxOQnQ3NkZ5SmtaZXdSWW1rMVdsdGlpMmpmRkpOQl9JRGhsaDd1R2YwMjRkSm9QaEVNUGk1cXZjMlRoSW1LSDBwbWZYSTlUZDRhcUFOWkJHdVhaTkI1TW13c09jT2ZMaVA1WVV1RktRQk5FblpBdWFabDFlWmxwNF8tSk5fUllYQ1paazRaNXZzZlU4R21feXNQSU5ldmY0NnFTOGt5RloxVzNHR3JYeEpzMFdB?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:33:52 GMT",
+      "title": "New prostate cancer screening guidelines include regular testing for most older men",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUjBTVHlQeFdIYzhwOXdNWWNxNVBOUEdadFRfR2thajQ5eWxHUWE4ZVVEUVhPZWhsTzR3TmlZLWREc21kS0dFeHlpbEdkVFBrY0t5ZTlXeGNWdDczWk1IazhycFZBX1FfNTBQeTdrOC1hVk9jTDh1a3JYVDJkclZXd1hLbFVSdjZUZjIyNkJaaTZ4d2xUWHBrRG5zWkJOd0tITTNvUUZQSGZvQQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:36:47 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Logan Circle yakınlarında bir aktif silahlı saldırı gerçekleşti ve birden fazla kişi yaralandı."
+      "summary": "Yeni prostat kanseri tarama yönergeleri, çoğu yaşlı erkek için düzenli test yapılmasını öneriyor. Bu değişiklik, erken teşhisin artırılmasını hedefliyor."
     },
     {
       "cat": "Dünya",
@@ -286,78 +369,6 @@
       "pubDate": "Thu, 12 Nov 2026 13:31:08 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Altın fiyatı, ABD'nin haftalık işsizlik başvurularının 200 bin'e yükselmesinin ardından ons başına 3.900 dolara yaklaştı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Brooklyn building collapse in Flatbush live updates: 8 dead, 17 hurt as search goes on",
-      "source": "ABC7 New York",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:30:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Brooklyn, Flatbush bölgesinde bir binanın çökmesi sonucu 8 kişi hayatını kaybetti, 17 kişi yaralandı. Yetkililer aramayı sürdürerek daha fazla kayıp olup olmadığını araştırıyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Ebola in DR Congo: Millions of dollars going missing as virus spreads, MSF warns",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LZHZGWnNNZUdtLXNjT2FXZEFQcXNiWkxsdzN1bHhXLXNBcFg5MlI1dzBuaXhYanp1N3JtSkNKMUY0VS1QRjNTcm9ES3pqNGhjNDIxNG9DSUJLajA?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:02:37 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Kongo Demokratik Cumhuriyeti'nde Ebola salgını yayılırken, MSF milyon dolarlık fonların kaybolduğunu uyardı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Nebius Stock Tumbles After Earnings as CEO Warns of Revenue Delay",
-      "source": "Barron's",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FWHlJeHh0OVJrUlZ3bHhVTkJIeFFQcWg4a1hkZERkVzR2eU9GNTNHVHBsY2hHaXliZjBqQXJIQ0VLbUVaeHlBM3ZQWllrdURxRjdpZDBHTDlBdk9PMklWMFdnMFdoVlFkc2FUbHEyRHhoOVdMMFNJSg?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:38:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Nebius hisse senetleri kazanç raporunun ardından geriledi ve CEO, gelirlerin gecikebileceği uyarısında bulundu."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Democrat Scott Colom wins Mississippi 2026 Senate race, flipping seat in upset",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON2RjbDYxLUNjQnM2YWl5eDdRWC1rd0NyMUJKOHl3bWd1SVhkRDdBNEVfSVY5UC14R1N4a0NNR2QzLU9acTBScmh3ai1za2VMUVFJZnZKMmM5eFB6ejZWNFl4ekdNV2o0cHNkdG9rWHQwajdzdjczYk9SS19vRzkyYnBsdlJWcFpwcUE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:20:32 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Demokrat Scott Colom, Mississippi’de 2026 Senato seçimlerini kazanarak sandalyeyi elde etti."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Single and trying to find love? Be sure you're not 'floodlighting'",
-      "source": "USA Today",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdldNWUp0ckdWbnBLTHZpemtPeFlPblJmUkFmR091N1UzSERQaEJDQktuUHRTeGF1Ymk4YmZyRzFfbDVTak1iM2ZVcDhEVjIwSnZkaFZSaUFZRkVFNnB4R0FlZXo3ZG9sR3dSclA0SXpTRVpva2tfYWtmQkYwdFNveFAtSkNQREV0Q3BPbGZhakJjN2JJZGJQMUFwNExxbFpkcm5zeEtSMEFfdkc3R280cmJGZlNYX0U?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:02:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Bekar bireylerin aşk arayışında \"floodlighting\" davranışından kaçınmaları gerektiği vurgulanıyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "New prostate cancer screening guidelines include regular testing for most older men",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUjBTVHlQeFdIYzhwOXdNWWNxNVBOUEdadFRfR2thajQ5eWxHUWE4ZVVEUVhPZWhsTzR3TmlZLWREc21kS0dFeHlpbEdkVFBrY0t5ZTlXeGNWdDczWk1IazhycFZBX1FfNTBQeTdrOC1hVk9jTDh1a3JYVDJkclZXd1hLbFVSdjZUZjIyNkJaaTZ4d2xUWHBrRG5zWkJOd0tITTNvUUZQSGZvQQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:00:41 GMT",
-      "image": null,
-      "summary": "Yeni prostat kanseri tarama yönergeleri, çoğu yaşlı erkek için düzenli test yapılmasını öneriyor. Bu değişiklik, erken teşhisin artırılmasını hedefliyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Review: Apple’s M6 iMac is pricey, but it’s still a good choice for a clean desk",
-      "source": "Ars Technica",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczRYQ3pNWnpia0JTVER5c0t5WXMtZ3BEMjdEejNVd1NSV0J6V0ppSEZOOHVRNGVPUElvcnRjcXNUUXR6ZjBtVnp2NGpXVURVOXk1UGdTVnpiWUhTUGJsVkpJSi14dHZvUG5ic1R0N2ttMURuLWgzWDByOEFOcGVub0wtMGpHWjk3Vm5GOWxjOW9VV2NOSjhGWXJ0UHhRNFZTdVhFQWx4NTU4bWtVZWthOTRQNTNNa1pXV1E?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:00:37 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Apple’ın M6 çipiyle donatılmış iMac modeli yüksek fiyatlı olsa da, temiz bir çalışma masası için hâlâ iyi bir seçenek olarak değerlendiriliyor. Bu iMac, güçlü performans ve minimalist tasarımı birleştiriyor."
     },
     {
       "cat": "Gündem",
@@ -412,6 +423,17 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
+      "title": "TÜRKİYE MSB’DEN SOMALİ’YE 15 BİN ASKER GÖNDERİLECEĞİ İDDİASINA YALANLAMA",
+      "source": "Mağusa Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa0xOWjlyc3k0NndzMzVkX002U0oyTWdncDVCbVpVRzN0YWZaekNhWnU4eGs0TmFsaXhFUmFpbGVVWXIxNGZRQkNxUGxsbjRTckR5RjNDVjdzZ0lSdjl4cnRmNlFDX1ZWS3JocUlPS2ZxQjI3U21qel9BWHhsam51VnRfaHZpZ2xzcV9DcEs1VTJ4d2Z0QnltSnNOaw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:57:54 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlık, Türkiye Milli Savunma Bakanlığı’nın Somalî’ye 15 bin asker gönderileceği iddiasının yalanlandığını bildiriyor."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
       "title": "Türkiye'nin ünlüler haritası gündem oldu: Aydın'ın tercihi belli oldu",
       "source": "YeniSöke Gazetesi",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN2J0RDhlaWNGSzMyUnI5LXFsZVlKTWprdGZoTkM1R2xmekVlSWVwcHdKalBqdXJ2V0ZBSUxJWmY0Q3MwTEs0eHVXd0V2bWo0aW9GbGZlVXBia0phVUtPUTA4UUo5R3VfYW9Ua2ZUWEZha1RkUTlJbGJmaU1zb0ExS25IcGZoSzZ3VTR2SnpLUG85VkRnNDk0Zjd3WE9yTmd6N0ZQV29oelJ2UjRBd1pF?oc=5",
@@ -430,44 +452,26 @@
       "summary": "Tam metne ulaşılamadı. Başlığa göre, Türkiye ve Kanada arasında nükleer enerji alanında yeni bir iş birliği anlaşması yapılmış. İş birliği, iki ülkenin nükleer enerji projelerinde ortak araştırma ve yatırım yapmasını kapsıyor."
     },
     {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Kırmızı bültenle aranan Sercan Sayal Türkiye'ye getiriliyor",
-      "source": "Manşet Haber",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVi1aSy1BMmNuRWVFVXc5X1NEMVhlYV9jR3NRREVnVE1kRHVMcnVpRlFnbVl4UW9LZGZGRmJBZ1hWT003cUtDOFJKVGE3TjBsZE10UDhHQ2UtdVkzU0E0OWJ4b0ZkV2VCUk52UGg3LWVqQndrQ1E1blR1OTdzSEJZdENaNWF6OUFXd0ZWOVQ5WjE4RjRPN3JGT28yOA?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 09:41:00 GMT",
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Çorlu'da katı atık bertaraf ve biyogaz tesisinde biyogaz çukuruna düşen işçi öldü",
+      "source": "İşçi Haber",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNHhaWGtKaXFxOTM1ekFqVDk3WW1zVjAtUDBQVFd3ME9XUWNxZ0ZabTFfOG1ROXVCcC0tS3JRNUQ4bjRDRTVwcHFrV000R0hTRE1ZdXFZRjR2ODY3MlpqUlJXT3RGNTJ6bFpFazJTZ0ZSb0wybU5aZ29pOW5JcVNZQjdZNzI1WU5SeVZhaTJxZ1hvMHRzZGFCcTFydTNIb0J6c1dUaXJ6VWxTYlJkN2l2X19EV0EtS1I4eVYwSA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:05:58 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlıkta belirtildiği gibi, kırmızı bültenle aranan Sercan Sayal Türkiye’ye getiriliyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Çorlu'da katı atık bertaraf ve biyogaz tesisinde çalışan bir işçi, biyogaz çukuruna düşerek hayatını kaybetti."
     },
     {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "İNCİRLİ, TÜRKİYE MEDYASININ SORULARINI YANITLADI",
-      "source": "Mağusa Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sUlN1ZHZrTGFCMWhfUlVFS3psenVvNllDQW16WFF1a0xOVncyaXFHMWJObmY4NTd2T0p2cVdSOXZjbUZwV0RPTE0wMFlnakF4eGJLSkx4MXdyUWxBS0NQVEc1eFE4V3hCRlJrZkF0Sno3NlFUNEw5X0pPdHE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 09:21:58 GMT",
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Çorlu'da katı atık bertaraf ve biyogaz tesisinde biyogaz çukuruna düşen işçi öldü",
+      "source": "Yeniçağ Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSzBtODNYMnFMb0NPeVh3YXh6TmxVbG5oV0Q4eDM2U0lyZzlWSU9vTW1sLWNqV2JDdDNjaFp5WEpmYXNrZ0FhNXFBZTNXYkpWN1Nfbk1Kb0s4bzJTMVl0Z2NjTk1MQS1lYkJRM2RuamVBX0I1RkVOcDF5VERYeWRCSml5MzhtY3d2bnE1ZGtzcjg3ZUlkRmpuQXh5cWJvQjQ2VmJuSWNIRUJidDRsSkNqWjJQTnlNV0ZkZ0tIOVFZU3VWRUk?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:56:20 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlıkta belirtildiği gibi, İncirli, Türkiye medyasının sorularını yanıtladı."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Türkiye'nin su kaynaklarında yüzde 25 azalma riski!",
-      "source": "Manşet Haber",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbElGZTVvNWZvWS1LX1lhYXplVkVZeXJ5UE40cE9jaWZHOUU2Y1RQRTdyVUZvbExpZEItekJzMWlBMlBHaWhzMDNSWnZWYzBKQnpESXZTX29IWWdPdnMwSEtOV2RzbXl5dGYyei0wZHlKRElrVkNYNUQ3VXRYMXZ0UThRaUFlcEE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 09:19:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Türkiye'nin su kaynaklarında yüzde 25 azalma riski var."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "TÜRKİYE İLE ULUSLARARASI KALKINMA BANKALARI ARASINDA 5,1 MİLYAR DOLARLIK ANLAŞMA",
-      "source": "Mağusa Haber Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYjJQUExhTjlIMTdWWmZFbXZ3UjZCbnNtWU9jUnFKbG5Uek5uai1jOVJVUGZhVFUtRC0ycEdFUmRZSFE2ZGpqdU1jbWd0b1JTalpna3BZajR3WW01Q3ZxRXEwMUJEM21VU1k4Yk9TaDB1VFczWXlrSlE2bmtRTU5za0ZpS2hHa3dWcDcwV3F5VWJrN1l5dmRTdFYyNTJ6ODNxZjltWHR4RFY?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 09:16:44 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlıkta belirtildiği gibi, Türkiye ile Uluslararası Kalkınma Bankaları arasında 5,1 milyar dolarlık bir anlaşma yapılmıştır."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Çorlu'daki katı atık bertaraf ve biyogaz tesisinde bir işçi, biyogaz çukuruna düşerek öldü."
     },
     {
       "cat": "Çorlu",
@@ -570,24 +574,15 @@
       "summary": "Tam metne ulaşılamadı. Tekirdağ Çorlu'da ekmek taşıyan hafif ticari araç takla attı ve sürücü yaralandı."
     },
     {
-      "cat": "Çorlu",
-      "catId": "corlu",
-      "title": "Tekirdağ- Takla atan hafif ticari aracın sürücüsü yaralandı",
-      "source": "Milliyet",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUG9BSWRldVFMVXZBZWI1WElsaU80bjhXOFhBQXZCUHQ5dkpDWFcyR0ZPTTRycnozMVpSd3BoUDg4UkVMSW5OaWp2QUZCeWpMUmN6eXBXX3ZOUVhHeVVnQjdZanJ3Y2ZScjJuVktIMmk5NjhrdVNlQkhDbzZJQ19JdHl6aFVRM1dwTjJ5Vm56UkVFRkpVLV9NTDFwVDhYcnk0b1pZRWZXa0xwWWhaQ1o5aVJ3?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:55:31 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlıkta belirtildiği gibi, Tekirdağ'da takla atan hafif ticari aracın sürücüsü yaralanmıştır."
-    },
-    {
-      "cat": "Çorlu",
-      "catId": "corlu",
-      "title": "Tekirdağ Çorlu’da 13 ve 14 Kasım’da Elektrik Kesintisi Yaşanacak",
-      "source": "Batman Rehber Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSEZQSDBqZnQwdnd2VmRxZ2lzVDQwU2d0R0Rfc0x4R1FUbWZjLXA5Mk1pdDVEZGNNb09GZWZLMTZKTGVmTXlCeWFuc1VPZ2hlYkJKZ0VRblBRNFVVb1FwQVRueWJSaUFLdjFzNEhYV0I4STVGOW44b3o2VElpUnFOMTM4cXNaSTZYbkRYN1dtYlFZRUJpR1VXUFlLQQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:07:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Tekirdağ’ın Çorlu ilçesinde 13 ve 14 Kasım tarihleri arasında planlı elektrik kesintisi gerçekleşecek."
+      "cat": "MHA Haber",
+      "catId": "mha",
+      "title": "İNCİRLİ: SAĞLIKTA 5 YILLIK ULUSAL TARAMA PROGRAMI BAŞLATACAĞIZ",
+      "source": "",
+      "link": "https://www.mhahaber.com/incirli-saglikta-5-yillik-ulusal-tarama-programi-baslatacagiz",
+      "pubDate": "Thu, 12 Nov 2026 14:53:54 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-91.webp",
+      "text": "Cumhuriyetçi Türk Partisi (CTP) Küçük Kaymaklı Örgüt binası düzenlenen törenle açıldı.\nAçılışa, CTP Genel Başkanı Sıla Usar İncirli, Genel Sekreter Mehmet Kale Kişi, Girne Belediye Başkanı Murat Şenkul, Lefkoşa Türk Belediyesi (LTB) Başkanı Mehmet Harmancı, milletvekilleri, belediye meclis üyeleri, adaylar partililer ve yurttaşlar katıldı.\nCTP'den yapılan açıklamaya göre, etkinlikte konuşma yapan Sıla Usar İncirli, yeni dönemde herkes için erişilebilir, nitelikli ve güvenli sağlık hizmetleri sunacakları mesajını vererek “Sağlıkta 5 yıllık Ulusal Tarama Programı başlatacağız” dedi.\n-İncirli: “Halk değişim için gün sayıyor”\nİncirli, halktaki değişim beklentisinin giderek güçlendiğini söyledi. Son beş yılda yaşananlara dikkat çeken İncirli, “Karanlık bir dönemden geçti memleket. Usulsüzlük, yolsuzluk, hepsini gördük. Ama halk değişim için gün sayıyorlar artık” dedi.\nHalkın yaşananları unutmayacağını ve sandık günü hesabını soracağını söyleyen İncirli, Yolsuzlukla Mücadele Otoritesi’ni kuracaklarını ve yapılanların kimsenin yanına kalmayacağını vurguladı.\n-“Halkımızın yükünü hafifletecek, güçlü kamusal hizmetler sunacağız”\nSağlık, eğitim ve hayat pahalılığı alanlarında yaşanan sorunları gidermeye kararlı olduklarını vurgulayan İncirli, “Hastanelerde hastaların güvenliği kalmadı. İnsanlarımızın hayat pahalılığı karşısında geçim sıkıntısı yaşıyor. Biz bunların hepsini tamir edeceğiz.” dedi.\nYeni dönemde güçlü kamusal hizmetlerle yurttaşların üzerindeki ekonomik yükü hafifleteceklerini belirten İncirli, herkes için erişilebilir, nitelikli ve güvenli sağlık hizmeti sunacaklarını kaydetti.\nCTP’nin sağlık politikalarını paylaşan İncirli, “Genel Sağlık Sigortası kademeli olarak hayata geçirilecek. Hastanın sağlık hizmetlerine erişimi kolaylaşacak, sağlık harcamalarının aileler üzerindeki yükü azaltılacak” dedi.\nİncirli, ayrıca, sağlık sisteminin yalnızca hastaları tedavi etmeyeceğini hastalanmadan korumayı esas alacağının altını çizerek, “Kanser, diyabet, kalp ve böbrek hastalarına yönelik 5 yıllık Ulusal Tarama Programı başlatılacak. Gezici tarama araçlarıyla hizmet kırsal bölgelere ulaştırılacak” şeklinde konuştu.\n-“CTP güçlü kadrolarıyla yeni döneme hazır”\nİncirli, CTP’nin eşitlik, adalet, emek, demokrasi ve barış mücadelesinden güç aldığını da söyleyerek, “İnsanlarımıza eşit davranacağız. Doğdukları yere, inançlarına, kökenlerine göre insanları ayırmadan herkese adil, herkese eşit davranacağız” dedi.\nÖzellikle gençlere kendi geleceklerini kurabilecekleri olanaklar sunacaklarını da belirten İncirli, CTP’nin güçlü kadrolarıyla yeni döneme hazır olduğunu dile getirdi.\n-Barçın: “6 Aralık'ta bu çürümüş düzen yıkılacak ve halkın iktidarı hep birlikte kurulacak”\nCTP Lefkoşa İlçe Başkanı ve Milletvekili Devrim Barçın da konuşmasına “Küçük Kaymaklı'dan, Lefkoşa'nın ve tüm ülke geleceğine uzanan güçlü bir yürüyüşün meşalesini yakıyoruz. Aralık ayında hem yerelde hem genelde iki büyük sınavı, iki seçimi bir arada yaşayacağız. Cumhuriyetçi Türk Partisi'nin merkezi hükümette iktidara yürüdüğüne artık tüm toplum inanmış durumdadır. Bizler de tüm inancımız ve kararlı kadrolarımızla bu yürüyüşte hazırız” sözleriyle başladı.\nBarçın, CTP’nin halkın iktidarını kuracağını ifade ederek “6 Aralık'ta bu çürümüş düzen yıkılacak ve halkın iktidarı hep birlikte kurulacak. Bizler bu gidişata dur demek ve halkın iradesine sonuna kadar sahip çıkmak adına güçlü bir birliktelik kurduk” dedi.\n-Harmancı: “Ortak değerlerde buluştuğumuzda başaramayacağımız hiçbir şey yok”\nLTB B",
+      "summary": "Cumhuriyetçi Türk Partisi (CTP) Genel Başkanı Sıla Usar İncirli, sağlık hizmetlerine erişimi iyileştirmek amacıyla 5 yıllık Ulusal Tarama Programı başlatacaklarını duyurdu; programda kanser, diyabet, kalp ve böbrek hastalıkları için mobil tarama araçları kullanılacak. Ayrıca Genel Sağlık Sigortası’nın kademeli hayata geçirilmesi ve Yolsuzlukla Mücadele Otoritesi kurulması gibi diğer politikalar da açıklandı."
     },
     {
       "cat": "MHA Haber",
@@ -698,60 +693,50 @@
       "pubDate": "Thu, 12 Nov 2026 12:14:41 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-83.webp",
       "summary": "Rum Yönetimi, “Great Sea Interconnector” (GSI) projesi kapsamında Fransız araştırma gemisi “Abeille Marengo”nin hareketiyle ilgili Türkiye’ye karşı bir NAVTEX yayımlayarak, geminin Rum’un ilan ettiği münhasır ekonomik bölgesi içinde araştırma yapacağını duyurdu. Türkiye, geminin Türkiye kıta sahanlığı içinde ve yetki alanları içinde hareket ettiğini belirten bir NAVTEX ve ardından Yunanistan’ın da karşı NAVTEX yayımladığını bildirdi. Rum Savunma Bakanı Vasilis Palmas, GSI projesinin uluslararası hukuk çerçevesinde ilerlediğini ve faaliyetlerin 19 Kasım’da Rum’un MEB’sine gireceğini söyledi."
-    },
-    {
-      "cat": "MHA Haber",
-      "catId": "mha",
-      "title": "40 KİLO SARIMSAKLA YAKALANDILAR, CEZAEVİNE GÖNDERİLDİLER!",
-      "source": "",
-      "link": "https://www.mhahaber.com/40-kilo-sarimsakla-yakalandilar-cezaevine-gonderildiler",
-      "pubDate": "Thu, 12 Nov 2026 12:12:59 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-82.webp",
-      "summary": "Ercan Havalimanı'nda gümrüğe beyan edilmemiş 40 kg sarımsak taşıyan A.H. ve R.H. 'Gümrüksüz mal tasarrufu' suçundan mahkemede 92 000 TL ceza kesildi ve 7 gün içinde cezaevine gönderildi. Polis, iki kişinin 30 günlük turist vizesiyle giriş yaptığını ve ödemeyi kabul etmediklerini belirtti."
     }
   ],
   "weather": {
-    "temp": 18.4,
-    "desc": "Parçalı bulutlu"
+    "temp": 17.8,
+    "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6255.55,
-    "ceyrek_altin_try": 10947.21
+    "gold_gram_try": 6260.24,
+    "ceyrek_altin_try": 10955.42
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3589858,
-      "change_pct": -2.8420089966811366
+      "price": 3584780,
+      "change_pct": -3.375301074208814
     },
     {
       "label": "Ethereum",
-      "price": 100393,
-      "change_pct": -2.7176481760473306
+      "price": 100436,
+      "change_pct": -3.4325767461045134
     }
   ],
   "stocks": [
     {
       "label": "BIST 100",
-      "price": 11806.87,
-      "change_pct": 1.24
+      "price": 11811.19,
+      "change_pct": 1.28
     },
     {
       "label": "S&P 500",
-      "price": 7584.56,
-      "change_pct": -0.46
+      "price": 7607.46,
+      "change_pct": -0.16
     },
     {
       "label": "Nasdaq",
-      "price": 25298.31,
-      "change_pct": -0.66
+      "price": 25356.31,
+      "change_pct": -0.43
     },
     {
       "label": "THY",
-      "price": 319.5,
-      "change_pct": 1.51
+      "price": 319.0,
+      "change_pct": 1.35
     },
     {
       "label": "Aselsan",
@@ -760,53 +745,53 @@
     },
     {
       "label": "Garanti BBVA",
-      "price": 152.5,
-      "change_pct": -1.49
+      "price": 152.6,
+      "change_pct": -1.42
     },
     {
       "label": "BİM",
-      "price": 387.0,
-      "change_pct": 2.52
+      "price": 388.0,
+      "change_pct": 2.78
     },
     {
       "label": "Ereğli Demir Çelik",
-      "price": 32.1,
-      "change_pct": 1.78
+      "price": 32.06,
+      "change_pct": 1.65
     },
     {
       "label": "Şişecam",
-      "price": 36.04,
-      "change_pct": 2.27
+      "price": 36.02,
+      "change_pct": 2.21
     },
     {
       "label": "Apple",
-      "price": 358.71,
-      "change_pct": 0.94
+      "price": 357.68,
+      "change_pct": 0.65
     },
     {
       "label": "Microsoft",
-      "price": 524.25,
-      "change_pct": 0.6
+      "price": 524.82,
+      "change_pct": 0.71
     },
     {
       "label": "Nvidia",
-      "price": 160.78,
-      "change_pct": -7.45
+      "price": 164.35,
+      "change_pct": -5.4
     },
     {
       "label": "Tesla",
-      "price": 390.76,
-      "change_pct": -0.01
+      "price": 389.36,
+      "change_pct": -0.37
     },
     {
       "label": "Meta",
-      "price": 623.83,
-      "change_pct": -0.79
+      "price": 622.62,
+      "change_pct": -0.98
     },
     {
       "label": "Alphabet",
-      "price": 295.06,
-      "change_pct": 0.55
+      "price": 295.48,
+      "change_pct": 0.69
     }
   ]
 }

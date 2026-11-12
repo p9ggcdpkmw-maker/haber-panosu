@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-12T18:45:38.003036+00:00",
+  "updated": "2026-11-12T18:49:43.161829+00:00",
   "briefings": {
-    "genel": "Analiz hazırlanamadı.",
-    "teknoloji": "Analiz hazırlanamadı.",
-    "ekonomi": "Analiz hazırlanamadı.",
-    "gundem": "Analiz hazırlanamadı."
+    "genel": "Yapay zekâ, iş gücünden istihdama, yatırım stratejilerinden regülasyona kadar pek çok alanda dönüşüm yaratıyor. Bu süreç, hem fırsatları hem de riskleri beraberinde getirerek politika yapıcıların ve işletmelerin dikkatli bir denge kurmasını zorunlu kılıyor.",
+    "teknoloji": "Teknoloji sektörü, yapay zekânın yazılım teslimatında standartlaştırılması, Nvidia’nın grafik işlemcilerinden AI altyapısına yönelmesi ve Çin’in uzay araştırma uydularını fırlatmasıyla yeni bir evrim geçiriyor. Ayrıca, yapay zekâ odaklı fonların ve yetenek yönetimi stratejilerinin artması, sektörde inovasyon hızını artırıyor.",
+    "ekonomi": "Gartner’ın 2030’a kadar yapay zekâ sayesinde iş kaybından daha fazla yeni istihdam yaratılacağı öngörüsü, yatırımcıların AI‑tabanlı projelere yönelmesini tetikliyor; Norwest’in 4 milyar dolarlık fonu bu trendin bir yansıması. Aynı zamanda, yapay zekâya ilişkin telif hakları tartışmaları, uzun vadeli ekonomik modelleri de şekillendirecek.",
+    "gundem": "Demokratik süreçlerde yapay zekâ kullanımına denetim çağrısı, etik ve şeffaflık gereksinimlerini ön plana çıkarıyor; MESAM’ın telif hakları raporu da benzer bir düzenleyici ihtiyacı işaret ediyor. Yetenek mücadelesi ise, nitelikli iş gücünün çekilmesi ve elde tutulması için stratejik politikaların geliştirilmesini zorunlu kılıyor."
   },
   "items": [
     {
@@ -90,6 +90,17 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
+      "title": "Jensen Huang'ın yerine Nvidia'nın geçici CEO'su olarak kim atandı?",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWTE1BZ2tQLVctOWM0dHl1ZzJpVnZqMVFOOFdQb3ppaWljZVl5a2JHQ2VGYmNLeUhvX0FIbDkwSzk3dGxGNGdmVjYxUjNuY3dqeW1GT0lHUWRzMUpFRHN3U3BJUnZuS2I5Q3NKcDkzaDlFaVM2NlBtYTRES2N6WDQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 15:21:31 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Nvidia'nın kurucu CEO'su Jensen Huang'ın yerine geçici bir CEO atanmış."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
       "title": "MESAM'dan yapay zekaya telif resti: Rapor tanıtıldı",
       "source": "Odatv",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdmZOd3JhekROdWU0aVdOZWZ5S2dVVVdGTmRvT2gwTy1Yb2VUbjhQTGxjY2lVYTVuU2J0d3lNZkdlY0NKNTQ5QWpDd0NrQjdyQjdXVjFMWUJkbG0wYUpWZy1rekRPOXhKXzd3NGNwN3R4a09sOVVkVFc1eVI5bExxNUplN1NIMTEtaDU4VnN6MmJ4Szg5S2RqRzF3?oc=5",
@@ -116,16 +127,6 @@
       "pubDate": "Thu, 12 Nov 2026 14:44:31 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Vietnam.vn, genç öğrenciler için yapay zeka kullanımının sınırlandırılmasını düşündüklerini belirtti. Bu öneri, gençlerin teknolojiye erişimini düzenlemeyi amaçlıyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Bảo vệ an toàn môi trường số, quản lý AI và thể chế thử nghiệm công nghệ",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUWxGeGdxLWFyQVBHY2JVdGNwdFZYMW9JMmkwRGpQOHF6XzNoaFQ3VHJPeTJrLU03aWxmUXQzRUZoVjUwUkduTXM1bVFxSlpKLTBQanZ0SVk2UGFrYnJsYkttTXA3dFZZY3BRMzgtNDZBU3U2cktLc1k0enBLQ1M4djFKeU8zQ2pNakQyMG8xb3lXSVVXTHp0MHVzVHI5UQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 14:44:31 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Vietnam.vn, dijital ortamın güvenliğini koruma, yapay zekanın yönetimi ve teknoloji denemeleri için yeni bir çerçeve oluşturma konularını ele alıyor. Bu adımlar, dijital ekosistemin güvenli ve kontrollü gelişimini hedefliyor."
     },
     {
       "cat": "Bilim",
@@ -255,7 +256,6 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWxaN0tPUFI1US1TR2ppVnJqdmVuQTJLWmI0LVNDSDc0YkNOdjgxQUQ2elZjQjRQZzlyVlZuTGU4NndKOFJVT3dUeXBFNUhHV2c0d05lVndNVzZoZHZ6YWVqel8zN2l5Wnc0OXg3M3RxVWIxZ0RuMUptWm13YWRTR0dB?oc=5",
       "pubDate": "Thu, 12 Nov 2026 18:30:16 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başlığa göre Jensen Huang, Nvidia CEO'su olarak görevinden istifa etti ve istifasının nedeni ilişkiler olduğu belirtiliyor."
     },
     {
@@ -291,12 +291,13 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Gunman dead after killing 1, injuring 4 in mass shooting at gym in DC's Logan Circle",
-      "source": "WJLA",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRUZMUGh2T1VCZnAxNUwwX1Rjb1ZJR1FaYllSMi10N0FwX3VTRVBBMFl6Y3J5U09Lb2tGZnl4eHlCekhBRmdFTE1XeUNyRG1NZzFVMWp3XzJYOEhWOVBuT01qTjMzblF6U3pNTVdIRGZRams5WlJjbUp0T3ZXYlRVOWNSdjBsakFWVEFLU3lSbXhkb05lbzFWSDdCdWtUdF9sbG05cmxmSndwVWxEa1dEd1AzVUw0alA1?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:32:35 GMT",
+      "title": "1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead",
+      "source": "CBS News",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95dkVUTlk2aDQ5YWFfUFBxNWRuSDBoQkdsRlpwN2J6ZTZaSDF0STRpTktzVm0yQTBEd3Z1XzVJT2tXb2M3cVFyejJRZ2k1R3JuMlJpQ1pnRmw3YXJ1NEpaY0xKblVHcnd1NmFoMkt3?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:34:08 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. DC'nin Logan Circle bölgesindeki bir spor salonunda gerçekleşen toplu silahlı saldırıda bir kişi öldü, dört kişi yaralandı ve saldırgan olay yerinde öldürüldü."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Washington, D.C.'nin Logan Circle semtinde bir silahlı saldırıda 1 kişi hayatını kaybetmiş, 4 kişi yaralanmış ve şüpheli de olayda ölmüş."
     },
     {
       "cat": "Dünya",
@@ -306,7 +307,6 @@
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajAtNlVXc1lFYkFYbVZ6eU4zcjFWeUlBNWtLZ2VoNFBHbzlTVmhrRnpabE1vOUpZMWRkUHl0cWZHRXZ1TzFaX0NoSGJyQnFDWURvWENvRXp3OHNfcDk4NHVYWHlWMEQzenVkV095TmZQTmw4ZjFCVFdjUFNiWGY3ZC0zakxFbTJ5QWkyYlUzN1dFWFZTYnBMMllrMEJ3RjIzMkNMRGNwc1ZXRW5oQkFBak9hel8zd0ttMlh1aWxSNA?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:03:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Bilim insanları, derin uzaydan her sekiz dakikada bir gelen gizemli radyo sinyallerini keşfettiklerini duyurdu."
     },
     {
@@ -318,16 +318,6 @@
       "pubDate": "Thu, 12 Nov 2026 16:55:00 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. ABD temsilcileri, Ukrayna konularını görüşmek üzere Moskova'da Putin ile bir araya geldi ve ardından Dublin'e giderek Zelenskyy ile görüşmeyi planladı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Pentagon backs war memorial guard who reprimanded Hegseth's group",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xS1l3eVdMTDdpeVFYejJObnEzZ1JHYjRVckdPbXdSRjJLdGV2SHlQZzRpcklOWlZSZS14dFlHRUp0aW91VDNsOU9iNWpKRGYxQkJ0a1lWam5SZ28?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:52:53 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Pentagon, Hegseth'in grubunu uyardığı için savaş anıtı bekçisini desteklediğini açıkladı."
     },
     {
       "cat": "Dünya",
@@ -347,18 +337,18 @@
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMDlPaXJTdDNSaVpCTzdGaWFTNWdXVk1fblJyVmdSMmVDbzQ4V2c0b2JqaFpkdUlYV044ZFRXaDg5X3dNbUl0S2R4empGZExhYTlJZVM3S0NmWm51N291MUY3bEdIVVBJVjBCOEI3QjNGMDh0YUc5cGtrVUtaNzJhZnZ2RWJ3OW00YzFpNTZkT0NtUmc?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:20:04 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. SS United States, Meksika Körfezi'nin dibine son yolculuğunu gerçekleştiriyor."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Man Utd's Mauricio Pochettino pursuit and Michael Carrick decisions",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IaUFNY0pfYVNpQVVfXzR0RGNaNHlZYVBJNzV6aFBteDVFTjQ3ZG05LTRfWjBqZW00cEtaUGVyYUhXUGFSSngxY2NVdGZDMTBzMlF4ZXVIMWJwTkgyQ3dEWE90MjlDZ0NT?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:12:39 GMT",
+      "title": "Hegseth awards medal to soldier who reprimanded him and aides at Arlington Cemetery",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcGVHWjZEelgzdUZvS0xWdXhUbFlycGNtSjhpX19rdHU2N3BoOERVamZNVFNPZXRIWFBWMU1lal9TdW5PVm1BUmphMENYeU9nXzlhbjJoODNnLUlKX3FrVm1tYnRsR3FqREJXenJwMnRIZ1RpRnEwdEp1VE80YU5ObVlOMG12SkVrTl9xTw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:15:28 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Manchester United, Mauricio Pochettino'un takibe alınması ve Michael Carrick'in kararlarıyla ilgili gelişmeleri ele alıyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Hegseth, Arlington Mezarlığı'nda kendisini ve yardımcılarını uyarı yapan bir askere madalya takdim etmiş."
     },
     {
       "cat": "Dünya",
@@ -369,6 +359,17 @@
       "pubDate": "Thu, 12 Nov 2026 16:01:18 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı; başlığa dayanarak, Nvidia ile ilgili sorunların hisse senetlerini düşürdüğü ve petrol fiyatlarının hafifçe gerilediği belirtiliyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "TV’s Biggest Salaries: Zendaya, Nicolas Cage, Selena Gomez and More Stars Earning Huge Paychecks",
+      "source": "Variety",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS3lFZVZhLXFJbS1GcUNuMEdvZ2lmYXJxUWRyTEVxZ2Y4OFl0VGJzaVN1M2IxdWFrTkF1ZnRvZlg5R2NFSGl4b1RmSjlIZEcxQVR6Z3NSaDBjclFQMWN2VGpmU1EtZUcwekMwR1hFeWluUnA1aERJSVNJR0lmMWtycHdCaXJkYTRUUlhvemRHWVZfMktxR2ZvNEhSZ2dMVVV6NGVoanlB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:00:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, TV’de en yüksek maaşları alan oyuncular arasında Zendaya, Nicolas Cage ve Selena Gomez gibi ünlüler bulunuyor."
     },
     {
       "cat": "Gündem",
@@ -563,6 +564,17 @@
     {
       "cat": "MHA Haber",
       "catId": "mha",
+      "title": "CEVAD PREKAZİ SON YOLCULUĞUNA UĞURLANDI!",
+      "source": "",
+      "link": "https://www.mhahaber.com/cevad-prekazi-son-yolculuguna-ugurlandi",
+      "pubDate": "Thu, 12 Nov 2026 18:29:58 GMT",
+      "image": null,
+      "text": "Sırbistan'ın başkenti Belgrad'da, 8 Kasım'da 69 yaşında hayatını kaybeden eski Galatasaraylı futbolcu Cevad Prekazi için cenaze töreni düzenlendi.\nPrekazi, vasiyeti üzerine Galatasaray ve Partizan formalarının bulunduğu tabutunun başında dualar edilmesinin ardından son yolculuğuna uğurlandı.\nSırbistan’ın başkenti Belgrad’daki Bayraklı Camii’nde yapılan cenaze törenine Türkiye Cumhuriyeti Belgrad Büyükelçisi İlhan Saygılı, Galatasaray Spor Kulübü Başkanı Dursun Aydın Özbek, Yönetim Kurulu Genel Sekreteri Can Natan, Yönetim Kurulu Muhasip Üyesi Burak Kutluğ, Yönetim Kurulu Üyeleri Eray Yazgan ile Ozan Bingöl Yurtsever, Partizan Kulübü Başkanı Rasim Ljajic, eski futbolcumuz Sasa Ilic ile yakınları ve sevenleri katıldı.\nCevad Prekazi’nin naaşı öğle namazına müteakip kılınan cenaze namazı sonrası Belgrad’daki Lešće Mezarlığı’nda toprağa verildi.",
+      "summary": "69 yaşındaki eski Galatasaraylı futbolcu Cevad Prekazi, 8 Kasım’da Belgrad’da hayatını kaybetti ve cenazesi Bayraklı Camii’nde düzenlenen törenle anıldı. Törende Türkiye Cumhuriyeti Belgrad Büyükelçisi, Galatasaray ve Partizan kulüp yetkilileri ve yakınları bulundu. Cenaze namazının ardından naaşı Belgrad’daki Lešće Mezarlığı’na defnedildi."
+    },
+    {
+      "cat": "MHA Haber",
+      "catId": "mha",
       "title": "ALSANCAK VE LAPTA’NIN BAZI BÖLGELERİNDE YARIN ELEKTRİK KESİNTİSİ YAPILACAK",
       "source": "",
       "link": "https://www.mhahaber.com/alsancak-ve-laptanin-bazi-bolgelerinde-yarin-elektrik-kesintisi-yapilacak",
@@ -669,16 +681,6 @@
       "pubDate": "Thu, 12 Nov 2026 16:26:36 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/d7e71936-722c-41f5-a895-8704a8850e64-960x586.webp",
       "summary": "Belçika, 2 Kasım’da süpermarketlerin soğutma sistemlerini etkileyen siber saldırıları soruşturuyor ve İçişleri Bakanı Bernard Quintin, saldırıların İran bağlantılı aktörler tarafından gerçekleştirilmiş olabileceğine dair bulgular bulunduğunu açıkladı. Saldırılar Fransa, Lüksemburg, İsveç, İrlanda, Hollanda, Finlandiya ve Estonya gibi ülkelerde de benzer gıda bozulmalarına yol açtı. Quintin, savunma bakanlığının konuyu değerlendirmesini ve Avrupa‑Birliği’nin İran’a yönelik yaptırımlarını desteklemesini istedi."
-    },
-    {
-      "cat": "MHA Haber",
-      "catId": "mha",
-      "title": "İNCİRLİ, CEVDET YILMAZ İLE ANTALYA’DA BİR ARAYA GELDİ!",
-      "source": "",
-      "link": "https://www.mhahaber.com/incirli-cevdet-yilmaz-ile-antalyada-bir-araya-geldi",
-      "pubDate": "Thu, 12 Nov 2026 15:59:05 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BEYAZ-95.webp",
-      "summary": "Cumhuriyetçi Türk Partisi Genel Başkanı Sıla Usar İncirli, Antalya’da COP31 Liderler Zirvesi kapsamında Cumhurbaşkanı Yardımcısı Cevdet Yılmaz ile bir araya geldi. Görüşmede Kıbrıs Türk halkının ekonomik ve sosyal kalkınması, sürdürülebilir büyüme, yeşil dönüşüm, enerji güvenliği ve iklim adaleti konuları ele alındı. İncirli, Türkiye ile Kuzey Kıbrıs arasındaki tarihsel bağların stratejik iş birliğine dayandığını vurguladı."
     }
   ],
   "weather": {
@@ -688,19 +690,19 @@
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6279.96,
-    "ceyrek_altin_try": 10989.93
+    "gold_gram_try": 6275.43,
+    "ceyrek_altin_try": 10982.0
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3609316,
-      "change_pct": -3.5221073584514926
+      "price": 3601946,
+      "change_pct": -3.7175051502517396
     },
     {
       "label": "Ethereum",
-      "price": 101348,
-      "change_pct": -3.260482926727034
+      "price": 101169,
+      "change_pct": -3.443802240478145
     }
   ],
   "stocks": [
@@ -711,13 +713,13 @@
     },
     {
       "label": "S&P 500",
-      "price": 7618.98,
-      "change_pct": -0.01
+      "price": 7614.13,
+      "change_pct": -0.07
     },
     {
       "label": "Nasdaq",
-      "price": 25438.07,
-      "change_pct": -0.11
+      "price": 25411.12,
+      "change_pct": -0.22
     },
     {
       "label": "THY",
@@ -751,33 +753,33 @@
     },
     {
       "label": "Apple",
-      "price": 355.8,
-      "change_pct": 0.12
+      "price": 355.86,
+      "change_pct": 0.14
     },
     {
       "label": "Microsoft",
-      "price": 525.5,
-      "change_pct": 0.84
+      "price": 523.58,
+      "change_pct": 0.47
     },
     {
       "label": "Nvidia",
-      "price": 165.05,
-      "change_pct": -5.0
+      "price": 164.59,
+      "change_pct": -5.26
     },
     {
       "label": "Tesla",
-      "price": 391.48,
-      "change_pct": 0.17
+      "price": 390.72,
+      "change_pct": -0.02
     },
     {
       "label": "Meta",
-      "price": 624.72,
-      "change_pct": -0.64
+      "price": 624.03,
+      "change_pct": -0.75
     },
     {
       "label": "Alphabet",
-      "price": 301.56,
-      "change_pct": 2.76
+      "price": 301.17,
+      "change_pct": 2.63
     }
   ]
 }

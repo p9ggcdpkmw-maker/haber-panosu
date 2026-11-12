@@ -54,24 +54,25 @@
     position: fixed; top: 20px; left: 20px; bottom: 20px; width: 80px;
     border-radius: var(--radius-lg); z-index: 1000;
     display: flex; flex-direction: column; align-items: center;
-    padding: 24px 0; gap: 2px; overflow: hidden; white-space: nowrap;
+    padding: 24px 0; gap: 2px; overflow-y: auto; overflow-x: hidden; white-space: nowrap;
     transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .sidebar::-webkit-scrollbar { display: none; }
   .sidebar:hover { width: 240px; align-items: flex-start; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
 
-  .logo { display: flex; align-items: center; height: 40px; margin-bottom: 24px; width: 100%; justify-content: center; transition: all 0.3s; }
+  .logo { display: flex; align-items: center; height: 40px; margin-bottom: 16px; width: 100%; justify-content: center; transition: all 0.3s; flex-shrink: 0;}
   .sidebar:hover .logo { justify-content: flex-start; padding-left: 30px; }
   .logo-text { font-size: 20px; font-weight: 800; color: var(--text-main); opacity: 0; transition: opacity 0.2s; display: none; }
   .sidebar:hover .logo-text { opacity: 1; display: block; }
   .logo-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 15px var(--accent); flex-shrink: 0;}
 
-  .nav-separator { width: 40px; height: 1px; background: var(--border); margin: 8px 0; transition: width 0.3s; }
+  .nav-separator { width: 40px; height: 1px; background: var(--border); margin: 8px 0; transition: width 0.3s; flex-shrink: 0;}
   .sidebar:hover .nav-separator { width: 80%; }
 
   .nav-item {
-    display: flex; align-items: center; width: 100%; height: 48px;
+    display: flex; align-items: center; width: 100%; height: 44px;
     cursor: pointer; transition: background 0.2s;
-    justify-content: center;
+    justify-content: center; flex-shrink: 0;
   }
   .sidebar:hover .nav-item { justify-content: flex-start; padding-left: 30px; }
   .nav-item:hover { background: rgba(255,255,255,0.05); }
@@ -123,7 +124,7 @@
   .search-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 12px 20px; color: var(--text-main); outline: none; width: 280px; transition: all 0.3s; }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
 
-  /* 🚀 RADAR AI KUTUSU VE SEKMELERİ */
+  /* RADAR AI KUTUSU VE SEKMELERİ */
   .ai-briefing { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.05)); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; overflow: hidden; transition: opacity 0.3s; }
   .ai-briefing::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); box-shadow: 0 0 15px var(--accent); }
   .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
@@ -131,7 +132,6 @@
   .ai-title { font-size: 18px; font-weight: 700; color: #fff; }
   .ai-badge { font-size: 10px; background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 10px; font-weight: 700; letter-spacing: 0.5px;}
   
-  /* Sekmeler */
   .ai-tabs { display: flex; gap: 8px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
   .ai-tabs::-webkit-scrollbar { display: none; }
   .ai-tab { background: rgba(255,255,255,0.05); border: 1px solid transparent; color: var(--text-muted); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
@@ -180,7 +180,7 @@
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
 
-  /* --- MODAL --- */
+  /* --- MODAL (Haber ve Ayarlar) --- */
   .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(12px); display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 2000; padding: 20px; }
   .modal-overlay.active { opacity: 1; pointer-events: all; }
   .modal-content { background: var(--bg-panel); border: 1px solid var(--border); border-radius: var(--radius-lg); width: 100%; max-width: 650px; max-height: 90vh; overflow-y: auto; padding: 32px; transform: scale(0.95); transition: transform 0.3s; position: relative; box-shadow: 0 24px 64px rgba(0,0,0,0.6); }
@@ -193,6 +193,21 @@
   .modal-body { font-size: 16px; line-height: 1.8; color: #cbd5e1; }
   .modal-link { display: inline-block; margin-top: 32px; background: var(--text-main); color: var(--bg-main); text-decoration: none; padding: 14px 28px; border-radius: 12px; font-weight: 600; text-align: center; transition: transform 0.2s;}
   .modal-link:hover { transform: translateY(-2px); }
+
+  /* 🚀 AYARLAR MODALI TASARIMI */
+  .pref-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px;}
+  .pref-item { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid var(--border); cursor: pointer; transition: all 0.2s; }
+  .pref-item:hover { background: rgba(255,255,255,0.08); }
+  .pref-label { font-weight: 600; font-size: 15px; display: flex; align-items: center; gap: 12px;}
+  .pref-dot { width: 10px; height: 10px; border-radius: 50%; }
+  /* Özel Checkbox */
+  .checkbox-custom { width: 24px; height: 24px; border-radius: 6px; border: 2px solid var(--text-muted); display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .pref-item.selected .checkbox-custom { background: var(--accent); border-color: var(--accent); }
+  .checkbox-custom::after { content: '✓'; color: white; font-size: 14px; font-weight: bold; display: none; }
+  .pref-item.selected .checkbox-custom::after { display: block; }
+  
+  .btn-save { width: 100%; padding: 14px; background: var(--accent); color: white; border: none; border-radius: 12px; font-weight: bold; font-size: 16px; cursor: pointer; transition: background 0.2s; }
+  .btn-save:hover { background: #7c3aed; }
 
   /* --- 📱 MOBİL UYUMLULUK --- */
   @media (max-width: 768px) {
@@ -263,6 +278,14 @@
     <span class="nav-text">Tümü</span>
   </div>
   <!-- Kategoriler JS ile eklenecek -->
+
+  <!-- YENİ: AYARLAR BUTONU -->
+  <div style="flex:1"></div>
+  <div class="nav-separator"></div>
+  <div class="nav-item" onclick="openSettings()">
+    <div class="nav-dot" style="background:var(--text-muted); color:var(--text-muted); width:16px; height:16px; display:flex; align-items:center; justify-content:center; font-size:14px;">⚙️</div>
+    <span class="nav-text" style="color:var(--text-main); font-weight:600;">Tercihlerim</span>
+  </div>
 </aside>
 
 <!-- ANA İÇERİK -->
@@ -297,7 +320,6 @@
         <input type="search" class="search-box" id="searchInput" placeholder="Haberlerde ara...">
       </div>
 
-      <!-- 🚀 RADAR AI SEKMELİ ANALİZ KUTUSU -->
       <div class="ai-briefing glass" id="aiBriefingCard">
         <div class="ai-header">
           <div class="ai-icon">✨</div>
@@ -305,7 +327,6 @@
           <div class="ai-badge">RADAR AI</div>
         </div>
         
-        <!-- Sekmeler -->
         <div class="ai-tabs">
           <button class="ai-tab active" onclick="switchBriefing('genel', this)">Günün Özeti</button>
           <button class="ai-tab" onclick="switchBriefing('teknoloji', this)">Teknoloji</button>
@@ -313,7 +334,6 @@
           <button class="ai-tab" onclick="switchBriefing('gundem', this)">Gündem</button>
         </div>
 
-        <!-- İçerik -->
         <div class="ai-content" id="aiBriefingContent">Yapay zeka analiz ediyor...</div>
       </div>
       
@@ -333,16 +353,33 @@
   </div>
 </div>
 
-<!-- MODAL -->
+<!-- HABER DETAY MODALI -->
 <div class="modal-overlay" id="newsModal">
   <div class="modal-content">
-    <button class="modal-close" onclick="closeModal()">✕</button>
+    <button class="modal-close" onclick="closeModal('newsModal')">✕</button>
     <div class="modal-header">
       <div class="modal-title" id="modalTitle"></div>
       <div class="modal-meta" id="modalMeta"></div>
     </div>
     <div class="modal-body" id="modalBody"></div>
     <a href="#" class="modal-link" id="modalLink" target="_blank">Haberi Kaynağında Oku ↗</a>
+  </div>
+</div>
+
+<!-- YENİ: AYARLAR MODALI -->
+<div class="modal-overlay" id="settingsModal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('settingsModal')">✕</button>
+    <div class="modal-header">
+      <div class="modal-title">Kişiselleştir</div>
+      <div class="modal-meta">İlgilendiğin kategorileri seç, sadece onları gör.</div>
+    </div>
+    
+    <div class="pref-list" id="prefList">
+      <!-- Kategoriler JS ile doldurulacak -->
+    </div>
+    
+    <button class="btn-save" onclick="savePreferences()">Tercihleri Kaydet</button>
   </div>
 </div>
 
@@ -366,8 +403,11 @@ let likedLinks = new Set(JSON.parse(localStorage.getItem('radar_liked') || '[]')
 let marketData = null;
 let stocksData = null;
 let cryptoData = null;
-let briefingsData = {}; // YENİ: Kategori analizleri
+let briefingsData = {};
 let currentBriefingTab = 'genel';
+
+// 🚀 YENİ: KULLANICI TERCİHLERİNİ YÜKLE (Boşsa null olur, tümünü gösterir)
+let userPrefs = JSON.parse(localStorage.getItem('radar_prefs')) || null; 
 
 function esc(str) {
   if(!str) return '';
@@ -411,16 +451,28 @@ function startClock() {
   setInterval(tick, 1000);
 }
 
+// 🚀 YENİ: SADECE TERCİH EDİLEN KATEGORİLERİ MENÜYE EKLE
 function initSidebarCategories() {
   const sidebar = document.querySelector('.sidebar');
+  // Eski kategorileri temizle (Tümü ve Ayarlar hariç)
+  document.querySelectorAll('.nav-item[data-id]').forEach(e => {
+    if(e.dataset.id !== 'all') e.remove();
+  });
+
   Object.keys(CATEGORIES).forEach(id => {
+    // Eğer tercih yapılmışsa ve bu kategori tercihler arasında yoksa, menüye EKLEME
+    if (userPrefs && userPrefs.length > 0 && !userPrefs.includes(id)) return;
+
     const cat = CATEGORIES[id];
     const el = document.createElement('div');
     el.className = 'nav-item';
     el.dataset.id = id;
     el.innerHTML = `<div class="nav-dot" style="background:${cat.color}; color:${cat.color}"></div> <span class="nav-text">${cat.label}</span>`;
     el.onclick = () => { switchView('news', document.getElementById('nav-news')); selectCategory(id, el); };
-    sidebar.appendChild(el);
+    
+    // Ayarlar butonunun hemen üstüne ekle
+    const settingsBtn = sidebar.lastElementChild;
+    sidebar.insertBefore(el, settingsBtn);
   });
 }
 
@@ -429,10 +481,16 @@ function selectCategory(id, el) {
   el.classList.add('active');
   activeCat = id;
   
-  const title = id === 'all' ? 'Gündem Akışı' : CATEGORIES[id].label;
+  let title = "Gündem Akışı";
+  if (id === 'all') {
+    title = (userPrefs && userPrefs.length > 0) ? "Kişisel Akış" : "Gündem Akışı";
+  } else {
+    title = CATEGORIES[id].label;
+  }
   document.getElementById('feedTitle').textContent = title + ' Akışı';
   
   const aiCard = document.getElementById('aiBriefingCard');
+  // Eğer Tümü seçiliyse AI kartını göster, diğerlerinde gizle
   if(id === 'all') { aiCard.style.display = 'block'; } 
   else { aiCard.style.display = 'none'; }
 
@@ -442,15 +500,27 @@ function selectCategory(id, el) {
 function renderNews() {
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '';
-  let filtered = activeCat === 'all' ? allNews : allNews.filter(n => n.catId === activeCat);
   
+  let filtered = allNews;
+
+  // 1. Filtreleme: Eğer "Tümü" seçiliyse ve kullanıcı tercihi varsa, sadece tercihleri göster
+  if (activeCat === 'all') {
+    if (userPrefs && userPrefs.length > 0) {
+      filtered = allNews.filter(n => userPrefs.includes(n.catId));
+    }
+  } else {
+    // Belirli bir kategori seçildiyse onu göster
+    filtered = allNews.filter(n => n.catId === activeCat);
+  }
+  
+  // 2. Arama Filtresi
   if (searchQ) {
     const q = searchQ.toLocaleLowerCase('tr');
     filtered = filtered.filter(n => n.title.toLocaleLowerCase('tr').includes(q));
   }
 
   if (filtered.length === 0) {
-    grid.innerHTML = '<div class="status-msg">Bu kategoride henüz haber yok.</div>';
+    grid.innerHTML = '<div class="status-msg">Burada gösterilecek haber bulunamadı. Ayarlardan yeni kategoriler seçebilirsin.</div>';
     return;
   }
 
@@ -481,7 +551,6 @@ function renderNews() {
   });
 }
 
-// 🚀 YENİ: SEKMELER ARASI GEÇİŞ YAPAN FONKSİYON
 function switchBriefing(tabId, btn) {
   currentBriefingTab = tabId;
   document.querySelectorAll('.ai-tab').forEach(t => t.classList.remove('active'));
@@ -494,7 +563,6 @@ function renderAIBriefing() {
   let text = "";
 
   if (currentBriefingTab === 'genel') {
-    // Fallback: Eğer "genel" özet yoksa en son 3 haberi başlık olarak göster
     if (briefingsData && briefingsData.genel) {
       text = briefingsData.genel;
     } else {
@@ -523,8 +591,73 @@ function openModal(item, cat) {
   document.getElementById('newsModal').classList.add('active');
   renderNews(); 
 }
-function closeModal() { document.getElementById('newsModal').classList.remove('active'); }
-document.getElementById('newsModal').addEventListener('click', (e) => { if (e.target.id === 'newsModal') closeModal(); });
+
+// 🚀 YENİ: AYARLAR MODALI MANTIĞI
+function openSettings() {
+  const list = document.getElementById('prefList');
+  list.innerHTML = '';
+  
+  Object.keys(CATEGORIES).forEach(id => {
+    const cat = CATEGORIES[id];
+    // Kullanıcının seçip seçmediğini kontrol et (Tercih yoksa hepsi seçili sayılır)
+    const isSelected = !userPrefs || userPrefs.includes(id);
+    
+    const el = document.createElement('div');
+    el.className = 'pref-item' + (isSelected ? ' selected' : '');
+    el.dataset.id = id;
+    
+    el.innerHTML = `
+      <div class="pref-label">
+        <div class="pref-dot" style="background:${cat.color}"></div>
+        ${cat.label}
+      </div>
+      <div class="checkbox-custom"></div>
+    `;
+    
+    el.onclick = () => {
+      el.classList.toggle('selected');
+    };
+    
+    list.appendChild(el);
+  });
+  
+  document.getElementById('settingsModal').classList.add('active');
+}
+
+function savePreferences() {
+  const selectedIds = [];
+  document.querySelectorAll('.pref-item.selected').forEach(el => {
+    selectedIds.push(el.dataset.id);
+  });
+  
+  // Eğer hepsi seçiliyse tercihi sıfırla (tümünü göster)
+  if (selectedIds.length === Object.keys(CATEGORIES).length) {
+    userPrefs = null;
+    localStorage.removeItem('radar_prefs');
+  } else {
+    userPrefs = selectedIds;
+    localStorage.setItem('radar_prefs', JSON.stringify(userPrefs));
+  }
+  
+  closeModal('settingsModal');
+  
+  // Arayüzü yenile
+  initSidebarCategories();
+  
+  // Eğer kullanıcı seçili olmayan bir kategorideyse, "Tümü"ne dön
+  if (activeCat !== 'all' && !selectedIds.includes(activeCat) && userPrefs) {
+    selectCategory('all', document.querySelector('.nav-item[data-id="all"]'));
+  } else {
+    renderNews();
+  }
+}
+
+function closeModal(modalId) { 
+  document.getElementById(modalId).classList.remove('active'); 
+}
+
+document.getElementById('newsModal').addEventListener('click', (e) => { if (e.target.id === 'newsModal') closeModal('newsModal'); });
+document.getElementById('settingsModal').addEventListener('click', (e) => { if (e.target.id === 'settingsModal') closeModal('settingsModal'); });
 
 function toggleLike(link, btn) {
   if (likedLinks.has(link)) { likedLinks.delete(link); btn.classList.remove('liked'); btn.textContent = '♡'; } 
@@ -541,7 +674,7 @@ async function loadData() {
     marketData = data.market;
     stocksData = data.stocks;
     cryptoData = data.crypto;
-    briefingsData = data.briefings || {}; // YENİ: Analizleri al
+    briefingsData = data.briefings || {};
 
     renderNews();
     renderAIBriefing();
@@ -667,6 +800,7 @@ function renderMarketCharts() {
 
 document.getElementById('searchInput').addEventListener('input', (e) => { searchQ = e.target.value.trim(); renderNews(); });
 
+// Başlatma
 startClock();
 initSidebarCategories();
 loadData();

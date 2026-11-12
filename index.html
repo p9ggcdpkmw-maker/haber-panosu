@@ -11,18 +11,19 @@
 <title>RADAR</title>
 <style>
   :root {
+    /* Glassy Dashboard V30 Renk Paleti */
     --bg-main: #050508;
-    --bg-panel: rgba(25, 25, 35, 0.6);
-    --bg-card: rgba(255, 255, 255, 0.03);
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
+    --bg-panel: rgba(20, 20, 30, 0.7);
+    --bg-card: rgba(255, 255, 255, 0.04);
+    --text-main: #ffffff;
+    --text-muted: #8b8b9e;
     --border: rgba(255, 255, 255, 0.08);
-    --accent: #8b5cf6;
-    --accent-glow: rgba(139, 92, 246, 0.4);
+    --accent: #8b5cf6; /* Mor */
+    --accent-cyan: #06b6d4; /* Turkuaz */
     --green: #10b981;
     --red: #ef4444;
-    --radius-lg: 24px;
-    --radius-md: 16px;
+    --radius-lg: 20px;
+    --radius-md: 14px;
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 
@@ -32,79 +33,73 @@
     color: var(--text-main);
     font-family: var(--font-sans);
     min-height: 100vh;
-    /* Derinlik katan gradient arka plan */
+    /* Glassy V30 Arka Plan Işıkları */
     background-image: 
-      radial-gradient(circle at 10% 10%, rgba(139, 92, 246, 0.15) 0%, transparent 40%),
-      radial-gradient(circle at 90% 90%, rgba(6, 182, 212, 0.1) 0%, transparent 40%);
+      radial-gradient(circle at 15% 10%, rgba(139, 92, 246, 0.15) 0%, transparent 40%),
+      radial-gradient(circle at 85% 90%, rgba(6, 182, 212, 0.1) 0%, transparent 40%);
     background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
-  }
-
-  /* Layout */
-  .app-container {
-    display: grid;
-    grid-template-columns: 260px 1fr 320px;
-    gap: 24px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 24px;
-    height: 100vh;
-    overflow: hidden;
   }
 
   /* Cam Efektli Genel Sınıf */
   .glass {
     background: var(--bg-panel);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
   }
 
-  /* Sol Menü */
+  /* --- MASAÜSTÜ (DESKTOP) YERLEŞİMİ --- */
+  .app-container {
+    display: grid;
+    grid-template-columns: 80px 1fr 320px; /* Sol menü daha ince, görseldeki gibi */
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* Sol Menü (Desktop - İkonik) */
   .sidebar {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    overflow-y: auto;
-    padding: 20px;
+    align-items: center;
+    gap: 12px;
+    padding: 24px 0;
     border-radius: var(--radius-lg);
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .logo {
     font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: var(--text-main);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 24px;
-    padding-left: 8px;
+    color: var(--accent);
+    margin-bottom: 20px;
+    text-shadow: 0 0 15px var(--accent);
   }
-  .logo span { color: var(--accent); text-shadow: 0 0 10px var(--accent-glow); }
   .nav-item {
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 12px 16px;
-    border-radius: var(--radius-md);
-    color: var(--text-muted);
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-weight: 500;
-    font-size: 14px;
     border: 1px solid transparent;
+    position: relative;
   }
-  .nav-item:hover { background: rgba(255,255,255,0.05); color: var(--text-main); }
+  .nav-item:hover { background: rgba(255,255,255,0.05); }
   .nav-item.active { 
-    background: rgba(139, 92, 246, 0.1); 
-    color: var(--text-main); 
-    border-color: rgba(139, 92, 246, 0.2);
-    box-shadow: inset 0 0 20px rgba(139, 92, 246, 0.05);
+    background: rgba(139, 92, 246, 0.15); 
+    border-color: rgba(139, 92, 246, 0.3);
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
   }
-  .nav-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); transition: all 0.3s; }
-  .nav-item.active .nav-dot { background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+  .nav-dot { width: 14px; height: 14px; border-radius: 50%; transition: all 0.3s; }
+  .nav-item.active .nav-dot { box-shadow: 0 0 15px currentColor; }
+  .nav-text { display: none; } /* Masaüstünde de sadece ikon/nokta */
 
   /* Orta Alan */
   .main-feed {
@@ -119,21 +114,21 @@
     align-items: center;
     margin-bottom: 24px;
   }
-  .feed-title { font-size: 24px; font-weight: 700; letter-spacing: -0.5px; }
+  .feed-title { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
   .search-box {
     background: var(--bg-card);
     backdrop-filter: blur(10px);
     border: 1px solid var(--border);
-    border-radius: 20px;
-    padding: 10px 20px;
+    border-radius: 16px;
+    padding: 12px 20px;
     color: var(--text-main);
     outline: none;
     width: 280px;
     transition: all 0.3s;
   }
-  .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px var(--accent-glow); }
+  .search-box:focus { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
 
-  /* Haber Kartları */
+  /* Haber Kartları (Glassy V30 Grid) */
   .feed-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -156,37 +151,33 @@
   .news-card:hover {
     transform: translateY(-4px);
     border-color: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
   }
-  /* Kart hover'da üstten süzülen renkli çizgi */
-  .news-card::before {
-    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent), transparent);
-    opacity: 0; transition: opacity 0.3s;
-  }
-  .news-card:hover::before { opacity: 1; }
-  .news-card.read { opacity: 0.5; filter: grayscale(50%); }
+  .news-card.read { opacity: 0.4; filter: grayscale(80%); }
   
-  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; font-size: 12px; color: var(--text-muted); }
-  .card-cat { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 13px; }
-  .card-title { font-size: 17px; font-weight: 600; line-height: 1.4; margin-bottom: 10px; color: var(--text-main); }
-  .card-snippet { font-size: 13px; color: var(--text-muted); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  /* Görseldeki gibi küçük başlık etiketleri */
+  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 12px; color: var(--text-muted); }
+  .card-cat { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 12px; padding: 4px 10px; border-radius: 20px; background: rgba(255,255,255,0.05);}
+  .cat-dot { width: 6px; height: 6px; border-radius: 50%; }
+  
+  .card-title { font-size: 18px; font-weight: 600; line-height: 1.4; margin-bottom: 10px; color: var(--text-main); }
+  .card-snippet { font-size: 14px; color: var(--text-muted); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .card-image { width: calc(100% + 40px); height: 180px; margin: -20px -20px 16px -20px; object-fit: cover; background: var(--bg-main); }
   
-  .card-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 16px; }
+  .card-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
   .action-btn {
     background: rgba(255,255,255,0.05);
     border: 1px solid rgba(255,255,255,0.05);
     color: var(--text-muted);
     width: 36px; height: 36px;
-    border-radius: 12px;
+    border-radius: 10px;
     display: flex; align-items: center; justify-content: center;
     cursor: pointer; transition: all 0.2s; font-size: 16px;
   }
-  .action-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-main); transform: scale(1.05); }
+  .action-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-main); }
   .action-btn.liked { color: var(--accent); background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.3); }
 
-  /* Sağ Panel (Widgets) - Masaüstü */
+  /* Sağ Panel (Widgets - Sadece Masaüstü) */
   .widgets {
     display: flex;
     flex-direction: column;
@@ -197,7 +188,7 @@
     padding: 24px;
     border-radius: var(--radius-lg);
   }
-  .widget-title { font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin-bottom: 20px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+  .widget-title { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 20px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
   
   .market-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 15px; }
   .market-label { font-weight: 500; color: var(--text-muted); }
@@ -210,11 +201,11 @@
   .weather-desc { font-size: 15px; color: var(--text-main); font-weight: 500; }
   .weather-meta { margin-top: 20px; font-size: 13px; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 16px; display: flex; justify-content: space-between;}
 
-  /* Modal */
+  /* Modal (Açılır Pencere) */
   .modal-overlay {
     position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.7);
-    backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(12px);
     display: flex; align-items: center; justify-content: center;
     opacity: 0; pointer-events: none; transition: opacity 0.3s;
     z-index: 1000; padding: 20px;
@@ -248,51 +239,58 @@
 
   .status-msg { font-size: 14px; color: var(--text-muted); text-align: center; padding: 20px;}
   
-  /* Scrollbar */
   ::-webkit-scrollbar { width: 6px; height: 6px;}
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
-  ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
 
-  /* 📱 MOBİL UYUMLULUK (Borsa ve Hava Durumu En Üste Taşındı) */
+  /* 🚀 MOBİL UYUMLULUK (Glassy V30 Benzeri Yapı) */
   @media (max-width: 1100px) {
-    .app-container { grid-template-columns: 220px 1fr; }
-    .widgets { display: none; } /* Sağ panel masaüstünden kaldırıldı */
+    .app-container { grid-template-columns: 80px 1fr; }
+    .widgets { display: none; } 
   }
   
   @media (max-width: 768px) {
     .app-container { 
-      grid-template-columns: 1fr; 
-      padding: 16px; 
-      height: auto; 
-      overflow: visible; 
-      gap: 16px;
+      grid-template-columns: 60px 1fr; /* Sol menü iyice daraldı */
+      padding: 10px; 
+      gap: 10px;
+      height: 100vh; 
+      overflow: hidden; 
     }
     
-    /* Yan Menü Yatay Kaydırma */
+    /* İnce Sol Menü */
     .sidebar { 
-      flex-direction: row; 
-      overflow-x: auto; 
-      padding: 12px 16px; 
-      gap: 8px; 
+      padding: 16px 0; 
       border-radius: var(--radius-md);
-      align-items: center;
-      scrollbar-width: none;
+      height: 100%;
     }
-    .sidebar::-webkit-scrollbar { display: none; }
     .logo { display: none; }
-    .nav-item { white-space: nowrap; padding: 10px 16px; font-size: 13px; border-radius: 20px; }
+    .nav-item { width: 40px; height: 40px; border-radius: 12px; }
+    .nav-dot { width: 10px; height: 10px; }
+
+    /* Ana İçerik */
+    .main-feed { 
+      overflow-y: auto; 
+      padding-right: 4px; 
+      height: 100%;
+      padding-bottom: 40px;
+    }
+    .feed-header { flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px;}
+    .search-box { width: 100%; padding: 10px 16px;}
     
-    .main-feed { overflow: visible; padding-right: 0; }
-    .feed-header { flex-direction: column; align-items: flex-start; gap: 16px; margin-bottom: 16px;}
-    .search-box { width: 100%; }
-    
-    /* 📌 YENİ: Mobil Ekonomi ve Hava Durumu Paneli (En Üstte) */
+    /* 📌 BORSA PANELİ: Haberlerden Ayrılmış Üst Bant */
     .mobile-widgets {
       display: flex;
       overflow-x: auto;
       gap: 12px;
-      padding-bottom: 8px;
+      padding: 12px 0 16px 0;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border); /* Haberlerden ayıran çizgi */
+      
+      /* Yatay kaydırma izolasyonu */
+      touch-action: pan-x; 
+      overscroll-behavior-x: contain;
+      -webkit-overflow-scrolling: touch;
       scrollbar-width: none;
     }
     .mobile-widgets::-webkit-scrollbar { display: none; }
@@ -303,14 +301,20 @@
       backdrop-filter: blur(16px);
       border: 1px solid var(--border);
       border-radius: var(--radius-md);
-      padding: 16px;
-      min-width: 140px;
+      padding: 12px 16px;
+      min-width: 130px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
-    .mob-widget .label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;}
-    .mob-widget .val { font-size: 20px; font-weight: 700; margin-top: 4px;}
-    .mob-widget .sub { font-size: 12px; font-weight: 600; margin-top: 2px;}
+    /* Glassy V30 renk vurguları */
+    .mob-widget:nth-child(even) { background: linear-gradient(135deg, rgba(139,92,246,0.1), rgba(0,0,0,0)); }
+    .mob-widget:nth-child(odd) { background: linear-gradient(135deg, rgba(6,182,212,0.1), rgba(0,0,0,0)); }
+
+    .mob-widget .label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;}
+    .mob-widget .val { font-size: 18px; font-weight: 700; margin-top: 4px;}
+    .mob-widget .sub { font-size: 11px; font-weight: 600; margin-top: 2px;}
 
     .feed-grid { grid-template-columns: 1fr; gap: 16px; }
+    .card-cat { padding: 2px 8px; }
   }
 </style>
 </head>
@@ -319,9 +323,9 @@
 <div class="app-container">
   <!-- SOL MENÜ -->
   <aside class="sidebar glass">
-    <div class="logo"><span>●</span> RADAR</div>
+    <div class="logo">●</div>
     <div class="nav-item active" data-id="all">
-      <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> Tümü
+      <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> 
     </div>
     <!-- Kategoriler JS ile eklenecek -->
   </aside>
@@ -329,7 +333,7 @@
   <!-- ORTA ALAN -->
   <main class="main-feed">
     
-    <!-- SADECE MOBİLDE GÖRÜNECEK YATAY EKONOMİ/HAVA PANELİ -->
+    <!-- MOBİL EKONOMİ/HAVA PANELİ (Ayrılmış Üst Bant) -->
     <div class="mobile-widgets" id="mobileWidgets">
       <!-- JS ile doldurulacak -->
     </div>
@@ -340,7 +344,7 @@
     </div>
     
     <div class="feed-grid" id="newsGrid">
-      <div class="status-msg">Radar başlatılıyor, veriler çekiliyor... 📡</div>
+      <div class="status-msg">Radar başlatılıyor... 📡</div>
     </div>
   </main>
 
@@ -416,7 +420,8 @@ function initSidebar() {
     const el = document.createElement('div');
     el.className = 'nav-item';
     el.dataset.id = id;
-    el.innerHTML = `<div class="nav-dot" style="background:${cat.color}; box-shadow:0 0 10px ${cat.color}"></div> ${cat.label}`;
+    el.title = cat.label; // Tooltip
+    el.innerHTML = `<div class="nav-dot" style="background:${cat.color}; box-shadow:0 0 10px ${cat.color}"></div>`;
     el.onclick = () => selectCategory(id, el);
     sidebar.appendChild(el);
   });
@@ -465,11 +470,12 @@ function renderNews() {
       imgHtml = `<img src="${esc(item.image)}" class="card-image" onerror="this.style.display='none'">`;
     }
 
+    // Glassy V30 tarzı kart başlığı (Renkli arka planlı etiket)
     card.innerHTML = `
       ${imgHtml}
       <div class="card-header">
-        <div class="card-cat" style="color:${cat.color}">
-          <div class="cat-dot" style="background:${cat.color}; box-shadow:0 0 8px ${cat.color}"></div> ${esc(cat.label)}
+        <div class="card-cat" style="color:${cat.color}; border: 1px solid ${cat.color}40;">
+          ${esc(cat.label)}
         </div>
         <div>${timeAgo(item.pubDate)}</div>
       </div>
@@ -557,7 +563,6 @@ function renderMarket(market, stocks) {
   let desktopHtml = '';
   let mobileHtml = '';
 
-  // Döviz ve Altın
   if (market) {
     if (market.usdtry) {
       desktopHtml += `<div class="market-item"><div class="market-label">USD/TRY</div><div class="market-val">${market.usdtry.toFixed(2)}</div></div>`;
@@ -573,7 +578,6 @@ function renderMarket(market, stocks) {
     }
   }
 
-  // Hisseler
   if (stocks && stocks.length > 0) {
     stocks.slice(0, 4).forEach(s => {
       if (s.price == null) return;
@@ -623,9 +627,8 @@ function renderWeather(weather) {
   }
   
   if(mobileContainer) {
-    // Mobilde hava durumunu eklerken en başa ekleyelim
     const wHtml = `
-      <div class="mob-widget" style="background: linear-gradient(135deg, rgba(139,92,246,0.2), rgba(6,182,212,0.1));">
+      <div class="mob-widget" style="background: linear-gradient(135deg, rgba(139,92,246,0.15), rgba(0,0,0,0));">
         <div class="label">Hava Durumu</div>
         <div class="val">${Math.round(weather.temp)}°C</div>
         <div class="sub" style="color:#fff">${esc(weather.desc)}</div>

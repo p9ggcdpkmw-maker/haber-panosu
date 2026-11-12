@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Kusursuz Sürüm)
+RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Kusursuz Sürüm v2)
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -18,7 +18,6 @@ if not GROQ_API_KEY:
     print("HATA: GROQ_API_KEY bulunamadı!", file=sys.stderr)
     sys.exit(1)
 
-# Daha stabil ve Türkçe'ye çok daha hakim bir model
 GROQ_MODEL = "openai/gpt-oss-120b"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
@@ -213,7 +212,7 @@ def summarize_batch(items):
                 json={
                     "model": GROQ_MODEL, 
                     "max_tokens": 3000, 
-                    "temperature": 0.2, # Daha az yaratıcı, daha çok kuralcı
+                    "temperature": 0.2,
                     "response_format": {"type": "json_object"}, 
                     "messages": [{"role": "user", "content": prompt}]
                 },
@@ -232,19 +231,20 @@ def summarize_batch(items):
             break
     return [""] * len(items)
 
-# --- KATEGORİYE ÖZEL ANALİZLER (GÜÇLENDİRİLMİŞ PROMPT VE DİL KİLİDİ) ---
+# --- KATEGORİYE ÖZEL ANALİZLER (GENEL + DİĞERLERİ) ---
 def generate_category_briefings(all_news):
     if not all_news: return {}
     top_news = all_news[:30] 
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     
+    # 🚀 DÜZELTME: "genel" anahtarı eklendi. Modelin 4 anahtarı da doldurması zorunlu kılındı.
     prompt = (
-        "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki haberleri okuyup 3 farklı alanda analiz yaz. "
+        "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki haberleri okuyup 4 farklı alanda analiz yaz. "
         "Her analiz kendi alanındaki gelişmeleri özetleyen, 2-3 cümlelik, akıcı ve profesyonel bir metin olmalı. "
-        "DİKKAT: Eğer 'teknoloji', 'ekonomi' veya 'gundem' alanında çok az haber olsa bile, elindeki verilerden yola çıkarak MUTLAKA bir analiz cümlesi yaz. ASLA boş bırakma, 'gelişme yok' deme. "
-        "DİKKAT: Aşağıdaki metinlerde İngilizce veya başka dillerden (Vietnamca vb.) kelimeler olsa bile, SENİN ÇIKTIN KESİNLİKLE VE SADECE TÜRKÇE OLACAK. Yabancı tek bir kelime bile kullanma, gerekirse önce Türkçeye çevir. "
+        "DİKKAT: Her alan için MUTLAKA bir analiz cümlesi yaz. ASLA boş bırakma, 'gelişme yok' deme. "
+        "DİKKAT: Girdi metinlerinde yabancı dil olsa bile ÇIKTIN KESİNLİKLE TÜRKÇE OLACAK. "
         "Çıktıyı KESİNLİKLE şu JSON formatında ver: "
-        '{"teknoloji": "...", "ekonomi": "...", "gundem": "..."}'
+        '{"genel": "...", "teknoloji": "...", "ekonomi": "...", "gundem": "..."}'
         "Başka hiçbir şey yazma.\n\nHaberler:\n" + haber_metni
     )
     
@@ -263,10 +263,15 @@ def generate_category_briefings(all_news):
         )
         resp.raise_for_status()
         data = json.loads(resp.json()["choices"][0]["message"]["content"])
+        
+        # Güvenlik ağı: Eğer Groq anahtarlardan birini unutursa boş string ata ki arayüz çökmesin
+        for key in ["genel", "teknoloji", "ekonomi", "gundem"]:
+            if key not in data or not data[key]: data[key] = "Bu alan için özel bir gelişme bulunamadı."
+                
         return data
     except Exception as e:
         print(f"  ! Briefing hatası: {e}", file=sys.stderr)
-        return {"teknoloji": "Analiz hazırlanamadı.", "ekonomi": "Analiz hazırlanamadı.", "gundem": "Analiz hazırlanamadı."}
+        return {"genel": "Analiz hazırlanamadı.", "teknoloji": "Analiz hazırlanamadı.", "ekonomi": "Analiz hazırlanamadı.", "gundem": "Analiz hazırlanamadı."}
 
 # --- AKILLI CACHE VE BİLDİRİM ---
 def load_cache():

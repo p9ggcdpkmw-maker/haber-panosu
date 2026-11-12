@@ -49,50 +49,53 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
   }
 
-  /* --- SOL MENÜ --- */
+/* --- SOL MENÜ --- */
   .sidebar {
     position: fixed; top: 20px; left: 20px; bottom: 20px; width: 80px;
     border-radius: var(--radius-lg); z-index: 1000;
     display: flex; flex-direction: column; align-items: center;
-    padding: 24px 0; gap: 8px; overflow: hidden; white-space: nowrap;
+    padding: 24px 0; gap: 4px; overflow: hidden; white-space: nowrap;
     transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .sidebar:hover { width: 240px; align-items: flex-start; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
 
-  .logo { display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 800; color: var(--text-main); margin-bottom: 16px; width: 100%; padding-left: 28px; }
-  .logo-icon { font-size: 24px; color: var(--accent); text-shadow: 0 0 15px var(--accent); }
+  .logo { display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 800; color: var(--text-main); margin-bottom: 16px; width: 100%; padding-left: 28px; height: 30px;}
+  .logo-icon { font-size: 24px; color: var(--accent); text-shadow: 0 0 15px var(--accent); display: flex; align-items: center;}
   .logo-text { opacity: 0; transition: opacity 0.2s; }
   .sidebar:hover .logo-text { opacity: 1; }
 
-  .nav-separator { width: 60%; height: 1px; background: var(--border); margin: 12px 0; transition: width 0.3s; }
+  .nav-separator { width: 60%; height: 1px; background: var(--border); margin: 8px 0; transition: width 0.3s; }
   .sidebar:hover .nav-separator { width: 80%; }
 
-  /* 🚀 PC SOL MENÜ İKON DÜZELTMESİ */
+  /* KUSURSUZ HİZALAMA İÇİN SABİT YÜKSEKLİK */
   .nav-item {
-    display: flex; align-items: center; width: 100%; padding: 14px 0;
+    display: flex; align-items: center; width: 100%; height: 48px; 
     justify-content: center; cursor: pointer; transition: all 0.2s;
-    border-left: 3px solid transparent; gap: 16px;
+    border-left: 3px solid transparent; gap: 16px; padding: 0;
   }
-  .sidebar:hover .nav-item { justify-content: flex-start; padding-left: 25px; }
+  .sidebar:hover .nav-item { justify-content: flex-start; padding-left: 26px; }
   .nav-item:hover { background: rgba(255,255,255,0.05); }
   .nav-item.active { background: linear-gradient(90deg, rgba(139, 92, 246, 0.15), transparent); border-left-color: var(--accent); }
   
   .nav-icon { 
-    font-size: 22px; 
-    width: 24px; 
-    text-align: center; 
+    font-size: 20px; 
+    width: 22px; 
+    height: 22px;
     display: flex; 
-    justify-content: center; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 1;
     opacity: 0.8;
   }
   .nav-item.active .nav-icon { opacity: 1; filter: drop-shadow(0 0 5px var(--accent)); }
   
   .nav-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
   .nav-item.active .nav-dot { box-shadow: 0 0 12px currentColor; }
-  .nav-text { font-size: 14px; font-weight: 500; color: var(--text-muted); opacity: 0; transition: opacity 0.2s; }
+  
+  .nav-text { font-size: 14px; font-weight: 500; color: var(--text-muted); opacity: 0; transition: opacity 0.2s; line-height: 1;}
   .nav-item.active .nav-text { color: var(--text-main); font-weight: 600; }
   .sidebar:hover .nav-text { opacity: 1; }
-
+  
   /* --- ANA YERLEŞİM --- */
   .app-container {
     display: flex; flex-direction: column; gap: 20px;

@@ -1,6 +1,6 @@
 """
-RADAR - Haber Motoru
-Haberleri çeker, tam metnini okur, Groq ile özetler ve news.json'a yazar.
+RADAR - Haber Motoru ve Piyasa Takipçisi
+Haberleri çeker, tam metnini okur, Groq ile özetler, piyasa verilerini toplar ve news.json'a yazar.
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -10,7 +10,7 @@ from xml.etree import ElementTree as ET
 import concurrent.futures
 
 import requests
-import trafilatura  # YENİ: Tam metin çekmek için
+import trafilatura
 
 # --- YAPILANDIRMA ---
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -32,7 +32,7 @@ CATEGORIES = [
     {"id": "doga", "label": "Doğa", "query": "doğa çevre hayvanlar", "edition": TR},
     {"id": "dunya", "label": "Dünya", "query": None, "edition": EN},
     {"id": "gundem", "label": "Gündem", "query": "türkiye gündem", "edition": TR},
-    {"id": "corlu", "label": "Çorlu", "query": "Çorlu Tekirdağ", "edition": TR}, # YENİ
+    {"id": "corlu", "label": "Çorlu", "query": "Çorlu Tekirdağ", "edition": TR},
 ]
 
 MAX_AGE_DAYS = 6 / 24  # Son 6 saat
@@ -104,7 +104,7 @@ def fetch_category(cat):
     final = fresh if len(fresh) >= MIN_ITEMS_PER_CAT else deduped[:max(MIN_ITEMS_PER_CAT, len(fresh))]
     return final[:MAX_ITEMS_PER_CAT]
 
-# --- DİĞER VERİLER (Hava, Piyasa) ---
+# --- HAVA DURUMU, PİYASA VE KRİPTO ---
 WEATHER_DESC = {0:"Açık",1:"Az bulutlu",2:"Parçalı bulutlu",3:"Kapalı",45:"Sisli",48:"Kırağı sisi",51:"Hafif çisenti",53:"Çisenti",55:"Yoğun çisenti",61:"Hafif yağmur",63:"Yağmur",65:"Şiddetli yağmur",71:"Hafif kar",73:"Kar",75:"Yoğun kar",80:"Sağanak",81:"Sağanak",82:"Şiddetli sağanak",95:"Gök gürültülü sağanak",96:"Dolu",99:"Şiddetli dolu"}
 WEATHER_LAT, WEATHER_LON = 41.1601, 27.8055 # Çorlu
 
@@ -128,10 +128,39 @@ def fetch_market():
         r = requests.get("https://api.gold-api.com/price/XAU", timeout=15)
         gold_usd_oz = r.json().get("price")
     except: pass
+    
     gold_gram_try = round(gold_usd_oz / 31.1034768 * usdtry, 2) if (usdtry and gold_usd_oz) else None
-    return {"usdtry": round(usdtry, 2) if usdtry else None, "eurtry": round(eurtry, 2) if eurtry else None, "gold_gram_try": gold_gram_try}
+    ceyrek_altin = round(gold_gram_try * 1.75, 2) if gold_gram_try else None
+    
+    return {
+        "usdtry": round(usdtry, 2) if usdtry else None, 
+        "eurtry": round(eurtry, 2) if eurtry else None, 
+        "gold_gram_try": gold_gram_try,
+        "ceyrek_altin_try": ceyrek_altin
+    }
 
-STOCKS = [("XU100.IS","BIST 100"),("^GSPC","S&P 500"),("^IXIC","Nasdaq"),("THYAO.IS","THY"),("ASELS.IS","Aselsan"),("GARAN.IS","Garanti BBVA"),("BIMAS.IS","BİM"),("AAPL","Apple"),("MSFT","Microsoft"),("NVDA","Nvidia")]
+def fetch_crypto():
+    cryptos = []
+    try:
+        r = requests.get("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=try&include_24hr_change=true", timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        if "bitcoin" in data:
+            cryptos.append({"label": "Bitcoin", "price": data["bitcoin"]["try"], "change_pct": data["bitcoin"].get("try_24h_change", 0)})
+        if "ethereum" in data:
+            cryptos.append({"label": "Ethereum", "price": data["ethereum"]["try"], "change_pct": data["ethereum"].get("try_24h_change", 0)})
+    except Exception as e:
+        print(f"  ! Kripto alınamadı: {e}", file=sys.stderr)
+    return cryptos
+
+STOCKS = [
+    ("XU100.IS", "BIST 100"), ("^GSPC", "S&P 500"), ("^IXIC", "Nasdaq"),
+    ("THYAO.IS", "THY"), ("ASELS.IS", "Aselsan"), ("GARAN.IS", "Garanti BBVA"),
+    ("BIMAS.IS", "BİM"), ("EREGL.IS", "Ereğli Demir Çelik"), ("SISE.IS", "Şişecam"),
+    ("AAPL", "Apple"), ("MSFT", "Microsoft"), ("NVDA", "Nvidia"),
+    ("TSLA", "Tesla"), ("META", "Meta"), ("GOOGL", "Alphabet")
+]
+
 def fetch_stocks():
     results = []
     for symbol, label in STOCKS:
@@ -145,24 +174,20 @@ def fetch_stocks():
         except: pass
     return results
 
-# --- YENİ: TAM METİN ÇEKME VE GROQ ---
+# --- METİN ÇEKME VE GROQ ---
 def fetch_article_text(url):
-    """Haberin gerçek metnini çeker. Başarısız olursa boş döner."""
     try:
         downloaded = trafilatura.fetch_url(url)
         if not downloaded: return ""
         text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
         return text[:MAX_TEXT_LENGTH] if text else ""
-    except:
-        return ""
+    except: return ""
 
 def summarize_batch(items):
-    """Haber metinlerini toplu olarak Groq'a gönderir."""
     if not items: return []
     
     lines = []
     for i, it in enumerate(items):
-        # Metin varsa metni gönder, yoksa başlığı gönder
         content = it.get("text") if it.get("text") else it['title']
         lines.append(f"--- HABER {i+1} ---\nBaşlık: {it['title']}\nKaynak: {it['source']}\nİçerik: {content}\n")
     
@@ -185,17 +210,14 @@ def summarize_batch(items):
             )
             if resp.status_code == 429:
                 wait = min(int(resp.headers.get("Retry-After", 10 * (attempt + 1))), 30)
-                print(f"  ! Groq 429, {wait} sn bekleniyor...", file=sys.stderr)
                 time.sleep(wait); continue
             
             resp.raise_for_status()
             data = json.loads(resp.json()["choices"][0]["message"]["content"])
             arr = data.get("summaries", [])
-            
             if len(arr) == len(items):
                 return arr
             else:
-                print(f"  ! Groq boyut uyuşmazlığı: {len(arr)} vs {len(items)}", file=sys.stderr)
                 return (arr + ["Özet oluşturulamadı."] * len(items))[:len(items)]
         except Exception as e:
             print(f"  ! Groq hatası: {e}", file=sys.stderr)
@@ -229,7 +251,6 @@ def main():
         print(f"  -> {cat['label']}")
         all_items.extend(fetch_category(cat))
 
-    # Link bazlı genel tekrar önleme
     seen_links = set()
     deduped_all = []
     for it in all_items:
@@ -239,8 +260,6 @@ def main():
     all_items = deduped_all
 
     need_summary = []
-    need_image = []
-    
     for it in all_items:
         cached = cache.get(it["link"])
         if cached and cached.get("summary"):
@@ -248,21 +267,18 @@ def main():
         else:
             need_summary.append(it)
 
-        if not it.get("image"):
-            if cached and cached.get("image"): it["image"] = cached["image"]
-            else: need_image.append(it)
+        if not it.get("image") and cached and cached.get("image"):
+            it["image"] = cached["image"]
 
-    print(f"Toplam {len(all_items)} haber. {len(need_summary)} yeni özet, {len(need_image)} resim çekilecek.")
+    print(f"Toplam {len(all_items)} haber. {len(need_summary)} yeni özetlenecek.")
 
-    # 1. Tam metinleri paralel olarak çek (Hız için ThreadPool)
     if need_summary:
-        print("Tam metinler çekiliyor...")
+        print("Tam metinler çekiliyor (Paralel)...")
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
             texts = list(executor.map(lambda i: fetch_article_text(i["link"]), need_summary))
             for it, txt in zip(need_summary, texts):
                 it["text"] = txt
 
-        # 2. Özetleri Groq'a gönder (Limitleri korumak için 3'erli gruplar)
         print("Groq ile özetleniyor...")
         CHUNK_SIZE = 3
         for i in range(0, len(need_summary), CHUNK_SIZE):
@@ -270,23 +286,19 @@ def main():
             summaries = summarize_batch(chunk)
             for it, s in zip(chunk, summaries):
                 it["summary"] = s
-            
             if i + CHUNK_SIZE < len(need_summary):
-                time.sleep(2) # Groq limitini yormamak için
+                time.sleep(2)
 
-    # Resim çekme kısmı (Basit tutuldu, gerekirse buraya da ThreadPool eklenebilir)
-    # ... (Mevcut og_image kodunuz buraya eklenebilir, kod uzamasın diye kısalttım)
-
-    print("Hava durumu ve piyasa çekiliyor...")
+    print("Hava durumu, piyasa, kripto ve hisseler çekiliyor...")
     out = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "items": all_items,
         "weather": fetch_weather(),
         "market": fetch_market(),
+        "crypto": fetch_crypto(),  # Kripto eklendi
         "stocks": fetch_stocks(),
     }
     
-    # Atomik yazma (Dosya bozulmasını engeller)
     tmp_file = "news.json.tmp"
     with open(tmp_file, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)

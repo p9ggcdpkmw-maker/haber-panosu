@@ -71,7 +71,7 @@ def extract_image(it):
 def fetch_category(cat):
     url = build_url(cat)
     try:
-        res = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+        res = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}, timeout=20)
         res.raise_for_status()
         root = ET.fromstring(res.content)
     except Exception as e:

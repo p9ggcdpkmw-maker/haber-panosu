@@ -47,35 +47,30 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
   }
 
-  /* --- YERLEŞİM --- */
-  .app-container {
-    display: grid;
-    grid-template-columns: 80px 1fr 320px;
-    gap: 20px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  /* --- SOL MENÜ (PC'de Üzerine Gelince Açılır) --- */
+  /* --- SOL MENÜ (FIXED) --- */
   .sidebar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    width: 80px;
+    border-radius: var(--radius-lg);
+    z-index: 1000;
+    
     display: flex;
     flex-direction: column;
-    align-items: center; /* Noktaları tam ortala */
-    gap: 12px;
+    align-items: center;
     padding: 24px 0;
-    border-radius: var(--radius-lg);
+    gap: 12px;
     overflow: hidden;
     transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    width: 80px; 
     white-space: nowrap;
   }
   
   .sidebar:hover {
-    width: 220px;
-    align-items: flex-start; /* Açılınca sola yasla */
+    width: 240px;
+    align-items: flex-start;
+    box-shadow: 0 0 40px rgba(0,0,0,0.8);
   }
 
   .logo {
@@ -97,14 +92,14 @@
     align-items: center;
     width: 100%;
     padding: 14px 0;
-    justify-content: center; /* Noktayı ortala */
+    justify-content: center;
     cursor: pointer;
     transition: all 0.2s;
     border-left: 3px solid transparent;
     gap: 16px;
   }
   .sidebar:hover .nav-item {
-    justify-content: flex-start; /* Açılınca sola yasla */
+    justify-content: flex-start;
     padding-left: 25px;
   }
   
@@ -127,13 +122,26 @@
   .nav-item.active .nav-text { color: var(--text-main); font-weight: 600; }
   .sidebar:hover .nav-text { opacity: 1; }
 
+  /* --- ANA YERLEŞİM --- */
+  .app-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-left: 120px; /* Sidebar için boşluk */
+    padding: 20px 20px 20px 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+
   /* --- ORTA ALAN --- */
   .main-feed {
+    flex: 1;
+    min-width: 0;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
     padding-right: 8px;
-    min-width: 0; 
   }
   .feed-header {
     display: flex;
@@ -204,6 +212,8 @@
 
   /* --- SAĞ PANEL --- */
   .widgets {
+    width: 320px;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -224,7 +234,7 @@
   .weather-meta { margin-top: 20px; font-size: 13px; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 16px; display: flex; justify-content: space-between;}
 
   /* Modal */
-  .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(12px); display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 1000; padding: 20px; }
+  .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(12px); display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 2000; padding: 20px; }
   .modal-overlay.active { opacity: 1; pointer-events: all; }
   .modal-content { background: var(--bg-panel); border: 1px solid var(--border); border-radius: var(--radius-lg); width: 100%; max-width: 650px; max-height: 90vh; overflow-y: auto; padding: 32px; transform: scale(0.95); transition: transform 0.3s; position: relative; box-shadow: 0 24px 64px rgba(0,0,0,0.6); }
   .modal-overlay.active .modal-content { transform: scale(1); }
@@ -247,27 +257,29 @@
 
   /* --- 📱 MOBİL UYUMLULUK --- */
   @media (max-width: 1100px) {
-    .app-container { grid-template-columns: 80px 1fr; }
     .widgets { display: none; } 
   }
   
   @media (max-width: 768px) {
+    body {
+      overflow-y: auto; /* Mobilde doğal sayfa kaydırması */
+    }
     .app-container { 
-      grid-template-columns: 60px 1fr; 
-      padding: 10px; 
-      gap: 10px;
-      height: 100vh; 
-      overflow: hidden; 
+      display: block; /* Mobilde flex yerine block daha güvenli */
+      margin-left: 70px; /* 10px sol + 50px sidebar + 10px boşluk */
+      padding: 10px 10px 40px 0;
+      height: auto; 
+      overflow: visible; 
     }
     
-    /* Mobilde Sol Menü: Sabit Dar */
+    /* Mobilde Sol Menü */
     .sidebar { 
+      top: 10px; left: 10px; bottom: 10px;
+      width: 50px !important;
       padding: 16px 0; 
       border-radius: var(--radius-md);
-      height: 100%;
-      width: 60px !important; 
     }
-    .sidebar:hover { width: 60px !important; align-items: center; } 
+    .sidebar:hover { width: 50px !important; align-items: center; } 
     
     .logo { display: none; }
     .nav-item { padding: 14px 0; justify-content: center; border-left: none; }
@@ -278,20 +290,19 @@
 
     /* Ana İçerik */
     .main-feed { 
-      overflow-y: auto; 
-      padding-right: 4px; 
-      height: 100%;
-      padding-bottom: 40px;
+      overflow-y: visible; 
+      padding-right: 0; 
+      height: auto;
     }
     .feed-header { flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px;}
     .search-box { width: 100%; padding: 10px 16px;}
     
-    /* Mobil Borsa Şeridi (Sadece Mobilde Görünür) */
+    /* Mobil Borsa Şeridi */
     .mobile-widgets {
       display: flex;
       overflow-x: auto;
       gap: 10px;
-      padding: 10px 0 16px 0;
+      padding: 0 0 16px 0;
       margin-bottom: 16px;
       border-bottom: 1px solid var(--border);
       touch-action: pan-x; 
@@ -323,18 +334,18 @@
 </head>
 <body>
 
-<div class="app-container">
-  <!-- SOL MENÜ -->
-  <aside class="sidebar glass">
-    <div class="logo">●</div>
-    <div class="nav-item active" data-id="all">
-      <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> 
-      <span class="nav-text">Tümü</span>
-    </div>
-    <!-- Kategoriler JS ile eklenecek -->
-  </aside>
+<!-- SOL MENÜ -->
+<aside class="sidebar glass">
+  <div class="logo">●</div>
+  <div class="nav-item active" data-id="all">
+    <div class="nav-dot" style="background:#fff; box-shadow:0 0 10px #fff"></div> 
+    <span class="nav-text">Tümü</span>
+  </div>
+  <!-- Kategoriler JS ile eklenecek -->
+</aside>
 
-  <!-- ORTA ALAN -->
+<!-- ANA İÇERİK -->
+<div class="app-container">
   <main class="main-feed">
     <!-- MOBİL BORSA ŞERİDİ -->
     <div class="mobile-widgets" id="mobileWidgets"></div>

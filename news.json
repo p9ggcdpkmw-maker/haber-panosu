@@ -1,9 +1,10 @@
 {
-  "updated": "2026-11-12T18:38:36.205555+00:00",
+  "updated": "2026-11-12T18:45:38.003036+00:00",
   "briefings": {
-    "teknoloji": "Yapay zekâ, mevcut meslekleri dönüştürürken gençlerin yeni alanlara yönelmesi hız kazandı; Gartner’ın 2030’a kadar iş kaybından daha fazla istihdam yaratacağı öngörüsü bu trendi destekliyor. Nvidia, grafik işlemcilerinden yapay zeka altyapısına geçişini hızlandırarak sektörde standartlaşmış yazılım teslimatı platformu Harness’ı benimseyecek. Çin’in gökbilim araştırma uydularını fırlatması ve yapay zekâ denetimi çağrısı, teknolojik gelişmelerin hem uzay hem de demokratik süreçlerdeki etkisini gösteriyor.",
-    "ekonomi": "Yapay zekâ odaklı 4 milyar dolarlık Norwest fonu, yatırım önceliklerinde AI’yı merkez konuma taşıyarak küresel sermaye akışını yönlendiriyor. Itaú Unibanco’nun yazılım teslimatını standartlaştırma hamlesi, operasyonel verimliliği artırarak maliyet tasarrufu ve rekabet avantajı sağlama potansiyeli taşıyor. Bu gelişmeler, AI’nın iş gücü piyasasını yeniden şekillendirirken ekonomik büyüme dinamiklerine de olumlu yansımalar vaat ediyor.",
-    "gundem": "ABD Başkanı Trump’ın İran’la anlaşma gerekliliğini reddetmesi ve Vance görüşmelerinin sonlandırılması, Orta Doğu diplomasi gündemini yeniden şekillendiriyor. ABD temsilcilerinin Moskova’da Putin ile Ukrayna konularını görüşmesi ve ardından Dublin’de Zelenskyy ile temas planlaması, uluslararası ilişkilerde çok yönlü bir yaklaşım sergiliyor. Bu politik hareketler, küresel güvenlik ve bölgesel istikrar tartışmalarını ön plana çıkarıyor."
+    "genel": "Analiz hazırlanamadı.",
+    "teknoloji": "Analiz hazırlanamadı.",
+    "ekonomi": "Analiz hazırlanamadı.",
+    "gundem": "Analiz hazırlanamadı."
   },
   "items": [
     {
@@ -14,7 +15,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQVlKY0s0dkhpTE1QUEdpMXdvMzhFQldYOXRkZElhdmRPOW5vM0hmWWVsbG04UE9yLXlja0QyMnZFNDRXY29FNk1zZ0hRNU5oWlZFOEEwMF9FS0NUNkR0ang5dG1WZmhUakhPZjlaRW5zaVljeXJSa2prdnZPMjNXQ0N6ODFCRDNIcFpUTWhpcXhOSFR1aWlERG1CZEdPTUJBdXhNVUpzTWtMUXNGa2M0YQ?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:52:21 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Yapay zekâ bazı meslekleri değiştiriyor ve gençlerin yöneldiği yeni alanlar ortaya çıkıyor."
     },
     {
@@ -75,7 +75,6 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQzhqbnZSLXNCNjR4cXduV01UZlZLT3U3dEgtXzVNeFM4QmtWTVVNSE1QVlUxVGFRMGhuSHNMbUV6bGpmUVVucDlTVFYtM1F3RGI2SG9PcjdzdFlMc3JoWFpvX3NuQ2t0Yy1jTWlrZjJidGVIblIzN0xia2pHemhXbzFCdHR5cHFnSjdOd010Ulpkc3pHUnFDa2FCZ2k?oc=5",
       "pubDate": "Thu, 12 Nov 2026 15:30:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Çin, gökbilim araştırma uydularını fırlattı."
     },
     {
@@ -186,7 +185,6 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbDhyQVFPeHo2T2N5UEthQ1E4QkJnZFlxSGZUOWp0RVlYQXAyUG4ydWJRU2RvWTBoa1BhVmQ2QkdUMzY3S2JLd3hjSDBFOUZzYk5RZFZ3akxiZElnbE91aDB3SVpiai1EMWhHaVFHNmMyMjFqWHUtNC1tSkd1QXdkN0IyU0NCcF9Hd0dBRWI1UWkySE1TaGdrMWhyZi10Z9IBmgFBVV95cUxNT3VpYmhwX0JsVXR0cDNJckpKb3VGSXN2ZVh5MkhwMXNoVGZGdmx5b0pXRTctWFZ3OERVQ3duRWJxT25GREViWUVHM3NSQkV1VWhaM0FzVG1JSlE1MVVHdmxWZ1RRaHg5bjYyWHN0dHpCZjJhNGJsenNpbTBTLTdhTlU0LWo4ZV93dG5nYkJUamhELUNEVWhLWWZ3?oc=5",
       "pubDate": "Wed, 11 Nov 2026 17:53:32 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. WAiFF İstanbul'da 124 film yarıştı; kazananlar Nisan 2027'de Cannes'a gidecek."
     },
     {
@@ -252,12 +250,23 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Nvidia live updates: Jensen Huang agrees to testify before Congress following resignation",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQLXdpNk1zM3AtTjV1OFB4d0xkbXhnQkhIYUtYVWRxalR2dVJLZ0d6ajJDdS1Nb05ycVZnNnkxbGkzLXF4WVB1NnVlREtiVWdBOE9vbFRERGh2NGxjUGt0T01CbjVrZEUzZjB3UVhacUlZYnBxMURYV2pmQXBMdw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 18:12:00 GMT",
+      "title": "Jensen Huang Resigns as Nvidia CEO After Affairs: Live Updates",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWxaN0tPUFI1US1TR2ppVnJqdmVuQTJLWmI0LVNDSDc0YkNOdjgxQUQ2elZjQjRQZzlyVlZuTGU4NndKOFJVT3dUeXBFNUhHV2c0d05lVndNVzZoZHZ6YWVqel8zN2l5Wnc0OXg3M3RxVWIxZ0RuMUptWm13YWRTR0dB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 18:30:16 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Nvidia CEO'su Jensen Huang, istifasını takiben Kongre önünde ifade vermeyi kabul etti. Bu gelişme, şirketin gelecekteki politikalarını ve düzenleyici ilişkilerini etkileyebilir."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre Jensen Huang, Nvidia CEO'su olarak görevinden istifa etti ve istifasının nedeni ilişkiler olduğu belirtiliyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Brooklyn building collapse in Flatbush live updates: 8 dead, 18 hurt as search goes on",
+      "source": "ABC7 New York",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 18:30:00 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı. Brooklyn, Flatbush bölgesinde bir binanın çökmesi sonucu 8 kişi hayatını kaybetti, 17 kişi yaralandı. Yetkililer aramayı sürdürerek daha fazla kayıp olup olmadığını araştırıyor."
     },
     {
       "cat": "Dünya",
@@ -267,18 +276,17 @@
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnhHOUZCeEwzbmN5alpPZm1fbjRvQ2ltdmYydUE0VE02ZnMtYzhOLUp3eWotVXQ5aTYwSFlpYXZyWmRsRjhBRi1iS08zMWJFYUNVQnZLNXY5TnRsN0p4cVF1eVppQ0hsa1I5Y0hLaWlOMmRzZWV0Q09hdlpOal9YSVJOdXNPZFVyYlZQemhFeVRGUUUwOE1CcEZIRHR1Ul9wckU5WVBVeTh0TTBKaGtDN091X0hxM1BYUjNz?oc=5",
       "pubDate": "Thu, 12 Nov 2026 18:05:38 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başkan Trump, İran'la bir anlaşmaya gerek olmadığını belirtti ve Vance ile yürütülen görüşmeleri sonlandırdı."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Brooklyn building collapse in Flatbush live updates: 8 dead, 18 hurt as search goes on",
-      "source": "ABC7 New York",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 18:03:00 GMT",
+      "title": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:38:02 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Brooklyn, Flatbush bölgesinde bir binanın çökmesi sonucu 8 kişi hayatını kaybetti, 17 kişi yaralandı. Yetkililer aramayı sürdürerek daha fazla kayıp olup olmadığını araştırıyor."
+      "summary": "Tam metne ulaşılamadı. Başlıktan çıkarım: İsrail'in Gazze'deki Nasser Hastanesi'ne yaptığı saldırıda en az altı kişi öldü."
     },
     {
       "cat": "Dünya",
@@ -288,8 +296,18 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRUZMUGh2T1VCZnAxNUwwX1Rjb1ZJR1FaYllSMi10N0FwX3VTRVBBMFl6Y3J5U09Lb2tGZnl4eHlCekhBRmdFTE1XeUNyRG1NZzFVMWp3XzJYOEhWOVBuT01qTjMzblF6U3pNTVdIRGZRams5WlJjbUp0T3ZXYlRVOWNSdjBsakFWVEFLU3lSbXhkb05lbzFWSDdCdWtUdF9sbG05cmxmSndwVWxEa1dEd1AzVUw0alA1?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:32:35 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. DC'nin Logan Circle bölgesindeki bir spor salonunda gerçekleşen toplu silahlı saldırıda bir kişi öldü, dört kişi yaralandı ve saldırgan olay yerinde öldürüldü."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Scientists discover mysterious radio signals coming every eight minutes from deep space",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajAtNlVXc1lFYkFYbVZ6eU4zcjFWeUlBNWtLZ2VoNFBHbzlTVmhrRnpabE1vOUpZMWRkUHl0cWZHRXZ1TzFaX0NoSGJyQnFDWURvWENvRXp3OHNfcDk4NHVYWHlWMEQzenVkV095TmZQTmw4ZjFCVFdjUFNiWGY3ZC0zakxFbTJ5QWkyYlUzN1dFWFZTYnBMMllrMEJ3RjIzMkNMRGNwc1ZXRW5oQkFBak9hel8zd0ttMlh1aWxSNA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:03:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Bilim insanları, derin uzaydan her sekiz dakikada bir gelen gizemli radyo sinyallerini keşfettiklerini duyurdu."
     },
     {
       "cat": "Dünya",
@@ -299,7 +317,6 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFZuQ05KbXhLT294akRzMl9XWE5rUmRhV01fSDY4VVF6dnNaZVlCUzdCd1I2TnI0azFRT1VHcW1hVm9oMWhUNTZaVUc0QjNVNkNseGxYTGU3RmpSWXppTVZ4TzVRWEpxdE1tOVc3NDJYdFZmdWhoeFBvSXc4MXV4N0JUSW95SzlZalpwcERuU3hRNHpSbVBwNXl1Y19kUDU1d2c?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:55:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. ABD temsilcileri, Ukrayna konularını görüşmek üzere Moskova'da Putin ile bir araya geldi ve ardından Dublin'e giderek Zelenskyy ile görüşmeyi planladı."
     },
     {
@@ -310,7 +327,6 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xS1l3eVdMTDdpeVFYejJObnEzZ1JHYjRVckdPbXdSRjJLdGV2SHlQZzRpcklOWlZSZS14dFlHRUp0aW91VDNsOU9iNWpKRGYxQkJ0a1lWam5SZ28?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:52:53 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Pentagon, Hegseth'in grubunu uyardığı için savaş anıtı bekçisini desteklediğini açıkladı."
     },
     {
@@ -321,18 +337,18 @@
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXZkeVJmajBPYlpEanV1R0cxSmpSd0ROeVg5b1ZGQ09OYXBtVzctZmszc1hiQVN0aXM0LVpNRFAySTRtRVEydVczeUNyZHRxUGhTSGlGX2hpUXdNTFh4LUE0WUVwd016bDZLTUNUQXppUzJadEVQYWpIUFVLUk9YUEF3di1iT3BITmtXUEhqSlBQRGRrSlNOTlZ5RWs3RUc3VG56ZDBEaUFvREpNQlZPZUNWemdrU2lGaldZ0gHAAUFVX3lxTFA4NHRKeWhoRTlZVERRNzNRTnFIdEc1TXMzTFIwQjNTZS1UUEpiZDZXdTZuMF9YNWNUTFYzZHlJWEtIRThFWjFMaVpBRDZCcGdreVFRdzg2SW1vSEpzVzViMDZEdGhHU1VCYWpqMGNVbThqYXNuYmhwM2U5UHlTUExienMyOTBwSTZmeEhxOWg2TUFBUU4xZmFfZDhpcXBCVjEyc2hRb05zd1lXbnlLLWszT0RNTERCUDdxLUMzckdZaw?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:41:15 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Kanser derneği, şimdiye kadar yayımlanan en ayrıntılı prostat kanseri tarama yönergelerini duyurdu."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:23:30 GMT",
+      "title": "The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+      "source": "NPR",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMDlPaXJTdDNSaVpCTzdGaWFTNWdXVk1fblJyVmdSMmVDbzQ4V2c0b2JqaFpkdUlYV044ZFRXaDg5X3dNbUl0S2R4empGZExhYTlJZVM3S0NmWm51N291MUY3bEdIVVBJVjBCOEI3QjNGMDh0YUc5cGtrVUtaNzJhZnZ2RWJ3OW00YzFpNTZkT0NtUmc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:20:04 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlıktan çıkarım: İsrail'in Gazze'deki Nasser Hastanesi'ne yaptığı saldırıda en az altı kişi öldü."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. SS United States, Meksika Körfezi'nin dibine son yolculuğunu gerçekleştiriyor."
     },
     {
       "cat": "Dünya",
@@ -342,7 +358,6 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IaUFNY0pfYVNpQVVfXzR0RGNaNHlZYVBJNzV6aFBteDVFTjQ3ZG05LTRfWjBqZW00cEtaUGVyYUhXUGFSSngxY2NVdGZDMTBzMlF4ZXVIMWJwTkgyQ3dEWE90MjlDZ0NT?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:12:39 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Manchester United, Mauricio Pochettino'un takibe alınması ve Michael Carrick'in kararlarıyla ilgili gelişmeleri ele alıyor."
     },
     {
@@ -353,30 +368,7 @@
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:01:18 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı; başlığa dayanarak, Nvidia ile ilgili sorunların hisse senetlerini düşürdüğü ve petrol fiyatlarının hafifçe gerilediği belirtiliyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Seattle scientists help unveil ‘landmark’ findings on human brain",
-      "source": "The Seattle Times",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUUR6VzJCQ2JvbmlOM1ZZeUNkSHBmY0dTWnkzR2wxR3g1dDh4NzBqVzZHc3lLeWxtWFhiX2hHUkhDQUZFMzMxS1RYb3JVZkxOeU1KaGhJdlFRc2FNd3lTaWozU3lhU0RPWTdlWTFRQnVld1p2RE0zbHR3UDh3aHhncjkxX09hNVR0TDEyWGRSOVM1LTdWTS1rT2o3U19YZzBXQnNidTc3T3BRSHdJUVZWUURZMA?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:00:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı; başlığa göre, Seattle'daki bilim insanları insan beyni üzerine önemli bulgular ortaya koymuş."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "The Evolving Story of How Chemistry Became Biology",
-      "source": "Quanta Magazine",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTFQekJUYW8yRloyNlFNWjE0UXZSeDJBLTFZNWZRUjE3bURvdkEzRF9XSTNFNnJpeXQxcjZuQ1BvQnhBcjBmZ0NjRVNDLTdVeC02V2dkcTgxSkQwWVY0d0ZxeHpwNEtZVEVOeG52a2FwTDFzOEpDaFZLTXVTeXVTeUNWcDVEc3gwbDNmMU1MdUF5b01kcmc?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:50:14 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı; başlığa göre, kimyanın biyolojiye dönüşüm süreci tarihsel olarak inceleniyor."
     },
     {
       "cat": "Gündem",
@@ -386,7 +378,6 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT3JIRzNSN185VWNWYzBGN0xaWGthbnVvRDNONzdnQlJ0SU41c2dKSFNucGFnVDhUXzJXTUZ2RGVxMjVuTGhpWjJ6Z2txZkdJSHVYUldHS1VncWI4RzU4clFmV1JjaENTeFl6OVFFZk1JZmxZTmRQMW5YWWk1b0ZodmZDZG04RlozMkVjOUR3?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:22:32 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Yunan vekili Atina’ya sert eleştiride bulundu: “Türkiye istediğini aldı”."
     },
     {
@@ -397,7 +388,6 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTGNoTGRWekRPcFJXenllMHpxU0E5NXRUWFBfRUVLZ0NYZDhrMklGeHh3enhGSmtZZGFiZk5YODJTaktlN3k1ZmtYdUV0VmN4c28yVjBFZENBUXlQQUs3b3VvR0VPTUFmT0JFR3Zyb2tSdTFTRnJjc0R6cnhwdHJ1ZFcwdUFac2o1b2MzZndBaTloelhRaGRIaV8tUzdlM2NDOTlGWjM4MkZ5YUZDRHAtTWhoemhaT0dWLTN4cTZHLTHSAcMBQVVfeXFMTmNNdGNGRXE3Y1VISDhUbXhibWswUUh2Y2xpMDlXUFVGTF9QOHBYVnVWMW8wT1ZpYnZCb1EwS2R6OTE3ZGRFaXBDY0g4N3F4UVpzYjlweTJpOFZ2d2VHMXBTbVRMSExOTlBZM1VHN0pZQTRmRWRNTmF6ZUFVMFJETmhKdnFqOEFZTS0xNF9JeHJyU1I2ZW1kYTU2MkcyVDFDd1UxZUFod2hPVlNvZDFUbEpWQ2ZRdjBVVkhwMVdTZmRxVUV3?oc=5",
       "pubDate": "Thu, 12 Nov 2026 17:00:17 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Malatya’daki helikopter kazası Türkiye’yi yasa boğdu; siyasetçiler taziye mesajları gönderdi."
     },
     {
@@ -418,7 +408,6 @@
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXMxT3pQYU5pdXZCaTZXQ1JCTTRiZ0lmb29MMnNQZFBXa0k2dkZ6UHVMU3NvNURVTjlCVUNrczJ4bHhoVGtpZTJfV1NuYWdRaUZUTFI0c0F6anF5a1Z2VnNHOWtMenFkeVYxOVJMNjEyTlQ4ODZNcXhTUnJkcGpoWnRZX0pKbU1TTU5EaFlaV0JISEVoUm11YnRKdGpyb1Yt0gGjAUFVX3lxTE1URDlFTWwtV3Q2WE5tYjhSQnRvR0czdVE1MTNLVjlGS2ZyN0VHZFlBLXA0S1RYVlRTaFF4amFJcjYxVVdhN1BILVNwLWxMNEVuRUpDLTdCSDFpVGhLUC1PdThfalI2eWZwdWJjek5QVEZYMWtwNmZ1X2toVDlNRGpxenVKT2MwdHRMbXgwZnVERlV1eW5RbFRONVFFMWhTblF1Vzg?oc=5",
       "pubDate": "Thu, 12 Nov 2026 16:04:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başkan Erdoğan, Türkiye’nin hayallerini gerçeklere dönüştürmede usta bir ülke olduğunu belirtti."
     },
     {
@@ -559,7 +548,6 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTDl4ZkhJQXdTZy1Dem9MUnNNODRoVUhXSnMyWnAxQ0NIcTVPOXV4dnhhSHVLRF9jQlYtNElRVUxLbENhaE1lVmNaNW5KSDZQa2xXZ1FwLWNkMjFrZVRwQzBkOTZMX213bUd4cGUzRGhtQ3FHaEs2NmRRLUJBRzRkOUNqSEM0X0ZFU3BhUDFfWFFGTFdad1ppdm1vZXdIdnhTbTZsYS1yN0twX19pcUlzNWRZUzkzRmZM?oc=5",
       "pubDate": "Thu, 12 Nov 2026 14:23:29 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Tekirdağ'da 5 metrelik biyogaz çukuruna düşen işçi olay yerinde hayatını kaybetti."
     },
     {
@@ -580,7 +568,6 @@
       "link": "https://www.mhahaber.com/alsancak-ve-laptanin-bazi-bolgelerinde-yarin-elektrik-kesintisi-yapilacak",
       "pubDate": "Thu, 12 Nov 2026 18:25:09 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/mha-sari-beyaz-273-960x540.webp",
-      "text": "Kıbrıs Türk Elektrik Kurumu (Kıb-Tek), Alsancak Almond Tatil köyü, Lapta Gençlik Kampı ve Lapta Ortaokulu civarında yarın elektrik kesintisi olacağını duyurdu.\nKıb-Tek'ten yapılan açıklamada, orta gerilim elektrik şebekesinde yapılacak bakım çalışması nedeniyle 12.30 ile 14.00 saatleri arasında belirtilen bölgelere elektrik verilemeyeceği kaydedildi.\n(FS/TUĞ)",
       "summary": "Kıbrıs Türk Elektrik Kurumu, Alsancak Almond Tatil Köyü, Lapta Gençlik Kampı ve Lapta Ortaokulu civarında 12:30‑14:00 saatleri arasında orta gerilim şebekesinde bakım çalışması yapacak ve bu bölgelerde elektrik kesintisi olacak."
     },
     {
@@ -591,7 +578,6 @@
       "link": "https://www.mhahaber.com/gaziverende-feci-kaza-22-yasindaki-surucu-hayatini-kaybetti",
       "pubDate": "Thu, 12 Nov 2026 18:10:02 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/89e3c2de-b595-4ca9-88f5-08743209d9b4-960x540.webp",
-      "text": "Gaziveren’de bugün saat 16.30 sıralarında meydana gelen trafik kazası, bir gencin hayatını kaybetmesiyle sonuçlandı.\nPolisten verilen bilgiye göre, Gaziveren 1’inci Cadde üzerinde Mervan Güceyü (22), yönetimindeki KY 275 plakalı araçla batı istikametine doğru seyrettiği sırada sağa meyilli viraja geldiğinde direksiyon hâkimiyetini kaybetti.\nKontrolden çıkan araç, yolun güney kısmından çıkarak bir işletmenin önündeki beton zemine çarptı. Çarpmanın etkisiyle takla atan araç, tavanı üzerinde durdu.\nHASTANEDE HAYATINI KAYBETTİ\nKazada ağır yaralanan sürücü Mervan Güceyü, kaldırıldığı Cengiz Topel Devlet Hastanesi’nde yapılan tüm müdahalelere rağmen kurtarılamayarak yaşamını yitirdi.\nAraçta yolcu olarak bulunan Ahmet Cihan Açıkbaş (20) ise yaralı olarak kaldırıldığı aynı hastanenin acil servisinde müşahede altına alındı.\nPolisin kazayla ilgili soruşturması devam ediyor.",
       "summary": "Gaziveren 1. Cadde üzerinde 16:30 civarında Mervan Güceyü (22) sürücülüğündeki KY 275 plakalı araç sağa meyilli viraja girerken direksiyon hakimiyetini kaybedip bir işletmenin önündeki beton zemine çarptı ve takla attı. Araç tavanı üzerinde dururken sürücü hastanede yapılan müdahalelere rağmen yaşamını yitirdi; yolcu Ahmet Cihan Açıkbaş (20) ise yaralı olarak hastanede tedavi altında."
     },
     {
@@ -612,7 +598,6 @@
       "link": "https://www.mhahaber.com/trumptan-nvidianin-zirvesine-surpriz-isim",
       "pubDate": "Thu, 12 Nov 2026 17:39:40 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/c3ec3f19-9580-4671-8048-c8bc39414c6a-960x540.webp",
-      "text": "ABD Başkanı Donald Trump, teknoloji devi Nvidia'nın Üst Yöneticisi (CEO) Jensen Huang'ın istifasının ardından dikkat çeken bir öneride bulundu.\nTrump, Truth Social hesabından yaptığı paylaşımda, Huang'ın yerine Apple Yönetim Kurulu Başkanı Tim Cook'un getirilmesi gerektiğini belirtti.\n“BİR EFSANENİN YERİNİ BAŞKA BİR EFSANE ALIYOR”\nHuang'ın Nvidia'da başarılı çalışmalar gerçekleştirdiğini ifade eden Trump, şirketin başına geçebilecek en uygun kişinin Tim Cook olduğunu savundu.\nTrump, paylaşımında her iki yöneticiyi de överek “Bir efsanenin yerini başka bir efsane alıyor” değerlendirmesinde bulundu.\nNVIDIA'DA ÜST DÜZEY GÖREV DEĞİŞİKLİĞİ\nABD merkezli teknoloji şirketi Nvidia, Jensen Huang'ın CEO'luk ve yönetim kurulu üyeliği görevlerinden ayrıldığını duyurdu.\nŞirket, finans direktörü Colette Kress'in geçici CEO olarak görevlendirildiğini açıkladı.\nNvidia Yönetim Kurulu, kalıcı CEO'nun belirlenmesi için şirket içinden ve dışından adayların değerlendirileceği bir süreç başlattı.\nTIM COOK'UN KARARI MERAK EDİLİYOR\nApple'da 15 yıl boyunca CEO olarak görev yapan Tim Cook, Eylül 2026'da bu görevinden ayrılarak şirketin Yönetim Kurulu Başkanlığına geçmişti.\nTrump'ın önerisine ilişkin Apple ve Tim Cook'tan henüz bir açıklama gelmezken, Nvidia'nın yeni CEO'sunun kim olacağı belirsizliğini koruyor.",
       "summary": "ABD Başkanı Donald Trump, Jensen Huang'ın istifasını takiben Nvidia CEO'su olarak Apple Yönetim Kurulu Başkanı Tim Cook'un önerdiğini duyurdu. Nvidia, Huang'ın görevden ayrıldığını ve finans direktörü Colette Kress'in geçici CEO olarak atandığını, kalıcı CEO seçimi için adayların değerlendirileceğini bildirdi. Tim Cook'un Apple CEO'luğundan Eylül 2026'da ayrılarak yönetim kurulu başkanlığına geçtiği ve öneriye dair henüz bir açıklama yapılmadığı belirtildi."
     },
     {
@@ -697,25 +682,25 @@
     }
   ],
   "weather": {
-    "temp": 16.8,
+    "temp": 16.7,
     "desc": "Kapalı"
   },
   "market": {
     "usdtry": 50.28,
     "eurtry": 55.87,
-    "gold_gram_try": 6280.44,
-    "ceyrek_altin_try": 10990.77
+    "gold_gram_try": 6279.96,
+    "ceyrek_altin_try": 10989.93
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3615119,
-      "change_pct": -3.4524611878714397
+      "price": 3609316,
+      "change_pct": -3.5221073584514926
     },
     {
       "label": "Ethereum",
-      "price": 101594,
-      "change_pct": -3.132673319383715
+      "price": 101348,
+      "change_pct": -3.260482926727034
     }
   ],
   "stocks": [
@@ -726,13 +711,13 @@
     },
     {
       "label": "S&P 500",
-      "price": 7624.79,
-      "change_pct": 0.07
+      "price": 7618.98,
+      "change_pct": -0.01
     },
     {
       "label": "Nasdaq",
-      "price": 25468.6,
-      "change_pct": 0.01
+      "price": 25438.07,
+      "change_pct": -0.11
     },
     {
       "label": "THY",
@@ -766,33 +751,33 @@
     },
     {
       "label": "Apple",
-      "price": 355.89,
-      "change_pct": 0.15
+      "price": 355.8,
+      "change_pct": 0.12
     },
     {
       "label": "Microsoft",
-      "price": 526.12,
-      "change_pct": 0.96
+      "price": 525.5,
+      "change_pct": 0.84
     },
     {
       "label": "Nvidia",
-      "price": 166.01,
-      "change_pct": -4.44
+      "price": 165.05,
+      "change_pct": -5.0
     },
     {
       "label": "Tesla",
-      "price": 391.94,
-      "change_pct": 0.29
+      "price": 391.48,
+      "change_pct": 0.17
     },
     {
       "label": "Meta",
-      "price": 625.93,
-      "change_pct": -0.45
+      "price": 624.72,
+      "change_pct": -0.64
     },
     {
       "label": "Alphabet",
-      "price": 301.68,
-      "change_pct": 2.8
+      "price": 301.56,
+      "change_pct": 2.76
     }
   ]
 }

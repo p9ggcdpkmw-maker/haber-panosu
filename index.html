@@ -425,7 +425,7 @@ function updateGreeting() {
 }
 updateGreeting();
 
-// --- DÜZELTİLMİŞ: SESLİ OKUMA ---
+// --- SESLİ OKUMA ---
 function speakText() {
   if (!window.speechSynthesis) {
     alert("Tarayıcınız sesli okumayı desteklemiyor.");
@@ -434,7 +434,6 @@ function speakText() {
   
   const btn = document.getElementById('btnListen');
 
-  // Eğer hali hazırda konuşuyorsa durdur
   if (window.speechSynthesis.speaking) {
     window.speechSynthesis.cancel();
     btn.innerHTML = "🔊 Sesli Dinle";
@@ -489,6 +488,7 @@ function showSaved(el) {
   document.getElementById('aiBriefingCard').style.display = 'none';
   
   document.querySelectorAll('.sidebar .nav-item').forEach(n => n.classList.remove('active'));
+  document.querySelectorAll('.bn-item').forEach(n => n.classList.remove('active'));
   if(el) el.classList.add('active');
   
   renderNews();
@@ -525,6 +525,11 @@ function showView(viewName, el) {
     document.getElementById('newsView').style.display = 'block';
     document.getElementById('marketView').style.display = 'none';
     document.getElementById('desktopRightPanel').style.display = 'flex';
+    // Navigasyon çubuğundaki "Ana Sayfa"yı aktif et
+    if(el && el.id !== 'nav-home' && el.id !== 'bn-home') {
+       document.querySelectorAll('.nav-item')[1]?.classList.add('active'); 
+       document.querySelectorAll('.bn-item')[0]?.classList.add('active');
+    }
   } else {
     document.getElementById('newsView').style.display = 'none';
     document.getElementById('marketView').style.display = 'block';
@@ -732,7 +737,6 @@ function clearHistory() {
   }
 }
 
-// --- DÜZELTİLMİŞ: MODAL KAPATMA (Ses durdurma) ---
 function closeModal(modalId) { 
   document.getElementById(modalId).classList.remove('active'); 
   if(modalId === 'newsModal' && window.speechSynthesis) {
@@ -745,7 +749,6 @@ document.querySelectorAll('.modal-overlay').forEach(overlay => {
   overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(overlay.id); });
 });
 
-// --- DÜZELTİLMİŞ: LOAD DATA (Piyasa yenileme mantığı) ---
 async function loadData() {
   try {
     const res = await fetch('news.json?t=' + Date.now());
@@ -767,7 +770,6 @@ async function loadData() {
   }
 }
 
-// --- DÜZELTİLMİŞ: WIDGET RENDER (Optional Chaining eklendi) ---
 function renderWidgets() {
   const mContainer = document.getElementById('marketWidgetContent');
   if (mContainer && marketData) {
@@ -784,13 +786,19 @@ function renderWidgets() {
   }
 }
 
-// --- DÜZELTİLMİŞ: MARKET VIEW (Optional Chaining eklendi) ---
+// 🚀 HATA DÜZELTİLDİ: marketData zorunlu değil, herhangi bir piyasa verisi varsa çalışır
 function renderMarketView() {
   const container = document.getElementById('fullMarketContent');
   const wContainer = document.getElementById('fullWeatherContent');
-  if(!container || !marketData) return;
+  if(!container) return;
   
-  let mHtml = `<div class="market-item"><div><div class="market-name">USD/TRY</div></div><div class="market-val">${marketData.usdtry?.toFixed(2) || '0.00'}</div></div>`;
+  if (!marketData && !cryptoData && !stocksData) {
+     container.innerHTML = '<div style="color:var(--text-muted); font-size:14px; padding:10px;">Piyasa verisi yüklenemedi.</div>';
+     return;
+  }
+  
+  let mHtml = '';
+  if(marketData && marketData.usdtry) mHtml += `<div class="market-item"><div><div class="market-name">USD/TRY</div></div><div class="market-val">${marketData.usdtry.toFixed(2)}</div></div>`;
   if(cryptoData) cryptoData.forEach(c => mHtml += `<div class="market-item"><div><div class="market-name">${esc(c.label)}</div></div><div><div class="market-val">${(c.price || 0).toLocaleString('tr-TR')}</div><div class="market-pct ${c.change_pct >= 0 ? 'pct-up' : 'pct-down'}">${c.change_pct >= 0 ? '+' : ''}${(c.change_pct || 0).toFixed(2)}%</div></div></div>`);
   if(stocksData) stocksData.forEach(s => mHtml += `<div class="market-item"><div><div class="market-name">${esc(s.label)}</div></div><div><div class="market-val">${(s.price || 0).toLocaleString('tr-TR')}</div><div class="market-pct ${s.change_pct >= 0 ? 'pct-up' : 'pct-down'}">${s.change_pct >= 0 ? '+' : ''}${(s.change_pct || 0).toFixed(2)}%</div></div></div>`);
   container.innerHTML = mHtml;

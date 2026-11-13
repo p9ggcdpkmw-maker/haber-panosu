@@ -14,8 +14,8 @@ import trafilatura
 from bs4 import BeautifulSoup
 
 # --- YAPILANDIRMA ---
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-if not GROQ_API_KEY:
+FREELMAPI_KEY = os.environ.get("FREELMAPI_KEY")
+FREELMAPI_MODEL = "groq/openai/gpt-oss-120b" # Groq'u birincil, Gemini'yi yedek yapacak
     print("HATA: GROQ_API_KEY bulunamadı!", file=sys.stderr)
     sys.exit(1)
 

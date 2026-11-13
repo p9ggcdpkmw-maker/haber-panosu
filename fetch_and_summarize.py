@@ -20,10 +20,6 @@ if not GROQ_API_KEY:
     sys.exit(1)
 
 GROQ_MODEL = "openai/gpt-oss-120b"
-# Bildirim Kanalları (Kişiselleştirme için ayrı kanallar)
-NTFY_TOPIC_GENEL = os.environ.get("NTFY_TOPIC", "").strip()
-NTFY_TOPIC_OYUN = os.environ.get("NTFY_TOPIC_OYUN", "").strip()
-NTFY_TOPIC_PIYASA = os.environ.get("NTFY_TOPIC_PIYASA", "").strip()
 
 CATEGORIES = [
     {"id": "teknoloji", "label": "Teknoloji", "feeds": ["http://www.webtekno.com/rss.xml", "https://shiftdelete.net/feed", "https://www.donanimhaber.com/rss/tum/"]},
@@ -35,7 +31,6 @@ CATEGORIES = [
     {"id": "gundem", "label": "Gündem", "feeds": ["https://www.ntv.com.tr/son-dakika.rss", "https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.hurriyet.com.tr/rss/anasayfa", "https://www.aa.com.tr/tr/rss/default?cat=guncel", "https://www.trthaber.com/sondakika.rss", "https://www.mhahaber.com/rss"]},
 ]
 
-# 🚀 DÜZELTME: Zaman aşımı 6 saatten 24 saate çıkarıldı (Diğer kaynakların elenmemesi için)
 MAX_AGE_DAYS = 1.0 
 MIN_ITEMS_PER_CAT = 3
 MAX_ITEMS_PER_CAT = 15
@@ -159,11 +154,9 @@ def fetch_stocks():
         except: pass
     return results
 
-# --- METİN ÇEKME (TAKILMAYI ÖNLEYEN TIMEOUT) ---
 def fetch_article_text(url):
     text = ""
     try:
-        # 🚀 DÜZELTME: Timeout 10 saniyeye düşürüldü, takılma engellendi
         downloaded = trafilatura.fetch_url(url, no_ssl=True, timeout=10) 
         if downloaded: text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
     except: pass
@@ -249,7 +242,7 @@ def load_cache():
     except: pass
     return cache, briefings
 
-# 🚀 DÜZELTME: Ayrı kanallara bildirim atma
+# 🚀 DİNAMİK BİLDİRİM FONKSİYONU (Hizalama Düzeltildi)
 def send_smart_notification(new_items, market, crypto, stocks):
     sent_special = False
     
@@ -260,7 +253,8 @@ def send_smart_notification(new_items, market, crypto, stocks):
             requests.post(f"https://ntfy.sh/radar-oyun", data=f"{game['title']}".encode("utf-8"), headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"}, timeout=10)
             sent_special = True
             time.sleep(1)
-        except: pass
+        except: 
+            pass
 
     # 2. Piyasa Alarmı
     alarms = []
@@ -278,7 +272,8 @@ def send_smart_notification(new_items, market, crypto, stocks):
             requests.post(f"https://ntfy.sh/radar-piyasa", data=alarm.encode("utf-8"), headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend", "Priority": "high"}, timeout=10)
             sent_special = True
             time.sleep(1)
-        except: pass
+        except: 
+            pass
 
     # 3. Kategori Bazlı Akıllı Bildirimler
     new_categories = set([it["catId"] for it in new_items if it["catId"] != "oyun"])
@@ -291,37 +286,15 @@ def send_smart_notification(new_items, market, crypto, stocks):
         try:
             requests.post(f"https://ntfy.sh/radar-{cat}", data=body_text.encode("utf-8"), headers={"Title": title_text, "Tags": "newspaper"}, timeout=10)
             time.sleep(1)
-        except: pass
+        except: 
+            pass
         
     # Genel kanala da özet geç
     if new_items and not sent_special:
         try:
             requests.post(f"https://ntfy.sh/radar-haberler", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Genel", "Tags": "newspaper"}, timeout=10)
-        except: pass
-            except: pass
-
-    alarms = []
-    if stocks:
-        for s in stocks:
-            if s.get("change_pct") and abs(s["change_pct"]) >= 2.0:
-                alarms.append(f"{s['label']} %{abs(s['change_pct']):.2f} {'yükseldi' if s['change_pct'] > 0 else 'düştü'}!")
-    if crypto:
-        for c in crypto:
-            if c.get("change_pct") and abs(c["change_pct"]) >= 2.0:
-                alarms.append(f"{c['label']} %{abs(c['change_pct']):.2f} {'yükseldi' if c['change_pct'] > 0 else 'düştü'}!")
-    
-    for alarm in alarms:
-        if NTFY_TOPIC_PIYASA:
-            try:
-                requests.post(f"https://ntfy.sh/{NTFY_TOPIC_PIYASA}", data=alarm.encode("utf-8"), headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend", "Priority": "high"}, timeout=10)
-                sent_special = True
-                time.sleep(1)
-            except: pass
-
-    if new_items and not sent_special and NTFY_TOPIC_GENEL:
-        try:
-            requests.post(f"https://ntfy.sh/{NTFY_TOPIC_GENEL}", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Güncel", "Tags": "newspaper"}, timeout=10)
-        except: pass
+        except: 
+            pass
 
 def main():
     cache, old_briefings = load_cache()

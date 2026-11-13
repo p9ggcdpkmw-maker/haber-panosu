@@ -1,12 +1,45 @@
 {
-  "updated": "2026-11-13T05:50:20.312816+00:00",
+  "updated": "2026-11-13T06:55:02.205758+00:00",
   "briefings": {
-    "genel": "Son dönemde yapay zeka ve uzay yatırımları haber akışını domine ediyor, şirketler ve devlet kurumları büyük fonları bu alanlara yönlendiriyor. Bu durum, teknolojik rekabetin hem özel sektörde hem de ulusal stratejilerde öncelik kazandığını gösteriyor.",
-    "teknoloji": "OpenAI, Google ve Anthropic'in gelişmiş yapay zekâ projelerini durdurma talepleri, regülasyon baskısının sektördeki inovasyon hızını yavaşlatabileceğini işaret ediyor. Aynı zamanda Nvidia CEO'sunun Kongre'de ifade vermesi, yapay zekâ ve çip teknolojilerinin politikalarla daha sıkı entegrasyonunu gündeme taşıyor.",
-    "ekonomi": "SpaceX'in 74 milyar doları aşan yatırım planı ve Claude'un arkasındaki şirketin milyarlarca dolarlık yatırımları, yapay zekâ ve uzay sektörlerine büyük sermaye akışının sürdüğünü ortaya koyuyor. Bu büyük ölçekli fonlar, ilgili pazarların büyüme beklentilerini yükselterek yatırımcı ilgisini artırıyor.",
-    "gundem": "Yapay zekâ asistanları için 10 milyar dolarlık rekabet, seyahat sektöründe yeni hizmet modelleri ve entegrasyonların ortaya çıkmasını tetikleyebilir, bu da tüketici deneyiminde köklü değişiklikler vaat ediyor. Ayrıca, yapay zekâ’nın ‘geri dönen işçiler’ dalgası yaratması, istihdam politikaları ve iş gücü dönüşümü konularında toplumsal tartışmaları alevlendiriyor."
+    "genel": "Son günlerde teknoloji haberlerinde yaşanan erişim sorunları, yapay zekâ platformlarının kesintiye uğraması ve büyük yatırım planları dikkat çekiyor. Ayrıca, OpenAI, Google ve Anthropic gibi devlerin gelişmiş yapay zekâ geliştirme çalışmalarını durdurma talepleri, sektördeki düzenleyici baskıyı artırıyor.",
+    "teknoloji": "Microsoft'taki erişim sorunu 12 saati aşarak yapay zekâ hizmetlerini de etkiledi, bu durum altyapı güvenilirliğinin önemini vurguluyor. SpaceX'in 74 milyar dolarlık yatırım planı, uzay teknolojilerinde rekabeti kızıştırırken, Meta Muse'un telefon açma yeteneği kullanıcı deneyimini yeniden şekillendiriyor.",
+    "ekonomi": "SpaceX'in dev yatırım planı, uzay sektöründe yeni iş fırsatları ve tedarik zinciri hareketliliği yaratacak. Yapay zekâ asistanları için başlatılan 10 milyar dolarlık yarış, seyahat ve hizmet sektörlerinde yeni gelir modellerinin ortaya çıkmasını tetikleyebilir.",
+    "gundem": "OpenAI, Google ve Anthropic'in davalarla karşı karşıya kalması, yapay zekâ etiği ve regülasyon tartışmalarını gündeme taşıyor. Çin'de yasaklı işlemcilerin ortaya çıkması ise uluslararası teknoloji güvenliği ve tedarik bağımlılıkları üzerine yeni bir gündem oluşturuyor."
   },
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Microsoft'taki erişim sorunu 12 saati aştı: Yapay zekâ platformları da etkilendi",
+      "source": "T24",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeWdxa2J6Zm9JaWNDYXhOZUNocmhWMVhxRTBnbG9BbUNGSU01YmxjRUUwdklaWlRmME04YWFNTjJfelM0VXpQbVlkbVVVaGhjRmVZYlluZWlvNnhXR3JFamppbkgxaWJIelBtb0M5U0lBSi1LZHRhaDdSb3c4eVM5OFJXOTVIckJCRFVlc3FHdFBZRGo5elgtRU10c0dldUFtTzRKbVdaNXlSUXRzQWlpZndrN3lqZVYxQUUxNA?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 06:17:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Tersine mühendislik krizi patlak verdi",
+      "source": "CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWNuRHJiYWN2a3k0Rmwzb0ptUjlYczFEZFRNUTYyV3dxUDlOVnVJMUxrWFdCdU9DVFczbjFvUHplT09WVHdnZkRsbnpfcC0yNy1QeFE2dm9vODg5OG5ubTlaSlk4ZVlBb0JLcm8xUHFjenQ1RERiQ3VraE83UWJHOUVZcVRVZTA?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 06:00:19 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yasaklı işlemciler Çinde ortaya çıktı - Bilim Teknoloji Haberleri",
+      "source": "CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWFJYN3JSS2o4dWFIYW4tQXRRMEdsQ0o0elc0QW96X2pTLUQ0aXRtZWFHYkVVenFVSkU0bnY2YVA0d0tsckRORjRMSmtUQ3Jsd1kxQW8yUml3VVc2d2JLMDJhODBWOHBXSUw2ZTJhNlQtYXYwb25obUtYTlBMOEhhTkF3QlZ6Zw?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:58:06 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -14,6 +47,16 @@
       "source": "Yeni Şafak",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUl9KZXI4VHI1VzdSZjhHS3JyYVdYYVZiSHNnbk5qOHRpUUJqdzBKR1YyLXE2X1NMWmFrSlBqQkxyY0FYMVUxYkFTczdLcTdFeTI5b0hzM2FNdTRQYm41Z29FVWtfb1BYSS1wZ0tDbFlQQzF2VTJRS3VVS2VYUXBSYTUwUlNYOEpQd2ZCV1FNUlJ6QQ?oc=5",
       "pubDate": "Fri, 13 Nov 2026 05:24:52 GMT",
+      "image": null,
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "İstanbul merkezli 42 ilde dev operasyon: Özel bilgileri deşifre eden örgüt çökertildi",
+      "source": "Yeni Şafak",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3cwUmFueWNscnZPZ2NoY2ZCR25vZnBQaGtVTjROemxxOTVfdTBLOXVuZTBSU3d6cVZ0RE1hbU01Vnp2aEtJSE9maXZpOHU2T2IzRjVqZXd4X1JHWjhXUTV0Zk1TN0RUOC1FUk1kZTI5ZFpkLXZGZWlpNDZfQTlLOUN4VWFLQVF4d2pUQkIzanNFMkJ3bTc5bkNhamIycFRlQTc0SlQxbWNCckFUTU9MRzBsc0ZucVdMb0UxR2FnYUZwM1U?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:14:43 GMT",
       "image": null,
       "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
@@ -26,7 +69,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jMmNHWmJNd0RfRWxyRXMtMmF1aGhiSUFrdnlSWUNmajBKcFFNbnR6em5GMWJDOHRxUHZwNFVYbDVRY3lBWTNPVl9kdlNpdERMeHJGN1N1a3pndUlIbm9RNjZyRGh3bGlNb3M0djBDYW8?oc=5",
       "pubDate": "Fri, 13 Nov 2026 05:03:56 GMT",
       "image": null,
-      "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
@@ -58,47 +100,6 @@
       "pubDate": "Fri, 13 Nov 2026 02:10:50 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Yapay zekâ asistanları için 10 milyar dolarlık bir rekabet başlatıldı ve bu durum seyahat sektöründe yeni hizmet ve entegrasyonların ortaya çıkmasını tetikleyebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Nvidia CEO'su Huang, ABD Kongresi'nde ifade verecek",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BSVNNLU9zTkJ6TFVDUEVYanhOWGtDb0dMVVo5T25qNUYtOGJPMHFkbjRRUWc5OV9MOHBPM0xFR3pRdmg4ZUpIWE0zcDNlaUx2LV9Kbkk0LW5tM1NwMnfSAWNBVV95cUxQVmFISW5VcC13clFRblV5RFExMEtoUlBmQ2JPV2R4NTFzYzF3aW1xNkJNbzdoeVVFUFVPR2xaSlBENzNWU0NUNXFfRVFSYlN2TUh5R3pnRG5kX1g3YWpWd0laMnM?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:46:57 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Nvidia CEO'su Huang, ABD Kongresi'nde ifade verecek. Huang, Kongre'de konuşma yapacak."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Yapay zeka, 'geri dönen işçiler' dalgası yaratıyor.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jX1ozSkR2X1VzbzVGZ2xqcVo4VHJtZ1RQRm9SVFhIWEx4V2VXbERnVXc3Qkt5NU1jUEFSTEoydUxEc1BlMVg4akd1alNwRlNJVGJDSG9pV3lsYU5BbzczMEF0NUwxXzA5VU1GUWwxaEFJdw?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:30:14 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, yapay zeka teknolojileri, iş gücüne geri dönmek isteyen çalışanların sayısında artışa neden oluyor. Bu durum, iş piyasasında yeni dinamikler ve istihdam politikaları tartışmalarını gündeme getiriyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Teknoloji devindeki aşk skandalı koltuktan etti",
-      "source": "Hürriyet",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR3pjaURhcHVsYmhSVGFVTlBKcGVRdVlzR2hsZGRjcVpqZUc5WjJWV0ZjczZfSnhrMmhJZGdoZnRzMUgzNkdVMUp2WXVCODFEQ3pOZTh0aDQtQU9kY0JDaTRYMzNhRFRXc3FzZkxVNDFrQzZjUWxQTlJRcGVkbW1PT090a1hrUmtDSXF3WTdaS0RtOTNs?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:23:08 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Teknoloji devleri, Claude'un ana şirketine on milyarlarca dolar harcıyor.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORUd4MFRqSmU0TnFraGEzczJFSDVfbFJnV3FsTDNaYk5ySFhTbkhkSkNGMkF4c2lueFFNMDM2ZjlrUXU2QXhnUkhEVEpYLXNHcVRYVHlVRDk0c2dEMjBzVVZyYUZ6eXQ1dUZjamFSekZYYVFBWU15YVFvaVpCb015WjEtUU16MEhKNjlkdlljM21rV0lo?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 23:54:22 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, büyük teknoloji şirketleri, Claude adlı yapay zeka sisteminin sahibi olan ana şirkete on milyar dolar ölçeğinde yatırımlar yapıyor. Bu yatırımlar, yapay zeka alanındaki rekabeti ve inovasyonu hızlandırmayı amaçlıyor."
     },
     {
       "cat": "Bilim",
@@ -223,6 +224,28 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "Stock futures rise after market dips amid Nvidia woes: Live updates",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DUGhtX3RkQk1tTVc3WFZQOGhSalVKd2RzNks0R1dHRlFMSUd1bUhOeVVmNTQxS09JQjhaaTBQVWVnY3RBblNRRlc3a21TVEJJUnZmVm9pYmJMSVNWazl5bU9lZkdyOVpSSXhoSUlfeEx1ZUdvakVR0gF8QVVfeXFMUEZVRDFwUjNBQ01QTjdQX0h5WXU5R3BqdDZwVFJiNU9obl9qYk1lWC1XTWUxbDhFaGR4V2x0cERQdDAyNFlJQk1fNXBqdFItb3FaTDdyV2R6WklkbExBZHNnQ3k1WFR4X0FaeGpRM09SZHprem0zajZXbEx6Vg?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 06:31:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Microsoft outage live updates: What to know as Outlook, 365 and other apps remain down",
+      "source": "ABC7 Los Angeles",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHViWEtYaGk5Uy1kTHhvMllyWWJPUWV4ak1LSFIySjNvYlBVbzNmRjZiZlFSNXN0Vmt3b1FrcEJUTjRZRVNYc1Zab2hrbXhFWjBaandFWFdjNUFBWkJHRHlDMlpDREVYemlEa2FGRUNUcGw4RGxXcUE5QXQyaVhpVHItWDk5dEtTbFBfYk41QzdqNkVIemQ1Z01ndVVzazFPU3VVa1pmLWZndnlHUlFPQmgzWWY?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:58:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war",
       "source": "The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaWdyUWhPQnRiR210eElwazFOZ2pyWWgxN2FWX09VU0ZSZUpFcVlweFllV2E4aF9CcXpwQkhybkVzMjkwdTBOY3JTRFBXdlZBOXVvU2l5cjBKX1Znel9XR2JJb0gwbVlQOV9TenpJUkY2ZG1YcXEtRWdNWTQ0MDJTM3pQdnRHSkE0WXlWQjA5Y2JXQkpUN2hoSkkyTXhrTE1FdnUyblFjWDdqWHZTMGM1LVU4V2oxZnpqZzBj?oc=5",
@@ -238,15 +261,25 @@
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUdrX0lEdjQ2YnpNLXFVbXdvMXpYX01ubHNfWmMyMEV1ODZGS3JLVmZVVDFJYmF0TzRQWHl4SXVjcmx1cUtheHBOU0VLQlZLcC1xbWJnOHlPX1JmWFJJMkxvOGVLb2tFa2wxQjM2by1iVm9USlhRSFZzaHZwR1piNHNkczVNVUdHaURWVnZ3TW83RjRkazJTaEZuem9EazZ2TUUxRE1hWm9wa1gyMExJdGxMS0gxN2FQUnJzWV9JbzFfaHdqQVd2eWpNa3pLZw?oc=5",
       "pubDate": "Fri, 13 Nov 2026 04:30:40 GMT",
       "image": null,
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Van Hollen Says He Will Challenge Schumer for Senate Majority Leader",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeE1ydjlwSE1Mc2hyektqU214alFSdTQ0cEhhV1ZMaFhHNFFaUkJzZ0FCSDlxZXBNcUZOSU5OaXJBVFJDSzBTc1B4c2xtaWd6WWo4ODd3Y1BENUNPRUdkdVVZY1Y3eGRoRnR3U1dwQXpFQWVOT084YmJ6ME9SUllKLVFnTUlWZk0taTk1QUdQclNFZWVuTlVVck15MUM?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 04:11:39 GMT",
+      "image": null,
       "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Dow Futures Rise After Resilient Session; AMD, Arista Are Buys",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHdBUXNwWlkwRldKTGNVWW9NWkFaSzVQaEx4RTRQYUNiVnQ2bGVPMGc0cmM4OVRGTUlmdG4yTlRXWm1QRTh1TE9lRTdLYmVsSGxaanBjUzZLOG9uQ1RNaWRodms3Zk9DTHJTVDdXV2l2aTFicWxDeXhxYXVCcFktd2VQRThkVUFkejFJUzJGb2EwazRCSVVQMFh2c3d0ZTNxeVplUVlsUHBVMm9xTlU5bVFHblVWa2ttR0RHSUN3c2ZVX1RsVlN2SkMyQTZsVlItaGZsWQ?oc=5",
+      "title": "China stages unannounced Pacific drills in 'silent intimidation' of Taiwan, officials say",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcEx2eTdicmVJdWI5Y2JyUVhiN1psV0dacm9RNzFvU29MVWZ0UGxwUWtrMzNNaDFUNWRCMGFyd2F5TUtabzFEdnRjNDFpd2pIbkFlbUFPb3RXTjNIU01iN0RCOVpOV3VyZmY4Uml1anpPYjdwSVFGR3hpemx2WVl6Zms5M3FSOXdBS3pSeVA1eWlLcEJRank5c0lxeGRSR0NUeThJWUc5Nlk0Smw5VWpWczdBRkZXZGNEc3I1ZkxPdWxSQU1mVENN?oc=5",
       "pubDate": "Fri, 13 Nov 2026 04:05:00 GMT",
       "image": null,
       "text": "",
@@ -255,34 +288,33 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HY0g2NTA4UDg1bGFHUXhyZkJCeGJsYXdGeVFFWXNBWHlSNGlDYzVXQkw5YkxheFhEbG1jNGRpXzVVeThsMkJYWENEQ3ZtNi1SZkZfT0RZWnNrckE?oc=5",
       "pubDate": "Fri, 13 Nov 2026 03:57:01 GMT",
       "image": null,
-      "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-      "source": "NPR",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdVNLOGZvSnVMbmRFQkZOcDU0NmVSWWt4U1NubHpEdC1rdVo3N2cyWnNVVUYxMUs1dTVjM0xtZFIwMFAtRHhCWWZtTUJXd1BWSFZTMTZRZDhTODRReTBEbkFYLXRtN1ktdTFpdzB4bHhXNlV3cnBCQ2JNdlAycjNSY0JBR0VMQVZWVlBxd1VZY0g3amRYRmg2VFYtQmRiZUU?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 03:52:25 GMT",
+      "title": "D.C. gunman attributed attack to frustrations with building maintenance",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMFk3YjF3a3pUaGttVHBHa3hEaEcyRF9sRUpnS1A5UFBPSkJpQXpBUzF2UmJ2dDBJN3dvd3E4RFQwOENJV3E3cHY3Z0xNZ09KeWl3QzJNYkJxT0hmOXlRWnJQUm15andsbEVnb0U2TURWNlNfNFBQWUowVy1UaERibWtXTndHZFFMdlM3VlloRzV0YkNhbnZQaFFHVXlQN1pUY2I4RHotbTZTOW9pN2RLc056SlVNZ2NjM01Ob0VYN2hEb2xaMXVhTnlfdGo?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 03:57:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMFhFdjVXUmFEeDhEemZrSmthRjRTdDVVOVQ5S0lWaVVVWXR4T2RiU25IN20xaTFTdHB0RDRNNU1CZ1dmYWVXWWI1MkpydU42bzJaSFlRTFBtZTJfbmM3c2Ezc2w3Uk05YnFGNFVrRXRZam9JTV9ERlRudU1XNHIzUkdtQQ?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 03:27:02 GMT",
+      "title": "The downfall of Jensen Huang",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRlBZMEhVQzRCSXVHeERpUHl6bXFFcmVWQ281TVJWMjRlU1ptOVJtYThTejV0RGY5V29lSHNUengydW96cWZEUDZlcUVKU2ZPQlRISmlJZFNPeGhBbU1fRlZ4OFlYc0xZR3J6SzVFLWNCX2luUWg3VzAtQ21GZVM5OUF1R1M?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 03:47:19 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Trump, Nvidia’nın CEO’su Jensen Huang’a işini savunması talimatını verdi."
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Dünya",
@@ -292,69 +324,29 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaR2NJSnEtNGdGS05uaU94T05ULXIyQW4yYXdzYnpZMWdGOTU5b1JnSEhfdWNNRjBlNkxwNVZhLXI3aWktSlVkeHlvQ2p3Skg3UUlLLW9HTkd3c2s?oc=5",
       "pubDate": "Fri, 13 Nov 2026 03:26:47 GMT",
       "image": null,
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Trump bluntly tells JD Vance to shift focus from Iran to targeting 'corruption and crime' at home",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3hucVhKWVM3X1M0clZMcFVrTFA0UU9ReE9RVW5LVWV2eUY1czdQcnJval9iU3ljNHVoZ0lvdV84Rm5adEFHby1EMnM1d0VfenNTOTBEM1FZczBwRVdVUG9raUF1Q2hqZnpHOFQ4SnZoMkdHZlBLUGtUME1aUmVHVFppZ0dxM2I2MEZCRGpNdzNrNm8?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 02:07:00 GMT",
+      "image": null,
       "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "D.C. gunman attributed attack to frustrations with building maintenance",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMFk3YjF3a3pUaGttVHBHa3hEaEcyRF9sRUpnS1A5UFBPSkJpQXpBUzF2UmJ2dDBJN3dvd3E4RFQwOENJV3E3cHY3Z0xNZ09KeWl3QzJNYkJxT0hmOXlRWnJQUm15andsbEVnb0U2TURWNlNfNFBQWUowVy1UaERibWtXTndHZFFMdlM3VlloRzV0YkNhbnZQaFFHVXlQN1pUY2I4RHotbTZTOW9pN2RLc056SlVNZ2NjM01Ob0VYN2hEb2xaMXVhTnlfdGo?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 02:42:33 GMT",
+      "title": "Cubs' Pete Crow-Armstrong, Astros' Yordan Alvarez unanimous MVP winners",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaEFydXdWWlM2RlVKTk1CT0lVaHhubDFNdldWcmNGMHB4ellXb0lSSFZPd3VxRnlFc2RrbklJN3BsUVZxU0x1NGVKTnlYR2xvQldQNFpmZEtOcWpzcHpKZVhKOHFURFdnMXB2SFpDWW9rS1hvT1k4ZDNPd3AycHExX3RGVUdUMlVKU1FhSnJLXzd5VVZGbEVqdUNGaVNRWXl2MEJrYWhBQi1qQQ?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 00:55:00 GMT",
       "image": null,
       "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Hegseth awards medal to soldier who admonished him, his team at Tomb of the Unknowns",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVXgtTEwwdkhEZG5zYmw4bmkyNllhTzI1b2FtSVVjeWtUOWdnZENwTmhibHV5TEpjMnRhVUlRbkszUGxKRUYwd3pmeHpCbXZnNHc1b25JZWpyT3dIeUhUakI0RkduOXpLTDV4MzdfNm14aWNCSjZvZ1VIZV9jc1h3YjZfWG5sejc4TjdLbkRHRTVNQk5aMXZsQmZtQ2V1bGtpbGtfejZrcUNRVWxIV2o5YU1YVjBDNlhhVlBDWTlZXzQ1VmpW?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 02:19:19 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Hegseth, Bilinmeyen Asker'in mezarında kendisini uyarıp ekibine de aynı şeyi yapan bir askere madalya takdim etti. Bu tören, askeri disiplin ve sorumluluk vurgusunu simgeliyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2anJmMndlT3pCSnNTcFdQRGdza2kxOUc1MDVqRURoRDZoVDM1VEN0SmpMNGJFcFRqdHVjOFY5blNPVF8xQVZhOE0zdk84ZnlobGFGSVNsYlEzNkVDbDlNa3hEdk94NXJpbkdjR1hwU1p1bDBxcUxFeFcyWm15b2tSZHMxU1I?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 01:28:40 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Howard Lutnick, Nvidia'ya yönelik daha sıkı kontrol talepleri artarken daha yumuşak bir tutum sergiledi."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Is Outlook down? Widespread outage hits Microsoft email and other apps",
-      "source": "NPR",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdjBxWnNWYzRSQjgwSzBLV3JlWGtoZ01DTGFwSHphbVl0UXJucXp1amNkU0t5NjZyS2xhRDhIcTRoU3ZvT3FvQlRxZTdrY2xWMXdWOFZiQWtIdW9JOU1pY21TWHdkbnJ2Q3VVdEZIa2VZNGlqZFlhUGloNjcxclBlR2dVVnNMcVhXX2JLTjBKNlRIckRBaWdlOHRhdDkwZFdITDdhMGRETHpuOVY5WjRlNTFwanE?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 01:26:24 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Microsoft’un Outlook ve diğer uygulamalarında geniş çaplı bir kesinti yaşanıyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Burnham is blasted over Piddington migrant camp approval by council boss: ‘Any sexual violence will be on your head’",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ0p3RGxWbmdHckxKZnA4azZLMjZYcDZqWXJ6RE00VGJqcFNUYmlYdHBoazgybmxzN0lZV05ZaXo3bFBOcGxUNF9hMF9QcnJ5a3ZpNkZXOC1DcDdBUkN4WEUwRzk5VHp3UDZ6QW9hNUdIY2tHVzhTWDVRT3pNVmJQeVVSZw?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:56:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Burnham, Piddington göçmen kampı onayı nedeniyle belediye başkanı tarafından eleştirildi ve başkan, olası cinsel şiddet olaylarının sorumluluğunun belediyeye ait olacağını belirtti."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "COP31’de Gaziantep ev sahipliğinde Türkiye kadın Pavilyonu kapılarını açtı",
-      "source": "Gaziantep Postası",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY3loYm1nbEpJUzRBVm5vVkRsMnNORnlrZVBwRW5jTFh6MzlkTHo4eDByZE1LS3hEZFNUN3kwc0lUMWM0MVpvdDBMcndHbVoyR1owNlhtNl9DQU1RZ0Y2bDdUajJwcDZPTl9GVm53U0RqVjZDMDJsdll1WFpBYXY2a01FOVdWaHRWZkhEQ2FkZVlrWDN4U2oxTGJHdUxBY1E2QlFROEExeWxOd3FPZGY1c1pGOGY?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 05:40:06 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. COP31 kapsamında Gaziantep'in ev sahipliğinde Türkiye Kadın Pavilyonu açıldı."
     },
     {
       "cat": "Gündem",
@@ -369,10 +361,65 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Erdoğan: “Türkiye, hayallerini hedeflere, hedeflerini gerçeklere dönüştürmede usta bir ülkedir”",
-      "source": "Gazete Kritik",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcGttNndRRE9NOTZ4Z3cwOXFBWG5TZVpvSjNJTzVDWHZSU0lKN0JBclBFbG9YM3RaZG4ySXlHRklDOFQ1QU9YdGptZlQ0UGVNRjBHZER5ZXNVZ2FwM1Vxc2x2Z1BSazBjWk54Y2stQmtPTzJEdlFaTG0tNTJPOU9lYURlOGJ2dmlUSWxzNnEzekhZdmtwUWN5SzF5d0tPR001c19OTklKSWtyNGJIWjBYTUc2b3FxdGNtTTNucUlZbXgwOU1WcDlpMnJfY0k5Zw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 22:34:11 GMT",
+      "title": "Türkiye'de gündem olan Konyalı Muhammed, yürüyebilecek mi?",
+      "source": "Saray Medya",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdlJfbHowQXFNMWpDbXI2akNiZ2ZJRy0tSzdqSTFLS1JpelhvOEZBWGJmWHJXR3EwYjZxOFVEMTI3eThnSmxVb285SHpVNW92TFRBRnZZcU90X1R3QlFlYWJ6NVMyVy1KMTl5TTBTWEZsTG9lX2ZJRmhITm94S0l6bTJ3dlk2STJ0ekFmVFd3bnFzMjQ1VS0wUG43RWx2Zw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 21:18:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Türkiye, Belçika'ya 2-1 mağlup oldu",
+      "source": "Borsa Gundem",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oSHlFcVBfbGFacjVReTBZWW5oLUlncmR0bnY3Q3ItZ2ZQZ1FQWjl1WE1QYm5RZkZ2ZC1NNkZQSms3MHdYaXhYc2VLRlVQR1RRYkNBOEFxWFhqMUhvUURvQndhVXVCVmpDR3JRcFM3MUNmZw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 19:33:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Tekirdağ'da kaçak getirilen 24 büyükbaş hayvan kestirildi",
+      "source": "İşçi Haber",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdDJldTdhd19GbWRwVlVNSWllVDNrdWRveDhIUXc0X2RmbXJnNTVoN2hpWEM0TnVoalNYZVoxX2FCQmI4SDV6MHE5WU5zaWZTMmJSN3k1M2tLUElVa2VTdmtWaWM2ekNXdlVvVDBhTGxtcFFoUlJ5X1ZHN0dHOUE3ZjIyYlhNM1VBc3RmT2dRSGxzMXVqMThCSFVSWVFLTm8?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 06:07:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Çorlu'da izinsiz getirilen 24 büyükbaş, Trakya'nın ari statüsünü koruma amacıyla kestirildi",
+      "source": "Aksiyon.com.TR",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcktDUjZjYmw5Q2dlV3NESko0SzFrcGFDVWluRWROaTJlMm5tUDRJNnY2MFU4bHdXbVhoNUpUd19Dai1Gb25SVlR4WGRNSkk0OUQxLWE1Mi1SUlNwaTV4ckxya2dnRFdLRE1XYmZoOWh3T0lac3ZzenllQlhPY0FDWi1LYVBjZnBMTk9kQUR5ZElXTU5PMTFXRzE5eDFTMkhqU2ItS0dMRGdwTDFlc1RmUm44S2hPd0pod2N2S0t5T25nd9IBxwFBVV95cUxOdGNEclF2SDVTNE13M09BUDlsdVlfdzY2ajc1cERKVHkzUHp2ZGZDMUNFaGNydVRxVHV6cmYzbEEwMF9kYmQ2cFRLTzVQS0g4b1hWdVR1dGEzS01IN3hYYmFwckxlZG12NGhyWnVFY05laTVVMHBSaUtpZXNkSkVHUTFnRVVnNlVIZUpsWmdZcGdWT0tCNUV0MjE2UFhINHFBamRFaXFBb2lFS1I3LWJDT3pvWHBFd3licHBOYW5PeDc5ejlsckVZ?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 06:06:30 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Çorlu'ya kaçak getirilen 24 büyükbaş hayvan kestirildi",
+      "source": "Habertürk",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdDh3ckVQUVZQeDd1emRjYy1QcGx6NnJhYTRiWlMtNVZZZDhRYWo1WllhZFNmdmJyeU1FSGVIQ2RyNHJydGx5M3dZTFVXeWpKVnZ3c2R1SncxWXhpNnhBREkzTDQwU21jeGRQY3JMVWx6NEp3aEtuU0Q5TEFkSFJ4cmZhY3NUZXV4M1hRWEJVNk4ycVlVVlFVY04tT3M1d19rM1pya0xaMHdONzFSbUtmS21QRC1VemgtYVZJ?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:59:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "Çorlu’ya kaçak getirilen 24 büyükbaş hayvan kestirildi İhlas Haber Ajansı",
+      "source": "İhlas Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaDdyV2VhaEZiWWxCRGNvYW5YM3Z4OGtwQU90UXRGRnlva05mQjlFMUxjZExaZy1MT0tCZjliU0YxUEZTSF9UZ3oxQm92WkJPYzVaaE9MeHNhR2Q4VDIwRWxnNmdQU3lLVmpGR1otcXEtazRndzJhS0hwSjVoOGNSNzFJWFNicG5xY3lxWGR1SnUyVExPcnQ4cmxncXRacGtJbXJLOWhtRW8?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:58:29 GMT",
       "image": null,
       "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
@@ -385,28 +432,7 @@
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTkdrV3BPWGxYVThvNnRURV9kQ3FfMkpYQ09IMHJsUng4RmViT21sR1pxYTlUTldaSVNxSV82T0QwZHU5Sk1mWGdUOU5IT2dZeWxocGp4Nk1SekJIbGg1QzhCWEpaMWxaRFVuZkpWcEdxOXJUZEhHYTV5bU10SlBnd1hlNl9Nb3psaUVQVzJHWWZRLUxIa3BIX1VwRDg0QnpY?oc=5",
       "pubDate": "Fri, 13 Nov 2026 05:18:25 GMT",
       "image": null,
-      "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Çorlu",
-      "catId": "corlu",
-      "title": "Şehit Astsubay Zehir'in eşine şehadet haberi Tekirdağ'da verildi",
-      "source": "Çorlu Haber",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMHlSZzk3UHB1bzU1NEd5T1EwU25yMEhUVFlwa2dlYmdkelpVTURaMmZwbFp1UG9uWUpkUEdCSEx3LWRIWDFNRV9JeUEyZVQ2bm9vYjJ0YU1BUEdfRUI2ZEhxZEprTmZsTHpnV09Odzh1bHR2VHpUTk1fRzZZRUdwbUxFSXE1NV9uRnJFQkRhamZVU29Bcmh0aDA2emtBY2c?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 23:12:15 GMT",
-      "image": null,
-      "summary": "Şehit Astsubay Zehir'in eşine şehadet haberi Tekirdağ'da verildi. Tam metne ulaşılamadı."
-    },
-    {
-      "cat": "Çorlu",
-      "catId": "corlu",
-      "title": "13.11.2026 Tekirdağ/Çorlu Elektrik Kesintisi Hakkında -Tredaş-",
-      "source": "Güncel Kesintiler",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdXE2NVA5NEs0djlRSUJvdElZQlpuNmhMNUp1Q3hCZWE1RVBzSnJnYXpWVTVWdzEyWUtDRHplVnRaSERBZUJtYmhwUkJqMi1qeTdvaHN1MFpuc2FOSm12c0lKMERqMlVVWllrNWM2a0k5M1RUWEVyTndDamdEMU1raEtkcTVybmJfVzlObHI5R1VsUE5WRjdOUW50Y0NWQWRCVno4MkRLQzRyVXNSN0U4Tm91NW4?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 22:55:32 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. 13 Kasım 2026 tarihinde Tekirdağ’ın Çorlu ilçesinde Tredaş tarafından bildirilen bir elektrik kesintisi yaşandı."
     },
     {
       "cat": "MHA Haber",
@@ -439,26 +465,23 @@
       "summary": "Gaziveren 1. Cadde üzerinde 16:30 civarında Mervan Güceyü (22) sürücülüğündeki KY 275 plakalı araç sağa meyilli viraja girerken direksiyon hakimiyetini kaybedip bir işletmenin önündeki beton zemine çarptı ve takla attı. Araç tavanı üzerinde dururken sürücü hastanede yapılan müdahalelere rağmen yaşamını yitirdi; yolcu Ahmet Cihan Açıkbaş (20) ise yaralı olarak hastanede tedavi altında."
     }
   ],
-  "weather": {
-    "temp": 15.9,
-    "desc": "Parçalı bulutlu"
-  },
+  "weather": null,
   "market": {
     "usdtry": 50.31,
     "eurtry": 55.69,
-    "gold_gram_try": 6326.27,
-    "ceyrek_altin_try": 11070.97
+    "gold_gram_try": 6309.21,
+    "ceyrek_altin_try": 11041.12
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3450534,
-      "change_pct": -6.607630186674548
+      "price": 3469768,
+      "change_pct": -5.964668614478419
     },
     {
       "label": "Ethereum",
-      "price": 96642,
-      "change_pct": -5.9472575044488805
+      "price": 97274,
+      "change_pct": -5.123383013506208
     }
   ],
   "stocks": [
@@ -480,32 +503,32 @@
     {
       "label": "THY",
       "price": 319.0,
-      "change_pct": 1.35
+      "change_pct": 0.0
     },
     {
       "label": "Aselsan",
       "price": 344.75,
-      "change_pct": 0.44
+      "change_pct": 0.0
     },
     {
       "label": "Garanti BBVA",
       "price": 152.6,
-      "change_pct": -1.42
+      "change_pct": 0.0
     },
     {
       "label": "BİM",
       "price": 388.0,
-      "change_pct": 2.78
+      "change_pct": 0.0
     },
     {
       "label": "Ereğli Demir Çelik",
       "price": 32.06,
-      "change_pct": 1.65
+      "change_pct": 0.0
     },
     {
       "label": "Şişecam",
       "price": 36.02,
-      "change_pct": 2.21
+      "change_pct": 0.0
     },
     {
       "label": "Apple",

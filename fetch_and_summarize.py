@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (v3 - Hatasız Analiz)
+RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Kusursuz Sürüm v3)
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -191,14 +191,17 @@ def summarize_batch(items):
     if not items: return []
     lines = []
     for i, it in enumerate(items):
-        content = it.get("text") if it.get("text") else it['title']
-        lines.append(f"--- HABER {i+1} ---\nBaşlık: {it['title']}\nKaynak: {it['source']}\nİçerik: {content}\n")
+        content = it.get("text")
+        # 🚀 DÜZELTME: Eğer tam metin çekilemediyse başlığı özetletmiyoruz, direkt uyarı yazdırıyoruz.
+        if not content:
+            lines.append(f"--- HABER {i+1} ---\nBaşlık: {it['title']}\nDurum: TAM METNE ULAŞILAMADI. Lütfen başka bir şey yazma, SADECE 'Bu haberin tam metnine ulaşılamadı.' yaz.\n")
+        else:
+            lines.append(f"--- HABER {i+1} ---\nBaşlık: {it['title']}\nKaynak: {it['source']}\nİçerik: {content}\n")
     
     prompt = (
         "Aşağıdaki haberleri Türkçe, 2-3 cümlelik, tarafsız ve anlaşılır şekilde özetle. "
+        "DİKKAT: Eğer bir haberin durumu 'TAM METNE ULAŞILAMADI' ise, o haber için SADECE 'Bu haberin tam metnine ulaşılamadı.' cümlesini yaz. Başlıktan çıkarım yapma, başlığı tekrar etme. "
         "DİKKAT: Girdi metinleri başka bir dilde olsa bile, SENİN ÇIKTIN KESİNLİKLE TÜRKÇE OLACAK. "
-        "Eğer 'İçerik' kısmı sadece başlıktan oluşuyorsa, 'Tam metne ulaşılamadı' uyarısı ekleyerek başlıktan çıkarım yap. "
-        "Haberlerde olmayan bilgileri KESİNLİKLE uydurma. "
         "Çıktıyı tam olarak şu JSON formatında ver: "
         '{"summaries": ["özet 1", "özet 2", ...]} '
         "Başka hiçbir şey yazma.\n\n" + "\n".join(lines)
@@ -228,10 +231,10 @@ def summarize_batch(items):
             break
     return [""] * len(items)
 
-# --- KATEGORİYE ÖZEL ANALİZLER (HAFİFLETİLMİŞ VE GÜVENLİ) ---
+# --- KATEGORİYE ÖZEL ANALİZLER (GÜVENLİ VE HAFİF) ---
 def generate_category_briefings(all_news):
     if not all_news: return {}
-    # 🚀 DÜZELTME: 30 haber yerine sadece en güncel 10 haberi analiz et (400 hatasını çözer)
+    # 🚀 400 hatasını önlemek için sadece en güncel 10 haber analiz edilir
     top_news = all_news[:10] 
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     
@@ -259,17 +262,15 @@ def generate_category_briefings(all_news):
         resp.raise_for_status()
         data = json.loads(resp.json()["choices"][0]["message"]["content"])
         
-        # Güvenlik ağı
         for key in ["genel", "teknoloji", "ekonomi", "gundem"]:
             if key not in data or not data[key]: data[key] = "Bu alan için özel bir gelişme bulunamadı."
         return data
     except Exception as e:
         print(f"  ! Briefing hatası: {e}", file=sys.stderr)
-        # 🚀 DÜZELTME: Hata alsa bile boş dönmek yerine en iyi 3 haber başlığını özet olarak ver
         fallback_text = "Günün öne çıkan başlıkları: " + ", ".join([h['title'] for h in top_news[:3]])
         return {"genel": fallback_text, "teknoloji": "Analiz şu an hazırlanamıyor.", "ekonomi": "Analiz şu an hazırlanamıyor.", "gundem": "Analiz şu an hazırlanamıyor."}
 
-# --- CACHE VE BİLDİRİM ---
+# --- AKILLI CACHE VE BİLDİRİM ---
 def load_cache():
     cache = {}
     briefings = {}
@@ -285,6 +286,7 @@ def load_cache():
 def send_smart_notification(new_items, market, crypto, stocks):
     if not NTFY_TOPIC: return
     sent_special = False
+
     new_games = [it for it in new_items if it.get("catId") == "oyun"]
     for game in new_games:
         try:

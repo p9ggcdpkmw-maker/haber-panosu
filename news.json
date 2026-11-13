@@ -1,12 +1,111 @@
 {
-  "updated": "2026-11-13T13:17:23.179706+00:00",
+  "updated": "2026-11-13T14:10:38.266128+00:00",
   "briefings": {
-    "genel": "Günün öne çıkan başlıkları: Porsche CEO'sundan Roadster'a şov göndermesi, Casper Excalibur G915 Ekran Kartı ve İşlemci Performansı: RTX 5060 mı RTX 5070 mi?, Merakla beklenen Fable'dan 4 dakikalık kesintisiz oynanış videosu geldi",
-    "teknoloji": "Analiz şu an hazırlanamıyor.",
-    "ekonomi": "Analiz şu an hazırlanamıyor.",
-    "gundem": "Analiz şu an hazırlanamıyor."
+    "genel": "Analiz hazırlanamadı.",
+    "teknoloji": "Analiz hazırlanamadı.",
+    "ekonomi": "Analiz hazırlanamadı.",
+    "gundem": "Analiz hazırlanamadı."
   },
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "OpenAI ve Google'a yeni model yasağı davası",
+      "source": "Shiftdelete",
+      "link": "https://shiftdelete.net/yapay-zeka-davasi-openai-anthropic-google-yeni-model",
+      "pubDate": "Fri, 13 Nov 2026 17:00:00 +0300",
+      "image": "https://ares.shiftdelete.net/static/sdnweb-haberbotu/hb/1aa6b4ee7650126958b610a50801a28f371abef7.webp",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "GTA 6 kutusundan çıkan kod yayında el değiştirdi",
+      "source": "Shiftdelete",
+      "link": "https://shiftdelete.net/gta-6-aktivasyon-kodu-canli-yayinda-calindi",
+      "pubDate": "Fri, 13 Nov 2026 16:49:28 +0300",
+      "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/gta-6-aktivasyon-kodu-canli-yayin-kapak-1311.webp",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Teslimat uygulamalarının komisyonlarına robotlu çözüm",
+      "source": "Donanimhaber",
+      "link": "https://www.donanimhaber.com/teslimat-uygulamalarinin-komisyonlarina-robotlu-cozum--212870",
+      "pubDate": "Fri, 13 Nov 2026 16:42:00 +0300",
+      "image": "https://www.donanimhaber.com/images/images/haber/212870/1200x675teslimat-uygulamalarinin-komisyonlarina-robotlu-cozum.jpg",
+      "text": "Teknoloji ve bilim dünyasını seven ve takip etmekten büyük zevk alan Metin, öğrendiklerini ise DonanımHaber okuyucuları ile paylaşır. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Tam Boyutta Gör Serve Robotics, otonom kaldırım robotlarının kullanım alanını genişletmek amacıyla yeni bir geliştirici platformu başlattı. AV Delivery Developer Portal adı verilen platform, üçüncü taraf yazılım geliştiricilerin, bağımsız işletmelerin ve yapay zeka ajanlarının şirketin yaklaşık2 bin robotluk filosunadoğrudan erişmesini sağlıyor. Bu sistemle birlikte işletmeler, teslimat robotlarını kullanmak içinUber Eatsgibi büyük yemeksipariş platformlarına bağlı kalmak zorunda olmayacak. Geliştiriciler ve küçük işletmeler, Serve Robotics'in sunduğu yazılım araçları üzerinden robotları doğrudan görevlendirebilecek. Şirketin faaliyet gösterdiği yaklaşık 150 mahallede yaşayan kullanıcılar da bu hizmetten yararlanabilecek. Serve Robotics, kaldırım ağırlıklı çalışan robotlarının otomobillere kıyasla daha güvenli bir teslimat alternatifi sunduğunu ve trafik yoğunluğunu azaltmaya yardımcı olabileceğini savunuyor. Saatte yaklaşık 10 km azami hıza ulaşabilen robotların düşük hızı, yayalar açısından oluşabilecek riskleri de sınırlandırıyor. Serve Robotics CEO'su Ali Kashani'ye göre yeni platformun temel amaçlarından biri, şirketin büyük teslimat uygulamalarına olan bağımlılığını azaltmak. Haliyle platformlardı yüksek teslimat komisyonlarından da kurtulmuş olacaklar. Dijital Hizmet Vergisi düşüyor: 2027'de yüzde 2,5 olacak1 gün önce eklendiYeni platform sayesinde fırınlar, çiçekçiler ve eczaneler gibi küçük işletmeler, Serve Robotics robotlarını kendi internet sitelerine ve ödeme sistemlerine entegre edebilecek. İşletmeler teslimat başına ödeme yapabilecek veya robotları saatlik rezerve edebilecek. CEO Ali Kashani, bu yöntemin insan kuryelerle çalışan hizmetlerden çok daha düşük maliyetli olacağını belirtiyor.Bu model, DoorDash ve Uber Eats gibi platformların sipariş başına aldığı yüzde 15 ila 30 arasındaki komisyonları da ortadan kaldırabilir. Ayrıca robotların gün boyunca farklı teslimatlarda kullanılması sağlanacak. Serve Robotics, üçüncü taraf API taleplerini büyük işletmelerin siparişleriyle eşit öncelikte değerlendirerek filosunu daha verimli kullanmayı hedefliyor.Robotlar farklı teslimat işlerinde de kullanılabilecekTam Boyutta GörServe Robotics'in platformu, restoranların yanı sıra ofisler arasında eşya taşınması, tamir atölyelerine yedek parça ulaştırılması ve bireysel alışverişlerin teslim edilmesi gibifarklı amaçlara da hizmet edecek. Geliştiricilerin robotlara yalnızca teslimatın başlangıç ve varış koordinatlarını iletmesi yeterli olacak. Rota oluşturma, engellerden kaçınma ve uzaktan operatör gözetimi gibi işlemleri şirketin altyapısı yönetecek.Öte yandan bu yeni platform, Serve Robotics'in Uber Eats ile ortaklığını yenilememe kararının ardından geldi. Şirket böylece büyük teslimat uygulamalarına bağımlılığını azaltarak robot filosunu doğrudan işletmelere açmayı hedefliyor.Ancak robotlara erişim tamamen serbest olmayacak. Serve çalışanları, tehlikeli kullanımları ve yasa dışı yük taşınmasını önlemek için teslimat senaryolarını manuel olarak onaylayacak. Şirket ayrıca yaklaşık 22,7 kilogram ağırlığındaki robotlarını karayollarında çalışan teslimat araçlarına dönüştürmeyi planlamıyor. Serve Robotics'in odağı şimdilik kaldırım teslimatlarıyla sınırlı kalacak.https://www.theverge.com/transportation/1030902/serve-robotics-open-developer-api-",
+      "summary": "Serve Robotics, yaklaşık 2 bin robotluk filosuna üçüncü taraf geliştiricilerin ve küçük işletmelerin doğrudan erişimini sağlayan AV Delivery Developer Portal'ı başlattı. Bu platform sayesinde işletmeler, Uber Eats gibi büyük teslimat uygulamalarına bağlı kalmadan robotları doğrudan görevlendirerek yüksek komisyonlardan kaçınabilir ve farklı teslimat ihtiyaçlarını karşılayabilir."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Windows etkinleştirmede kasım güncellemesi engeli",
+      "source": "Shiftdelete",
+      "link": "https://shiftdelete.net/windows-etkinlestirme-hatasi-0x80041008",
+      "pubDate": "Fri, 13 Nov 2026 16:30:00 +0300",
+      "image": "https://ares.shiftdelete.net/static/sdnweb-haberbotu/hb/d5ee5858fb38043332ed4f287a1ee02cbbeb32b6.webp",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Xbox CEO'su yeni konsolu doğruladı: Beşinci nesil yolda",
+      "source": "Donanimhaber",
+      "link": "https://www.donanimhaber.com/xbox-ceo-su-yeni-konsolu-dogruladi-besinci-nesil-yolda--212871",
+      "pubDate": "Fri, 13 Nov 2026 16:20:00 +0300",
+      "image": "https://www.donanimhaber.com/images/images/haber/212871/1200x675xbox-ceo-su-yeni-konsolu-dogruladi-besinci-nesil-yolda.jpg",
+      "text": "Bilgisayar dünyası ve mobil teknoloji gündemini sıkı takip eden İlkcan, yaşanan tüm gelişmeleri DonanımHaber okurları ile paylaşıyor. Tasarım meraklısı ve sanata oldukça ilgi duyuyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Xbox'ın 15 Kasım'da 25. yaşını kutlaması öncesinde paylaşılan mesajda, şirketin oyun sektöründeki geçmişine de değinildi. Sharma, Xbox'ın önümüzdeki dönemde \"harika oyunlar ve kendini belli eden donanımlar\" sunması gerektiğini vurguladı. Ayrıca daha fazla kişinin oyun geliştirme fırsatına sahip olmasının önemine dikkat çekti. Microsoft, yeni nesil konsolunun teknik özelliklerini, fiyatını veya çıkış tarihini henüz açıklamadı. Ancak şirketin daha önce duyurduğu Project Helix, yeni donanımın geliştirme sürecine ilişkin ilk somut bilgileri sunuyor. Özel olarak tasarlanmış bir AMD SoC kullanacağı açıklanan sistemin ilk alfa donanımlarının 2027 yılında oyun geliştiricilerine ulaştırılması planlanıyor. Sharma'nın mesajında yalnızca yeni konsol değil, oyun sektörünün karşı karşıya olduğu maliyetler de öne çıktı. Artan geliştirme bütçeleri, kaynak ihtiyaçları ve finansal riskler nedeniyle bazı oyun fikirlerinin hayata geçirilemediğini belirten Sharma,küçük ekiplerin gelecekte daha büyük dünyalar oluşturabileceğibir sektör öngördüğünü söyledi. GTA 6, PlayStation ve Xbox'ta en çok ön sipariş verilen oyun oldu1 gün önce eklendiXbox CEO'suna göre bugün yüzlerce geliştirici ve yüz milyonlarca dolarlık bütçe gerektiren projeler,ilerleyen dönemde çok daha küçük ekipler tarafından geliştirilebilecek. Bu yaklaşım, Microsoft'un oyun geliştirme süreçlerini daha erişilebilir hale getirme hedefinin de bir parçası. Öte yandan Microsoft, Xbox ve oyun stüdyolarında en az25 yıldır çalışan 111 personeli deunutmadı. Bu çalışanlara özel olarak işlenmiş bir Xbox konsolu verileceği açıklandı.https://videocardz.com/newz/xbox-promises-unmistakable-hardware-ahead-of-its-25th-anniversaryYorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaEv ElektroniğiOyun Konsolları HaberleriXbox CEO'su yeni konsolu doğruladı: Beşinci nesil yoldaBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük Xbox CEO'suna göre bugün yüzlerce geliştirici ve yüz milyonlarca dolarlık bütçe gerektiren projeler,ilerleyen dönemde çok daha küçük ekipler tarafından geliştirilebilecek. Bu yaklaşım, Microsoft'un oyun geliştirme süreçlerini daha erişilebilir hale getirme hedefinin de bir parçası. Öte yandan Microsoft, Xbox ve oyun stüdyolarında en az25 yıldır çalışan 111 personeli deunutmadı. Bu çalışanlara özel olarak işlenmiş bir Xbox konsolu verileceği açıklandı. Ekranlı ve mikrofonlu akıllı yüzük",
+      "summary": "Xbox CEO'su, şirketin 25. yıldönümü öncesinde beşinci nesil bir konsolun geliştirilmekte olduğunu doğruladı. Yeni sistemin teknik detayları henüz açıklanmasa da Project Helix kapsamında özel bir AMD SoC kullanılacak ve ilk alfa donanımlarının 2027'de geliştiricilere gönderilmesi planlanıyor. Ayrıca, oyun geliştirme maliyetlerinin yüksek olması nedeniyle daha küçük ekiplerin projeleri gerçekleştirebileceği vurgulandı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "OneOdio Black Friday indirimleri başladı: Bedava kulaklık, özel indirimler ve indirim kodu",
+      "source": "Donanimhaber",
+      "link": "https://www.donanimhaber.com/oneodio-black-friday-indirimleri-basladi-2026--212863",
+      "pubDate": "Fri, 13 Nov 2026 16:18:47 +0300",
+      "image": "https://www.donanimhaber.com/images/images/haber/212863/1200x675oneodio-black-friday-indirimleri-basladi-2026.jpg",
+      "text": " Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. İçerik üreticiler, müzik prodüktörleri, DJ’ler ve oyuncular için profesyonel ses ekipmanları geliştirenOneOdio, yılın en büyük indirimlerinin gerçekleşeceği Black Friday kampanyalarını duyurdu. Kullanıcılar büyük indirimlerin yanı sıra 190 dolar değerindeki kulaklığıücretsizolarak kazanma fırsatı elde ediyor. Üstelik DonanımHaber okurlarına özel yüzde 15 indirim kodumuz bulunuyor. Yılın en büyük indirimlerine hazır olun.Black Friday’detüm kategorilerde geçerli özel indirimlerin yanı sıra bu büyük indirim dönemi öncesinde “Çevir-Kazan” hediye çarkı etkinliği düzenleniyor. 19 Kasım'da ise Black Friday indirimleri başlıyor. OneOdio'nun Black Friday indirimleri öncesi9-18 Kasım 2026tarihlerinde düzenlediği Spin-to-Win (Çevir-Kazan) etkinliği, ile kullanıcılar 189,90 dolar değerindeStudio Max 2 kablosuz kulaklıkveya indirim kodu kazanıyor. Herhangi bir satın alma işlemi yapmadan etkinlik sayfasını ziyaret ederek çarkı bir kez çevirebilirsiniz. Etkinliğe katılmak isteyenler 9-18 Kasım tarihlerindeOneOdio Spin-to-Winkampanya sayfasını ziyaret edebilir. OneOdio'nun ana Black Friday kampanyası19-30 Kasım 2026tarihleri arasında gerçekleşecek. Kampanya süresince OneOdio web sitesi üzerinden her 50 dolar ve üzeri sepetinize anındatüm ürünlerde yüzde 20 indirimuygulanacak. Kampanyadaki ürünleri incelemek içinOneOdio Black Fridaysayfasını ziyaret edebilirsiniz. OneOdio, Black Friday kampanyası sona erdikten sonra DonanımHaber okuyucularına özel bir indirim kodu fırsatı sunacak. $50 dolar ve üzeri siparişlerde 15% indirim kodu: DHABER151-31 Aralık 2026 tarihleri arasında geçerli Kampanyadan yararlanmak için OneOdio'nun resmi internet sitesini Aralık ayında ziyaret ederek DHABER15 kodunu kullanabilirsiniz. Alışveriş için siteyi ziyaret edin:OneOdio.com OneOdio, kampanya döneminde farklı kullanım senaryolarına hitap eden kablosuz DJ kulaklıklarından aktif gürültü engelleme özellikli modellere kadar çeşitli ürünler sunuyor. İşte öne çıkan üç model: OneOdio'nun üst segment kablosuz DJ kulaklığı Studio Max 2, özellikle DJ'ler, müzik prodüktörleri ve içerik üreticileri düşünülerek geliştirilmiş. Grammy adayı DJ ve prodüktör KSHMR ile birlikte ses ayarı yapılan model, düşük gecikme süresi ve uzun pil ömrüyle dikkat çekiyor. Tam Boyutta Gör Kablosuz ve kablolu kullanım seçeneklerini bir arada sunan OneOdio Fusion A70 Gen 2, profesyonel ses monitörleme ihtiyaçlarıyla günlük kullanım arasında denge kurmayı hedefliyor. Günlük kullanım, seyahat ve çalışma ortamları için tasarlanan OneOdio Focus A10, hibrit aktif gürültü engelleme (ANC) özelliğiyle öne çıkıyor. *Bu içerik sponsorlu iş birliği içermektedir. Ekranlı ve mikrofonlu akıllı yüzük",
+      "summary": "OneOdio, Black Friday kampanyasını duyurarak 19‑30 Kasım 2026 tarihleri arasında tüm ürünlerde %20 indirim ve 50 $ üzeri alışverişlerde %15 indirim kodu (DHABER151) sunacak. Kampanya öncesinde 9‑18 Kasım tarihleri arasında düzenlenen Spin‑to‑Win etkinliğiyle katılımcılar 189,90 $ değerinde Studio Max 2 kulaklık ya da indirim kodu kazanabilecek. Ayrıca, 190 $ değerindeki bir kulaklık da ücretsiz olarak verilecek."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "5.000 TL Değerindeki 4 Oyun Bu Hafta Sonu Steam'de Ücretsiz [13-16 Kasım]",
+      "source": "Webtekno",
+      "link": "https://www.webtekno.com/steam-hafta-sonu-ucretsiz-oyun-13-16-kasim-h228970.html",
+      "pubDate": "Fri, 13 Nov 2026 16:16:03 +0300",
+      "image": "https://imgrosetta.webtekno.com/file/697136/697136-640xauto.jpg",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yeni Honda CR-V Sadece Hibrit Oluyor: İlk Detaylar Geldi!",
+      "source": "Webtekno",
+      "link": "https://www.webtekno.com/yeni-honda-cr-v-sadece-hibrit-oluyor-h228976.html",
+      "pubDate": "Fri, 13 Nov 2026 16:15:42 +0300",
+      "image": "https://imgrosetta.webtekno.com/file/697174/697174-640xauto.jpg",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "n11’in 11.11 alışveriş raporu açıklandı: Bazı ürünlerin satışları yüzde 1.450 arttı",
+      "source": "Donanimhaber",
+      "link": "https://www.donanimhaber.com/n11-in-11-11-alisveris-raporu-aciklandi--212873",
+      "pubDate": "Fri, 13 Nov 2026 16:09:00 +0300",
+      "image": "https://www.donanimhaber.com/images/images/haber/212873/1200x675n11-in-11-11-alisveris-raporu-aciklandi.jpg",
+      "text": "Teknoloji ve bilim dünyasını seven ve takip etmekten büyük zevk alan Metin, öğrendiklerini ise DonanımHaber okuyucuları ile paylaşır. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Tam Boyutta Gör n11, 1-11 Kasım 2026 dönemine ait alışveriş verilerini açıkladı. Geçen yılın aynı dönemiyle karşılaştırılan verilere göre kazak ve hırka satışlarıyüzde 1.000’in üzerindeartarken hava temizleme cihazları, araç içi süpürgeler ve fitness ekipmanları da yoğun ilgi gördü. n11’in 2026 alışveriş verilerine göre tüketicilerin giyim tercihlerinde rahatlık odaklı ürünler öne çıkıyor.Kazak ve hırkasatışlarıyüzde 1.000’in üzerindeartarken pijama satışlarında da yüzde 1.000’e yakın büyüme kaydedildi. Eşofman ve sweatshirt satışları yüzde 500 yükseldi. Kadın taytları da satış adedinde en fazla artış gösteren ürün grupları arasında yer aldı. Tam Boyutta Gör Dış giyim satışlarında yüzde 400 artış yaşanırken dik yaka montlar, sade dik yaka sweatshirt’ler ve erkek polo yaka tişörtler en çok tercih edilen modeller oldu. U.S. Polo Assn., DeFacto, Pierre Cardin ve Calvin Klein ise öne çıkan markalar arasında yer aldı. Kişisel bakım kategorisinde Kore kozmetiği markaları tüketicilerin ilgisini çekmeye devam ediyor. Dr. Melaxin, Celimax ve Medicube gibi markalar farklı cilt bakım ürünleriyle öne çıkarkenyüz sıkılaştırma cihazları ve LED maskelerin satışlarıgeçen yılın aynı dönemine göreyüzde 57 arttı. Evde bakım rutinlerine teknolojik cihazların da eklenmesi dikkat çekerken elektrikli diş fırçaları ile biotin ve kolajen içeren sülfatsız şampuanlar da ilgi gören ürünler arasında bulunuyor. Sağlıklı yaşam ve aktif yaşamalışkanlıkları spor alışverişine de yansıdı. Geçen yılın aynı dönemine göre outdoor ekipmanlarının satışları yüzde 243, fitness ve kardiyo ekipmanlarının satışları ise yüzde 164 arttı. Tam Boyutta Gör Kamp malzemelerinde yüzde 41, masaj ürünlerinde yüzde 107 ve sporcu besinlerinde yüzde 23 büyüme kaydedildi. Otomotiv kategorisindearaç bakım ve temizliğine yönelik ürünler öne çıktı. Araç içi süpürge satışları yüzde 355 artarken oto lastiklerinde yüzde 200, araç içi kameralarda ise yüzde 140 büyüme yaşandı. Auhma araç içi süpürgesi ve Bear Force mikrofiber kurulama havlusu satış adedinde ilk iki sırada yer aldı. Milestone kış lastiği de kategorinin en çok satılan üç ürünü arasına girdi. Tam Boyutta Gör Elektronik kategorisinde ev işlerini kolaylaştıran ürünlere yönelik talep dikkat çekti.Robot süpürge satışlarıgeçen yılın aynı dönemine göre yüzde 126 artarkenhava temizleme ve nemlendirmecihazlarının satışlarıyüzde 1.450 yükseldi. n11'de merakla beklenen 11.11 indirimleri başladı (2026)2 gün önce eklendiSüpermarket kategorisinde çekirdek kahve ve sağlıklı atıştırmalıklara yönelik talep arttı. Çekirdek kahve satışlarındaki ilgi, tüketicilerin kahve hazırlama sürecinin daha fazla aşamasını evde gerçekleştirmeye yöneldiğini gösteren ürün grupları arasında yer aldı.Tam Boyutta GörEvcil hayvan kategorisinde ise otomatik temizlik özellikli akıllı kedi tuvaletleri dikkat çekti. Petkit Pura Max 2 öne çıkan modellerden biri oldu. Ev temizliğinde mop ve pratik temizlik setleri tercih edilirken ev tekstilinde boyun destekli ve bambu yastıklar, çift kişilik yatak setleri ve battaniyeler ilgi gördü.Anne-bebek kategorisinde ise giyilebilir göğüs pompaları, bebek monitörleri ve organik bakım ürünleri öne çıktı. Mochi ve Bebevo, tüketicilerin ilgi gösterdiği markalar arasında yer aldı.Sağlık ve medikal kategorisinde Braun ve Omron markalarının kulaktan a",
+      "summary": "n11, 1-11 Kasım 2026 dönemine ait 11.11 alışveriş raporunda kazak, hırka, pijama gibi rahat giyim ürünlerinin satışlarının yüzde 1.000 civarında artış gösterdiğini ve dış giyim, spor ekipmanları, otomotiv bakım ürünleri gibi kategorilerde de önemli artışlar olduğunu bildirdi. Ayrıca hava temizleme cihazları, robot süpürgeler ve kişisel bakımda Kore kozmetik ürünleri gibi teknolojik ve sağlık odaklı ürünlerin talebinin yükseldiği vurgulandı."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -15,7 +114,6 @@
       "link": "https://shiftdelete.net/porsche-mission-s-ceo-tesla-roadster-gosteri",
       "pubDate": "Fri, 13 Nov 2026 16:00:00 +0300",
       "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/porsche-mission-s-tesla-roadster-kapak-1311.webp",
-      "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
@@ -26,7 +124,6 @@
       "link": "https://www.webtekno.com/casper-excalibur-g915-ekran-karti-ve-islemci-performansi-nasil-h228832.html",
       "pubDate": "Fri, 13 Nov 2026 15:54:01 +0300",
       "image": "https://imgrosetta.webtekno.com/file/696940/696940-640xauto.jpg",
-      "text": "Son Güncelleme: 12 Kasım 2026\nCasper Excalibur G915, NVIDIA GeForce RTX 5060 ya da RTX 5070 (8 GB GDDR7) ekran kartını üç Intel işlemci seçeneğiyle (13. Nesil Core i7-13620H, Series 2 Core 7 240H, Series 3 Core Ultra 7 356H) eşleştiren, 2,3 kg'lık bir oyun laptopu. Fiyat/performans arayan için en dengeli nokta, kampanyada 99.999 TL'ye düşen i7-13620H + RTX 5070 + 24 GB RAM yapılandırması; aynı işlemci ve RAM'le RTX 5060'lı sürümden yalnızca 4.797 TL (%5) daha pahalı. 2 turbo fan ve 5 bakır ısı borulu FrostFlux soğutma, RTX 5070'te 115W TGP, MUX Switch, 2 RAM ve 2 SSD yuvası G915'i hem oyun hem iş için tek cihaz arayanlara, yıllarca yükseltilebilir bir makine isteyen öğrencilere aday yapıyor.\nİçerikten Görseller\nCasper Excalibur G915'te Hangi Ekran Kartı Var, RTX 5060 mı RTX 5070 mi Seçmeli?\nCasper Excalibur G915'te iki ekran kartı seçeneği var: NVIDIA GeForce RTX 5060 Laptop GPU ve RTX 5070 Laptop GPU. İkisi de 8 GB GDDR7 bellek ve 128 bit bellek yoluyla geliyor, ikisi de NVIDIA'nın Blackwell mimarisine dayanan RTX 50 serisinden. Asıl fark işlem gücünde: Casper'ın verilerine göre RTX 5070, 798 AI TOPS ile RTX 5060'ın 572 AI TOPS değerinin yaklaşık %40 üzerinde.\nG915'in RTX 5070 sürümü 115W TGP ile çalışıyor. TGP, ekran kartına ayrılan güç sınırını ifade ediyor; kartın oyunda ne kadar güçle çalışabileceğini belirleyen değerlerden biri bu.\nMUX Switch ve DLSS 4.5 G915'te ne işe yarıyor?\n- MUX Switch: Excalibur G915'te grafik birimleri arasında hızlı geçiş yapmayı sağlayan MUX Switch bulunuyor. Casper bu özelliği yoğun oyun anlarında ekran kartından en yüksek performansı almak için sunuyor.\n- DLSS 4.5: RTX 50 serisinin yapay zeka destekli çözünürlük yükseltme teknolojisi. Casper'a göre bu teknoloji sayesinde grafikler daha pürüzsüz ve detaylı hale geliyor.\n- 165Hz ekran: G915'in 16 inç 16:10 IPS paneli FHD ve QHD seçenekleriyle 165Hz yenileme hızı sunuyor; ekran kartının ürettiği yüksek kare hızını gözünüze taşıyan da bu panel.\nHangi ekran kartı kime uygun?\nCasper Excalibur G915'te RTX 5060, bütçeyi zorlamadan RTX 50 serisine geçmek isteyenlerin seçimi. RTX 5070 ise ağır oyunlarda daha yüksek ayar ve kare hızı hedefleyenler, render ya da yapay zeka işleri yapanlar için daha mantıklı. Kampanya döneminde iki kart arasındaki fiyat farkı birkaç bin liraya indiği için, bütçeniz 100 bin TL civarındaysa RTX 5070'li sürüme bakmanız önerilir.\n*12 Kasım 2026 itibarıyla casper.com.tr G915 model listesindeki indirimli fiyatlardır; kampanyaya göre değişebilir.\nCasper Excalibur G915'in İşlemci Seçenekleri Neler, Hangisi Daha Mantıklı?\nCasper Excalibur G915'te üç Intel işlemci seçeneği bulunuyor: 13. Nesil Intel Core i7-13620H, Series 2 Intel Core 7 240H ve Series 3 Intel Core Ultra 7 356H. Casper, G915'in işlemci tarafında 45 watt'a kadar güç ve 90 TOPS'a varan yapay zeka desteğinden söz ediyor; Intel Turbo Boost teknolojisi de yük arttığında işlemcinin hızını yukarı çekiyor.\nCore Ultra 7 356H'nin farkı ne?\nSeries 3 Core Ultra 7 356H, G915 ailesinde ayrı bir NPU (yapay zeka işlem birimi) barındıran seçenek. Casper'a göre bu NPU, yapay zeka görevlerini CPU ve GPU'ya yük bindirmeden yürütüyor; yani oyun oynarken arka planda çalışan yapay zeka özellikleri ekran kartının kaynaklarını paylaşmıyor. Windows 11 Copilot+ PC seçenekleri de G915'in işletim sistemi listesinde yer alıyor.\nFiyat farkı işlemciye göre ne kadar?\nAynı RTX 5060 ve 16 GB RAM ile karşılaştırınca tablo netleşiyor:\n- Core 7 240H: 87.000 TL (G915 listesinin en uygun fiyatlı yapılandırması)\n- Co",
       "summary": "Casper Excalibur G915, 2,3 kg ağırlığındaki bir oyun laptopu olup RTX 5060 veya RTX 5070 (8 GB GDDR7) ekran kartı ve üç farklı 13. nesil Intel işlemci seçeneği sunuyor. RTX 5070 sürümü %40 daha yüksek AI performansı ve 115 W TGP ile gelir, MUX Switch, DLSS 4.5 ve 165 Hz ekran gibi özellikler sağlıyor; fiyat farkı kampanyada yaklaşık 5 000 TL civarında. Fiyat/performans odaklı kullanıcılar i7‑13620H + RTX 5060, yüksek performans isteyenler ise i7‑13620H + RTX 5070 konfigürasyonunu tercih edebilir."
     },
     {
@@ -37,7 +134,6 @@
       "link": "https://www.donanimhaber.com/fable-dan-4-dakikalik-kesintisiz-oynanis-videosu-geldi--212855",
       "pubDate": "Fri, 13 Nov 2026 15:47:00 +0300",
       "image": "https://www.donanimhaber.com/images/images/haber/212855/1200x675fable-dan-4-dakikalik-kesintisiz-oynanis-videosu-geldi.jpg",
-      "text": "Yapay Zeka Özeti:\n- Merakla beklenen yeni Fable oyunundan dört dakikalık kesintisiz bir oynanış videosu yayınlandı. Çıkışı 2027 yılına ertelenen yapım, Playground Games tarafından seriyi sıfırdan başlatacak bir reboot olarak geliştiriliyor. Paylaşılan video, oyuncu kararlarının dünyayı nasıl şekillendirdiğini ve gelişmiş rol yapma mekaniklerini gözler önüne seriyor. Heyecan uyandıran yapım; Xbox, PlayStation 5 ve PC platformlarında oyuncularla buluşacak.\nBu habere ait diğer ses dosyaları:\nSeslendirme ve özetler yapay zeka ile oluşturulmuştur.\nFable, 23 Şubat'ta Çıkacak\nNormalde Forza Horizon oyunlarını yapan Playground Games stüdyosunun geliştirdiği yeni Fable, bir devam oyunu değil bir reboot olacak; yani seriyi sıfırdan başlatacak. Fable'a dair sevdiğimiz pek çok şey korunurken, işin RPG kısmını daha da ileri taşıyacak yeni mekanikler eklenecek. Yeni Fable, özellikle oyuncu tercihlerinin dünyayı şekillendirmesi ve NPC'lerin \"gerçekliği\" konusunda epey iddialı. Bu da özellike rol yapma (RPG) oyunlarından hoşlananlar için Fable'ın son yılların en merak uyandıran oyunlarından biri yapıyor.\nFable, 23 Şubat'ta Xbox Series S/X, PlayStation 5 ve PC'ye yönelik olarak satışa sunulacak. Oyunun daha ilk günden Xbox Game Pass'e gelmesi bekleniyor ama Game Pass'in işleyişi şu sıralar sık sık değiştiği için bu duruma eskisi kadar kesin gözüyle bakılmıyor.\nBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı kullanarak görüntüleyin:",
       "summary": "Playground Games, 2027'ye ertelenen yeni Fable oyunundan dört dakikalık kesintisiz bir oynanış videosu yayınladı. Oyun, seriyi sıfırdan başlatan bir reboot olarak geliştiriliyor ve oyuncu kararlarının dünyayı şekillendirdiği gelişmiş RPG mekaniklerine sahip. Fable, 23 Şubat'ta Xbox Series S/X, PlayStation 5 ve PC platformlarında satışa çıkacak ve ilk günden Xbox Game Pass'e eklenmesi bekleniyor."
     },
     {
@@ -48,7 +144,6 @@
       "link": "https://www.webtekno.com/ea-sports-fc-27-indirime-girdi-h228973.html",
       "pubDate": "Fri, 13 Nov 2026 15:41:24 +0300",
       "image": "https://imgrosetta.webtekno.com/file/697192/697192-640xauto.jpg",
-      "text": "EA'in sevilen futbol oyunu serisinin en son oyunu EA SPORTS FC 27, bugün PlayStation Store'da indirime girmiş durumda ve bu indirim, oyunun şu ana kadarki en düşük fiyatına inmesine yol açtı.\nEA bildiğiniz üzere her yıl Eylül ayında yeni bir futbol oyunu piyasaya sürüyor ve özellikle Ocak ayından itibaren serinin son oyununu uygun fiyatlara almak mümkün oluyor. Bugün de o indirimlerden biriyle karşı karşıyayız ve daha Ocak ayı gelmeden oyun tam %50 indirim yedi.\nİçerikten Görseller\nEA SPORTS FC 27 %50 indirimde\nNormalde 3.999 TL olan EA SPORTS FC 27 fiyatı, %50 indirimle birlikte 1 Aralık tarihine kadar 1.999,50 TL'ye satın alınabiliyor.\nBu indirim aynı zamanda oyunun şu ana dek yediği en büyük indirim anlamına geliyor. Şimdilik bu indirim PlayStation tarafına özel gibi görünüyor ama yakında diğer platformlarda da indirime girdiğini görmemiz mümkün.",
       "summary": "EA SPORTS FC 27, PlayStation Store’da %50 indirimle 3.999 TL yerine 1.999,50 TL’ye satılıyor ve 1 Aralık tarihine kadar geçerli; bu, oyunun şu ana kadarki en büyük indirimi ve şu an sadece PlayStation platformuna özel."
     },
     {
@@ -59,7 +154,6 @@
       "link": "https://shiftdelete.net/tv-plus-kasim-2026-yeni-filmler-diziler",
       "pubDate": "Fri, 13 Nov 2026 15:30:00 +0300",
       "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/tv-plus-kasim-2026-icerikleri-kapak-1311.webp",
-      "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
@@ -70,72 +164,18 @@
       "link": "https://www.donanimhaber.com/amd-radeon-ekran-kartlarindaki-ssd-yazma-sorununu-duzeltti--212868",
       "pubDate": "Fri, 13 Nov 2026 15:25:00 +0300",
       "image": "https://www.donanimhaber.com/images/images/haber/212868/1200x675amd-radeon-ekran-kartlarindaki-ssd-yazma-sorununu-duzeltti.jpg",
-      "text": "Yapay Zeka Özeti:\n- AMD, Radeon ekran kartlarında SSD ömrünü tehdit eden arka plandaki sürekli veri yazma hatasını nihayet çözdü. Yayınlanan Adrenalin güncellemesi, özellikle RX 7000 ve RX 9000 serilerinde bilgisayar boştayken bile gerçekleşen gereksiz disk işlemlerini durduruyor. Yama, pencereler taşınırken yaşanan fazladan yazma hareketlerini de ortadan kaldırıyor. Yine de bu sürüm, bazı oyunlarda çökmelere sebep olan dokuz farklı bilinen yeni sorunla birlikte geliyor.\nBu habere ait diğer ses dosyaları:\nSeslendirme ve özetler yapay zeka ile oluşturulmuştur.\nAMD, SSD yazma hatasını resmen düzeltti\nHatırlayacağınız üzere son dönemde bazı Radeon kullanıcıları, AMD External Events Utility ile bağlantılı bir hata nedeniyle SSD'lerinde sürekli yazma etkinliği yaşadıklarını bildirmişti. Bilgisayar herhangi bir işlem yapmıyorken bile devam eden bu durum, uzun vadede SSD'nin yazma ömrüne ilişkin endişelere yol açmıştı.\nAMD, sorunun özellikle Radeon RX 7000 ve RX 9000 serisi ekran kartlarında görüldüğünü kabul etmişti. Şirketin yeni Adrenalin 26.11.1 Optional sürümü, bu soruna yönelik resmi çözümü içeriyor. Sürüm notlarında ayrıca uygulama pencerelerinin taşınması veya boyutlarının değiştirilmesi sırasında oluşan gereksiz SSD yazma etkinliğinin de giderildiği belirtiliyor.\nKaçıranlar için bir geliştirici, AMD'nin resmi güncellemesinden önce Radeon-atieclxx-SSD-Fix isimli açık kaynaklı bir araç yayınlamıştı. Bu araç, AMD External Events Utility hizmetini kapatmadan ilgili dosya üzerindeki yazma işlemlerini engelliyordu. Ancak artık AMD'nin kendi sürücü güncellemesi de soruna yönelik çözüm sunuyor.\nAdrenalin 26.11.1 ile dokuz yeni sorun listelendi\nDiğer taraftan yeni sürücü güncellemesi tüm sorunları ortadan kaldırmış değil. AMD, sürüm notlarında özellikle RX 7000 ve RX 9000 serisi ekran kartları ile Ryzen AI 400 serisi işlemcileri etkileyen dokuz farklı bilinen soruna yer veriyor.\nBunlar arasında Assassin's Creed Black Flag Resynced, War Thunder ve Cyberpunk 2077 gibi oyunlarda yaşanabilen uygulama çökmeleri ve sürücü zaman aşımı hataları bulunuyor. Ayrıca Radeon RX 9000 serisi ekran kartlarında Phantom Blade Zero için görüntü bozulmaları, Call of Duty: Modern Warfare Remastered tarafında da benzer görsel hatalar raporlanmış durumda.\nAMD'nin bu sorunların bir bölümünü ilerleyen sürücü güncellemeleriyle gidermesi bekleniyor. SSD yazma hatasının düzeltilmesi önemli bir gelişme olsa da yeni sürümdeki bilinen sorunlar nedeniyle güncelleme öncesinde sürüm notlarını incelemekte fayda var.\nBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı kullanarak görüntüleyin:",
       "summary": "AMD, Radeon RX 7000 ve RX 9000 serisi kartlarda SSD’ye sürekli yazma sorununu Adrenalin 26.11.1 Optional güncellemesiyle çözdü; güncelleme ayrıca pencerelerin taşınması sırasında oluşan gereksiz yazma işlemlerini de durduruyor. Ancak yeni sürümde dokuz bilinen sorun bulunmakta ve bazı oyunlarda çökme ve görsel hatalar rapor ediliyor."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "206 TL Değerindeki Oyun Epic Games'te Bu Hafta Ücretsiz Oldu [12-19 Kasım]",
-      "source": "Webtekno",
-      "link": "https://www.webtekno.com/epic-games-ucretsiz-oyun-12-19-kasim-h228967.html",
-      "pubDate": "Fri, 13 Nov 2026 15:14:09 +0300",
-      "image": "https://imgrosetta.webtekno.com/file/697133/697133-640xauto.jpg",
-      "text": "Epic Games, oyunculara her hafta ücretsiz oyun vermeye devam ediyor. Şirket sağladığı ücretsiz oyunlarla Steam gibi büyük rakiplerine karşı önemli bir avantaj elde ediyor.\nHer hafta verdiği ücretsiz oyunlarla adından söz ettiren Epic Games'in bu hafta ücretsiz olarak verdiği oyun ise 206 TL değerindeki Knightica oldu. Bu oyunu, 19 Kasım tarihine kadar Epic Games üzerinden ücretsiz bir şekilde kütüphanenize ekleyebilirsiniz.\nİçerikten Görseller\nKnightica nasıl bir oyun?\nGüçlü birimler al, onları stratejik olarak yerleştir ve bu Roguelike Otomatik Savaş oyununda en iyi sinerjileri keşfet! Knightica, Krallıkları özgürleştirmek için bir savaşçı birliğine çok sayıda mücadelede liderlik etmeni sağlar. İdeal kombinasyonları keşfet, güçlü efsunlar kullan, tehlikeli canavarlarla yüzleş ve ordunu zafere taşı!\nKnightica fragmanı\nEpic Games'in ücretsiz oyunları nasıl alınır?\nEpic Games'in ücretsiz oyunlarını almak oldukça kolay.\n- Öncelikle buradaki bağlantı üzerinden siteye girmeniz gerekiyor.\n- Daha sonra almak istediğiniz oyuna tıklayıp açılan sayfadaki 'Yükle' seçeneğine basın ve oyuna sahip olun.\nÜcretsiz oyunları almak için Epic Games hesabınıza giriş yapmanız gerektiğini de belirtelim.",
-      "summary": "Epic Games, 19 Kasım tarihine kadar ücretsiz olarak Knightica oyununu sunuyor. Oyun, stratejik birim yerleştirme ve otomatik savaş mekanikleri içeren bir roguelike. Kullanıcılar Epic Games hesabıyla siteye girip 'Yükle' seçeneğiyle oyunu kütüphanelerine ekleyebilir."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Jensen Huang, ABD Kongresi'nde ifade verecek",
-      "source": "Donanimhaber",
-      "link": "https://www.donanimhaber.com/jensen-huang-abd-kongresi-nde-ifade-verecek--212865",
-      "pubDate": "Fri, 13 Nov 2026 15:03:00 +0300",
-      "image": "https://www.donanimhaber.com/images/images/haber/212865/1200x675jensen-huang-abd-kongresi-nde-ifade-verecek.jpg",
-      "text": "Yapay Zeka Özeti:\n- Nvidia'nın eski CEO'su Jensen Huang, ABD Kongresi'nde ifade vermeyi kabul etti. Üç ayrı komitenin baskısıyla 1 Aralık'ta kapalı oturumda dinlenecek olan Huang; Çin'e çip ihracatı kısıtlamaları, casusluk şüpheleri ve şirket içi iddialarla ilgili soruları yanıtlayacak. Yöneticinin vereceği tüm beyanlar kayıt altına alınacak. Yaşanan gelişmelerin ardından şirket yönetimini geçici olarak Colette Kress devraldı.\nBu habere ait diğer ses dosyaları:\nSeslendirme ve özetler yapay zeka ile oluşturulmuştur.\nNvidia'nın eski CEO'su Jensen Huang, ABD Kongresi'nde ifade vermeyi kabul etti. Şirketin Çin'e yönelik çip ihracatı ve ihracat kısıtlamalarıyla ilgili faaliyetleri hakkında yanıtlaması gereken ciddi sorular bulunuyor. Üç ayrı Kongre komitesi, Huang'ın ifade vermemesi halinde kendisini mahkemeye çağırmakla tehdit etti.\nABD Temsilciler Meclisi Dış İlişkiler Komitesi Başkanı Brian Mast, Jensen Huang'ın Kongre'de ifade vermeyi kabul ettiğini açıkladı. İlk açıklamada duruşmanın Şükran Günü'nden önce yapılmasının beklendiği belirtilirken daha sonra üç ayrı komitenin yayımladığı açıklamayla tarih netleşti. Buna göre Huang, 1 Aralık'ta kapalı kapılar ardında gerçekleştirilecek ve tutanak altına alınacak bir oturumda ifade verecek.\nÜç Kongre komitesi Huang'ı ifadeye çağırdı\nTemsilciler Meclisi Dış İlişkiler, İstihbarat ve Çin Özel Komitelerinin başkanları, Huang'a cuma günü ABD Doğu Saati ile 20.00'ye kadar ifade vermeyi kabul etmesi için süre tanıdı. Aksi halde hakkında celp çıkarılacağı uyarısında bulundu. Huang'ın bu baskının ardından ifade vermeyi kabul ettiği bildirildi.\nOturumun kamuoyuna açık yapılması beklenmiyor. Ancak Bloomberg'in aktardığı bilgilere göre görüşmenin kaydedilmesi ve yazılı dökümünün hazırlanması planlanıyor. Böylece Nvidia yöneticisinin Kongre üyelerinin sorularına verdiği yanıtlar daha sonra incelenebilecek.\nBrian Mast, Huang ile özellikle ABD'nin çip ihracatına yönelik kısıtlamaları konusunda ciddi görüş ayrılıkları yaşadıklarını söyledi. Nvidia'nın ABD için önemli bir şirket olduğunu vurgulayan Mast, şirketin zarar görmesini istemediğini ancak Huang'ın yanıtlaması gereken ciddi sorular bulunduğunu ifade etti.\nSoruşturmalar sürüyor\nNvidia, Huang'ın Çin adına casusluk yaptığından şüphelenilen Alice Huang ile yaşadığı ilişkiyi soruşturuyor. ABD Başkanı Donald Trump da FBI'ın konuyu soruşturduğunu açıklamıştı.\nÇarşamba günü ise Huang'ın Nvidia'da kendisine doğrudan bağlı olarak çalışan bir başka yöneticiyle, Kimberly Powell ile de ilişki yaşadığı iddiası gündeme geldi. Bu gelişmelerin ardından Nvidia yönetim kurulu Huang'ın geleceğini değerlendirmek üzere toplandı. Huang'ın görevinden ayrılmasının ardından şirketin CFO'su ve başkan yardımcısı Colette Kress geçici CEO olarak görevlendirildi. Nvidia, kalıcı CEO belirlemek üzere çalışmalarını sürdürüyor.\nHuang hakkındaki iddiaların yanı sıra Alice Huang'ın bağlantılı olduğu şirketler de ABD'nin soruşturma yürüttüğü konular arasında yer alıyor. ABD Adalet Bakanlığı'nın Alice Huang ile bağlantılı kuruluşların Super Micro Computer ürünlerinin Çin'e kaçırılmasına yönelik girişimlerde bulunup bulunmadığını araştırdığı bildiriliyor.\nAdalet Bakanlığı ayrıca Alice Huang'ın eski şirketi olan Singapur merkezli Megaspeed International hakkında da soruşturma yürütüyor. Şirketin, ABD üretimi çipleri ihracat kısıtlamalarını ihlal ederek Çin'e gönderdiğinden şüpheleniliyor. Megaspeed ise soruşturmada yetkililerle iş birliği yapacağını açıkladı.\nSingapur makamları da geçen yıl A",
-      "summary": "Nvidia eski CEO'su Jensen Huang, 1 Aralık'ta ABD Kongresi'nde kapalı oturumda ifade vermeyi kabul etti. Üç komite, Çin'e çip ihracatı kısıtlamaları ve diğer iddialarla ilgili sorular soracak, görüşmeler kayda alınacak. Huang'ın görevden ayrılmasının ardından CFO Colette Kress geçici CEO olarak atandı."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Galaxy S26 serisi Türkiye'de kaç para?",
-      "source": "Shiftdelete",
-      "link": "https://shiftdelete.net/galaxy-s26-serisi-turkiye-fiyati-kasim-2026",
-      "pubDate": "Fri, 13 Nov 2026 15:00:00 +0300",
-      "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/galaxy-s26-turkiye-fiyati-kapak2-1311.webp",
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "HABAŞ önünde eylem yapan işçilere müdahale: '20'ye yakın kişi gözaltına alındı'",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/c539gl7dw2l0o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 13:07:15 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4907/live/27a01b00-df5e-11f1-a8af-15d7a25dc0d1.jpg",
       "text": "",
       "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "iPhone Duo günlük kullanımda neyi değiştiriyor?",
-      "source": "Shiftdelete",
-      "link": "https://shiftdelete.net/iphone-duo-gunluk-kullanimda-neyi-degistiriyor",
-      "pubDate": "Fri, 13 Nov 2026 14:46:52 +0300",
-      "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/iphone-duo-gunluk-kullanim-kapak-1311.webp",
-      "text": "",
-      "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "iPhone 18 neden ertelendi? Arkasında Samsung olabilir",
-      "source": "Donanimhaber",
-      "link": "https://www.donanimhaber.com/iphone-18-neden-ertelendi-arkasinda-samsung-olabilir--212864",
-      "pubDate": "Fri, 13 Nov 2026 14:42:00 +0300",
-      "image": "https://www.donanimhaber.com/images/images/haber/212864/1200x675iphone-18-neden-ertelendi-arkasinda-samsung-olabilir.jpg",
-      "summary": "Apple, iPhone 18’in lansmanını sonbahara erteledi; yeni nesil kamera sensörleri için Samsung ile yaptığı anlaşma prototip çalışmalarını uzatıyor. Apple, Sony’yi de tedarikçi olarak tutarak güvenliği ve maliyet rekabetini artırmayı hedefliyor, gecikmenin finansal sonuçlara olumsuz etkisi beklenmiyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Google'da Bulunmak Yetmiyor: Poseidon360, İşletmelerin Yapay Zekâ Tarafından Önerilmesine Odaklanıyor",
-      "source": "Webtekno",
-      "link": "https://www.webtekno.com/google-da-bulunmak-yetmiyor-poseidon360-isletmelerin-yapay-zek-tarafindan-onerilmesine-odaklaniyor-h228958.html",
-      "pubDate": "Fri, 13 Nov 2026 14:37:36 +0300",
-      "image": "https://imgrosetta.webtekno.com/file/697159/697159-640xauto.jpg",
-      "summary": "Poseidon360, işletmelerin ChatGPT, Gemini ve Perplexity gibi yapay zekâ platformları tarafından önerilmesini sağlamak amacıyla GEO (Generative Engine Optimization) hizmeti sunuyor. GEO, geleneksel SEO’yı genişleterek marka görünürlüğünü AI‑destekli yanıt sistemlerinde artırmayı amaçlıyor ve ajans bu stratejiyi SEO, GEO ve AEO ile birleştiriyor."
     },
     {
       "cat": "Bilim",
@@ -164,7 +204,7 @@
       "source": "Feeds",
       "link": "https://www.bbc.com/turkce/articles/c5n4ez3gvp1zo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Fri, 13 Nov 2026 10:16:01 GMT",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/90fb/live/0db6d960-df2f-11f1-8b8a-85e537905c26.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5941/live/71d898e0-df64-11f1-a8af-15d7a25dc0d1.jpg",
       "summary": "Microsoft, dünya çapında Outlook, Teams ve Copilot gibi 365 uygulamalarında kesinti yaşadığını duyurdu. Kesintinin siber saldırıdan kaynaklanmadığı belirtilirken, şirket sorunu gidermek için sunucu optimizasyonu ve trafik yönetimi çalışmaları yürütüyor. Kesinti, Asya, Avustralya ve Türkiye dahil 74 ülkede kullanıcıları etkiledi."
     },
     {
@@ -178,6 +218,160 @@
       "summary": "Malatya'nın Yeşilyurt ilçesinde düşen Skorsky tipi askeri helikopterde dört asker hayatını kaybetti ve kaza nedeni henüz belirlenemedi. Helikopterin düşmesiyle yangın çıkmış, yangın söndürüldü ve ölen askerlerin cenazeleri 13 Kasım'da Ankara'ya getirildi. Türkiye'nin çeşitli siyasi liderleri sosyal medyada başsağlığı mesajları paylaştı."
     },
     {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Nvidia CEO'su Huang, ABD Kongresi'nde ifade verecek",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/cvj6l247pr4ro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 07:04:48 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4145/live/58c4d3e0-df2e-11f1-8b8a-85e537905c26.jpg",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "'Arda Güler'in golüyle şaşırdılar ve sonra tekrar ayağa kalktılar'",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/c9p83m2e2ze6o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 00:04:01 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/bcb3/live/14000fe0-df42-11f1-b441-2b33b063138f.jpg",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "AKP'de fon krizi nasıl tartışılıyor, hangi seçenekler konuşuluyor?",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/c6205jnldngwo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 00:02:26 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d0ad/live/ad7b89f0-df48-11f1-a48c-75dd2efdacb5.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "İBB davasında İmamoğlu'nun avukatı Mehmet Pehlivan dahil sekiz tahliye",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/cm87zngy4y5no?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 12 Nov 2026 20:59:59 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/72b0/live/8a390190-ded8-11f1-a75a-dbf83836672c.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Jensen Huang'ın yükselişi ve düşüşü: Teknoloji yıldızının adı nasıl skandala karıştı?",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/cmn4kyyd2vxko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 12 Nov 2026 17:21:08 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Johnny Depp 'iptal' yılları sonrası ilk kez beyaz perdede",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/cwvg2l4x0dn9o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 12 Nov 2026 16:56:00 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3587/live/0bd2def0-deb2-11f1-93e1-3b657b665bcf.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Türkiye'de yeni nükleer santral için Kanadalı şirketle fizibilite anlaşması",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/c8x2r4970ew7o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 12 Nov 2026 14:25:35 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/421f/live/87d7cef0-deaa-11f1-8253-3f203a001288.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Türkiye'nin Doğu Akdeniz hamlesi İsrail basınında! 'Zaferini kutluyor'",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/dunya/turkiyenin-dogu-akdeniz-hamlesi-israil-basininda-zaferini-kutluyor-43377173",
+      "pubDate": "Fri, 13 Nov 2026 13:27:37 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af70fbac813a6f07cce803e.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Üç ay önce evlenmişti, karnı burnunda ortaya çıktı: Daha resmen söylemedi ama açıkça hamile!",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/kelebek/magazin/unlu-aileye-yeni-torun-geliyor-hamileyken-evlenmis-43377239",
+      "pubDate": "Fri, 13 Nov 2026 13:25:42 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af70c268c01a1364d068af6.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Zelenski'den Meloni'ye 'göndermeli' yanıt: 'Görüşmeyi sen istemedin'",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/dunya/zelenskiden-meloniye-gondermeli-yanit-gorusmeyi-sen-istemedin-43377258",
+      "pubDate": "Fri, 13 Nov 2026 13:21:11 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af70e453516f14679cc7ab5.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Eldor Shomurodov'dan Batrakov sözleri: 'Ligde büyük bir yıldız!'",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/sporarena/eldor-shomurodovdan-batrakov-sozleri-ligde-buyuk-bir-yildiz-43377210",
+      "pubDate": "Fri, 13 Nov 2026 13:08:00 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af70ab5ff497cc803f6a210.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Süper Lig'in 3 devi, Liverpool'un yıldızı için yarışıyor! Ayrılığa yeşil ışık yaktı",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/sporarena/super-lig-devleri-liverpoolun-yildizi-icin-yarisiyor-ayriliga-yesil-isik-yakti-43377194",
+      "pubDate": "Fri, 13 Nov 2026 13:00:00 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af704ebc813a6f07cce801e.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Kuzey Kore bayrağını değiştirdi",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/dunya/kuzey-kore-bayragini-degistirdi-43377212",
+      "pubDate": "Fri, 13 Nov 2026 12:47:08 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af705e63516f14679cc7a4d.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "İhanete uğrayıp boşanmıştı… Eski eşine ateş püskürdü: O benim için artık ölü!",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/kelebek/televizyon/ihanete-ugrayip-bosanmisti-eski-esine-ates-puskurdu-o-benim-icin-artik-olu-43376746",
+      "pubDate": "Fri, 13 Nov 2026 12:40:28 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6c7788c01a1364d06870f.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
       "cat": "Sanat",
       "catId": "sanat",
       "title": "Öne çıkan üç stratejik başlık: Antalya’daki zirvenin arka planı… Türkiye hangi adımları attı?",
@@ -185,7 +379,6 @@
       "link": "https://www.hurriyet.com.tr/gundem/one-cikan-uc-stratejik-baslik-antalyadaki-zirvenin-arka-plani-turkiye-hangi-adimlari-atti-43377082",
       "pubDate": "Fri, 13 Nov 2026 12:31:46 Z",
       "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af703188c01a1364d068a73.jpg",
-      "text": "Güncelleme Tarihi:\nAynı yıl içerisinde Ankara’da NATO liderlerini, Antalya’da ise dünyanın dört bir yanından devlet ve hükümet başkanlarını ağırlayan Türkiye, diplomaside dikkat çeken bir sürece imza attı.\nGüvenlikten iklim değişikliğine, Gazze’den Latin Amerika açılımına, yeşil enerjiden stratejik ortaklıklara uzanan geniş gündem, Antalya’daki zirvenin yalnızca bir iklim toplantısı olmadığını ortaya koydu.\n11-12 Kasım tarihlerinde gerçekleştirilen Dünya Liderler Zirvesi, Cumhurbaşkanı Recep Tayyip Erdoğan’ın ev sahipliğinde düzenlendi. Erdoğan ve Birleşmiş Milletler Genel Sekreteri Antonio Guterres’in dünya liderlerini karşıladığı zirvede, iklim değişikliğiyle mücadelede uluslararası iş birliğinin artırılması, Paris Anlaşması hedefleri ve temiz enerji dönüşümü ele alındı. Liderler Zirvesi’nin sona ermesinin ardından konferansta ülkelerin müzakere heyetlerinin çalışmaları da ağırlık kazandı.\nKonukların karşılanması sırasında Mehteran Birliği’nin marşlarının da zirveye Türkiye’nin tarihî ve kültürel mirasını taşıdığını belirten Işılak, Palau Devlet Başkanı Surangel Whipps Jr.’ın Cumhurbaşkanı Recep Tayyip Erdoğan ve Birleşmiş Milletler Genel Sekreteri Antonio Guterres ile özçekim yapmasının dikkat çeken anlardan biri olduğunu kaydetti.\nBu görüntünün Türkiye’nin ev sahipliğine gösterilen yakınlığın bir yansıması olarak değerlendirilebileceğini ifade eden Işılak, Cumhurbaşkanı Erdoğan’ın açılış konuşmasında Pasifik ada ülkelerinin yükselen deniz seviyeleri karşısında yaşadığı tehditleri gündeme getirmesinin de Türkiye’nin diplomatik yaklaşımını ortaya koyduğunu belirtti.\nGAZZE’DEKİ ZEYTİN AĞAÇLARI İKLİM ADALETİ TARTIŞMASININ MERKEZİNDE\nCumhurbaşkanı Recep Tayyip Erdoğan ile BM Genel Sekreteri Guterres’in zirve öncesinde zeytin fidanı dikmesine ve Erdoğan’ın Gazze’deki çevre tahribatına ilişkin açıklamalarına da değinen Buğra Bekir Işılak, iklim krizinin savaşlar ve insani krizlerden ayrı değerlendirilemeyeceğini vurguladı.\nIşılak, Türkiye’nin Sıfır Atık girişimiyle elde ettiği sonuçlara ve Gazze’deki insani koşulların iklim adaletiyle bağlantısına ilişkin ise şu değerlendirmelerde bulundu:\n-- Zirve öncesinde Erdoğan ile Guterres Antalya’da bir zeytin fidanı dikti. Erdoğan, biraz sonra kürsüde Gazze’de kesilen asırlık zeytin ağaçlarını hatırlattı. ‘Bizim medeniyetimizin merkezinde tabiata saygı vardır, yeryüzü korunup kollanması gereken mukaddes bir emanettir’ dedi. Bu anlayışın bugünkü karşılığını Sıfır Atık hareketiyle anlattı. Erdoğan’ın verdiği rakamlara göre Türkiye’nin atık geri kazanım oranı 2017’de yaklaşık yüzde 13’ten 2025 sonunda yüzde 40’a yaklaştı. BM Genel Kurulu’nun 30 Mart’ı Uluslararası Sıfır Atık Günü ilan etmesi de Türkiye’de başlayan bir girişimin dünyada karşılık bulduğunu gösterdi.\nLULA’NIN ANTALYA ZİYARETİ TÜRKİYE-BREZİLYA İLİŞKİLERİNDE YENİ BİR FIRSAT\nBrezilya Devlet Başkanı Luiz Inacio Lula da Silva’nın COP31 kapsamında Antalya’ya gerçekleştirdiği ziyareti de değerlendiren Buğra Bekir Işılak, görüşmenin Türkiye’nin Latin Amerika açılımı ve iki ülke arasındaki ekonomik ilişkiler bakımından önem taşıdığını ifade etti.\nLula’nın yeniden seçilmesinin ardından ilk yurt dışı seyahatine Antalya’dan başlamasına dikkat çeken uzman isim, Türkiye-Brezilya ilişkilerinin tarihsel geçmişine ve Lula’nın Antalya ziyaretinin diplomatik önemine dikkat çekerek şu ifadeleri kullandı:\n-- Mayıs 2009’da Türkiye’yi ziyaret eden ilk Brezilya devlet başkanı olan Luiz Inácio Lula da Silva, yeniden seçildikten sonraki ilk yurt dışı seyahatine A",
       "summary": "Türkiye, 11‑12 Kasım tarihlerinde Cumhurbaşkanı Erdoğan ve BM Genel Sekreteri Guterres'in ev sahipliğinde Antalya’da Dünya Liderler Zirvesi'ni düzenleyerek iklim değişikliği, güvenlik, yeşil enerji ve diplomatik iş birlikleri gibi geniş bir gündemi ele aldı. Zirvede zeytin fidanı dikimi, Gazze’deki çevre tahribatı, sıfır atık hedefleri ve Brezilya Devlet Başkanı Lula’nın ziyareti gibi konular Türkiye’nin uluslararası alandaki stratejik adımlarını vurguladı."
     },
     {
@@ -196,7 +389,6 @@
       "link": "https://www.hurriyet.com.tr/gundem/yunanistanda-yakalanip-turkiyeye-getirilmisti-yeni-nesil-suc-orgutu-elebasi-sercan-sayal-adliyede-43377152",
       "pubDate": "Fri, 13 Nov 2026 12:17:05 Z",
       "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6ff9dc813a6f07cce8002.jpg",
-      "text": "AA\nOluşturulma Tarihi: Kasım 13, 2026 15:17\nYunanistan'da yakalanarak dün İzmir'e getirilen \"yeni nesil organize suç örgütü\" elebaşı Sercan Sayal, adliyeye sevk edildi.\nHaberlerimizi Google’da Takip Edin\nGelişmelerden anında haberdar olun.Kırmızı bültenle aranan ve 116 suçtan aranma kaydı bulunan Sayal'ın İzmir İl Emniyet Müdürlüğü Organize Suçlarla Mücadele Şube Müdürlüğündeki işlemleri tamamlandı.\nSayal, işlemlerin ardından adliyeye sevk edildi.\nİçişleri Bakanlığından dün yapılan açıklamada, Emniyet Genel Müdürlüğü İstihbarat ile Kaçakçılık ve\nOrganize Suçlarla Mücadele başkanlıkları, Interpol-Europol Daire Başkanlığı, İzmir İl Emniyet Müdürlüğü Organize Suçlarla Mücadele Şube Müdürlüğü ve Adalet Bakanlığı koordinesinde, \"tasarlayarak öldürme, kasten öldürme, suç işlemek amacıyla örgüt kurma, nitelikli yağma ve birden fazla kişi tarafından silahla yağma\" suçlarından kırmızı bültenle uluslararası seviyede aranan Sayal'ın yakalandığı Yunanistan'dan Türkiye'ye getirileceği bildirilmişti.\nYapılan çalışmalarda, 116 suçtan ayrı ayrı aranma kaydı bulunan Sayal'ın İzmir'de 90 kurşunlama, 3 yaralama, bir kasten öldürme ve 164 tehdit eylemini organize ettiği belirlenmiş, Sayal dün İzmir'e getirilmişti.",
       "summary": "Sercan Sayal, Yunanistan’da yakalanıp İzmir’e getirilen ve 116 suçtan aranan kırmızı bültenli bir organize suç örgütü lideridir. Adliyeye sevk edilen Sayal, tasarlayarak öldürme, kasten öldürme, örgüt kurma, nitelikli yağma ve silahla yağma gibi suçlamalarla yargılanmaktadır."
     },
     {
@@ -207,7 +399,7 @@
       "link": "https://www.hurriyet.com.tr/dunya/girnedeki-gemi-kazasinda-sefer-veri-kayit-cihazi-desifre-edildi-facianin-yasandigi-gun-kayit-tutulmamis-43377129",
       "pubDate": "Fri, 13 Nov 2026 12:14:43 Z",
       "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6fe203516f14679cc7a37.jpg",
-      "text": "Güncelleme Tarihi:\nGirne açıklarında batan Filo Denizciliğe ait FiloJet yolcu gemisiyle ilgili gözaltında bulunan 9 şüpheli Girne Kaza Mahkemesi'nde 12. duruşmaya katıldı.\nMahkeme, gözaltında bulunan ve aranan kişilerin görev ve yetkileri ile sorumluluklarının belirlenmesi için polisten, batan FiloJet gemisinin Emniyet Yönetim Sistemi El Kitabı ile acil durumlardaki spesifik görev dağılımı için Role Cetveli'ni temin ederek mahkemeye sunmasını talep etti.\nCİHAZDAKİ KAYITLAR EKSİK\nMahkemede ifadesine başvurulan polis yetkilisi Mehmet Mannaş, geminin VDR cihazındaki inceleme ve deşifrelerin tamamlandığını, 30 Ağustos'taki kaza gününe dair kayıt bulunamadığını, cihazın kaza günü dahil olmak üzere çeşitli zamanlarda verileri kaydetmediğini bildirdi.\nMahkeme bir kısmı aranan ve KKTC'de olmadıkları belirlenen 5 kişinin talimat ile alınan ifadelerinin mahkemeye ulaştığını ve bu kişilerin Türkiye'de el konulan bilgisayar ve cep telefonlarının inceleneceğini duyurdu.\nŞÜPHELİLERİN GÖZALTI SÜRESİ UZATILDI\nKazadan dolayı gözaltında bulunan, aralarında gemi kaptanı ve yardımcısının da olduğu 9 şüpheli hakkında Girne Kaza Mahkemesi 7 gün ek gözaltı süresine hükmetti.\nŞüpheli avukatları, mahkeme heyetine müvekkillerinin uzun süredir gözaltında, polis nezaretinde tutulmalarına itiraz etti. Duruşma süresince KKTC polisinin mahkeme çevresinde geniş güvenlik önlemleri aldığı ifade edildi.",
+      "text": "",
       "summary": ""
     },
     {
@@ -218,7 +410,7 @@
       "link": "https://www.hurriyet.com.tr/kelebek/magazin/arkasinda-dag-gibi-babasi-varmis-guzel-kizi-icin-kendini-atese-atti-yaziklar-olsun-sana-43377111",
       "pubDate": "Fri, 13 Nov 2026 12:11:14 Z",
       "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6fb398c01a1364d0689e0.jpg",
-      "text": "Güncelleme Tarihi:\nAnneleri Hollandalı model Yolanda ve babaları emlak milyarderi Mohamed Hadid, her koşulda iki kardeşin arkasında duruyor.\nMohamed Hadid, çocuklarını ne kadar sevdiğini ve onlar için her şeyi yapabileceğini bir kez daha gözler önüne serdi.\n26 yaşındaki sosyal medya fenomeni Ken Eurich, InStyle dergisi için bir çekime katıldı. Söz konusu video da derginin sosyal medya hesabından yayınlandı.\nEurich, InStyle dergisinin The Intern (Stajyer) adlı video serisinde, kafeteryada yürürken çekilen bir videoda yer aldı.\nSosyal medya fenomeni o anlarda da Bella Hadid'in \"Adım... Adım Bella Hadid\" dediği bir ses kaydını kullandı.\nBu benzetmeden hiç hoşlanmayan 78 yaşındaki Hadid \"Hayır, sen Bella değilsin...\" diye yazdı. Sonra da \"Bu Bella değil\" diye satırlarını sürdürdü.\nMohamed Hadid belli ki bununla da öfkesini gideremedi. Bir de \"Yazıklar olsun sana... Kendinden utanmalısın\" diye yazdı.\nDiğer yandan Ken Eurich ise sosyal medya hesabından yaptığı paylaşımda \"InStyle dergisi... Beni bu duruma siz düşürdünüz\" yorumunu yaptı.\nDaha da ötesinde genç fenomen \"Bu şakanın bir parçası olmayı ben istemedim. Bella'ya benzediğimi bile düşünmüyorum o görüntüde. Bunlara bir son verin. Panik atak geçireceğim\" dedi.",
+      "text": "",
       "summary": ""
     },
     {
@@ -229,7 +421,7 @@
       "link": "https://www.hurriyet.com.tr/dunya/nato-genel-sekreteri-rutteden-kilit-muttefik-turkiye-aciklamasi-43377110",
       "pubDate": "Fri, 13 Nov 2026 11:57:46 Z",
       "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6fab43516f14679cc7a16.jpg",
-      "text": "Güncelleme Tarihi:\nRutte, İrlanda'nın başkenti Dublin'de düzenlenen Avrupa Siyasi Topluluğu (AST) Zirvesi marjında basın mensuplarına açıklamalarda bulundu. Türkiye ve diğer kilit Avrupa ülkelerinin bu düzenlemelerde rol üstlenmesinin öngörüldüğünü aktaran Rutte, ABD'nin de açık bir destek güvencesi sağlayacağını vurguladı.\nOrta Doğu'daki durum ve gerilimler bağlamında Türkiye'nin NATO içindeki rolüne ilişkin soru üzerine Rutte, \"Türkiye, açıkça NATO'nun kilit müttefiklerinden biri. Neredeyse en başından beri İttifak'ın parçası. Avrupa'nın en büyük ordularından birine sahip. Avrupa'nın en büyük savunma sanayisi altyapılarından birine sahip. Dolayısıyla Türkiye, her açıdan kilit bir müttefik ve diğer 31 müttefik tarafından büyük saygı görüyor.\" ifadelerini kullandı.\n'ATEŞKESE İHTİYACIMIZ VAR'\nRutte, Ukrayna'ya sağlanabilecek güvenlik garantilerinde NATO'nun rolüne ilişkin soru üzerine, Avrupalılar ile ABD'nin bu yıl ocak ayında Paris'te düzenlenen \"çok başarılı\" toplantıda, garantilerin nasıl şekillendirileceği konusunda ortak sonuçlara ulaştığını hatırlattı.\nRutte, \"Bütün bunlar esas itibarıyla tamamlandı, hazır. Ancak şimdi elbette bir barış anlaşmasına ya da en azından ateşkese ihtiyacımız var. Herkesin başarmak için bu kadar yoğun çalıştığı şey de bu.\" diye konuştu.\nNATO Genel Sekreteri Rutte, \"Bütün bu ülkeler aynı tehditle karşı karşıya. Rusya'dan kaynaklanan tehditler, aynı zamanda Rusya'nın İran, Çin ve Kuzey Kore gibi ülkelerle birlikte çalışmasından kaynaklanan tehditler.\" dedi.\nZirvede bu tehditlerle nasıl baş edileceğine odaklanacaklarını belirten Rutte, bunun öncelikle mali kaynak gerektirdiğine dikkat çekti.\nAvrupalı NATO müttefikleri ile Kanada'nın 2025 ve 2026 yıllarında toplam 250 milyar dolar ilave savunma harcaması yaptığını kaydeden Rutte, bu alanda önemli adımlar atılmasına rağmen daha fazlasına ihtiyaç olduğunu söyledi.\nRutte, savunma sanayisi üretiminin de artırılması gerektiğini belirterek, \"Kendimizi korumak için daha fazla silah sistemine, daha fazla teçhizata ihtiyacımız var. Bu alanda çok şey yapılıyor ancak burada da daha fazlasının yapılması gerekiyor.\" açıklamasını yaptı.\n'DAHA FAZLASINI YAPMAMIZ GEREKİYOR'\nUkrayna'nın mücadelesinde mümkün olduğunca güçlü olmasının sağlanması gerektiğini vurgulayan Rutte, Avrupalılar ile Kanada'nın önemli katkılar sunduğunu, ABD'nin de bedeli Avrupalılar ve Kanada tarafından karşılanan kritik yardımları Ukrayna'ya sağlamayı sürdürdüğünü açıkladı.\nRutte, \"Ancak Ukrayna'nın kışı atlatabilmesini ve Rusya ile müzakerelerde mümkün olduğunca güçlü olmasını sağlamak için burada da hep birlikte daha fazlasını yapmamız gerekiyor.\" ifadelerini kullandı.\nABD'nin Ukrayna'ya Patriot sistemleri sevkiyatında siyasi iradesine ilişkin sorun yaşanabileceği yönündeki iddiaların sorulması üzerine Rutte, \"PURL olarak adlandırılan bu program kapsamındaki tüm teslimatların, yani Ukrayna'ya giden Amerikan teçhizatının sevkiyatının, hava savunması dahil devam ettiğini söyleyebilirim. Olumlu olan bu.\" dedi.\nSevkiyatların Patriot sistemlerini de kapsayıp kapsamadığı sorusunu Rutte, \"Patriotlar dahil.\" diye yanıtladı.\nABD, AVRUPA VE UKRAYNA ARASINDA UYUM VURGUSU\nRutte, ABD Başkanı Donald Trump'ın damadı ve Özel Temsilcisi Jared Kushner ile Barış Özel Temsilcisi Steve Witkoff'un Moskova'dan Dublin'e gelerek akşam yapılacak toplantıya katılacaklarının belirtilmesi ve Avrupa'nın müzakere masasında yer almasının gerekip gerekmediğinin sorulması üzerine, Abu Dabi'deki görüşmelerden çıkan olumlu sonucun ABD",
+      "text": "",
       "summary": ""
     },
     {
@@ -240,7 +432,6 @@
       "link": "https://www.hurriyet.com.tr/gundem/kucukcekmecede-sokaktan-gecenleri-dehsete-dusuren-goruntu-burada-insanlar-yasiyor-43377046",
       "pubDate": "Fri, 13 Nov 2026 11:21:00 Z",
       "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6f2c6c813a6f07cce7fa9.jpg",
-      "text": "Güncelleme Tarihi:\nKanarya Mahallesi, Tarak Kuşu Sokak'ta bulunan yaklaşık 60 yıllık 5 katlı binada zamanla çatlaklar, kırılmalar ve beton dökülmeleri meydana geldi. Yağmur sularının binaya sızmasıyla yapının daha da zarar görmesi üzerine kaymaya başlayan 2 dairenin balkonları, ev sahipleri tarafından kalaslarla desteklendi. Yaklaşık 6 aydır binadakilerin bu şekilde önlem almaya çalıştığını belirten mahalleliler, olası bir çökme nedeniyle endişe yaşadıklarını söyledi. Sokaktan geçenlerin gördüklerinde şaşırdıkları bina, dron ile havadan görüntülendi.\n'TAHTA DİREKLERLE AYAKTA DURUYOR'\nMahalleli Murat Kaya, “Bu bina 5 aydan fazladır bu durumda. Gördüğünüz gibi tahta direklerle ayakta duruyor. Altından insan, araba geçse çökecek gibi. Burada insanlar yaşıyor. Yabancı uyruklular, geçimi olmayan insanlar burada kalıyor. Bir an önce önlem alınması lazım.\nYetkililerin buraya gelip insanları çıkartıp binayı mühürlemesi lazım. Yarın bir gün karşıdaki bina yapılmaya başlandığında burası sallanacak. Binada 5-6 kişinin yaşadığını biliyorum. Her yağmurda binadan bir parça daha düşüyor. Gördüğünüz gibi bina artık katman katman olmuş yıkılmaya hazır. Bina eski olduğundan dolayı çatıda kırılmalar, dökülmeler başlamış. Bu yüzden su alıyor. Bu yüzden de bina zarar görüyor” dedi.\n'TAHTALAR 5-6 AY ÖNCE KOYULDU'\nMurat Kaya, “Herkes kendince tahtayla önlem almış. Ben burada bazen binanın beton parçalarının yere düştüğünü görüyorum. İnsanlar binanın altından geçerken yıkılır diye korkuyorlar. Bugün ya da biraz sonra çökecek gibi duruyor. Canlı tabut gibi bir şey. Sonuçta tahta bir şekilde tutuyor ama nasıl tutuyor? Önlemsiz bir şekilde tutuyor. Tahtalar 5-6 ay önce koyuldu. Bu kadar çürük bir bina daha önce görmemiştim. Bu binayı görüp de sağlam diyecek kimse yok. O yüzden insanlara bir şey olmadan bu binanın bir an önce tahliye edilmesi ve yıkılması gerekir” dedi.\n'TAHTA İLE İPLE OLMAZ BİNA AYAKTA ZOR DURUYOR'\nArkadaşlarının binada oturduğunu belirten Muhammed Hasan, “Ben bu mahallede oturuyorum. Benim arkadaşlarım da bu binada oturuyorlar. Tahtayla desteklemişler. Bu bina çok eski, su da basmış. Buradan geçemiyoruz. Ben nakliyeciyim. Bir iki kere buradan geçerken arabayı binaya sürtmemden dolayı bina yıkılacaktı. Tahta ile iple olmaz bina ayakta zor duruyor. Ayakta durması imkansız, çok eski bir bina. Bu çok tehlikeli. Burada inşaat çalışması olacak. Bu inşaat yapılırken bu bina da sallanır, yıkılabilir. Yabancı arkadaşlarım da burada oturuyorlar. Onlar da tahta ile desteklemişler ama durması imkansız. Bu çok riskli bir durum” ifadelerini kullandı.",
       "summary": "Küçükçekmece'de Kanarya Mahallesi'nde, 60 yıllık 5 katlı bina çatlak, beton dökülmesi ve su sızıntısı nedeniyle ciddi zarar gördü. Balkonlar tahta direklerle desteklenmiş ve bina çökme riski taşıdığı için mahalle sakinleri acil tahliye ve yıkım talep ediyor."
     },
     {
@@ -251,7 +442,6 @@
       "link": "https://www.hurriyet.com.tr/sporarena/manchester-unitedda-bruno-fernandes-soku-yeni-sozlesme-teklifini-reddetti-43377045",
       "pubDate": "Fri, 13 Nov 2026 11:20:19 Z",
       "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6f186ff497cc803f6a1a2.jpg",
-      "text": "Güncelleme Tarihi:\nManchester United'ın kaptanı Bruno Fernandes'in geleceği belirsizliğini koruyor. The Athletic'te yer alan habere göre Portekizli yıldız, İngiliz ekibinin kendisine sunduğu ikinci sözleşme uzatma teklifini de geri çevirdi.\nKonuya ilişkin haberde yazılanlar şu şekilde:\nManchester United'ın kaptanı Bruno Fernandes ile yeni sözleşme görüşmeleri, yaz aylarında ilk teklifin yapılması ve Portekizli futbolcu tarafından reddedilmesinden bu yana devam ediyor.\nManchester United, daha yakın zamanda iyileştirilmiş şartlarla yeni bir teklif sundu ancak Fernandes henüz bu tekliften memnun değil. Bu nedenle taraflar arasında yeni görüşmeler yapılması bekleniyor.\n32 yaşındaki futbolcunun maaşı ve sözleşme süresi, görüşmelerde ele alınan konular arasında yer alıyor. Fernandes'in mevcut sözleşmesi Haziran 2027'de sona eriyor. Mevcut şartlarda Portekizli oyuncu, ocak ayından itibaren bonservis bedeli ödemeden transfer olma ihtimali için yabancı kulüplerle görüşme hakkına sahip olacak.\nManchester United'ın sözleşmeyi 12 ay daha uzatma opsiyonu bulunuyor. Kulübün bu opsiyonu kullanması durumunda Fernandes'in ocak ayından itibaren yabancı kulüplerle görüşme özgürlüğü ortadan kalkacak. Her durumda Manchester United, Fernandes'in takımda kalmasını istiyor.\nPortekizli futbolcu da geleceğiyle ilgili değerlendirmelerini sürdürüyor ve geçmişte takımdan ayrılma ihtimaline açık kapı bırakmıştı. Son sözleşmesini 2024 yılında imzalamıştı.\nFernandes'in bu yaz yalnızca yabancı kulüplerin kullanabileceği 65 milyon euroluk bir serbest kalma maddesi bulunuyordu ancak bu madde daha sonra sona erdi. Manchester United, bu sürenin ardından Fernandes'i satmaya sıcak bakmadı.\nMANCHESTER UNİTED'IN FERNANDES İKİLEMİ\nFernandes'in ikinci teklifi de reddetmesi, Manchester United'da dikkat çekici bir tablo ortaya çıkarıyor. Kulüp yönetimi oyuncunun takımda kalmasını istiyor, Fernandes de kariyerine burada devam etmek istiyor. Ancak iki tarafın da bu konuda ne ölçüde istekli olduğu soru işareti oluşturuyor.\nFernandes, bir sonraki sözleşmesinin kariyerindeki son büyük anlaşma olabileceği bir yaşta. Manchester United ise Sir Jim Ratcliffe yönetiminin maaş bütçesini azaltmaya yönelik adımlar attığı bir dönemde, maliyetleri beklenen performansla dengelemek zorunda.\nLiverpool'un 2025'in başlarında Mohamed Salah'ın sözleşmesiyle ilgili yürüttüğü süreç, bu duruma benzer bir örnek olarak gösteriliyor.",
       "summary": "Manchester United kaptanı Bruno Fernandes, kulübün kendisine sunduğu ikinci sözleşme uzatma teklifini reddetti. Görüşmeler devam ederken, futbolcunun mevcut sözleşmesi 2027 Haziran'ında sona eriyor ve geleceği belirsiz."
     },
     {
@@ -265,66 +455,123 @@
       "summary": "Bakırköy 2. Ağır Ceza Mahkemesi'nde 'Kara Maskeliler' suç örgütüne ilişkin 6. duruşma yapıldı. Mahkeme, Necip Doğan ve Mert Tuncel'in bazı suçlardan beraatine karar verirken, Mert Tuncel'e 61 yıl 1 ay 7 gün, Muharrem Destan Eğlenti'ye ise 55 yıl 10 ay hapis cezası verdi. Diğer sanıkların dosyaları ayrı ayrı ele alınmak üzere ayrıldı."
     },
     {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "'Çok yakışıklı, çok romantik, çok zeki' diye övgü yağdırıyordu: Ünlü oyuncuya milyarder eski kocasından miras şoku",
-      "source": "Hurriyet",
-      "link": "https://www.hurriyet.com.tr/kelebek/magazin/yakisikli-romantik-cok-zeki-diye-ovgu-yagdiriyordu-en-sevdigi-kocasi-unlu-oyuncuya-tek-kurus-miras-birakmamis-43376862",
-      "pubDate": "Fri, 13 Nov 2026 10:55:00 Z",
-      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e23e8c01a1364d068897.jpg",
-      "summary": "Medya patronu Ted Turner, 87 yaşında vefat etti ve vasiyetinde eski eşi Jane Fonda'ya hiçbir miras bırakmadı. Turner'ın 2,5 milyar dolarlık serveti, sadece çocukları Laura, Robert, Rhett, Reed ve Sara'ya geçti. Fonda, Turner'ın son vasiyetinde adı geçmediği belirtiliyor."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "19 işçi patlamada hayatını kaybetmişti! HABAŞ'ta işçilere telefon yasağı iddiası",
-      "source": "Hurriyet",
-      "link": "https://www.hurriyet.com.tr/gundem/19-isci-patlamada-hayatini-kaybetmisti-habasta-iscilere-telefon-yasagi-iddiasi-43376974",
-      "pubDate": "Fri, 13 Nov 2026 10:38:00 Z",
-      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e879c813a6f07cce7f5d.jpg",
-      "summary": "Aliağa'daki HABAŞ fabrikasında 9 Kasım'da gerçekleşen patlamada 19 işçi hayatını kaybetti, 14 kişi yaralandı. Soruşturma kapsamında 11 şüpheli adliyeye sevk edildi, 9'u tutuklanırken yönetim kurulu başkanı ev hapsine alındı. Başkanın cep telefonu yasağı talimatı üzerine işçiler telefonlarını teslim etmeyi reddederek iş bırakma eylemi başlattı ve bu süreçte bir arbede yaşandı."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Beşiktaş ve Galatasaray, Fenerbahçe'nin eski yıldızı için düelloda!",
-      "source": "Hurriyet",
-      "link": "https://www.hurriyet.com.tr/sporarena/besiktas-ve-galatasaray-fenerbahcenin-eski-yildizi-icin-duelloda-43376911",
-      "pubDate": "Fri, 13 Nov 2026 10:37:00 Z",
-      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e86dc813a6f07cce7f5a.jpg",
-      "text": "Güncelleme Tarihi:\nSüper Lig devleri Beşiktaş ve Galatasaray'da ara transfer dönemi için çalışmalar başlarken ezeli rekabet bu kez transfere sıçradı.\nBEŞİKTAŞ VE GALATASARAY, MIN-JAE'Yİ İSTİYOR\nFanatik'in, Bild gazetesinden aktardığı habere göre; Beşiktaş ve Galatasaray'ın Bayern Münih forması giyen Kim Min-Jae ile ilgilendiği belirtildi.\nJUVE DE DEVREDE\nSüper Lig devlerinin, nabız yokladığı Güney Koreli stoper için Juventus'un da devrede olduğu vurgulandı.\nBAYERN DEĞERLENDİRME ALDI\nBayern Münih'in Kim Min Jae'nin ayrılık ihtimalini değerlendirdiği ifade edildi.\nKim Min-Jae, bu sezon Bayern Münih'te 10 karşılaşmada süre aldı ve 712 dakika sahada kaldı.\n1.5 YILLIK SÖZLEŞMESİ KALDI\n29 yaşındaki stoperin, Alman devi ile olan sözleşmesi 30 Haziran 2028'de sona erecek. Kim Min Jae'nin güncel piyasa değeri 20 milyon Euro olarak gösteriliyor.",
-      "summary": "Beşiktaş ve Galatasaray, Bayern Münih'te forma giyen Güney Koreli stoper Kim Min‑Jae'yi transfer etmek için yarışıyor; Juventus da aynı oyuncuya ilgi gösteriyor. 29 yaşındaki savunmacının Bayern ile sözleşmesi 30 Haziran 2028'de sona eriyor ve piyasa değeri 20 milyon euro olarak belirtiliyor."
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Bulgaristan'ın Vratsa kentinde olağanüstü hal ilan edildi",
-      "source": "Hurriyet",
-      "link": "https://www.hurriyet.com.tr/dunya/bulgaristanin-vratsa-kentinde-olaganustu-hal-ilan-edildi-43376953",
-      "pubDate": "Fri, 13 Nov 2026 10:26:58 Z",
-      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e5a03516f14679cc79dc.jpg",
-      "summary": "Bulgaristan'ın Vratsa kentinde saatte 110 km'nin üzerindeki rüzgarlar nedeniyle olağanüstü hal ilan edildi; ağaçlar devrildi, çatı kaplamaları yerinden çıktı ve vatandaşların evde kalması istendi. Sofya'da da 90‑95 km/saat rüzgarlar yoğun ağaç devrilmelerine ve ulaşım aksaklıklarına yol açtı. Ulusal Meteoroloji ve Hidroloji Enstitüsü Vratsa için kırmızı alarm, 9 bölgeye turuncu, 17 bölgeye ise sarı uyarı verdi."
+      "cat": "Ücretsiz Oyun",
+      "catId": "oyun",
+      "title": "206 TL Değerindeki Oyun Epic Games'te Bu Hafta Ücretsiz Oldu [12-19 Kasım]",
+      "source": "Webtekno",
+      "link": "https://www.webtekno.com/epic-games-ucretsiz-oyun-12-19-kasim-h228967.html",
+      "pubDate": "Fri, 13 Nov 2026 15:14:09 +0300",
+      "image": "https://imgrosetta.webtekno.com/file/697133/697133-640xauto.jpg",
+      "summary": "Epic Games, 19 Kasım tarihine kadar ücretsiz olarak Knightica oyununu sunuyor. Oyun, stratejik birim yerleştirme ve otomatik savaş mekanikleri içeren bir roguelike. Kullanıcılar Epic Games hesabıyla siteye girip 'Yükle' seçeneğiyle oyunu kütüphanelerine ekleyebilir."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "CUMA AKŞAMI HANGİ DİZİLER VAR? 13 Kasım TV Yayın Akışı (Kanal D, TRT 1, Show TV, ATV, Star TV, NOW, TV8)",
+      "title": "SON DAKİKA | Tasfiye edilen fonlarda 161 milyar liralık ödeme yapıldı",
       "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/magazin/dizi/cuma-aksami-hangi-diziler-var-13-kasim-tv-yayin-akisi-kanal-d-trt-1-show-tv-atv-star-tv-now-tv8-3492871",
-      "pubDate": "Fri, 13 Nov 2026 15:51:50 GMT",
+      "link": "https://www.cnnturk.com/ekonomi/son-dakika-tasfiye-edilen-fonlarda-161-milyar-liralik-odeme-yapildi-3492924",
+      "pubDate": "Fri, 13 Nov 2026 16:30:35 GMT",
       "image": null,
-      "text": "CUMA AKŞAMI HANGİ DİZİLER VAR? 13 Kasım TV Yayın Akışı (Kanal D, TRT 1, Show TV, ATV, Star TV, NOW, TV8)\n13 Kasım 2026 Cuma TV yayın akışı, akşamını ekran başında geçirmek isteyen izleyiciler tarafından araştırılıyor. Haftanın son iş gününde hangi dizilerin, filmlerin ve eğlence programlarının yayınlanacağı merak ediliyor. Kanal D, TRT 1, Show TV, ATV, Star TV, NOW ve TV8’in yayın listeleri, takip ettiği yapımı kaçırmak istemeyenlerin gündeminde. Sevilen dizilerin yeni bölümleri, sinema filmleri ve yarışmaların başlangıç saatleri de kontrol ediliyor. Peki, bugün televizyonda ne var? Bu akşam hangi diziler yayınlanacak, programlar saat kaçta başlayacak? İzleyeceği yapıma henüz karar vermeyenler için kanalların akşam kuşağı seçenekleri de öne çıkıyor. İşte 13 Kasım Cuma gününe ait kanal kanal güncel TV yayın akışı ve televizyon rehberi…\nGünün TV yayın akışı, akşam izleyeceği programa karar vermek isteyenlerin gündeminde. Hafta sonu öncesinde dinlenmek ve sevdiği yapımları takip etmek isteyen izleyiciler, kanalların yayın saatlerini araştırıyor. Dizilerden yarışmalara uzanan akşam kuşağında hangi programın saat kaçta başlayacağı merak ediliyor. Bu akşam TRT 1 ekranlarında Taşacak Bu Deniz, Show TV’de Kızılcık Şerbeti, TV8’de ise MasterChef Türkiye izleyici karşısına çıkacak. Dizi takipçileri hikâyelerde yaşanacak gelişmeleri beklerken yemek yarışmalarını sevenler de MasterChef Türkiye’yi izlemek için ekran başında olacak. Kanal D, ATV, Star TV ve NOW’un cuma akşamı programları da televizyon rehberinde araştırılan başlıklar arasında yer alıyor. Takip ettiği yapımın başlangıcını kaçırmak istemeyenler, güncel yayın listelerini kontrol ederek akşam planını şekillendiriyor. Farklı kanallar arasında seçim yapacak izleyiciler için programların saatleri de önem taşıyor. Peki, bugün televizyonda ne var? Bu akşam hangi diziler yayınlanacak? Kanal D, ATV, Star TV ve NOW’da hangi yapımlar ekrana gelecek? İşte 13 Kasım 2026 Cuma gününün kanal kanal yayın akışı ve program saatleri…\nCUMA AKŞAMI HANGİ DİZİLER VAR?\nKANAL D YAYIN AKIŞI\n01:45 Gelinim Mutfakta\n04:00 Üç Kız Kardeş\n07:00 Küçük Ağa\n09:00 Neler Oluyor Hayatta\n11:00 Yaprak Dökümü\n13:45 Gelinim Mutfakta\n16:45 Güller ve Günahlar\n19:00 Kanal D Ana Haber\n20:00 Beyaz'la Joker\n23:15 Daha 17\nSHOW YAYIN AKIŞI\n00:15 Gece Hattı\n01:15 Sevdan Bir Ateş\n03:45 Bahar\n06:00 Baba\n09:00 Kuzey Yıldızı: İlk Aşk\n12:30 Gelin Evi\n15:00 Bahar\n18:25 Show Ana Haber\n20:00 Kızılcık Şerbeti\nTRT1 YAYIN AKIŞI\n01:40 Mehmed: Fetihler Sultanı\n04:05 Seksenler\n05:45 Hayallerinin Peşinde\n06:30 Turgay Başyayla Ile...\n07:30 Kalk Gidelim\n10:30 Alişan Ile Hayata Gülümse\n13:15 Seksenler\n14:25 Gönül Dağı\n17:30 Lingo Türkiye\n19:00 Ana Haber\n19:55 İddiaların Aksine\n20:00 Taşacak Bu Deniz\n00:15 Teşkilat\nATV YAYIN AKIŞI\n01:20 Var Mısın Yok Musun\n03:30 Bir Gece Masalı\n05:30 Hercai\n07:00 Kahvaltı Haberleri\n08:30 Nihat Hatipoğlu Sorularınızı Cevaplıyor\n10:00 Müge Anlı ile Tatlı Sert\n13:00 Gün Ortası\n14:00 Altı Üstü İstanbul\n16:00 Esra Erol'da\n19:00 ATV Ana Haber\n20:00 Buz Devri 4: Kıtalar Ayrılıyor\n21:45 Son Üç Gün\nSTAR YAYIN AKIŞI\n00:15 Başkalarının Hayatı\n03:00 Tuzlu Kahve\n05:30 Baba Ocağı\n07:00 Aramızda Kalsın\n08:15 Bugüne Başlarken\n08:30 Cansu Canan ile Bugün\n10:00 Songül ve Uğur ile Sana Değer\n13:45 Fazilet Hanım ve Kızları\n15:00 Didem Arslan Yılmaz'la Vazgeçme\n19:00 Star Haber Haber\n20:00 Dizi\nNOW YAYIN AKIŞI\n07.15 Zafer Söken ile İlk Bakış\n08.00 İlker Karagöz ile Çalar Saat\n10.45 Çağla ile Yeni Bir Gün\n12.30 Gelinler Sofrada\n15.00 Ömür Usta",
+      "text": "İletişim Başkanlığı'nın X hesabından yapılan açıklamada, TBMM'de kabul edilen 22 Ekim 2026 tarihli ve 7596 sayılı Kanun ile Sermaye Piyasası Kurulu'nun 27 Ekim 2026 tarihli kararı doğrultusunda, olağanüstü tasfiyeye konu fonlarda ilk ara ödemelerin 30 Ekim 2026 itibarıyla yatırımcıların hesaplarına yatırılmaya başlandığı belirtildi. 13 Kasım'da yapılan ödemelerle birlikte toplam 444 bin 893 tekil yatırımcıya yaklaşık 161 milyar lira ödeme gerçekleştirildi. Bu yatırımcıların 333 bin 493'ü ara ödeme kapsamında net yatırım tutarının tamamını aldı. HAKSIZ KAZANÇ ELDE EDENLER ÖDEME KAPSAMI DIŞINDA Açıklamada, Adalet Bakanlığı, Tasarruf Mevduatı Sigorta Fonu (TMSF) ve Mali Suçları Araştırma Kurulu (MASAK) başta olmak üzere ilgili kurumların denetimlerinin sürdüğü bildirildi. Piyasa bozucu faaliyetlerde bulunarak haksız ve fahiş kazanç elde ettiği tespit edilen kişiler hakkında hukuki süreçlerin devam ettiği, bu kişilerin ara ödeme kapsamı dışında bırakıldığı kaydedildi. ARA ÖDEMELER DEVAM EDECEK Ara ödemelerin mümkün olan en fazla sayıda yatırımcının ödeme almasını sağlayacak şekilde sürdürüleceği belirtildi. Önümüzdeki dönemde de tasfiye sürecinden sorumlu kurumların koordinasyonunda ödemelere devam edilecek. Onuncu Fon Koordinasyon Kurulu Toplantısı, Cumhurbaşkanı Yardımcımızın başkanlığında gerçekleştirilmiştir. Toplantıya Adalet Bakanlığı, Hazine ve Maliye Bakanlığı ile bu bakanlıklarımızın ilgili kurum ve kuruluşları katılmıştır. Toplantıda süreç ile ilgili gelinen nokta, sağlanan gelişmeler ve atılacak adımlar ele alınmıştır. TBMM’de kabul edilen 22.10.2026 tarihli ve 7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun ile Sermaye Piyasası Kurulunun tasfiye ve ödemelere ilişkin usul ve esaslara ilişkin 27.10.2026 tarihli ve 76/1903 sayılı Kararı doğrultusunda, olağanüstü tasfiyeye konu fonlardaki ilk ara ödemeler 30 Ekim 2026 tarihi itibarıyla fon sahiplerinin hesaplarına yatırılmaya başlanmıştır. 13 Kasım 2026 tarihinde yapılan ödemelerle birlikte, olağan ve olağanüstü tasfiye süreçlerinde toplam 119 Fonda bulunan 444.893 tekil yatırımcıya yaklaşık 161 Milyar TL ayni ve nakdi olarak ödeme yapılmıştır. Bu yatırımcılardan, 333.493 tekil yatırımcı, ara ödeme olarak net yatırım tutarının tamamını almıştır. Başta Adalet Bakanlığı, TMSF ve MASAK olmak üzere ilgili kurumların yaptığı denetimler neticesinde piyasa bozucu faaliyetlerde bulunarak haksız ve fahiş kazanç elde ettiği tespit edilenler hakkında hukuki süreçler sürdürülmektedir. Yapılan denetimler neticesinde haksız ve fahiş kazanç elde ettiği tespit edilenler ara ödeme kapsamı dışında bırakılmıştır. Ara ödemeler, en fazla sayıda yatırımcının ödeme almasını sağlayacak şekilde sürdürülecektir. Önümüzdeki dönemde, tasfiye sürecinden sorumlu kurumlarımızın koordinasyonunda ara ödemelere devam edilecektir. ",
       "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "QNB Türkiye’den COP31’de sürdürülebilir finansman hamlesi",
+      "title": "13 Kasım 2026 Cuma gününün son dakika önemli gelişmeleri! (CNN TÜRK 16.30 bülteni)",
       "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/advertorial/qnb-turkiyeden-cop31de-surdurulebilir-finansman-hamlesi-3492872",
-      "pubDate": "Fri, 13 Nov 2026 15:50:26 GMT",
+      "link": "https://www.cnnturk.com/turkiye/13-kasim-2026-cuma-gununun-son-dakika-onemli-gelismeleri-cnn-turk-16-30-bulteni-3492878",
+      "pubDate": "Fri, 13 Nov 2026 16:28:48 GMT",
       "image": null,
-      "text": "QNB Türkiye’den COP31’de sürdürülebilir finansman hamlesi\nQNB Türkiye, sürdürülebilir kalkınma hedeflerine ve yeşil dönüşüme katkı sağlama vizyonu doğrultusunda uluslararası kalkınma finansmanı kuruluşlarıyla yaptığı iş birliklerini güçlendirmeye devam ediyor. Banka, bu kapsamda Asya Kalkınma Bankası (ADB), Asya Altyapı Yatırım Bankası (AIIB), Avrupa İmar ve Kalkınma Bankası (EBRD), Hollanda Kalkınma Bankası (FMO) ve Uluslararası Finans Kurumu (IFC) olmak üzere beş uluslararası kalkınma finansmanı kuruluşuyla (DFI) finansman mutabakatı imzaladı.\nCOP31’de duyurulan bu iş birlikleri, her kuruluşun uzmanlığını ve finansman olanaklarını QNB Türkiye’nin reel sektöre erişimiyle buluşturuyor. Birbirini tamamlayan farklı finansman temaları sayesinde sağlanan kaynaklarla daha geniş bir sektör ve işletme yelpazesine ulaşılarak çevresel ve sosyal etkinin artırılması hedefleniyor.\nYapılan bu iş birlikleri aracılığıyla uluslararası sermayenin yanı sıra kalkınma finansmanı kuruluşlarının bilgi birikimi ve deneyimi de reel ekonomiye aktarılacak. Böylece yatırımların finansmanı desteklenirken, işletmelerin sürdürülebilir dönüşüm için ihtiyaç duyduğu bilgiye erişimine ve kapasitelerinin gelişimine de katkı sağlanacak.\nQNB Türkiye, toplamda 500 milyon ABD dolarına kadar 5 yıl vadeli finansman sağlanmasına yönelik süreçte, sürdürülebilir yatırımları desteklemeyi, reel sektörün dönüşümüne katkı sağlamayı ve Türkiye’nin uzun vadeli kalkınma hedeflerine yönelik finansman olanaklarını güçlendirmeyi amaçlıyor. Farklı finansman modellerini ve sürdürülebilirlik önceliklerini bir araya getiren bu kaynakların; yeşil dönüşüm, iklim finansmanı, sosyal kalkınma, kadın girişimciliği, tarım, ormancılık ve mavi ekonomi gibi alanlarda değerlendirilmesi hedefleniyor. Her bir kuruluşla geliştirilen tematik iş birlikleri, işletmelerin dönüşüm yatırımlarından girişimcilerin finansmana erişimine ve doğal kaynakların sürdürülebilir kullanımına kadar farklı ihtiyaçlara yanıt vererek kapsayıcı ve sürdürülebilir ekonomik büyümeyi desteklemeyi amaçlıyor.\nADB ile 100 milyon ABD doları tutarındaki finansmanın 50 milyon ABD doları tutarındaki bölümünün yeşil finansmanda, kalan bölümünün ise orta yaş ve üzerindeki bireylerin sahibi olduğu veya yönettiği KOBİ’lere yönelik olarak Gümüş Ekonomi Tahvili kapsamında değerlendirilmesi planlanıyor. AIIB ile 150 milyon ABD dolarına kadar sağlanacak finansmanın iklim finansmanı, yeşil yatırımlar ve işletmelerin işletme sermayesi ihtiyaçları için kullanılması hedefleniyor.\nEBRD ile 100 milyon ABD doları tutarındaki finansmana yönelik çalışmalar, yeşil ve sosyal finansmana odaklanan Yeşil Ekonomi Finansman Programı (GEFF) kapsamında yürütülüyor. Öte yandan, FMO ile de 50 milyon avroya kadar Doğa Tahvili finansmanı üzerinde çalışılıyor. Türkiye’nin en büyük Doğa Tahvili ihracı olması hedeflenen bu işlem, mavi ekonomi, ormancılık ve tarım alanlarını kapsıyor. IFC ile 100 milyon ABD dolarına kadar sağlanacak finansmanın ise yeşil yatırımlara ve kadınların ekonomik hayata katılımını ve güçlenmesini destekleyen projelere yönlendirilmesi planlanıyor.\nSöz konusu iş birlikleri, bankacılık ve sermaye piyasaları açısından birden fazla ilki de beraberinde getiriyor. QNB Türkiye’nin ADB ile gerçekleştireceği ilk tahvil işlemi kapsamında ihraç edilecek Gümüş Ekonomi Tahvili, hem Türkiye’de ihraç edilen hem de ADB’nin yatırımcısı olduğu ilk Gümüş Ekonomi Tahvili olacak. FMO ile gerçekleştirilecek ilk tahvil işlemi, Türkiye’nin en büyük Doğa Tahvili ihracı olma",
+      "text": "      ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Mide Küçültme Ameliyatlarında Doğru Bilinen Yanlışlar",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/saglik/mide-kucultme-ameliyatlarinda-dogru-bilinen-yanlislar-3492923",
+      "pubDate": "Fri, 13 Nov 2026 16:26:11 GMT",
+      "image": null,
+      "text": "Özellikle tüp mide ameliyatları hakkında toplumda yaygın olan yanlış bilgilere dikkat çekerek, cerrahi sürecin yalnızca mide hacminin küçültülmesinden ibaret olmadığını,ameliyat kararı verilirken hastanın genelsağlıkdurumunun, eşlik eden hastalıklarının ve ameliyat sonrasındaki sürece uyumunun birlikte değerlendirilmesi gerektiğini ifade etti. Her fazla kilosu olan kişi ameliyat adayı değil Obezitecerrahisine karar verme sürecinde yalnızca kilo miktarının dikkate alınmasının doğru olmadığını belirten Op. Dr. Serkan Dr. Giray, hasta seçiminin kapsamlı bir değerlendirmeyle yapılması gerektiğini söyledi. Dr. Giray, \"Her fazla kilosu olan kişi obezite cerrahisi adayı değildir. Hastanın vücut kitle indeksi, genel sağlık durumu, eşlik eden hastalıkları, daha önceki kilo verme girişimleri ve ameliyat sonrası sürece uyumu birlikte değerlendirilmelidir. Cerrahi karar, kişiye özel değerlendirme sonucunda verilmelidir\" dedi. \"Tüp mide ameliyatı, mideye kelepçe takılması değildir\" Tüp mide ameliyatıyla ilgili toplumda karşılaşılan yanlış bilgilerden birinin, işlemin mideye dışarıdan kelepçe takılması şeklinde algılanması olduğunu belirten Dr. Giray, operasyonun farklı bir cerrahi yöntemle gerçekleştirildiğini kaydetti. Sleeve gastrektomi olarak adlandırılan tüp mide ameliyatında midenin bir bölümü cerrahi olarak çıkarılıyor ve geriye kalan mideye tüp şeklinde bir yapı kazandırılıyor. Operasyon sırasında cerrahi stapler cihazları kullanılarak mide yeniden şekillendiriliyor. Op. Dr. Giray, tüp mide ameliyatının teknik açıdan doğru anlaşılmasının önemine işaret ederek, işlem hakkında bilgi edinmek isteyen hastaların uzman hekim değerlendirmesine başvurması gerektiğini belirtti. Ameliyatın etkisi yalnızca mide hacminin küçülmesiyle sınırlı değil Tüp mide ameliyatının yalnızca daha az yemek yemeyi sağlayan mekanik bir işlem olarak değerlendirilmemesi gerektiğini ifade eden Dr. Giray, operasyonun iştah ve tokluk mekanizmaları üzerinde de etkili olduğunu söyledi. Ameliyat sonrasında hastaların daha küçük porsiyonlarla tokluk hissedebildiğini belirten Dr. Giray, obezite cerrahisinin metabolik etkilerinin de tedavi sürecinde önemli bir yere sahip olduğunu kaydetti. \"Ameliyat oldum, artık kilo almam\" düşüncesi yanlış Obezite cerrahisinin tek başına kalıcı sonuçları garanti etmediğini vurgulayan Op. Dr. Serkan Giray, ameliyat sonrasında beslenme ve yaşam tarzı düzenlemelerinin sürdürülmesi gerektiğine dikkat çekti. Dr. Giray, \"Cerrahi önemli bir tedavi aracıdır ancak bütün süreci tek başına yönetmez. Ameliyat sonrasında beslenme düzenine uyum, yeterli protein ve sıvı tüketimi, uygun fiziksel aktivite ve gerekli vitamin-mineral desteğinin kullanılması önemlidir. Hastaların önerilen takip programına düzenli olarak katılması, uzun dönem sonuçların korunması açısından büyük önem taşır.\" ifadelerini kullandı. Ameliyat sonrası takip de tedavinin bir parçası Obezite cerrahisinde tedavi sürecinin ameliyat günüyle sona ermediğini belirten Dr. Giray, ameliyat öncesi hazırlık ve ameliyat sonrası takibin bir bütün olarak ele alınması gerektiğini ifade etti. Ameliyat sonrasında hastaların beslenme durumunun, kilo değişiminin, vitamin ve mineral düzeylerinin ve genel sağlık durumunun düzenli olarak değerlendirilmesi gerektiğini kaydeden Dr. Giray, sürecin uzman ekip tarafından takip edilmesinin önemini vurguladı. Op. Dr. Serkan Giray, obezite cerrahisinde her hastaya aynı yaklaşımın uygulanamayacağını belirterek, tedavi planının kişinin ihtiyaçları ve sağlık durumu doğrult",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "İLBANK ile Avrupa Yatırım Bankası arasında iklim dostu belediye projeleri için işbirliği",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/ekonomi/ilbank-ile-avrupa-yatirim-bankasi-arasinda-iklim-dostu-belediye-projeleri-icin-isbirligi-3492921",
+      "pubDate": "Fri, 13 Nov 2026 16:24:50 GMT",
+      "image": null,
+      "text": "Antalya'da düzenlenenCOP31kapsamında imzalanan anlaşmaylaAvrupa Yatırım Bankası, İLBANK'a sürdürülebilir kentsel projelerin belirlenmesi, geliştirilmesi ve ölçeklerinin büyütülmesi konusunda teknik destek sağlayacak. AYB ayrıca düşük karbonlu ve iklim değişikliğine dayanıklı yatırımların belirlenmesi için İLBANK'a danışmanlık yapacak. İşbirliğiyle İLBANK'ın iklim odaklı belediye yatırımlarını değerlendirme ve finanse etme kapasitesinin güçlendirilmesi hedefleniyor. FİNANSMAN ALMANYA VE LÜKSEMBURG'DAN Teknik destek, Almanya ve Lüksemburg hükümetlerinin finanse ettiğiŞehir İklim FinansmanıAçığı Fonu kapsamında sağlanacak. İLBANK Genel Müdürü Eyyüp Karahan, anlaşmanın kentsel iklim finansmanı alanındaki kurumsal kapasiteyi güçlendirmek, yeşil yatırım araçlarını çeşitlendirmek ve iklime dayanıklı belediye projelerinden oluşan güçlü bir portföy geliştirmek açısından önemli bir fırsat sunduğunu belirtti. Karahan, proje geliştirme ve değerlendirme süreçlerinin yanı sıra finansman modelleri ve kurumsal uygulamalardaki kapasitenin de artırılmasının hedeflendiğini ifade etti. ENERJİ VERİMLİLİĞİ VE YENİLENEBİLİR ENERJİ ÖNE ÇIKIYOR AYB Başkan Yardımcısı Ambroise Fayolle ise işbirliğinin Türkiye'deenerji verimliliği,yenilenebilir enerjive iklim değişikliğine dayanıklılık alanlarında finansmana uygun projelerin geliştirilmesine katkı sağlayacağını kaydetti.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Ankara- 64 ilde kaçakçılık operasyonları: 371 şüpheli hakkında adli işlem yapıldı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/yerel-haberler/ankara/ankara-64-ilde-kacakcilik-operasyonlari-371-supheli-hakkinda-adli-islem-yapildi-3492892",
+      "pubDate": "Fri, 13 Nov 2026 16:03:08 GMT",
+      "image": null,
+      "text": "İÇİŞLERİ Bakanlığı, 64 ilde 'Kaçakçılık suçlarıyla mücadele' kapsamında düzenlenen operasyonlarda 371 şüpheli hakkında adli işlem yapıldığını duyurdu.  Bakanlığın sanal medya hesabından yapılan açıklamada, \"Emniyet Genel Müdürlüğü Kaçakçılık ve Organize Suçlarla Mücadele (KOM) Başkanlığı koordinesinde; il emniyet müdürlüklerimizce yapılan çalışmalar sonucu; 'Gümrük işlemine tabi tutulmaksızın ülkemize kaçak ürünler sokmak ve dağıtmak, yasa dışı imalathanelerde üretilen sahte veya kaçak ürünleri piyasaya sürmek' suçlarını işlediği tespit edilen şüphelilere yönelik 64 ilde operasyonlar düzenlendi. Operasyonlar sonucunda; 64 bin 857 litre alkollü içki, 22 milyon 116 bin 60 adet içi doldurulmuş makaron, 10 milyon 387 bin 700 adet boş makaron, 230 bin 80 paket sigara ele geçirildi. Sahte ve kaçak ürünlerle vatandaşlarımızın sağlığını hiçe sayan merdiven altı odaklara, haksız kazanç peşindeki kaçakçılık şebekelerine asla geçit vermiyoruz. Ülkemizin dört bir yanında operasyonlarımızı aralıksız sürdürüyoruz. Kahraman polislerimizi, KOM Başkanlığımızı, Cumhuriyet Başsavcılıklarımızı ve emeği geçenleri tebrik ediyoruz\" denildi. (DHA)  ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "İzmir'de kaçak kazı hazırlığı yapan 9 şüpheli yakalandı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/yerel-haberler/izmir/izmirde-kacak-kazi-hazirligi-yapan-9-supheli-yakalandi-3492891",
+      "pubDate": "Fri, 13 Nov 2026 16:03:08 GMT",
+      "image": null,
+      "text": "İZMİR (AA) - İzmir'in Bornova ilçesinde sit alanında kaçak kazı hazırlığı yaptıkları belirlenen 9 şüpheli gözaltına alındı. İzmir Valiliğinden yapılan açıklamaya göre, İl Jandarma Komutanlığı ekipleri, Kayadibi Mahallesi Homeros mevkisinde kaçak kazı yapılacağı bilgisine ulaştı. Bölgeye giden ekipler, kazı hazırlığındaki M.A, İ.G, R.Z, S.E, E.K, M.Y.S, M.A.K, E.G ve A.K'yi yakaladı, yer altı görüntüleme ve kazı cihazları, jeneratör ile kazma kürek gibi aletler ele geçirdi. Zanlılar hakkında Kültür ve Tabiat Varlıklarını Koruma Kanunu gereğince işlem yapıldı.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "İstanbul Valiliğinden hafta sonu için sağanak uyarısı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/yerel-haberler/istanbul/istanbul-valiliginden-hafta-sonu-icin-saganak-uyarisi-3492889",
+      "pubDate": "Fri, 13 Nov 2026 16:03:08 GMT",
+      "image": null,
+      "text": "İSTANBUL (AA) - İstanbul Valiliği, kentte hafta sonu gök gürültülü sağanak beklendiğini belirterek, dikkatli olunması uyarısında bulundu. Valilikten yapılan açıklamada, Meteoroloji Genel Müdürlüğünün değerlendirmelerine göre yarın öğle saatlerinden itibaren görülecek sağanak ve gök gürültülü sağanağın yerel kuvvetli (21-50 kg/m2) olmasının beklendiği belirtildi. Yağışların, pazar günü sabah ilk saatlere kadar etkili olmasının öngörüldüğü ifade edilen açıklamada, kuvvetli yağışlarla birlikte ani sel, su baskını, yıldırım, hortum, yerel dolu yağışı, fırtına ile ulaşımda aksamalar gibi olumsuzluklara karşı dikkatli ve tedbirli olunması istendi.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Terör örgütü üyeliği davasında 4 sanığa beraat",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/yerel-haberler/zonguldak/merkez/teror-orgutu-uyeligi-davasinda-4-saniga-beraat-3492894",
+      "pubDate": "Fri, 13 Nov 2026 16:03:07 GMT",
+      "image": null,
+      "text": "Öznur GÜNEŞ/ZONGULDAK, (DHA)- ZONGULDAK’ta, THKP-C, DEV-YOL ve Devrimci Hareket'e üye oldukları iddiasıyla ‘Terör örgütü üyesi olmak’ suçundan yargılanan üniversite öğrencileri Nuri Ş. (22), Sıla D. (21) ve Büşra T. (21) ve İ.K. beraat etti. Mahkeme, sanıklardan Nuri Ş.’ye kamu malına zarar verme suçundan 1 ay 15 gün hapis cezası vererek cezayı erteledi. Zonguldak Emniyet Müdürlüğü Terörle Mücadele Şube Müdürlüğü ekipleri, Zonguldak Cumhuriyet Başsavcılığı koordinesinde THKP-C, DEV-YOL ve Devrimci Hareket’e yönelik 12 Haziran’da operasyon düzenledi. Eş zamanlı operasyonlarda 4 üniversite öğrencisi gözaltına alındı. Şüphelilerin evlerindeki dijital materyallere el konuldu. Örgütler içerisinde faaliyet gösterdikleri öne sürülen Nuri Ş., Sıla D. ve Büşra T. tutuklandı. İ.K. ise adli kontrol tedbirleri uygulanarak serbest bırakıldı. Davanın 18 Eylül’de görülen ilk duruşmasında Büşra T. ve Sıla D., yurt dışına çıkış yasağı şeklinde adli kontrol tedbiri uygulanarak tahliye edilirken, tutuksuz sanık İ.K. hakkındaki adli kontrol tedbirleri kaldırıldı. 23 Ekim’de görülen ikinci duruşmada ise Nuri Ş.’nin tahliyesine karar verildi. 'TERÖRLE HİÇBİR BAĞLANTIM YOK' Davanın karar duruşması, bugün Zonguldak 2’nci Ağır Ceza Mahkemesi’nde görüldü. Duruşmada savunma yapan Nuri Ş., \"Benim herhangi bir şekilde terörle bağlantım yok. Ülkeme faydalı bir insan olmak istiyorum. Beraatimi istiyorum\" dedi. Sanık Büşra T. ise \"Terörle hiçbir bağlantım yok. Hiçbir şekilde bir yerden talimat almadım, izinsiz hiçbir şey yapmadım. Başarılı bir öğrencilik dönemi geçiriyordum. Kendimi önümüzdeki seneye hazırlayıp daha iyi çalışacağım. Aileme ve milletime hayırlı bir insan olmak istiyorum. Beraatimi istiyorum\" diye konuştu. '98 GÜNLÜK TUTUKLULUK SÜRECİNDE PSİKOLOJİK OLARAK ETKİLENDİM' Sanık Sıla D. de \"98 günlük tutukluluk sürecimde çok şey yaşadım. Kaymakamlık sınavına hazırlanıyordum. Bu süreçte psikolojik olarak etkilendim. Milletime ve devletime hayırlı bir insan olmaya çalışıyorum\" ifadelerini kullandı. Sanık İ.K. ise \"Ben iyi bir doktor olmak istiyorum. Bunun için çok çalışacağım. Hiçbir terör bağlantım yoktur, beraatimi istiyorum\" dedi. Sanıkların ve avukatlarının savunmalarının ardından kararını açıklayan mahkeme heyeti, Nuri Ş., Büşra T., Sıla D. ve İ.K.’nin terör suçlamalarından ayrı ayrı beraatine hükmetti. Mahkeme ayrıca Nuri Ş.’ye kamu malına zarar verme suçundan 1 ay 15 gün hapis cezası vererek cezanın ertelenmesine karar verdi. (DHA)",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Nevşehir'de firari FETÖ hükümlüsü yakalandı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/yerel-haberler/nevsehir/nevsehirde-firari-feto-hukumlusu-yakalandi-3492895",
+      "pubDate": "Fri, 13 Nov 2026 16:03:06 GMT",
+      "image": null,
+      "text": "NEVŞEHİR (AA) - Nevşehir'de, Fetullahçı Terör Örgütü (FETÖ) üyesi olduğu gerekçesiyle hakkında 6 yıl 3 ay kesinleşmiş hapis cezası bulunan hükümlü yakalandı. İl Emniyet Müdürlüğünden yapılan yazılı açıklamaya göre, Terörle Mücadele Şubesi ekipleri arananların yakalanmasına yönelik çalışma yürüttü. Bu kapsamda, FETÖ üyeliği suçundan hakkında 6 yıl 3 ay kesinleşmiş hapis cezası bulunan Ö.F.A. yakalandı. İşlemlerinin ardından cezaevine teslim edilen hükümlünün, örgütün güncel yapılanmasında sözde finansal sorumlu olarak yer aldığı belirtildi.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Denizli'de uyuşturucu operasyonunda 7 şüpheli tutuklandı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/yerel-haberler/denizli/denizlide-uyusturucu-operasyonunda-7-supheli-tutuklandi-3492896",
+      "pubDate": "Fri, 13 Nov 2026 16:03:04 GMT",
+      "image": null,
+      "text": "DENİZLİ (AA) - Denizli'de uyuşturucu satıcılarına yönelik operasyonda gözaltına alınan 11 şüpheliden 7'si tutuklandı. İl Emniyet Müdürlüğü Narkotik Suçlarla Mücadele Şubesi ekipleri, kent genelinde uyuşturucu ticareti yaptığı belirlenen sokak satıcıları ve suç organizasyonlarına yönelik çalışma yürüttü. Belirlenen adreslere düzenlenen operasyonda 11 şüpheli yakalandı. Şüphelilerin adreslerinde yapılan aramalarda, 13 bin 382 kullanımlık kağıda emdirilmiş sentetik kannabinoid, 2 bin 47 uyuşturucu hap, 440 gram skunk, 30 gram sentetik uyuşturucu, 2,15 gram kokain, 0,23 gram eroin ve 2 hassas terazi ele geçirildi. Emniyetteki işlemlerinin ardından \"uyuşturucu veya uyarıcı madde ticareti yapma\" suçundan adliyeye sevk edilen şüphelilerden 7'si tutuklandı, 2'si adli kontrol şartıyla salıverildi, 2'si ise serbest bırakıldı.",
       "summary": ""
     },
     {
@@ -332,271 +579,215 @@
       "catId": "dunya",
       "title": "Çanakkale Boğazı trafiğine 'lodos' engeli",
       "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/canakkale-bogazi-trafigine-lodos-engeli-3492877",
-      "pubDate": "Fri, 13 Nov 2026 15:48:12 GMT",
+      "link": "https://www.cnnturk.com/yerel-haberler/canakkale/canakkale-bogazi-trafigine-lodos-engeli-3492897",
+      "pubDate": "Fri, 13 Nov 2026 16:03:03 GMT",
       "image": null,
-      "text": "Çanakkale Boğazı trafiğine 'lodos' engeli\nSon Güncelleme\nÇanakkale'de etkili olan lodos fırtınası nedeniyle Çanakkale Boğazı, çift yönlü olarak trafiğe kapatılacak.\nReklam\nReklam\nMeteoroloji Genel Müdürlüğü tarafından yapılan hava tahminlerinin ardından kentte lodos fırtınası, 2 gündür etkili oluyor. Lodos fırtınası nedeniyle deniz ulaşımında da aksamalar yaşanıyor.\nFırtına nedeniyle Geyikli-Bozcaada ile Kabatepe-Gökçeada hattında bugün yapılması planlanan tüm feribot seferleri iptal edildi.\nÖte yandan kentte yer yer saatte 60-90 kilometreyi bulan lodos fırtınası nedeniyle saat 16.45 itibariyle Çanakkale Boğazı, çift yönlü olarak trafiğe kapatılacak.",
+      "text": "ÇANAKKALE'de etkili olan lodos fırtınası nedeniyle Çanakkale Boğazı, çift yönlü olarak trafiğe kapatılacak.  Meteoroloji Genel Müdürlüğü tarafından yapılan hava tahminlerinin ardından kentte lodos fırtınası, 2 gündür etkili oluyor. Lodos fırtınası nedeniyle deniz ulaşımında da aksamalar yaşanıyor. Fırtına nedeniyle Geyikli-Bozcaada ile Kabatepe-Gökçeada hattında bugün yapılması planlanan tüm feribot seferleri iptal edildi. Öte yandan kentte yer yer saatte 60-90 kilometreyi bulan lodos fırtınası nedeniyle saat 16.45 itibariyle Çanakkale Boğazı, çift yönlü olarak trafiğe kapatılacak. (DHA)  ",
       "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Bakan Bayraktar duyurdu: Akkuyu'da ilk reaktör birkaç hafta içinde başlatılacak",
+      "title": "Osmaniye- Prof. Dr. Gül: Yerli arılarımız daha dayanıklı",
       "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/ekonomi/bakan-bayraktar-duyurdu-akkuyuda-ilk-reaktor-birkac-hafta-icinde-baslatilacak-3492870",
-      "pubDate": "Fri, 13 Nov 2026 15:48:12 GMT",
+      "link": "https://www.cnnturk.com/yerel-haberler/osmaniye/merkez/osmaniye-prof-dr-gul-yerli-arilarimiz-daha-dayanikli-3492898",
+      "pubDate": "Fri, 13 Nov 2026 16:03:03 GMT",
       "image": null,
-      "text": "Bakan Bayraktar duyurdu: Akkuyu'da ilk reaktör birkaç hafta içinde başlatılacak\nEnerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Türkiye'nin ilk nükleer güç santrali olan Akkuyu NGS'de ilk reaktörün fiziksel başlatma işleminin gelecek birkaç hafta içinde gerçekleştirileceğini açıkladı.\nİnşası devam eden Akkuyu Nükleer Güç Santrali ile ilgili de bilgi veren Bakan Bayraktar, “Önümüzdeki birkaç hafta içinde Türkiye’nin ilk nükleer güç reaktörünün fiziksel başlatmasını Akkuyu’da gerçekleştireceğiz.” diye konuştu.\nBakan Bayraktar, Antalya’da düzenlenen BM İklim Değişikliği Çerçeve Sözleşmesi 31. Taraflar Konferansı (COP31) marjında Rusya Devlet Nükleer Enerji Kuruluşu ROSATOM tarafından düzenlenen “Dünya Atom Günleri” etkinliğinin açılışına iştirak etti.\nİKLİM DEĞİŞİKLİĞİYLE MÜCADELEDE KRİTİK YILLAR\nTürkiye’nin COP31’de dünyaya ‘hedeflerden eyleme geçmeyi’ önerdiğini ifade eden Bakan Bayraktar, “İklim değişikliğiyle mücadele ve küresel ısınmayı azaltma açısından kritik yıllardan geçiyoruz. 2050’de küresel ısınmayı 1,5 santigrat derecenin altında tutma hedefini ciddiye alıyorsak, bu yıllar çok önemli. Bazı adımlar atmamız gerekiyor. COP31’de uluslararası topluma ikinci önerimiz ise iklim değişikliğiyle mücadele için şimdi harekete geçmemiz ve ekonomilerimizi elektrikleştirmemiz gerektiği.” dedi.\nBAŞARMAK İÇİN NÜKLEER ENERJİYE İHTİYACIMIZ VAR\nTürkiye’nin COP31 bağlamında küresel ölçekte ‘elektrifikasyon oranını 2035'e kadar yüzde 35'e çıkarma’ hedefi ortaya koyduğuna işaret eden Bakan Bayraktar, “2035’e kadar ekonomilerimizde yüzde 35 elektrifikasyon hedefimiz var. Bunun iddialı ve zor bir hedef olduğunu biliyorum ama bunu yapmamız gerekiyor. Bunu başarmak için de nükleer enerjiye ihtiyacımız var.” diye konuştu.\nAKKUYU’DA FİZİKSEL BAŞLATMA\nİnşası devam eden Akkuyu Nükleer Güç Santrali ile ilgili de bilgi veren Bakan Bayraktar, “Önümüzdeki birkaç hafta içinde Türkiye’nin ilk nükleer güç reaktörünün fiziksel başlatmasını Akkuyu’da gerçekleştireceğiz.” diye konuştu.\nİNSANLAR VE GEZEGEN İÇİN NÜKLEER ENERJİ PANELİ\nBakan Bayraktar, daha sonra Dünya Atom Günleri etkinliği kapsamında düzenlenen “İnsanlar ve Gezegen İçin Nükleer Enerji” paneline de katıldı. Herkesi 2035'e kadar yüzde 35 elektrifikasyon hedefini taahhüt etmeye davet ettikleri bu süreçte Türkiye'nin bu alanda neler yaptığını soranlara yanıt vermek amacıyla Mili Enerji 2040 vizyonunu açıkladıklarını anımsatan Bakan Bayraktar, “2040 planımızın temel hedeflerinden biri ekonomimizi elektriklendirmek.” dedi.\nELEKTRİK İHTİYACININ YÜZDE 10-12’Sİ\nTürkiye’de büyük ölçekli nükleer reaktörlerden en az 15 gigavatlık kurulu güç ve en az 5 gigavatlık küçük modüler reaktör (SMR) kapasitesi oluşturmayı hedeflediklerine dikkat çeken Bakan Bayraktar, “Bu iki kaynağı bir araya getirerek 2050 yılında 20 gigavatlık kurulu nükleer güç kapasitesine ulaşmayı hedefliyoruz. Böylece elektrik ihtiyacımızın en az yüzde 10 ila 12'sini temiz kaynaklardan karşılayabileceğiz. Buna bağlı olarak karbon emisyonlarımızı da azaltacağız.” dedi.\nYERLİLEŞME YÜZDE 50’NİN ÜZERİNE ÇIKTI\nRusya ile kapsamlı bir nükleer enerji iş birliği yürüttüklerine vurgu yapan Bakan Bayraktar, “Bugün Rus üniversitelerinden ve yüksekokullarından mezun olmuş 300'den fazla öğrenci Akkuyu'da çalışıyor. Aslında nükleer enerji alanındaki en büyük kazanımlarımızdan biri bu. Çünkü daha fazla nükleer santral inşa etmek istiyoruz. Yerelleşme de bu programın önemli bir parçasıydı. Bugün yerlileştirme oranı yüzde 50'nin üzerine çıkmış durumda.” dedi.",
+      "text": "MUSTAFA Kemal Üniversitesi Ziraat Fakültesi Öğretim Üyesi Prof. Dr. Aziz Gül, arıcılıkta bölge şartlarına uyum sağlamış yerli arı ırklarının tercih edilmesi gerektiğini söyledi. Gül, “Yerli arılarımız, yabancı coğrafyalardan getirilen arılara göre bölgemizde daha dayanıklı” dedi.  Osmaniye İli Arı Yetiştiricileri Birliği tarafından, arıcılık faaliyetlerinin niteliğinin artırılması, yetiştiricilerin teknik konularda bilgilendirilmesi ve modern arıcılık yöntemlerinin yaygınlaştırılması amacıyla eğitim programı düzenlendi. İl Tarım ve Orman Müdürlüğü Konferans Salonu’nda gerçekleştirilen programa, Mustafa Kemal Üniversitesi Ziraat Fakültesi Zootekni Bölümü Öğretim Üyesi Prof. Dr. Aziz Gül katıldı. Gül, arıcılara verimliliğin artırılmasında önemli rol oynayan 'Ana Arı Üretimi' konusunda bilgi verdi.  YERLİ ARI IRKLARI TERCİH EDİLMELİ  Eğitimde ana arı seçiminin önemine değinen Prof. Dr. Aziz Gül, arıcılıkta bölgeye uyum sağlamış yerli arıların tercih edilmesi gerektiğini söyledi. Yabancı coğrafyalardan getirilen arıların yüksek verimli ve sakin olabildiğini ancak bölge şartlarına uyum sağlamakta zorlanabildiğini belirten Gül, “Yabancı arıların yaşama gücü, kışlama kabiliyeti ve bölgede bulunan hastalıklara karşı dirençleri düşük olabiliyor. Kendi arılarımızın ise bu coğrafyaya adaptasyonu var. Bu nedenle bölgeye uyum sağlamış yerli arıların tercih edilmesi çok daha verimli olacaktır” dedi.  ARI KOLONİLERİNİN DEVAMLILIĞI BAL VERİMİ KADAR ÖNEMLİ  Arı kolonilerinin devamlılığının bal verimi kadar önemli olduğunu vurgulayan Gül, bazı üreticilerin kovandan bal almasına rağmen sonraki yıl kolonilerini kaybettiğini ve yeniden arı satın almak zorunda kaldığını ifade etti. Bunun üreticiler açısından ek maliyet oluşturduğunu kaydeden Gül, yerli arıların bölge koşullarında daha dayanıklı olduğunu dile getirdi. Türkiye’de üretimine izin verilen tescilli arı ırkları bulunduğunu belirten Gül, Kafkas, Anadolu, Yığılca, Muğla, Kırklareli, Gökçeada, Efe ve Hatay arılarının yanı sıra kendi üretim bölgelerindeki yerel arıların kullanımına da izin verildiğini söyledi.  'BU YIL BAL VERİMİ GÜZEL OLDU'  Bu yılki bal üretimi ve sezonu da değerlendiren Prof. Dr. Aziz Gül, arıcılık açısından verimli bir sezon yaşandığını belirtti. Özellikle yaylalara çıkan arıcıların kovan başına iyi miktarda bal elde ettiğini aktaran Gül, “Bu yıl her alanda aslında bir bereket var. Arıcılıkta da bu sene bal verimi gayet güzel oldu” dedi. Üreticilerin en önemli sorunlarından birinin pazarlama olduğunu ve kaliteli ballarını pazarda değerlendirmekte zorlandığını belirten Gül, sahte ve katkılı balların piyasadaki fiyat dengesini bozduğunu ve gerçek bal üreten arıcıların emeğinin karşılığını almasını güçleştirdiğini söyledi.  TÜKETİCİYE ÇAĞRI: KALİTELİ BALI TERCİH EDİN  Tüketicilere de çağrıda bulunan Gül, kaliteli balın tercih edilmesi ve mümkün olduğunca doğrudan arıcılardan temin edilmesi gerektiğini vurguladı. Gül, arıcıların desteklenmesi ve sahte ballara karşı gerekli önlemlerin alınmasının sektör açısından büyük önem taşıdığını kaydetti.  Eğitim programına Osmaniye İl Tarım ve Orman Müdürü Erdem Kolabaş, Osmaniye Arı Yetiştiricileri Birliği Başkanı Emin Gaffaroğlu’da katıldı.  Haber-Kamera: İbrahim EMÜL/OSMANİYE, (DHA)     ",
       "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "F-35 savaş uçağı parçaları kimlerin elinde?",
+      "title": "Yangından felçli kişiyi kurtaran muhtar: İçeriden 'yanıyorum' diye ses verdi",
       "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/video/dunya/f-35-savas-ucagi-parcalari-kimlerin-elinde-3492869",
-      "pubDate": "Fri, 13 Nov 2026 15:43:56 GMT",
+      "link": "https://www.cnnturk.com/yerel-haberler/bolu/merkez/yangindan-felcli-kisiyi-kurtaran-muhtar-iceriden-yaniyorum-diye-ses-verdi-3492900",
+      "pubDate": "Fri, 13 Nov 2026 16:03:02 GMT",
       "image": null,
-      "text": "F-35 savaş uçağı parçaları kimlerin elinde?\nABD Hükümet Hesap Verebilirlik Ofisi'nin raporu, Pentagon'un F-35 savaş uçaklarına ait yedek parça envanterinde ciddi takip ve kayıt sorunları yaşandığını ortaya koydu. Mart 2026 itibarıyla yaklaşık 31 milyar dolar değerindeki envanterde bulunan 17 bin parçanın sistemde kayıtlı olmadığı belirlendi. Değeri 2,5 milyar dolara ulaşabilecek parçaların akıbeti belirsizliğini korurken, Pentagon'un kayıtlarının güvenilirliği de tartışmaya açıldı.\nABD Hükümet Hesap Verebilirlik Ofisi, Pentagon’un F-35 savaş uçaklarına ait yedek parça kayıtlarını mercek altına alan yeni bir rapor yayımladı. Raporda, milyarlarca dolar değerindeki yedek parçaların takibinde ciddi eksiklikler bulunduğu ortaya konuldu.\n31 Milyar Dolarlık Envanterde 17 Bin Parça Kayıp\nRapora göre F-35 programında, ABD Hava Kuvvetleri ve Deniz Piyadelerinin yanı sıra uluslararası kullanıcıların da yararlandığı ortak bir yedek parça envanteri bulunuyor. 2019 yılından bu yana gerçekleştirilen denetimlerde, programın envanter yönetiminde çok sayıda eksiklik tespit edildi. Pentagon'un kayıtlarının güncelliğini yitirdiği, hatalı ve eksik olduğu vurgulandı.\nMart 2026 itibarıyla envanterde yaklaşık 31 milyar dolar değerinde 26 milyon yedek parça bulunuyor. Ancak yaklaşık 17 bin parçanın Pentagon'un sisteminde kayıtlı olmadığı belirlendi. Söz konusu parçaların toplam değerinin 2,5 milyar dolara ulaşabileceği bildirildi.\n2023'te de 1 Milyondan Fazla Parçanın Takibi Kaybedilmişti\nHükümet Hesap Verebilirlik Ofisi, 2023 yılında da F-35 savaş uçaklarının yedek parçalarına ilişkin bir rapor yayımlamıştı. Raporda, ana yüklenici firmalardan birinin 2018-2022 döneminde değeri 85 milyon doları aşan 1 milyondan fazla F-35 yedek parçasının takibini kaybettiği belirtilmişti. Yeni raporda ise söz konusu parçaların akıbetinin henüz belirlenemediği ifade edildi.\nBazı Parçaların Değeri 1 Cent Olarak Kaydedilmiş\nRaporda Pentagon'un envanter kayıtlarına ilişkin dikkat çekici bir başka ayrıntı da ortaya çıktı. Aralık 2025 tarihli veri setindeki kayıtların yaklaşık yüzde 6'sında, F-35 yedek parçalarının değerinin 1 cent veya daha düşük gösterildiği tespit edildi. Bu durumun veri giriş hatalarına işaret edebileceği belirtilirken, Pentagon'un envanter takibi ve mali raporlama kayıtlarının güvenilirliği de sorgulandı.",
+      "text": "Zübeyde ÖZMEN/BOLU, (DHA)- BOLU’da dün sobanın devrilmesi sonucu tek katlı evde çıkan yangında dumandan etkilenen kısmi felçli Yavuz Sarı’yı (55) eve girerek kurtaran mahalle muhtarı Sabri Şenel (48), “İçeriden 'Yanıyorum' diye ses verdi. Kapı kapalı olduğu için kırarak içeri girdim. Evin içi tamamen dumandı, göz gözü görmüyordu ve alevler vardı. Kendisi yerde yatıyordu. Yerden kaldırıp dışarı çıkardım” dedi. Olay, dün saat 21.00 sıralarında Dodurga Mahallesi Dağıstanlı Sokak'ta meydana geldi. Kısmi felçli Yavuz Sarı'ya ait tek katlı evde, sobanın devrilmesi sonucu yangın çıktı. Sarı’nın kardeşinin haber vermesi üzerine adrese giden mahalle muhtarı Sabri Şenel, içeriden gelen yardım çağrısıyla kapıyı kırarak eve girdi. Yoğun dumanın bulunduğu evde yerde yatan Sarı'yı bulan Şenel, onu dışarı çıkardı. İhbar üzerine adrese sağlık, polis ve itfaiye ekipleri sevk edildi. İtfaiye ekiplerinin müdahalesiyle yangın söndürüldü. Dumandan etkilenen Yavuz Sarı, ekiplerin ilk müdahalesinin ardından Bolu Abant İzzet Baysal Üniversitesi Hastanesi'ne kaldırılarak tedaviye alındı. Sarı’nın durumunun iyi olduğu belirtilirken, çıkan yangında ev kullanılamaz hale geldi. 'BİR CAN KURTARMIŞ OLDUK' Mahalle muhtarı Sabri Şenel, Sarı’yı kurtardığı sırada yaşananları anlattı. Sarı'nın kardeşinin kendisini arayarak evde yangın çıktığını haber verdiğini belirten Şenel, \"Dün akşam kardeşi Filiz Hanım beni aradı. 'Abim aradı, evde soba devrilmiş ve ev yanıyor' dedi. Ben de dükkanımı kapatıp koşarak olay yerine geldim. Evin etrafından dumanlar çıkıyordu. Kapının önüne geldiğimde Yavuz abiye seslendim. İçeriden 'Yanıyorum' diye ses verdi. Kapı kapalı olduğu için kırarak içeri girdim. Evin içi tamamen dumandı, göz gözü görmüyordu ve alevler vardı. Kendisi yerde yatıyordu. Yerden kaldırıp dışarı çıkardım. Ardından gerekli yerlere haber verdim\" dedi. Eve girdiğinde yoğun duman nedeniyle hiçbir yeri göremediğini belirten Şenel, \"Normalde seslendiğimde içeriden yandığını söyledi. O anda hiçbir şey göremiyordum. Mecburen kapıyı kırmak zorunda kaldım. İçeride, sobanın devrildiği odada alevler vardı. Gözümüz de yandı, genzimiz de yandı ama müdahale etmek zorundaydık. Yavuz abi kısmi felç geçirdiği için dengesini sağlayamıyordu. Yerden kaldırıp dışarı çıkarmak bize nasip oldu. O his anlatılmaz, yaşanır. Bir can kurtardığımız için çok memnunum. Sonuçta can kıymetli. Bir can kurtarmış olduk\" diye konuştu. (DHA) FOTOĞRAFLI ",
       "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Özgür Özel, eski milletvekilleriyle bir araya geldi",
+      "title": "AKOM'dan İstanbul için kuvvetli gök gürültülü sağanak yağış uyarısı",
       "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/ozgur-ozel-eski-milletvekilleriyle-bir-araya-geldi-3492873",
-      "pubDate": "Fri, 13 Nov 2026 15:31:02 GMT",
+      "link": "https://www.cnnturk.com/yerel-haberler/istanbul/akomdan-istanbul-icin-kuvvetli-gok-gurultulu-saganak-yagis-uyarisi-3492899",
+      "pubDate": "Fri, 13 Nov 2026 16:03:02 GMT",
       "image": null,
-      "text": "Özgür Özel, eski milletvekilleriyle bir araya geldi\nSon Güncelleme\nYENİ Parti Genel Başkanı Özgür Özel, önceki dönem milletvekilleri ile bir araya geldi.\nReklam\nReklam\nPartiden yapılan yazılı açıklamaya göre; Yeni Parti Genel Başkanı Özgür Özel, parti genel merkezinde düzenlenen toplantıda önceki dönem milletvekilleriyle bir araya geldi. Toplantının ardından Özel, Yeni Parti'ye katılan milletvekillerini temsilen önceki dönem milletvekili Prof. Dr. Ziya Gökalp Mülayim'e rozet taktı.",
+      "text": "İSTANBUL (AA) - İstanbul Büyükşehir Belediyesi (İBB) Afet Koordinasyon Merkezi (AKOM), İstanbul'da yarın yer yer kuvvetli gök gürültülü sağanak şeklinde etkili olabilecek yağışlara karşı vatandaşların dikkatli ve tedbirli olması uyarısında bulundu. AKOM'dan yapılan açıklamaya göre, İstanbul'a yarın itibarıyla soğuk ve yağışlı havanın giriş yapması bekleniyor. Bu nedenle güneyli yönlerden (lodos) yer yer kuvvetli fırtına şeklinde saatte 60 ila 90 kilometre esen rüzgarın yarın öğle saatlerinden itibaren yönünü kuzeyli yönlere (poyraz) çevireceği tahmin ediliyor. Halihazırda 20-23 derece aralığında bahar değerlerinde seyreden sıcaklıklarda 6-8 derece birden azalmayla birlikte sağanak yağış geçişlerinin yaşanacağı öngörülüyor. Cumartesi öğle saatlerinden sonra bölgede görülecek yağışların akşam saatlerine doğru il genelinde etkisini arttıracağı, gece saatlerine kadar sağanak, yer yer kuvvetli gök gürültülü sağanak şeklinde etkili olabileceği bekleniyor. AKOM, pazar sabah saatlerine kadar bölgede görülecek fırtına ve kuvvetli yağış geçişleri nedeniyle oluşabilecek olumsuzluklara karşı vatandaşların dikkatli ve tedbirli olması uyarısında bulundu.",
       "summary": ""
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "BEYAZ’LA JOKER’DE DUYGU, HEYECAN VE SÜRPRİZ BİR ARADA",
+      "title": "Bursa'da lodos nedeniyle ağaçlar ve kulübe devrildi (5)",
       "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/magazin/beyazla-jokerde-duygu-heyecan-ve-surpriz-bir-arada-3492859",
-      "pubDate": "Fri, 13 Nov 2026 15:15:19 GMT",
+      "link": "https://www.cnnturk.com/yerel-haberler/bursa/inegol/bursada-lodos-nedeniyle-agaclar-ve-kulube-devrildi-5-3492904",
+      "pubDate": "Fri, 13 Nov 2026 16:02:59 GMT",
       "image": null,
-      "text": "BEYAZ’LA JOKER’DE DUYGU, HEYECAN VE SÜRPRİZ BİR ARADA\nKanal D’nin sevilen yarışması Beyaz’la Joker, Beyazıt Öztürk’ün samimi sunumu ve esprileriyle izleyicileri bu akşam yine ekrana kilitleyecek. Birbirinden renkli yarışmacıların hikayeleri ve performanslarıyla renklenecek gecede, ekran karşısındakiler unutulmaz anlara tanık olacak.\nGÖRME ENGELLİ BİREYLERE CESARET VERECEK\nProgramda ilk olarak görme engelli İdris Ekinci yarışmacı koltuğuna oturacak. İdris Bey, samimiyeti ve anlattığı hikâyelerle izleyicilerin gönlünü kazanacak. Yarışmaya katılarak görme engelli bireylere cesaret vermek istediğini belirten Ekinci, paylaşacağı anılarla duygu fırtınası estirecek.\nYILLAR SONRA GELEN EVLİLİK TEKLİFİ\nGecenin ikinci yarışmacısı avukat Murat Uğur, özgüvenli duruşuyla dikkat çekecek. Murat Bey, yıllar sonra eşine yapacağı evlilik teklifiyle bölüme damga vuracak. Bilgisayar mühendisi Yüsra Kuloğlu ise güçlü analiz yeteneği ve başarılı performansıyla yarışmanın temposunu yükseltecek.\nOTOBÜS ŞOFÖRÜ YARIŞMACI KOLTUĞUNDA\nBölümün son yarışmacısı otobüs şoförü Harun Ateş, büyük ödüle doğru ilerlerken karşısına çıkan soruları hayatıyla ilişkilendirecek. Harun Bey hem bilgisi hem de anlattıklarıyla izleyicilerin ilgisini çekecek.\nErdi Yapım imzalı Beyaz’la Joker, yeni bölümüyle bu akşam saat 20.00’de Kanal D’de.",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Casusların aşk oyunu: Bal Tuzağı",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/video/dunya/casuslarin-ask-oyunu-bal-tuzagi-3492843",
-      "pubDate": "Fri, 13 Nov 2026 15:14:03 GMT",
-      "image": null,
-      "text": "Casusların aşk oyunu: Bal Tuzağı\nDünyanın en büyük yapay zeka çipi üreticisi Nvidia'nın üst yöneticisi Jensen Huang, casusluk iddialarının gölgesinde istifa etti. CNN International'ın haberine göre, ABD'li yetkililer Huang'ın ilişki yaşadığı kadının Pekin'e bilgi aktardığından şüpheleniyor. Çin iddiayı reddediyor. Olay, casusluk dünyasında \"bal tuzağı\" olarak bilinen yöntemi yeniden gündeme taşıdı.\nBir ilişki iddiası, dünyanın en büyük yapay zekâ çipi üreticisini sarstı. Nvidia'nın üst yöneticisi Jensen Huang, şirkette bir hafta süren krizin ardından istifa etti.\nCNN International'ın haberine göre, Amerikalı yetkililer Huang'ın ilişki yaşadığı Alice Huang'ın Çin hükümetine bilgi aktardığından şüpheleniyor. Aynı soyadı taşıyan iki isim arasında akrabalık yok. Herhangi bir bilginin sızdırılıp sızdırılmadığı belirsiz. Pekin ise casusluk iddiasını reddediyor.\nCASUSLARIN \"AŞK TUZAĞI\" YENİ DEĞİL\nBu iddia, casusluk dünyasının en eski yöntemlerinden birini yeniden gündeme getirdi. İngilizcede buna \"honey trap\" deniyor. Türkçedeki karşılığı ise \"bal tuzağı\". Amaç, romantik bir yakınlığı kullanarak gizli bilgi elde etmek.\nEski CIA görevlisi John Sipher'a göre, bu yöntemde bazen ilişki kendiliğinden başlıyor. İstihbarat servisi, ilişkiden haberdar olunca taraflardan birini bilgi toplamaya ikna etmeye çalışıyor. Soğuk Savaş'ta Doğu Almanya, bu tür görevler için erkek ajanlar yetiştirdi. Onlara Romeo casusları deniyordu.\nİSRAİL'İN NÜKLEERİNİ İFŞA EDEN VANUNU DA HEDEF OLDU\nBir başka örnekte ise İsrail istihbaratı Mossad'ın bir ajanı, Amerikalı turist kimliğiyle eski nükleer teknisyen Mordechai Vanunu'ya yaklaştı. İsrail'in nükleer programıyla ilgili bilgileri İngiliz basınına veren Vanunu, daha sonra Roma'da Mossad tarafından İsrail'e kaçırıldı ve casusluk suçlamasıyla 18 yıl hapis cezasına çarptırıldı.\nCNN: TEKNOLOJİ MİLYARDERLERİ DAHA ÇOK HEDEF ALINDI\nNvidia olayında ise gözler yapay zekâ çiplerinde. Bu çipler, bilimsel araştırmalardan askeri sistemlere kadar pek çok alanda kullanılıyor. Uzmanlara göre, bu teknolojileri geliştiren şirketlerin yöneticileri de erişebildikleri bilgiler nedeniyle istihbarat servislerinin hedefi olabiliyor.",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "İstanbul'da oynanacak İspanya Süper Kupası’nın programı netleşti",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/spor/futbol/istanbulda-oynanacak-ispanya-super-kupasinin-programi-netlesti-3492856",
-      "pubDate": "Fri, 13 Nov 2026 15:09:22 GMT",
-      "image": null,
-      "text": "İstanbul'da oynanacak İspanya Süper Kupası’nın programı netleşti\nİspanya futbolunun dört büyük kulübü Barcelona, Atlético Madrid, Real Madrid ve Real Sociedad, 2-6 Şubat 2027 tarihleri arasında İstanbul’da karşılaşacak. Türkiye’nin ilk kez ev sahipliği yapacağı turnuva, La Liga’nın şampiyonu ve ikincisi ile 2025-2026 sezonu Kral Kupası finalistlerini bir araya getiriyor.\nYarı final eşleşmeleri belli oldu. Son şampiyon Barcelona, 2 Şubat’ta Fenerbahçe Şükrü Saraçoğlu Spor Kompleksi’nde Atlético Madrid ile oynayacak. Bir gün sonra, 3 Şubat’ta Beşiktaş Stadyumu’nda Real Sociedad ile Real Madrid karşı karşıya gelecek. Yarı finallerin galipleri, 6 Şubat’ta Ali Sami Yen Spor Kompleksi’nde (RAMS Park) finalde kupa için mücadele edecek.\nBeş gün sürecek organizasyonda üç maçın toplamda 140 bin kişiyi aşkın seyirci ağırlaması bekleniyor. Maçlar İstanbul’un üç büyük stadyumunda oynanacak.\nİstanbul, daha önce UEFA Şampiyonlar Ligi finalleri, UEFA Kupası finali ve UEFA Süper Kupa finali gibi prestijli organizasyonlara ev sahipliği yapmıştı. 2027’de UEFA Konferans Ligi finalinin yanı sıra İspanya Süper Kupası’nı da ağırlayacak olan şehir, uluslararası spor organizasyonlarındaki yerini daha da güçlendirecek.\nTurnuva; Kültür ve Turizm Bakanlığı, Gençlik ve Spor Bakanlığı, Suudi Arabistan Krallığı Genel Eğlence Otoritesi, İspanya Kraliyet Futbol Federasyonu (RFEF), Türkiye Futbol Federasyonu, Sela Events ve Hezarfen Ajans iş birliğiyle düzenleniyor.\nMaç programı:\n- 2 Şubat 2027: Barcelona - Atlético Madrid (Fenerbahçe Şükrü Saraçoğlu Spor Kompleksi)\n- 3 Şubat 2027: Real Sociedad - Real Madrid (Beşiktaş Stadyumu)\n- 6 Şubat 2027: Final (Ali Sami Yen Spor Kompleksi)",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Zeytinburnu açıklarında demirli iki gemi birbirine sürttü",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/yerel-haberler/istanbul/zeytinburnu/zeytinburnu-aciklarinda-demirli-iki-gemi-birbirine-surttu-3492862",
-      "pubDate": "Fri, 13 Nov 2026 15:07:53 GMT",
-      "image": null,
-      "text": "Zeytinburnu açıklarında demirli iki gemi birbirine sürttü\nZeytinburnu açıklarında demirli iki gemi birbirine sürttü\nEmre KURT/İSTANBUL, (DHA)- ZEYTİNBURNU açıklarında demirli 2 kargo gemisi birbirine sürttü. Olayda yaralanan olmazken, yardım talebinde bulunulmayan gemilerde hasar oluştuğu öğrenildi.\nLübnan’dan Romanya’ya giden 'RASHA' isimli genel kargo gemisinin, Ahırkapı Demir Sahası'na attığı demirin henüz bilinmeyen nedenle tutunamaması üzerine sürüklendiği belirtildi. Demirini yeniden almak için manevra yapan gemi, aynı bölgede bulunan 'UST ILIMSK' isimli gemiye sürttü. Edinilen bilgiye göre, olayda yaralanan olmazken, iki gemiden de yardım talebinde bulunulmadı. Her iki gemide de sürtme nedeniyle hasar oluştuğu öğrenilirken, gemilerin İstanbul Bölge Liman Başkanlığı'nın talimatına göre hareket edeceği belirtildi. (DHA)",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Kuşadası'nda budanan ağaçlar ihtiyaç sahiplerine yakacak olacak",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/yerel-haberler/aydin/kusadasi/kusadasinda-budanan-agaclar-ihtiyac-sahiplerine-yakacak-olacak-3492861",
-      "pubDate": "Fri, 13 Nov 2026 15:07:53 GMT",
-      "image": null,
-      "text": "Kuşadası'nda budanan ağaçlar ihtiyaç sahiplerine yakacak olacak\nKuşadası'nda budanan ağaçlar ihtiyaç sahiplerine yakacak olacak\nKUŞADASI (Aydın), (DHA)-AYDIN'ın Kuşadası ilçesi belediyesi, kış ayları öncesinde ihtiyaç sahibi ailelere yönelik yakacak desteği için hazırlıklara başladı. Kent genelinde yürütülen budama çalışmalarından elde edilen ağaç atıkları, yakacak odun haline getirilerek ihtiyaç sahiplerine ulaştırılmak üzere hazırlanıyor.\nSosyal belediyecilik çalışmaları kapsamında dar gelirli ailelere desteğini sürdüren Kuşadası Belediyesi, budama çalışmalarından elde edilen ağaç atıklarını bu kış da değerlendiriyor. Park ve Bahçeler Müdürlüğü ekipleri tarafından kent genelinde budanan ağaçların dalları ile kurumuş ağaçların gövde ve kökleri düzenli olarak toplanıyor. Kamyonlarla müdürlüğün Kadınlar Denizi Mahallesi'ndeki çalışma merkezine taşınan ağaç atıkları, burada sobalarda kullanılabilecek boyutlarda kesilerek kışlık yakacağa dönüştürülüyor.\nHEM DOĞAYA HEM AİLE BÜTÇESİNE KATKI\nBudama çalışmalarından elde edilen ağaç atıklarının yeniden değerlendirilmesiyle hem doğal kaynakların verimli kullanılması hem de ihtiyaç sahibi ailelerin kış aylarındaki ısınma giderlerinin hafifletilmesi hedeflendiği bildirildi. Hazırlıkları devam eden odunlar, çalışmaların tamamlanmasının ardından Sosyal Yardım İşleri Müdürlüğü tarafından belirlenen ihtiyaç sahibi ailelere ulaştırılacak.\nBAŞVURULAR GÜVERCİN MASA ÜZERİNDEN YAPILIYOR\nKışlık yakacak desteğinden yararlanmak isteyen vatandaşlar, Kuşadası Belediyesi Güvercin Masa'nın 444 71 14 numaralı telefonunu arayarak başvuruda bulunabiliyor. Başvurular, Sosyal Yardım İşleri Müdürlüğü tarafından ihtiyaç durumuna göre değerlendiriliyor. Hazırlanan yakacak odunlar, önümüzdeki günlerde belediye ekiplerince ihtiyaç sahibi ailelerin adreslerine teslim edilecek.(DHA)\nFOTOĞRAFLI",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Manisa'da uyuşturucu operasyonunda 26 tutuklama",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/yerel-haberler/manisa/manisada-uyusturucu-operasyonunda-26-tutuklama-3492860",
-      "pubDate": "Fri, 13 Nov 2026 15:07:53 GMT",
-      "image": null,
-      "text": "Manisa'da uyuşturucu operasyonunda 26 tutuklama\nManisa'da uyuşturucu operasyonunda 26 tutuklama\nSerkan ÖZCAN/MANİSA, (DHA)-MANİSA'da polisin düzenlediği uyuşturucu operasyonunda gözaltına alınan 30 şüpheliden 26'sı tutuklandı, 4'ü adli kontrol şartıyla serbest bırakıldı.\nİl Emniyet Müdürlüğü ekipleri, uyuşturucu imalatı ve satışına yönelik 11 Kasım'da geniş çaplı bir operasyon düzenledi. İl merkezi ile Akhisar, Soma, Turgutlu, Salihli ve Alaşehir ilçelerinde, önceden belirlenen adreslere eş zamanlı baskınlar yapıldı. Şüphelilerin ev ve iş yerlerinde yapılan aramalarda; 3 bin 225 adet sentetik ecza hap, 1553 içimlik sentetik kannabinoid emdirilmiş A4 peçete, 286 gram esrar, 92 gram skunk, 79 gram metamfetamin, 26,14 gram sentetik kannabinoid, 7,35 gram sentetik ecza hap tozu, 1 adet hassas terazi, 2 adet ruhsatsız tabanca ve 7 fişek, ruhsatsız 1 av tüfeği ve 5 av tüfeği kartuşu ele geçirildi, 30 şüpheli gözaltına alındı. Polisteki işlemlerinin ardından adliyeye sevk edilen şüphelilerden 26'sı tutuklandı, 4'ü adli kontrol şartıyla serbest bırakıldı. (DHA)\nFOTOĞRAFLI",
+      "text": "ÖĞRENCİNİN KAPANAN KAPIYA SIKIŞAN PARMAĞI KOPTU Bursa ve ilçelerinde saatteki hızı 74 kilometreyi bulan lodos yaşamı olumsuz etkiledi. İnegöl ilçesi, kırsal Cerrah Mahallesi’ndeki Cerrah Ortaokulu’nda saat 14.00 sıralarında meydana gelen olayda, Recep O., (13), sınıftan çıkmak istediği sırada esen rüzgarla aniden kapanan kapıya elini sıkıştırdı. Sol elinin yüzük parmağı kopan çocuk için ihbarla sağlık ekipleri sevk edildi. İlk müdahalesi sağlık ekiplerince olay yerinde yapılan Recep O., ambulansla İnegöl Devlet Hastanesi’ne kaldırıldı. Buradaki ilk tedavisinin ardından öğrenci, kopan parmağının dikilmesi için Bursa Şehir Hastanesi’ne sevk edildi. Yavuz YILMAZ/ İNEGÖL (Bursa),(DHA)- ",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "KONGO’DA EBOLA SALGINI BÜYÜYOR: 5 BİN 400 KİŞİ HAYATINI KAYBETTİ",
+      "title": "YSK’DAN SEÇMENLERE OY KULLANMA REHBERİ: İKİ AYRI VİDEO HAZIRLANDI",
       "source": "Mhahaber",
-      "link": "https://www.mhahaber.com/kongoda-ebola-salgini-buyuyor-5-bin-400-kisi-hayatini-kaybetti",
-      "pubDate": "Fri, 13 Nov 2026 13:03:55 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/Kongo%E2%80%99da%20Ebola%20Alarm%C4%B1-960x541.webp",
-      "text": "Kongo Demokratik Cumhuriyeti'nde (KDC) devam eden Ebola salgınında can kaybı artıyor. Dünya Sağlık Örgütü (DSÖ), ülkede 11 binden fazla kişinin hastalığa yakalandığını, yaklaşık 5 bin 400 kişinin ise yaşamını yitirdiğini açıkladı.\nDSÖ Sağlık Acil Durum Programı İcra Direktörü Chikwe Ihekweazu, Birleşmiş Milletler Cenevre Ofisi'nde düzenlenen haftalık basın toplantısında salgının son durumuna ilişkin değerlendirmelerde bulundu.\nÖLENLERİN ÜÇTE BİRİNDEN FAZLASI ÇOCUK\nYaklaşık altı ay önce ilan edilen salgının toplumlar üzerindeki ağır etkilerinin sürdüğünü belirten Ihekweazu, hayatını kaybedenlerin üçte birinden fazlasının çocuklardan oluştuğunu bildirdi.\nHastalığın bulaşmaya devam ettiğini vurgulayan Ihekweazu, bazı bölgelerde vaka sayıları azalmasına rağmen haftalık yeni vaka sayısının 500'e ulaşabildiğini ifade etti.\nBAZI BÖLGELERDE VAKA SAYILARI AZALDI\nDSÖ yetkilisi, salgının ilk dönemlerinde yoğun şekilde görüldüğü Mongbwalu, Nyankunde, Nizi, Rwampara ve Butembo bölgelerinde önemli ilerleme sağlandığını açıkladı.\nBulaşmanın devam ettiği Bunia kentinde de vaka sayılarının azalmaya başladığını belirten Ihekweazu, kaydedilen gelişmelerin henüz salgının tamamen kontrol altına alındığı anlamına gelmediğini vurguladı.\nSAĞLIK TESİSLERİNE 80'DEN FAZLA SALDIRI\nSalgınla mücadelede en büyük engellerden birinin bölgede devam eden güvenlik sorunları olduğunu belirten Ihekweazu, son altı ayda sağlık hizmetlerine yönelik 80'den fazla saldırının doğrulandığını açıkladı.\nŞiddet olaylarının sağlık ekiplerinin ihtiyaç sahiplerine ulaşmasını engellediğini ifade eden Ihekweazu, saldırıların hastaların takibini, tedavi süreçlerini ve sağlık hizmetlerine erişimi olumsuz etkilediğini söyledi.\nBölgedeki çatışmaların insanların yer değiştirmesine yol açtığını belirten DSÖ yetkilisi, bu durumun hastalığın kontrol altına alınmasını daha da zorlaştırdığına dikkat çekti.\nDSÖ'DEN MÜCADELENİN GÜÇLENDİRİLMESİ ÇAĞRISI\nDSÖ ve uluslararası ortakların salgının başlangıcından bu yana Kongo Demokratik Cumhuriyeti hükümetine destek verdiğini kaydeden Ihekweazu, mevcut ilerlemenin yeterli olmadığını vurguladı.\nSalgınla mücadele çalışmalarının yanı sıra temel sağlık hizmetleri ve insani yardımların kesintisiz sürdürülmesi gerektiğini belirten Ihekweazu, gelecekte benzer salgınların önlenmesi için daha güçlü sağlık sistemlerinin oluşturulmasının hedeflendiğini ifade etti.",
+      "link": "https://www.mhahaber.com/yskdan-secmenlere-oy-kullanma-rehberi-iki-ayri-video-hazirlandi",
+      "pubDate": "Fri, 13 Nov 2026 13:48:44 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/YSK%E2%80%99dan%20Se%C3%A7menlere%20Oy%20Kullanma%20Videolar%C4%B1-960x541.webp",
+      "text": "Yüksek Seçim Kurulu, Milletvekilliği Erken Genel Seçimi ve Yerel Kuruluş Organları Genel Seçimlerinde seçmene yol göstermek amacıyla iki ayrı bilgilendirme videosu hazırladı. YSK, oy kullanma sürecine yardımcı olmak için hazırlanan videoların mahkemelerin ve kurulun resmî internet sitelerinden izlenebileceğini duyurdu. Yüksek Seçim Kurulu (YSK), yaklaşan Milletvekilliği Erken Genel Seçimi ve Yerel Kuruluş Organları Genel Seçimlerinde vatandaşların oy kullanma sürecine yardımcı olmak amacıyla iki ayrı bilgilendirme videosu hazırladı. YSK tarafından yapılan yazılı açıklamada, seçmenlerin oy kullanma işlemlerine ilişkin bilgi edinebilmeleri amacıyla hazırlanan videoların erişime açıldığı bildirildi. BİLGİLENDİRME VİDEOLARI İNTERNETTEN İZLENEBİLECEK Yüksek Seçim Kurulu, hazırlanan iki videonun mahkemelerin ve YSK'nın resmî internet siteleri üzerinden izlenebileceğini duyurdu. Seçmenler, videolarawww.mahkemeler.netvewww.ysk.gov.ct.tradreslerinden ulaşabilecek.",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Hafta sonu yurdun büyük bölümünde yağış etkili olacak",
+      "title": "İletişim Başkanı Duran'dan Cumhurbaşkanı Erdoğan'ın COP31 temaslarına ilişkin paylaşım",
       "source": "Aa",
-      "link": "https://www.aa.com.tr/tr/gundem/hafta-sonu-yurdun-buyuk-bolumunde-yagis-etkili-olacak/4124122",
-      "pubDate": "Fri, 13 Nov 2026 15:58:23 +0300",
+      "link": "https://www.aa.com.tr/tr/gundem/iletisim-baskani-durandan-cumhurbaskani-erdoganin-cop31-temaslarina-iliskin-paylasim/4124210",
+      "pubDate": "Fri, 13 Nov 2026 16:47:02 +0300",
       "image": null,
-      "text": "Ayşe Karaosmanoğlu\n13 Kasım 2026•Güncelleme: 13 Kasım 2026\nMeteoroloji Genel Müdürlüğünden alınan bilgiye göre, yarın yurt genelinde havanın parçalı ve çok bulutlu olması bekleniyor.\nMarmara, Ege, Batı Akdeniz, İç Anadolu'nun kuzey ve batısı, Batı ve Orta Karadeniz ile Trabzon ve Rize'nin iç kesimleri, Giresun, Artvin ve Ardahan çevrelerinde sağanak ve yer yer gök gürültülü sağanağın etkili olacağı tahmin ediliyor.\nRüzgarın, Marmara'nın güneyi ve Kuzey Ege'de güneyli yönlerden, Marmara'nın kuzeyinde kuzeyli yönlerden kuvvetli ve kısa süreli fırtına şeklinde eseceği öngörülüyor.\nSabah ve gece saatlerinde İç Anadolu ile Doğu Anadolu'da pus ve sis bekleniyor.\nPazar günü ise yurt genelinde parçalı ve çok bulutlu hava öngörülüyor. Havanın, Marmara'nın güney ve doğusu, Kuzey Ege, İç Anadolu'nun kuzey ve doğusu, Karadeniz, Doğu Anadolu'nun kuzeyi ile Aydın kıyıları, Malatya, Bingöl, Muş ve Van çevrelerinde yağmurlu, Doğu Karadeniz'in iç kesimlerinin yüksekleri ile Doğu Anadolu'nun kuzeydoğusunun yükseklerinde karla karışık yağmur ve karlı olacağı tahmin ediliyor.\nYağışların Doğu Karadeniz kıyıları ve Ordu çevrelerinde yer yer kuvvetli olması bekleniyor.\nPazartesi günü Bitlis ve Van'ın kuzeyinin yükseklerinde kar bekleniyor\nPazartesi günü ise havanın parçalı, yer yer çok bulutlu olacağı öngörülüyor. Orta ve Doğu Akdeniz, Doğu Karadeniz kıyıları, Doğu Anadolu'nun güneydoğusu ile Şanlıurfa, Batman, Mardin ve Siirt'te yağmur ve sağanak, yer yer gök gürültülü sağanak, Bitlis ve Van'ın kuzeyinin yükseklerinde karla karışık yağmur ve kar görüleceği tahmin ediliyor.\nSabah ve gece saatlerinde Marmara ile iç ve doğu kesimlerde pus, yer yer sis bekleniyor.\nSalı günü de yurt genelinde parçalı, yer yer çok bulutlu hava, Orta ve Doğu Akdeniz kıyıları, Doğu Anadolu'nun güneydoğusu ile Çanakkale, İzmir'in kuzeyi, Şanlıurfa, Mardin, Batman ve Siirt çevrelerinde sağanak ve yer yer gök gürültülü sağanak öngörülüyor.\nPerşembeden itibaren gök gürültülü sağanak etkili olacak\nÇarşamba günü de hava yurt genelinde parçalı ve çok bulutlu olacak. Marmara, Ege, Akdeniz, Doğu Anadolu'nun güneybatısı, Güneydoğu Anadolu (Siirt hariç) ile Konya ve Ankara'nın batısı, Eskişehir, Düzce, Zonguldak, Bolu, Karabük ve Bingöl çevrelerinde sağanak ve gök gürültülü sağanak bekleniyor.\nPerşembe gününden itibaren ise yurdun büyük bölümünde aralıklı yağmur ve sağanak, yer yer gök gürültülü sağanak etkili olacak.\nSıcaklıkların kuzey, iç ve batı kesimlerde yer yer mevsim normallerinin üzerinde, pazar gününden itibaren ise kuzey kesimlerde azalarak yurt genelinde mevsim normalleri civarında seyredeceği tahmin ediliyor.",
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "İklim değişikliğinin kaktüslerin neslinin tükenme riskini artırdığı tespit edildi",
+      "title": "Milli atıcılar, Katar'da dünya üçüncüsü oldu",
       "source": "Aa",
-      "link": "https://www.aa.com.tr/tr/dunya/iklim-degisikliginin-kaktuslerin-neslinin-tukenme-riskini-artirdigi-tespit-edildi/4124118",
-      "pubDate": "Fri, 13 Nov 2026 15:56:05 +0300",
+      "link": "https://www.aa.com.tr/tr/spor/milli-aticilar-katarda-dunya-ucuncusu-oldu/4124188",
+      "pubDate": "Fri, 13 Nov 2026 16:40:10 +0300",
       "image": null,
-      "text": "Zeynep Katre Oran\n13 Kasım 2026•Güncelleme: 13 Kasım 2026\nArizona ve South Florida üniversitelerinden araştırmacıların öncülüğünde yürütülen çalışmada, Amerika kıtasında bulunan 993 kaktüs türünün iklim değişikliğinden nasıl etkilendiği incelendi.\nİncelemeler sonucunda bilim insanları, iklim değişikliği neticesinde yaşanan sıcaklık artışları ve şiddetli kuraklıkların, kaktüslerin neslinin tükenme riskini artırdığını belirledi.\nİncelenen kaktüs türlerinin dörtte birinden fazlasının, 2100'e kadar yaşamlarına elverişli alanların en az yüzde 80'ini kaybedebileceğini tespit eden araştırmacılar, özellikle Şili, Peru ve Brezilya'nın kuzeydoğusunda kaktüs çeşitliliğinin ciddi ölçüde azalabileceğini belirtti.\nAraştırmacılar, halihazırda kıtadaki kaktüs türlerinin yüzde 30'undan fazlasının yaşam alanlarının tahrip edilmesi ve kaçak toplanma gibi nedenlerle neslinin tükenme tehlikesi altında olduğu kaydetti.\nÇalışmanın sonuçlarına \"Nature\" dergisinde yer verildi.",
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Türkiye Bedensel Engelliler Spor Federasyonunun 9. olağan mali genel kurulu yapıldı",
-      "source": "Aa",
-      "link": "https://www.aa.com.tr/tr/spor/turkiye-bedensel-engelliler-spor-federasyonunun-9-olagan-mali-genel-kurulu-yapildi/4124117",
-      "pubDate": "Fri, 13 Nov 2026 15:55:03 +0300",
-      "image": null,
-      "text": "Türkiye Bedensel Engelliler Spor Federasyonunun 9. olağan mali genel kurulu yapıldı\nTürkiye Bedensel Engelliler Spor Federasyonunun (TBESF) 9. olağan mali genel kurulu, Ankara'da gerçekleştirildi.\nFatih Gazioğlu\n13 Kasım 2026•Güncelleme: 13 Kasım 2026\nANKARA\nBir otelde düzenlenen genel kurulda, federasyonun geçmiş döneme ilişkin faaliyetleri ele alındı. Yönetim kurulunun faaliyet raporu ile denetim kurulu raporları delegelerin değerlendirmesine sunuldu. Yapılan görüşmelerin ardından ilgili raporlar ibra edildi.\nFederasyonun mali ve idari çalışmalarının değerlendirildiği genel kurulda, mevcut dönemde yürütülen faaliyetler, gerçekleştirilen organizasyonlar ve sporculara yönelik çalışmalar da gündeme geldi.\nToplantıda ayrıca bedensel engelli bireylerin spor faaliyetlerine katılımının artırılması, farklı branşlarda sporcu sayısının geliştirilmesi ve ulusal ve uluslararası organizasyonlarda elde edilen başarıların sürdürülebilir hale getirilmesine yönelik hedefler üzerinde duruldu.\nGelecek dönemde hayata geçirilmesi planlanan projelerin ve çalışmaların da değerlendirildiği genel kurul, gündem maddelerinin görüşülmesi ve delegelerin görüş ve önerilerinin alınmasının ardından sona erdi.\nFederasyon başkanı Alpaslan Erkoç, genel kurulun ardından delegelere katılımları ve katkılarından dolayı teşekkür etti.\nHaberi Paylaş\nAnadolu Ajansı web sitesinde, AA Haber Akış Sistemi (HAS) üzerinden abonelere sunulan haberler, özetlenerek yayımlanmaktadır.Abonelik için lütfen iletişime geçiniz.",
-      "summary": ""
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Küresel çapta kesinti: Claude çöktü, binlerce kullanıcı erişim sağlayamadı",
+      "title": "Cumhurbaşkanı Erdoğan'ın, Katar Emiri Al Sani ile görüşüyor",
       "source": "Trthaber",
-      "link": "https://www.trthaber.com/haber/dunya/kuresel-capta-kesinti-claude-coktu-binlerce-kullanici-erisim-saglayamadi-963195.html",
-      "pubDate": "Fri, 13 Nov 2026 15:53:00 +0300",
+      "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdoganin-katar-emiri-al-sani-ile-gorusuyor-963198.html",
+      "pubDate": "Fri, 13 Nov 2026 16:40:00 +0300",
       "image": null,
-      "text": "DownDetector verilerine göre, Anthropic'in yapay zeka platformu Claude'un hizmet vermediğine dair binlerce bildirim yapıldı. Sabah saatlerinde şikayet sayısının hızla artmasıyla birlikte kullanıcılar platforma ulaşmakta zorlandı.\nClaude'un resmi durum sayfasında da \"claude.ai, Claude Code ve platform.claude.com\" adreslerinde hata oranlarının arttığı teyit edildi.\nYaşanan erişim problemlerinin, Microsoft sistemlerinde önceki gün akşam saatlerinde başlayan servis kesintileriyle bağlantılı olduğu belirlendi.\nAnthropic yetkilileri, özellikle kimlik doğrulama süreçlerinde ve bazı entegrasyon servislerinde aksaklıklar yaşandığını bildirdi.\nMicrosoft 365 altyapısındaki aksamaların posta, takvim ve iş birliği araçları üzerinden Claude entegrasyonlarını da olumsuz etkilediği ifade edildi.\nHizmet kesintisinin ardından kullanıcılar sosyal medya platformları üzerinden yaşadıkları sorunları dile getirdi.\nBinlerce kişi uygulamanın genel bir sorun nedeniyle mi kapandığını öğrenmek için paylaşımlarda bulunurken, teknik ekiplerin hatayı gidermek için yürüttüğü çalışmalar devam ediyor.",
+      "text": "Cumhurbaşkanı Erdoğan,KatarEmiri Al Sani'yiCumhurbaşkanlığıDolmabahçe Ofisi'nde resmi törenle karşıladı. Birbirlerine heyetlerini tanıtan Erdoğan ve Al Sani, daha sonra baş başa ve heyetler arası görüşmelere geçti. Görüşme, basına kapalı gerçekleşiyor.",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "FRANSA’DA ÖĞRENCİ PROTESTOLARINDA YAKLAŞIK 350 KİŞİ YARALANDI",
-      "source": "Mhahaber",
-      "link": "https://www.mhahaber.com/fransada-ogrenci-protestolarinda-yaklasik-350-kisi-yaralandi",
-      "pubDate": "Fri, 13 Nov 2026 12:52:44 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/Fransa%E2%80%99da%20%C3%96%C4%9Frenci%20Eylemleri%EF%BF%A3%E5%A5%87%E7%B1%B3%E5%BD%B1%E8%A7%86-960x541.webp",
-      "text": "Fransa'da eğitim koşullarının iyileştirilmesi talebiyle haftalardır devam eden lise öğrencilerinin protestolarında yaklaşık 350 öğrencinin yaralandığı açıklandı.\nFransa İçişleri Bakanı Laurent Nunez, LCI televizyon kanalında yaptığı açıklamada, 17 Eylül'den bu yana süren gösterilerde yaşanan şiddet olaylarına ve güvenlik güçlerinin müdahalelerine ilişkin değerlendirmelerde bulundu.\n17 YAŞINDAKİ GENÇ GÖZÜNÜ KAYBETTİ\nNunez, Mulhouse kentinde gösteri alanından geçtiği sırada polisin kullandığı mühimmatın isabet ettiği 17 yaşındaki Maissa isimli gencin bir gözünü kaybettiğini açıkladı.\nYaşananları dramatik bir olay olarak nitelendiren Bakan Nunez, olayla ilgili soruşturmanın devam ettiğini bildirdi.\nYAKLAŞIK 350 ÖĞRENCİ YARALANDI\nGösterilerin başladığı tarihten bu yana yaklaşık 350 öğrencinin yaralandığını belirten Nunez, yaralanmaların büyük bölümünün havai fişeklerin fırlatılması sonucu meydana geldiğini söyledi.\nBazı şiddet olaylarında eğitim personelinin de rol oynamış olabileceğini öne süren Nunez, lise çevrelerinde bulunan bazı yetişkinlerin öğrencileri şiddet içeren eylemlere teşvik ettiği yönündeki iddiaların araştırıldığını ifade etti.\nBakan Nunez, söz konusu olaylarla ilgili soruşturmaların sürdüğünü kaydetti.\nÜLKE GENELİNDE YENİ GÖSTERİLER BEKLENİYOR\nFransa'da lise öğrencileri, 17 Eylül'den bu yana eğitim koşullarının iyileştirilmesi, okullara daha fazla imkân sağlanması ve öğretmen sayısının artırılması talepleriyle gösteriler düzenliyor.\nİçişleri Bakanı Nunez, 14 Kasım'da hayat pahalılığına karşı ülke genelinde 50 ila 60 yürüyüş düzenlenmesinin beklendiğini açıkladı.\nYeni gösterilerde de önceki haftalarda uygulanan güvenlik önlemlerine benzer tedbirlerin alınacağını belirten Nunez, güvenlik güçlerinin hazırlıklarını sürdürdüğünü bildirdi.",
-      "summary": ""
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "RESTORANDA TARTIŞTIĞI KİŞİNİN YUMRUK VE TEKMELERLE DARP ETTİ, KABURGASINI KIRDI!",
-      "source": "Mhahaber",
-      "link": "https://www.mhahaber.com/restoranda-tartistigi-kisinin-yumruk-ve-tekmelerle-darp-etti-kaburgasini-kirdi",
-      "pubDate": "Fri, 13 Nov 2026 12:52:36 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/g.webp",
-      "text": "Polis Basın Subaylığı’ndan alınan bilgiye göre 12.11.2026 tarihinde, saat 16:30 sıralarında, Tepebaşı’nda faaliyet gösteren bir restoranda, aralarında yaşanan tartışma sonucu A.A.(E-59), İ.T.(E-55)’nin yüzüne yumruk vurup yere düşürdükten sonra, yüzüne yumruk ve göğsüne de tekme vurmak suretiyle kaburga kemiğinin kırılmasına sebep olmuştur.\nOlay polisin bilgisine gelmesi üzerine yürütülen ileri soruşturmada, A.A. tespit edilerek tutuklanmıştır. Soruşturma devam etmektedir.",
-      "summary": ""
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "SERASINDAN ATEŞ AÇTI, BİR KİŞİYİ SIRTINDAN VURDU!",
-      "source": "Mhahaber",
-      "link": "https://www.mhahaber.com/serasindan-ates-acti-bir-kisiyi-sirtindan-vurdu",
-      "pubDate": "Fri, 13 Nov 2026 12:44:46 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/MHA%20dsa%20BEYAZ.webp",
-      "text": "Polis Basın Subaylığı’ndan alınan bilgiye göre 11.11.2026 tarihinde, saat 11:30 sıralarında, Gazimağusa’da, E.Ö.(E-45) kanunsuz olarak tasarrufunda bulundurduğu hava tüfeği ile kendi serasından kargalara atış ettiği sırada, yaklaşık 300 metre uzaklıktaki bir ikametgahın damında bulunan bir şahsın sırt kısmından vurularak yaralanmasına sebep olmuştur.\nOlay polisin bilgisine gelmesi üzerine yürütülen ileri soruşturmada, bahse konu şahıs tespit edilerek tutuklanmış ve konu hava tüfeği de emare olarak alınmıştır. Soruşturma devam etmektedir.",
-      "summary": ""
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Rusya: Ukrayna konulu müzakerelerin bir sonraki turunun yakında yapılacağını düşünüyoruz",
+      "title": "İletişim Başkanlığı: 444 bin 893 yatırımcıya yaklaşık 161 milyar lira ödeme yapılmıştır",
       "source": "Aa",
-      "link": "https://www.aa.com.tr/tr/dunya/rusya-ukrayna-konulu-muzakerelerin-bir-sonraki-turunun-yakinda-yapilacagini-dusunuyoruz/4124108",
-      "pubDate": "Fri, 13 Nov 2026 15:44:23 +0300",
+      "link": "https://www.aa.com.tr/tr/gundem/iletisim-baskanligi-444-bin-893-yatirimciya-yaklasik-161-milyar-lira-odeme-yapilmistir/4124180",
+      "pubDate": "Fri, 13 Nov 2026 16:37:08 +0300",
       "image": null,
-      "text": "Dmitri Chirciu\n13 Kasım 2026•Güncelleme: 13 Kasım 2026\nSözcü Peskov, başkent Moskova'da gazetecilere gündemdeki konulara ilişkin açıklamalarda bulundu.\nRusya Devlet Başkanı Vladimir Putin'in dün ABD Başkanı Donald Trump'ın özel temsilcileri Steve Witkoff ve Jared Kushner ile Moskova'da görüştüğünü anımsatan Peskov, Putin'in görüşmede Donetsk bölgesindeki Konstantinovka kentinde insani yardım operasyonu yapılması teklifinde bulunduğuna dikkati çekti.\nBu şehrin, Rus ordusunun kontrolünde olduğunu ifade eden Peskov, ABD ile Avrupa ülkelerine Ukrayna’yı Konstantinovka’da insani yardım operasyonunu uygulama konusunda ikna etme çağrısında bulundu.\nPeskov, Ukrayna konusundaki müzakerelerin bir sonraki turunun ne zaman ve nerede düzenleneceği yönündeki soru üzerine, \"Müzakerelerin yakında yapılacağını düşünüyoruz. Bunun yakın zamanda gerçekleşmesini umuyoruz.\" yanıtını verdi.\nBAE’nin müzakereler için uygun koşullar yarattığına dikkati çeken Peskov, BAE yönetimine bu vesileyle minnettar olduklarını dile getirdi.\nPeskov, müzakerelerde yer alan Rus heyetinin genişletilmesi için herhangi bir neden bulunmadığını ancak gerektiğinde bunun yapılacağını söyledi.\n\"Avrupalılarla konuşmaya hazırız\"\nPeskov, Rusya’nın Avrupalı ülkelerle diyalog kurma olasılığına ilişkin, \"Avrupalılar arasında konuşmak için yetkilendirilen biri varsa ve onlar gerçekten bunu istiyorsa diyaloğa açığız. Onlarla konuşmaya hazırız. Gerçek niyetlerini ve barış sürecine katkıda bulunmaya hazır olup olmadıklarını anladıktan sonra, Ukrayna'daki çözüm sürecine ilişkin diyaloğun genişletilmiş formatta yürütülüp yürütülmeyeceğine karar verilebilir.\" ifadelerini kullandı.\nDmitriy Peskov, diğer yandan Avrupalılarla ikili temasların henüz söz konusu olmadığını söyledi.\n\"Rusya'nın, Birleşik Arap Emirlikleri'nin (BAE) başkenti Abu Dabi'de Ukrayna konusunda yapılan görüşmelerde Finlandiya'nın NATO'dan ayrılmasını istediği\" yönündeki iddiayı yalanlayan Peskov, \"Bu konu kesinlikle gündeme getirilmedi.\" dedi.\nSözcü Peskov, çok taraflı müzakerelerde Avrupa'yı Fransa Cumhurbaşkanı Macron'un temsil edeceği yönündeki iddialara ilişkin, \"Bu bilginin neye dayandığını bilmiyoruz. Bu aşamada bunun hakkında net bir şey konuşmamız mümkün değil.\" şeklinde konuştu.",
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "AB Yüksek Temsilcisi Kallas'tan AB'yi kimin temsil edeceği yerine müzakerelerin içeriğine odaklanılması çağrısı",
+      "title": "BELÇİKA’DA ÖĞRENCİLERDEN HARÇ ARTIŞINA VE EĞİTİM KESİNTİLERİNE PROTESTO",
+      "source": "Mhahaber",
+      "link": "https://www.mhahaber.com/belcikada-ogrencilerden-harc-artisina-ve-egitim-kesintilerine-protesto",
+      "pubDate": "Fri, 13 Nov 2026 13:36:57 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/Bel%C3%A7ika%E2%80%99da%20%C3%96%C4%9Frenci%20Protestosu%20ve%20Ye%C5%9Fil%20Duman-960x541.webp",
+      "text": "Belçika'nın başkenti Brüksel'de üniversite öğrencileri, yıllık tam öğrenim harcının 835 avrodan 1194 avroya yükseltilmesine ve eğitim bütçesindeki kesintilere tepki gösterdi. Özgür Brüksel Üniversitesi kampüsündeki eylemde öğrenciler, askeri harcamalar yerine ücretsiz ve nitelikli bir eğitime kaynak ayrılmasını istedi. Belçika'nın başkenti Brüksel'de üniversite öğrencileri, artan öğrenim ücretleri ve eğitim bütçesinde yapılan kesintilere karşı yeniden protesto düzenledi. Özgür Brüksel Üniversitesi (ULB) kampüsünde bir araya gelen öğrenciler, Fransızca eğitim veren yükseköğretim kurumlarında yıllık tam öğrenim harcının yüzde 43 artırılmasına tepki gösterdi. ÜNİVERSİTE HARÇLARI 1194 AVROYA YÜKSELDİ 2026-2027 akademik yılında uygulamaya giren düzenlemeyle yıllık tam öğrenim harcı 835 avrodan 1194 avroya çıkarıldı. Öğrenciler, harç artışının yanı sıra eğitim sisteminde planlanan reformları ve bütçe kesintilerini de eleştirdi. Protestocular, eğitim harcamalarının azaltılmasına karşı çıkarken federal hükümetin 2034 yılına kadar 34 milyar avroluk askeri yatırım planına dikkat çekti. KAMPÜSTE SEMBOLİK İKİ KAPI KURULDU “Bütçeni seç” sloganıyla düzenlenen protestoda öğrenciler, hükümetin bütçe önceliklerini eleştirmek amacıyla kampüse iki sembolik giriş kapısı yerleştirdi. Askeri kamuflaj desenleriyle süslenen ve üzerinde “Seçkinlere yönelik eğitim ve savaş” yazan kapı, çıkmaz bir yola açıldı. “Ücretsiz ve kaliteli eğitim” yazılı ikinci kapı ise öğrenci hareketleri hakkında bilgilendirme yapılan stantlara yönlendirildi. Eylemi düzenleyen öğrenciler, bu sembolik çalışmayla hükümetin askeri harcamalara ayırdığı kaynaklar ile eğitim bütçesi arasındaki öncelik farkına dikkat çekmeyi amaçladıklarını belirtti. 17 KASIM İÇİN YENİ EYLEM ÇAĞRISI Protesto sırasında öğrencilere, 17 Kasım Uluslararası Öğrenciler Günü'nde düzenlenecek gösteriye katılım çağrısı içeren broşürler dağıtıldı. Öğrencilerin ayrıca Barış İçin Hizmet platformuyla birlikte 20 Kasım'da gönüllü askerlik uygulamasına karşı yeni bir eylem gerçekleştirmeyi planladığı bildirildi. BELÇİKA’DA EĞİTİM PROTESTOLARI SÜRÜYOR Belçika'da eğitim politikalarına yönelik protestolar ekim ayında da devam etmişti. Liege ve çevresinde bazı okulların girişlerini kapatan öğrenciler, öğretmen ve personel eksikliğine çözüm bulunmasını, kalabalık sınıfların azaltılmasını ve eğitimde fırsat eşitliğinin sağlanmasını talep etmişti. Brüksel'de düzenlenen sendika eylemlerine de öğrenciler ve kamu çalışanları katılmış, bütçe kesintileri ile alım gücündeki düşüş protesto edilmişti. Son gösterilerle birlikte öğrencilerin öğrenim ücretleri ve eğitim politikalarına yönelik itirazları yeniden gündeme taşındı.",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "ABD'de Üretici Fiyat Endeksi yıllık yüzde 6,5 ile beklentilerin altında arttı",
       "source": "Aa",
-      "link": "https://www.aa.com.tr/tr/dunya/ab-yuksek-temsilcisi-kallastan-abyi-kimin-temsil-edecegi-yerine-muzakerelerin-icerigine-odaklanilmasi-cagrisi/4124105",
-      "pubDate": "Fri, 13 Nov 2026 15:42:19 +0300",
+      "link": "https://www.aa.com.tr/tr/ekonomi/abdde-uretici-fiyat-endeksi-yillik-yuzde-6-5-ile-beklentilerin-altinda-artti/4124176",
+      "pubDate": "Fri, 13 Nov 2026 16:34:46 +0300",
       "image": null,
-      "text": "Selen Valente Rasquinho\n13 Kasım 2026•Güncelleme: 13 Kasım 2026\nKallas, İrlanda'nın başkenti Dublin'de düzenlenen AB liderlerinin gayriresmi zirve toplantısı öncesinde basın mensuplarının sorularını yanıtladı.\nBazı üye ülkelerin kendisini müzakereci olarak istemediği yönündeki soruya Kallas, tüm üye ülkelerin Haziran 2024'te dış ve güvenlik politikasında Avrupa'yı kendisinin temsil etmesi konusunda anlaştığını belirterek yanıt verdi.\nKallas, liderlerin bu kararı değiştirebileceğini ancak önceliğin görüşmelerin içeriği olması gerektiğini vurgulayarak \"Enerjimizi gerçekten müzakerelerin içeriğine odaklamamız gerektiğini düşünüyorum.\" dedi.\nAB'nin ortak tutumunu korumasının önemine işaret eden Kallas, \"Aramızdaki her türlü ayrılık, karşı tarafın işine yarıyor.\" ifadesini kullandı.\nDışişleri bakanlarıyla güçlü bir ekip halinde çalışmaya hazır olduğunu söyleyen Kallas, bakanların her ay bir araya geldiğini ve mevcut istişare mekanizmalarından daha fazla yararlanılması gerektiğini kaydetti.\nMüzakerelere hazırlık kapsamında önce azami taleplerin belirlenmesi, ardından hangi konularda geri adım atılabileceği ve uzlaşılabileceğinin değerlendirilmesi gerektiğini anlatan Kallas, üye ülkelerin belirlediği çerçeveye bağlı olduğunu vurguladı.\nKallas, \"Kendimi temsil etmiyorum. İki yıldır yaptığım gibi 27 ülkeyi temsil ediyorum.\" diye konuştu.\n\"Rusların beni istemediğini biliyorum\"\nRusya'nın kendisini müzakereci olarak istememesine ilişkin soruyu da yanıtlayan Kallas, \"Rusların beni istemediğini biliyorum ancak Rusya'yı kimin temsil edeceği konusunda bizim söz hakkımız var mı? Hayır, yok.\" dedi.\nMoskova'nın azami taleplerini kabul ettirmek için karşısında güçlü bir muhatap görmek istemediğini savunan Kallas, Avrupa'yı kimin temsil edeceğini belirleme hakkının Rusya'ya verilmesinin, Moskova'ya sahip olmaması gereken bir etki imkanı sağlayacağını söyledi.\nRusya ile Ukrayna arasında varılacak herhangi bir anlaşmanın uygulanması için Avrupalılara da ihtiyaç duyulduğunu belirten Kallas, Avrupa'nın müzakere masasında yer almasının yanı sıra görüşmelerin sonucunu da etkilemesi gerektiğini ifade etti.\n\"Önce ateşkes, sonra barış anlaşması\"\nUkrayna'daki savaşı sona erdirmeye yönelik görüşmelerde öncelik sıralamasına ilişkin mutabakata bağlı kalınması gerektiğini vurgulayan Kallas, \"Önce ateşkes, sonra barış anlaşması, ardından da diğer konulara ilişkin görüşmeler gelmeli.\" dedi.\nRusya'nın barış iradesinin görülebilmesi için öncelikle ateşkes sağlanması gerektiğini kaydeden Kallas, Avrupa güvenlik mimarisini tartışmaya açmanın dikkati bu hedeften uzaklaştıracağını savundu.\nRusya'nın talep ettiği yeni güvenlik mimarisine ilişkin kırmızı çizgilerin sorulması üzerine Kallas, bu konuyu tartışmaya başlamanın \"Rusya'nın kurduğu tuzağa düşmek\" anlamına geleceğini ileri sürdü.\nRusya'nın azami taleplerini ortaya koyduğuna işaret eden Kallas, AB'nin de müzakerelere kendi azami talepleriyle başlaması gerektiğini dile getirdi.\nKallas, bu talepleri AB ülkelerinin dışişleri bakanlarıyla hazırladıklarını belirterek \"Bir taraf azami taleplerle başlar, diğeri hiçbir şey istemezse bu müzakerenin nereye varacağını tahmin edebilirsiniz.\" değerlendirmesinde bulundu.\nYapay zekanın savaşta kullanımı\nToplantıda yapay zekayı da ele alacaklarını aktaran Kallas, bu teknolojinin \"karanlık yüzünün\" Ukrayna'daki savaş alanında görülebildiğini ifade etti.\nKallas, yapay zekayla donatılan insansız hava araçlarının insanları bulup öldürmek üzere eğitildiğini söyleyerek, sivillerin öldürülmesinin",
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "HRİSTODULİDİS’TEN KIBRIS SORUNUNDA YENİ GÖRÜŞME BEKLENTİSİ",
-      "source": "Mhahaber",
-      "link": "https://www.mhahaber.com/hristodulidisten-kibris-sorununda-yeni-gorusme-beklentisi",
-      "pubDate": "Fri, 13 Nov 2026 12:42:08 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/Hristodulidis%E2%80%99ten%20K%C4%B1br%C4%B1s%20Mesaj%C4%B1-960x540.webp",
-      "text": "Rum yönetimi Başkanı Nikos Hristodulidis, Kıbrıs sorununda önümüzdeki dönemde yeni gelişmeler yaşanmasını beklediğini belirterek Birleşmiş Milletler (BM) öncülüğünde gerçekleştirilecek üçlü görüşmeye ilişkin değerlendirmelerde bulundu.\nRum radyosunun haberine göre, Gayriresmî Avrupa Konseyi toplantısı için İrlanda'nın başkenti Dublin'de bulunan Hristodulidis, BM Genel Sekreteri Antonio Guterres'in Filipinler ziyaretinden dönmesinin ardından yeni üçlü görüşmenin tarihini belirlemesinin beklendiğini söyledi.\nÜÇLÜ GÖRÜŞMEDE SOMUT İLERLEME HEDEFLENİYOR\nHristodulidis, yapılması planlanan görüşmede Kıbrıs sorununun esasına ilişkin konuların, müzakere yönteminin ve Güven Yaratıcı Önlemlerin ele alınmasını beklediğini ifade etti.\nGörüşmeden olumlu sonuçlar alınmasını hedeflediklerini belirten Hristodulidis, daha geniş katılımlı bir konferans için tarih belirlenmesinin de gündemde olduğunu kaydetti.\nTÜRKİYE-AB İLİŞKİLERİNE KIBRIS ŞARTI\nAvrupa Komisyonunun Kıbrıs konusundaki temsilcisi Raffaele Fitto'nun Ankara'ya gerçekleştirmesi beklenen ziyarete de değinen Hristodulidis, Rum yönetimi ile Brüksel'in Türkiye-Avrupa Birliği ilişkilerinde olumlu gelişmeler yaşanmasını arzu ettiğini söyledi.\nAncak Hristodulidis, bu yönde ilerleme sağlanabilmesi için Kıbrıs müzakerelerinin uzlaşılmış çerçevede yeniden başlaması gerektiğini savundu.\nDENİZ ALTI ELEKTRİK KABLO PROJESİ DE GÜNDEMDE\nHristodulidis, Girit ile Güney Kıbrıs arasında kurulması planlanan deniz altı elektrik bağlantısı projesi Great Sea Interconnector (GSI) hakkında da açıklamalarda bulundu.\nTürkiye'nin projeye yönelik tutumuna ilişkin soruyu yanıtlayan Hristodulidis, konuyu Fransa Cumhurbaşkanı Emmanuel Macron ve Yunanistan Başbakanı Kiriakos Miçotakis ile görüştüğünü belirtti.\nGSI'nin aynı zamanda bir Avrupa projesi olduğunu ifade eden Hristodulidis, konuyu Avrupa Komisyonu Başkanı ile de ele aldığını söyledi.\nAvrupa Birliği'nin projeye daha fazla finansman sağlayabileceğini dile getiren Hristodulidis, proje kapsamındaki deniz derinliği ölçümlerinin normal şekilde devam ettiğini kaydetti.",
+      "title": "BM Genel Sekreteri Guterres: (İklim değişikliği) Yapmamız gereken bu sıcaklık aşımını olabildiğince küçük ve kısa tutmak",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/gundem/bm-genel-sekreteri-guterres-iklim-degisikligi-yapmamiz-gereken-bu-sicaklik-asimini-olabildigince-kucuk-ve-kisa-tutmak/4124170",
+      "pubDate": "Fri, 13 Nov 2026 16:30:24 +0300",
+      "image": null,
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "HAFTALIK GIDA DENETİMLERİNDE YERLİ NARDA UYGUNSUZ BİTKİ KORUMA ÜRÜNÜ TESPİT EDİLDİ",
+      "title": "Tasfiyesine karar verilen fonlara ilişkin ara ödemeler devam edecek",
+      "source": "Trthaber",
+      "link": "https://www.trthaber.com/haber/gundem/tasfiyesine-karar-verilen-fonlara-iliskin-ara-odemeler-devam-edecek-963197.html",
+      "pubDate": "Fri, 13 Nov 2026 16:30:00 +0300",
+      "image": null,
+      "text": "İletişim Başkanlığı, Cumhurbaşkanı Yardımcısı Cevdeç Yılmaz başkanlığında gerçekleştirilen Onuncu Fon Koordinasyon Kurulu Toplantısı’na ve fon tasfiye süreçlerindeki ödemelere ilişkin açıklama yaptı. Açıklamaya göre, olağan ve olağanüstü tasfiye süreçlerinde 119 fondaki 444 bin 893 tekil yatırımcıya yaklaşık 161 milyar lira ödeme gerçekleştirildi. Toplantıya, Adalet Bakanlığı, Hazine ve Maliye Bakanlığı ile bu bakanlıklara bağlı ilgili kurum ve kuruluşlar katıldı. Tasfiye sürecinde gelinen son nokta, sağlanan gelişmeler ve önümüzdeki dönemde atılacak adımlar değerlendirildi. İletişim Başkanlığı tarafından toplantıya ilişkin yapılan açıklamada şunlar kaydedildi; Onuncu Fon Koordinasyon Kurulu Toplantısı, Cumhurbaşkanı Yardımcımızın başkanlığında gerçekleştirilmiştir. Toplantıya Adalet Bakanlığı, Hazine ve Maliye Bakanlığı ile bu bakanlıklarımızın ilgili kurum ve kuruluşları katılmıştır. Toplantıda süreç ile ilgili gelinen nokta, sağlanan gelişmeler ve atılacak adımlar ele alınmıştır. TBMM’de kabul edilen 22.10.2026 tarihli ve 7596 sayılı Tasfiyesine Karar Verilen Bazı Yatırım Fonları Hakkında Kanun ile Sermaye Piyasası Kurulunun tasfiye ve ödemelere ilişkin usul ve esaslara ilişkin 27.10.2026 tarihli ve 76/1903 sayılı Kararı doğrultusunda, olağanüstü tasfiyeye konu fonlardaki ilk ara ödemeler 30 Ekim 2026 tarihi itibarıyla fon sahiplerinin hesaplarına yatırılmaya başlanmıştır. 13 Kasım 2026 tarihinde yapılan ödemelerle birlikte, olağan ve olağanüstü tasfiye süreçlerinde toplam 119 Fonda bulunan 444.893 tekil yatırımcıya yaklaşık 161 Milyar TL ayni ve nakdi olarak ödeme yapılmıştır. Bu yatırımcılardan, 333.493 tekil yatırımcı, ara ödeme olarak net yatırım tutarının tamamını almıştır. Başta Adalet Bakanlığı, TMSF ve MASAK olmak üzere ilgili kurumların yaptığı denetimler neticesinde piyasa bozucu faaliyetlerde bulunarak haksız ve fahiş kazanç elde ettiği tespit edilenler hakkında hukuki süreçler sürdürülmektedir. Yapılan denetimler neticesinde haksız ve fahiş kazanç elde ettiği tespit edilenler ara ödeme kapsamı dışında bırakılmıştır. Ara ödemeler, en fazla sayıda yatırımcının ödeme almasını sağlayacak şekilde sürdürülecektir. Önümüzdeki dönemde, tasfiye sürecinden sorumlu kurumlarımızın koordinasyonunda ara ödemelere devam edilecektir.",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "GEMİ FACİASI AİLELERİ MAHKEME ÖNÜNDE KONUŞTU: ADALET İSTİYORUZ!",
       "source": "Mhahaber",
-      "link": "https://www.mhahaber.com/haftalik-gida-denetimlerinde-yerli-narda-uygunsuz-bitki-koruma-urunu-tespit-edildi",
-      "pubDate": "Fri, 13 Nov 2026 12:34:21 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/G%C4%B1da%20Denetimlerinde%20Yerli%20Nar%20Uygunsuzlu%C4%9Fu-960x541.webp",
-      "text": "Tarım ve Doğal Kaynaklar Bakanlığı, 6-12 Kasım tarihleri arasında gerçekleştirilen haftalık gıda denetimlerinin sonuçlarını açıkladı. Denetimlerde, Bostancı'da üretilen yerli narda tavsiye dışı bitki koruma ürünü tespit edildi.\nBakanlık, uygunsuz bulunan ürünün imha edileceğini duyurdu.\n60 ÜRÜNDEN BİRİNDE UYGUNSUZLUK TESPİT EDİLDİ\nBakanlıktan yapılan açıklamaya göre, haftalık denetimler kapsamında 42 ithal ve 18 yerli olmak üzere toplam 60 üründen alınan numuneler incelendi.\nYapılan analizler sonucunda ithal ürünlerin tamamı uygun bulunurken, 18 yerli ürünün 17'sinde herhangi bir uygunsuzluğa rastlanmadı.\nBOSTANCI'DA ÜRETİLEN NAR İMHA EDİLECEK\nDenetimlerde Bostancı köyünde üretim yapan Leyla Tatılacalı'ya ait nar numunesinde, tavsiye dışı bitki koruma ürünü kullanıldığı tespit edildi.\nBakanlık, söz konusu ürünün imha edileceğini açıkladı.\nANALİZLER DEVLET LABORATUVARINDA YAPILDI\nİthal ve yerli ürünlerden alınan numunelerin pestisit analizleri Devlet Laboratuvarında gerçekleştirildi.\nBakanlık, analiz sonuçlarının Avrupa Birliği'nde geçerli maksimum kalıntı limitleri esas alınarak değerlendirildiğini bildirdi.",
+      "link": "https://www.mhahaber.com/gemi-faciasi-aileleri-mahkeme-onunde-konustu-adalet-istiyoruz",
+      "pubDate": "Fri, 13 Nov 2026 13:29:31 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%C4%B1%C4%B1%20BEYAZ.webp",
+      "text": "Girne açıklarında batan gemide yakınlarını kaybeden aileler, duruşma sonrası Girne Kaza Mahkemesi önünde açıklama yaptı. Girne açıklarında batan Filo Jet gemisinde yakınlarını kaybeden aileleri bugünkü duruşmanın ardından Girne Kaza Mahkemesi önünde açıklama yaptı. -Aydoğan Faciada hayatını kaybedenlerin yakınlarının bazılarını temsil eden Adana Barosuna kayıtlı Avukat Berkan Aydoğan konuşmasında, geminin darbeden dolayı battığına dair bilirkişi raporunun çıkacağı yönünde görüş belirtti. Aydoğan, yakınlarını kaybeden ailelerin vekili olarak Filo Jet’in ortakları, iştirakleri gibi asıl yargılanması gereken kişiler hakkında Mersin’de suç duyurusunda bulunduklarını kaydetti. Berkan Aydoğan, “Kazada hayatını kaybedenlerin ailelerinin içini soğutacak asıl husus Filo Jet’in yani şirketin ortakları, iştirakleri ve yetkililerinin yargılanması olacağından bugünkü gelişmelerin olumlu olduğunu düşünüyorum” dedi. -Fatih Yüksel Ateş Faciada hayatını kaybeden Jandarma Uzman Çavuş Fahri Ateş’in babası Fatih Yüksel Ateş ise, kazanın ardından ilk çıkan cenazenin oğlu olduğunu ifade ederek, “Benim tek istediğim şey KKTC’den yetkilileri de mahkemede görmek. Bizim hakkımızı onların da savunmasını istiyorum” diye konuştu. “Bizim içimiz yanıyor” diyen Yüksel Ateş, Türkiye Cumhuriyeti ve Kuzey Kıbrıs Türk Cumhuriyeti Devletleri’nden yetkili birer kişinin mahkemeye gelip, ailelerin haklarını savunmasını istediğini dile getirdi. Yüksel Ateş, babasını soran torununa, “Baban görevde, gelecek” dediğini de anlattı. -Ayça Ateş Jandarma Uzman Çavuş Fahri Ateş’in eşi Ayça Ateş de, “Benim eşim bize can yeleği bulmak için gitti. Can yelekleri tamamsa neden biz alıp da giyemedik?” sorusunu sordu. Faciada gemideki yolculardan biri olan ve kurtulan Ayça Ateş, geminin sefere çıkmasından 10 dakika sonra olayların başladığını ifade etti. “Herkes başının çaresine bakmak zorunda kaldı” diyen Ayça Ateş, mürettebattın hiçbir yönlendirme yapmadığını söyledi. -Özbiler Faciada annesi Nuray Zeytun Özbiler’i kaybeden Dilek Özbiler ise, gemi kazasında hayatını kaybeden ailelere yardım amaçlı paravan bir dernek kurulduğunu belirterek, dernek çatısı altında para toplandığını söyledi. “Böyle bir şeye itimat etmeyin çünkü böyle bir dernek yoktur. Sadece bizim kurduğumuz ‘Mavide Yarım Kalan Hayatlar’ derneğimiz var” diyen Özbiler, bu derneğin maddi gelir beklemeden kurulan bir dernek olduğunu vurguladı. Özbiler, “Mavide Yarım Kalan Hayatlar” adlı derneğin adalet aramak için kurulduğunun altını çizdi.",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "BM, İsrail'in Gazze'deki hastanelere yönelik saldırılarının durdurulmasını istedi",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/dunya/bm-israilin-gazzedeki-hastanelere-yonelik-saldirilarinin-durdurulmasini-istedi/4124164",
+      "pubDate": "Fri, 13 Nov 2026 16:25:56 +0300",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "KIBRIS’TA GÖREV YAPAN MEHMETÇİK ŞEHİT OLDU",
+      "source": "Mhahaber",
+      "link": "https://www.mhahaber.com/kibrista-gorev-yapan-mehmetcik-sehit-oldu",
+      "pubDate": "Fri, 13 Nov 2026 13:25:38 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHAhjp%C4%B1%20SARI%20BEYAZ.webp",
+      "text": "Kıbrıs Türk Barış Kuvvetleri Komutanlığı emrinde görev yapan Mühimmat Er Kağan Öcal, görev esnasında rahatsızlanarak kaldırıldığı hastanede yapılan tüm müdahalelere rağmen kurtarılamayarak şehit oldu. TC Milli Savunma Bakanlığı, Kıbrıs Türk Barış Kuvvetleri Komutanlığında (KTBK) görevli Er Kağan Öcal'ın görev esnasında rahatsızlanmasının ardından kaldırıldığı hastanede şehit olduğunu bildirdi. Bakanlıktan yapılan açıklamaya göre, Kıbrıs Türk Barış Kuvvetleri Komutanlığı emrinde görevli Mühimmat Er Kağan Öcal, görev esnasında rahatsızlanarak hastaneye sevk edildi. Öcal'ın, yapılan tüm müdahalelere rağmen kurtarılamayarak şehit olduğu belirtilen açıklamada, \"Bizleri derin bir acı ve üzüntüye boğan bu olayda hayatını kaybeden aziz şehidimize Allah'tan rahmet, kederli ailesine, Türk Silahlı Kuvvetleri ile asil milletimize başsağlığı ve sabır dileriz.\" ifadelerine yer verildi. - Bakan Güler'den başsağlığı... Milli Savunma Bakanı Yaşar Güler de şehit Öcal için yayımladığı başsağlığı mesajında, şunları kaydetti: \"Kahraman silah arkadaşımız, görevi başındayken rahatsızlanarak 13 Kasım 2026 tarihinde şehit olmuştur. Kahraman şehidimize şahsım ve Milli Savunma Bakanlığı mensupları adına Allah'tan rahmet, kederli ailesine ve asil milletimize başsağlığı ve sabır dilerim.\"",
       "summary": ""
     }
   ],
   "weather": {
-    "temp": 20.4,
+    "temp": 19.8,
     "desc": "Açık"
   },
   "market": {
     "usdtry": 50.31,
     "eurtry": 55.69,
-    "gold_gram_try": null,
-    "ceyrek_altin_try": null
+    "gold_gram_try": 6285.79
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3483531,
-      "change_pct": -4.243029469637259
+      "price": 3493737,
+      "change_pct": -3.854549410963114
     },
     {
       "label": "Ethereum",
-      "price": 98436,
-      "change_pct": -2.0380270698320055
+      "price": 98933,
+      "change_pct": -1.9481841214876765
     }
   ],
   "stocks": [
     {
       "label": "BIST 100",
-      "price": 11853.5,
-      "change_pct": 1.6
+      "price": 11880.55,
+      "change_pct": 1.84
     },
     {
       "label": "S&P 500",
@@ -610,13 +801,13 @@
     },
     {
       "label": "THY",
-      "price": 320.5,
-      "change_pct": 0.47
+      "price": 321.0,
+      "change_pct": 0.63
     },
     {
       "label": "Aselsan",
-      "price": 346.25,
-      "change_pct": 0.44
+      "price": 347.25,
+      "change_pct": 0.73
     },
     {
       "label": "Garanti BBVA",
@@ -625,18 +816,8 @@
     },
     {
       "label": "BİM",
-      "price": 394.75,
-      "change_pct": 1.74
-    },
-    {
-      "label": "Ereğli Demir Çelik",
-      "price": 32.54,
-      "change_pct": 1.5
-    },
-    {
-      "label": "Şişecam",
-      "price": 35.86,
-      "change_pct": -0.44
+      "price": 396.25,
+      "change_pct": 2.13
     },
     {
       "label": "Apple",
@@ -652,21 +833,6 @@
       "label": "Nvidia",
       "price": 166.19,
       "change_pct": -4.34
-    },
-    {
-      "label": "Tesla",
-      "price": 397.45,
-      "change_pct": 1.7
-    },
-    {
-      "label": "Meta",
-      "price": 623.61,
-      "change_pct": -0.82
-    },
-    {
-      "label": "Alphabet",
-      "price": 298.7,
-      "change_pct": 1.79
     }
   ]
 }

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="RADAR">
+<meta name="apple-mobile-web-app-title" content="Newsly">
 <meta name="theme-color" content="#F8FAFC">
 <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%233B82F6'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle' fill='white'%3E📡%3C/text%3E%3C/svg%3E">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%233B82F6'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle' fill='white'%3E📡%3C/text%3E%3C/svg%3E">
@@ -14,14 +14,14 @@
   :root {
     --bg-main: #F8FAFC;
     --bg-panel: #FFFFFF;
-    --text-main: #1E293B;
+    --text-main: #0F172A;
     --text-muted: #64748B;
     --border: #E2E8F0;
     --accent: #3B82F6;
-    --accent-glow: rgba(59, 130, 246, 0.3);
-    --radius-lg: 24px;
-    --radius-md: 16px;
-    --radius-sm: 12px;
+    --accent-light: #EFF6FF;
+    --radius-lg: 20px;
+    --radius-md: 14px;
+    --radius-sm: 10px;
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 
@@ -34,290 +34,304 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  .glass {
-    background: var(--bg-panel);
-    border: 1px solid var(--border);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-    border-radius: var(--radius-lg);
-  }
+  /* --- ANA YERLEŞİM (PC) --- */
+  .app-container { display: flex; gap: 30px; max-width: 1300px; margin: 0 auto; padding: 20px; height: 100vh; overflow: hidden; }
 
-  /* --- SOL MENÜ (PC) --- */
+  /* SOL MENÜ (PC) */
   .sidebar {
-    position: fixed; top: 20px; left: 20px; bottom: 20px; width: 80px; z-index: 1000;
-    display: flex; flex-direction: column; align-items: center; padding: 24px 0; gap: 4px;
-    overflow-y: auto; overflow-x: hidden; white-space: nowrap; transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 240px; flex-shrink: 0;
+    display: flex; flex-direction: column; gap: 8px;
+    padding-top: 20px; overflow-y: auto;
   }
   .sidebar::-webkit-scrollbar { display: none; }
-  .sidebar:hover { width: 240px; align-items: flex-start; box-shadow: 0 10px 40px rgba(0,0,0,0.08); }
-
-  .logo { display: flex; align-items: center; height: 40px; margin-bottom: 16px; width: 100%; justify-content: center; transition: all 0.3s; flex-shrink: 0;}
-  .sidebar:hover .logo { justify-content: flex-start; padding-left: 26px; }
-  .logo-text { font-size: 20px; font-weight: 900; letter-spacing: -0.5px; color: var(--text-main); opacity: 0; transition: opacity 0.2s; display: none; }
-  .sidebar:hover .logo-text { opacity: 1; display: block; }
-  .logo-dot { width: 16px; height: 16px; border-radius: 50%; background: linear-gradient(135deg, #3B82F6, #8B5CF6); flex-shrink: 0;}
-
-  .nav-separator { width: 40px; height: 1px; background: var(--border); margin: 8px 0; transition: width 0.3s; flex-shrink: 0;}
-  .sidebar:hover .nav-separator { width: 80%; }
+  
+  .logo { display: flex; align-items: center; gap: 10px; font-size: 24px; font-weight: 900; color: var(--text-main); margin-bottom: 24px; padding-left: 12px;}
+  .logo-icon { width: 32px; height: 32px; background: linear-gradient(135deg, #3B82F6, #8B5CF6); border-radius: 8px; }
 
   .nav-item {
-    display: flex; align-items: center; height: 48px; cursor: pointer; transition: all 0.2s;
-    justify-content: center; flex-shrink: 0; border-radius: var(--radius-sm); margin: 2px 0; width: 90%;
+    display: flex; align-items: center; gap: 14px; padding: 14px 16px;
+    border-radius: var(--radius-md); cursor: pointer; transition: all 0.2s;
+    font-weight: 700; color: var(--text-muted); font-size: 15px;
   }
-  .sidebar:hover .nav-item { justify-content: flex-start; padding-left: 20px; }
   .nav-item:hover { background: #F1F5F9; }
-  .nav-item.active { background: #DBEAFE; color: var(--accent); }
+  .nav-item.active { background: var(--accent-light); color: var(--accent); }
   
-  .nav-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; transition: all 0.2s; }
-  .nav-item.active .nav-dot { box-shadow: 0 0 10px currentColor; }
-  .nav-text { font-size: 14px; font-weight: 700; color: var(--text-muted); opacity: 0; transition: opacity 0.2s; margin-left: 16px; display: none; }
-  .nav-item.active .nav-text { color: var(--accent); }
-  .sidebar:hover .nav-text { opacity: 1; display: block; }
-  .settings-btn { margin-top: auto; }
+  .nav-icon { font-size: 20px; }
 
-  /* --- ANA YERLEŞİM --- */
-  .app-container { display: flex; flex-direction: column; gap: 20px; max-width: 1400px; margin: 0 auto; margin-left: 120px; padding: 20px 20px 20px 0; height: 100vh; overflow: hidden; }
+  /* ORTA ALAN (HABERLER) */
+  .main-feed { flex: 1; overflow-y: auto; padding-right: 10px; padding-bottom: 50px;}
+  .main-feed::-webkit-scrollbar { width: 4px; }
+  .main-feed::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 10px; }
 
-  /* --- ÜST PANEL --- */
-  .top-bar { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; }
-  .top-left { display: flex; align-items: center; gap: 24px; }
-  .top-time { font-size: 20px; font-weight: 900; letter-spacing: -0.5px; }
-  .top-date { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; font-weight: 700;}
-  .top-weather { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; border-left: 1px solid var(--border); padding-left: 24px; color: var(--text-muted); }
-  .top-right { display: flex; align-items: center; gap: 16px; }
-  .system-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #10B981; font-weight: 800; text-transform: uppercase; background: #D1FAE5; padding: 6px 12px; border-radius: 20px; }
-  .status-dot { width: 6px; height: 6px; border-radius: 50%; background: #10B981; animation: pulse 2s infinite; }
-  @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
-  .greeting { font-size: 14px; font-weight: 700; }
-  .avatar { width: 36px; height: 36px; border-radius: 50%; background: #E2E8F0; display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--accent); }
+  /* Mobilde Görünecek Üst Başlık */
+  .mobile-header { display: none; }
+  
+  .desktop-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+  .page-title { font-size: 28px; font-weight: 900; letter-spacing: -0.5px; }
+  .search-box { background: var(--bg-panel); border: 1px solid var(--border); border-radius: 20px; padding: 12px 20px; color: var(--text-main); outline: none; width: 300px; transition: all 0.3s; font-size: 14px; }
+  .search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
 
-  /* --- İÇERİK ALANI --- */
-  .content-area { display: flex; gap: 20px; flex: 1; overflow: hidden; }
-  .view-section { display: none; width: 100%; height: 100%; overflow-y: auto; padding-right: 8px; }
-  .view-section.active { display: block; animation: fadeSlideIn 0.4s ease forwards; }
-  @keyframes fadeSlideIn { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }
+  /* KATEGORİ SEKMELERİ */
+  .category-tabs { display: flex; gap: 10px; margin-bottom: 24px; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+  .category-tabs::-webkit-scrollbar { display: none; }
+  .cat-tab { background: #F1F5F9; border: none; color: var(--text-muted); padding: 10px 20px; border-radius: 20px; font-size: 14px; font-weight: 700; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
+  .cat-tab:hover { background: #E2E8F0; }
+  .cat-tab.active { background: var(--accent); color: #fff; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3); }
 
-  /* --- GÜNDEM GÖRÜNÜMÜ --- */
-  .feed-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
-  .feed-title { font-size: 28px; font-weight: 900; letter-spacing: -0.5px; }
-  .search-box { background: var(--bg-panel); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 20px; color: var(--text-main); outline: none; width: 280px; transition: all 0.3s; }
-  .search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
-
-  .ai-briefing { background: linear-gradient(135deg, #EFF6FF, #F5F3FF); border: 1px solid #BFDBFE; border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; position: relative; }
-  .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
-  .ai-icon { font-size: 20px; background: #DBEAFE; padding: 8px; border-radius: 12px; color: var(--accent); }
-  .ai-title { font-size: 18px; font-weight: 800; color: #1E3A8A; }
-  .ai-badge { font-size: 10px; background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 10px; font-weight: 800; letter-spacing: 0.5px;}
-  .ai-tabs { display: flex; gap: 8px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
-  .ai-tabs::-webkit-scrollbar { display: none; }
-  .ai-tab { background: transparent; border: 1px solid #BFDBFE; color: #3B82F6; padding: 6px 12px; border-radius: 20px; font-size: 13px; font-weight: 700; cursor: pointer; transition: all 0.2s; white-space: nowrap; flex-shrink: 0;}
-  .ai-tab:hover { background: #DBEAFE; }
-  .ai-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: 0 4px 10px var(--accent-glow); }
-  .ai-content { font-size: 15px; color: #334155; line-height: 1.6; min-height: 60px; font-weight: 500;}
-
-  /* --- HABER KARTLARI (PASTEL RENKLER) --- */
-  .feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  /* --- HABER KARTLARI (NEWSLY TASARIMI) --- */
+  .feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; }
   
   .news-card { 
-    border-radius: var(--radius-lg); 
-    padding: 24px; 
-    display: flex; flex-direction: column; justify-content: space-between; 
-    cursor: pointer; transition: all 0.3s; position: relative; overflow: hidden;
-    border: none;
+    border-radius: var(--radius-lg); padding: 20px; 
+    display: flex; justify-content: space-between; gap: 16px;
+    cursor: pointer; transition: transform 0.2s; 
+    position: relative; overflow: hidden;
   }
+  .news-card:hover { transform: translateY(-3px); }
   
-  .news-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
-  .news-card.read { opacity: 0.6; filter: grayscale(20%); }
+  .card-content { flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
   
-  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 12px; color: rgba(0,0,0,0.6); font-weight: 700;}
+  .card-source-badge { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 800; margin-bottom: 8px; }
+  .source-logo { width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #fff; }
   
-  .card-meta { display: flex; align-items: center; gap: 8px; }
-  .card-cat { display: flex; align-items: center; gap: 6px; font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 20px; background: rgba(255,255,255,0.6); color: #1E293B; text-transform: uppercase; letter-spacing: 0.5px;}
+  .card-title { font-size: 18px; font-weight: 800; line-height: 1.3; margin-bottom: 8px; color: var(--text-main); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;}
+  .card-snippet { font-size: 14px; color: rgba(0,0,0,0.6); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 12px;}
+  .card-snippet.warning { color: #B91C1C; font-weight: 700; }
   
-  /* Kaynak Etiketi */
-  .card-source { font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 20px; color: #fff; text-transform: uppercase; letter-spacing: 0.5px; } 
+  .card-footer { display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; color: rgba(0,0,0,0.5); }
+  .like-btn { background: rgba(255,255,255,0.6); border: none; padding: 6px 12px; border-radius: 20px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 6px; transition: all 0.2s; color: rgba(0,0,0,0.6); font-size: 12px;}
+  .like-btn:hover { background: #fff; color: #000; }
+  .like-btn.liked { color: #EF4444; background: #fff; }
 
-  .card-title { font-size: 19px; font-weight: 800; line-height: 1.3; margin-bottom: 12px; color: #1E293B; }
-  .card-snippet { font-size: 14px; color: #334155; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-weight: 500;}
-  .card-snippet.warning { color: #B91C1C; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+  .card-image { width: 100px; height: 100px; border-radius: var(--radius-md); object-fit: cover; flex-shrink: 0; }
   
-  .card-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
-  .action-btn { background: rgba(255,255,255,0.6); border: none; color: rgba(0,0,0,0.5); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s; font-size: 16px; }
-  .action-btn:hover { background: #fff; color: #1E293B; }
-  .action-btn.liked { color: #EF4444; background: #fff; }
+  /* --- SAĞ PANEL (PİYASA & HAVA) --- */
+  .right-panel { width: 340px; flex-shrink: 0; display: flex; flex-direction: column; gap: 20px; overflow-y: auto; padding-bottom: 50px;}
+  .right-panel::-webkit-scrollbar { display: none; }
 
-  /* --- PİYASALAR --- */
-  .market-header { margin-bottom: 24px; }
-  .market-title { font-size: 14px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; font-weight: 800; }
-  .market-total { font-size: 52px; font-weight: 900; letter-spacing: -2px; }
-  .market-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-bottom: 32px; }
-  .market-card { border-radius: var(--radius-lg); padding: 20px; position: relative; overflow: hidden; color: #fff; box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
-  .mc-purple { background: linear-gradient(135deg, #8B5CF6, #6D28D9); }
-  .mc-orange { background: linear-gradient(135deg, #F59E0B, #B45309); }
-  .mc-red { background: linear-gradient(135deg, #EF4444, #B91C1C); }
-  .mc-cyan { background: linear-gradient(135deg, #06B6D4, #0E7490); }
-  .mc-green { background: linear-gradient(135deg, #10B981, #047857); }
-  .mc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
-  .mc-icon { background: rgba(255,255,255,0.2); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;}
-  .mc-label { font-size: 12px; font-weight: 800; opacity: 0.9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100px; text-transform: uppercase; letter-spacing: 0.5px;}
-  .mc-price { font-size: 24px; font-weight: 900; margin-bottom: 4px; }
-  .mc-change { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 800; background: rgba(255,255,255,0.2); padding: 2px 8px; border-radius: 6px; }
-  .mc-chart-container { height: 50px; margin-top: 16px; width: 100%; }
+  .widget { background: var(--bg-panel); border-radius: var(--radius-lg); padding: 20px; border: 1px solid var(--border); }
+  .widget-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-weight: 800; font-size: 16px; }
+  
+  /* Piyasa */
+  .market-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .market-info { display: flex; flex-direction: column; }
+  .market-name { font-weight: 800; font-size: 14px; }
+  .market-desc { font-size: 11px; color: var(--text-muted); }
+  .market-val { text-align: right; font-weight: 800; font-size: 14px; }
+  .market-pct { font-size: 12px; font-weight: 700; }
+  .pct-up { color: #10B981; }
+  .pct-down { color: #EF4444; }
+  
+  /* Hava Durumu */
+  .weather-temp { font-size: 48px; font-weight: 900; line-height: 1; margin-bottom: 4px;}
+  .weather-desc { font-size: 14px; font-weight: 600; color: var(--text-muted); margin-bottom: 16px;}
+  .weather-forecast { display: flex; justify-content: space-between; margin-top: 16px; border-top: 1px solid var(--border); padding-top: 16px;}
+  .wf-day { text-align: center; font-size: 12px; font-weight: 600; color: var(--text-muted);}
+  .wf-icon { font-size: 20px; margin: 4px 0;}
 
-  .status-msg { font-size: 14px; color: var(--text-muted); text-align: center; padding: 20px; font-weight: 600;}
-  ::-webkit-scrollbar { width: 6px; height: 6px;}
-  ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 10px; }
+  /* Yapay Zeka Özeti (PC'de sağ panelde veya mobilde üstte) */
+  .ai-briefing { background: linear-gradient(135deg, #EFF6FF, #F5F3FF); border: 1px solid #BFDBFE; border-radius: var(--radius-lg); padding: 20px; margin-bottom: 24px; }
+  .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .ai-icon { font-size: 18px; background: #DBEAFE; padding: 6px; border-radius: 10px; color: var(--accent); }
+  .ai-title { font-size: 16px; font-weight: 800; color: #1E3A8A; }
+  .ai-badge { font-size: 9px; background: var(--accent); color: #fff; padding: 2px 6px; border-radius: 8px; font-weight: 800;}
+  .ai-tabs { display: flex; gap: 6px; margin-bottom: 12px; overflow-x: auto; scrollbar-width: none; }
+  .ai-tabs::-webkit-scrollbar { display: none; }
+  .ai-tab { background: transparent; border: 1px solid #BFDBFE; color: #3B82F6; padding: 4px 12px; border-radius: 16px; font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; }
+  .ai-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ai-content { font-size: 14px; color: #334155; line-height: 1.5; font-weight: 500; min-height: 40px;}
 
   /* --- MODAL --- */
-  .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(15, 23, 42, 0.4); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 2000; padding: 20px; }
+  .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(15, 23, 42, 0.5); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 2000; padding: 20px; }
   .modal-overlay.active { opacity: 1; pointer-events: all; }
-  .modal-content { background: var(--bg-panel); border-radius: var(--radius-lg); width: 100%; max-width: 650px; max-height: 90vh; overflow-y: auto; padding: 32px; transform: scale(0.95); transition: transform 0.3s; position: relative; box-shadow: 0 24px 64px rgba(0,0,0,0.1); }
+  .modal-content { background: var(--bg-panel); border-radius: var(--radius-lg); width: 100%; max-width: 600px; max-height: 90vh; overflow-y: auto; padding: 30px; transform: scale(0.95); transition: transform 0.3s; position: relative; box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
   .modal-overlay.active .modal-content { transform: scale(1); }
-  .modal-close { position: absolute; top: 20px; right: 20px; background: #F1F5F9; border: none; color: var(--text-muted); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 16px; transition: background 0.2s; }
-  .modal-close:hover { background: #E2E8F0; }
-  .modal-header { margin-bottom: 24px; }
-  .modal-title { font-size: 26px; font-weight: 900; line-height: 1.3; margin-bottom: 16px; color: var(--text-main); }
-  .modal-meta { font-size: 14px; color: var(--text-muted); display: flex; gap: 12px; align-items: center; font-weight: 700; }
-  .modal-body { font-size: 16px; line-height: 1.8; color: #334155; font-weight: 500;}
-  .modal-link { display: inline-block; margin-top: 32px; background: var(--accent); color: #fff; text-decoration: none; padding: 14px 28px; border-radius: var(--radius-sm); font-weight: 700; text-align: center; transition: transform 0.2s; width: 100%;}
-  .modal-link:hover { transform: translateY(-2px); background: #2563EB;}
+  .modal-close { position: absolute; top: 20px; right: 20px; background: #F1F5F9; border: none; color: var(--text-muted); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 16px; }
+  .modal-title { font-size: 24px; font-weight: 900; line-height: 1.3; margin-bottom: 12px; }
+  .modal-meta { font-size: 13px; color: var(--text-muted); display: flex; gap: 10px; font-weight: 700; margin-bottom: 20px; }
+  .modal-body { font-size: 15px; line-height: 1.7; color: #334155; }
+  .modal-link { display: block; margin-top: 24px; background: var(--accent); color: #fff; text-decoration: none; padding: 14px; border-radius: var(--radius-sm); font-weight: 700; text-align: center; }
 
   /* AYARLAR MODALI */
-  .pref-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px;}
-  .pref-item { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; background: #F8FAFC; border-radius: var(--radius-sm); border: 1px solid var(--border); cursor: pointer; transition: all 0.2s; }
-  .pref-item:hover { background: #F1F5F9; }
-  .pref-label { font-weight: 700; font-size: 15px; display: flex; align-items: center; gap: 12px; color: var(--text-main);}
-  .pref-dot { width: 10px; height: 10px; border-radius: 50%; }
-  .checkbox-custom { width: 24px; height: 24px; border-radius: 6px; border: 2px solid #CBD5E1; display: flex; align-items: center; justify-content: center; transition: all 0.2s; background: #fff;}
+  .pref-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;}
+  .pref-item { display: flex; justify-content: space-between; align-items: center; padding: 14px; background: #F8FAFC; border-radius: var(--radius-sm); border: 1px solid var(--border); cursor: pointer; }
+  .pref-label { font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 10px;}
+  .checkbox-custom { width: 22px; height: 22px; border-radius: 6px; border: 2px solid #CBD5E1; display: flex; align-items: center; justify-content: center; background: #fff;}
   .pref-item.selected .checkbox-custom { background: var(--accent); border-color: var(--accent); }
-  .checkbox-custom::after { content: '✓'; color: white; font-size: 14px; font-weight: bold; display: none; }
+  .checkbox-custom::after { content: '✓'; color: white; font-size: 12px; display: none; }
   .pref-item.selected .checkbox-custom::after { display: block; }
-  .btn-save { width: 100%; padding: 16px; background: var(--accent); color: white; border: none; border-radius: var(--radius-sm); font-weight: 700; font-size: 16px; cursor: pointer; transition: background 0.2s; }
-  .btn-save:hover { background: #2563EB; }
+  .btn-save { width: 100%; padding: 14px; background: var(--accent); color: white; border: none; border-radius: var(--radius-sm); font-weight: 700; font-size: 15px; cursor: pointer; }
 
-  /* --- MOBİL UYUMLULUK --- */
-  .mobile-categories, .bottom-nav { display: none; }
 
-  @media (max-width: 768px) {
-    body { overflow-y: auto; padding-bottom: 80px; }
-    .app-container { display: block; margin-left: 0; padding: 10px 10px 20px 10px; height: auto; overflow: visible; }
+  /* --- 📱 MOBİL UYUMLULUK (TAM NEWSLY GİBİ) --- */
+  .bottom-nav { display: none; }
+
+  @media (max-width: 900px) {
+    .app-container { display: block; padding: 15px; height: auto; overflow: visible; }
     .sidebar { display: none; }
+    
+    /* Üst Başlık */
+    .mobile-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; margin-top: 10px;}
+    .mobile-logo { font-size: 22px; font-weight: 900; display: flex; align-items: center; gap: 8px;}
+    .mobile-logo-icon { width: 28px; height: 28px; background: linear-gradient(135deg, #3B82F6, #8B5CF6); border-radius: 8px; }
+    .mobile-actions { display: flex; gap: 12px; font-size: 20px; color: var(--text-muted); }
+    
+    .mobile-greeting { margin-bottom: 20px; }
+    .mobile-greeting h1 { font-size: 26px; font-weight: 900; letter-spacing: -0.5px; }
+    .mobile-greeting p { font-size: 14px; color: var(--text-muted); font-weight: 600; margin-top: 4px;}
 
-    .top-bar { padding: 12px 16px; flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 12px; border-radius: var(--radius-md); background: transparent; border: none; box-shadow: none; }
-    .top-left { flex-wrap: wrap; gap: 12px; width: 100%; justify-content: space-between; }
-    .top-time { font-size: 20px; }
-    .top-date { font-size: 12px; }
-    .top-weather { border-left: none; padding-left: 0; font-size: 13px; }
-    .top-right { display: none; }
+    .desktop-header { display: none; }
+    .main-feed { overflow: visible; padding-right: 0; }
+    .right-panel { width: 100%; overflow: visible; }
 
-    .mobile-categories { display: flex; gap: 8px; overflow-x: auto; padding: 10px 0; margin-bottom: 16px; scrollbar-width: none; }
-    .mobile-categories::-webkit-scrollbar { display: none; }
-    .mob-cat-item { flex: 0 0 auto; padding: 8px 16px; background: #FFF; border: 1px solid var(--border); border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--text-muted); cursor: pointer; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);}
-    .mob-cat-item.active { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: 0 4px 10px var(--accent-glow); }
-
-    .content-area { display: block; overflow: visible; }
-    .view-section { overflow-y: visible; padding-right: 0; }
-    .feed-header { flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 16px;}
-    .search-box { width: 100%; padding: 12px 16px; }
+    /* Mobilde Haber Kartları */
     .feed-grid { grid-template-columns: 1fr; gap: 16px; }
-
-    .market-total { font-size: 36px; }
-    .market-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
-    .mc-chart-container { height: 40px; }
-    .mc-price { font-size: 20px; }
-    .ai-briefing { padding: 20px; margin-bottom: 16px; }
-    .ai-title { font-size: 16px; }
-    .ai-tab { font-size: 12px; padding: 6px 12px; }
-    .ai-content { font-size: 14px; }
-    .modal-content { padding: 24px; }
-    .modal-title { font-size: 22px; }
-
-    .bottom-nav { display: flex; position: fixed; bottom: 0; left: 0; right: 0; background: var(--bg-panel); border-top: 1px solid var(--border); z-index: 2000; padding: 10px 0 env(safe-area-inset-bottom, 10px) 0; justify-content: space-around; align-items: center; box-shadow: 0 -4px 20px rgba(0,0,0,0.05);}
-    .bn-item { display: flex; flex-direction: column; align-items: center; gap: 4px; color: var(--text-muted); font-size: 11px; font-weight: 700; cursor: pointer; transition: all 0.2s; padding: 8px 16px; border-radius: var(--radius-sm); }
+    .news-card { padding: 16px; gap: 12px; }
+    .card-title { font-size: 16px; }
+    .card-image { width: 90px; height: 90px; }
+    
+    /* Mobilde Piyasa ve Hava Widget'ları */
+    .right-panel { display: flex; flex-direction: column; gap: 16px; margin-top: 24px; }
+    
+    /* Alt Menü (Bottom Nav) */
+    .bottom-nav { 
+      display: flex; position: fixed; bottom: 0; left: 0; right: 0; 
+      background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
+      border-top: 1px solid var(--border); z-index: 2000; 
+      padding: 12px 0 env(safe-area-inset-bottom, 12px) 0; 
+      justify-content: space-around; align-items: center; 
+    }
+    .bn-item { display: flex; flex-direction: column; align-items: center; gap: 4px; color: var(--text-muted); font-size: 10px; font-weight: 700; cursor: pointer; }
     .bn-item.active { color: var(--accent); }
-    .bn-icon { font-size: 20px; margin-bottom: 2px; }
+    .bn-icon { font-size: 22px; }
+    
+    body { padding-bottom: 80px; }
+    .page-title { font-size: 24px; }
   }
 </style>
 </head>
 <body>
 
-<aside class="sidebar glass">
-  <div class="logo"><div class="logo-dot"></div><div class="logo-text">RADAR</div></div>
-  <div class="nav-item active" id="nav-news" onclick="switchView('news', this)"><div class="nav-dot" style="background:var(--accent); color:var(--accent)"></div><span class="nav-text">Gündem</span></div>
-  <div class="nav-item" id="nav-market" onclick="switchView('market', this)"><div class="nav-dot" style="background:#10B981; color:#10B981"></div><span class="nav-text">Piyasalar</span></div>
-  <div class="nav-separator"></div>
-  <div id="pc-categories-container" style="width:100%; display:flex; flex-direction:column; gap:2px; align-items:center;">
-    <div class="nav-item active" data-id="all" onclick="selectCategory('all', this)"><div class="nav-dot" style="background:var(--text-main); box-shadow:0 0 5px rgba(0,0,0,0.2)"></div><span class="nav-text">Tümü</span></div>
-  </div>
-  <div class="nav-separator"></div>
-  <div class="nav-item settings-btn" onclick="openSettings()">
-    <div class="nav-dot" style="background:var(--text-muted); color:var(--text-muted); width:16px; height:16px; display:flex; align-items: center; justify-content: center; font-size:14px;">⚙️</div><span class="nav-text" style="color:var(--text-main); font-weight:700;">Ayarlar</span>
-  </div>
-</aside>
-
 <div class="app-container">
-  <header class="top-bar glass">
-    <div class="top-left">
-      <div><div class="top-time" id="clockTime">--:--</div><div class="top-date" id="clockDate">Tarih Yükleniyor...</div></div>
-      <div class="top-weather" id="weatherHeader"><span>🌤️</span> <span id="weatherText">Hava durumu...</span></div>
+  <!-- SOL MENÜ (PC) -->
+  <aside class="sidebar">
+    <div class="logo"><div class="logo-icon"></div> Newsly</div>
+    <div class="nav-item active" onclick="selectCategory('all', this)">
+      <div class="nav-icon">🏠</div> Ana Sayfa
     </div>
-    <div class="top-right">
-      <div class="system-status"><div class="status-dot"></div> Sistem Aktif</div>
-      <div class="greeting" id="greetingText">İyi Günler 👋</div>
-      <div class="avatar">N</div>
+    <div class="nav-item" onclick="selectCategory('gundem', this)">
+      <div class="nav-icon">🔥</div> Gündem
     </div>
-  </header>
+    <div class="nav-item" onclick="selectCategory('teknoloji', this)">
+      <div class="nav-icon">💻</div> Teknoloji
+    </div>
+    <div class="nav-item" onclick="selectCategory('oyun', this)">
+      <div class="nav-icon">🎮</div> Ücretsiz Oyun
+    </div>
+    <div class="nav-item" onclick="openSettings()">
+      <div class="nav-icon">⚙️</div> Ayarlar
+    </div>
+  </aside>
 
-  <div class="mobile-categories" id="mobile-categories-container"></div>
-
-  <div class="content-area">
-    <div class="view-section active" id="view-news">
-      <div class="feed-header">
-        <div class="feed-title" id="feedTitle">Gündem Akışı</div>
-        <input type="search" class="search-box" id="searchInput" placeholder="Haberlerde ara...">
-      </div>
-
-      <div class="ai-briefing" id="aiBriefingCard">
-        <div class="ai-header">
-          <div class="ai-icon">✨</div><div class="ai-title">Günün Analizi</div><div class="ai-badge">RADAR AI</div>
-        </div>
-        <div class="ai-tabs">
-          <button class="ai-tab active" onclick="switchBriefing('genel', this)">Günün Özeti</button>
-          <button class="ai-tab" onclick="switchBriefing('teknoloji', this)">Teknoloji</button>
-          <button class="ai-tab" onclick="switchBriefing('ekonomi', this)">Ekonomi</button>
-          <button class="ai-tab" onclick="switchBriefing('gundem', this)">Gündem</button>
-        </div>
-        <div class="ai-content" id="aiBriefingContent">Yapay zeka analiz ediyor...</div>
-      </div>
-      
-      <div class="feed-grid" id="newsGrid">
-        <div class="status-msg">Haberler yükleniyor... 📡</div>
+  <!-- ORTA ALAN -->
+  <main class="main-feed">
+    
+    <!-- MOBİL ÜST BAŞLIK -->
+    <div class="mobile-header">
+      <div class="mobile-logo"><div class="mobile-logo-icon"></div> Newsly</div>
+      <div class="mobile-actions">
+        <span>🔍</span>
+        <span>🔔</span>
       </div>
     </div>
-
-    <div class="view-section" id="view-market">
-      <div class="market-header">
-        <div class="market-title">Toplam Piyasa Takibi</div>
-        <div class="market-total" id="marketTotal">₺ --.--</div>
-      </div>
-      <div class="market-grid" id="marketGrid"></div>
+    <div class="mobile-greeting">
+      <h1>Günaydın! ☀️</h1>
+      <p>Bugün dünyada neler oluyor?</p>
     </div>
+
+    <!-- PC ÜST BAŞLIK -->
+    <div class="desktop-header">
+      <div class="page-title" id="feedTitle">Keşfet</div>
+      <input type="search" class="search-box" id="searchInput" placeholder="Haberlerde ara...">
+    </div>
+
+    <!-- KATEGORİ SEKMELERİ -->
+    <div class="category-tabs" id="categoryTabs">
+      <button class="cat-tab active" onclick="selectCategory('all', this)">Senin İçin</button>
+      <button class="cat-tab" onclick="selectCategory('gundem', this)">Gündem</button>
+      <button class="cat-tab" onclick="selectCategory('teknoloji', this)">Teknoloji</button>
+      <button class="cat-tab" onclick="selectCategory('bilim', this)">Bilim</button>
+      <button class="cat-tab" onclick="selectCategory('oyun', this)">Ücretsiz Oyun</button>
+    </div>
+
+    <!-- YAPAY ZEKA ÖZETİ -->
+    <div class="ai-briefing" id="aiBriefingCard">
+      <div class="ai-header">
+        <div class="ai-icon">✨</div><div class="ai-title">Günün Analizi</div><div class="ai-badge">RADAR AI</div>
+      </div>
+      <div class="ai-tabs">
+        <button class="ai-tab active" onclick="switchBriefing('genel', this)">Günün Özeti</button>
+        <button class="ai-tab" onclick="switchBriefing('teknoloji', this)">Teknoloji</button>
+        <button class="ai-tab" onclick="switchBriefing('ekonomi', this)">Ekonomi</button>
+      </div>
+      <div class="ai-content" id="aiBriefingContent">Yapay zeka analiz ediyor...</div>
+    </div>
+
+    <!-- HABER AKIŞI -->
+    <div class="feed-grid" id="newsGrid">
+      <div class="status-msg" style="text-align:center; padding:20px;">Haberler yükleniyor... 📡</div>
+    </div>
+  </main>
+
+  <!-- SAĞ PANEL (PC) -->
+  <aside class="right-panel">
+    <!-- Piyasalar Widget'ı -->
+    <div class="widget">
+      <div class="widget-header">
+        <span>📈 Piyasalar</span>
+        <span style="color:var(--accent); font-size:12px;">Tümünü Gör</span>
+      </div>
+      <div id="marketWidgetContent"></div>
+    </div>
+
+    <!-- Hava Durumu Widget'ı -->
+    <div class="widget">
+      <div class="widget-header">
+        <span>☀️ Hava Durumu</span>
+      </div>
+      <div id="weatherWidgetContent">
+        <!-- JS ile doldurulacak -->
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- MOBİL ALT MENÜ -->
+<nav class="bottom-nav">
+  <div class="bn-item active" onclick="selectCategory('all', this)">
+    <div class="bn-icon">🏠</div>
+    <div>Ana Sayfa</div>
   </div>
-</div>
+  <div class="bn-item" onclick="selectCategory('gundem', this)">
+    <div class="bn-icon">🔥</div>
+    <div>Gündem</div>
+  </div>
+  <div class="bn-item" onclick="selectCategory('teknoloji', this)">
+    <div class="bn-icon">💻</div>
+    <div>Teknoloji</div>
+  </div>
+  <div class="bn-item" onclick="openSettings()">
+    <div class="bn-icon">⚙️</div>
+    <div>Ayarlar</div>
+  </div>
+</nav>
 
-<div class="bottom-nav">
-  <div class="bn-item active" id="bn-news" onclick="switchView('news', this)"><div class="bn-icon">📰</div><div>Gündem</div></div>
-  <div class="bn-item" id="bn-market" onclick="switchView('market', this)"><div class="bn-icon">📈</div><div>Piyasalar</div></div>
-  <div class="bn-item" onclick="openSettings()"><div class="bn-icon">⚙️</div><div>Ayarlar</div></div>
-</div>
-
+<!-- MODALLAR -->
 <div class="modal-overlay" id="newsModal">
   <div class="modal-content">
     <button class="modal-close" onclick="closeModal('newsModal')">✕</button>
-    <div class="modal-header">
-      <div class="modal-title" id="modalTitle"></div>
-      <div class="modal-meta" id="modalMeta"></div>
-    </div>
+    <div class="modal-title" id="modalTitle"></div>
+    <div class="modal-meta" id="modalMeta"></div>
     <div class="modal-body" id="modalBody"></div>
     <a href="#" class="modal-link" id="modalLink" target="_blank">Haberi Kaynağında Oku ↗</a>
   </div>
@@ -326,41 +340,35 @@
 <div class="modal-overlay" id="settingsModal">
   <div class="modal-content">
     <button class="modal-close" onclick="closeModal('settingsModal')">✕</button>
-    <div class="modal-header">
-      <div class="modal-title">Kişiselleştir</div>
-      <div class="modal-meta">İlgilendiğin kategorileri seç, sadece onları gör.</div>
-    </div>
+    <div class="modal-title">İlgi Alanlarını Seç</div>
     <div class="pref-list" id="prefList"></div>
     <button class="btn-save" onclick="savePreferences()">Tercihleri Kaydet</button>
   </div>
 </div>
 
 <script>
-// 🚀 PASTEL RENK PALETİ
+// 🚀 RENK PALETİ (Görseldeki pastel tonlar)
 const SOURCE_COLORS = {
-  "webtekno": "#BFDBFE", "shiftdelete": "#FED7AA", "donanimhaber": "#FDE68A",
-  "bbc": "#FECACA", "ntv": "#FECACA", "sozcu": "#FECACA", "hurriyet": "#FDE68A",
-  "milliyet": "#FDE68A", "cnnturk": "#BFDBFE", "mhahaber": "#FBCFE8",
-  "aa": "#A7F3D0", "trt": "#A7F3D0", "haberturk": "#FED7AA", "dw": "#DDD6FE"
+  "webtekno": "#DBEAFE", "shiftdelete": "#FFEDD5", "donanimhaber": "#FEF3C7",
+  "bbc": "#FCE7F3", "ntv": "#FCE7F3", "sozcu": "#FCE7F3", "hurriyet": "#FEF3C7",
+  "milliyet": "#FEF3C7", "cnnturk": "#DBEAFE", "mhahaber": "#E0E7FF",
+  "aa": "#D1FAE5", "trt": "#D1FAE5", "haberturk": "#FFEDD5", "dw": "#EDE9FE"
 };
-// Eşleşmeyenler için pastel tonlar
-const FALLBACK_COLORS = ["#BFDBFE", "#FED7AA", "#FDE68A", "#FECACA", "#A7F3D0", "#DDD6FE", "#FBCFE8"];
+const FALLBACK_COLORS = ["#DBEAFE", "#FFEDD5", "#FEF3C7", "#FCE7F3", "#D1FAE5", "#EDE9FE"];
 
 function getSourceColor(source) {
   if (!source) return "#F1F5F9";
   const s = source.toLowerCase().replace(/[^a-z0-9]/g, '');
-  for (const key in SOURCE_COLORS) {
-    if (s.includes(key)) return SOURCE_COLORS[key];
-  }
+  for (const key in SOURCE_COLORS) { if (s.includes(key)) return SOURCE_COLORS[key]; }
   let hash = 0;
   for (let i = 0; i < s.length; i++) hash = s.charCodeAt(i) + ((hash << 5) - hash);
   return FALLBACK_COLORS[Math.abs(hash) % FALLBACK_COLORS.length];
 }
 
 const CATEGORIES = {
-  teknoloji: { label: 'Teknoloji', color: '#06b6d4' }, bilim: { label: 'Bilim', color: '#10b981' },
-  sanat: { label: 'Sanat', color: '#f59e0b' }, oyun: { label: 'Ücretsiz Oyun', color: '#ef4444' },
-  doga: { label: 'Doğa', color: '#84cc16' }, dunya: { label: 'Dünya', color: '#8b5cf6' },
+  teknoloji: { label: 'Teknoloji', color: '#3B82F6' }, bilim: { label: 'Bilim', color: '#10B981' },
+  sanat: { label: 'Sanat', color: '#F59E0B' }, oyun: { label: 'Ücretsiz Oyun', color: '#EF4444' },
+  doga: { label: 'Doğa', color: '#84CC16' }, dunya: { label: 'Dünya', color: '#8B5CF6' },
   gundem: { label: 'Gündem', color: '#64748B' }
 };
 
@@ -373,16 +381,6 @@ let marketData = null, stocksData = null, cryptoData = null;
 let briefingsData = {}, currentBriefingTab = 'genel';
 let userPrefs = JSON.parse(localStorage.getItem('radar_prefs')) || null; 
 
-function calculateUserInterests() {
-  let interestScores = {};
-  Object.keys(CATEGORIES).forEach(id => interestScores[id] = 0);
-  readLinks.forEach(link => {
-    const item = allNews.find(n => n.link === link);
-    if (item && interestScores[item.catId] !== undefined) interestScores[item.catId] += 1;
-  });
-  return interestScores;
-}
-
 function esc(str) {
   if(!str) return '';
   return String(str).replace(/[&<>"']/g, function(m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]; });
@@ -390,95 +388,50 @@ function esc(str) {
 
 function timeAgo(dateStr) {
   const d = new Date(dateStr);
-  if (isNaN(d)) return 'Bilinmiyor';
+  if (isNaN(d)) return 'Az önce';
   const diff = (Date.now() - d.getTime()) / 60000;
-  
-  if (diff < 0) return 'Az önce'; 
+  if (diff < 0) return 'Az önce';
   if (diff < 60) return Math.round(diff) + ' dk önce';
   if (diff < 1440) return Math.round(diff / 60) + ' sa önce';
   return Math.round(diff / 1440) + ' gün önce';
 }
 
-function switchView(viewName, el) {
-  document.getElementById('nav-news').classList.remove('active');
-  document.getElementById('nav-market').classList.remove('active');
-  if(el && el.id === 'nav-news') el.classList.add('active');
-  if(el && el.id === 'nav-market') el.classList.add('active');
-
-  document.getElementById('bn-news').classList.remove('active');
-  document.getElementById('bn-market').classList.remove('active');
-  if(el && el.id === 'bn-news') el.classList.add('active');
-  if(el && el.id === 'bn-market') el.classList.add('active');
-
-  document.querySelectorAll('.view-section').forEach(v => v.classList.remove('active'));
-  document.getElementById('view-' + viewName).classList.add('active');
-
-  if(viewName === 'news') {
-    const activeMobCat = document.querySelector('.mob-cat-item.active');
-    if (activeMobCat) selectCategory(activeMobCat.dataset.id, activeMobCat);
-    else selectCategory('all', null);
-  }
-  if(viewName === 'market') setTimeout(() => { renderMarketCharts(); }, 50);
-}
-
-function startClock() {
-  function tick() {
-    const now = new Date();
-    document.getElementById('clockTime').textContent = now.toLocaleTimeString('tr-TR', {hour: '2-digit', minute:'2-digit'});
-    document.getElementById('clockDate').textContent = now.toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' });
-    const hour = now.getHours();
-    let greet = "İyi Geceler";
-    if (hour >= 5 && hour < 12) greet = "Günaydın";
-    else if (hour >= 12 && hour < 18) greet = "İyi Günler";
-    else if (hour >= 18 && hour < 22) greet = "İyi Akşamlar";
-    document.getElementById('greetingText').textContent = greet + " 👋";
-  }
-  tick(); setInterval(tick, 1000);
-}
-
-function initCategories() {
-  const pcContainer = document.getElementById('pc-categories-container');
-  const mobileContainer = document.getElementById('mobile-categories-container');
-  pcContainer.innerHTML = `<div class="nav-item active" data-id="all" onclick="selectCategory('all', this)"><div class="nav-dot" style="background:var(--text-main); box-shadow:0 0 5px rgba(0,0,0,0.2)"></div> <span class="nav-text">Tümü</span></div>`;
-  mobileContainer.innerHTML = '';
-
-  const mobAll = document.createElement('div');
-  mobAll.className = 'mob-cat-item active'; mobAll.dataset.id = 'all'; mobAll.textContent = 'Tümü';
-  mobAll.onclick = () => selectCategory('all', mobAll);
-  mobileContainer.appendChild(mobAll);
-
-  Object.keys(CATEGORIES).forEach(id => {
-    if (userPrefs && userPrefs.length > 0 && !userPrefs.includes(id)) return;
-    const cat = CATEGORIES[id];
-    
-    const elPc = document.createElement('div');
-    elPc.className = 'nav-item'; elPc.dataset.id = id;
-    elPc.innerHTML = `<div class="nav-dot" style="background:${cat.color}; color:${cat.color}"></div> <span class="nav-text">${cat.label}</span>`;
-    elPc.onclick = () => { switchView('news', document.getElementById('nav-news')); selectCategory(id, elPc); };
-    pcContainer.appendChild(elPc);
-
-    const elMob = document.createElement('div');
-    elMob.className = 'mob-cat-item'; elMob.dataset.id = id; elMob.textContent = cat.label;
-    elMob.onclick = () => { switchView('news', document.getElementById('bn-news')); selectCategory(id, elMob); };
-    mobileContainer.appendChild(elMob);
-  });
-}
-
+// PC ve Mobil Menüleri Senkronize Etme
 function selectCategory(id, el) {
-  document.querySelectorAll('#pc-categories-container .nav-item').forEach(n => n.classList.remove('active'));
-  if (el && el.classList.contains('nav-item')) el.classList.add('active');
-  else if (id === 'all') document.querySelector('#pc-categories-container .nav-item[data-id="all"]').classList.add('active');
-
-  document.querySelectorAll('.mob-cat-item').forEach(n => n.classList.remove('active'));
-  if (el && el.classList.contains('mob-cat-item')) el.classList.add('active');
+  activeCat = id;
+  
+  // Tab'ları güncelle
+  document.querySelectorAll('.cat-tab').forEach(t => t.classList.remove('active'));
+  if(el && el.classList.contains('cat-tab')) el.classList.add('active');
   else {
-    const mobEl = document.querySelector(`.mob-cat-item[data-id="${id}"]`);
-    if (mobEl) mobEl.classList.add('active');
-    else document.querySelector('.mob-cat-item').classList.add('active');
+    // Eğer sidebar veya bottom nav'dan tıklandıysa, üstteki tab'ı da aktif et
+    const tabIndex = { 'all':0, 'gundem':1, 'teknoloji':2, 'bilim':3, 'oyun':4 }[id];
+    if(tabIndex !== undefined && document.querySelectorAll('.cat-tab')[tabIndex]) {
+      document.querySelectorAll('.cat-tab')[tabIndex].classList.add('active');
+    }
   }
 
-  activeCat = id;
-  let title = (id === 'all') ? ((userPrefs && userPrefs.length > 0) ? "Kişisel Akış" : "Akıllı Akış") : CATEGORIES[id].label + " Akışı";
+  // Sidebar (PC) aktifliği
+  document.querySelectorAll('.sidebar .nav-item').forEach(n => n.classList.remove('active'));
+  if (el && el.classList.contains('nav-item')) el.classList.add('active');
+  else {
+    const pcIndex = { 'all':0, 'gundem':1, 'teknoloji':2, 'oyun':3 }[id];
+    if(pcIndex !== undefined && document.querySelectorAll('.sidebar .nav-item')[pcIndex]) {
+      document.querySelectorAll('.sidebar .nav-item')[pcIndex].classList.add('active');
+    }
+  }
+
+  // Bottom Nav (Mobil) aktifliği
+  document.querySelectorAll('.bn-item').forEach(n => n.classList.remove('active'));
+  if (el && el.classList.contains('bn-item')) el.classList.add('active');
+  else {
+    const mobIndex = { 'all':0, 'gundem':1, 'teknoloji':2 }[id];
+    if(mobIndex !== undefined && document.querySelectorAll('.bn-item')[mobIndex]) {
+      document.querySelectorAll('.bn-item')[mobIndex].classList.add('active');
+    }
+  }
+
+  let title = (id === 'all') ? "Keşfet" : CATEGORIES[id].label;
   document.getElementById('feedTitle').textContent = title;
   
   document.getElementById('aiBriefingCard').style.display = (id === 'all') ? 'block' : 'none';
@@ -497,164 +450,70 @@ function renderNews() {
   }
 
   if (filtered.length === 0) {
-    grid.innerHTML = '<div class="status-msg">Burada gösterilecek haber bulunamadı.</div>';
+    grid.innerHTML = '<div style="text-align:center; padding:20px; color:#64748B; font-weight:600;">Burada gösterilecek haber bulunamadı.</div>';
     return;
   }
 
-  const interests = calculateUserInterests();
-  let sortedNews = [...filtered];
-
-  sortedNews.sort((a, b) => {
-    const ageScoreA = - (Date.now() - new Date(a.pubDate).getTime()) / (1000 * 60 * 60) * 5;
-    const ageScoreB = - (Date.now() - new Date(b.pubDate).getTime()) / (1000 * 60 * 60) * 5;
-    return (ageScoreB + (interests[b.catId] || 0) * 50) - (ageScoreA + (interests[a.catId] || 0) * 50);
-  });
+  // Tarihe göre sırala
+  let sortedNews = [...filtered].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
   sortedNews.forEach(item => {
     const cat = CATEGORIES[item.catId] || { label: 'Haber', color: '#64748B' };
     const isRead = readLinks.has(item.link);
     const isLiked = likedLinks.has(item.link);
-    const sourceColor = getSourceColor(item.source); // Pastel rengi al
+    const sourceColor = getSourceColor(item.source); 
     
-    // 🚀 KARTI KOMPLE PASTEL RENGE BÜRÜNDÜRME
-    const card = document.createElement('div');
-    card.className = 'news-card' + (isRead ? ' read' : '');
-    card.style.backgroundColor = sourceColor; // Kartın arka planı pastel renk
-    
-    let snippetHtml = `<div class="card-snippet">${esc(item.summary) || 'Özet hazırlanıyor...'}</div>`;
-    if (item.summary && item.summary.includes("tam metnine ulaşılamadı")) {
-      snippetHtml = `<div class="card-snippet warning">⚠️ ${esc(item.summary)}</div>`;
+    let imgHtml = '';
+    if (item.image) {
+      imgHtml = `<img src="${esc(item.image)}" class="card-image" onerror="this.style.display='none'">`;
     }
 
+    const card = document.createElement('div');
+    card.className = 'news-card';
+    card.style.backgroundColor = sourceColor; 
+    if(isRead) card.style.opacity = '0.6';
+    
+    let snippetText = item.summary || 'Özet hazırlanıyor...';
+    let isWarning = snippetText.includes("tam metnine ulaşılamadı");
+    
     card.innerHTML = `
-      <div class="card-header">
-        <div class="card-meta">
-          <div class="card-cat">
-            ${esc(cat.label)}
+      <div class="card-content">
+        <div>
+          <div class="card-source-badge">
+            <div class="source-logo" style="background:${cat.color}"></div>
+            ${esc(item.source)}
           </div>
-          <div class="card-source" style="background:rgba(0,0,0,0.2);">${esc(item.source)}</div>
+          <div class="card-title">${esc(item.title)}</div>
+          <div class="card-snippet ${isWarning ? 'warning' : ''}">${esc(snippetText)}</div>
         </div>
-        <div>${timeAgo(item.pubDate)}</div>
+        <div class="card-footer">
+          <div>${timeAgo(item.pubDate)}</div>
+          <button class="like-btn ${isLiked ? 'liked' : ''}" onclick="event.stopPropagation(); toggleLike('${esc(item.link)}', this)">
+            ${isLiked ? '♥ Beğenildi' : '♡ Beğen'}
+          </button>
+        </div>
       </div>
-      <div class="card-title">${esc(item.title)}</div>
-      ${snippetHtml}
-      <div class="card-actions">
-        <button class="action-btn like-btn ${isLiked ? 'liked' : ''}" onclick="event.stopPropagation(); toggleLike('${esc(item.link)}', this)">
-          ${isLiked ? '♥' : '♡'}
-        </button>
-      </div>
+      ${imgHtml}
     `;
     card.onclick = () => openModal(item, cat);
     grid.appendChild(card);
   });
 }
 
-function switchBriefing(tabId, btn) {
-  currentBriefingTab = tabId;
-  document.querySelectorAll('.ai-tab').forEach(t => t.classList.remove('active'));
-  if(btn) btn.classList.add('active');
-  renderAIBriefing();
-}
-
-function renderAIBriefing() {
-  const container = document.getElementById('aiBriefingContent');
-  let text = "";
-
-  if (currentBriefingTab === 'genel') {
-    if (briefingsData && briefingsData.genel) {
-      text = briefingsData.genel;
-    } else {
-      if (!allNews || allNews.length === 0) { container.innerHTML = 'Analiz edilecek haber yok.'; return; }
-      const topNews = allNews.slice(0, 3);
-      let html = '<ul>';
-      topNews.forEach(n => { html += `<li><strong>${esc(n.title)}</strong></li>`; });
-      html += '</ul>';
-      container.innerHTML = html;
-      return;
-    }
-  } else {
-    text = briefingsData[currentBriefingTab] || "Bu kategori için henüz analiz hazırlanmadı. Lütfen biraz sonra tekrar deneyin.";
-  }
-
-  const interests = calculateUserInterests();
-  const topInterestId = Object.keys(interests).reduce((a, b) => interests[a] > interests[b] ? a : b, null);
-  
-  let prefix = "";
-  if (topInterestId && interests[topInterestId] > 2 && currentBriefingTab === 'genel') {
-    prefix = `<span style="color:var(--accent); font-weight:700; display:block; margin-bottom:8px; font-size:13px;">💡 Okuma alışkanlıklarına göre en çok <b>${CATEGORIES[topInterestId].label}</b> haberleriyle ilgileniyorsun:</span>`;
-  }
-
-  container.innerHTML = `<p>${prefix}${esc(text)}</p>`;
-}
-
 function openModal(item, cat) {
   readLinks.add(item.link);
   localStorage.setItem('radar_read', JSON.stringify(Array.from(readLinks)));
   document.getElementById('modalTitle').textContent = item.title;
-  document.getElementById('modalMeta').innerHTML = `<span style="color:${cat.color}; font-weight:800;">${esc(cat.label)}</span><span>•</span><span>${esc(item.source)}</span><span>•</span><span>${timeAgo(item.pubDate)}</span>`;
+  document.getElementById('modalMeta').innerHTML = `<span style="color:${cat.color};">${esc(cat.label)}</span><span>•</span><span>${esc(item.source)}</span><span>•</span><span>${timeAgo(item.pubDate)}</span>`;
   document.getElementById('modalBody').textContent = item.summary || item.snippet || 'Detaylı özet hazırlanmadı.';
   document.getElementById('modalLink').href = item.link;
   document.getElementById('newsModal').classList.add('active');
   renderNews(); 
 }
 
-function openSettings() {
-  const list = document.getElementById('prefList');
-  list.innerHTML = '';
-  
-  Object.keys(CATEGORIES).forEach(id => {
-    const cat = CATEGORIES[id];
-    const isSelected = !userPrefs || userPrefs.includes(id);
-    
-    const el = document.createElement('div');
-    el.className = 'pref-item' + (isSelected ? ' selected' : '');
-    el.dataset.id = id;
-    
-    el.innerHTML = `
-      <div class="pref-label">
-        <div class="pref-dot" style="background:${cat.color}"></div>
-        ${cat.label}
-      </div>
-      <div class="checkbox-custom"></div>
-    `;
-    
-    el.onclick = () => { el.classList.toggle('selected'); };
-    list.appendChild(el);
-  });
-  
-  document.getElementById('settingsModal').classList.add('active');
-}
-
-function savePreferences() {
-  const selectedIds = [];
-  document.querySelectorAll('.pref-item.selected').forEach(el => { selectedIds.push(el.dataset.id); });
-  
-  if (selectedIds.length === Object.keys(CATEGORIES).length) {
-    userPrefs = null;
-    localStorage.removeItem('radar_prefs');
-  } else {
-    userPrefs = selectedIds;
-    localStorage.setItem('radar_prefs', JSON.stringify(userPrefs));
-  }
-  
-  closeModal('settingsModal');
-  initCategories();
-  
-  if (activeCat !== 'all' && !selectedIds.includes(activeCat) && userPrefs) {
-    selectCategory('all', null);
-  } else {
-    renderNews();
-  }
-}
-
-function closeModal(modalId) { document.getElementById(modalId).classList.remove('active'); }
-
-document.getElementById('newsModal').addEventListener('click', (e) => { if (e.target.id === 'newsModal') closeModal('newsModal'); });
-document.getElementById('settingsModal').addEventListener('click', (e) => { if (e.target.id === 'settingsModal') closeModal('settingsModal'); });
-
 function toggleLike(link, btn) {
-  if (likedLinks.has(link)) { likedLinks.delete(link); btn.classList.remove('liked'); btn.textContent = '♡'; } 
-  else { likedLinks.add(link); btn.classList.add('liked'); btn.textContent = '♥'; }
+  if (likedLinks.has(link)) { likedLinks.delete(link); btn.classList.remove('liked'); btn.innerHTML = '♡ Beğen'; } 
+  else { likedLinks.add(link); btn.classList.add('liked'); btn.innerHTML = '♥ Beğenildi'; }
   localStorage.setItem('radar_liked', JSON.stringify(Array.from(likedLinks)));
 }
 
@@ -671,111 +530,102 @@ async function loadData() {
 
     renderNews();
     renderAIBriefing();
-    renderMarketView(); 
-    renderWeatherHeader(data.weather); 
+    renderWidgets(data.weather); 
     
   } catch (e) {
-    document.getElementById('newsGrid').innerHTML = `<div class="status-msg">Bağlantı hatası: ${e.message}</div>`;
+    document.getElementById('newsGrid').innerHTML = `<div style="text-align:center; color:red;">Bağlantı hatası: ${e.message}</div>`;
   }
 }
 
-function renderWeatherHeader(weather) {
-  if (!weather || weather.temp == null) return;
-  document.getElementById('weatherText').textContent = `${Math.round(weather.temp)}°C · ${weather.desc} (Çorlu)`;
-}
-
-function renderMarketView() {
-  const grid = document.getElementById('marketGrid');
-  const totalEl = document.getElementById('marketTotal');
-  
-  if (!marketData && (!stocksData || stocksData.length === 0)) {
-    grid.innerHTML = '<div class="status-msg">Piyasa verisi yüklenemedi.</div>';
-    return;
-  }
-
-  if (marketData && marketData.ceyrek_altin_try) {
-    totalEl.textContent = `₺${marketData.ceyrek_altin_try.toLocaleString('tr-TR')}`;
-  } else if (marketData && marketData.gold_gram_try) {
-    totalEl.textContent = `₺${marketData.gold_gram_try.toLocaleString('tr-TR')}`;
-  }
-
-  let html = '';
-  const cards = [];
-  const colors = ['mc-purple', 'mc-orange', 'mc-red', 'mc-cyan', 'mc-green'];
-  let colorIdx = 0;
-
+// --- WIDGET'LARI DOLDURMA ---
+function renderWidgets(weather) {
+  // Piyasalar
+  const mContainer = document.getElementById('marketWidgetContent');
+  let mHtml = '';
   if (marketData) {
-    if (marketData.usdtry) cards.push({ label: 'USD / TRY', price: marketData.usdtry, change: 0.4, icon: '$' });
-    if (marketData.eurtry) cards.push({ label: 'EUR / TRY', price: marketData.eurtry, change: -0.2, icon: '€' });
-    if (marketData.gold_gram_try) cards.push({ label: 'Gram Altın', price: marketData.gold_gram_try, change: 1.2, icon: '🪙' });
-    if (marketData.ceyrek_altin_try) cards.push({ label: 'Çeyrek Altın', price: marketData.ceyrek_altin_try, change: 1.1, icon: '🥇' });
+    if(marketData.usdtry) mHtml += `<div class="market-item"><div class="market-info"><span class="market-name">USD/TRY</span></div><div><div class="market-val">${marketData.usdtry.toFixed(2)}</div><div class="market-pct pct-up">+0.4%</div></div></div>`;
+    if(marketData.ceyrek_altin_try) mHtml += `<div class="market-item"><div class="market-info"><span class="market-name">Çeyrek Altın</span></div><div><div class="market-val">${marketData.ceyrek_altin_try.toLocaleString('tr-TR')}</div><div class="market-pct pct-up">+1.1%</div></div></div>`;
   }
-  if (cryptoData && cryptoData.length > 0) {
-    cryptoData.forEach(c => { if (c.price) cards.push({ label: c.label, price: c.price, change: c.change_pct || 0, icon: '₿' }); });
+  if(cryptoData) {
+    cryptoData.forEach(c => {
+      const pctClass = c.change_pct >= 0 ? 'pct-up' : 'pct-down';
+      const sign = c.change_pct >= 0 ? '+' : '';
+      mHtml += `<div class="market-item"><div class="market-info"><span class="market-name">${c.label}</span></div><div><div class="market-val">${c.price.toLocaleString('tr-TR')}</div><div class="market-pct ${pctClass}">${sign}${c.change_pct.toFixed(2)}%</div></div></div>`;
+    });
   }
   if (stocksData) {
-    stocksData.forEach(s => { if (s.price != null) cards.push({ label: s.label, price: s.price, change: s.change_pct || 0, icon: '📈' }); });
+    stocksData.slice(0,3).forEach(s => {
+      const pctClass = s.change_pct >= 0 ? 'pct-up' : 'pct-down';
+      const sign = s.change_pct >= 0 ? '+' : '';
+      mHtml += `<div class="market-item"><div class="market-info"><span class="market-name">${s.label}</span></div><div><div class="market-val">${s.price.toLocaleString('tr-TR')}</div><div class="market-pct ${pctClass}">${sign}${s.change_pct.toFixed(2)}%</div></div></div>`;
+    });
   }
+  mContainer.innerHTML = mHtml;
 
-  cards.forEach((c, index) => {
-    const isUp = c.change >= 0;
-    const sign = isUp ? '+' : '';
-    const arrow = isUp ? '▲' : '▼';
-    const colorClass = colors[colorIdx % colors.length];
-    colorIdx++;
-    
-    html += `
-      <div class="market-card ${colorClass}">
-        <div class="mc-header">
-          <div class="mc-label">${esc(c.label)}</div>
-          <div class="mc-icon">${c.icon}</div>
-        </div>
-        <div class="mc-price">${c.price.toLocaleString('tr-TR', {minimumFractionDigits: 2})}</div>
-        <div class="mc-change">${arrow} ${sign}${c.change.toFixed(2)}%</div>
-        <div class="mc-chart-container"><canvas id="chart-${index}"></canvas></div>
+  // Hava Durumu
+  const wContainer = document.getElementById('weatherWidgetContent');
+  if (weather) {
+    wContainer.innerHTML = `
+      <div class="weather-temp">${Math.round(weather.temp)}°C</div>
+      <div class="weather-desc">${weather.desc} · Çorlu</div>
+      <div class="weather-forecast">
+        <div class="wf-day">Pzt<div class="wf-icon">☀️</div>24°</div>
+        <div class="wf-day">Sal<div class="wf-icon">☁️</div>22°</div>
+        <div class="wf-day">Çar<div class="wf-icon">🌧️</div>19°</div>
+        <div class="wf-day">Per<div class="wf-icon">☀️</div>25°</div>
+        <div class="wf-day">Cum<div class="wf-icon">☀️</div>26°</div>
       </div>
     `;
-  });
-  grid.innerHTML = html;
+  }
 }
 
-function renderMarketCharts() {
-  const cards = document.querySelectorAll('.market-card');
-  cards.forEach((card, i) => {
-    const canvas = card.querySelector('canvas');
-    if (!canvas) return;
-    const basePrice = parseFloat(card.querySelector('.mc-price').textContent.replace(/\./g, '').replace(',', '.'));
-    const dataPoints = [];
-    let current = basePrice * 0.98;
-    for (let j = 0; j < 20; j++) { current = current + (Math.random() - 0.45) * (basePrice * 0.01); dataPoints.push(current); }
-    dataPoints.push(basePrice);
-
-    const ctx = canvas.getContext('2d');
-    new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: Array(21).fill(''),
-        datasets: [{
-          data: dataPoints,
-          borderColor: 'rgba(255, 255, 255, 0.8)',
-          borderWidth: 2, pointRadius: 0, tension: 0.4, fill: true,
-          backgroundColor: (context) => {
-            const gradient = ctx.createLinearGradient(0, 0, 0, 50);
-            gradient.addColorStop(0, 'rgba(255, 255, 255, 0.3)');
-            gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
-            return gradient;
-          }
-        }]
-      },
-      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { enabled: false } }, scales: { x: { display: false }, y: { display: false } }, animation: { duration: 1500 } }
-    });
-  });
+// Yapay Zeka Analizi
+function switchBriefing(tabId, btn) {
+  currentBriefingTab = tabId;
+  document.querySelectorAll('.ai-tab').forEach(t => t.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  renderAIBriefing();
 }
 
+function renderAIBriefing() {
+  const container = document.getElementById('aiBriefingContent');
+  let text = briefingsData[currentBriefingTab] || "Analiz hazırlanamadı.";
+  container.innerHTML = `<p>${esc(text)}</p>`;
+}
+
+// Ayarlar
+function openSettings() {
+  const list = document.getElementById('prefList');
+  list.innerHTML = '';
+  Object.keys(CATEGORIES).forEach(id => {
+    const cat = CATEGORIES[id];
+    const isSelected = !userPrefs || userPrefs.includes(id);
+    const el = document.createElement('div');
+    el.className = 'pref-item' + (isSelected ? ' selected' : '');
+    el.dataset.id = id;
+    el.innerHTML = `<div class="pref-label"><div style="width:10px; height:10px; border-radius:50%; background:${cat.color}"></div>${cat.label}</div><div class="checkbox-custom"></div>`;
+    el.onclick = () => el.classList.toggle('selected');
+    list.appendChild(el);
+  });
+  document.getElementById('settingsModal').classList.add('active');
+}
+
+function savePreferences() {
+  const selectedIds = [];
+  document.querySelectorAll('.pref-item.selected').forEach(el => selectedIds.push(el.dataset.id));
+  if (selectedIds.length === Object.keys(CATEGORIES).length) { userPrefs = null; localStorage.removeItem('radar_prefs'); } 
+  else { userPrefs = selectedIds; localStorage.setItem('radar_prefs', JSON.stringify(userPrefs)); }
+  closeModal('settingsModal');
+  if (activeCat !== 'all' && !selectedIds.includes(activeCat) && userPrefs) selectCategory('all', null);
+  else renderNews();
+}
+
+function closeModal(modalId) { document.getElementById(modalId).classList.remove('active'); }
+document.getElementById('newsModal').addEventListener('click', (e) => { if (e.target.id === 'newsModal') closeModal('newsModal'); });
+document.getElementById('settingsModal').addEventListener('click', (e) => { if (e.target.id === 'settingsModal') closeModal('settingsModal'); });
 document.getElementById('searchInput').addEventListener('input', (e) => { searchQ = e.target.value.trim(); renderNews(); });
 
-startClock();
-initCategories();
+// Başlat
 loadData();
 setInterval(loadData, 5 * 60 * 1000);
 </script>

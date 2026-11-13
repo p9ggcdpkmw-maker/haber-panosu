@@ -373,21 +373,23 @@
       <button class="btn-danger" onclick="clearHistory()">Tüm Okunan ve Beğenilenleri Sıfırla</button>
     </div>
 
-    <!-- Bildirim Bilgilendirmesi -->
+ <!-- Bildirim Bilgilendirmesi ve Dinamik Kanallar -->
     <div class="settings-section">
-      <div class="settings-title">Akıllı Bildirimler</div>
-      <div class="ntfy-info">
-        <b>📱 Nasıl Bildirim Alırım?</b><br>
-        Telefonunuza <b>ntfy</b> uygulamasını indirin. Uygulamada "Subscribe to topic" kısmına aşağıdaki kanal adını yazarak abone olun:
-        <br><br>
-        <b>Oyun Fırsatları İçin:</b> <a href="https://ntfy.sh/radar-oyun" target="_blank">radar-oyun</a><br>
-        <b>Piyasa Alarmı İçin:</b> <a href="https://ntfy.sh/radar-piyasa" target="_blank">radar-piyasa</a><br>
-        <b>Genel Haberler İçin:</b> <a href="https://ntfy.sh/radar-haberler" target="_blank">radar-haberler</a>
+      <div class="settings-title">Akıllı Bildirimler (Abonelik)</div>
+      <div class="ntfy-info" style="background:transparent; padding:0;">
+        <p style="margin-bottom:12px; font-weight:600; font-size:14px;">Telefonunuza <b>ntfy</b> uygulamasını indirin. Aşağıdaki kanallardan sadece ilginizi çekenlere abone olun. Sadece o kategoride yeni haber çıktığında telefonunuz çalar:</p>
+        
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+          <a href="https://ntfy.sh/radar-teknoloji" target="_blank" style="background:#DBEAFE; color:#1E3A8A; padding:10px; border-radius:8px; text-decoration:none; text-align:center; font-weight:700; font-size:13px;">💻 Teknoloji</a>
+          <a href="https://ntfy.sh/radar-gundem" target="_blank" style="background:#FCE7F3; color:#831843; padding:10px; border-radius:8px; text-decoration:none; text-align:center; font-weight:700; font-size:13px;">🔥 Gündem</a>
+          <a href="https://ntfy.sh/radar-bilim" target="_blank" style="background:#D1FAE5; color:#064E3B; padding:10px; border-radius:8px; text-decoration:none; text-align:center; font-weight:700; font-size:13px;">🔬 Bilim</a>
+          <a href="https://ntfy.sh/radar-oyun" target="_blank" style="background:#FFEDD5; color:#7C2D12; padding:10px; border-radius:8px; text-decoration:none; text-align:center; font-weight:700; font-size:13px;">🎮 Ücretsiz Oyun</a>
+          <a href="https://ntfy.sh/radar-piyasa" target="_blank" style="background:#FEF3C7; color:#78350F; padding:10px; border-radius:8px; text-decoration:none; text-align:center; font-weight:700; font-size:13px;">📈 Piyasa Alarmı</a>
+          <a href="https://ntfy.sh/radar-haberler" target="_blank" style="background:#E0E7FF; color:#3730A3; padding:10px; border-radius:8px; text-decoration:none; text-align:center; font-weight:700; font-size:13px;">📰 Tüm Haberler</a>
+        </div>
+        <p style="margin-top:12px; font-size:11px; color:var(--text-muted);">* Linke tıkladığınızda ntfy uygulaması açılır ve abonelik isteği gönderir.</p>
       </div>
     </div>
-  </div>
-</div>
-
 <script>
 // RENKLER VE KATEGORİLER
 const SOURCE_COLORS = {

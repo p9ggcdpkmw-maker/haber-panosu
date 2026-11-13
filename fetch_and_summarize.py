@@ -15,11 +15,11 @@ from bs4 import BeautifulSoup
 
 # --- YAPILANDIRMA ---
 FREELMAPI_KEY = os.environ.get("FREELMAPI_KEY")
-FREELMAPI_MODEL = "groq/openai/gpt-oss-120b" # Groq'u birincil, Gemini'yi yedek yapacak
-    print("HATA: GROQ_API_KEY bulunamadı!", file=sys.stderr)
+if not FREELMAPI_KEY:
+    print("HATA: FREELMAPI_KEY bulunamadı!", file=sys.stderr)
     sys.exit(1)
 
-GROQ_MODEL = "openai/gpt-oss-120b"
+FREELMAPI_MODEL = "groq/openai/gpt-oss-120b" # Groq'u birincil, Gemini'yi yedek yapacak
 
 CATEGORIES = [
     {"id": "teknoloji", "label": "Teknoloji", "feeds": ["http://www.webtekno.com/rss.xml", "https://shiftdelete.net/feed", "https://www.donanimhaber.com/rss/tum/"]},

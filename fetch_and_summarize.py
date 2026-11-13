@@ -21,7 +21,7 @@ if not GROQ_API_KEY:
 GROQ_MODEL = "openai/gpt-oss-120b"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
-# --- DOĞRUDAN RSS KAYNAKLARI ---
+# --- DOĞRUDAN RSS KAYNAKLARI (ÇORLU GÜNDEM'E EKLENDİ) ---
 CATEGORIES = [
     {
         "id": "teknoloji", "label": "Teknoloji",
@@ -49,17 +49,13 @@ CATEGORIES = [
     },
     {
         "id": "gundem", "label": "Gündem",
-        # Sözcü RSS bozuk olduğu için çıkarıldı. MHA Haber Gündem'e eklendi.
+        # MHA Haber (Çorlu dahil) artık Gündem'in bir parçası
         "feeds": [
             "https://www.ntv.com.tr/son-dakika.rss", 
             "https://feeds.bbci.co.uk/turkce/rss.xml", 
             "https://www.hurriyet.com.tr/rss/anasayfa",
             "https://www.mhahaber.com/rss" 
         ]
-    },
-    {
-        "id": "corlu", "label": "Çorlu",
-        "feeds": ["https://www.mhahaber.com/rss"]
     },
 ]
 

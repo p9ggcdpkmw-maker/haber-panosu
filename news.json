@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T20:47:27.317949+00:00",
+  "updated": "2026-11-13T21:16:46.323121+00:00",
   "briefings": {
     "genel": "Analiz şu an hazırlanamıyor.",
     "teknoloji": "Analiz şu an hazırlanamıyor.",
@@ -7,6 +7,17 @@
     "gundem": "Analiz şu an hazırlanamıyor."
   },
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "ChatGPT artık alışveriş de yapabilecek: ChatGPT Wallet tanıtıldı",
+      "source": "Donanimhaber",
+      "link": "https://www.donanimhaber.com/chatgpt-artik-alisveris-de-yapabilecek-chatgpt-wallet-tanitildi--212897",
+      "pubDate": "Fri, 13 Nov 2026 23:59:00 +0300",
+      "image": "https://www.donanimhaber.com/images/images/haber/212897/1200x675chatgpt-artik-alisveris-de-yapabilecek-chatgpt-wallet-tanitildi.jpg",
+      "text": "Teknolojinin her türlüsüne ilgi duyan Deniz, ağırlıklı olarak bilgisayar donanımları, mobil teknolojiler, yenilenebilir enerji ve elektrikli araçlar üzerine içerikler üretiyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Yeni sistemin çalışma mantığı oldukça basit.Kullanıcıların kredi kartı bilgilerini ChatGPT'ye yalnızca bir kez girmesi yeterli oluyor.Ardından yapay zeka ajanları, kullanıcıların istekleri doğrultusunda ürünleri araştırabiliyor, alışveriş sepetleri oluşturabiliyor ve satın alma işlemini gerçekleştirmeye hazır hale getirebiliyor. Ancak OpenAI,yapay zekanın kendi başına ödeme yapmasına izin vermiyor. Bir satın alma işlemi gerçekleştirilmeden önce kullanıcıya satın alınacak ürünler, toplam tutar ve kullanılacak ödeme kartı gösteriliyor. Kullanıcının işlemi onaylamasının ardındanFace ID veya parmak izi gibi biyometrik güvenlik yöntemleriyle doğrulama gerçekleştiriliyor.Bu onay, her satın alma işlemi için ayrı ayrı alınıyor. Böylece kullanıcı, yapay zeka ajanının hangi ürünü satın aldığını ve ne kadar ödeme yaptığını kontrol edebiliyor. Sistem, alışveriş yapılan mağazalarlagerçek kredi kartı bilgilerini de paylaşmıyor.Bunun yerine kullanıcının gerçek kart bilgilerinin yerini alan birödeme tokenıkullanılıyor. Bu sayede satıcılar, kullanıcıların doğrudan kredi kartı numaralarına erişemiyor. OpenAI, ChatGPT Wallet içinVisa, MastercardveAmerican Expressile ortaklık kurdu. Şirket, mevcut kredi kartlarının sunduğu ödül puanları ve tüketici korumalarının yeni sistem üzerinden yapılan alışverişlerde de geçerli olacağını belirtiyor. Şirket şimdilik ChatGPT Wallet üzerinden gerçekleştirilenalışverişlerden herhangi bir komisyon almıyor. Oyun sektöründe yapay zeka kullanımı hızla yayılıyor3 sa. önce eklendiChatGPT Wallet şu anda yalnızcaABD'de yaşayan, 18 yaşını doldurmuş Pro abonelerine açılıyor.OpenAI, erken kullanım sürecinde işletmeler, bankalar ve ödeme ağlarıyla birlikte çalışarak sistemi geliştirmeyi ve ilerleyen dönemde daha geniş bir kullanıcı kitlesine sunmayı planlıyor.Öte yandan yapay zeka ajanlarının kullanıcılar adına alışveriş yapabilmesi, internet şirketleri açısından yeni tartışmaları da beraberinde getiriyor. Delta ve United Airlines gibi bazı şirketler, yapay zeka ajanlarının kendi platformlarında kullanıcılar adına satın alma işlemi gerçekleştirmesini yasakladı. Amazon da benzer bir yaklaşım sergileyen şirketler arasında yer alıyor.ChatGPT Wallet, yapay zekanın dijital asistan rolünden çıkarak kullanıcılar adına gerçek işlemler gerçekleştiren bir araca dönüşmesi açısından önemli bir gelişme. Ancak kredi kartı bilgilerinin yapay zeka sistemlerine emanet edilmesi,güvenlik, kullanıcı kontrolü ve olası hatalı işlemlerin sorumluluğu gibi konuları da gündeme getiriyor.https://openai.com/index/introducing-chatgpt-wallet/Yorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaYazılımYapay Zeka HaberleriChatGPT artık alışveriş de yapabilecek: ChatGPT Wallet tanıtıldıBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük ChatGPT Wallet şu anda yalnızcaABD'de yaşayan, 18 yaşını doldurmuş Pro abonelerine açılıyor.OpenAI, erken kullanım sürecinde işletmeler, bankalar ve ödeme ağlarıyla birlikte çalışarak sistemi geliştirmeyi ve ilerleyen dönemde daha geniş bir kullanıcı kitlesine sunmayı",
+      "summary": ""
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -151,16 +162,6 @@
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Oyun sektöründe yapay zeka kullanımı hızla yayılıyor",
-      "source": "Donanimhaber",
-      "link": "https://www.donanimhaber.com/oyun-sektorunde-yapay-zeka-kullanimi-hizla-yayiliyor--212887",
-      "pubDate": "Fri, 13 Nov 2026 20:19:00 +0300",
-      "image": "https://www.donanimhaber.com/images/images/haber/212887/1200x675oyun-sektorunde-yapay-zeka-kullanimi-hizla-yayiliyor.jpg",
-      "summary": "GDC Festival of Gaming'in yıllık araştırmasına göre oyun geliştiricileri arasında üretken yapay zeka kullanımı artıyor; ankete katılanların %40'ı işlerinde AI araçlarından yararlanıyor ve bu oran mobil ve free‑to‑play stüdyolarda daha yüksek. Geliştiriciler AI'ı araştırma, veri analizi, kod üretimi ve hata ayıklama gibi süreçlerde kullanıyor, ancak konsept tasarım gibi alanlarda daha az tercih ediliyor. Ayrıca sektörde %34'ü son iki yılda işten çıkarıldığını belirterek istihdam kaybına da dikkat çekiyor."
-    },
-    {
       "cat": "Bilim",
       "catId": "bilim",
       "title": "Nvidia'daki seks skandalı Beyaz Saray üzerinde nasıl baskı oluşturuyor?",
@@ -258,16 +259,6 @@
       "link": "https://www.bbc.com/turkce/articles/c6205jnldngwo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Fri, 13 Nov 2026 00:02:26 GMT",
       "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/bcbb/live/8fc48bf0-df70-11f1-b441-2b33b063138f.png",
-      "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Bilim",
-      "catId": "bilim",
-      "title": "İBB davasında İmamoğlu'nun avukatı Mehmet Pehlivan dahil sekiz tahliye",
-      "source": "Feeds",
-      "link": "https://www.bbc.com/turkce/articles/cm87zngy4y5no?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 12 Nov 2026 20:59:59 GMT",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/72b0/live/8a390190-ded8-11f1-a75a-dbf83836672c.jpg",
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
@@ -455,11 +446,110 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "BUCAK BELEDİYE BAŞKANLIĞI",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/resmi-ilanlar/bucak-belediye-baskanligi-3492976",
+      "pubDate": "Sat, 14 Nov 2026 00:00:14 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af7366837590369f48f61c0.jpg",
+      "text": "BUCAK BELEDİYESİ TAŞINMAZ (ARSA) SATIŞ İHALE İLANI Madde 1- Satış Yapacak İdareye ilişkin Bilgiler 1.1-İdarenin; a) Adı :Bucak  Belediye Başkanlığı b) Adresi:Pazar Mahallesi Atatürk Caddesi No:1 BUCAK/BURDUR c) Telefon numarası :2483251001 d) Faks Numarası             :2483253180 e) Elektronik posta adresi :bel.tr SIRA NO ADA PARSEL MAHALLE ARSA M2 ADRESLER TAHMİNİ TAŞINMAZ BEDELİ(KDV Dahil) GEÇİÇİ TEMİNAT MİKTARI(%10) 1 604 3 ALAATTİN 399,71 ALAATTİN MAHALLE 29 SOKAK NO:3 ₺1.500.000,00 ₺150.000,00 2 605 4 ALAATTİN 384,45 ALAATTİN MAHALLE 2 SOKAK NO:1 ₺1.650.000,00 ₺165.000,00 3 605 5 ALAATTİN 481,46 ALAATTİN MAHALLE 2 SOKAK NO:1 ₺1.650.000,00 ₺165.000,00 4 607 6 ALAATTİN 552.71 ALAATTİN MAHALLE 1 SOKAK NO:7 ₺2.000.000,00 ₺200.000,00 5 608 1 ALAATTİN 505.73 ALAATTİN MAHALLE GÜNDOĞDU CADDE NO:303 ₺1.550.000,00 ₺155.000,00 6 611 12 ALAATTİN 386,2 ALAATTİN MAHALLE 1 SOKAK NO:31 ₺1.500.000,00 ₺150.000,00 7 612 6 ALAATTİN 302,14 ALAATTİN MAHALLE 6 SOKAK NO:5 ₺1.500.000,00 ₺150.000,00 8 620 2 ALAATTİN 466,51 ALAATTİN MAHALLE 7 SOKAK NO:3(YANAN EV) ₺1.500.000,00 ₺150.000,00 9 620 8 ALAATTİN 491,72 ALAATTİN MAHALLE GÜNDOĞDU CADDESİ NO:348 ₺1.650.000,00 ₺165.000,00 10 622 1 ALAATTİN 293,99 ALAATTİN MAHALLE 23 SOKAK NO:10 ₺1.250.000,00 ₺125.000,00 11 622 9 ALAATTİN 325,45 ALAATTİN MAHALLE GÜNDOĞDU  CADDESİ NO:354 ₺1.300.000,00 ₺130.000,00 12 1929 1 ALAATTİN 347,69 ALAATTİN MAHALLE 8 SOKAK NO:13 ₺1.400.000,00 ₺140.000,00 13 1929 4 ALAATTİN 490,7 ALAATTİN MAHALLE 70 SOKAK NO:12 ₺1.500.000,00 ₺150.000,00 14 1944 1 ALAATTİN 612,2 ALAATTİN MAHALLE 16 SOKAK NO:14 ₺2.600.000,00 ₺260.000,00 15 890 5 CAMİ 556.07 CAMİ MAHALLE 322 SOKAK NO:22 ₺2.200.000,00 ₺220.000,00 16 644 6 ÇAMLICA 279,35 ÇAMLICA  MAHALLE KAZIM KARABEKİR CADDESİ NO:61 ₺1.800.000,00 ₺180.000,00 17 654 2 ÇAMLICA 369,18 ÇAMLICA MAHALLE 1727 SOKAK NO:2-1 ₺2.250.000,00 ₺225.000,00 18 655 5 ÇAMLICA 282,82 ÇAMLICA  MAHALLE 1727 SOKAK NO:14 ₺1.300.000,00 ₺130.000,00 19 656 1 ÇAMLICA 394,91 ÇAMLICA  MAHALLE KAZIMKARABEKİR CADDESİ NO:29 ₺2.000.000,00 ₺200.000,00 20 656 6 ÇAMLICA 400,79 ÇAMLICA  MAHALLE 1727 SOKAK NO:1 ₺2.000.000,00 ₺200.000,00 21 657 5 ÇAMLICA 423,71 ÇAMLICA  MAHALLE KAZIMKARABEKİR CADDESİ NO:19 ₺2.250.000,00 ₺225.000,00 22 665 11 ÇAMLICA 368,46 ÇAMLICA MAHALLE 1728 SOKAK NO:23 ₺1.700.000,00 ₺170.000,00 23 666 5 ÇAMLICA 337,48 ÇAMLICA  MAHALLE 1730 SOKAK NO:25 ₺1.600.000,00 ₺160.000,00 24 580 1 ÇAVUŞLAR 410,56 ÇAVUŞLAR MAHALLE 3001 SOKAK NO:12 ₺1.500.000,00 ₺150.000,00 25 580 14 ÇAVUŞLAR 304,77 ÇAVUŞLAR MAHALLE 3001 SOKAK NO:10 ₺1.250.000,00 ₺125.000,00 26 580 15 ÇAVUŞLAR 283,66 ÇAVUŞLAR MAHALLE 3001 SOKAK NO:4 ₺1.100.000,00 ₺110.000,00 SIRA NO ADA PARSEL MAHALLE ARSA M2 ADRESLER TAHMİNİ TAŞINMAZ BEDELİ GEÇİÇİ TEMİNAT MİKTARI 27 584 5 ÇAVUŞLAR 347,37 ÇAVUŞLAR MAHALLE GÜNDOĞDU CADDESİ NO:207 ₺1.350.000,00 ₺135.000,00 28 588 1 ÇAVUŞLAR 454,77 ÇAVUŞLAR MAHALLE 3008 SOKAK NO:7 ₺1.700.000,00 ₺170.000,00 29 592 7 ÇAVUŞLAR 380,94 ÇAVUŞLAR MAHALLE GÜNDOĞDU CADDESİ NO:239 ₺1.600.000,00 ₺160.000,00 30 597 2 ÇAVUŞLAR 263,5 ÇAVUŞLAR MAHALLE GÜNDOĞDU CADDESİ NO:272 ₺1.250.000,00 ₺125.000,00 31 598 9 ÇAVUŞLAR 467,69 ÇAVUŞLAR MAHALLE GÜNDOĞDU CADDESİ NO:257 ₺2.100.000,00 ₺210.000,00 32 603 3 ÇAVUŞLAR 516.63 ÇAVUŞLAR MAHALLE 3059 SOKAK NO:3 ₺1.700.000,00 ₺170.000,00 33 246 17 ÇUKUR 391,06 ÇUKUR MAHALLE 607 SOKAK NO:8 ₺1.350.000,00 ₺135.000,00 34 572 16 KONAK 413,3 KONAK MAHALLE 2782 SOKAK NO:5 ₺1.250.000,00 ₺125.000,00 35 574 7 KONAK 357,75 KONAK MAHALLE GÜNDOĞDU CADDESİ NO:182 ₺1.500.000,00 ₺150",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "ÇANAKKALE KADASTRO MAHKEMESİ",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/resmi-ilanlar/canakkale-kadastro-mahkemesi-3492975",
+      "pubDate": "Sat, 14 Nov 2026 00:00:14 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af7343c37590369f48f61b9.jpg",
+      "text": "İ L A N ÇANAKKALE KADASTRO MAHKEMESİNDEN ESAS NO:2026/25KARAR NO:2026/12 DAVACI:ERAY KULAK-B***R ve M****A oğlu **.**.1977 d.lu, TC.Kimlik No : 540*****712 ADRESLERİ : Adres 1- Gitschinerstr 103, 10969 Berlin/ALMANYA, Adres 2-Katharinenstr. 18, 14169 Berlin/ ALMANYA Mahkememizden verilen28/01/2026 tarih ve 2026/25 Esas 2026/12 sayılı Kararı ile Eray KULAK'ın açtığı davada mahkememizin görevsizliğine karar verilmiş hüküm özeti aşağıda belirtilmiştir. HÜKÜM: Gerekçesi Açıklanan Nedenlerle, 1-Davanın mülkiyete ilişkin olması nedeniyle görev yönünden reddine, mahkememizinGÖREVSİZLİĞİNE, görevli ve yetkili mahkemenin Çanakkale Asliye Hukuk Mahkemesi olduğunun tespitine, 2-Karar kesinleştiğinde ve talep halinde dosyanın görevli ve yetkili Çanakkale Asliye Hukuk MahkemesineGÖNDERİLMESİNE, 3-HMK 20. Maddesi uyarınca karar kesinleştiğinde ve süresi içinde kanun yoluna başvurulmayarak kesinleşmiş ise kesinleştiği tarihten, kanun yoluna başvurulmuşsa bu başvurunun reddi kararının tebliğ tarihinden itibaren 2 hafta içinde mahkememize başvurması durumunda dosyanınÇanakkale Nöbetçi Asliye Hukuk Mahkemesi'ne gönderilmesine, aksi halde dosyanın resen ele alınarak davanın açılmamış sayılmasına karar verileceğinin ihtar edilmesine (ihtarat yapıldı) 3-Kararın resen taraflara tebliğine,HMK'nın 331/2 maddesi gereğince davaya görevli mahkemede devam edilmesi durumunda yargılama giderlerine görevli mahkemece hükmedilmesine, devam edilmemesi durumunda talep üzerine mahkememizce dosya üzerinden bu durumun tespiti ile davacının yargılama giderlerinin ödemesine karar verilmesine, Dair; gerekçeli kararın tebliğinden itibaren mahkememize (2) hafta içerisinde başvurmak suretiyle Tekirdağ Bölge Adliye Mahkemesinde istinaf yolu açık olmak üzere tarafların yokluğunda 28/01/2026 tarihinde tensiben karar verilmiştir. Mahkememizin 28/01/2026 tarih ve 2026/25 Esas 2026/12 sayılı kararı işbu dosyamız davacısı Eray KULAK'a tebliğ yerine geçerli olmak üzere Türkiye ve Almanya genelinde ilgiliye ilanen tebliğ olunur.12/11/2026  #ilangovtr Basın no ILN02595257 ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "ERZURUM İCRA DAİRESİ MÜDÜRLÜĞÜ",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/resmi-ilanlar/erzurum-icra-dairesi-mudurlugu-3492974",
+      "pubDate": "Sat, 14 Nov 2026 00:00:14 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af732fd37590369f48f61b2.jpg",
+      "text": "Örnek No:55* T.C.ERZURUMİCRA DAİRESİ2026/20664 ESAS TAŞINMAZIN GAZETE VEYA İNTERNET HABER SİTESİ İLANI Bir borçtan dolayı aşağıda cins, miktar ve değerleri yazılı taşınmaz satışa çıkarılmış olup, taşınmazın ayrıntılı görsellerine, artırmaya ilişkin şartlara ve ayrıntılı açıklamalaraesatis.uyap.gov.tradresi üzerinden2026/20664 ESASsayılı dosya numarası ile erişim sağlanabilir. Satılmasına karar verilen taşınmazın cinsi, mahiyeti, bulunduğu yer, muhammen kıymeti ve önemli vasıfları: 1 NO'LU TAŞINMAZIN Özellikleri : Erzurum İl, Yakutiye İlçe, SOĞUKÇERMİK Mahalle/Köy, 14687 Ada, 7 Parsel, 3 Nolu Bağımsız Bölüm.Adresi : Şükrüpaşa Mahallesi Veli Sokak Numara 36/B Yakutiye/Erzurumİmar Durumu : Yakutiye Belediye Başkanlığıİmar ve Şehircilik Müdürlüğünün bila tarih ve E-42284874-115.01.06-71345sayılı yazısı ve eki dosyada mevcut olup, incelemek isteyenler dairemize müracaat ederek inceleyebilirler.Kıymeti : 12.425.000,00 TLKDV Oranı : %20Kaydındaki Şerhler: Taşınmazın tapu kaydında 12/01/2012 tarih ve 394 yevmiye numaralı \"İmar düzenlemesine alınmıştır.\" ibareli, 21/12/2022 tarih ve 33836 yevmiye numaralı \"Yönetim Planı: 20/12/2022\" ibareli ve 21/03/2025 tarih ve 9034 yevmiye numaralı \"İmar düzenlemesine alınmıştır.\" ibareli Beyanlar bulunmaktadır. TAŞINMAZIN TAPU KAYDINDA YAZILI OLDUĞU GİBİDİR. Artırma Bilgileri 12/11/2026(İİK m.114 ve m.126)(*) İlgililer tabirine irtifak hakkı sahipleri de dahildir.  #ilangovtr Basın no ILN02595252 ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "BURSA 1. ASLİYE HUKUK MAHKEMESİ",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/resmi-ilanlar/bursa-1-asliye-hukuk-mahkemesi-3492971",
+      "pubDate": "Sat, 14 Nov 2026 00:00:14 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af7324937590369f48f61ab.jpg",
+      "text": "T.C.BURSA1. ASLİYE HUKUK MAHKEMESİ Sayı :2026/179 Esas Konu : GAİPLİK İLANI İ L A N BURSA 1. ASLİYE HUKUK HAKİMLİĞİ'NDEN Davacı Maliye Hazinesi tarafından Mahkememize açılmış olan Gaiplik Nedeniyle Hazine Adına Tescil davasında verilen ara karar nedeniyle; Bursa İli Yıldırım İlçesi, Namazgah Mahallesinde bulunan, 555 ada 19 parselsayılı 52,13 m2 yüzölçümlü taşınmaz hissedarlarından Hüseyin EF., Ganime H. ve Emine H'ningaipliğine; Bursa Çevre Şehircilik ve İklim Değişikliği İl Müdürü’nün kayyımlık görevinin sona erdirilmesine, gaip adına kayıtlıtaşınmazların Maliye Hazinesi adına tesciline; gaibin mirasının devlete intikaline karar verilmesini istenilmiş olmakla; Hüseyin EF., Ganime H. ve Emine H'nin nerede olduğu ve nerede oturduğu hususunda bilgi sahibi olanların ilan tarihinden itibaren 6 aylık süre içerisinde Mahkememizin 2026/179 Esas sayılı dosyasına bilgi vermeleri, ayrıca gaipliğin hükmü için gerekli olan ilan müddeti zarfında hiçbir hak sahibi zuhur etmezse, bu malların sağ kalan diğer mirasçılara veya Hazineye intikal edebileceği, T.M.K.'nun 32. ve 33/2. Maddesince 1. (Birinci) gaiplik ilanı olarak duyurulur.  #ilangovtr Basın no ILN02594767 ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "SAFAŞ İNŞAAT TURİZM ÇEVRE HİZ.VE ORG.SAN.VE TİC.LTD.ŞTİ.",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/resmi-ilanlar/safas-insaat-turizm-cevre-hiz-ve-org-san-ve-tic-ltd-sti-3492969",
+      "pubDate": "Sat, 14 Nov 2026 00:00:14 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af7317737590369f48f61a4.jpg",
+      "text": "  İŞ SAĞLIĞI VE GÜVENLİĞİ HİZMETİ ALINACAKTIR İŞYERİ HEKİMİ HİZMET ALIMI İŞİ hizmet alımı 4734 sayılı Kamu İhale Kanununun 19'uncu maddesine göre açık ihale usulü ile ihale edilecektir. İhaleye ilişkin ayrıntılı bilgiler aşağıda yer almaktadır: 1.1. Adı : SANCAKTEPE BELEDİYE BAŞKANLIĞI SAFAŞ İNŞAAT TURİZM ÇEVRE HİZMETLERİ VE ORGANİZASYON SANAYİ VE TİCARET LİMİTED ŞİRKETİ MÜDÜRLÜĞÜ 1.2. Adresi : Abdurrahmangazi Mh. Enderun Cd. No: 2 Sancaktepe/ İSTANBUL SANCAKTEPE/İSTANBUL 1.3. Telefon numarası : 02166223333 1.4. İhale dokümanının görülebileceği ve indirilebileceği internet sayfası : https://ekap.kik.gov.tr/EKAP/  #ilangovtr Basın no ILN02594601 ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "İSTANBUL 11. ASLİYE CEZA MAHKEMESİ",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/resmi-ilanlar/istanbul-11-asliye-ceza-mahkemesi-3492968",
+      "pubDate": "Sat, 14 Nov 2026 00:00:14 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af72f0d37590369f48f619b.jpg",
+      "text": "İLAN METNİ T.C.İSTANBUL 11. ASLİYE CEZA MAHKEMESİNDEN Esas No: 2024/859Karar No: 2024/1176 Mahkememizin 18/11/2024 tarih, 2024/859 Esas, 2024/1176 Karar sayılı kararı ile müşteki Madı Gjaffar ve Zemıhı Aldjı A kızı, 1996 Cezayir doğumlu Mezhoura MADI'nın, müştekisi olduğu davada yapılan yargılamada sanık Emre ETYEMEZ hakkında Hakaret suçundan beraat kararı verildiği, Kasten Yaralama suçundan ise mahkumiyetine karar verilerek; kısa süreli hapis cezasının seçenek tedbire çevrildiği ve sanığın 1 ay 7 gün süreyle kamuya yararlı bir işte çalıştırılmasına karar verildiği, kararın müştekiye tebliğ edilmesi gerektiği, tüm araştırmalara rağmen müştekinin bulunamadığı, adresi de meçhul olduğundan, karar tebliğ edilememiş olmakla kararın Basın İlan yoluyla tebliğine karar verilmiştir. -7201 sayılı Tebligat Kanunun 29. maddesi gereğince hüküm özetinin Yurt geneli ilk 5 Gazeteden ve internet haber sitesinde bir defaya mahsus olmak üzereİLANEN TEBLİĞİNE, Hüküm fıkrasının ilan tarihinden itibaren 15 gün sonra kararın tebliğ edilmiş sayılacağı ve tebliğ tarihinden itibaren iki hafta içerisinde yasal yola başvurmadığı takdirde kararın kesinleşeceği 7201 Sayılı Tebligat Kanununun 28 vd. Maddeleri gereğince ilanen tebliğ olunur. 09/11/2026  #ilangovtr Basın no ILN02594544 ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "İZMİR 17. AİLE MAHKEMESİ",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/resmi-ilanlar/izmir-17-aile-mahkemesi-3492967",
+      "pubDate": "Sat, 14 Nov 2026 00:00:14 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af72e8b37590369f48f6194.jpg",
+      "text": "İLAN T.C. İZMİR 17. AİLE MAHKEMESİNDEN ESAS NO:2026/173 DAVACI:GÜLAY BALA, T.C.NO:262*****7807369/1 Sok. No:10 D:1 Onur Mah. Bayraklı /İZMİR DAVALI:MURAT ÖZCAN, T.C. NO: 488*****476Postacılar Mah. 7612 Sk. No:19İç Kapı No:2 Bayraklı/ İZMİR Davacı tarafından aleyhinize açılanVelayet davasınınyapılan yargılamasında; Davalıyadava dilekçesi tebliğ edilemediğinden ve yapılan tüm araştırmalara rağmen davalının adresine ulaşılamadığından dava dilekçesinin ilanen tebliğine karar verilmekle; Dava dilekçesinde özetle; tarafların Karşıyaka 2. Aile Mahkemesinin 2023/303 E. 2023/321 K. Sayılı kararı ile boşanmalarına karar verildiği, müşterek çocuklar Miray Asmin ve Ayaz'ın velayetlerinin taraflara ortak olarak ve çocukların anne yanında kalmaları şeklinde karar verildiğini, davalının çocuklarına karşı ilgisiz davrandığını, bakımlarının davacı tarafından üstlenildiğini belirterek ortak velayetin kaldırılarak çocukların velayetlerinin davacıya verilmesini istemiş olmakla, ilan tarihinden 7 gün sonra başlamak kaydıyla iki haftalık süre içinde \" Dava dilekçesinin tebliğinden itibaren 2 haftalık süre içerisinde HMK 129 Md. yazılı unsurları içerir dilekçe ile davaya ilk itirazlarınız, cevaplarınız ve varsa delillerinizi mahkememize ibraz edebileceğiniz.“ HMK. 139. maddesi uyarınca, sulh için gerekli hazırlığı yapmanız, ön inceleme duruşmasına gelmediğiniz takdirde yokluğunuzda yapılan işlemlere itiraz edemeyeceğiniz ihtar olunur. \" unsurları içerir dilekçeyle cevaplarını ve varsa delillerini, yazılı olarak bildirmesi ile mahkememiz duruşma günü olan 18/12/2026 günü saat 10:05'de duruşmada bizzat hazır bulunmanız veya kendinizi bir vekille temsil ettirmeniz, aksi takdirde yargılamaya yokluğunuzda devam olunacağı hususu, dava dilekçesi ve duruşma günü yerine geçmek üzere ilanen tebliğ olunur. 11/11/2026  #ilangovtr Basın no ILN02594540 ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "FOÇA SULH HUKUK MAHKEMESİ",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/resmi-ilanlar/foca-sulh-hukuk-mahkemesi-3492964",
+      "pubDate": "Sat, 14 Nov 2026 00:00:14 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af72d5237590369f48f6186.jpg",
+      "text": "T.C.FOÇASULH HUKUK MAHKEMESİ Sayı :2025/414 Esas 16.10.2026 Konu : GAİPLİK İLAN Mahkememize açılan Gaiplik davası gereğince; İzmir ili Foça ilçesi Yenifoça Atatürk mah/köy nüfusuna kayıtlı bulunan Ali ve Ayşe'den olma Yenifoça 01/07/1918 doğumlu 2*******4 T.C kimlik numaralı Salahettin KUTAN'ın sağ ya da ölü olup olmadığı, ölü ise nerede, hangi tarihte öldüğü, sağ ise yaşadığı yer ve adresi hakkında bilgi ve malumatı olanların bu ilanın yayın tarihinden itibaren 6 ay içerisinde sahip oldukları bilgi ve malumatlarını, Foça Sulh Hukuk Mahkemesinin 2025/414 Esas sayılı dosyasına bildirmesi, aksi halde Salahettin KUTAN hakkında gaiplik kararı verileceği hususu 4721 sayılı TMK'nın 33 ve müteakip maddeleri gereğince ilan olunur.  #ilangovtr Basın no ILN02594365 ",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "ON NUMARA SONUÇLARI AÇIKLANDI MI? 13 Kasım On Numara sonuçları ne zaman açıklanacak? MPİ On Numara sonuç sorgulama ekranı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/ekonomi/on-numara-sonuclari-aciklandi-mi-13-kasim-on-numara-sonuclari-ne-zaman-aciklanacak-mpi-on-numara-sonuc-sorgulama-ekrani-3492959",
+      "pubDate": "Fri, 13 Nov 2026 23:50:03 GMT",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af72b32ae7031b6f4159092.jpg",
+      "text": "On Numara çekiliş sonuçları için gözler sonuç ekranında... Pazartesi ve Cuma akşamları gerçekleştirilen On Numara çekilişi için bekleyiş başladı. Çekilişin tamamlanmasının ardından ikramiye kazandıran numaralar şans oyunu severlerin yakın takibinde yer almaya başladı. Peki 13 KasımOn Numara sonuçlarıne zaman açıklanacak? İşteMPİ On Numarasonuç sorgulama ekranı... ON NUMARA SONUÇLARI AÇIKLANDI MI? 13 Kasım On Numara sonuçları açıklandı: 1-2-7-10-16-20-23-28-30-35-41-44-46-49-52-55-61-67-71-72-77-78 ON NUMARA SONUÇ SORGULAMA EKRANI TIKLAYINIZ ON NUMARA NASIL OYNANIR? Yenilenen On Numara'nın kuralları ise aşağıdaki gibi; \"Bir kolonda 80 numara bulunmaktadır. 80 numaradan 10 tanesi işaretlenir. Bir veya birden fazla kolon oynanabilir. Tek kolon ücreti 10 TL'dir. On Numara haftada 2 gün çekilir: Pazartesi ve Cuma günleri çekilir. Her çekilişte küre içerisindeki 80 numara içinden 22 numara çekilir. Oynadığın her kolon için çekilişte çıkan numaralardan 10, 9, 8, 7, 6 numara doğru tahmin edersen veya hiçbir numarayı tahmin edemezsen ikramiye kazanırsın. 10 numara bilen büyük ikramiyeyi kazanır.\"",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "Bir çift çizme, bir insanlık dersi! Çiftçinin hassas davranışı karşılıksız kalmadı",
       "source": "Cnnturk",
       "link": "https://www.cnnturk.com/video/turkiye/bir-cift-cizme-bir-insanlik-dersi-ciftcinin-hassas-davranisi-karsiliksiz-kalmadi-3493006",
       "pubDate": "Fri, 13 Nov 2026 23:31:29 GMT",
-      "image": null,
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af772e52c3e4eb3d583f9e1.jpg",
       "text": "Birinin ince düşüncesi, diğerinin kocaman yüreği... O, yerleri kirletmemek için çizmelerini çıkarırken, nüfus müdürü insanlığıyla gönülleri fethetti.  Balıkesir'de zeytin üreticiliği yapan Levent Koca, ehliyetini kaybetmişti. Tarladaki işini bitirdikten sonra yenileme yapmak için mesai bitimine yakın Havran İlçe Nüfus Müdürlüğü'ne geldi.  Zemini kirletmemek için çizmelerini çıkarıp içeri girdi. İşlem bankosuna çoraplarıyla yürüdü. Olan biteni fark eden İlçe Nüfus Müdürü Erhan Dayı, hemen müdahale etti.  Levent Koca'ya çizmelerini kendi elleriyle giydirdi. Kısa sürede yayılan görüntüler, herkese insanlık dersi verdi.",
       "summary": ""
     },
@@ -470,7 +560,7 @@
       "source": "Cnnturk",
       "link": "https://www.cnnturk.com/video/dunya/avrupada-israile-tepki-buyuyor-12-ulkede-imza-kampanyasi-duzenlendi-3493005",
       "pubDate": "Fri, 13 Nov 2026 23:25:56 GMT",
-      "image": null,
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af771592c3e4eb3d583f9d4.jpg",
       "text": "İSRAİL'E TEPKİLER İMZA KAMPANYASINA DÖNÜŞTÜ Avrupa'da İsrail'e yönelik tepkiler imza kampanyasına dönüştü. Avrupa Vatandaş Girişimi kapsamında başlatılan kampanyada, İsrail'in insan hakları ihlalleri gerekçe gösterildi. Avrupa Birliği ile İsrail arasındaki ortaklık anlaşmasının tamamen askıya alınması istendi. 1 MİLYONUN ÜZERİNDE İMZA TOPLANDI 12 Avrupa Birliği ülkesinde 1 milyon 100 binden fazla imza toplandı. Avrupa Birliği kurallarına göre, Avrupa Vatandaş Girişimi mekanizması kapsamında bir milyondan fazla imza toplanması halinde Komisyon'un başvuruyu değerlendirmesi gerekiyor. KOMİSYON VE PARLAMENTO SÜRECİ BAŞLIYOR Bu nedenle AB Komisyonu, önümüzdeki haftalarda kampanyanın düzenleyicileriyle bir araya gelecek. Girişim ayrıntılı şekilde ele alınacak. Ardından Avrupa Parlamentosu'nda da bir oturum düzenlenecek. AB Komisyonu daha önce üye ülkelere İsrail ile ortaklık anlaşmasının kısmen askıya alınmasını önermişti. Yeni başvuruyla birlik içindeki tartışma, bu kez anlaşmanın tamamen askıya alınması talebiyle yeniden gündeme geldi. Komisyon, yapacağı değerlendirmenin ardından herhangi bir adım atıp atmayacağını 12 Mayıs 2027'ye kadar açıklamak zorunda. Ancak ortaklık anlaşmasının askıya alınmasına yönelik somut bir adım atılması ihtimali düşük görülüyor. Buna rağmen toplanan imza sayısı, Avrupa kamuoyunda İsrail'in politikalarına yönelik rahatsızlığın boyutunu ortaya koyuyor.",
       "summary": ""
     },
@@ -481,7 +571,7 @@
       "source": "Cnnturk",
       "link": "https://www.cnnturk.com/ekonomi/turkiye-sigorta-fon-kazancini-tmsfye-iade-etti-3493004",
       "pubDate": "Fri, 13 Nov 2026 23:13:53 GMT",
-      "image": null,
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af76f74e07ec0e3e52ed7fa.jpg",
       "text": "TürkiyeSigortaAŞ tarafından Kamuyu Aydınlatma Platformu üzerinden konuya ilişkin açıklama yapıldı. Açıklamada, şu ifadelere yer verildi: \"Şirketimiz nezdinde bir süredir yürütülen kapsamlı iç denetim ve inceleme çalışmaları ileTMSFve Sermaye Piyasası Kurulu (SPK) ile yapılan görüşmeler sonucunda aşağıdaki hususlar kamuoyunun bilgisine sunulmaktadır. 7 Ekim 2026 tarihli özel durum açıklamamızda belirtildiği üzere, Şirketimizin 30 Eylül 2026 itibarıyla tasfiyeye konu fonlarda bakiyesi bulunmamaktadır. Bununla birlikte yapılan iç denetim çalışmaları, 2025 yılını da kapsayacak şekilde derinleştirilmiş ve Şirketimizin söz konusu fonların bir kısmına ilgili tarihlerde yürürlükte olan mevzuata ve Şirketimizinyatırımpolitikasına uygun olarak yatırım yaptığı, bu yatırımlardan kazanç elde ettiği tespit edilmiştir. Söz konusu kazanç her ne kadar mevzuata uygun olsa da Şirketimizin etik ilkeleri ve hakkaniyet anlayışı gereği ve TMSF ve SPK ile yapılan görüşmeler sonucunda gönüllülük esasına dayanılarak iade edilmesine karar verilmiştir. Bir çift çizme, bir insanlık dersi! Çiftçinin hassas davranışı karşılıksız kalmadı Avrupa'da İsrail'e tepki büyüyor! 12 ülkede imza kampanyası düzenlendi İade edilen tutar ve iade usulü, yine TMSF ve SPK ile yapılan görüşmeler sonucu ve Şirketimizin kendi hesaplaması esas alınarak belirlenmiştir. Buna göre, söz konusu fonlardan elde edilen alım-satım kazancından, yatırım süresine isabet eden (Yİ-ÜFE + TÜFE) / 2 oranındaki enflasyon etkisi düşüldükten sonra kalan 1 milyar 599 milyon 887 bin 908 TL iade edilecek kazanç olarak belirlenmiş ve iade tutarı bugün TMSF hesabına yatırılmıştır. Söz konusu fonlara yapılan yatırımlarla ilgili olarak Şirketimizin başkaca bir iade ve/veya ödeme yükümlülüğünün bulunmadığı öngörülmektedir. Şirketimizin bu ödemeye ilişkin yasal hakları saklıdır. Konuya ilişkin gelişmeler, tüm paydaşlarımızla eş zamanlı olarak kamuoyuyla paylaşılmaya devam edecektir.\"",
       "summary": ""
     },
@@ -492,7 +582,7 @@
       "source": "Cnnturk",
       "link": "https://www.cnnturk.com/egitim/okullar-ne-zaman-aciliyor-2026-2027-meb-takvimi-belli-oldu-birinci-ara-tatil-ne-zaman-bitiyor-3493000",
       "pubDate": "Fri, 13 Nov 2026 23:05:33 GMT",
-      "image": null,
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6af76d8bae7031b6f41590ee.jpg",
       "text": "Birinci aratatilbitiş tarihi öğrencilerin ve velilerin gündemindeki yerini aldı. 2026-2027 eğitim öğretim yılı kasım ara tatili başladı. Öğrenciler bu süreçte dinlenme fırsatı bulacak. 9 günlük tatil sonrası yeniden ders başı yapılacak. Ara tatilin ne zaman bittiği ve okulların ne zaman kapanacağı yoğun şekilde sorgulanmaya başlandı. Peki birinci ara tatil ne zaman bitiyor?Okullar ne zaman açılacak? Detaylar haberimizde... ARA TATİL NE ZAMAN BİTECEK? Birinci dönem ara tatili 16 Kasım Pazartesi günü başladı ve 20 Kasım Cuma günü sona erecek. 23 Kasım Pazartesi günü öğrenciler derse dönecek. MEB 2026-2027 ÇALIŞMA TAKVİMİ Eğitim öğretim yılı birinci dönemi 22 Ocak 2027'de sona erecek.Yarıyıl tatili, 25 Ocak 2027 Pazartesi başlayacak ve 5 Şubat 2027 Cuma sona erecek.İkinci dönem, 8 Şubat 2027 Pazartesi başlayacak ve 25 Haziran 2027 Cuma gününe kadar sürecek.İkinci dönem ara tatili ise 8 Mart 2027 Pazartesi başlayıp 12 Mart 2027 Cuma sona erecek. ",
       "summary": ""
     },
@@ -507,108 +597,70 @@
       "summary": "Susuz Yaz dizisi, Necati Cumalı’nın aynı adlı eserinden uyarlanarak 1970’lerin Adana’sındaki Çarlak Köyü’nde geçiyor ve su‑toprak paylaşımı üzerinden iki kardeşin hayatını etkileyen anlaşmazlıkları konu alıyor. Başrollerde Mert Ramazan Demir, Lizge Cömert ve Batuhan Bozkurt Yüzügüleç yer alıyor."
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Lodos İstanbul'u vurdu! Tekneler battı, ağaçlar devrildi, teleferik ve vapur seferleri iptal edildi",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/canli-yayin-redesing/lodos-istanbulu-vurdu-tekneler-batti-agaclar-devrildi-teleferik-ve-vapur-seferleri-iptal-edildi-3492999",
-      "pubDate": "Fri, 13 Nov 2026 22:11:09 GMT",
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Gazze'deki ateşkesin arabulucuları İsrail ihlallerinin durdurulmasını ve yardımların artırılmasını istedi",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/dunya/gazzedeki-ateskesin-arabuluculari-israil-ihlallerinin-durdurulmasini-ve-yardimlarin-artirilmasini-istedi/4124773",
+      "pubDate": "Fri, 13 Nov 2026 23:59:27 +0300",
       "image": null,
-      "text": "İstanbul'da etkisini artıran kuvvetlilodosfırtınası günlük yaşamı ve ulaşımı olumsuz etkiledi. Şiddetli rüzgar nedeniyle kentin çeşitli noktalarında ağaçlar devrilirken, sahil kesimlerinde yükselen dalgalar kıyıya vurdu. Silivri'de balıkçı teknelerinin battığı fırtına nedeniyle bazı park ve korular ziyarete kapatıldı, deniz ulaşımında çok sayıda sefer iptal edildi. Bursa'da ise lodos nedeniyle 2 kişi yaralandı. AKOM SAAT VERDİ! RÜZGARIN HIZI 90 KİLOMETREYE ULAŞABİLİR İstanbul Büyükşehir Belediyesi (İBB) Afet Koordinasyon Merkezi (AKOM), kent genelinde etkili olan lodos fırtınasına karşı uyarıda bulundu. Sabah saatlerinden itibaren şiddetini artıran rüzgarın kısa süreli hamlelerle saatte 60 ila 90 kilometre hıza ulaşabileceği belirtildi. Fırtınanın 14 Kasım Cumartesi günü öğle saatlerine kadar etkisini sürdürmesi bekleniyor. Arka Sokaklar'ın Zeliş'iydi! Yüsra Geyik'in kalbi boş mu dolu mu? Hande Erçel, Dubai'yi salladı! Güzelliği ve zarafetiyle geceye damga vurdu İSTANBUL VALİLİĞİ DUYURDU: 74 İHBAR GELDİ İstanbul Valiliği, Meteoroloji Genel Müdürlüğünün kent için sarı kodlu uyarı yayımladığını hatırlattı. Açıklamada, 13 Kasım saat 02.00 ile 14 Kasım saat 05.00 arasında kuvvetli rüzgar ve fırtına beklendiği belirtildi. Türkiye Afet Müdahale Planı (TAMP) kapsamında 23 afet grubu, 39 kaymakamlık ve ilgili kurumların bilgilendirildiği aktarıldı. Valilik, 13 Kasım saat 13.00 itibarıyla 112 Acil Çağrı Merkezi'ne çatı uçması, ağaç devrilmesi ve tehlike oluşturan parçalar nedeniyle toplam 74 ihbar ulaştığını, ihbarların tamamına müdahale edildiğini bildirdi.  12 PARK VE KORU ZİYARETE KAPATILDI Kuvvetli rüzgar nedeniyle dal düşmesi ve ağaç devrilmesi riskine karşı İstanbul'daki 12 park, koru ve yeşil alan geçici olarak ziyaretçi girişine kapatıldı. Ziyarete kapatılan alanlar şöyle: Emirgan Korusu Yıldız Korusu Gülhane Parkı Küçük Çamlıca Korusu Büyük Çamlıca Korusu Fethi Paşa Korusu Hidiv Kasrı Korusu Beykoz Korusu Büyükdere Atatürk Fidanlığı Atatürk Kent Ormanı Florya Atatürk Kent Ormanı Büyükçekmece Doğal Yaşam Parkı Kararın vatandaşların can ve mal güvenliğinin korunması amacıyla alındığı bildirildi. VAPUR VE TELEFERİK SEFERLERİ DURDURULDU Fırtına, İstanbul'da toplu ulaşımı da etkiledi. TF1 Maçka-Taşkışla ve TF2 Eyüp-Piyer Loti teleferik hatlarında saat 08.00 itibarıyla seferler durduruldu. Şehir Hatları'nın Bostancı-Moda-Karaköy-Kabataş, Büyükada-Sedef Adası, Beşiktaş-Adalar, Kadıköy-Karaköy-Eminönü ve Kadıköy-Beşiktaş hatlarının da aralarında bulunduğu çok sayıda hatta seferler iptal edildi. Aşiyan-Anadolu Hisarı-Küçüksu Ring Hattı ile Aşiyan-Üsküdar Hattı seferlerinin ise ikinci bir duyuruya kadar alternatif güzergahlardan yapılacağı açıklandı. DENİZ OTOBÜSÜ SEFERLERİNDE DE İPTALLER YAŞANDI Olumsuz hava koşulları nedeniyle deniz otobüsü seferlerinde de aksamalar meydana geldi. İptal edildiği bildirilen seferler arasında Kadıköy-Yenikapı-Bandırma hattının 11.30 seferi, Yalova-Yenikapı-Yalova hattının 11.45 karşılıklı seferleri ve Bursa-Armutlu-Yenikapı-Kadıköy hattının 11.45 ile 12.30 karşılıklı seferleri yer aldı. Bandırma-Yenikapı-Kadıköy hattının 15.30 seferi de iptal edildi.  SİLİVRİ'DE BALIKÇI TEKNELERİ BATTI, DALGALAR KIYIYA VURDU İstanbul'da şiddetli lodos nedeniyle sahil kesimlerinde zor anlar yaşandı. Üsküdar Salacak sahilinde kuvvetli rüzgarın etkisiyle yükselen dalgalar kıyıya vururken, Silivri'de balıkçı tekneleri battı. Kent genelinde fırtınanın etkisiyle ağaç devrilmesi gibi olumsuzluklar meydana geldi. Bursa'da da etkili olan ",
+      "text": "",
       "summary": ""
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "KARAKUYU DİZİSİ KONUSU NEDİR, OYUNCULARI KİMLER? Karakuyu dizisi nerede çekiliyor?",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/magazin/karakuyu-dizisi-konusu-nedir-oyunculari-kimler-karakuyu-dizisi-nerede-cekiliyor-3492996",
-      "pubDate": "Fri, 13 Nov 2026 22:01:27 GMT",
-      "image": null,
-      "text": "Karakuyu dizisihakkında merak edilenler sorgulanıyor. ÇekimleriTokat'ta süren Karakuyu dizisi ekran macerasına hazırlanıyor. Fragmanlarıyla dikkat çeken dizinin ne zaman başlayacağı araştırılıyor. Peki Karakuyu dizisinin konusu nedir, oyuncuları kimler? Karakuyu dizisi nerede çekiliyor? Detaylar haberimizde... KARAKUYU NE ZAMAN BAŞLAYACAK? Karakuyu dizisiKanal Dekranlarında yayınlanacak. Dizinin ilk bölüm yayın tarihi henüz belli olmadı. KARAKUYU DİZİSİNİN KONUSU NEDİR? Bir yandan kardeşlerini korumaya, diğer yandan kendi hayatının kontrolünü yeniden eline almaya çalışanFerda, kendisini hiç beklemediği büyük bir mücadelenin içinde buluyor. Bu süreçte karşısına çıkanKahramanise Ferda’nın hayatında yeni bir kapı aralıyor. İkili arasında başlayan güçlü çekim, beraberinde çatışmaları da getiriyor. KARAKUYU DİZİSİNİN OYUNCULARI KİMLER? Yönetmen koltuğunda Nezaket Coşkun’un oturduğu Karakuyu’nun senaryosu Deniz Akçay’ın imzasını taşıyor. Dizinin oyuncu kadrosunda ise; Onur Tuna, Özge Törer, Sermiyan Midyat, Uğur Uzunel, Yaren Yapıcı, Cenan Çamyurdu, Elçin Atamgüç, Emrah Özdemir, Ayça Erturan, Cihan Talay, Burcu Salihoğlu, Ceren Koç, Özlem Taş, Pervin Mert, Selen Güney, Abdullah Cersel, Defne Burnaz, Betül Alaz, Deniz Bal, Emin Çalış, Yaren Özkoca, Efe Akerler, Alperen Yazıcı ve Nazan Diper yer alıyor.",
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "TürkiyeKatar Yüksek Stratejik Komite 12. Toplantısı Ortak Bildirisi yayımlandı",
+      "source": "Trthaber",
+      "link": "https://www.trthaber.com/haber/gundem/turkiye-katar-yuksek-stratejik-komite-12-toplantisi-ortak-bildirisi-yayimlandi-963229.html",
+      "pubDate": "Fri, 13 Nov 2026 23:50:00 +0300",
+      "image": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2502000/erdogan-aa-2503573.jpg",
+      "text": "Dışişleri Bakanlığıtarafından Türkiye ileKatararasındaki Yüksek Stratejik Komite 12. Toplantısı ortak bildirisi yayımlandı. Bildiride, toplantının, CumhurbaşkanıRecep Tayyip Erdoğanve Katar Emiri Temim bin Hamed Al Sani başkanlığında, 19 Aralık 2014 tarihli Yüksek Stratejik Komite Kurulmasına İlişkin Ortak Mutabakat’ta belirtilen işbirliği alanlarından sorumlu bakanların katılımıyla İstanbul'da düzenlendiği belirtildi. Tarafların 5 milyarABDdolarıticarethacmine ulaşma hedeflerini yineledikleri belirtilen bildiride, ticari ve ekonomik ilişkileri genişletmek ve çeşitlendirmek için yeni fırsatların yanı sıra Ticaret ve Ekonomik Ortaklık Anlaşması'nın (TEPA) bu hedefe ulaşılmasına sağlayacağı katkının araştırılması hususunda mutabık kalındığı ifade edildi. Cumhurbaşkanı Erdoğan, Katar Emiri Al Sani ile görüştü Bildiride, tarafların Katar’ın Türkiye’deki yatırımlarından ve Türk müteahhitlik şirketlerinin Katar’da toplam 20,8 milyardolardeğerinde 206 proje üstlenmesinden memnuniyet duyduğu, ekonomik ve ticari işbirliğini güçlendirme konusunda anlaştığı kaydedildi. Tarafların ticari ilişkilerin geliştirilmesinde Türkiye-Katar Ortak Ekonomik ve Ticaret Komitesi’nin (JETCO) önemini vurguladığı ve komitenin ikinci toplantısını Doha’da düzenlemeye hazır oldukları belirtilen bildiride, tarafların, Türkiye-Katar Ekonomik ve Teknik İşbirliği Karma Komisyonu’nun 7. toplantısını da mümkün olan en erken tarihte Doha’da yapma konusunda mutabık kaldığı bildirildi. Bildiride, 2018’de imzalanan ve 1 Ağustos 2025'te yürürlüğe giren Ticaret ve Ekonomik Ortaklık Anlaşması’nın (TEPA) ticaret alışverişini geliştirmek, mal ve hizmet akışını kolaylaştırmak ve karşılıklı yatırımlarıteşviketmek suretiyle iki ülke arasındaki stratejik ortaklığın derinleştirilmesine ve bölgesel ekonomik bütünleşmenin desteklenmesine katkıda bulunacak kapsamlı bir çerçeve sunduğu aktarıldı. İki ülke arasındaki ticaret, finans,yatırımveenerjialanındaki ilişkilere ve toplantı kapsamında imzalanan anlaşmalara atıfta bulunulan bildiride, ticaret, lojistik ve enerji alanındaki işbirliğinin önemine dikkat çekildi. Kültür, eğitim,medyave iletişim teknolojileri, halk sağlığı, gençlik ve spor, bilim, teknolojik yenilik ve sanayi, kalkınma, insani yardım ve acil yardım alanlarında işbirliğine değinilen bildiride, iki ülke arasında bu alanlarda çeşitli anlaşmalar, programlar ve işbirliği fırsatlarına işaret edildi. Bildiride, iki tarafın ortak güvenlik kaygılarını stratejik bir öncelik olarak ele alma ve savunma ile ilgili konulardaki işbirliğini daha da geliştirme yönündeki kararlılıklarını ifade ettiği belirtildi. Tarafların, müşterek savunmanın güçlendirilmesi, bölgesel güvenlik ve istikrarın desteklenmesi ile dış silahlı saldırıya karşı ortak bir duruşun teşvik edilmesi amacıyla \"Türkiye ile Katar arasında Karşılıklı Savunma Anlaşması\"nın imzalanmasını takdirle karşıladığı aktarılan bildiride, şunlar kaydedildi: \"İki taraf, söz konusu Anlaşma’nın yalnızca imzacı tarafların egemenliklerini ve toprak bütünlüklerini koruma taahhüdünü değil, aynı zamanda daha güvenli ve istikrarlı bir bölgesel düzene katkıda bulunma yönündeki ortak vizyonlarını da yansıttığını teyit etmiştir. Bu bağlamda, her iki taraf, güvenliklerine yönelik tehditlerin yanı sıra bölgesel ve küresel güvenlik meseleleri ile savunma politikaları hakkında istişarelerde bulunma ve ortak askeri tatbikatlar,savunma sanayiiişbirliği ve personel eğitimi değişimleri yoluyla işbirliğini geliştirme hususunda mutabık kalmıştır.\" Bildiride, ",
       "summary": ""
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Araç satışlarında büyük düşüş! Markalar kampanya yarışına girdi",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/video/ekonomi/arac-satislarinda-buyuk-dusus-markalar-kampanya-yarisina-girdi-3492997",
-      "pubDate": "Fri, 13 Nov 2026 22:00:07 GMT",
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "BM: Hürmüz ve Babulmendeb boğazlarındaki gerilim küresel güvenliği tehdit ediyor",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/dunya/bm-hurmuz-ve-babulmendeb-bogazlarindaki-gerilim-kuresel-guvenligi-tehdit-ediyor/4124767",
+      "pubDate": "Fri, 13 Nov 2026 23:49:15 +0300",
       "image": null,
-      "text": "Türkiye otomotiv pazarında son dönemde yaşanan rekor satışların ardından talep sert bir şekilde daraldı. Piyasada yaşanan durgunluk, markaları müşteri çekebilmek için kampanyalara ve büyük indirimlere yönlendirdi. Ancak yapılan bu hamleler, daralan pazarda beklenen hareketliliği sağlamaya yetmedi. Ekim ayında otomobil satışları yüzde 28,4 oranında gerileyerek 64 bin 939 adede indi. Sektördeki bu yavaşlama, sıfır kilometre araçlardan ikinci el pazarına kadar geniş bir alanda etkisini gösteriyor.  KAMPANYALAR SATIŞLARI CANLANDIRMAYA YETMİYOR Sıfır araç pazarındaki daralma, stokların şişmesine yol açarken markalar cazip tekliflerle tüketicinin ilgisini çekmeye çalışıyor. Satış Yönetmeni Metehan Akverdi, mevcut durumu şu sözlerle özetliyor: \"Liste fiyatı üzerinden 300 bin liralık indirimlerimiz mevcut. Ayrıca bireysel müşterilerimize bu ay için 300.000 TL'ye 6 ay sıfır faizli kredi imkanı sunuyoruz.\" İKİNCİ EL PİYASASINDA DURGUNLUK DERİNLEŞİYOR Sıfır araç pazarındaki bu kampanyalı ve indirimli ortam, ikinci el piyasasındaki talebi de olumsuz etkiledi. Fiyatı düşmesine ve hatta aynı araçta peş peşe indirimler yapılmasına rağmen, galerilerde araçları incelemeye gelen müşteri sayısında belirgin bir azalma dikkat çekiyor.",
+      "text": "",
       "summary": ""
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Cafer Mahiroğlu soruşturmasında ikinci dalga! 6 şüpheliye tutuklama talebi",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/cafer-mahiroglu-sorusturmasinda-ikinci-dalga-6-supheliye-tutuklama-talebi-3492995",
-      "pubDate": "Fri, 13 Nov 2026 21:52:34 GMT",
-      "image": null,
-      "text": "İstanbul Cumhuriyet Başsavcılığı tarafından iş insanıCafer Mahiroğluhakkında yürütülen soruşturmada yeni bir aşamaya geçildi.İzmir Büyükşehir Belediyesiihaleleri üzerinden haksız menfaat sağlandığı iddialarının araştırıldığı dosyada ikinci dalga operasyon düzenlendi. Gözaltına alınan 8 şüphelinin savcılık ifadelerinin tamamlanmasının ardından 6 kişi hakkındatutuklama, 2 kişi hakkında ise adli kontrol talep edildi. ESKİ BELEDİYE YÖNETİCİLERİNE TUTUKLAMA TALEBİ Soruşturma kapsamında adliyeye sevk edilen şüphelilerin savcılık işlemleri tamamlandı. Eski İzmir Büyükşehir Belediyesi Genel Sekreteri Ramazan Tezcan, eski İzmir Büyükşehir Belediyesi Makine İkmal Daire Başkanı Haluk Harun Tuzsuzoğlu ve aynı dairede kontrolör olarak görev yapan Mehmet Meral'in de aralarında bulunduğu 6 şüpheli tutuklama talebiyle sulh ceza hakimliğine gönderildi. Filiz Bulut, Emre Kaya ve İbrahim Tuncol da tutuklanmaları talep edilen diğer isimler oldu. İbrahim Seyfittinoğlu ile Murat Topuz hakkında ise adli kontrol tedbiri uygulanması istendi.  14,4 MİLYON LİRALIK RÜŞVET İDDİASI İstanbul Cumhuriyet Başsavcılığının daha önce yaptığı açıklamada, Cafer Mahiroğlu'nun İzmir Büyükşehir Belediyesindeki bağlantılarını kullanarak BUSTECH Araç Bakım Onarım Hizmetleri AŞ'nin kurulmasını sağladığı ve belediye ihaleleri üzerinden haksız kazanç elde edildiğine ilişkin bulgulara ulaşıldığı belirtilmişti. Savcılığın açıklamasına göre MASAK verileri ve diğer delillerin incelenmesi sonucunda, ihale süreçleriyle bağlantılı 14 milyon 464 bin liralık kayıtsız rüşvet ödemesi yapıldığı iddia edildi. Şirket üzerinden alınan işlerde yüksek fiyatlarla ödeme gerçekleştirildiği ve elde edilen gelirlerin Mahiroğlu ile ilişkili şirketlere aktarıldığı öne sürüldü. 30 MİLYAR LİRALIK İŞLEM HACMİ İNCELEMEDE Soruşturma dosyasında yer alan mali veriler de dikkat çekti. Başsavcılığın açıklamasında, Mahiroğlu ile ilişkili olduğu belirtilen şirketlerin toplam işlem hacminin 30 milyar 352 milyon 37 bin 389 lira 15 kuruş olduğu kaydedildi. Mahiroğlu'nun şahsi banka hesaplarında ise 459 işlemde toplam 1 milyar 62 milyon lirayı aşan para girişi, 564 işlemde de 1 milyar 118 milyon lirayı aşan para çıkışı bulunduğu bildirildi. Yurt dışına gerçekleştirilen para transferleri ve mal varlığı edinimleri de soruşturma kapsamında incelemeye alındı. Arka Sokaklar'ın Zeliş'iydi! Yüsra Geyik'in kalbi boş mu dolu mu? Hande Erçel, Dubai'yi salladı! Güzelliği ve zarafetiyle geceye damga vurdu ŞİRKETLERE TMSF KAYYUM OLARAK ATANDI Soruşturma kapsamında Cafer Mahiroğlu'nun ortağı, yöneticisi veya ilişkili olduğu tespit edilen şirketlere sulh ceza hakimliği kararıyla el konuldu. Söz konusu şirketlere Tasarruf Mevduatı Sigorta Fonu (TMSF) kayyum olarak atandı. Ayrıca TMSF'nin kayyum olarak atandığı Halk TV'nin sanal medya hesaplarına da sulh ceza hakimliği kararıyla erişim engeli getirildi. İLK OPERASYONDA 5 KİŞİ TUTUKLANMIŞTI Soruşturmanın ilk aşamasında 12 şüpheli gözaltına alınmıştı. Hakimlik işlemlerinin ardından 4 şüpheli tutuklanırken, 4'ü ev hapsi olmak üzere 8 kişi hakkında adli kontrol kararı verilmişti. Devam eden soruşturmada bir şüphelinin daha tutuklanmasıyla tutuklu sayısı 5'e yükselmişti. Cafer Mahiroğlu, Hakan Arıcan ve Sevim Kul'un yurt dışında olduğu, Doruk Bulut'un başka bir suçtan cezaevinde bulunduğu, Fatih Yadoğlu'nun ise firari olduğu bildirilmişti. İkinci dalga operasyon kapsamında gözaltına alınan 8 şüphelinin hakimlik işlemlerine ilişkin karar bekleniyor.",
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "ASELSAN yarım asrı aşan yolculuğunu özel bir filmle kutluyor",
+      "source": "Trthaber",
+      "link": "https://www.trthaber.com/haber/savunma/aselsan-yarim-asri-asan-yolculugunu-ozel-bir-filmle-kutluyor-963227.html",
+      "pubDate": "Fri, 13 Nov 2026 23:48:00 +0300",
+      "image": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2456000/aselsanaa-2457763.jpg",
+      "text": "Savunma sanayisine yönelik ambargoların gölgesinde kurulan ve geçen 51 yılda dünyanın önde gelen savunma sanayisi şirketleri arasına giren ASELSAN, kuruluş yıl dönümü için hazırladığı filmde teknolojik ürünler yerine insanı ve sevgiyi merkeze alıyor. Şirketten yapılan açıklamaya göre filmde, ASELSAN'ın kurulduğu 1975 yılında dünyaya gelen Elif’in yaşamından kesitlere yer veriliyor. Annesinin, babasının, babaannesinin koruyucu sevgisiyle büyüyen Elif'in hayatı üzerinden sevginin farklı dönemlerde sözcüklere ihtiyaç duyulmadan nasıl ifade edildiği anlatılıyor. Zaman içinde kendisi de sevdiklerini koruyan bir kişiye dönüşen Elif'in hikayesi, filmin sonundaASELSANçalışanı olduğunun görülmesiyle farklı bir anlam kazanıyor. Böylece bireysel bir yaşam hikayesi üzerinden insan sevgisi ile vatan sevgisi arasında bağ kurulurken, ASELSAN'ın Türkiye'nin güvenliği için üstlendiği role de vurgu yapılıyor. Savunma ve teknoloji sektöründe ürünlerin, sistemlerin ve teknik kabiliyetlerin ön plana çıkarıldığı geleneksel tanıtım anlayışından farklılaşan filmde, herhangi bir teknolojik ürüne yer verilmiyor. Sevginin yalnızca sözlerle değil, koruyarak ve emek vererek de gösterilebileceği fikrinden hareket eden yapım, ASELSAN'ın 51 yıllık geçmişini insan odaklı bir yaklaşımla izleyiciye aktarıyor. 1975 yılında Türkiye'nin savunma sanayisinde dışa bağımlılığını azaltmak amacıyla kurulan ASELSAN, bugün yaklaşık 15 bin çalışanıyla farklı alanlarda ileri teknoloji çözümleri geliştiriyor. Şirket, Cumhuriyet tarihinin en büyük savunma sanayisi yatırımı olarak nitelendirilen Oğulbey Teknoloji Üssü ile üretim ve teknoloji geliştirme kapasitesini daha da artırmayı hedefliyor. ASELSAN, 51'inci kuruluş yıl dönümünde yayımladığı özel filmle, yarım asrı aşan teknoloji yolculuğunun merkezinde insanın ve Türkiye'yi koruma sorumluluğunun bulunduğu mesajını veriyor.",
       "summary": ""
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "MAVİ BALİNA-2026 DAVET TATBİKATI! 12 ülkeden 4 bin 500 personel katılıyor",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/video/turkiye/mavi-balina-2026-davet-tatbikati-12-ulkeden-4-bin-500-personel-katiliyor-3492988",
-      "pubDate": "Fri, 13 Nov 2026 21:33:56 GMT",
-      "image": null,
-      "summary": "9-20 Kasım tarihleri arasında Türkiye'de düzenlenen Mavi Balina-2026 Davet Tatbikatı, 12 ülke ve NATO unsurlarıyla birlikte 4 500'den fazla personelin katılımıyla gerçekleşiyor. Tatbikat, Doğu Akdeniz'de denizaltı operasyonlarıyla ittifak ülkelerinin deniz gücü ve ortak harekat kabiliyetlerini test etmeyi amaçlıyor. ASELSAN'ın geliştirdiği 'Derin Göz' ve 'Kılıç' sualtı araçları gibi yerli sistemler de tatbikata dahil edildi."
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "BM: Boğazlardaki gerilim küresel güvenliği tehdit ediyor",
+      "source": "Trthaber",
+      "link": "https://www.trthaber.com/haber/dunya/bm-bogazlardaki-gerilim-kuresel-guvenligi-tehdit-ediyor-963228.html",
+      "pubDate": "Fri, 13 Nov 2026 23:46:00 +0300",
+      "image": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2454000/hurmuz-reu-2455455.jpg",
+      "text": "BM Orta Doğu, Asya ve Pasifik'ten Sorumlu Genel Sekreter Yardımcısı Mohamed Khaled Khiari, Bahreyn'in talebi üzerine BM Güvenlik Konseyinde (BMGK) Orta Doğu'daki gelişmeler ve deniz güvenliğine yönelik tehditler hakkında düzenlenen oturumda konuştu. Khiari, ticari gemilere yönelik saldırıların sürdüğünü, çok sayıdagemive mürettebatın aylardır Basra Körfezi'nde mahsur kaldığını belirterek tarafların deniz ulaşımına getirdiği kısıtlamaların belirsizliği artırdığını söyledi. Bölgedenenerjiihracatının alternatif güzergahlar sayesinde büyük ölçüde yeniden sağlandığına ilişkin haberleri takip ettiklerini aktaran Khiari, buna rağmen deniz yoluyla yapılan sevkiyatların çatışma öncesi seviyelerin altında kaldığını vurguladı. Khiari, \"Uluslararası Denizcilik Örgütü (IMO), 11 Kasım itibarıylaHürmüz Boğazıve daha geniş Orta Doğu denizcilik bölgesinde 134 doğrulanmış olay kaydetti. IMO'ya göre 25 denizci hayatını kaybetti. Birçok kişi de yaralandı veya kayıp durumda. Bu olaylar kabul edilemez. Sivil gemiler ve ticari gemiler hedef haline gelmemelidir.\" dedi. Kızıldeniz'de son dönemde ticari gemilere yönelik saldırı bildirilmediğini ancak Babulmendeb Boğazı çevresindeki çatışmaların ve seyrüsefer özgürlüğüne yönelik tehditlerinendişekaynağı olmaya devam ettiğini belirten Khiari, Husilerin Suudi Arabistan'daki sivil ve enerji altyapısına yönelik saldırılarını da kınadı. Khiari, bölgedeki deniz ulaşımında yaşanan aksaklıkların enerji, taşımacılık vesigortamaliyetlerini artırdığını, enflasyonu körüklediğini, gübre sevkiyatlarını kısıtlayarakgıdagüvenliğini tehdit ettiğini ve bu nedenle deniz yollarının baskı aracı olarak kullanılmaması gerektiğini söyledi. Tüm taraflara uluslararasıhukukkapsamındaki yükümlülüklerine uyma ve seyrüsefer hak ve özgürlüklerinin yeniden tesis edilmesi çağrısı yapan Khiari, ticari gemilere yönelik saldırıların derhal durdurulmasını istedi. Khiari, bölgede eylül başından bu yana büyük çaplı askeri çatışma yaşanmamasını olumlu karşıladıklarını ancak yeni bir askeri karşılaşma ihtimaline ilişkin söylemlerden endişe duyduklarını belirterek İran ileABDarasındaki müzakerelerin iyi niyetle sürdürülmesi çağrısında bulundu. Yeniden başlayacak çatışmaların İran, bölge ve ötesinde yıkıcı sonuçlar doğuracağı uyarısında bulunan Khiari, kalıcı barışın yolunun diplomasi, uzlaşma ve siyasi cesaretten geçtiğini vurguladı.",
+      "summary": ""
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "HAVA DURUMU 14 KASIM: Yarın havalar nasıl olacak? Yağmur yağacak mı? İstanbul, Ankara, İzmir, Bursa'da hava durumu nasıl olacak?",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/hava-durumu-14-kasim-yarin-havalar-nasil-olacak-yagmur-yagacak-mi-istanbul-ankara-izmir-bursada-hava-durumu-nasil-olacak-3492994",
-      "pubDate": "Fri, 13 Nov 2026 21:30:39 GMT",
-      "image": null,
-      "summary": "Meteoroloji Genel Müdürlüğü, 14 Kasım'da Marmara, Ege, Batı Akdeniz, İç Anadolu'nun kuzeybatısı ve Karadeniz'in bazı bölgelerinde parçalı bulutlu havanın yanı sıra sağanak ve gök gürültülü yağışların etkili olacağını bildiriyor. Rüzgarların güneyden 40‑70 km/saat, kuzeydoğudan 40‑60 km/saat hızlarla esmesi bekleniyor. Sıcaklıklar bölgelere göre 10‑25 °C arasında değişecek."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Milyonlarca öğrenci ara tatile girdi! Bakan Tekin'den mesaj",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/milyonlarca-ogrenci-ara-tatile-girdi-bakan-tekinden-mesaj-3492993",
-      "pubDate": "Fri, 13 Nov 2026 21:22:58 GMT",
-      "image": null,
-      "summary": "2026‑2027 eğitim‑öğretim yılının ilk ara tatili milyonlarca öğrenci için başladı ve Milli Eğitim Bakanı Yusuf Tekin, öğrencilerin dinlenirken aynı zamanda kitap okuyarak ve şehirlerini keşfederek tatili verimli geçirmelerini önerdi. Tekin, öğretmenlere de yoğun çalışma döneminin ardından başarılar dileyerek, eğitim sürecine katkılarını sürdürmelerini istedi."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Adalet Bakanı Gürlek duyurdu! 3 faili meçhul daha aydınlatıldı",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/adalet-bakani-gurlek-duyurdu-3-faili-mechul-daha-aydinlatildi-3492990",
-      "pubDate": "Fri, 13 Nov 2026 20:54:30 GMT",
-      "image": null,
-      "summary": "Adalet Bakanı Akın Gürlek, 76 dosyada 83 cinayetin faili meçhul olmaktan çıkarıldığını ve Bursa ile Bitlis’te 14, 16 ve 20 yıl önce işlenen üç ayrı cinayetin yeni teknolojik delillerle yeniden incelendiğini duyurdu. DNA, HTS ve tanık ifadeleri gibi kanıtların değerlendirilmesiyle operasyonlar düzenlendi, bu süreçte bir şüpheli tutuklandı, iki kişi adli kontrol kararına alındı ve bir firari hakkında kırmızı bülten çıkarıldı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Ekrem İmamoğlu yeniden ifade verdi",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/ekrem-imamoglu-yeniden-ifade-verdi-3492989",
-      "pubDate": "Fri, 13 Nov 2026 20:25:32 GMT",
-      "image": null,
-      "summary": "Ekrem İmamoğlu, Silivri Cumhuriyet Başsavcılığı’nın açtığı soruşturma kapsamında yaptığı ifadelerde \"Ben yargılayacağım\" sözünün mecazi olduğunu ve şiddet ya da tehdit içermediğini savundu; yargılamak kelimesinin tehdit olarak değerlendirilmesine itiraz etti ve soruşturmanın devam ettiğini belirtti."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Almanya'dan Trump'a Putin uyarısı! \"Lütfen sürpriz yapmayın\"",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/dunya/almanyadan-trumpa-putin-uyarisi-lutfen-surpriz-yapmayin-3492987",
-      "pubDate": "Fri, 13 Nov 2026 20:21:18 GMT",
-      "image": null,
-      "summary": "Almanya Başbakanı Friedrich Merz, Dublin’deki Avrupa Zirvesi’nde ABD Başkanı Donald Trump’a, Çin’de gerçekleşmesi planlanan Trump‑Putin görüşmesinin Avrupa’da sürpriz yaratmaması gerektiğini vurguladı. Merz, Ukrayna’nın barış sürecine Avrupa’nın aktif katılımının önemine değinerek, Almanya’nın müzakerelerde yer alacağını ve Rusya ile güçlü bir konumda görüşmeye hazır olduklarını belirtti."
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Almanyada kreş başvurularında Türkçe soyada ayrımcılık",
+      "source": "Trthaber",
+      "link": "https://www.trthaber.com/haber/dunya/almanyada-kres-basvurularinda-turkce-soyada-ayrimcilik-963226.html",
+      "pubDate": "Fri, 13 Nov 2026 23:36:00 +0300",
+      "image": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2502000/kres-2503572.jpg",
+      "text": "Almanya'nın ekonomikaraştırmakuruluşlarından ifo Enstitüsü, Münih Teknik Üniversitesi (TUM), Halle Leibniz Ekonomi Araştırmaları Enstitüsü (IWH) ve Alman Yükseköğretim ve Bilim Araştırmaları Merkezi (DZHW) tarafından Mart 2021'de başlatılan araştırma kapsamında Türkçe kökenli ismi olan ebeveynlerin çocuklarınakreşararken ayrımcılığa uğrayıp uğramadığı incelendi. Araştırma kapsamında, 3 yaşından küçük çocuklar için yer bulunan 22 binden fazla kreşe e-posta gönderildi. E-postalarda, ebeveynler için Almanca ve Türkçe soyadlarının rastgele​​​​​​​ kullanıldığı belirtilen araştırma kapsamında her kreşe yalnızca bir e-posta gönderildi. Bunlardan yaklaşık 18 bin 700'ünün başarıyla ulaştırıldığı aktarılan araştırmada, toplam 12 bin 547 başvurunun yanıtlandığı kaydedildi. Araştırmada, böylece başvurulara verilen yanıtlar arasındaki farklılıkların doğrudan soyadından kaynaklanıp kaynaklanmadığı incelendi. Araştırma sonucunda, Alman soyadlarıyla yapılan kreş başvurularının yaklaşık yüzde 71'ine, Türkçe kökenli soyadlarıyla yapılan başvuruların ise yüzde 66'sına yanıt verildi, böylelikle Türkçe kökenli isimlere sahip ebeveynlerin çocukları için kreş yeri arayışında ayrımcılığa maruz kaldığı ortaya konuldu. Türkçe kökenli soyadına sahip ebeveynlere somut bir kreş yeri teklif edilme olasılığının, Almanca soyadlılara göre yaklaşık yüzde 20 daha düşük olduğu tespit edilen araştırmada, Türkçe kökenli isimlere sahip ebeveynlerin,eğitimdüzeylerini belirtseler dahi yine de diğer gruba oranla daha az yanıt aldığı kaydedildi. DZHW uzmanı Frauke Peter, konuyla ilgili açıklamasında \"Kreş, eğitim yolundaki ilk yapı taşıdır. Kreşe erişimde yaşanan eşitsiz fırsatlar, üniversiteye kadar etkisini sürdürebilir.\" ifadesini kullandı.",
+      "summary": ""
     },
     {
       "cat": "Gündem",
@@ -639,7 +691,7 @@
       "source": "Trthaber",
       "link": "https://www.trthaber.com/haber/dunya/ab-ukrayna-muzakereleri-icin-avrupayi-temsil-edecek-ekibi-belirledi-963225.html",
       "pubDate": "Fri, 13 Nov 2026 22:50:00 +0300",
-      "image": null,
+      "image": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2248000/antonio-costa-reu-2248646.jpg",
       "text": "Costa veABKomisyonu Başkanı Ursula von der Leyen, İrlanda'nın başkenti Dublin'de düzenlenen gayriresmi AB Liderler Zirvesi'nin ardından ortak basın toplantısında konuştu. Liderlerin Ukrayna'daki durumu ve barış anlaşmasına yönelik devam eden müzakere çabalarını görüştüğünü belirten Costa, Avrupa'nın güvenliğinin Ukrayna'nın güvenliğiyle başladığını vurguladı. Rusya'yı müzakere masasına getirmeyi amaçlayan tüm diplomatik çabaları memnuniyetle karşıladıklarını dile getiren Costa, devam eden süreci desteklemeye tamamen angaje olduklarını ve bunun somut sonuçlar vermesini umduklarını ifade etti. Costa, \"Bugün liderler, Ukrayna'da barış müzakereleri için Avrupa ekibimizin AB kurumları ve Gönüllüler Koalisyonu'nun E5 grubundan oluşması konusunda anlaştı.\" dedi. Müzakerelerdeki ilke ve tutumlarının bilindiğini belirten Costa, Avrupa ekibinin tam birlik içinde ve yakın koordinasyonla hareket etmeyi sürdüreceğini kaydetti. Costa, \"Avrupa, Ukrayna'nın geleceğini ve kıtamızın güvenliğini şekillendiren tüm görüşmelerde açık ve birleşik tek bir sesle konuşmalı. Bu, sonuçta bir ekip çalışmasıdır.\" ifadesini kullandı. Ukrayna'nın toprakları ve egemenliğiyle ilgili konularda karar verme meşruiyetinin yalnızca Ukrayna'ya ait olduğunu vurgulayan Costa, AB'nin bu ülkenin Avrupa'daki geleceği, yeniden inşası ve refahına ilişkin görüşmelerde merkezi bir rolü bulunduğunu söyledi. Costa, güvenlik garantilerinin iseNATOile yakın koordinasyon içinde Gönüllüler Koalisyonu çerçevesinde ele alınması gerektiğini belirtti. Ukrayna'nın adil ve kalıcı barışa ulaşmasını desteklemek için birlikte çalışmayı sürdüreceklerini kaydeden Costa, barışın ancak son 50 yıldır Avrupa güvenliğinin temelini oluşturan ilkelere dayanması halinde adil olabileceğini dile getirdi. RusyaDevlet Başkanı Vladimir Putin'in Avrupa adına müzakere edebileceği tek bir isim istediğinin ve AB Dış İlişkiler ve Güvenlik Politikası Yüksek Temsilcisi Kaja Kallas'ın AB liderlerince bu görev için kurumsal olarak seçildiğini söylediğinin hatırlatılması üzerine Costa, diğer taraflar gibi Avrupa'nın da ekip halinde hareket etmesi gerektiğini belirtti. Başından beri tüm barış çabalarını, özellikleABDBaşkanı Donald Trump'ın öncülük ettiği girişimleri desteklediklerini söyleyen Costa, barış müzakerelerinde ilerlemek için yeni bir ivme oluştuğunu ve bu görüşmeleri desteklemeye tamamen angaje olduklarını ifade etti. Costa, \"Bunun için elbette diğer tüm tarafların yaptığı gibi bir ekip olarak hareket etmemiz gerekiyor. Bir örnek vereyim, Başkan Trump'ın özel temsilcilerine bakarsanız bir değil, iki kişi var.Ukraynaheyetine bakarsanız sanırım üç ya da dört kişi var.\" diye konuştu. Bunun olağan olduğunu belirten Costa, özellikle Avrupa söz konusu olduğunda AB'nin kendine ait yetkileri bulunduğunu, barış anlaşmasının ardından Ukrayna'ya güvenlik garantileri sağlanmasında Gönüllüler Koalisyonu'nun da temel bir rol üstlendiğine işaret etti. Costa, \"Elbette hepimizi bir araya getirmemiz gerekiyor. Bunun için bir ekibimizin olması ve tek sesle konuşmamız şart. Yapmak üzere anlaştığımız şey bu ve bu konuda çalışma biçimimiz de bu. Böyle devam edeceğiz.\" dedi. Costa, gelecek haftaların Rusya'nın savaşı sona erdirmeye hazır olup olmadığı konusunda belirleyici bir \"sınav\" olacağını söyledi. En acil önceliklerinin Ukrayna'nın ihtiyaç duyduğumalive askeri yardımı sağlamak ve AB üyeliği yolundaki ilerlemesini desteklemek olduğunu belirten Costa, Komisyonun sunacağı öneriler temelinde bir sonraki AB Liderler Zirvesi'nde Ukrayna",
       "summary": ""
     },
@@ -673,131 +725,14 @@
       "pubDate": "Fri, 13 Nov 2026 22:23:35 +0300",
       "image": null,
       "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "ABD-Çin Ticaret Kurulu'nun ilk resmi toplantısı yapıldı",
-      "source": "Aa",
-      "link": "https://www.aa.com.tr/tr/ekonomi/abd-cin-ticaret-kurulunun-ilk-resmi-toplantisi-yapildi-/4124690",
-      "pubDate": "Fri, 13 Nov 2026 22:03:26 +0300",
-      "image": null,
-      "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "OTİZM MERKEZİNDE 43. YIL DÖNÜMÜ ETKİNLİĞİ!",
-      "source": "Mhahaber",
-      "link": "https://www.mhahaber.com/otizm-merkezinde-43-yil-donumu-etkinligi",
-      "pubDate": "Fri, 13 Nov 2026 19:00:21 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/1df3f7bf-b9fe-4176-a971-af2503d4dc54-960x540.webp",
-      "summary": "Kuzey Kıbrıs Türk Cumhuriyeti'nin kuruluşunun 43. yılı kapsamında Mehmet ve Nazife Taşker Otizm Merkezi'nde bir tören düzenlendi. Çalışma ve Sosyal Güvenlik Bakanı Oğuzhan Hasipoğlu da etkinliğe katıldı."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "ERTUĞRULOĞLU’NUN ROTASI PAKİSTAN: GÜNDEM EİT TOPLANTISI!",
-      "source": "Mhahaber",
-      "link": "https://www.mhahaber.com/ertugruloglunun-rotasi-pakistan-gundem-eit-toplantisi",
-      "pubDate": "Fri, 13 Nov 2026 18:50:28 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/b9c9d940-16cd-468a-b028-4d98a91b46d0-960x540.webp",
-      "summary": "Dışişleri Bakanı Tahsin Ertuğruloğlu, Ekonomik İşbirliği Teşkilatı’nın 30. Dışişleri Bakanları Konseyi Toplantısı’na katılmak üzere Pakistan’ın başkenti İslamabad’a gitti. Ertuğruloğlu, KKTC’yi temsil ederek bölgesel ekonomik iş birliği konularını görüşecek."
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Katar Emiri Al Sani: Katar ile Türkiye arasındaki stratejik ortaklık çeşitli alanlarda gelişmeye devam ediyor",
-      "source": "Trthaber",
-      "link": "https://www.trthaber.com/haber/dunya/katar-emiri-al-sani-katar-ile-turkiye-arasindaki-stratejik-ortaklik-cesitli-alanlarda-gelismeye-devam-ediyor-963222.html",
-      "pubDate": "Fri, 13 Nov 2026 21:48:00 +0300",
-      "image": null,
-      "text": "Al Sani, paylaşımında, şu ifadeleri kullandı: \"Katar ile Türkiye arasındaki stratejik ortaklık çeşitli alanlarda gelişmeye devam ediyor. Bu durum, bugün İstanbul'da kardeşim CumhurbaşkanıRecep Tayyip Erdoğanile başkanlık ettiğimiz Yüksek Stratejik Komite'nin 12. Toplantısı'na da yansıdı.\" Toplantıda iki ülke arasındaki işbirliğinde bugüne kadar elde edilen kazanımları daha ileriye taşımanın yollarını ele aldıklarını belirten Al Sani, gelecek dönemde yürütülecek ortak çalışmaların önceliklerini belirlemeye yönelik görüşmeler de gerçekleştirdiklerini kaydetti.",
-      "summary": ""
-    },
-    {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Bakan Çiftçi'den yolda kalan iki kadına yardım eden polislere teşekkür paylaşımı",
-      "source": "Aa",
-      "link": "https://www.aa.com.tr/tr/gundem/bakan-ciftciden-yolda-kalan-iki-kadina-yardim-eden-polislere-tesekkur-paylasimi/4124684",
-      "pubDate": "Fri, 13 Nov 2026 21:47:11 +0300",
-      "image": null,
-      "text": "",
-      "summary": ""
     }
   ],
-  "weather": {
-    "temp": 17.0,
-    "desc": "Az bulutlu"
-  },
+  "weather": null,
   "market": {
-    "usdtry": 50.31,
-    "eurtry": 55.69,
-    "gold_gram_try": 6270.34
+    "usdtry": null,
+    "eurtry": null,
+    "gold_gram_try": null
   },
-  "crypto": [
-    {
-      "label": "Bitcoin",
-      "price": 3468514,
-      "change_pct": -3.4431464408024097
-    },
-    {
-      "label": "Ethereum",
-      "price": 98034,
-      "change_pct": -3.3913945532945347
-    }
-  ],
-  "stocks": [
-    {
-      "label": "BIST 100",
-      "price": 11842.82,
-      "change_pct": 1.51
-    },
-    {
-      "label": "S&P 500",
-      "price": 7550.75,
-      "change_pct": -0.55
-    },
-    {
-      "label": "Nasdaq",
-      "price": 25116.7,
-      "change_pct": -0.98
-    },
-    {
-      "label": "THY",
-      "price": 320.25,
-      "change_pct": 0.39
-    },
-    {
-      "label": "Aselsan",
-      "price": 345.5,
-      "change_pct": 0.22
-    },
-    {
-      "label": "Garanti BBVA",
-      "price": 150.3,
-      "change_pct": -1.51
-    },
-    {
-      "label": "BİM",
-      "price": 395.5,
-      "change_pct": 1.93
-    },
-    {
-      "label": "Apple",
-      "price": 355.95,
-      "change_pct": 0.3
-    },
-    {
-      "label": "Microsoft",
-      "price": 523.88,
-      "change_pct": 0.17
-    },
-    {
-      "label": "Nvidia",
-      "price": 162.27,
-      "change_pct": -2.36
-    }
-  ]
+  "crypto": [],
+  "stocks": []
 }

@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Kusursuz Sürüm v3)
+RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi
 """
 import json, os, re, sys, time
 from datetime import datetime, timezone
@@ -192,7 +192,6 @@ def summarize_batch(items):
     lines = []
     for i, it in enumerate(items):
         content = it.get("text")
-        # 🚀 DÜZELTME: Eğer tam metin çekilemediyse başlığı özetletmiyoruz, direkt uyarı yazdırıyoruz.
         if not content:
             lines.append(f"--- HABER {i+1} ---\nBaşlık: {it['title']}\nDurum: TAM METNE ULAŞILAMADI. Lütfen başka bir şey yazma, SADECE 'Bu haberin tam metnine ulaşılamadı.' yaz.\n")
         else:
@@ -231,10 +230,9 @@ def summarize_batch(items):
             break
     return [""] * len(items)
 
-# --- KATEGORİYE ÖZEL ANALİZLER (GÜVENLİ VE HAFİF) ---
+# --- KATEGORİYE ÖZEL ANALİZLER ---
 def generate_category_briefings(all_news):
     if not all_news: return {}
-    # 🚀 400 hatasını önlemek için sadece en güncel 10 haber analiz edilir
     top_news = all_news[:10] 
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     
@@ -270,7 +268,7 @@ def generate_category_briefings(all_news):
         fallback_text = "Günün öne çıkan başlıkları: " + ", ".join([h['title'] for h in top_news[:3]])
         return {"genel": fallback_text, "teknoloji": "Analiz şu an hazırlanamıyor.", "ekonomi": "Analiz şu an hazırlanamıyor.", "gundem": "Analiz şu an hazırlanamıyor."}
 
-# --- AKILLI CACHE VE BİLDİRİM ---
+# --- CACHE VE BİLDİRİM ---
 def load_cache():
     cache = {}
     briefings = {}

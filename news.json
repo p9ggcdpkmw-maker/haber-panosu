@@ -1,12 +1,34 @@
 {
-  "updated": "2026-11-12T23:32:36.587858+00:00",
+  "updated": "2026-11-13T00:43:41.816284+00:00",
   "briefings": {
-    "genel": "Son dönemde yapay zeka ve yarı iletken alanındaki iş birliği anlaşmaları, bölgesel ve küresel inovasyon hızını artırıyor. Ayrıca büyük yatırım ve yerli ürün ihracatı, sektördeki rekabeti ve bağımsızlığı güçlendiriyor.",
-    "teknoloji": "Vietnam ve Güney Kore'nin sekiz iş birliği anlaşması, yapay zeka ve çip teknolojilerinde ortak Ar-Ge'yi hızlandıracak. SpaceX'in 74 milyar dolarlık AI altyapı yatırımı ve 22 MB'lık yerel AI modeli, ölçeklenebilir ve düşük kaynaklı çözümlerin öncüsü.",
-    "ekonomi": "Yerli çip ve kuantum hedefleri, Türkiye'nin teknoloji ithalatını azaltıp ihracat potansiyelini yükseltecek. Edelbyte'in 70 milyon dolarlık finansmanı ve Mirendil'in 1 milyar dolarlık A serisi, yapay zeka veri platformları ve Ar-Ge'ye sermaye akışını gösteriyor.",
-    "gundem": "Yapay zekâ ile nefes yoluyla duygu tespiti gibi konular, etik ve mahremiyet tartışmalarını yeniden alevlendiriyor. Enerji tesislerinde AI destekli güvenlik sistemleri, kritik altyapıların toplumsal güvenliğine yeni bir boyut kazandırıyor."
+    "genel": "Yapay zekâ, iş gücünün dönüşümünden büyük ölçekli yatırımlara kadar ekonomi ve toplumun birçok kesimini etkileyen bir katalizör hâline geldi. Hem küresel hem de yerel düzeydeki iş birliği anlaşmaları, teknolojik bağımsızlık ve rekabet gücünü artırma çabalarını yansıtıyor. Bu dinamik, gelecekteki politika ve strateji belirlemelerinde kritik bir rol oynayacak.",
+    "teknoloji": "Yapay zekâ sistemlerinin boyutları küçülürken performansları artıyor; 22 MB'lık bir modelin akıllı telefonlarda çalışabilmesi bu trendin bir göstergesi. Büyük teknoloji devlerinin Claude platformuna milyar dolarlık yatırımları, sektördeki rekabeti ve inovasyonu hızlandırıyor. Vietnam‑Kore iş birliği ve Türkiye'nin yerli çip‑kuantum hedefleri, yarı iletken ve AI ekosisteminin coğrafi çeşitlenmesini pekiştiriyor.",
+    "ekonomi": "SpaceX'in 74 milyar dolarlık AI altyapı yatırımı, yapay zekâ pazarının finansal büyüklüğünü ve risk sermayesi akışını gözler önüne seriyor. Edelbyte'in 70 milyon dolarlık finansmanı, veri platformları ve AI hizmetlerinin ticari değerini artırıyor. Türkiye'nin yerli çip ve kuantum teknolojileri hedefleri, uzun vadeli ekonomik bağımsızlık ve ihracat potansiyelini destekleyecek stratejik bir adım olarak değerlendirilebilir.",
+    "gundem": "Yapay zekâ’nın iş gücüne geri dönüş dalgası, istihdam politikaları ve çalışan hakları konularında yeni tartışmaları tetikliyor. Uluslararası iş birliği anlaşmaları, bölgesel güç dengelerini ve teknoloji egemenliğini yeniden şekillendirme potansiyeline sahip. Türkiye’nin yerli AI ürünleri ihracatı ve araştırma öncelikleri, ulusal güvenlik ve teknoloji stratejileri açısından gündemin merkezinde yer alıyor."
   },
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Yapay zeka, 'geri dönen işçiler' dalgası yaratıyor.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jX1ozSkR2X1VzbzVGZ2xqcVo4VHJtZ1RQRm9SVFhIWEx4V2VXbERnVXc3Qkt5NU1jUEFSTEoydUxEc1BlMVg4akd1alNwRlNJVGJDSG9pV3lsYU5BbzczMEF0NUwxXzA5VU1GUWwxaEFJdw?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 00:30:14 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, yapay zeka teknolojileri, iş gücüne geri dönmek isteyen çalışanların sayısında artışa neden oluyor. Bu durum, iş piyasasında yeni dinamikler ve istihdam politikaları tartışmalarını gündeme getiriyor."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Teknoloji devleri, Claude'un ana şirketine on milyarlarca dolar harcıyor.",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORUd4MFRqSmU0TnFraGEzczJFSDVfbFJnV3FsTDNaYk5ySFhTbkhkSkNGMkF4c2lueFFNMDM2ZjlrUXU2QXhnUkhEVEpYLXNHcVRYVHlVRDk0c2dEMjBzVVZyYUZ6eXQ1dUZjamFSekZYYVFBWU15YVFvaVpCb015WjEtUU16MEhKNjlkdlljM21rV0lo?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 23:54:22 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, büyük teknoloji şirketleri, Claude adlı yapay zeka sisteminin sahibi olan ana şirkete on milyar dolar ölçeğinde yatırımlar yapıyor. Bu yatırımlar, yapay zeka alanındaki rekabeti ve inovasyonu hızlandırmayı amaçlıyor."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -15,7 +37,6 @@
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeV9CVHVKLWVLVHpJbVQtal9QaGNlZ2w0bE1LZm94RUpxUGR0MDN4YXRBVkhUZEwtUFhnd0s5OTRWTlB1MHNJdnBuczJRc29DZG84V3pSbW9lUTBYOURIWFdIZjNkS1F6cG9tODlleG5IbnlneEFOaXlPbS15SzU0d1ZfZnZITjNMT0I2YklyQVh6dw?oc=5",
       "pubDate": "Thu, 12 Nov 2026 23:28:58 GMT",
       "image": null,
-      "text": "",
       "summary": "Vietnam ve Güney Kore, yapay zeka ve yarı iletkenler alanında sekiz iş birliği anlaşması imzaladı. Tam metne ulaşılamadı, ancak başlıktan anlaşma sayısı ve konularının bu olduğu anlaşılmaktadır."
     },
     {
@@ -99,36 +120,6 @@
       "summary": "Tam metne ulaşılamadı. Enerji tesislerinde yapay zeka destekli güvenlik sistemleri kullanılmaktadır. Bu teknoloji, tesislerdeki riskleri azaltmayı ve operasyonel verimliliği artırmayı amaçlıyor."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Öncü yapay zekâ Ar-Ge’sini daha fazla ekibe ulaştırmak için Mirendil 1 milyar dolarlık A Serisi yatırım aldı",
-      "source": "Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOEVNTjlJZE1xM1hoTURCbU5zTnRySkpHY1FzOElOanZEcGVKZHRIV0FyRDJTX0lwYkpNcnFWOU9QTTI1WjFQcVgwVGRCeExCOHNPUC16NVBxM0JTWnBZS05zdXhwRWQ4R1pEY0plbkdaMl9WRWF5TGU0LVBXZ0tGSVhEcW5CaDNUWW9oSzRVRGI2WUUtZXZfTC11VQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:58:03 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlıkta, Mirendil'in yapay zekâ Ar-Ge çalışmalarını daha fazla ekibe ulaştırmak amacıyla 1 milyar dolarlık A Serisi yatırım aldığı belirtiliyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Yapay zekâ bazı meslekleri değiştiriyor! Gençlerin yöneldiği yeni alanlar",
-      "source": "Sabah",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQVlKY0s0dkhpTE1QUEdpMXdvMzhFQldYOXRkZElhdmRPOW5vM0hmWWVsbG04UE9yLXlja0QyMnZFNDRXY29FNk1zZ0hRNU5oWlZFOEEwMF9FS0NUNkR0ang5dG1WZmhUakhPZjlaRW5zaVljeXJSa2prdnZPMjNXQ0N6ODFCRDNIcFpUTWhpcXhOSFR1aWlERG1CZEdPTUJBdXhNVUpzTWtMUXNGa2M0YQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:52:21 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Yapay zekâ bazı meslekleri değiştiriyor ve gençlerin yöneldiği yeni alanlar ortaya çıkıyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "David Mařák, YORD’un Teknoloji Direktörü ve Kurucu Ortağı – Röportaj Dizisi",
-      "source": "Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa01EdHhDbWRyTjkwemczaEUzSFp3NE80YXJCSWNvYXRyS1Q5dWZpUkItWW01ck5aS0R4eTFFUGJOUko0VTdRaUloWmtXQ01VZHJBTUZuRTJOYkU4MlIwa0ZTOHhmZkhBMUR2YnJkc09kNU1iRTVOM0pfV3dZRUYzVHJRZTZqam8?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:34:14 GMT",
-      "image": null,
-      "summary": "David Mařák, YORD’un teknoloji direktörü ve kurucu ortağı olarak bir röportaj dizisine katıldı. Röportajda şirketin vizyonu ve teknolojik stratejileri ele alındı. Tam metne ulaşılamadı."
-    },
-    {
       "cat": "Bilim",
       "catId": "bilim",
       "title": "NASA'nın 1,5 tonluk gözlemevi ve 22 yıllık uzay keşif yolculuğu.",
@@ -156,7 +147,6 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdFg1Y1RZcm1ZZURUQlEzVUNNVi1VaHVTZkJ0RGphb3JQR2QyNXo2MHBob192dHA3S1dvV21fZ0JBTnJXVnJyMzF6Vl9pLXFSbENMMjlHcElVQ1RwMVZOODdxUWxUV1V0UTVUQi1GNDB1VEl2b2g0SEYxMzlLdUFPajViTV9XVjF2OHpHYVd2NFhSeXhqZnNFUTBkR2F0cV9DaGxOVDJRd1FQNDhZ?oc=5",
       "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Antalya Bilim Merkezi’nde hafta sonu bilim ve keşif dolu etkinlikler düzenlendi. Tam metne ulaşılamadı, ancak başlığa göre etkinliklerin bilim ve keşif temalı olduğu söylenebilir."
     },
     {
@@ -217,7 +207,6 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQXUxbUVTdldnWDFPZmVzaHd6MWpBNTRDWURBanpOTkJuRlkzZUVKUW12OEE1RzUtWjFCOFlqejFOZFhCZndqeWlxWFFZUnRiNXd2N3dpdG5vVUpoSldGUmdyUmpTQm5rbTNnc2MyajhYZlpjRmxibHk1Qm9nWURVV3A4NEg3eGFDcFE?oc=5",
       "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Epic Games, Cadılar Bayramı kapsamında iki oyunu ücretsiz olarak sunacak. Tam metne ulaşılamadı, ancak başlıktan bu kampanyanın gerçekleşeceği anlaşılmaktadır."
     },
     {
@@ -253,45 +242,110 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Live updates: 55-year-old alleged gunman identified after 1 killed and 4 injured in DC shooting",
-      "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxRDBQN3NNZV80TkVLTktzU0V2VzdEYVIwNWRqYkhsd1lZYnRCVkxSdzZzREg0cHVPVjNLSmxwclBxRERaR2Vwb1ducldyWDQybzdfZ2M3M1R1dFBBczd2ZFhESjFEd1BaU3IyWmJhSVRDbHdt?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 22:29:00 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Washington DC'de gerçekleşen silahlı saldırıda bir kişi hayatını kaybederken dört kişi yaralandı. Olayın şüphelisi 55 yaşında bir erkek olarak tespit edildi. Olayla ilgili gelişmeler hâlâ izleniyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "White House weighs Commerce Secretary Lutnick's ouster amid Nvidia export concerns, sources say",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2JBc1RoY3pGRnZ0R1BzOW43SHY5eGxjZHpwMlZVZWNSRDMxaG51ZkVSdkVuN1I4bkdCTEZTV3ZETGRpVTBxaGhHSlprM25XNFd0b3N6eHJhc3RneHJrWGl2alVlTVh6R0xtbFJVLTRjaEE0djZxTE54Nkp4UHBYWVJKdGlhM2hmNFM2dWRNeWF0d2tRcnVYT0dtOXZDdGx4QXlsUHAzOHNKQUpaTFE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 22:26:27 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Kaynakların belirttiğine göre, Beyaz Saray Nvidia ihracatıyla ilgili endişeler nedeniyle Ticaret Bakanı Gina Lutnick'in görevden alınmasını değerlendiriyor. Bu durum, ABD'nin yüksek teknoloji ihracat politikalarına yönelik bir tartışmayı yansıtıyor. Karar henüz kesinleşmedi."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
       "title": "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war",
       "source": "The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaWdyUWhPQnRiR210eElwazFOZ2pyWWgxN2FWX09VU0ZSZUpFcVlweFllV2E4aF9CcXpwQkhybkVzMjkwdTBOY3JTRFBXdlZBOXVvU2l5cjBKX1Znel9XR2JJb0gwbVlQOV9TenpJUkY2ZG1YcXEtRWdNWTQ0MDJTM3pQdnRHSkE0WXlWQjA5Y2JXQkpUN2hoSkkyTXhrTE1FdnUyblFjWDdqWHZTMGM1LVU4V2oxZnpqZzBj?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 22:11:12 GMT",
+      "pubDate": "Fri, 13 Nov 2026 00:26:16 GMT",
       "image": null,
-      "text": "",
       "summary": "ABD elçileri, Putin ile görüşmelerin ardından Avrupa'nın Ukrayna savaşını sona erdirme müzakerelerine katılacağını belirtti. Bu gelişme, çatışmanın diplomatik yollarla çözülmesi yönündeki çabaları destekliyor. Görüşmelerin detayları henüz netleşmedi."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Brooklyn building collapse in Flatbush live updates: 2 kids among 8 dead",
-      "source": "ABC7 New York",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 22:03:00 GMT",
+      "title": "Live updates: Investigation into deadly New York building collapse widens as rescuers complete search for survivors",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RZkdYZk4zZ1NacXpLb25ncXd1WXJTX3c5aFlhM2lGYzRoSjFiZTlVeTItS0ZPSUwwOTJkdk1XaUxCYU5QbGpVTXN1YUpVUjIwT1FJNWhMdEJIUV8xTERyYmFzTFZLVDVBaUZRc2sydHpxWVNobG9qS2tGcGhxWHc?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 00:18:00 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Flatbush, Brooklyn'de bir bina çöktü; 8 kişi hayatını kaybetti, bunların arasında 2 çocuk bulunuyor."
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, New York'ta meydana gelen ölümcül bina çöküşüyle ilgili soruşturma genişletiliyor ve kurtarma ekipleri hayatta kalanları aramayı tamamladı. Olayın nedenleri ve sorumluları belirlemek için detaylı incelemeler sürüyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "'Married to Medicine' Star LaTeasha Lunceford Files for Divorce from Dr. Gregory",
+      "source": "TMZ",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5YWdaZWs0eW9nX2N0aXA0bjBvLVlaUnBlUGc2MUxaTncyX2pkWjI3NmZmREs1VEhya0hDVTREbWNFTm8zZHZqYnk2cVJTZ3NpQnhWVmwydW9TckptTTJPZlVjaFNJSnlHZ0VSQW55RkNoZXdValpoT05odDc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 23:44:26 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. LaTeasha Lunceford, 'Married to Medicine' programının yıldızı, Dr. Gregory'den boşanma davası açtı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "In reversal, American Cancer Society urges prostate cancer tests for all men",
+      "source": "Ars Technica",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMGc2X2ZZMWhMTUppcFJodEt1Wk9qMTdJMHZMREpzaHdMZy1jY0RBTEhmYTI3VFMxTmk0UnpCSUtNXzkzRjJkXzJxTTF1akVlMDVSc0lQVUNwNHgzaGEwMmJPYUtSeWlvY0VqNWVMVUxKaVhrdzlYUzhMQmwtc0N2REpkM2YzalZ4QTg0Y0pOWDB3OFdKUXh0U3hfd05WV2R3LThQVmJjeUtNMlVId01Fcm1nVTFHUQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:59:51 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Amerikan Kanser Derneği, önceki tutumunu değiştirerek tüm erkeklerin prostat kanseri testi yaptırmasını öneriyor."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Mauricio Pochettino to sign two-and-a-half year contract at Manchester United - The Athletic",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWWM3dDFyQjM0YnhlNld6d1Vfd05wclh3SHJEOUlHOW9EOE5oWll3NmlMTG5MMUtnb1Z4ZDNZSkVnRU9HcHNDZ0hqMjl5MkFmM083ejRJWkJpMldwMGVpWHFJMl9Bck9MbnVwckZBNXNZRHdHdndlR1lUQnA5cWtIeU1Jb2Zhd2ZmVFdGVzd3V2JsejhrU1RhSmcwZVZhczU3RGhsQlhWYzZnQQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:57:43 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Mauricio Pochettino, Manchester United ile iki buçuk yıllık sözleşme imzalayacak."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Cindy Holscher wins in Kansas, holding governor’s office for Democrats",
+      "source": "NPR",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ0pOVlgwWnNYaGdxWDBWa1NFd2k4VmNHQ0liSzRNd3N6Q1dVQ0xoSk0tY2ZiVGQ3enloTHhoZTlFUjAzN3pLVk5JaWU1M3Z6bWhiVy1GcnNoQU1PZ3BxNkxYSG9Jd0hNUDU4aWxkN1BZUDdkbUU3OHJqeW5TUTlIVGRaTWpHc3RpVzdtUDRUVQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:52:49 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Cindy Holscher, Demokratlar için Kansas valilik makamını kazandı. Bu seçim, Demokratların eyaletteki temsilini sürdürdü."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Ex-Oklahoma death row inmate Richard Glossip pleads guilty to a lesser charge in 1997 killing",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdkFwSkhRUkExNVhNbGFCOUhaUDNVOUpCMXRxVVluNHlMQkJsTFJPbklkT2ZkMmhlWEFINU9KM0hrd0VHV0dVN2ZycDdUWHV3b3RlUkxtX2Y1UUpCT3hJdTBpV2ExekVucUZpVVVmQlZfTHFHV3Q1UmNubm81RzdTRENnLTJxelAydmR2UVNCTkM5TXlLUlAyVFktdkRJb29Xb3QtZkQ1UWVjS1JTTHBv?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:33:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Oklahoma'da eski idam mahkumiyeti olan Richard Glossip, 1997'deki cinayetle ilgili daha hafif bir suçlamayı kabul etti."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Gunman kills one, wounds four in busy Washington, DC, neighborhood",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZGs2bU9KX3A5RFVTbXQxaXYwLThLLW1nazNSanR1TTZ6eE5TcjZ4Nl91eTY4blhnVnRVM1k5UW42aXlDOWtyQWI5cm5EYl9jcTg4blhMR3g2VXVhV24tYzRseVBucXk2OHNHU05EWG9xUnhqSU50MU95c2VPYVByak9nYmFpdndfTzlEMlJBYUw4T0VyWVRFajh5UElkV1JDWFdwSXRTR0xkWU9Mb2hkZA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:30:44 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Washington, DC'deki kalabalık bir semtte bir kişi öldürüldü, dört kişi yaralandı. Olay, silahlı bir saldırgan tarafından gerçekleştirildi."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:22:13 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. İsrail'in Gazze'deki Nasser Hastanesi'na düzenlediği saldırıda en az altı kişi hayatını kaybetti. Olay, bölgedeki sivil altyapıya yönelik artan şiddetli saldırıların bir örneği olarak kaydedildi."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Trump says no deal needed with Iran, closes down Vance negotiations",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnhHOUZCeEwzbmN5alpPZm1fbjRvQ2ltdmYydUE0VE02ZnMtYzhOLUp3eWotVXQ5aTYwSFlpYXZyWmRsRjhBRi1iS08zMWJFYUNVQnZLNXY5TnRsN0p4cVF1eVppQ0hsa1I5Y0hLaWlOMmRzZWV0Q09hdlpOal9YSVJOdXNPZFVyYlZQemhFeVRGUUUwOE1CcEZIRHR1Ul9wckU5WVBVeTh0TTBKaGtDN091X0hxM1BYUjNz?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:04:30 GMT",
+      "image": null,
+      "summary": "Tam metne ulaşılamadı. Başlığa göre, Trump İran ile anlaşmaya gerek olmadığını söylemiş ve Vance’ın yürüttüğü müzakereleri sonlandırmıştır."
     },
     {
       "cat": "Dünya",
@@ -301,83 +355,18 @@
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY05GVUtENV9xQ2FJOW1mSWtuT3JlZzhHc2I2SXJTSzctSy1YdHgzc3dKQ0k3NWlrekp4WnNQWWV2Vl81aDZqTjVwTnBZaWoxZXc2S19MVUlOblhCMzZMLUtyZVZ4eno5YlM3cXhWdnA4MENoa3pGbjgtX2txb1ZfSk5PNklhcFIwQmJfV0NGNmJ6MnR3bFQzMVdKN3NOcVBVMWlwQllkVHFBRV9CeEdmQ1VsRmJ2N2pBUllXbTVRWVh3SWRhY0dyNW1GZGUya3B2RjJrMjg1bVdONHZ5RFB2d2dDamJDWkpGRzR3X0FHSHdDbDhXSTFGQUN5YU1DcC0wSnhXOGU2ODlRaVU?oc=5",
       "pubDate": "Thu, 12 Nov 2026 21:05:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Forbes'un haberine göre, Nvidia kurucusu Jensen Huang'ın üçüncü bir ilişki iddiası boşanma spekülasyonlarını artırıyor ve eşinin servetinin yarısını alabileceği belirtiliyor."
     },
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Rare Star System Emits Radio Signals Every 8 Minutes",
-      "source": "Gizmodo",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3I0cUFncEpzZW1SdEVZX3RKaURoTXdCZE5rWEF6VmtkTlpsTW16OU5hUmJFby1YSG5tVFdxVlQ3RTFvTVdSWllqTUwtYVlrN3dTZWZGZU8xTHU3Uk9pWW1VcW05QkdnRmV2dkpBQmFzSEdYVV9PSXZVWk95ZHRaQTExUVZZd3d6cmJuSjVFWWl4M3NTb0RseXVHc1BQTGo2a0RRYzdMcU11ako0R0U0blB1X3B6OV90NXVjTVFB?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 20:50:52 GMT",
+      "title": "The Real Reason Producers Are Fleeing California",
+      "source": "The Hollywood Reporter",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdE9NR1h6dm1HcWdoWmtReDdnTnNYU25OQl9RZERtd01jTUpZZlhhMG4zU3Q4QW9lTTNhVHZIZXYxLXV3c1lEN0FUYkZoX1ZtTHFYaWMycVJZOHZhZjE0cTBibk1zRVdUOHVncm4wOFRtTU90NXVKVzVPY1dYbXhnbjVxTWpRWkw1ME5kQUtQaGJtbk5QdTk2VHFPOXNYNHRJRnd1VV9BRVd4dTFWamc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 20:56:59 GMT",
       "image": null,
       "text": "",
-      "summary": "Tam metne ulaşılamadı. Gizmodo'nun haberine göre, nadir bir yıldız sistemi her 8 dakikada bir radyo sinyalleri yayıyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Microsoft outage: Microsoft 365, Teams, Outlook, Copilot all impacted",
-      "source": "Mashable",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaTVjT2hmZEFUQ1N3QUFZZVhlRHA4RU9uLVpRZDlCZEo5QmRNaGJNY0N6b2doVDZ2ZDBCYXBYMmRFd2xhX0NaSExsc2xKemRSaE1IMFBQNmVlclRCNzFNN3U5TV9Mc1pvWk1NeFhJNWVvTEZkSUE4TlUtdkJ3UmNGaDU2dGFSMmg5VWJjUGc3QmhVUWIz?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 20:48:45 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Mashable'ın haberine göre, Microsoft 365, Teams, Outlook ve Copilot hizmetlerinde geniş çaplı bir kesinti yaşanıyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Stock market has a 'worrisome' focus on Anthropic IPO, Ariel Investments' Mellody Hobson says",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWUV4bFVxeVp5WDlQVVM4dTZqNVVDbDhSUTQ2YS1LMzBZQkhTemxaRndvSngxU3FueXg0TTNBOFRTU3hoNUdnakdhanMxUnpsODl3MnFwZkY4VzVNLXhEclNzX25OZS1STm1MZDVJMXdNcm02SkNWeXJkaE1NZnFmQUNVa3ZvTEF3dTlRbGRyU3ZaeFVrSFNEUnhfS0t3WnhJWWljSk1wT2d3YzZpRzh0M2ZYR3k4ODc2YVZseEFOQmRhNW5aN1FPd0xxWlMzeEtVZ0dXNlNFOFdxeGR3dU1r?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 20:47:15 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı: Ariel Investments'tan Mellie Hobson, borsanın Anthropic'in halka arzına aşırı odaklanmasının endişe verici olduğunu belirtti. Bu durum, yatırımcıların dikkatini daraltabileceği kaygısını taşıyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Trump says no deal needed with Iran, closes down Vance negotiations",
-      "source": "The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnhHOUZCeEwzbmN5alpPZm1fbjRvQ2ltdmYydUE0VE02ZnMtYzhOLUp3eWotVXQ5aTYwSFlpYXZyWmRsRjhBRi1iS08zMWJFYUNVQnZLNXY5TnRsN0p4cVF1eVppQ0hsa1I5Y0hLaWlOMmRzZWV0Q09hdlpOal9YSVJOdXNPZFVyYlZQemhFeVRGUUUwOE1CcEZIRHR1Ul9wckU5WVBVeTh0TTBKaGtDN091X0hxM1BYUjNz?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 20:34:30 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlığa göre, Trump İran ile anlaşmaya gerek olmadığını söylemiş ve Vance’ın yürüttüğü müzakereleri sonlandırmıştır."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Cities Have a New Tactic to Block ICE Jails: Run Out the Clock",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObnlyY2puRVlBZ1pOMTJHWUhkd0s5TjIyZktLa09malR1bXBYdHFZZHVKdF95RHRydDhwdHd6dFpzaTdSSFROU3pvS01hN2pzVzJXT0wyR1B6M1pjQmc2c3ZiMUl6QzE2NnVXcy0tRTlacGg4UUxsTkhSTVFLTDlTRw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 20:32:11 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı: Bazı şehirler, ICE (Göçmen ve Gümrük Muhafaza) tutukevlerini engellemek için yasal süreçleri geciktirerek zaman aşımına uğratma taktiği uyguluyor. Bu strateji, ICE'nin yeni tesis açma planlarını zamanla engellemeyi hedefliyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Kirk Cousins will wear No. 8 again for Vikings",
-      "source": "NBC Sports",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMkRUZVQ1XzF1M1d1YThfYWJaQks2MWI5c2dYcFBnVTZKUGoyXzNBMmhYYzJpMU1kNlk3TTI1ZW8yckNOYm9aUS1aUE5qaG4zeDlHSkZTbFdnSkJwM1BYNk9fR25kbVdJZFZDZVJWV0pDXzF3M1ZteHpMb1ZzZHN4a0RhdUYtNnVqZWZESEdMRkdBSHdROWl4M0dWa2dsanBEOGVFbmZRUVZiSWM?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 20:28:43 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı: Minnesota Vikings'in quarterback'i Kirk Cousins, forma numarasını tekrar 8 olarak giyecek. Bu karar, Cousins'in takım içindeki kimliğini pekiştirmeyi amaçlıyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "CDC reports six measles deaths in 2026 as US battles worst outbreak in 35 years",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBROTRrdm55TzlLU2F4aU1FeFd2dDduM0hWNTNyZTFPRDRQMnRRMm13SERhTnB5a2EwM1p3NG1kb25jUWNlTW1HWU1TTjNvOGNsQ29RUzJSMFhXdU5nbVlSeG9odFowUHNlYThIdGw5UGFJWHVq?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 20:21:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. CDC, 2026 yılında ABD'de 35 yılın en şiddetli çiçek hastalığı salgını sırasında altı ölüm gerçekleştiğini bildirdi."
+      "summary": "Tam metne ulaşılamadı. Kaliforniya'dan yapımcıların göç etmesinin temel nedeni, yüksek yaşam maliyetleri ve vergilerin yanı sıra endüstri içinde artan rekabet ve düzenleyici zorluklar olarak belirtiliyor."
     },
     {
       "cat": "Gündem",
@@ -385,9 +374,20 @@
       "title": "COP31’de Gaziantep ev sahipliğinde Türkiye kadın Pavilyonu kapılarını açtı",
       "source": "Gaziantep Postası",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY3loYm1nbEpJUzRBVm5vVkRsMnNORnlrZVBwRW5jTFh6MzlkTHo4eDByZE1LS3hEZFNUN3kwc0lUMWM0MVpvdDBMcndHbVoyR1owNlhtNl9DQU1RZ0Y2bDdUajJwcDZPTl9GVm53U0RqVjZDMDJsdll1WFpBYXY2a01FOVdWaHRWZkhEQ2FkZVlrWDN4U2oxTGJHdUxBY1E2QlFROEExeWxOd3FPZGY1c1pGOGY?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 22:04:33 GMT",
+      "pubDate": "Thu, 12 Nov 2026 23:20:14 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. COP31 kapsamında Gaziantep'in ev sahipliğinde Türkiye Kadın Pavilyonu açıldı."
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Türkiye'den İsrail'in Gazze'deki hastane saldırısına sert tepki: \"Uluslararası hukukun vahim bir ihlalini teşkil etmektedir\"",
+      "source": "TRHaber",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ2loV3VabmtoTm5fd3JYMnYwS2VheTBkTFJVVm52V05oWExpVjFmQnBHMm4xNEFtNHBCcWZqMExKY3VhQ3drMS1KU2lDNFNvdktmUjRzUkRrNmw1akItYkdCa096N240ZlZNN1A2S1RHV1VwZVEwTlJhRndneThNdmIxSEpLM0M2YUtPSzFmTndvd0ZxOFJMUVgwSjZlaVh6Z2t5dmVHUFd2aWdRbjU0RDA3SkU5OWo0NlVMcDJ3cUVyVFNQN1I4bWdkQ0hkSkNBYjBtdnFnRWZXOFFIQW4ydA?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:44:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Tam metne ulaşılamadı. Türkiye, İsrail'in Gazze'deki hastaneye yönelik saldırısını uluslararası hukukun ciddi bir ihlali olarak nitelendirerek sert bir tepki verdi. Dışişleri Bakanlığı, olayın sorumlularının uluslararası platformda hesap vermesi gerektiğini vurguladı."
     },
     {
       "cat": "Gündem",
@@ -417,7 +417,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdXE2NVA5NEs0djlRSUJvdElZQlpuNmhMNUp1Q3hCZWE1RVBzSnJnYXpWVTVWdzEyWUtDRHplVnRaSERBZUJtYmhwUkJqMi1qeTdvaHN1MFpuc2FOSm12c0lKMERqMlVVWllrNWM2a0k5M1RUWEVyTndDamdEMU1raEtkcTVybmJfVzlObHI5R1VsUE5WRjdOUW50Y0NWQWRCVno4MkRLQzRyVXNSN0U4Tm91NW4?oc=5",
       "pubDate": "Thu, 12 Nov 2026 22:55:32 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. 13 Kasım 2026 tarihinde Tekirdağ’ın Çorlu ilçesinde Tredaş tarafından bildirilen bir elektrik kesintisi yaşandı."
     },
     {
@@ -469,45 +468,25 @@
       "pubDate": "Thu, 12 Nov 2026 18:10:02 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/89e3c2de-b595-4ca9-88f5-08743209d9b4-960x540.webp",
       "summary": "Gaziveren 1. Cadde üzerinde 16:30 civarında Mervan Güceyü (22) sürücülüğündeki KY 275 plakalı araç sağa meyilli viraja girerken direksiyon hakimiyetini kaybedip bir işletmenin önündeki beton zemine çarptı ve takla attı. Araç tavanı üzerinde dururken sürücü hastanede yapılan müdahalelere rağmen yaşamını yitirdi; yolcu Ahmet Cihan Açıkbaş (20) ise yaralı olarak hastanede tedavi altında."
-    },
-    {
-      "cat": "MHA Haber",
-      "catId": "mha",
-      "title": "BAE’DE TRAFİK FACİASI: 23 ARAÇLIK KAZADA 14 CAN KAYBI!",
-      "source": "",
-      "link": "https://www.mhahaber.com/baede-trafik-faciasi-23-araclik-kazada-14-can-kaybi",
-      "pubDate": "Thu, 12 Nov 2026 17:39:40 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/0bed8754-7f22-4c70-8f35-0b84a9c65da1-960x586.webp",
-      "summary": "Birleşik Arap Emirlikleri'nde Fuceyra Emirliği'nde 23 aracın karıştığı zincirleme trafik kazasında 14 kişi hayatını kaybederken 30 kişi yaralandı; kazanın nedeni ve yaralıların sağlık durumu hakkında henüz ayrıntılı bilgi bulunmamaktadır."
-    },
-    {
-      "cat": "MHA Haber",
-      "catId": "mha",
-      "title": "DSÖ’DEN GAZZE RAPORU: SAĞLIK HİZMETLERİNE 1056 SALDIRI!",
-      "source": "",
-      "link": "https://www.mhahaber.com/dsoden-gazze-raporu-saglik-hizmetlerine-1056-saldiri",
-      "pubDate": "Thu, 12 Nov 2026 17:34:02 GMT",
-      "image": "https://www.mhahaber.com/api/medya/file/c1853263-7cdf-4127-9aaa-11a34c8e0e45-960x586.webp",
-      "summary": "Dünya Sağlık Örgütü, Ekim 2023'ten bu yana Gazze Şeridi'nde sağlık hizmetlerine yönelik 1.056 saldırıyı belgelendiğini ve bu saldırılar sonucunda 1.010 kişinin öldüğünü, 1.725 kişinin yaralandığını açıkladı; WHO, sağlık tesis ve çalışanlarının korunması çağrısında bulundu."
     }
   ],
   "weather": null,
   "market": {
-    "usdtry": 50.28,
-    "eurtry": 55.87,
-    "gold_gram_try": 6267.83,
-    "ceyrek_altin_try": 10968.7
+    "usdtry": 50.31,
+    "eurtry": 55.69,
+    "gold_gram_try": 6288.75,
+    "ceyrek_altin_try": 11005.31
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3588827,
-      "change_pct": -3.2040426028081446
+      "price": 3570770,
+      "change_pct": -3.9406757002403072
     },
     {
       "label": "Ethereum",
-      "price": 101427,
-      "change_pct": -1.5764674287995346
+      "price": 100850,
+      "change_pct": -2.5897519564912748
     }
   ],
   "stocks": [

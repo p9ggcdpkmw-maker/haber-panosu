@@ -1,6 +1,5 @@
 """
 RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi
-Doğrudan RSS kaynakları ve Akıllı Tekrar Önleme (Deduplication) kullanan sürüm.
 """
 import json, os, re, sys, time
 import difflib
@@ -50,7 +49,13 @@ CATEGORIES = [
     },
     {
         "id": "gundem", "label": "Gündem",
-        "feeds": ["https://www.ntv.com.tr/son-dakika.rss", "https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.sozcu.com.tr/feed/", "https://www.hurriyet.com.tr/rss/anasayfa"]
+        # Sözcü RSS bozuk olduğu için çıkarıldı. MHA Haber Gündem'e eklendi.
+        "feeds": [
+            "https://www.ntv.com.tr/son-dakika.rss", 
+            "https://feeds.bbci.co.uk/turkce/rss.xml", 
+            "https://www.hurriyet.com.tr/rss/anasayfa",
+            "https://www.mhahaber.com/rss" 
+        ]
     },
     {
         "id": "corlu", "label": "Çorlu",
@@ -333,7 +338,7 @@ def send_smart_notification(new_items, market, crypto, stocks):
             requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Güncel", "Tags": "newspaper"}, timeout=10)
         except: pass
 
-# --- ANA AKIŞ (AKILLI TEKRAR ÖNLEME BURADA) ---
+# --- ANA AKIŞ ---
 def main():
     cache, old_briefings = load_cache()
     all_items = []
@@ -343,14 +348,14 @@ def main():
         print(f"  -> {cat['label']}")
         all_items.extend(fetch_category(cat))
 
-    # 🚀 AKILLI TEKRAR ÖNLEME (URL Temizleme + Başlık Benzerliği)
+    # 🚀 AKILLI TEKRAR ÖNLEME
     def normalize_url(url):
         parsed = urlparse(url)
         return f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
 
     def normalize_title(title):
         t = title.lower()
-        t = re.sub(r'[^\w\s]', '', t) # Noktalama işaretlerini sil
+        t = re.sub(r'[^\w\s]', '', t)
         return " ".join(t.split())
 
     seen_urls = set()

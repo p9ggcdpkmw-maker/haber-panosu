@@ -9,7 +9,8 @@
 <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%233B82F6'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle' fill='white'%3E📡%3C/text%3E%3C/svg%3E">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%233B82F6'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle' fill='white'%3E📡%3C/text%3E%3C/svg%3E">
 <title>RADAR</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- KULLANILMADIĞI İÇİN KAPATILDI (Performans Artışı) -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 <style>
   :root {
     --bg-main: #F8FAFC; --bg-panel: #FFFFFF; --text-main: #0F172A; --text-muted: #64748B;
@@ -30,7 +31,7 @@
   .app-container { display: flex; gap: 30px; max-width: 1300px; margin: 0 auto; padding: 20px; height: 100vh; overflow: hidden; }
   
   /* SOL MENÜ (PC) */
-  .sidebar { width: 240px; flex-shrink: 0; display: flex; flex-direction: column; gap: 8px; padding-top: 20px; overflow-y: auto; }
+  .sidebar { width: 240px; flex-shrink: 0; display: flex; flex-direction: column; gap: 8px; padding-top: 20px; overflow-y: auto; user-select: none; }
   .sidebar::-webkit-scrollbar { display: none; }
   .logo { display: flex; align-items: center; gap: 10px; font-size: 24px; font-weight: 900; color: var(--text-main); margin-bottom: 24px; padding-left: 12px;}
   .logo-icon { width: 32px; height: 32px; background: linear-gradient(135deg, #3B82F6, #8B5CF6); border-radius: 8px; }
@@ -50,7 +51,7 @@
   .search-box.active { display: block; }
   .search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
 
-  .category-tabs { display: flex; gap: 10px; margin-bottom: 24px; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+  .category-tabs { display: flex; gap: 10px; margin-bottom: 24px; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; user-select: none; }
   .category-tabs::-webkit-scrollbar { display: none; }
   .cat-tab { background: rgba(100,116,139,0.1); border: none; color: var(--text-muted); padding: 10px 20px; border-radius: 20px; font-size: 14px; font-weight: 700; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
   .cat-tab.active { background: var(--accent); color: #fff; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3); }
@@ -114,7 +115,6 @@
   .modal-meta { font-size: 13px; color: var(--text-muted); display: flex; gap: 10px; font-weight: 700; margin-bottom: 20px; }
   .modal-body { font-size: 15px; line-height: 1.7; color: var(--text-main); margin-bottom: 24px;}
   
-  /* YENİ: Sesli Okuma Butonu */
   .modal-actions { display: flex; gap: 10px; margin-bottom: 24px;}
   .modal-btn { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 12px; border-radius: var(--radius-sm); font-weight: 700; cursor: pointer; border: none; font-size: 14px; transition: 0.2s;}
   .btn-listen { background: #DBEAFE; color: #1E40AF; }
@@ -152,7 +152,7 @@
   .btn-test:disabled { background: #94A3B8; cursor: not-allowed;}
 
   /* 📱 MOBİL */
-  .bottom-nav { display: none; }
+  .bottom-nav { display: none; user-select: none; }
 
   @media (max-width: 900px) {
     .app-container { display: block; padding: 15px; height: auto; overflow: visible; }
@@ -247,7 +247,9 @@
     <div id="marketView" style="display:none;">
       <div class="widget" style="margin-bottom:20px;">
         <div class="widget-header"><span>📈 Piyasalar</span></div>
-        <div id="fullMarketContent"></div>
+        <div id="fullMarketContent">
+          <div style="padding: 10px; color: var(--text-muted); font-size: 14px;">Piyasa verileri yükleniyor...</div>
+        </div>
       </div>
       <div class="widget">
         <div class="widget-header"><span>☀️ Hava Durumu (Çorlu)</span></div>
@@ -259,7 +261,9 @@
   <aside class="right-panel" id="desktopRightPanel">
     <div class="widget">
       <div class="widget-header"><span>📈 Piyasalar</span><span style="color:var(--accent); font-size:12px; cursor:pointer;" onclick="showView('market', document.getElementById('nav-market'))">Tümünü Gör</span></div>
-      <div id="marketWidgetContent"></div>
+      <div id="marketWidgetContent">
+        <div style="padding: 10px; color: var(--text-muted); font-size: 14px;">Veriler yükleniyor...</div>
+      </div>
     </div>
     <div class="widget">
       <div class="widget-header"><span>☀️ Hava Durumu</span></div>
@@ -290,7 +294,6 @@
     <div class="modal-title" id="modalTitle"></div>
     <div class="modal-meta" id="modalMeta"></div>
     
-    <!-- Sesli Dinle ve Kaydet Butonları -->
     <div class="modal-actions">
       <button class="modal-btn btn-listen" id="btnListen" onclick="speakText()">🔊 Sesli Dinle</button>
       <button class="modal-btn btn-save-modal" id="btnSaveModal" onclick="toggleSaveCurrent()">🔖 Kaydet</button>
@@ -341,7 +344,6 @@
       <button class="btn-danger" onclick="clearHistory()">Tüm Okunanları Sıfırla</button>
     </div>
 
-    <!-- NTFY BİLDİRİM TEST ALANI -->
     <div class="settings-section">
       <div class="settings-title">Akıllı Bildirimler</div>
       <div class="ntfy-info">
@@ -391,12 +393,12 @@ let isSavedView = false;
 let searchQ = '';
 let readLinks = new Set(JSON.parse(localStorage.getItem('radar_read') || '[]'));
 let likedLinks = new Set(JSON.parse(localStorage.getItem('radar_liked') || '[]'));
-let savedLinks = new Set(JSON.parse(localStorage.getItem('radar_saved') || '[]')); // YENİ: Kaydedilenler
+let savedLinks = new Set(JSON.parse(localStorage.getItem('radar_saved') || '[]'));
 let marketData = null, stocksData = null, cryptoData = null, weatherData = null;
 let briefingsData = {}, currentBriefingTab = 'genel';
 let userPrefs = JSON.parse(localStorage.getItem('radar_prefs')) || null; 
 let hideImages = localStorage.getItem('radar_hide_images') === 'true';
-let currentModalItem = null; // Sesli okuma için mevcut haber
+let currentModalItem = null;
 
 function esc(str) {
   if(!str) return '';
@@ -423,34 +425,42 @@ function updateGreeting() {
 }
 updateGreeting();
 
-// --- SESLİ OKUMA (TEXT TO SPEECH) ---
+// --- DÜZELTİLMİŞ: SESLİ OKUMA ---
 function speakText() {
   if (!window.speechSynthesis) {
     alert("Tarayıcınız sesli okumayı desteklemiyor.");
     return;
   }
-  window.speechSynthesis.cancel(); // Önceki konuşmayı durdur
+  
+  const btn = document.getElementById('btnListen');
+
+  // Eğer hali hazırda konuşuyorsa durdur
+  if (window.speechSynthesis.speaking) {
+    window.speechSynthesis.cancel();
+    btn.innerHTML = "🔊 Sesli Dinle";
+    return;
+  }
+
   if (!currentModalItem) return;
 
   let textToRead = currentModalItem.title + ". " + (currentModalItem.summary || "Özet bulunamadı.");
   const utterance = new SpeechSynthesisUtterance(textToRead);
   utterance.lang = 'tr-TR';
-  utterance.rate = 1.0; // Konuşma hızı
+  utterance.rate = 1.0; 
   
-  const btn = document.getElementById('btnListen');
   btn.innerHTML = "⏹ Durdur";
-  btn.onclick = () => { window.speechSynthesis.cancel(); btn.innerHTML = "🔊 Sesli Dinle"; btn.onclick = speakText; };
   
-  utterance.onend = () => { btn.innerHTML = "🔊 Sesli Dinle"; btn.onclick = speakText; };
+  utterance.onend = () => { btn.innerHTML = "🔊 Sesli Dinle"; };
+  utterance.onerror = () => { btn.innerHTML = "🔊 Sesli Dinle"; };
+
   window.speechSynthesis.speak(utterance);
 }
 
-// --- YER İMLERİ (KAYDETME) ---
 function toggleSave(link, btn) {
   if (savedLinks.has(link)) {
     savedLinks.delete(link);
     if(btn) { btn.classList.remove('saved'); btn.innerHTML = "🔖"; }
-    if(isSavedView) renderNews(); // Eğer kaydedilenler sayfasındaysa anında güncelle
+    if(isSavedView) renderNews(); 
   } else {
     savedLinks.add(link);
     if(btn) { btn.classList.add('saved'); btn.innerHTML = "🔖 Kaydedildi"; }
@@ -484,7 +494,6 @@ function showSaved(el) {
   renderNews();
 }
 
-// GÖRÜNÜM VE TEMA
 function applyTheme() {
   const isDark = localStorage.getItem('radar_theme') === 'dark';
   if (isDark) document.documentElement.setAttribute('data-theme', 'dark');
@@ -623,12 +632,9 @@ function openModal(item, cat) {
   document.getElementById('modalBody').textContent = item.summary || item.snippet || 'Detaylı özet hazırlanmadı.';
   document.getElementById('modalLink').href = item.link;
   
-  // Sesli okuma butonunu sıfırla
-  const btnL = document.getElementById('btnListen');
-  btnL.innerHTML = "🔊 Sesli Dinle"; btnL.onclick = speakText;
-  window.speechSynthesis.cancel();
+  if (window.speechSynthesis) window.speechSynthesis.cancel();
+  document.getElementById('btnListen').innerHTML = "🔊 Sesli Dinle";
 
-  // Kaydet butonunu ayarla
   const btnS = document.getElementById('btnSaveModal');
   if(savedLinks.has(item.link)) { btnS.classList.add('saved'); btnS.innerHTML = "🔖 Kaydedildi"; }
   else { btnS.classList.remove('saved'); btnS.innerHTML = "🔖 Kaydet"; }
@@ -643,15 +649,12 @@ function toggleLike(link, btn) {
   localStorage.setItem('radar_liked', JSON.stringify(Array.from(likedLinks)));
 }
 
-// --- NTFY TEST BİLDİRİMİ ---
-
 async function testNtfy() {
   const btn = document.getElementById('btnTestNtfy');
   btn.disabled = true;
   btn.innerHTML = "⏳ Gönderiliyor...";
   
   try {
-    // Sitedeki tüm aktif kanallara test mesajı atalım
     const channels = ["radar-haberler", "radar-teknoloji", "radar-gundem", "radar-oyun", "radar-piyasa"];
     let successCount = 0;
 
@@ -662,10 +665,10 @@ async function testNtfy() {
         headers: { "Title": "RADAR Test", "Tags": "white_check_mark" }
       });
       if (res.ok) successCount++;
-      await new Promise(r => setTimeout(r, 500)); // İstekler arası yarım saniye bekle
+      await new Promise(r => setTimeout(r, 500));
     }
     
-    btn.innerHTML = `✅ ${successCount} Kanala Gönderildi! Telefonunu kontrol et.`;
+    btn.innerHTML = `✅ ${successCount} Kanala Gönderildi!`;
     setTimeout(() => { btn.disabled = false; btn.innerHTML = "🔔 Test Bildirimi Gönder"; }, 3000);
     
   } catch (e) {
@@ -682,7 +685,7 @@ function openNotifications() {
   recent.forEach(n => {
     list.innerHTML += `
       <div style="padding:12px 0; border-bottom:1px solid var(--border);">
-        <div style="font-size:12px; font-weight:700; color:var(--accent); margin-bottom:4px;">${n.source}</div>
+        <div style="font-size:12px; font-weight:700; color:var(--accent); margin-bottom:4px;">${esc(n.source)}</div>
         <div style="font-weight:700; font-size:14px; color:var(--text-main);">${esc(n.title)}</div>
         <div style="font-size:12px; color:var(--text-muted); margin-top:4px;">${timeAgo(n.pubDate)}</div>
       </div>
@@ -729,14 +732,20 @@ function clearHistory() {
   }
 }
 
+// --- DÜZELTİLMİŞ: MODAL KAPATMA (Ses durdurma) ---
 function closeModal(modalId) { 
   document.getElementById(modalId).classList.remove('active'); 
-  if(modalId === 'newsModal') window.speechSynthesis.cancel(); // Kapatınca sesi durdur
+  if(modalId === 'newsModal' && window.speechSynthesis) {
+    window.speechSynthesis.cancel();
+    document.getElementById('btnListen').innerHTML = "🔊 Sesli Dinle"; 
+  }
 }
+
 document.querySelectorAll('.modal-overlay').forEach(overlay => {
   overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(overlay.id); });
 });
 
+// --- DÜZELTİLMİŞ: LOAD DATA (Piyasa yenileme mantığı) ---
 async function loadData() {
   try {
     const res = await fetch('news.json?t=' + Date.now());
@@ -745,38 +754,50 @@ async function loadData() {
     allNews = data.items || [];
     marketData = data.market; stocksData = data.stocks; cryptoData = data.crypto; weatherData = data.weather;
     briefingsData = data.briefings || {};
-    renderNews(); renderAIBriefing(); renderWidgets(); 
+    
+    renderNews(); 
+    renderAIBriefing(); 
+    renderWidgets(); 
+    
+    if (activeView === 'market') {
+      renderMarketView();
+    }
   } catch (e) {
-    document.getElementById('newsGrid').innerHTML = `<div style="text-align:center; color:red;">Bağlantı hatası: ${e.message}</div>`;
+    document.getElementById('newsGrid').innerHTML = `<div style="text-align:center; padding:20px; font-weight:600; color:#EF4444;">Bağlantı hatası: ${e.message}</div>`;
   }
 }
 
+// --- DÜZELTİLMİŞ: WIDGET RENDER (Optional Chaining eklendi) ---
 function renderWidgets() {
   const mContainer = document.getElementById('marketWidgetContent');
   if (mContainer && marketData) {
     let mHtml = '';
     if(marketData.usdtry) mHtml += `<div class="market-item"><div class="market-name">USD/TRY</div><div><div class="market-val">${marketData.usdtry.toFixed(2)}</div><div class="market-pct pct-up">+0.4%</div></div></div>`;
     if(marketData.ceyrek_altin_try) mHtml += `<div class="market-item"><div class="market-name">Çeyrek Altın</div><div><div class="market-val">${marketData.ceyrek_altin_try.toLocaleString('tr-TR')}</div><div class="market-pct pct-up">+1.1%</div></div></div>`;
-    if(cryptoData) cryptoData.forEach(c => mHtml += `<div class="market-item"><div class="market-name">${c.label}</div><div><div class="market-val">${c.price.toLocaleString('tr-TR')}</div><div class="market-pct ${c.change_pct >= 0 ? 'pct-up' : 'pct-down'}">${c.change_pct >= 0 ? '+' : ''}${c.change_pct.toFixed(2)}%</div></div></div>`);
-    mContainer.innerHTML = mHtml;
+    if(cryptoData) cryptoData.forEach(c => mHtml += `<div class="market-item"><div class="market-name">${esc(c.label)}</div><div><div class="market-val">${(c.price || 0).toLocaleString('tr-TR')}</div><div class="market-pct ${c.change_pct >= 0 ? 'pct-up' : 'pct-down'}">${c.change_pct >= 0 ? '+' : ''}${(c.change_pct || 0).toFixed(2)}%</div></div></div>`);
+    mContainer.innerHTML = mHtml || '<div style="color:var(--text-muted); font-size:12px;">Piyasa verisi yok.</div>';
   }
   
   const wContainer = document.getElementById('weatherWidgetContent');
   if (weatherData && wContainer) {
-    wContainer.innerHTML = `<div class="weather-temp">${Math.round(weatherData.temp)}°C</div><div class="weather-desc">${weatherData.desc} · Çorlu</div><div class="weather-forecast"><div class="wf-day">Pzt<div class="wf-icon">☀️</div>24°</div><div class="wf-day">Sal<div class="wf-icon">☁️</div>22°</div><div class="wf-day">Çar<div class="wf-icon">🌧️</div>19°</div><div class="wf-day">Per<div class="wf-icon">☀️</div>25°</div><div class="wf-day">Cum<div class="wf-icon">☀️</div>26°</div></div>`;
+    wContainer.innerHTML = `<div class="weather-temp">${Math.round(weatherData.temp || 0)}°C</div><div class="weather-desc">${esc(weatherData.desc)} · Çorlu</div><div class="weather-forecast"><div class="wf-day">Pzt<div class="wf-icon">☀️</div>24°</div><div class="wf-day">Sal<div class="wf-icon">☁️</div>22°</div><div class="wf-day">Çar<div class="wf-icon">🌧️</div>19°</div><div class="wf-day">Per<div class="wf-icon">☀️</div>25°</div><div class="wf-day">Cum<div class="wf-icon">☀️</div>26°</div></div>`;
   }
 }
 
+// --- DÜZELTİLMİŞ: MARKET VIEW (Optional Chaining eklendi) ---
 function renderMarketView() {
   const container = document.getElementById('fullMarketContent');
   const wContainer = document.getElementById('fullWeatherContent');
   if(!container || !marketData) return;
-  let mHtml = `<div class="market-item"><div><div class="market-name">USD/TRY</div></div><div class="market-val">${marketData.usdtry?.toFixed(2)}</div></div>`;
-  if(cryptoData) cryptoData.forEach(c => mHtml += `<div class="market-item"><div><div class="market-name">${c.label}</div></div><div><div class="market-val">${c.price.toLocaleString('tr-TR')}</div><div class="market-pct ${c.change_pct >= 0 ? 'pct-up' : 'pct-down'}">${c.change_pct >= 0 ? '+' : ''}${c.change_pct.toFixed(2)}%</div></div></div>`);
-  if(stocksData) stocksData.forEach(s => mHtml += `<div class="market-item"><div><div class="market-name">${s.label}</div></div><div><div class="market-val">${s.price.toLocaleString('tr-TR')}</div><div class="market-pct ${s.change_pct >= 0 ? 'pct-up' : 'pct-down'}">${s.change_pct >= 0 ? '+' : ''}${s.change_pct.toFixed(2)}%</div></div></div>`);
+  
+  let mHtml = `<div class="market-item"><div><div class="market-name">USD/TRY</div></div><div class="market-val">${marketData.usdtry?.toFixed(2) || '0.00'}</div></div>`;
+  if(cryptoData) cryptoData.forEach(c => mHtml += `<div class="market-item"><div><div class="market-name">${esc(c.label)}</div></div><div><div class="market-val">${(c.price || 0).toLocaleString('tr-TR')}</div><div class="market-pct ${c.change_pct >= 0 ? 'pct-up' : 'pct-down'}">${c.change_pct >= 0 ? '+' : ''}${(c.change_pct || 0).toFixed(2)}%</div></div></div>`);
+  if(stocksData) stocksData.forEach(s => mHtml += `<div class="market-item"><div><div class="market-name">${esc(s.label)}</div></div><div><div class="market-val">${(s.price || 0).toLocaleString('tr-TR')}</div><div class="market-pct ${s.change_pct >= 0 ? 'pct-up' : 'pct-down'}">${s.change_pct >= 0 ? '+' : ''}${(s.change_pct || 0).toFixed(2)}%</div></div></div>`);
   container.innerHTML = mHtml;
   
-  if (weatherData) wContainer.innerHTML = `<div class="weather-temp">${Math.round(weatherData.temp)}°C</div><div class="weather-desc">${weatherData.desc} · Çorlu</div>`;
+  if (weatherData && wContainer) {
+    wContainer.innerHTML = `<div class="weather-temp">${Math.round(weatherData.temp || 0)}°C</div><div class="weather-desc">${esc(weatherData.desc)} · Çorlu</div>`;
+  }
 }
 
 function switchBriefing(tabId, btn) {
@@ -785,6 +806,7 @@ function switchBriefing(tabId, btn) {
   if(btn) btn.classList.add('active');
   renderAIBriefing();
 }
+
 function renderAIBriefing() {
   const container = document.getElementById('aiBriefingContent');
   let text = briefingsData[currentBriefingTab] || "Analiz hazırlanamadı.";

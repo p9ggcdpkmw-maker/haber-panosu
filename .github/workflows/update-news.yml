@@ -2,7 +2,7 @@ name: RADAR Haber Botu
 
 on:
   schedule:
-    - cron: '0 * * * *' # Her saat başı çalışır (örn: 13:00, 14:00, 15:00)
+    - cron: '0 * * * *' 
   workflow_dispatch: {}
 
 permissions:
@@ -29,7 +29,8 @@ jobs:
       - name: Botu çalıştır
         run: python fetch_and_summarize.py
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # 🚀 İŞTE EKSİK OLAN SATIR BURASIYDI:
+          FREELMAPI_KEY: ${{ secrets.FREELMAPI_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
 
       - name: news.json değiştiyse commit et

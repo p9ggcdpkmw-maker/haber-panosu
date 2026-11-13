@@ -1,12 +1,34 @@
 {
-  "updated": "2026-11-13T04:48:34.444353+00:00",
+  "updated": "2026-11-13T05:50:20.312816+00:00",
   "briefings": {
-    "genel": "Yapay zekâ alanındaki hızlı ilerlemeler, hem hukuki hem de ekonomik boyutlarda yeni dinamikler yaratıyor. Bu süreçte bilimsel keşifler ve uluslararası iş birlikleri, teknolojik ekosistemin çeşitlenmesine katkı sağlıyor.",
-    "teknoloji": "OpenAI, Google ve Anthropic, gelişmiş yapay zekâ projelerinin durdurulması talebiyle mahkemelerle karşı karşıa; bu durum sektörde regülasyon ihtiyacını ortaya koyuyor. Nvidia CEO'sunun ABD Kongresi'nde ifade vermesi ve büyük teknoloji şirketlerinin Claude'a milyarlarca dolar yatırması, AI rekabetinin yoğunlaştığını gösteriyor.",
-    "ekonomi": "10 milyar dolarlık yapay zekâ asistanları yarışının seyahat sektörüne yeni hizmet fırsatları sunması, sektörel büyümeyi tetikleyebilir. Vietnam ve Güney Kore arasındaki sekiz iş birliği anlaşması, yarı iletken ve AI yatırımlarının bölgesel ekonomik kalkınmaya yönelttiğini işaret ediyor.",
-    "gundem": "Yapay zekâ geliştirme davaları, uluslararası hukukta yeni bir tartışma başlatırken, ABD Kongresi'nde yapılacak açıklama AI politikalarının şekillenmesinde kritik bir rol oynayacak. Bu gelişmeler, kamuoyunda yapay zekânın etik ve güvenlik konularına yönelik farkındalığı artırıyor."
+    "genel": "Son dönemde yapay zeka ve uzay yatırımları haber akışını domine ediyor, şirketler ve devlet kurumları büyük fonları bu alanlara yönlendiriyor. Bu durum, teknolojik rekabetin hem özel sektörde hem de ulusal stratejilerde öncelik kazandığını gösteriyor.",
+    "teknoloji": "OpenAI, Google ve Anthropic'in gelişmiş yapay zekâ projelerini durdurma talepleri, regülasyon baskısının sektördeki inovasyon hızını yavaşlatabileceğini işaret ediyor. Aynı zamanda Nvidia CEO'sunun Kongre'de ifade vermesi, yapay zekâ ve çip teknolojilerinin politikalarla daha sıkı entegrasyonunu gündeme taşıyor.",
+    "ekonomi": "SpaceX'in 74 milyar doları aşan yatırım planı ve Claude'un arkasındaki şirketin milyarlarca dolarlık yatırımları, yapay zekâ ve uzay sektörlerine büyük sermaye akışının sürdüğünü ortaya koyuyor. Bu büyük ölçekli fonlar, ilgili pazarların büyüme beklentilerini yükselterek yatırımcı ilgisini artırıyor.",
+    "gundem": "Yapay zekâ asistanları için 10 milyar dolarlık rekabet, seyahat sektöründe yeni hizmet modelleri ve entegrasyonların ortaya çıkmasını tetikleyebilir, bu da tüketici deneyiminde köklü değişiklikler vaat ediyor. Ayrıca, yapay zekâ’nın ‘geri dönen işçiler’ dalgası yaratması, istihdam politikaları ve iş gücü dönüşümü konularında toplumsal tartışmaları alevlendiriyor."
   },
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "SpaceX'in 74 milyar doları aşan yatırım planı | Bilim Haberleri",
+      "source": "Yeni Şafak",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUl9KZXI4VHI1VzdSZjhHS3JyYVdYYVZiSHNnbk5qOHRpUUJqdzBKR1YyLXE2X1NMWmFrSlBqQkxyY0FYMVUxYkFTczdLcTdFeTI5b0hzM2FNdTRQYm41Z29FVWtfb1BYSS1wZ0tDbFlQQzF2VTJRS3VVS2VYUXBSYTUwUlNYOEpQd2ZCV1FNUlJ6QQ?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:24:52 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Meta Muse artık sizin yerinize telefon açabiliyor",
+      "source": "Teknoblog",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jMmNHWmJNd0RfRWxyRXMtMmF1aGhiSUFrdnlSWUNmajBKcFFNbnR6em5GMWJDOHRxUHZwNFVYbDVRY3lBWTNPVl9kdlNpdERMeHJGN1N1a3pndUlIbm9RNjZyRGh3bGlNb3M0djBDYW8?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:03:56 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -15,7 +37,6 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYkJuMUxEVzFuQXRBZDlKZXpsWE5FR3NBZzBRcWpHcGIydlpxVGZyeVEtMEVzMHUtaWdRdlpfd21JQnZhZkdOa2RVWEVzaEQ4X3RRRVh1RVBMMFkydUdTRjlQR1JBMS10SmVGN0JVb3JWSFkyVkh1YWYzWnU4SkJXcW5WQUJhRzlNVkZrNU80TVdGTWV4MTBKTHZSaXBQWk9FRnlrYmV3?oc=5",
       "pubDate": "Fri, 13 Nov 2026 04:04:18 GMT",
       "image": null,
-      "text": "",
       "summary": "OpenAI, Google ve Anthropic, gelişmiş yapay zekâ geliştirme çalışmalarını durdurmalarını talep eden davalarla karşı karşıya. Bu davalar, şirketlerin ileri yapay zekâ projelerini askıya almalarını istiyor."
     },
     {
@@ -26,7 +47,6 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVUwT3J2eFYtMkRVeURxZ3BsXy1ZRWI5cGdMZkFRajVOQkhtLTkxanEyOUJEQk1tWEFZMVJpWV9ybUFTenJRdHRNUmRCTVlQc0VZQTNPZ0xtUHlXUndseC1SSGd2Zi1HMGo5QnBBSWRVMGp4MFhidDVPS3M0YTY2Z0ZPZ3RDR0xDdXQ3SU1jY2ZhZ01yZ1F2Yk0wREo1WmhObmFjTktB?oc=5",
       "pubDate": "Fri, 13 Nov 2026 03:46:20 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başlığa göre, FAnRoC - FPT programı, öğrencilerin sınıftan oyun alanına kadar teknolojik yeteneklerini geliştirmeyi hedefliyor."
     },
     {
@@ -62,22 +82,23 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
+      "title": "Teknoloji devindeki aşk skandalı koltuktan etti",
+      "source": "Hürriyet",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR3pjaURhcHVsYmhSVGFVTlBKcGVRdVlzR2hsZGRjcVpqZUc5WjJWV0ZjczZfSnhrMmhJZGdoZnRzMUgzNkdVMUp2WXVCODFEQ3pOZTh0aDQtQU9kY0JDaTRYMzNhRFRXc3FzZkxVNDFrQzZjUWxQTlJRcGVkbW1PT090a1hrUmtDSXF3WTdaS0RtOTNs?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 00:23:08 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
       "title": "Teknoloji devleri, Claude'un ana şirketine on milyarlarca dolar harcıyor.",
       "source": "Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORUd4MFRqSmU0TnFraGEzczJFSDVfbFJnV3FsTDNaYk5ySFhTbkhkSkNGMkF4c2lueFFNMDM2ZjlrUXU2QXhnUkhEVEpYLXNHcVRYVHlVRDk0c2dEMjBzVVZyYUZ6eXQ1dUZjamFSekZYYVFBWU15YVFvaVpCb015WjEtUU16MEhKNjlkdlljM21rV0lo?oc=5",
       "pubDate": "Thu, 12 Nov 2026 23:54:22 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Başlığa göre, büyük teknoloji şirketleri, Claude adlı yapay zeka sisteminin sahibi olan ana şirkete on milyar dolar ölçeğinde yatırımlar yapıyor. Bu yatırımlar, yapay zeka alanındaki rekabeti ve inovasyonu hızlandırmayı amaçlıyor."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Vietnam ve Güney Kore, yapay zeka ve yarı iletkenler alanında sekiz iş birliği anlaşması imzaladı.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeV9CVHVKLWVLVHpJbVQtal9QaGNlZ2w0bE1LZm94RUpxUGR0MDN4YXRBVkhUZEwtUFhnd0s5OTRWTlB1MHNJdnBuczJRc29DZG84V3pSbW9lUTBYOURIWFdIZjNkS1F6cG9tODlleG5IbnlneEFOaXlPbS15SzU0d1ZfZnZITjNMT0I2YklyQVh6dw?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 23:28:58 GMT",
-      "image": null,
-      "summary": "Vietnam ve Güney Kore, yapay zeka ve yarı iletkenler alanında sekiz iş birliği anlaşması imzaladı. Tam metne ulaşılamadı, ancak başlıktan anlaşma sayısı ve konularının bu olduğu anlaşılmaktadır."
     },
     {
       "cat": "Bilim",
@@ -205,9 +226,53 @@
       "title": "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war",
       "source": "The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaWdyUWhPQnRiR210eElwazFOZ2pyWWgxN2FWX09VU0ZSZUpFcVlweFllV2E4aF9CcXpwQkhybkVzMjkwdTBOY3JTRFBXdlZBOXVvU2l5cjBKX1Znel9XR2JJb0gwbVlQOV9TenpJUkY2ZG1YcXEtRWdNWTQ0MDJTM3pQdnRHSkE0WXlWQjA5Y2JXQkpUN2hoSkkyTXhrTE1FdnUyblFjWDdqWHZTMGM1LVU4V2oxZnpqZzBj?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 04:11:12 GMT",
+      "pubDate": "Fri, 13 Nov 2026 05:24:36 GMT",
       "image": null,
       "summary": "ABD elçileri, Putin ile görüşmelerin ardından Avrupa'nın Ukrayna savaşını sona erdirme müzakerelerine katılacağını belirtti. Bu gelişme, çatışmanın diplomatik yollarla çözülmesi yönündeki çabaları destekliyor. Görüşmelerin detayları henüz netleşmedi."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Thursday Night Football: Stefon Diggs’ late TD gives Commanders 24-21 win",
+      "source": "NBC Sports",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUdrX0lEdjQ2YnpNLXFVbXdvMXpYX01ubHNfWmMyMEV1ODZGS3JLVmZVVDFJYmF0TzRQWHl4SXVjcmx1cUtheHBOU0VLQlZLcC1xbWJnOHlPX1JmWFJJMkxvOGVLb2tFa2wxQjM2by1iVm9USlhRSFZzaHZwR1piNHNkczVNVUdHaURWVnZ3TW83RjRkazJTaEZuem9EazZ2TUUxRE1hWm9wa1gyMExJdGxMS0gxN2FQUnJzWV9JbzFfaHdqQVd2eWpNa3pLZw?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 04:30:40 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Dow Futures Rise After Resilient Session; AMD, Arista Are Buys",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHdBUXNwWlkwRldKTGNVWW9NWkFaSzVQaEx4RTRQYUNiVnQ2bGVPMGc0cmM4OVRGTUlmdG4yTlRXWm1QRTh1TE9lRTdLYmVsSGxaanBjUzZLOG9uQ1RNaWRodms3Zk9DTHJTVDdXV2l2aTFicWxDeXhxYXVCcFktd2VQRThkVUFkejFJUzJGb2EwazRCSVVQMFh2c3d0ZTNxeVplUVlsUHBVMm9xTlU5bVFHblVWa2ttR0RHSUN3c2ZVX1RsVlN2SkMyQTZsVlItaGZsWQ?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 04:05:00 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HY0g2NTA4UDg1bGFHUXhyZkJCeGJsYXdGeVFFWXNBWHlSNGlDYzVXQkw5YkxheFhEbG1jNGRpXzVVeThsMkJYWENEQ3ZtNi1SZkZfT0RZWnNrckE?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 03:57:01 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+      "source": "NPR",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdVNLOGZvSnVMbmRFQkZOcDU0NmVSWWt4U1NubHpEdC1rdVo3N2cyWnNVVUYxMUs1dTVjM0xtZFIwMFAtRHhCWWZtTUJXd1BWSFZTMTZRZDhTODRReTBEbkFYLXRtN1ktdTFpdzB4bHhXNlV3cnBCQ2JNdlAycjNSY0JBR0VMQVZWVlBxd1VZY0g3amRYRmg2VFYtQmRiZUU?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 03:52:25 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Dünya",
@@ -222,12 +287,24 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
-      "title": "Matt Lambert, 55, identified as gunman after 1 killed and 4 injured in DC shooting",
-      "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxRDBQN3NNZV80TkVLTktzU0V2VzdEYVIwNWRqYkhsd1lZYnRCVkxSdzZzREg0cHVPVjNLSmxwclBxRERaR2Vwb1ducldyWDQybzdfZ2M3M1R1dFBBczd2ZFhESjFEd1BaU3IyWmJhSVRDbHdt?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 02:54:00 GMT",
+      "title": "What we know about Brooklyn building collapse that killed eight people",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaR2NJSnEtNGdGS05uaU94T05ULXIyQW4yYXdzYnpZMWdGOTU5b1JnSEhfdWNNRjBlNkxwNVZhLXI3aWktSlVkeHlvQ2p3Skg3UUlLLW9HTkd3c2s?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 03:26:47 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Washington DC'de gerçekleşen silahlı saldırıda 55 yaşındaki bir kişi kimliği belirlendi; saldırıda bir kişi hayatını kaybederken dört kişi yaralandı. Olayla ilgili soruşturma sürüyor ve yetkililer durumu değerlendirmeye devam ediyor."
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "D.C. gunman attributed attack to frustrations with building maintenance",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMFk3YjF3a3pUaGttVHBHa3hEaEcyRF9sRUpnS1A5UFBPSkJpQXpBUzF2UmJ2dDBJN3dvd3E4RFQwOENJV3E3cHY3Z0xNZ09KeWl3QzJNYkJxT0hmOXlRWnJQUm15andsbEVnb0U2TURWNlNfNFBQWUowVy1UaERibWtXTndHZFFMdlM3VlloRzV0YkNhbnZQaFFHVXlQN1pUY2I4RHotbTZTOW9pN2RLc056SlVNZ2NjM01Ob0VYN2hEb2xaMXVhTnlfdGo?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 02:42:33 GMT",
+      "image": null,
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Dünya",
@@ -235,19 +312,9 @@
       "title": "Hegseth awards medal to soldier who admonished him, his team at Tomb of the Unknowns",
       "source": "The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVXgtTEwwdkhEZG5zYmw4bmkyNllhTzI1b2FtSVVjeWtUOWdnZENwTmhibHV5TEpjMnRhVUlRbkszUGxKRUYwd3pmeHpCbXZnNHc1b25JZWpyT3dIeUhUakI0RkduOXpLTDV4MzdfNm14aWNCSjZvZ1VIZV9jc1h3YjZfWG5sejc4TjdLbkRHRTVNQk5aMXZsQmZtQ2V1bGtpbGtfejZrcUNRVWxIV2o5YU1YVjBDNlhhVlBDWTlZXzQ1VmpW?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 02:46:31 GMT",
+      "pubDate": "Fri, 13 Nov 2026 02:19:19 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. Hegseth, Bilinmeyen Asker'in mezarında kendisini uyarıp ekibine de aynı şeyi yapan bir askere madalya takdim etti. Bu tören, askeri disiplin ve sorumluluk vurgusunu simgeliyor."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR2xrSFB3cFBDbkQ4M1NtN0JqTVRvRVBSR3d6azhqSlZBWFM0b3ZuVWQxZlgzd09pTTFXa1VEX1g2eTl3LWNxTDgzNlRsS0VUTEFqZ1hPSHI4eXlacEFkRnB0U2hXUk5sRGprR0RraGJaV1ZSeFNjeFFnaDlNdVRpNTdrd09IRjJibW1xVjFmdnlMa0I5dHdBdlVFUDhVb1N5U3g2M0RJbEhJMGhZelgzZ3pucG54Q0h4TVZzQXpxUzI?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 02:03:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Sen. Chris Van Hollen, Sen. Chuck Schumer’ın çoğunluk liderliğine karşı yarışacağını duyurdu."
     },
     {
       "cat": "Dünya",
@@ -257,7 +324,6 @@
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2anJmMndlT3pCSnNTcFdQRGdza2kxOUc1MDVqRURoRDZoVDM1VEN0SmpMNGJFcFRqdHVjOFY5blNPVF8xQVZhOE0zdk84ZnlobGFGSVNsYlEzNkVDbDlNa3hEdk94NXJpbkdjR1hwU1p1bDBxcUxFeFcyWm15b2tSZHMxU1I?oc=5",
       "pubDate": "Fri, 13 Nov 2026 01:28:40 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Başlığa göre, Howard Lutnick, Nvidia'ya yönelik daha sıkı kontrol talepleri artarken daha yumuşak bir tutum sergiledi."
     },
     {
@@ -278,50 +344,17 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ0p3RGxWbmdHckxKZnA4azZLMjZYcDZqWXJ6RE00VGJqcFNUYmlYdHBoazgybmxzN0lZV05ZaXo3bFBOcGxUNF9hMF9QcnJ5a3ZpNkZXOC1DcDdBUkN4WEUwRzk5VHp3UDZ6QW9hNUdIY2tHVzhTWDVRT3pNVmJQeVVSZw?oc=5",
       "pubDate": "Fri, 13 Nov 2026 00:56:00 GMT",
       "image": null,
-      "text": "",
       "summary": "Tam metne ulaşılamadı. Burnham, Piddington göçmen kampı onayı nedeniyle belediye başkanı tarafından eleştirildi ve başkan, olası cinsel şiddet olaylarının sorumluluğunun belediyeye ait olacağını belirtti."
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Cubs' Pete Crow-Armstrong, Astros' Yordan Alvarez unanimous MVP winners",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaEFydXdWWlM2RlVKTk1CT0lVaHhubDFNdldWcmNGMHB4ellXb0lSSFZPd3VxRnlFc2RrbklJN3BsUVZxU0x1NGVKTnlYR2xvQldQNFpmZEtOcWpzcHpKZVhKOHFURFdnMXB2SFpDWW9rS1hvT1k4ZDNPd3AycHExX3RGVUdUMlVKU1FhSnJLXzd5VVZGbEVqdUNGaVNRWXl2MEJrYWhBQi1qQQ?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:55:00 GMT",
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "COP31’de Gaziantep ev sahipliğinde Türkiye kadın Pavilyonu kapılarını açtı",
+      "source": "Gaziantep Postası",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY3loYm1nbEpJUzRBVm5vVkRsMnNORnlrZVBwRW5jTFh6MzlkTHo4eDByZE1LS3hEZFNUN3kwc0lUMWM0MVpvdDBMcndHbVoyR1owNlhtNl9DQU1RZ0Y2bDdUajJwcDZPTl9GVm53U0RqVjZDMDJsdll1WFpBYXY2a01FOVdWaHRWZkhEQ2FkZVlrWDN4U2oxTGJHdUxBY1E2QlFROEExeWxOd3FPZGY1c1pGOGY?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:40:06 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Chicago Cubs oyuncusu Pete Crow-Armstrong ve Houston Astros oyuncusu Yordan Alvarez, oybirliğiyle MVP ödüllerini kazandı."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "US Army officer involved in alleged Russian spying scheme identified: Reports",
-      "source": "The Hill",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVEw1Z2g3UFNXUThRcHRlYmcySkpxLWlLNG1aOGdOandjNDdwVnBHOFEtblZTaFpmWXp0RWZYUndrTk1kdTRYLTJYRXE5TmF0RlJxcHkyZW5UZjk1djNWMHhYLXg1ZmxicU1kc3lYdmFJNnBRdGRXcnRFNkxyUHhKZkZvZVJhSUd4VGJvRVJkd9IBlAFBVV95cUxQeEZTZEFQMkR6M2ZVSXhIOUdKbmVRRnNraG5iM1M2ekRuMlBCRUdFNE9vUkFLSzFHV1c5ZGppWjJqYnBHaWE1cTBYeTdYSmUwczFGemdiOXNubGlSUXcxWDMwYXVKN01TMjAzSHFManVnTFFaMnZuSXFRR1Y4aThobEthN1k4OXhfS09pM1NqTW5mMWxM?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:39:00 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. ABD Ordusu'na bağlı bir subayın, iddia edilen Rus casusluk planına dahil olduğu tespit edildi."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Brooklyn building collapse: 2 children, 6 men killed in Flatbush",
-      "source": "ABC7 New York",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQblVQR0RaMDh0dzQ4UmlJajZyUUM2bXJGWi0xVTZDMnpXekZkMy0tQWVLMFoyTmNwMWJmc0QxcTJvTEJoWEJyU0ROa1NEU1l5Z1FWVnV3MG1KdktYUTczYTlsYk85RXYtN0ZMZV9VM0NRT1NqWDJxSnI5RDROby1MUW1qejd1OG5aMTgtdFNNX3dIa2VOcE0tc9IBngFBVV95cUxOSmpLSUxBZl9uSWowNV9nQTVVZEF3MjBiRHNvWnNkVzRWc0IzY2pFNnNOSmxITmFjWkM4LU41eVVGM2Jwcmx3X0RPeUF5UU9uM2JDaUZZME14OXl2TS1oNGtlZ0c4c2tjcF80dTh0dzFXbTZKY2VSV0diUXJLX20xcFhkYWZnZkhWYjFYVGpaZFhJME5iS2hMcHJxczEtQQ?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:35:29 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Brooklyn, Flatbush semtinde bir binanın çökmesi sonucu 2 çocuk ve 6 erkek hayatını kaybetti."
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Xbox CEO Announces Major New Bethesda Games In The Works, Including Wolfenstein 3",
-      "source": "Pure Xbox",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSnp1MmZVeEg3WW1IRmZlT3c0a3VubHJvZU1oYlFvYnZKYnh2V1AyQUZNdjhvVkVmSEU2cUtuV0tWcVR6aUJpX0tyMnVHS3MtbjJpTldkd2stdFdiNlN0Y2NybFZiUUlXWGJSY1F0cXVPWi1tUTQ1b3FyYlVFZUEzNUFHcVc2bmpfQ3F2Z2EzX2t4cVp3d2xRQ1NwbG9uZnItTG1KVVdhbHhpV3V3T2FMMk93TEdkdkFQSHc?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 00:26:50 GMT",
-      "image": null,
-      "text": "",
-      "summary": "Tam metne ulaşılamadı. Xbox CEO’su, Bethesda tarafından geliştirilen yeni oyunların planlandığını duyurdu; bu projeler arasında Wolfenstein 3 de yer alıyor."
+      "summary": "Tam metne ulaşılamadı. COP31 kapsamında Gaziantep'in ev sahipliğinde Türkiye Kadın Pavilyonu açıldı."
     },
     {
       "cat": "Gündem",
@@ -336,22 +369,24 @@
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "COP31’de Gaziantep ev sahipliğinde Türkiye kadın Pavilyonu kapılarını açtı",
-      "source": "Gaziantep Postası",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY3loYm1nbEpJUzRBVm5vVkRsMnNORnlrZVBwRW5jTFh6MzlkTHo4eDByZE1LS3hEZFNUN3kwc0lUMWM0MVpvdDBMcndHbVoyR1owNlhtNl9DQU1RZ0Y2bDdUajJwcDZPTl9GVm53U0RqVjZDMDJsdll1WFpBYXY2a01FOVdWaHRWZkhEQ2FkZVlrWDN4U2oxTGJHdUxBY1E2QlFROEExeWxOd3FPZGY1c1pGOGY?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 23:20:14 GMT",
+      "title": "Erdoğan: “Türkiye, hayallerini hedeflere, hedeflerini gerçeklere dönüştürmede usta bir ülkedir”",
+      "source": "Gazete Kritik",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcGttNndRRE9NOTZ4Z3cwOXFBWG5TZVpvSjNJTzVDWHZSU0lKN0JBclBFbG9YM3RaZG4ySXlHRklDOFQ1QU9YdGptZlQ0UGVNRjBHZER5ZXNVZ2FwM1Vxc2x2Z1BSazBjWk54Y2stQmtPTzJEdlFaTG0tNTJPOU9lYURlOGJ2dmlUSWxzNnEzekhZdmtwUWN5SzF5d0tPR001c19OTklKSWtyNGJIWjBYTUc2b3FxdGNtTTNucUlZbXgwOU1WcDlpMnJfY0k5Zw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 22:34:11 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. COP31 kapsamında Gaziantep'in ev sahipliğinde Türkiye Kadın Pavilyonu açıldı."
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
-      "cat": "Gündem",
-      "catId": "gundem",
-      "title": "Türkiye'den İsrail'in Gazze'deki hastane saldırısına sert tepki: \"Uluslararası hukukun vahim bir ihlalini teşkil etmektedir\"",
-      "source": "TRHaber",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ2loV3VabmtoTm5fd3JYMnYwS2VheTBkTFJVVm52V05oWExpVjFmQnBHMm4xNEFtNHBCcWZqMExKY3VhQ3drMS1KU2lDNFNvdktmUjRzUkRrNmw1akItYkdCa096N240ZlZNN1A2S1RHV1VwZVEwTlJhRndneThNdmIxSEpLM0M2YUtPSzFmTndvd0ZxOFJMUVgwSjZlaVh6Z2t5dmVHUFd2aWdRbjU0RDA3SkU5OWo0NlVMcDJ3cUVyVFNQN1I4bWdkQ0hkSkNBYjBtdnFnRWZXOFFIQW4ydA?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 22:44:00 GMT",
+      "cat": "Çorlu",
+      "catId": "corlu",
+      "title": "15 Kasım 2026 Çorlu-Tekirdağ Elektrik Arızası",
+      "source": "guncelkesintiler.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTkdrV3BPWGxYVThvNnRURV9kQ3FfMkpYQ09IMHJsUng4RmViT21sR1pxYTlUTldaSVNxSV82T0QwZHU5Sk1mWGdUOU5IT2dZeWxocGp4Nk1SekJIbGg1QzhCWEpaMWxaRFVuZkpWcEdxOXJUZEhHYTV5bU10SlBnd1hlNl9Nb3psaUVQVzJHWWZRLUxIa3BIX1VwRDg0QnpY?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 05:18:25 GMT",
       "image": null,
-      "summary": "Tam metne ulaşılamadı. Türkiye, İsrail'in Gazze'deki hastaneye yönelik saldırısını uluslararası hukukun ciddi bir ihlali olarak nitelendirerek sert bir tepki verdi. Dışişleri Bakanlığı, olayın sorumlularının uluslararası platformda hesap vermesi gerektiğini vurguladı."
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Çorlu",
@@ -361,28 +396,17 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMHlSZzk3UHB1bzU1NEd5T1EwU25yMEhUVFlwa2dlYmdkelpVTURaMmZwbFp1UG9uWUpkUEdCSEx3LWRIWDFNRV9JeUEyZVQ2bm9vYjJ0YU1BUEdfRUI2ZEhxZEprTmZsTHpnV09Odzh1bHR2VHpUTk1fRzZZRUdwbUxFSXE1NV9uRnJFQkRhamZVU29Bcmh0aDA2emtBY2c?oc=5",
       "pubDate": "Thu, 12 Nov 2026 23:12:15 GMT",
       "image": null,
-      "text": "",
       "summary": "Şehit Astsubay Zehir'in eşine şehadet haberi Tekirdağ'da verildi. Tam metne ulaşılamadı."
     },
     {
       "cat": "Çorlu",
       "catId": "corlu",
       "title": "13.11.2026 Tekirdağ/Çorlu Elektrik Kesintisi Hakkında -Tredaş-",
-      "source": "guncelkesintiler.com",
+      "source": "Güncel Kesintiler",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdXE2NVA5NEs0djlRSUJvdElZQlpuNmhMNUp1Q3hCZWE1RVBzSnJnYXpWVTVWdzEyWUtDRHplVnRaSERBZUJtYmhwUkJqMi1qeTdvaHN1MFpuc2FOSm12c0lKMERqMlVVWllrNWM2a0k5M1RUWEVyTndDamdEMU1raEtkcTVybmJfVzlObHI5R1VsUE5WRjdOUW50Y0NWQWRCVno4MkRLQzRyVXNSN0U4Tm91NW4?oc=5",
       "pubDate": "Thu, 12 Nov 2026 22:55:32 GMT",
       "image": null,
       "summary": "Tam metne ulaşılamadı. 13 Kasım 2026 tarihinde Tekirdağ’ın Çorlu ilçesinde Tredaş tarafından bildirilen bir elektrik kesintisi yaşandı."
-    },
-    {
-      "cat": "Çorlu",
-      "catId": "corlu",
-      "title": "Tekirdağ’a Şehit Ateşi Düştü",
-      "source": "Çorlu Haber",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TVVlrNGJaYmlsVURqc0liWE5wVWE0dmRHR3pJQ29iNHpYOWxyaUNiZWFJc3VoOHltYzVCUDdEVk42NFVUcEZ3cGlJdWFHX1BudkE4TGplSUF1UFBWT1hUekpCRENlSUZxOTV1MjB3d2I?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 21:31:22 GMT",
-      "image": null,
-      "summary": "Tam metne ulaşılamadı. Başlık, Tekirdağ’da bir şehidin ölümüyle ilgili bir olayın gerçekleştiğini gösteriyor. Yerel yetkililer olayla ilgili inceleme başlattı ve tören düzenlendi."
     },
     {
       "cat": "MHA Haber",
@@ -416,25 +440,25 @@
     }
   ],
   "weather": {
-    "temp": 15.8,
-    "desc": "Az bulutlu"
+    "temp": 15.9,
+    "desc": "Parçalı bulutlu"
   },
   "market": {
     "usdtry": 50.31,
     "eurtry": 55.69,
-    "gold_gram_try": null,
-    "ceyrek_altin_try": null
+    "gold_gram_try": 6326.27,
+    "ceyrek_altin_try": 11070.97
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3458735,
-      "change_pct": -6.590030161029022
+      "price": 3450534,
+      "change_pct": -6.607630186674548
     },
     {
       "label": "Ethereum",
-      "price": 97005,
-      "change_pct": -5.797121319496175
+      "price": 96642,
+      "change_pct": -5.9472575044488805
     }
   ],
   "stocks": [

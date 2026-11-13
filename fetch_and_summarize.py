@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi
+RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Nihai Sürüm)
 """
 import json, os, re, sys, time
 import difflib
@@ -13,7 +13,7 @@ import requests
 import trafilatura
 from bs4 import BeautifulSoup
 
-# 🚀 Anahtarı al ve içindeki görünmez boşlukları/satır sonlarını temizle
+# --- YAPILANDIRMA ---
 raw_key = os.environ.get("FREELMAPI_KEY", "")
 FREELMAPI_KEY = raw_key.strip().replace("\n", "").replace("\r", "").replace('"', '').replace("'", "")
 
@@ -37,6 +37,25 @@ MAX_AGE_DAYS = 1.0
 MIN_ITEMS_PER_CAT = 3
 MAX_ITEMS_PER_CAT = 15
 MAX_TEXT_LENGTH = 3500
+
+# 🚀 YENİ: Yapay zekanın döndürdüğü metni JSON'a çeviren güvenli fonksiyon
+def clean_json_response(text):
+    # Eğer model ```json ve ``` arasına yazdıysa temizle
+    text = text.strip()
+    if text.startswith("```json"):
+        text = text[7:]
+    elif text.startswith("```"):
+        text = text[3:]
+    if text.endswith("```"):
+        text = text[:-3]
+    
+    text = text.strip()
+    # JSON'un başlangıç ve bitişini bul (bazen model dışına metin yazar)
+    start = text.find('{')
+    end = text.rfind('}')
+    if start != -1 and end != -1:
+        text = text[start:end+1]
+    return text
 
 def fetch_feed(url):
     try:
@@ -175,6 +194,7 @@ def fetch_article_text(url):
         except: pass
     return text[:MAX_TEXT_LENGTH] if text else ""
 
+# 🚀 DÜZELTİLMİŞ ÖZETLEME FONKSİYONU
 def summarize_batch(items):
     if not items: return []
     lines = []
@@ -201,14 +221,19 @@ def summarize_batch(items):
             )
             if resp.status_code == 429: time.sleep(10); continue
             resp.raise_for_status()
-            arr = json.loads(resp.json()["choices"][0]["message"]["content"]).get("summaries", [])
+            
+            raw_content = resp.json()["choices"][0]["message"]["content"]
+            cleaned_content = clean_json_response(raw_content) # Temizle
+            
+            arr = json.loads(cleaned_content).get("summaries", [])
             if len(arr) == len(items): return arr
             else: return (arr + ["Özet oluşturulamadı."] * len(items))[:len(items)]
         except Exception as e:
             print(f"  ! API hatası: {e}", file=sys.stderr)
-            break
+            time.sleep(2)
     return [""] * len(items)
 
+# 🚀 DÜZELTİLMİŞ ANALİZ FONKSİYONU
 def generate_category_briefings(all_news):
     if not all_news: return {}
     top_news = all_news[:10] 
@@ -226,11 +251,16 @@ def generate_category_briefings(all_news):
             timeout=60
         )
         resp.raise_for_status()
-        data = json.loads(resp.json()["choices"][0]["message"]["content"])
+        
+        raw_content = resp.json()["choices"][0]["message"]["content"]
+        cleaned_content = clean_json_response(raw_content) # Temizle
+        
+        data = json.loads(cleaned_content)
         for key in ["genel", "teknoloji", "ekonomi", "gundem"]:
             if key not in data or not data[key]: data[key] = "Bu alan için özel bir gelişme bulunamadı."
         return data
-    except:
+    except Exception as e:
+        print(f"  ! Briefing hatası: {e}", file=sys.stderr)
         return {"genel": "Analiz hazırlanamadı.", "teknoloji": "Analiz hazırlanamadı.", "ekonomi": "Analiz hazırlanamadı.", "gundem": "Analiz hazırlanamadı."}
 
 def load_cache():
@@ -246,8 +276,6 @@ def load_cache():
 
 def send_smart_notification(new_items, market, crypto, stocks):
     sent_special = False
-    
-    # 1. Ücretsiz Oyun Fırsatı
     new_games = [it for it in new_items if it.get("catId") == "oyun"]
     for game in new_games:
         try:
@@ -256,7 +284,6 @@ def send_smart_notification(new_items, market, crypto, stocks):
             time.sleep(1)
         except: pass
 
-    # 2. Piyasa Alarmı
     alarms = []
     if stocks:
         for s in stocks:
@@ -274,20 +301,17 @@ def send_smart_notification(new_items, market, crypto, stocks):
             time.sleep(1)
         except: pass
 
-    # 3. Kategori Bazlı Akıllı Bildirimler
     new_categories = set([it["catId"] for it in new_items if it["catId"] != "oyun"])
     for cat in new_categories:
         cat_items = [it for it in new_items if it["catId"] == cat]
         count = len(cat_items)
         title_text = f"📰 {cat.capitalize()} Gündemi"
         body_text = f"{count} yeni haber eklendi. Son gelişme: {cat_items[0]['title'][:60]}..."
-        
         try:
             requests.post(f"https://ntfy.sh/radar-{cat}", data=body_text.encode("utf-8"), headers={"Title": title_text, "Tags": "newspaper"}, timeout=10)
             time.sleep(1)
         except: pass
         
-    # Genel kanala da özet geç
     if new_items and not sent_special:
         try:
             requests.post(f"https://ntfy.sh/radar-haberler", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Genel", "Tags": "newspaper"}, timeout=10)

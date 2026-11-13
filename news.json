@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T19:45:16.607389+00:00",
+  "updated": "2026-11-13T19:59:18.162978+00:00",
   "briefings": {
     "genel": "Analiz hazırlanamadı.",
     "teknoloji": "Analiz hazırlanamadı.",
@@ -10,13 +10,35 @@
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
+      "title": "Nvidia imparatorluğundaki son saatler: Jensen Huang",
+      "source": "Donanimhaber",
+      "link": "https://www.donanimhaber.com/nvidia-imparatorlugundaki-son-saatler-jensen-huang--212883",
+      "pubDate": "Fri, 13 Nov 2026 22:47:00 +0300",
+      "image": "https://www.donanimhaber.com/images/images/haber/212883/1200x675nvidia-imparatorlugundaki-son-saatler-jensen-huang.jpg",
+      "text": "Teknoloji ve bilim dünyasını seven ve takip etmekten büyük zevk alan Metin, öğrendiklerini ise DonanımHaber okuyucuları ile paylaşır. Tam Boyutta Gör Nvidia’nın kurucusu ve CEO’suJensen Huang, kendisiyle özdeşleşmiş olan şirketinin artık bir parçası değil. GPU'ları genel amaçlı işlemcilere dönüştürerek yapay zeka devriminin altyapısını hazırlayan Huang, Nvidia'yı da dünyanın en değerli şirketi haline getirerek büyük bir imparatorluk kurmuştu. Huang'ın inanılmaz hikayesi ise kurduğu imparatorluğun tepesinde son dere trajik ve skandal bir şekilde sona erdi. Son saatlerince Huang, eski hallerinden ve tavırlarından çok uzaktı. 1992'nin sonlarında, Silikon Vadisi'nde çalışan üç mühendis sık sık San Jose'nin doğusundaki Capitol ve Berryessa caddelerinin kesişiminde bulunan birDenny'srestoranında buluşuyordu.Jensen Huang, Chris Malachowsky ve Curtis Priem'in bu toplantılarda henüz bir şirket kurma konusunda kesin bir planı yoktu. Üçü de yarı iletken ve bilgisayar mimarisi alanında deneyimliydi ancak çalıştıkları şirketlerdeki kariyerlerini geride bırakıp kendi işlerini kurup kurmamaları gerektiğini tartışıyorlardı. Huang o sırada LSI Logic'te mühendis olarak çalışıyordu. Malachowsky ve Priem ise Sun Microsystems'ta görev yapıyordu. Üçlü daha önce bilgisayar iş istasyonları için grafik donanımları üzerinde çalışırken tanışmış ve birlikte çalışma deneyimi kazanmıştı. Sun'daki mimari değişikliklerin ardından Malachowsky ve Priem şirketten ayrılmayı düşünmeye başlamış, Huang'ı da kendi girişimlerine katılmaya ikna etmeye çalışmıştı. Tam Boyutta Gör Buluşmaların adresi olan Denny's ise Huang için sıradan bir restoran değildi. Henüz 15 yaşındayken Portland'da aynı restoran zincirindebulaşıkçılık, komilik ve garsonlukyapmıştı. Bu nedenle Denny's, onun için ilk iş deneyimini kazandığı yerlerden biriydi. Ayrıca restoranın 24 saat açık olması ve uzun süre çalışmak için elverişli bir ortam sunması iş fikrini tartışmak için uygun bir yer olmasını sağlıyordu. Üç mühendis burada saatlerce oturuyor, kahve içiyor ve nasıl bir teknoloji şirketi kurabileceklerini konuşuyordu. Chris Malachowsky'nin daha sonra anlattığına göre tek bir kahve sipariş edip yaklaşık dört saat boyunca çalıştıkları oluyordu. Huang ise arkadaşlarının şirket kurma teklifine hemen olumlu yanıt vermemişti. Mevcut işinden memnundu ve yeni girişimin gerçekten ticari bir fırsat sunup sunmadığından emin olmak istiyordu. Tartışmaların merkezindebilgisayarların grafik performansıvardı. O dönem üç boyutlu grafikler, güçlü ve oldukça pahalı iş istasyonları gerektiriyordu. Üçlü, bu teknolojiyi kişisel bilgisayarlara taşıyabilecek daha uygun maliyetli grafik işlemcileri geliştirmeyi hedefledi. Huang'ın özellikle video oyunlarına duyduğu ilgi de başlangıçta hangi pazara odaklanacakları konusunda belirleyici oldu. Sonunda üç mühendis, kişisel bilgisayarlarda üç boyutlu grafiklerin gelecekte büyük bir pazara dönüşeceği konusunda uzlaştı. Böylece1993 yılında Nvidia kuruldu. Şirketin ismi, Latinceinvidia(kıskançlık) kelimesinden esinlenerek oluşturuldu. Elbette şirketin o dönemdeki hedefi büyük veri merkezlerine işlemci satmak veya yapay zeka modellerini eğitmek değildi. Amaç, bilgisayarların görsel dünyaları daha gerçekçi ve akıcı biçimde oluşturmasını sağlayacak grafik işlemcileri geliştirmekti. Tam Boyutta Gör Üstelik Nvidia, rekabetin oldukça yoğun olduğu bir pazara giriyordu. Şirketin kendi tarihçesine göre kuruluş döneminde iki düzineden fazla grafik yongası üreticisi bulunuyordu. Bu sayı üç yıl iç",
+      "summary": "Nvidia’nın kurucusu ve CEO’su Jensen Huang, 1993 yılında üç mühendisle birlikte grafik işlemcileri geliştirmek amacıyla şirketi kurdu. Şirket, başlangıçta kişisel bilgisayarlara üç boyutlu grafik getirmeyi hedeflerken, zamanla GPU’ları genel amaçlı işlemcilere dönüştürerek yapay zeka altyapısının temelini oluşturdu ve dünyanın en değerli şirketlerinden biri haline geldi."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "25 Yılda Yalnızca %3,6 Kapasite Kaybı: Yeni Batarya Teknolojisi Devreye Giriyor!",
+      "source": "Webtekno",
+      "link": "https://www.webtekno.com/yalnizca-3-6-kapasite-kaybi-yeni-batarya-teknolojisi-devreye-giriyor-h228982.html",
+      "pubDate": "Fri, 13 Nov 2026 22:45:58 +0300",
+      "image": "https://imgrosetta.webtekno.com/file/697183/697183-640xauto.jpg",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
       "title": "Microsoft 365 kesintisinde toparlanma sürüyor",
       "source": "Shiftdelete",
       "link": "https://shiftdelete.net/microsoft-365-kesintisi-outlook-teams-copilot",
       "pubDate": "Fri, 13 Nov 2026 22:30:00 +0300",
       "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/microsoft-365-kesinti-toparlaniyor-kapak-1311.webp",
       "text": "",
-      "summary": ""
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Teknoloji",
@@ -27,7 +49,7 @@
       "pubDate": "Fri, 13 Nov 2026 22:25:00 +0300",
       "image": "https://www.donanimhaber.com/images/images/haber/212884/1200x675turkiye-ile-cin-arasinda-15-milyar-dolarlik-enerji-anlasmasi.jpg",
       "text": "Teknoloji ve bilim dünyasını seven ve takip etmekten büyük zevk alan Metin, öğrendiklerini ise DonanımHaber okuyucuları ile paylaşır. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Tam Boyutta Gör Türkiye ile Çin, yenilenebilir enerji yatırımları ve elektrik altyapısının geliştirilmesini kapsayan yaklaşık15 milyar dolarlıkişbirliği anlaşmasına imza attı. Anlaşma kapsamında Türkiye'de toplam7 bin megavatlık güneş ve rüzgarenerjisi santrali kurulması ve enerji depolama sistemlerinin geliştirilmesi hedefleniyor. Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Birleşmiş Milletler İklim Değişikliği Çerçeve Sözleşmesi 31. Taraflar Konferansı (COP31) kapsamında Çin Halk Cumhuriyeti Ulusal Enerji İdaresi ile imzalanan mutabakat zaptına ilişkin açıklama yaptı. Bayraktar, sosyal medya hesabından yaptığı paylaşımda, anlaşmayla Türkiye'de yaklaşık 15 milyar dolarlık yatırım gerçekleştirilmesinin öngörüldüğünü belirtti. Bu kapsamda 7 bin MWgüneş ve rüzgarenerjisi kapasitesinin devreye alınması, yenienerji depolamasistemlerinin kurulması ve 4 bin MW'lıkelektrik iletimaltyapısının oluşturulması planlanıyor. İşbirliği yalnızca yeni enerji santrallerinin kurulması ve elektrik altyapısının güçlendirilmesiyle sınırlı kalmayacak. Anlaşmanın önemli hedeflerinden biri deteknoloji transferi ve yerli sanayinin geliştirilmesiolacak.Bayraktar, Çin ile yapılacak işbirliğininrüzgar türbini ekipmanlarının Türkiye'de üretilmesine katkısağlayacağını ifade etti. Böylece yenilenebilir enerji yatırımlarının yanı sıra yerli üretim kapasitesinin geliştirilmesi ve Türkiye'nin bu alandaki teknolojik yetkinliğinin artırılması amaçlanıyor.Çin'deki güneş paneli üreticilerinin yüzde 90'ı zarar ediyor1 gün önce eklendiAnlaşmanın, Türkiye'nin Milli Enerji 2040 vizyonu doğrultusunda enerji arz güvenliğini güçlendirmesi ve yeşil dönüşümü hızlandırması hedefleniyor. Söz konusu vizyon kapsamında Türkiye, 2035 yılı için belirlenen 125 GW güneş ve rüzgar enerjisi kurulu güç hedefini daha ileriye taşıyarak 2040 yılına kadar toplam kapasiteyi 175 GW seviyesine çıkarmayı planlıyor.Türkiye'nin güneş enerjisi kurulu gücü, eylül ayı itibariyle 28.2 GW seviyesine ulaştı. Ülke, 2026’da şimdiye kadar 3 GW’tan fazla kurulu gerçekleştirdi. Öte yandan Türkiye, bu hafta Suudi Arabistan ile yürütülen enerji işbirliği kapsamında 2 GW güneş enerjisi yatırımını destekleyen sekiz finansman anlaşmasına da imza attı. Söz konusu projeler, iki ülke arasında toplam 5 GW yenilenebilir enerji kapasitesinin geliştirilmesini öngören işbirliğinin parçası konumunda.https://www.aa.com.tr/tr/ekonomi/turkiye-ile-cin-arasinda-yenilenebilir-enerji-alaninda-yaklasik-15-milyar-dolarlik-yatirim-anlasmasi/4122419Yorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaPopüler BilimEnerji HaberleriTürkiye ile Çin arasında 15 milyar dolarlık enerji anlaşmasıBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük İşbirliği yalnızca yeni enerji santrallerinin kurulması ve elektrik altyapısının güçlendirilmesiyle sınırlı kalmayacak. Anlaşmanın önemli hedeflerinden biri deteknoloji transferi ve yerli sanayinin geliştirilmesiolacak. Bayraktar, Çin ile yapılacak işbirliğininrüzgar türbini ekipmanlarının Türkiye'de üretilmesine katkısağlayacağını ifade etti. Böylece yenilenebilir enerji y",
-      "summary": ""
+      "summary": "Türkiye ve Çin, yaklaşık 15 milyar dolarlık bir anlaşma kapsamında Türkiye'de 7 GW güneş ve rüzgar enerjisi santrali, enerji depolama sistemleri ve 4 GW'lık iletim altyapısı kurmayı planlıyor. Anlaşma, teknoloji transferi ve yerli üretimin artırılmasını da hedefliyor."
     },
     {
       "cat": "Teknoloji",
@@ -38,7 +60,7 @@
       "pubDate": "Fri, 13 Nov 2026 22:03:00 +0300",
       "image": "https://www.donanimhaber.com/images/images/haber/212888/1200x675gatto-dan-yeni-fragman-pixar-in-el-cizimi-ilk-fil.jpg",
       "text": "Sıkı bir beyaz perde takipçisi olan Erdem, DonanımHaber'de sinema ve dizi sektörüne dair haberleri kaleme alıyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Filmin her karesi el çizimi resimlerden oluşuyor. Gerçi yayınlanan fragmanlar, bu resimlere CGI ile belli başlı dokunuşların yapıldığını gösteriyor. Venedik’te geçen film, batıl inançlar yüzünden insanlar tarafından dışlanan müzik tutkunu bir kara kediye odaklanıyor. Venedik'te yıllarca hayatta kalma mücadelesi veren Nero, yerel kedi mafyası patronu Rocco'ya borçlanır ve kendini büyük bir çıkmazın içinde bulur. Bu çıkmazdan çıkabilmek için, hiç beklenmedik bir dostluk kurması gerekecektir. Gatto'yu, daha önce Pixar içinLuca’yı da yöneten Enrico Casarosa yönetti. Yeni X-Men filmlerinde Wolverine'i bu oyunda canlandırabilir1 hf. önce eklendi Yeni fragmanın hem Türkçe dublajlı versiyonunu hem de orijinal hâlini aşağıda bulabilirsiniz. Gatto, ülkemizde 5 Mart 2027'de vizyona girecek.   Ekranlı ve mikrofonlu akıllı yüzük",
-      "summary": ""
+      "summary": "Pixar'ın ilk el çizimi animasyonu 'Gatto'nun yeni fragmanı yayınlandı; film, Venedik'te müzik tutkusuyla dışlanan bir kara kedinin macerasını konu alıyor. Enrico Casarosa yönetiyor ve Türkiye'de 5 Mart 2027'de vizyona girecek."
     },
     {
       "cat": "Teknoloji",
@@ -49,7 +71,7 @@
       "pubDate": "Fri, 13 Nov 2026 22:00:00 +0300",
       "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/huawei-nova-flip-genis-katlanabilir-kapak-1311.webp",
       "text": "",
-      "summary": ""
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Teknoloji",
@@ -60,7 +82,7 @@
       "pubDate": "Fri, 13 Nov 2026 21:41:00 +0300",
       "image": "https://www.donanimhaber.com/images/images/haber/212886/1200x675uzayda-gezinen-gizemli-obje-kayip-sovyet-araci-mi-nasa-acikladi.jpg",
       "text": "Sıkı bir beyaz perde takipçisi olan Erdem, DonanımHaber'de sinema ve dizi sektörüne dair haberleri kaleme alıyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Daha önce3I/ATLAS hakkında da dikkat çekici teoriler sunan Harvardlı astrofizikçi Avi Loebve bu araştırmada birlikte çalıştığı meslektaşları Adam Hibberd ve Adam Crowl, 1998 KY26'nın 1988 yılında Mars'a gönderilen ancak daha sonra iletişimi kesilenSovyet uzay aracı Phobos 1olabileceğini öne sürüyor. Temmuz 1988'de fırlatılan Phobos 1, Mars'ın uydusu Phobos'u incelemek üzere gönderilmiş insansız bir uzay aracıydı. Ancak görev sırasında gönderilen hatalı bir komut, uzay aracının yönlendirme sistemini devre dışı bıraktı ve araçla iletişim tamamen kesildi.O tarihten bu yana nerede olduğu bilinmeyen Phobos 1'in, Güneş Sistemi'nde yolculuğuna devam ediyor olması ihtimalini değerlendiren Loeb ve ekibi, uzay aracının basitleştirilmiş bir modelini oluşturdu. Ardından bu modelin Güneş ışığını yansıtma biçimini, 1998 KY26 üzerinde yapılan gözlemlerle karşılaştırdı. Araştırmacılara göre elde edilen bulgular, Phobos 1 ihtimalini güçlü kılıyor.Ancak ekip, bu çalışmanın KY26'nın kesin olarak kayıp Sovyet uzay aracı olduğunu kanıtlamadığının da altını çiziyor. NASA Başkanı Jared Isaacman, perşembe günü Fox & Friends programında yaptığı açıklamada, bazı UFO araştırmacılarının cismin sıra dışı hareketlerine dikkat çektiğini ancak kendisininbunun bir asteroitten başka bir şey olduğuna dair herhangi bir kanıt görmediğinisöyledi. NASA, 1998 KY26'yı izlemeyi sürdürüyor.Mevcut bulgular, cismin Dünya için bir tehlike oluşturduğuna işaret etmiyor. Nitekim Isaacman de KY26'nın Dünya için bir tehdit oluşturmadığını özellikle vurguluyor. Dünyanın en büyük nötrino deneyi için yer altında inşaat başladı2 gün önce eklendiHarvardlı araştırmacıların ortaya attığı Phobos 1 teorisi bilim dünyası açısından ilgi çekici olsa da bunun doğrulanması için daha fazla gözleme ve araştırmaya ihtiyaç duyuluyor. Diğer yandancismin beklenmedik hareketlerini açıklamak için farklı cevaplar üzerinde de duruluyor.1998 KY26'nın sıra dışı hareketleri için şimdiye kadar öne çıkan açıklamalardan biri, cismin yüzeyinin altında su buzu barındıran bir \"karanlık kuyruklu yıldız\" olmasıydı. Bu teoriye göre yüzeyin altındaki su, Güneş'ten gelen ısıyla gaz hâline geçerek uzaya püskürüyor ve oluşturduğu itki cismin yörüngesini değiştiriyor. Ancak Georgia Institute of Technology araştırmacıları Korbin Hansen ve Masatoshi Hirabayashi tarafından yapılan ve Icarus dergisinde yayımlanan yeni bir çalışma, bu açıklamanın doğru olma ihtimalini düşürdü. Çünkü araştırmacılara göre KY26'nın sıcaklığı, yüzeyinin altında yeterli miktarda su buzunun korunmasını zorlaştırıyor. Hesaplanan su kaybı oranları da cismin mevcut durumda karanlık bir kuyruklu yıldız olma ihtimalini büyük ölçüde ortadan kaldırıyor. Ancak bunun gibi daha \"basit\" farklı açıklamalar üzerinde de duruluyor.https://www.foxnews.com/us/mysterious-object-moving-through-space-could-be-lost-soviet-probe-nasa-weighs-theoryYorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaPopüler BilimUzay HaberleriUzayda gezinen gizemli obje kayıp Sovyet aracı mı? NASA açıkladıBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük Harvardlı araştırmacıların ortaya ",
-      "summary": ""
+      "summary": "Harvardlı astrofizikçiler, 1998 KY26 nesnesinin Sovyet uzay aracı Phobos 1 olabileceğini öne sürdü; NASA ise cismin bir asteroit olduğunu ve Dünya için tehlike oluşturmadığını belirtti. Araştırmacılar, nesnenin hareketlerini açıklamak için su buzu içeren karanlık kuyruklu yıldız teorisini de değerlendirdi ancak yeni çalışmalar bu ihtimali zayıflattı. Konunun kesinleşmesi için daha fazla gözlem ve araştırma gerekiyor."
     },
     {
       "cat": "Teknoloji",
@@ -143,26 +165,6 @@
       "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "BYD’de ön ve arka jantlar yanlış takıldı: Şirket özür diledi",
-      "source": "Donanimhaber",
-      "link": "https://www.donanimhaber.com/byd-de-on-ve-arka-jantlar-yanlis-takildi-sirket-ozur-diledi--212890",
-      "pubDate": "Fri, 13 Nov 2026 19:14:00 +0300",
-      "image": "https://www.donanimhaber.com/images/images/haber/212890/1200x675byd-de-on-ve-arka-jantlar-yanlis-takildi-sirket-ozur-diledi.jpg",
-      "summary": "BYD, Da Tang SUV modellerinde ön ve arka jantların yanlış takılması hatasını kabul ederek özür diledi. Hata, tedarikçi kodlama ve veri girişindeki bir yanlışlıktan kaynaklandı ve etkilediği araç sayısı açıklanmadı. Şirket, hatalı araçlara ikame araç sağlayacak, 11 Kasım 2026 tarihinden itibaren garanti süresini yeniden başlatacak ve benzer hataları önlemek için görsel kontrol önlemleri uygulayacak."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Nvidia'nın eski CEO'su Kongre'de ifade verecek",
-      "source": "Shiftdelete",
-      "link": "https://shiftdelete.net/jensen-huang-kongre-ifadesi-1-aralik",
-      "pubDate": "Fri, 13 Nov 2026 19:00:00 +0300",
-      "image": "https://ares.shiftdelete.net/static/sdnweb-haberbotu/hb/564a19676e5656775f8502e68d1f97ce8b553d47.webp",
-      "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
       "cat": "Bilim",
       "catId": "bilim",
       "title": "Nvidia'daki seks skandalı Beyaz Saray üzerinde nasıl baskı oluşturuyor?",
@@ -171,7 +173,7 @@
       "pubDate": "Fri, 13 Nov 2026 19:16:41 GMT",
       "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2ab0/live/068591d0-dee5-11f1-9bb0-8de7754c4db5.jpg",
       "text": "",
-      "summary": ""
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Bilim",
@@ -232,6 +234,17 @@
       "pubDate": "Fri, 13 Nov 2026 10:36:22 GMT",
       "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6058/live/b11dbc70-ddd3-11f1-9053-236ccb99630c.jpg",
       "summary": "Gökbilimciler, Dünya'ya geçici olarak yakalanan ve yaklaşık 1‑2 metre çapındaki 2026 QQ8 adlı asteroidi 'mini ay' olarak tanımladı. Bu cisim, birkaç ay içinde yerçekiminden kurtularak uzaya geri dönecek ve Dünya'nın yörüngesinde geçici uyduların nadir bir örneği olarak kayıtlara geçti."
+    },
+    {
+      "cat": "Bilim",
+      "catId": "bilim",
+      "title": "Nvidia'nın eski CEO'su Huang, ABD Kongresi'nde ifade verecek",
+      "source": "Feeds",
+      "link": "https://www.bbc.com/turkce/articles/cvj6l247pr4ro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 07:04:48 GMT",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4145/live/58c4d3e0-df2e-11f1-8b8a-85e537905c26.jpg",
+      "text": "",
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Bilim",
@@ -462,7 +475,7 @@
       "link": "https://www.cnnturk.com/canli-yayin-redesing/lodos-istanbulu-vurdu-tekneler-batti-agaclar-devrildi-teleferik-ve-vapur-seferleri-iptal-edildi-3492999",
       "pubDate": "Fri, 13 Nov 2026 22:11:09 GMT",
       "image": null,
-      "text": "İstanbul'da etkisini artıran kuvvetlilodosfırtınası günlük yaşamı ve ulaşımı olumsuz etkiledi. Şiddetli rüzgar nedeniyle kentin çeşitli noktalarında ağaçlar devrilirken, sahil kesimlerinde yükselen dalgalar kıyıya vurdu. Silivri'de balıkçı teknelerinin battığı fırtına nedeniyle bazı park ve korular ziyarete kapatıldı, deniz ulaşımında çok sayıda sefer iptal edildi. Bursa'da ise lodos nedeniyle 2 kişi yaralandı. AKOM SAAT VERDİ! RÜZGARIN HIZI 90 KİLOMETREYE ULAŞABİLİR İstanbul Büyükşehir Belediyesi (İBB) Afet Koordinasyon Merkezi (AKOM), kent genelinde etkili olan lodos fırtınasına karşı uyarıda bulundu. Sabah saatlerinden itibaren şiddetini artıran rüzgarın kısa süreli hamlelerle saatte 60 ila 90 kilometre hıza ulaşabileceği belirtildi. Fırtınanın 14 Kasım Cumartesi günü öğle saatlerine kadar etkisini sürdürmesi bekleniyor. Arka Sokaklar'ın Zeliş'iydi! Yüsra Geyik'in kalbi boş mu dolu mu? Araç satışlarında büyük düşüş! Markalar kampanya yarışına girdi İSTANBUL VALİLİĞİ DUYURDU: 74 İHBAR GELDİ İstanbul Valiliği, Meteoroloji Genel Müdürlüğünün kent için sarı kodlu uyarı yayımladığını hatırlattı. Açıklamada, 13 Kasım saat 02.00 ile 14 Kasım saat 05.00 arasında kuvvetli rüzgar ve fırtına beklendiği belirtildi. Türkiye Afet Müdahale Planı (TAMP) kapsamında 23 afet grubu, 39 kaymakamlık ve ilgili kurumların bilgilendirildiği aktarıldı. Valilik, 13 Kasım saat 13.00 itibarıyla 112 Acil Çağrı Merkezi'ne çatı uçması, ağaç devrilmesi ve tehlike oluşturan parçalar nedeniyle toplam 74 ihbar ulaştığını, ihbarların tamamına müdahale edildiğini bildirdi.  12 PARK VE KORU ZİYARETE KAPATILDI Kuvvetli rüzgar nedeniyle dal düşmesi ve ağaç devrilmesi riskine karşı İstanbul'daki 12 park, koru ve yeşil alan geçici olarak ziyaretçi girişine kapatıldı. Ziyarete kapatılan alanlar şöyle: Emirgan Korusu Yıldız Korusu Gülhane Parkı Küçük Çamlıca Korusu Büyük Çamlıca Korusu Fethi Paşa Korusu Hidiv Kasrı Korusu Beykoz Korusu Büyükdere Atatürk Fidanlığı Atatürk Kent Ormanı Florya Atatürk Kent Ormanı Büyükçekmece Doğal Yaşam Parkı Kararın vatandaşların can ve mal güvenliğinin korunması amacıyla alındığı bildirildi. VAPUR VE TELEFERİK SEFERLERİ DURDURULDU Fırtına, İstanbul'da toplu ulaşımı da etkiledi. TF1 Maçka-Taşkışla ve TF2 Eyüp-Piyer Loti teleferik hatlarında saat 08.00 itibarıyla seferler durduruldu. Şehir Hatları'nın Bostancı-Moda-Karaköy-Kabataş, Büyükada-Sedef Adası, Beşiktaş-Adalar, Kadıköy-Karaköy-Eminönü ve Kadıköy-Beşiktaş hatlarının da aralarında bulunduğu çok sayıda hatta seferler iptal edildi. Aşiyan-Anadolu Hisarı-Küçüksu Ring Hattı ile Aşiyan-Üsküdar Hattı seferlerinin ise ikinci bir duyuruya kadar alternatif güzergahlardan yapılacağı açıklandı. DENİZ OTOBÜSÜ SEFERLERİNDE DE İPTALLER YAŞANDI Olumsuz hava koşulları nedeniyle deniz otobüsü seferlerinde de aksamalar meydana geldi. İptal edildiği bildirilen seferler arasında Kadıköy-Yenikapı-Bandırma hattının 11.30 seferi, Yalova-Yenikapı-Yalova hattının 11.45 karşılıklı seferleri ve Bursa-Armutlu-Yenikapı-Kadıköy hattının 11.45 ile 12.30 karşılıklı seferleri yer aldı. Bandırma-Yenikapı-Kadıköy hattının 15.30 seferi de iptal edildi.  SİLİVRİ'DE BALIKÇI TEKNELERİ BATTI, DALGALAR KIYIYA VURDU İstanbul'da şiddetli lodos nedeniyle sahil kesimlerinde zor anlar yaşandı. Üsküdar Salacak sahilinde kuvvetli rüzgarın etkisiyle yükselen dalgalar kıyıya vururken, Silivri'de balıkçı tekneleri battı. Kent genelinde fırtınanın etkisiyle ağaç devrilmesi gibi olumsuzluklar meydana geldi. Bursa'da da etkili olan lodos neden",
+      "text": "İstanbul'da etkisini artıran kuvvetlilodosfırtınası günlük yaşamı ve ulaşımı olumsuz etkiledi. Şiddetli rüzgar nedeniyle kentin çeşitli noktalarında ağaçlar devrilirken, sahil kesimlerinde yükselen dalgalar kıyıya vurdu. Silivri'de balıkçı teknelerinin battığı fırtına nedeniyle bazı park ve korular ziyarete kapatıldı, deniz ulaşımında çok sayıda sefer iptal edildi. Bursa'da ise lodos nedeniyle 2 kişi yaralandı. AKOM SAAT VERDİ! RÜZGARIN HIZI 90 KİLOMETREYE ULAŞABİLİR İstanbul Büyükşehir Belediyesi (İBB) Afet Koordinasyon Merkezi (AKOM), kent genelinde etkili olan lodos fırtınasına karşı uyarıda bulundu. Sabah saatlerinden itibaren şiddetini artıran rüzgarın kısa süreli hamlelerle saatte 60 ila 90 kilometre hıza ulaşabileceği belirtildi. Fırtınanın 14 Kasım Cumartesi günü öğle saatlerine kadar etkisini sürdürmesi bekleniyor. Arka Sokaklar'ın Zeliş'iydi! Yüsra Geyik'in kalbi boş mu dolu mu? Hande Erçel, Dubai'yi salladı! Güzelliği ve zarafetiyle geceye damga vurdu İSTANBUL VALİLİĞİ DUYURDU: 74 İHBAR GELDİ İstanbul Valiliği, Meteoroloji Genel Müdürlüğünün kent için sarı kodlu uyarı yayımladığını hatırlattı. Açıklamada, 13 Kasım saat 02.00 ile 14 Kasım saat 05.00 arasında kuvvetli rüzgar ve fırtına beklendiği belirtildi. Türkiye Afet Müdahale Planı (TAMP) kapsamında 23 afet grubu, 39 kaymakamlık ve ilgili kurumların bilgilendirildiği aktarıldı. Valilik, 13 Kasım saat 13.00 itibarıyla 112 Acil Çağrı Merkezi'ne çatı uçması, ağaç devrilmesi ve tehlike oluşturan parçalar nedeniyle toplam 74 ihbar ulaştığını, ihbarların tamamına müdahale edildiğini bildirdi.  12 PARK VE KORU ZİYARETE KAPATILDI Kuvvetli rüzgar nedeniyle dal düşmesi ve ağaç devrilmesi riskine karşı İstanbul'daki 12 park, koru ve yeşil alan geçici olarak ziyaretçi girişine kapatıldı. Ziyarete kapatılan alanlar şöyle: Emirgan Korusu Yıldız Korusu Gülhane Parkı Küçük Çamlıca Korusu Büyük Çamlıca Korusu Fethi Paşa Korusu Hidiv Kasrı Korusu Beykoz Korusu Büyükdere Atatürk Fidanlığı Atatürk Kent Ormanı Florya Atatürk Kent Ormanı Büyükçekmece Doğal Yaşam Parkı Kararın vatandaşların can ve mal güvenliğinin korunması amacıyla alındığı bildirildi. VAPUR VE TELEFERİK SEFERLERİ DURDURULDU Fırtına, İstanbul'da toplu ulaşımı da etkiledi. TF1 Maçka-Taşkışla ve TF2 Eyüp-Piyer Loti teleferik hatlarında saat 08.00 itibarıyla seferler durduruldu. Şehir Hatları'nın Bostancı-Moda-Karaköy-Kabataş, Büyükada-Sedef Adası, Beşiktaş-Adalar, Kadıköy-Karaköy-Eminönü ve Kadıköy-Beşiktaş hatlarının da aralarında bulunduğu çok sayıda hatta seferler iptal edildi. Aşiyan-Anadolu Hisarı-Küçüksu Ring Hattı ile Aşiyan-Üsküdar Hattı seferlerinin ise ikinci bir duyuruya kadar alternatif güzergahlardan yapılacağı açıklandı. DENİZ OTOBÜSÜ SEFERLERİNDE DE İPTALLER YAŞANDI Olumsuz hava koşulları nedeniyle deniz otobüsü seferlerinde de aksamalar meydana geldi. İptal edildiği bildirilen seferler arasında Kadıköy-Yenikapı-Bandırma hattının 11.30 seferi, Yalova-Yenikapı-Yalova hattının 11.45 karşılıklı seferleri ve Bursa-Armutlu-Yenikapı-Kadıköy hattının 11.45 ile 12.30 karşılıklı seferleri yer aldı. Bandırma-Yenikapı-Kadıköy hattının 15.30 seferi de iptal edildi.  SİLİVRİ'DE BALIKÇI TEKNELERİ BATTI, DALGALAR KIYIYA VURDU İstanbul'da şiddetli lodos nedeniyle sahil kesimlerinde zor anlar yaşandı. Üsküdar Salacak sahilinde kuvvetli rüzgarın etkisiyle yükselen dalgalar kıyıya vururken, Silivri'de balıkçı tekneleri battı. Kent genelinde fırtınanın etkisiyle ağaç devrilmesi gibi olumsuzluklar meydana geldi. Bursa'da da etkili olan ",
       "summary": ""
     },
     {
@@ -495,7 +508,7 @@
       "link": "https://www.cnnturk.com/turkiye/cafer-mahiroglu-sorusturmasinda-ikinci-dalga-6-supheliye-tutuklama-talebi-3492995",
       "pubDate": "Fri, 13 Nov 2026 21:52:34 GMT",
       "image": null,
-      "text": "İstanbul Cumhuriyet Başsavcılığı tarafından iş insanıCafer Mahiroğluhakkında yürütülen soruşturmada yeni bir aşamaya geçildi.İzmir Büyükşehir Belediyesiihaleleri üzerinden haksız menfaat sağlandığı iddialarının araştırıldığı dosyada ikinci dalga operasyon düzenlendi. Gözaltına alınan 8 şüphelinin savcılık ifadelerinin tamamlanmasının ardından 6 kişi hakkındatutuklama, 2 kişi hakkında ise adli kontrol talep edildi. ESKİ BELEDİYE YÖNETİCİLERİNE TUTUKLAMA TALEBİ Soruşturma kapsamında adliyeye sevk edilen şüphelilerin savcılık işlemleri tamamlandı. Eski İzmir Büyükşehir Belediyesi Genel Sekreteri Ramazan Tezcan, eski İzmir Büyükşehir Belediyesi Makine İkmal Daire Başkanı Haluk Harun Tuzsuzoğlu ve aynı dairede kontrolör olarak görev yapan Mehmet Meral'in de aralarında bulunduğu 6 şüpheli tutuklama talebiyle sulh ceza hakimliğine gönderildi. Filiz Bulut, Emre Kaya ve İbrahim Tuncol da tutuklanmaları talep edilen diğer isimler oldu. İbrahim Seyfittinoğlu ile Murat Topuz hakkında ise adli kontrol tedbiri uygulanması istendi.  14,4 MİLYON LİRALIK RÜŞVET İDDİASI İstanbul Cumhuriyet Başsavcılığının daha önce yaptığı açıklamada, Cafer Mahiroğlu'nun İzmir Büyükşehir Belediyesindeki bağlantılarını kullanarak BUSTECH Araç Bakım Onarım Hizmetleri AŞ'nin kurulmasını sağladığı ve belediye ihaleleri üzerinden haksız kazanç elde edildiğine ilişkin bulgulara ulaşıldığı belirtilmişti. Savcılığın açıklamasına göre MASAK verileri ve diğer delillerin incelenmesi sonucunda, ihale süreçleriyle bağlantılı 14 milyon 464 bin liralık kayıtsız rüşvet ödemesi yapıldığı iddia edildi. Şirket üzerinden alınan işlerde yüksek fiyatlarla ödeme gerçekleştirildiği ve elde edilen gelirlerin Mahiroğlu ile ilişkili şirketlere aktarıldığı öne sürüldü. 30 MİLYAR LİRALIK İŞLEM HACMİ İNCELEMEDE Soruşturma dosyasında yer alan mali veriler de dikkat çekti. Başsavcılığın açıklamasında, Mahiroğlu ile ilişkili olduğu belirtilen şirketlerin toplam işlem hacminin 30 milyar 352 milyon 37 bin 389 lira 15 kuruş olduğu kaydedildi. Mahiroğlu'nun şahsi banka hesaplarında ise 459 işlemde toplam 1 milyar 62 milyon lirayı aşan para girişi, 564 işlemde de 1 milyar 118 milyon lirayı aşan para çıkışı bulunduğu bildirildi. Yurt dışına gerçekleştirilen para transferleri ve mal varlığı edinimleri de soruşturma kapsamında incelemeye alındı. Hande Erçel, Dubai'yi salladı! Güzelliği ve zarafetiyle geceye damga vurdu Arka Sokaklar'ın Zeliş'iydi! Yüsra Geyik'in kalbi boş mu dolu mu? ŞİRKETLERE TMSF KAYYUM OLARAK ATANDI Soruşturma kapsamında Cafer Mahiroğlu'nun ortağı, yöneticisi veya ilişkili olduğu tespit edilen şirketlere sulh ceza hakimliği kararıyla el konuldu. Söz konusu şirketlere Tasarruf Mevduatı Sigorta Fonu (TMSF) kayyum olarak atandı. Ayrıca TMSF'nin kayyum olarak atandığı Halk TV'nin sanal medya hesaplarına da sulh ceza hakimliği kararıyla erişim engeli getirildi. İLK OPERASYONDA 5 KİŞİ TUTUKLANMIŞTI Soruşturmanın ilk aşamasında 12 şüpheli gözaltına alınmıştı. Hakimlik işlemlerinin ardından 4 şüpheli tutuklanırken, 4'ü ev hapsi olmak üzere 8 kişi hakkında adli kontrol kararı verilmişti. Devam eden soruşturmada bir şüphelinin daha tutuklanmasıyla tutuklu sayısı 5'e yükselmişti. Cafer Mahiroğlu, Hakan Arıcan ve Sevim Kul'un yurt dışında olduğu, Doruk Bulut'un başka bir suçtan cezaevinde bulunduğu, Fatih Yadoğlu'nun ise firari olduğu bildirilmişti. İkinci dalga operasyon kapsamında gözaltına alınan 8 şüphelinin hakimlik işlemlerine ilişkin karar bekleniyor.",
+      "text": "İstanbul Cumhuriyet Başsavcılığı tarafından iş insanıCafer Mahiroğluhakkında yürütülen soruşturmada yeni bir aşamaya geçildi.İzmir Büyükşehir Belediyesiihaleleri üzerinden haksız menfaat sağlandığı iddialarının araştırıldığı dosyada ikinci dalga operasyon düzenlendi. Gözaltına alınan 8 şüphelinin savcılık ifadelerinin tamamlanmasının ardından 6 kişi hakkındatutuklama, 2 kişi hakkında ise adli kontrol talep edildi. ESKİ BELEDİYE YÖNETİCİLERİNE TUTUKLAMA TALEBİ Soruşturma kapsamında adliyeye sevk edilen şüphelilerin savcılık işlemleri tamamlandı. Eski İzmir Büyükşehir Belediyesi Genel Sekreteri Ramazan Tezcan, eski İzmir Büyükşehir Belediyesi Makine İkmal Daire Başkanı Haluk Harun Tuzsuzoğlu ve aynı dairede kontrolör olarak görev yapan Mehmet Meral'in de aralarında bulunduğu 6 şüpheli tutuklama talebiyle sulh ceza hakimliğine gönderildi. Filiz Bulut, Emre Kaya ve İbrahim Tuncol da tutuklanmaları talep edilen diğer isimler oldu. İbrahim Seyfittinoğlu ile Murat Topuz hakkında ise adli kontrol tedbiri uygulanması istendi.  14,4 MİLYON LİRALIK RÜŞVET İDDİASI İstanbul Cumhuriyet Başsavcılığının daha önce yaptığı açıklamada, Cafer Mahiroğlu'nun İzmir Büyükşehir Belediyesindeki bağlantılarını kullanarak BUSTECH Araç Bakım Onarım Hizmetleri AŞ'nin kurulmasını sağladığı ve belediye ihaleleri üzerinden haksız kazanç elde edildiğine ilişkin bulgulara ulaşıldığı belirtilmişti. Savcılığın açıklamasına göre MASAK verileri ve diğer delillerin incelenmesi sonucunda, ihale süreçleriyle bağlantılı 14 milyon 464 bin liralık kayıtsız rüşvet ödemesi yapıldığı iddia edildi. Şirket üzerinden alınan işlerde yüksek fiyatlarla ödeme gerçekleştirildiği ve elde edilen gelirlerin Mahiroğlu ile ilişkili şirketlere aktarıldığı öne sürüldü. 30 MİLYAR LİRALIK İŞLEM HACMİ İNCELEMEDE Soruşturma dosyasında yer alan mali veriler de dikkat çekti. Başsavcılığın açıklamasında, Mahiroğlu ile ilişkili olduğu belirtilen şirketlerin toplam işlem hacminin 30 milyar 352 milyon 37 bin 389 lira 15 kuruş olduğu kaydedildi. Mahiroğlu'nun şahsi banka hesaplarında ise 459 işlemde toplam 1 milyar 62 milyon lirayı aşan para girişi, 564 işlemde de 1 milyar 118 milyon lirayı aşan para çıkışı bulunduğu bildirildi. Yurt dışına gerçekleştirilen para transferleri ve mal varlığı edinimleri de soruşturma kapsamında incelemeye alındı. Arka Sokaklar'ın Zeliş'iydi! Yüsra Geyik'in kalbi boş mu dolu mu? Hande Erçel, Dubai'yi salladı! Güzelliği ve zarafetiyle geceye damga vurdu ŞİRKETLERE TMSF KAYYUM OLARAK ATANDI Soruşturma kapsamında Cafer Mahiroğlu'nun ortağı, yöneticisi veya ilişkili olduğu tespit edilen şirketlere sulh ceza hakimliği kararıyla el konuldu. Söz konusu şirketlere Tasarruf Mevduatı Sigorta Fonu (TMSF) kayyum olarak atandı. Ayrıca TMSF'nin kayyum olarak atandığı Halk TV'nin sanal medya hesaplarına da sulh ceza hakimliği kararıyla erişim engeli getirildi. İLK OPERASYONDA 5 KİŞİ TUTUKLANMIŞTI Soruşturmanın ilk aşamasında 12 şüpheli gözaltına alınmıştı. Hakimlik işlemlerinin ardından 4 şüpheli tutuklanırken, 4'ü ev hapsi olmak üzere 8 kişi hakkında adli kontrol kararı verilmişti. Devam eden soruşturmada bir şüphelinin daha tutuklanmasıyla tutuklu sayısı 5'e yükselmişti. Cafer Mahiroğlu, Hakan Arıcan ve Sevim Kul'un yurt dışında olduğu, Doruk Bulut'un başka bir suçtan cezaevinde bulunduğu, Fatih Yadoğlu'nun ise firari olduğu bildirilmişti. İkinci dalga operasyon kapsamında gözaltına alınan 8 şüphelinin hakimlik işlemlerine ilişkin karar bekleniyor.",
       "summary": ""
     },
     {
@@ -598,7 +611,7 @@
       "pubDate": "Fri, 13 Nov 2026 22:27:00 +0300",
       "image": null,
       "text": "Birleşmiş Milletler(BM) Genel Sekreteri Antonio Guterres, Antalya'da gerçekleştirilen BMİklim DeğişikliğiÇerçeve Sözleşmesi 31. Taraflar Konferansı (COP31) kapsamında basın toplantısı düzenledi. Türkiye'ye ev sahipliği, misafirperverliği ve sıcak karşılamaları için teşekkür eden Guterres, \"Türkiye, şimdiye kadarki en büyük COP'lardan birine ve şüphesiz bu yılın en büyük BM konferansına ev sahipliği yapıyor. Dünyanın her köşesinden gelen on binlerce insanın enerjisini, coşkusunu ve kararlılığını hissetmek gerçekten olağanüstü.\" diye konuştu. Bakan Kurum, BM Genel Sekreteri Guterres ile görüştü Guterres, COP etkinliğinin, çağın en büyük zorluklarıyla başa çıkmak için bu kadar çok insanı ve kuruluşu bir araya getirebilecek kapasiteye yalnızca BM’nin sahip olduğunu bir kez daha hatırlattığına dikkati çekerek, şunları kaydetti: \"Bu, Genel Sekreter olarak katıldığım son COP ve Antalya'daki son etkinliğim, bu nedenle izin verin de bir an için geriye dönüp bakayım. Genel Sekreter olarak geçirdiğim yaklaşık 10 yıl boyunca, iklim değişikliği konusunda gerçeği söylemeye çalıştım. Bazen bu gerçek rahatsız edici oldu. Bazen de hoş karşılanmadı. Ancak benim sorumluluğum hiçbir zaman gerçekleri daha kabul edilebilir hale getirmek olmadı. Gerçek şu ki, iklim değişikliği sınırlarını aşar. Görevim, bilime dayalı gerçeği söylemek ve bu gerçek zor olduğunda özellikle net olmaktı. İklim değişikliği dünya çapında açlığa ve yerinden edilmeye neden oldu. On yıllar boyunca elde edilen kalkınma kazanımlarını silip süpürüyor. Ülkeleri daha da derin bir borç batağına sürüklüyor. Toprak vesuiçin rekabeti şiddetlendiriyor. İstikrarsızlığı körüklüyor. Giderek artan bir şekilde, toplulukların ve ülkelerin varlığını tehdit ediyor. Tüm bu nedenlerden dolayı, iklim eylemini hiçbir zaman diğer pek çok meseleden sadece biri olarak görmedim.\"   Guterres, iklim eyleminin, BM'nin çalışmalarının her yönü için merkezi bir öneme sahip olduğunu belirterek, şöyle devam etti: \"Yanan bir gezegende barış inşa edemezsiniz. İklim felaketleri insanları sürekli yoksulluğa geri itiyorken yoksulluğu ortadan kaldıramazsınız. O geleceğin dayandığı doğal sistemleri yok ederken gençlere daha iyi bir gelecek vaat edemezsiniz. Bu krize en az katkıda bulunanların ilk ve en ağır şekilde mağdur olduğu bir ortamda adaletten ciddi bir şekilde söz edemezsiniz. Üstelik bu adaletsizlik daha da derin. Çünkü neler olduğunu biliyoruz. Bunun nedenini biliyoruz. Ne yapmamız gerektiğini de biliyoruz.Fosilyakıtlar iklim krizinin başlıca nedeni. Fosil yakıtlardan uzaklaşmadan güvenli bir iklime giden inandırıcı bir yol yok.\" Antalya'daki COP'ta vermek istediği mesajı son derece açık şekilde ifade ettiğini dile getiren Guterres, \"İklim bunu gerektiriyor ancak ekonomiler ve güvenlik de bunu gerektiriyor. Fosil yakıtlardan adil, düzenli ve hakkaniyetli bir şekilde uzaklaşmaya yönelik hızlandırılmış bir geçişe ihtiyacımız var.\" dedi. Guterres, fosil yakıtlara bağımlılığın, ülkeleri fiyat şoklarına, jeopolitik çalkantılara ve istikrarsızlığa açık hale getirdiğini, bu sorunu tedarikçileri değiştirmenin değil, bağımlılığı azaltmanın çözeceğini aktardı. Bunun, temiz enerjinin,elektrikşebekelerinin,enerjidepolamanın, verimliliğin ve temiz elektrifikasyonun büyük ölçüde yaygınlaştırılması, aynı zamanda temiz enerjideki büyümenin fosilyakıtüretimini, kullanımını ve emisyonlarını gerçekten azaltmasının sağlanması anlamına geldiğini söyleyen Guterres, sözlerini şöyle sürdürdü: \"Burada verdiğim mesaj bu oldu. Bilim ise tüm b",
-      "summary": ""
+      "summary": "Birleşmiş Milletler Genel Sekreteri Antonio Guterres, Antalya’da düzenlenen COP31 konferansına ev sahipliği yapan Türkiye’ye teşekkür etti ve iklim eyleminin küresel barış, yoksullukla mücadele ve adalet için merkezi olduğunu vurguladı. Fosil yakıtlardan adil ve düzenli bir geçişin hızlandırılması gerektiğini belirterek, temiz enerji, şebeke ve verimlilik yatırımlarının artırılmasını istedi."
     },
     {
       "cat": "Gündem",
@@ -609,7 +622,7 @@
       "pubDate": "Fri, 13 Nov 2026 22:23:35 +0300",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Gündem",
@@ -620,7 +633,7 @@
       "pubDate": "Fri, 13 Nov 2026 22:11:00 +0300",
       "image": null,
       "text": "TürkiyeSigortaAŞ tarafından Kamuyu Aydınlatma Platformu üzerinden konuya ilişkin açıklama yapıldı. Açıklamada, şu ifadelere yer verildi: \"Şirketimiz nezdinde bir süredir yürütülen kapsamlı içdenetimve inceleme çalışmaları ileTMSFve Sermaye Piyasası Kurulu (SPK) ile yapılan görüşmeler sonucunda aşağıdaki hususlar kamuoyunun bilgisine sunulmaktadır. 7 Ekim 2026 tarihli özel durum açıklamamızda belirtildiği üzere, Şirketimizin 30 Eylül 2026 itibarıyla tasfiyeye konu fonlarda bakiyesi bulunmamaktadır. Bununla birlikte yapılan iç denetim çalışmaları, 2025 yılını da kapsayacak şekilde derinleştirilmiş ve Şirketimizin söz konusu fonların bir kısmına ilgili tarihlerde yürürlükte olan mevzuata ve Şirketimizinyatırımpolitikasına uygun olarak yatırım yaptığı, bu yatırımlardan kazanç elde ettiği tespit edilmiştir. Söz konusu kazanç her ne kadar mevzuata uygun olsa da Şirketimizin etik ilkeleri ve hakkaniyet anlayışı gereği ve TMSF veSPKile yapılan görüşmeler sonucunda gönüllülük esasına dayanılarak iade edilmesine karar verilmiştir. İade edilen tutar ve iade usulü, yine TMSF ve SPK ile yapılan görüşmeler sonucu ve Şirketimizin kendi hesaplaması esas alınarak belirlenmiştir. Buna göre, söz konusu fonlardan elde edilen alım-satım kazancından, yatırım süresine isabet eden (Yİ-ÜFE + TÜFE) / 2 oranındakienflasyonetkisi düşüldükten sonra kalan 1 milyar 599 milyon 887 bin 908 TL iade edilecek kazanç olarak belirlenmiş ve iade tutarı bugün TMSF hesabına yatırılmıştır. Söz konusu fonlara yapılan yatırımlarla ilgili olarak Şirketimizin başkaca bir iade ve/veya ödeme yükümlülüğünün bulunmadığı öngörülmektedir. Şirketimizin bu ödemeye ilişkin yasal hakları saklıdır. Konuya ilişkin gelişmeler, tüm paydaşlarımızla eş zamanlı olarak kamuoyuyla paylaşılmaya devam edecektir.\"",
-      "summary": ""
+      "summary": "Türkiye Sigorta, 30 Eylül 2026 itibarıyla tasfiyeye konu fonlarda bakiye kalmadığını ve bu fonlardan elde edilen 1 599 887 908 TL kazancını, enflasyon etkisi düşüldükten sonra TMSF’ye iade ettiğini duyurdu. İade, iç denetim sonuçları ve TMSF ile SPK görüşmeleri sonrasında gönüllülük esasına dayanarak gerçekleştirildi ve şirketin başka bir ödeme yükümlülüğü bulunmadığı bildirildi."
     },
     {
       "cat": "Gündem",
@@ -631,7 +644,7 @@
       "pubDate": "Fri, 13 Nov 2026 22:03:26 +0300",
       "image": null,
       "text": "",
-      "summary": ""
+      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Gündem",
@@ -642,7 +655,7 @@
       "pubDate": "Fri, 13 Nov 2026 19:00:21 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/1df3f7bf-b9fe-4176-a971-af2503d4dc54-960x540.webp",
       "text": "KKTC’nin kuruluşunun 43. yıl dönümü dolayısıyla Mehmet ve Nazife Taşker Otizm Merkezi’nde tören düzenlendi. Etkinliğe Çalışma ve Sosyal Güvenlik Bakanı Oğuzhan Hasipoğlu da katıldı. Kuzey Kıbrıs Türk Cumhuriyeti’nin (KKTC) 15 Kasım kuruluşunun 43. yıl dönümü dolayısıyla Mehmet ve Nazife Taşker Otizm Merkezi’nde tören gerçekleştirildi. Cumhuriyet Bayramı kutlamaları kapsamında düzenlenen etkinliğe Çalışma ve Sosyal Güvenlik Bakanı Oğuzhan Hasipoğlu da katılım gösterdi. CUMHURİYETİN 43. YILI OTİZM MERKEZİNDE KUTLANDI KKTC’nin kuruluş yıl dönümü dolayısıyla gerçekleştirilen tören, Cumhuriyet Bayramı etkinlikleri kapsamında düzenlendi. Bakan Hasipoğlu’nun da katıldığı etkinlik, 15 Kasım Cumhuriyet Bayramı öncesinde Mehmet ve Nazife Taşker Otizm Merkezi’nde gerçekleştirilen kutlamalar arasında yer aldı.",
-      "summary": ""
+      "summary": "Kuzey Kıbrıs Türk Cumhuriyeti'nin kuruluşunun 43. yılı kapsamında Mehmet ve Nazife Taşker Otizm Merkezi'nde bir tören düzenlendi. Çalışma ve Sosyal Güvenlik Bakanı Oğuzhan Hasipoğlu da etkinliğe katıldı."
     },
     {
       "cat": "Gündem",
@@ -653,7 +666,7 @@
       "pubDate": "Fri, 13 Nov 2026 18:50:28 GMT",
       "image": "https://www.mhahaber.com/api/medya/file/b9c9d940-16cd-468a-b028-4d98a91b46d0-960x540.webp",
       "text": "Dışişleri Bakanı Tahsin Ertuğruloğlu, Ekonomik İşbirliği Teşkilatı’nın (EİT) 30. Dışişleri Bakanları Konseyi Toplantısı’na katılmak üzere Pakistan’ın başkenti İslamabad’a gitti. Dışişleri Bakanı Tahsin Ertuğruloğlu, Ekonomik İşbirliği Teşkilatı (EİT) tarafından düzenlenecek 30. Dışişleri Bakanları Konseyi Toplantısı’na katılmak amacıyla Pakistan’a hareket etti. Pakistan’ın başkenti İslamabad’da gerçekleştirilecek toplantıda Ertuğruloğlu, KKTC’yi temsilen yer alacak. İSLAMABAD’DA 30. KONSEY TOPLANTISI Ekonomik İşbirliği Teşkilatı üyesi ülkelerin dışişleri bakanlarını bir araya getirecek toplantı, bölgesel ekonomik iş birliğinin ele alınacağı önemli bir diplomatik platform olacak. Ertuğruloğlu’nun ziyareti, KKTC’nin uluslararası platformlardaki temasları açısından önem taşıyor.",
-      "summary": ""
+      "summary": "Dışişleri Bakanı Tahsin Ertuğruloğlu, Ekonomik İşbirliği Teşkilatı’nın 30. Dışişleri Bakanları Konseyi Toplantısı’na katılmak üzere Pakistan’ın başkenti İslamabad’a gitti. Ertuğruloğlu, KKTC’yi temsil ederek bölgesel ekonomik iş birliği konularını görüşecek."
     },
     {
       "cat": "Gündem",
@@ -751,18 +764,18 @@
   "market": {
     "usdtry": 50.31,
     "eurtry": 55.69,
-    "gold_gram_try": 6276.61
+    "gold_gram_try": 6271.55
   },
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3476198,
-      "change_pct": -3.2309755729896543
+      "price": 3473826,
+      "change_pct": -3.5146776509503064
     },
     {
       "label": "Ethereum",
-      "price": 98213,
-      "change_pct": -2.7199462632221496
+      "price": 98220,
+      "change_pct": -3.051805543462922
     }
   ],
   "stocks": [
@@ -773,13 +786,13 @@
     },
     {
       "label": "S&P 500",
-      "price": 7550.41,
-      "change_pct": -0.55
+      "price": 7557.13,
+      "change_pct": -0.46
     },
     {
       "label": "Nasdaq",
-      "price": 25113.62,
-      "change_pct": -1.0
+      "price": 25145.13,
+      "change_pct": -0.87
     },
     {
       "label": "THY",
@@ -803,18 +816,18 @@
     },
     {
       "label": "Apple",
-      "price": 357.57,
-      "change_pct": 0.76
+      "price": 357.27,
+      "change_pct": 0.67
     },
     {
       "label": "Microsoft",
-      "price": 524.41,
-      "change_pct": 0.27
+      "price": 525.24,
+      "change_pct": 0.43
     },
     {
       "label": "Nvidia",
-      "price": 162.28,
-      "change_pct": -2.35
+      "price": 163.18,
+      "change_pct": -1.81
     }
   ]
 }

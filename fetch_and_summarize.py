@@ -1,5 +1,5 @@
 """
-RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Nihai Sürüm v2)
+RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi (Nihai Sürüm v3 - Optimize Edilmiş)
 """
 import json, os, re, sys, time
 import difflib
@@ -110,7 +110,7 @@ WEATHER_LAT, WEATHER_LON = 41.1601, 27.8055
 
 def fetch_weather():
     try:
-        r = requests.get(f"https://api.open-meteo.com/v1/forecast?latitude={WEATHER_LAT}&longitude={WEATHER_LON}&current_weather=true", timeout=10)
+        r = requests.get(f"[https://api.open-meteo.com/v1/forecast?latitude=](https://api.open-meteo.com/v1/forecast?latitude=){WEATHER_LAT}&longitude={WEATHER_LON}&current_weather=true", timeout=10)
         r.raise_for_status(); cw = r.json().get("current_weather", {})
         return {"temp": cw.get("temperature"), "desc": WEATHER_DESC.get(cw.get("weathercode"), "")}
     except: return None
@@ -118,26 +118,33 @@ def fetch_weather():
 def fetch_market():
     usdtry = eurtry = gold_usd_oz = None
     try:
-        r = requests.get("https://open.er-api.com/v6/latest/USD", timeout=10)
+        r = requests.get("[https://open.er-api.com/v6/latest/USD](https://open.er-api.com/v6/latest/USD)", timeout=10)
         rates = r.json().get("rates", {})
         usdtry = rates.get("TRY")
         if usdtry and rates.get("EUR"): eurtry = usdtry / rates.get("EUR")
     except: pass
     try:
-        r = requests.get("https://api.gold-api.com/price/XAU", timeout=10)
+        r = requests.get("[https://api.gold-api.com/price/XAU](https://api.gold-api.com/price/XAU)", timeout=10)
         gold_usd_oz = r.json().get("price")
     except: pass
     gold_gram_try = round(gold_usd_oz / 31.1034768 * usdtry, 2) if (usdtry and gold_usd_oz) else None
     return {"usdtry": round(usdtry, 2) if usdtry else None, "eurtry": round(eurtry, 2) if eurtry else None, "gold_gram_try": gold_gram_try}
 
 def fetch_crypto():
+    # CoinGecko yerine daha stabil olan Binance public API'sine geçildi
     cryptos = []
     try:
-        r = requests.get("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=try&include_24hr_change=true", timeout=10)
-        data = r.json()
-        if "bitcoin" in data: cryptos.append({"label": "Bitcoin", "price": data["bitcoin"]["try"], "change_pct": data["bitcoin"].get("try_24h_change", 0)})
-        if "ethereum" in data: cryptos.append({"label": "Ethereum", "price": data["ethereum"]["try"], "change_pct": data["ethereum"].get("try_24h_change", 0)})
-    except: pass
+        r_btc = requests.get("[https://api.binance.com/api/v3/ticker/24hr?symbol=BTCTRY](https://api.binance.com/api/v3/ticker/24hr?symbol=BTCTRY)", timeout=10)
+        if r_btc.status_code == 200:
+            data = r_btc.json()
+            cryptos.append({"label": "Bitcoin", "price": round(float(data["lastPrice"]), 2), "change_pct": round(float(data["priceChangePercent"]), 2)})
+            
+        r_eth = requests.get("[https://api.binance.com/api/v3/ticker/24hr?symbol=ETHTRY](https://api.binance.com/api/v3/ticker/24hr?symbol=ETHTRY)", timeout=10)
+        if r_eth.status_code == 200:
+            data = r_eth.json()
+            cryptos.append({"label": "Ethereum", "price": round(float(data["lastPrice"]), 2), "change_pct": round(float(data["priceChangePercent"]), 2)})
+    except Exception as e: 
+        print(f"Kripto API hatası: {e}", file=sys.stderr)
     return cryptos
 
 STOCKS = [("XU100.IS", "BIST 100"), ("^GSPC", "S&P 500"), ("^IXIC", "Nasdaq"), ("THYAO.IS", "THY"), ("ASELS.IS", "Aselsan"), ("GARAN.IS", "Garanti BBVA"), ("BIMAS.IS", "BİM"), ("AAPL", "Apple"), ("MSFT", "Microsoft"), ("NVDA", "Nvidia")]
@@ -146,7 +153,7 @@ def fetch_stocks():
     results = []
     for symbol, label in STOCKS:
         try:
-            r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}", headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+            r = requests.get(f"[https://query1.finance.yahoo.com/v8/finance/chart/](https://query1.finance.yahoo.com/v8/finance/chart/){symbol}", headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
             meta = r.json()["chart"]["result"][0]["meta"]
             prev = meta.get("chartPreviousClose") or meta.get("previousClose")
             price = meta.get("regularMarketPrice") or prev
@@ -155,23 +162,33 @@ def fetch_stocks():
         except: pass
     return results
 
-def fetch_article_text(url):
+def fetch_article_text_and_image(url):
     text = ""
+    image_url = None
     try:
         downloaded = trafilatura.fetch_url(url, no_ssl=True, timeout=10) 
         if downloaded: text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
     except: pass
-    if not text:
-        try:
-            res = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-            if res.status_code == 200:
-                soup = BeautifulSoup(res.content, 'html.parser')
+    
+    try:
+        res = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        if res.status_code == 200:
+            soup = BeautifulSoup(res.content, 'html.parser')
+            
+            # og:image (Görsel Yedeği) Arama
+            og_image = soup.find("meta", property="og:image")
+            if og_image and og_image.get("content"):
+                image_url = og_image["content"]
+                
+            # Metin bulunamadıysa HTML parse yedeği
+            if not text:
                 article_body = soup.find('article') or soup.find('div', class_=re.compile(r'(content|post|text|entry)', re.I))
                 if article_body:
                     paragraphs = article_body.find_all('p')
                     text = " ".join([p.get_text(strip=True) for p in paragraphs])
-        except: pass
-    return text[:MAX_TEXT_LENGTH] if text else ""
+    except: pass
+    
+    return (text[:MAX_TEXT_LENGTH] if text else ""), image_url
 
 def summarize_batch(items):
     if not items: return []
@@ -187,13 +204,18 @@ def summarize_batch(items):
     for attempt in range(4):
         try:
             resp = requests.post(
-                "https://radar-freellmapi.onrender.com/v1/chat/completions",
+                "[https://radar-freellmapi.onrender.com/v1/chat/completions](https://radar-freellmapi.onrender.com/v1/chat/completions)",
                 headers={"Authorization": f"Bearer {FREELMAPI_KEY}", "Content-Type": "application/json"},
                 json={"model": FREELMAPI_MODEL, "max_tokens": 3000, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
                 timeout=60
             )
             if resp.status_code == 429: 
-                time.sleep(10); continue
+                # Exponential Backoff (10, 20, 40, 80 saniye bekleme)
+                wait_time = 10 * (2 ** attempt)
+                print(f"  ! Limit doldu (Özet). {wait_time} sn bekleniyor...", file=sys.stderr)
+                time.sleep(wait_time)
+                continue
+                
             resp.raise_for_status()
             raw_content = resp.json()["choices"][0]["message"]["content"]
             cleaned_content = clean_json_response(raw_content)
@@ -211,19 +233,22 @@ def generate_category_briefings(all_news):
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     prompt = "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki haberleri okuyup 4 farklı alanda analiz yaz. Her analiz 2-3 cümlelik olmalı. Her alan için MUTLAKA bir analiz cümlesi yaz. ÇIKTIN KESİNLİKLE TÜRKÇE OLACAK. Çıktıyı KESİNLİKLE şu JSON formatında ver: {'genel': '...', 'teknoloji': '...', 'ekonomi': '...', 'gundem': '...'}\n\nHaberler:\n" + haber_metni
     
-    # 🚀 DÜZELTME: Analiz için de 429 (Limit) hatasına karşı bekleme ve tekrar deneme eklendi
     for attempt in range(4):
         try:
-            time.sleep(5) # Ana özetlerden sonra biraz nefes al
+            if attempt == 0: time.sleep(5)
             resp = requests.post(
-                "https://radar-freellmapi.onrender.com/v1/chat/completions",
+                "[https://radar-freellmapi.onrender.com/v1/chat/completions](https://radar-freellmapi.onrender.com/v1/chat/completions)",
                 headers={"Authorization": f"Bearer {FREELMAPI_KEY}", "Content-Type": "application/json"},
                 json={"model": FREELMAPI_MODEL, "max_tokens": 1500, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
                 timeout=60
             )
             if resp.status_code == 429:
-                print("  ! Analiz için limit doldu, bekleniyor...", file=sys.stderr)
-                time.sleep(15); continue
+                # Exponential Backoff (15, 30, 60, 120 saniye bekleme)
+                wait_time = 15 * (2 ** attempt)
+                print(f"  ! Limit doldu (Analiz). {wait_time} sn bekleniyor...", file=sys.stderr)
+                time.sleep(wait_time)
+                continue
+                
             resp.raise_for_status()
             raw_content = resp.json()["choices"][0]["message"]["content"]
             cleaned_content = clean_json_response(raw_content)
@@ -253,7 +278,7 @@ def send_smart_notification(new_items, market, crypto, stocks):
     new_games = [it for it in new_items if it.get("catId") == "oyun"]
     for game in new_games:
         try:
-            requests.post(f"https://ntfy.sh/radar-oyun", data=f"{game['title']}".encode("utf-8"), headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"}, timeout=10)
+            requests.post(f"[https://ntfy.sh/radar-oyun](https://ntfy.sh/radar-oyun)", data=f"{game['title']}".encode("utf-8"), headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"}, timeout=10)
             sent_special = True; time.sleep(1)
         except: pass
     alarms = []
@@ -267,19 +292,19 @@ def send_smart_notification(new_items, market, crypto, stocks):
                 alarms.append(f"{c['label']} %{abs(c['change_pct']):.2f} {'yükseldi' if c['change_pct'] > 0 else 'düştü'}!")
     for alarm in alarms:
         try:
-            requests.post(f"https://ntfy.sh/radar-piyasa", data=alarm.encode("utf-8"), headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend", "Priority": "high"}, timeout=10)
+            requests.post(f"[https://ntfy.sh/radar-piyasa](https://ntfy.sh/radar-piyasa)", data=alarm.encode("utf-8"), headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend", "Priority": "high"}, timeout=10)
             sent_special = True; time.sleep(1)
         except: pass
     new_categories = set([it["catId"] for it in new_items if it["catId"] != "oyun"])
     for cat in new_categories:
         cat_items = [it for it in new_items if it["catId"] == cat]
         try:
-            requests.post(f"https://ntfy.sh/radar-{cat}", data=f"{len(cat_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": f"📰 {cat.capitalize()} Gündemi", "Tags": "newspaper"}, timeout=10)
+            requests.post(f"[https://ntfy.sh/radar-](https://ntfy.sh/radar-){cat}", data=f"{len(cat_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": f"📰 {cat.capitalize()} Gündemi", "Tags": "newspaper"}, timeout=10)
             time.sleep(1)
         except: pass
     if new_items and not sent_special:
         try:
-            requests.post(f"https://ntfy.sh/radar-haberler", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Genel", "Tags": "newspaper"}, timeout=10)
+            requests.post(f"[https://ntfy.sh/radar-haberler](https://ntfy.sh/radar-haberler)", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Genel", "Tags": "newspaper"}, timeout=10)
         except: pass
 
 def main():
@@ -316,15 +341,20 @@ def main():
 
     if need_summary:
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-            texts = list(executor.map(lambda i: fetch_article_text(i["link"]), need_summary))
-            for it, txt in zip(need_summary, texts): it["text"] = txt
+            # Hem metin hem resim çekme işlemi çalıştırılıyor
+            results = list(executor.map(lambda i: fetch_article_text_and_image(i["link"]), need_summary))
+            for it, (txt, img) in zip(need_summary, results): 
+                it["text"] = txt
+                # Eğer RSS'ten resim gelmemişse ve sayfada (og:image) bulunduysa ekle
+                if not it.get("image") and img:
+                    it["image"] = img
+                    
         CHUNK_SIZE = 3
         for i in range(0, len(need_summary), CHUNK_SIZE):
             chunk = need_summary[i : i + CHUNK_SIZE]
             for it, s in zip(chunk, summarize_batch(chunk)): it["summary"] = s
             if i + CHUNK_SIZE < len(need_summary): time.sleep(2)
 
-    # 🚀 DÜZELTME: Eski analizler varsa ve yeni haber yoksa, API'yi yormadan eskiyi kullan
     if len(need_summary) == 0 and old_briefings:
         print("Yeni haber yok, eski analizler kullanılıyor.")
         briefings = old_briefings

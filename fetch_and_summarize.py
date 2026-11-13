@@ -19,7 +19,7 @@ if not FREELMAPI_KEY:
     print("HATA: FREELMAPI_KEY bulunamadı!", file=sys.stderr)
     sys.exit(1)
 
-FREELMAPI_MODEL = "groq/openai/gpt-oss-120b" # Groq'u birincil, Gemini'yi yedek yapacak
+FREELMAPI_MODEL = "groq/openai/gpt-oss-120b"
 
 CATEGORIES = [
     {"id": "teknoloji", "label": "Teknoloji", "feeds": ["http://www.webtekno.com/rss.xml", "https://shiftdelete.net/feed", "https://www.donanimhaber.com/rss/tum/"]},
@@ -192,10 +192,10 @@ def summarize_batch(items):
     for attempt in range(3):
         try:
             resp = requests.post(
-                "https://api.groq.com/openai/v1/chat/completions",
-                headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-                json={"model": GROQ_MODEL, "max_tokens": 3000, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
-                timeout=30
+                "https://radar-freellmapi.onrender.com/v1/chat/completions",
+                headers={"Authorization": f"Bearer {FREELMAPI_KEY}", "Content-Type": "application/json"},
+                json={"model": FREELMAPI_MODEL, "max_tokens": 3000, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
+                timeout=60
             )
             if resp.status_code == 429: time.sleep(10); continue
             resp.raise_for_status()
@@ -203,7 +203,7 @@ def summarize_batch(items):
             if len(arr) == len(items): return arr
             else: return (arr + ["Özet oluşturulamadı."] * len(items))[:len(items)]
         except Exception as e:
-            print(f"  ! Groq hatası: {e}", file=sys.stderr)
+            print(f"  ! API hatası: {e}", file=sys.stderr)
             break
     return [""] * len(items)
 
@@ -218,10 +218,10 @@ def generate_category_briefings(all_news):
     )
     try:
         resp = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-            json={"model": GROQ_MODEL, "max_tokens": 1000, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
-            timeout=30
+            "https://radar-freellmapi.onrender.com/v1/chat/completions",
+            headers={"Authorization": f"Bearer {FREELMAPI_KEY}", "Content-Type": "application/json"},
+            json={"model": FREELMAPI_MODEL, "max_tokens": 1000, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
+            timeout=60
         )
         resp.raise_for_status()
         data = json.loads(resp.json()["choices"][0]["message"]["content"])
@@ -242,7 +242,6 @@ def load_cache():
     except: pass
     return cache, briefings
 
-# 🚀 DİNAMİK BİLDİRİM FONKSİYONU (Hizalama Düzeltildi)
 def send_smart_notification(new_items, market, crypto, stocks):
     sent_special = False
     
@@ -253,8 +252,7 @@ def send_smart_notification(new_items, market, crypto, stocks):
             requests.post(f"https://ntfy.sh/radar-oyun", data=f"{game['title']}".encode("utf-8"), headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"}, timeout=10)
             sent_special = True
             time.sleep(1)
-        except: 
-            pass
+        except: pass
 
     # 2. Piyasa Alarmı
     alarms = []
@@ -272,8 +270,7 @@ def send_smart_notification(new_items, market, crypto, stocks):
             requests.post(f"https://ntfy.sh/radar-piyasa", data=alarm.encode("utf-8"), headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend", "Priority": "high"}, timeout=10)
             sent_special = True
             time.sleep(1)
-        except: 
-            pass
+        except: pass
 
     # 3. Kategori Bazlı Akıllı Bildirimler
     new_categories = set([it["catId"] for it in new_items if it["catId"] != "oyun"])
@@ -286,15 +283,13 @@ def send_smart_notification(new_items, market, crypto, stocks):
         try:
             requests.post(f"https://ntfy.sh/radar-{cat}", data=body_text.encode("utf-8"), headers={"Title": title_text, "Tags": "newspaper"}, timeout=10)
             time.sleep(1)
-        except: 
-            pass
+        except: pass
         
     # Genel kanala da özet geç
     if new_items and not sent_special:
         try:
             requests.post(f"https://ntfy.sh/radar-haberler", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Genel", "Tags": "newspaper"}, timeout=10)
-        except: 
-            pass
+        except: pass
 
 def main():
     cache, old_briefings = load_cache()

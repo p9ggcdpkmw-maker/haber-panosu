@@ -125,35 +125,42 @@
 
   /* --- HABER KARTLARI (KOMPLE RENKLENDİRME) --- */
   .feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  
   .news-card { 
-    background: var(--bg-card); 
-    backdrop-filter: blur(10px); 
     border-radius: var(--radius-lg); 
     padding: 24px; 
     display: flex; flex-direction: column; justify-content: space-between; 
     cursor: pointer; transition: all 0.3s; position: relative; overflow: hidden;
-    /* Kenarlık ve arka plan rengi JS ile atanacak */
-    border: 1px solid var(--border);
+    color: #fff; /* Yazılar her zaman beyaz */
+    /* Arka plan JS ile atanacak */
   }
-  .news-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.5); }
-  .news-card.read { opacity: 0.5; filter: grayscale(50%); }
   
-  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 12px; color: var(--text-muted); }
+  /* Arka planlar çok parlak olursa diye hafif bir karartma katmanı */
+  .news-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.3); z-index: 1;
+  }
+  .news-card > * { position: relative; z-index: 2; } /* İçeriği karartmanın üstüne çıkar */
+
+  .news-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.6); }
+  .news-card.read { opacity: 0.6; filter: grayscale(50%); }
+  
+  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 12px; color: rgba(255,255,255,0.8); }
   
   .card-meta { display: flex; align-items: center; gap: 8px; }
-  .card-cat { display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 11px; padding: 4px 10px; border-radius: 20px; background: rgba(255,255,255,0.05); border: 1px solid currentColor; text-transform: uppercase; letter-spacing: 0.5px;}
+  .card-cat { display: flex; align-items: center; gap: 6px; font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 20px; background: rgba(0,0,0,0.4); border: 1px solid currentColor; text-transform: uppercase; letter-spacing: 0.5px; color: #fff;}
   
-  /* Kaynak Etiketi (Tamamen Renkli) */
-  .card-source { font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 20px; color: #fff; text-transform: uppercase; letter-spacing: 0.5px; } 
+  /* Kaynak Etiketi (Renkli Arka Plan Üzerinde Şeffaf) */
+  .card-source { font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 20px; background: rgba(0,0,0,0.5); color: #fff; text-transform: uppercase; letter-spacing: 0.5px; } 
 
-  .card-title { font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 12px; color: var(--text-main); }
-  .card-snippet { font-size: 14px; color: var(--text-muted); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  .card-snippet.warning { color: var(--red); font-weight: 600; display: flex; align-items: center; gap: 6px; }
+  .card-title { font-size: 18px; font-weight: 800; line-height: 1.4; margin-bottom: 12px; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5); }
+  .card-snippet { font-size: 14px; color: rgba(255,255,255,0.9); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-snippet.warning { color: #fca5a5; font-weight: 700; display: flex; align-items: center; gap: 6px; }
   
   .card-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
-  .action-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.05); color: var(--text-muted); width: 36px; height: 36px; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s; font-size: 16px; }
-  .action-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-main); }
-  .action-btn.liked { color: var(--accent); background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.3); }
+  .action-btn { background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2); color: #fff; width: 36px; height: 36px; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s; font-size: 16px; }
+  .action-btn:hover { background: rgba(0,0,0,0.5); }
+  .action-btn.liked { color: #fff; background: rgba(239, 68, 68, 0.6); border-color: #ef4444; }
 
   /* --- PİYASALAR --- */
   .market-header { margin-bottom: 24px; }
@@ -355,7 +362,7 @@ const SOURCE_COLORS = {
 const FALLBACK_COLORS = ["#8b5cf6", "#06b6d4", "#10b981", "#f59e0b", "#ec4899", "#84cc16"];
 
 function getSourceColor(source) {
-  if (!source) return "var(--text-muted)";
+  if (!source) return "#333"; // Fallback koyu gri
   const s = source.toLowerCase().replace(/[^a-z0-9]/g, '');
   for (const key in SOURCE_COLORS) {
     if (s.includes(key)) return SOURCE_COLORS[key];
@@ -365,11 +372,12 @@ function getSourceColor(source) {
   return FALLBACK_COLORS[Math.abs(hash) % FALLBACK_COLORS.length];
 }
 
+// 🚀 ÇORLU SİLİNDİ
 const CATEGORIES = {
   teknoloji: { label: 'Teknoloji', color: '#06b6d4' }, bilim: { label: 'Bilim', color: '#10b981' },
   sanat: { label: 'Sanat', color: '#f59e0b' }, oyun: { label: 'Ücretsiz Oyun', color: '#ef4444' },
   doga: { label: 'Doğa', color: '#84cc16' }, dunya: { label: 'Dünya', color: '#8b5cf6' },
-  gundem: { label: 'Gündem', color: '#a1a1aa' }, corlu: { label: 'Çorlu', color: '#ec4899' }
+  gundem: { label: 'Gündem', color: '#a1a1aa' }
 };
 
 let allNews = [];
@@ -396,10 +404,13 @@ function esc(str) {
   return String(str).replace(/[&<>"']/g, function(m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]; });
 }
 
+// 🚀 ZAMAN HATASI DÜZELTİLDİ (Negatif değerler engellendi)
 function timeAgo(dateStr) {
   const d = new Date(dateStr);
-  if (isNaN(d)) return '';
+  if (isNaN(d)) return 'Bilinmiyor';
   const diff = (Date.now() - d.getTime()) / 60000;
+  
+  if (diff < 0) return 'Az önce'; // Eğer tarih gelecekteyse (timezone hatası vs.) negatif gösterme
   if (diff < 60) return Math.round(diff) + ' dk önce';
   if (diff < 1440) return Math.round(diff / 60) + ' sa önce';
   return Math.round(diff / 1440) + ' gün önce';
@@ -525,10 +536,7 @@ function renderNews() {
     // 🚀 KARTI KOMPLE RENKLENDİRME
     const card = document.createElement('div');
     card.className = 'news-card' + (isRead ? ' read' : '');
-    // Sol kenara kalın bir çizgi
-    card.style.borderLeft = `4px solid ${sourceColor}`;
-    // Arka plana o rengin çok hafif bir tonunu ver
-    card.style.background = `linear-gradient(180deg, ${sourceColor}10, var(--bg-card))`;
+    card.style.background = sourceColor; // Kartın arka planı direkt kaynak rengi
     
     let snippetHtml = `<div class="card-snippet">${esc(item.summary) || 'Özet hazırlanıyor...'}</div>`;
     if (item.summary && item.summary.includes("tam metnine ulaşılamadı")) {
@@ -538,10 +546,10 @@ function renderNews() {
     card.innerHTML = `
       <div class="card-header">
         <div class="card-meta">
-          <div class="card-cat" style="color:${cat.color};">
+          <div class="card-cat" style="color:${cat.color}; background: rgba(0,0,0,0.4);">
             ${esc(cat.label)}
           </div>
-          <div class="card-source" style="background:${sourceColor};">${esc(item.source)}</div>
+          <div class="card-source">${esc(item.source)}</div>
         </div>
         <div>${timeAgo(item.pubDate)}</div>
       </div>

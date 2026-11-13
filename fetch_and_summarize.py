@@ -1,16 +1,17 @@
 """
 RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi
+Doğrudan RSS kaynakları ve Akıllı Tekrar Önleme (Deduplication) kullanan sürüm.
 """
 import json, os, re, sys, time
+import difflib
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
-from urllib.parse import quote
+from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 import concurrent.futures
 
 import requests
 import trafilatura
-from googlenewsdecoder import gnewsdecoder
 
 # --- YAPILANDIRMA ---
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -21,19 +22,40 @@ if not GROQ_API_KEY:
 GROQ_MODEL = "openai/gpt-oss-120b"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
-TR = {"hl": "tr", "gl": "TR", "ceid": "TR:tr"}
-EN = {"hl": "en-US", "gl": "US", "ceid": "US:en"}
-
+# --- DOĞRUDAN RSS KAYNAKLARI ---
 CATEGORIES = [
-    {"id": "teknoloji", "label": "Teknoloji", "query": "teknoloji yapay zeka", "edition": TR},
-    {"id": "bilim", "label": "Bilim", "query": "bilim uzay keşif", "edition": TR},
-    {"id": "sanat", "label": "Sanat", "query": "sanat sinema müzik", "edition": TR},
-    {"id": "oyun", "label": "Ücretsiz Oyun", "query": "ücretsiz oyun dağıtıyor", "edition": TR},
-    {"id": "doga", "label": "Doğa", "query": "doğa çevre hayvanlar", "edition": TR},
-    {"id": "dunya", "label": "Dünya", "query": None, "edition": EN},
-    {"id": "gundem", "label": "Gündem", "query": "türkiye gündem", "edition": TR},
-    {"id": "corlu", "label": "Çorlu", "query": "Çorlu Tekirdağ", "edition": TR},
-    {"id": "mha", "label": "MHA Haber", "url": "https://www.mhahaber.com/rss", "edition": TR},
+    {
+        "id": "teknoloji", "label": "Teknoloji",
+        "feeds": ["http://www.webtekno.com/rss.xml", "https://shiftdelete.net/feed", "https://www.donanimhaber.com/rss/tum/"]
+    },
+    {
+        "id": "bilim", "label": "Bilim",
+        "feeds": ["https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.ntv.com.tr/son-dakika.rss"]
+    },
+    {
+        "id": "sanat", "label": "Sanat",
+        "feeds": ["https://www.hurriyet.com.tr/rss/anasayfa", "https://www.milliyet.com.tr/rss/rssNew/anasayfa.xml"]
+    },
+    {
+        "id": "oyun", "label": "Ücretsiz Oyun",
+        "feeds": ["http://www.webtekno.com/rss.xml", "https://shiftdelete.net/feed"]
+    },
+    {
+        "id": "doga", "label": "Doğa",
+        "feeds": ["https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.ntv.com.tr/son-dakika.rss"]
+    },
+    {
+        "id": "dunya", "label": "Dünya",
+        "feeds": ["https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.cnnturk.com/feed/rss/all/news"]
+    },
+    {
+        "id": "gundem", "label": "Gündem",
+        "feeds": ["https://www.ntv.com.tr/son-dakika.rss", "https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.sozcu.com.tr/feed/", "https://www.hurriyet.com.tr/rss/anasayfa"]
+    },
+    {
+        "id": "corlu", "label": "Çorlu",
+        "feeds": ["https://www.mhahaber.com/rss"]
+    },
 ]
 
 MAX_AGE_DAYS = 6 / 24
@@ -42,12 +64,14 @@ MAX_ITEMS_PER_CAT = 12
 MAX_TEXT_LENGTH = 3500
 
 # --- HABER ÇEKME ---
-def build_url(cat):
-    if cat.get("url"): return cat["url"]
-    ed = cat["edition"]
-    if cat["query"]:
-        return f"https://news.google.com/rss/search?q={quote(cat['query'])}&hl={ed['hl']}&gl={ed['gl']}&ceid={ed['ceid']}"
-    return f"https://news.google.com/rss?hl={ed['hl']}&gl={ed['gl']}&ceid={ed['ceid']}"
+def fetch_feed(url):
+    try:
+        res = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}, timeout=20)
+        res.raise_for_status()
+        return ET.fromstring(res.content)
+    except Exception as e:
+        print(f"  ! Feed alınamadı ({url}): {e}", file=sys.stderr)
+        return None
 
 def age_days(pub_date):
     try:
@@ -67,36 +91,29 @@ def extract_image(it):
     return m.group(1) if m else None
 
 def fetch_category(cat):
-    url = build_url(cat)
-    try:
-        res = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}, timeout=20)
-        res.raise_for_status()
-        root = ET.fromstring(res.content)
-    except Exception as e:
-        print(f"  ! {cat['label']} alınamadı: {e}", file=sys.stderr)
-        return []
-
     items = []
-    for it in root.findall(".//item"):
-        title_raw = (it.findtext("title") or "").strip()
-        source_el = it.find("source")
-        source = source_el.text.strip() if source_el is not None and source_el.text else ""
-        title = title_raw.replace(f" - {source}", "") if source else title_raw
-        link = (it.findtext("link") or "").strip()
-        pub_date = (it.findtext("pubDate") or "").strip()
-        if not link: continue
-        items.append({
-            "cat": cat["label"], "catId": cat["id"],
-            "title": title, "source": source,
-            "link": link, "pubDate": pub_date,
-            "image": extract_image(it),
-        })
-
-    seen, deduped = set(), []
-    for it in items:
-        if it["link"] in seen: continue
-        seen.add(it["link"])
-        deduped.append(it)
+    for feed_url in cat["feeds"]:
+        root = fetch_feed(feed_url)
+        if root is None: continue
+        for it in root.findall(".//item"):
+            title_raw = (it.findtext("title") or "").strip()
+            source_el = it.find("source")
+            # Kaynak adını bul (yoksa feed adından tahmin et veya URL'den al)
+            source = source_el.text.strip() if source_el is not None and source_el.text else ""
+            if not source:
+                domain = urlparse(feed_url).netloc.replace("www.", "")
+                source = domain.split('.')[0].capitalize()
+                
+            title = title_raw.replace(f" - {source}", "") if source else title_raw
+            link = (it.findtext("link") or "").strip()
+            pub_date = (it.findtext("pubDate") or "").strip()
+            if not link: continue
+            items.append({
+                "cat": cat["label"], "catId": cat["id"],
+                "title": title, "source": source,
+                "link": link, "pubDate": pub_date,
+                "image": extract_image(it),
+            })
 
     deduped.sort(key=lambda i: age_days(i["pubDate"]))
     fresh = [i for i in deduped if age_days(i["pubDate"]) <= MAX_AGE_DAYS]
@@ -173,14 +190,9 @@ def fetch_stocks():
         except: pass
     return results
 
-# --- METİN ÇEKME VE GROQ (HABER ÖZETLEME) ---
+# --- METİN ÇEKME VE GROQ ---
 def fetch_article_text(url):
     try:
-        if "news.google.com" in url:
-            try:
-                decoded = gnewsdecoder(url)
-                if decoded.get("status"): url = decoded["decoded_url"]
-            except: pass
         downloaded = trafilatura.fetch_url(url)
         if not downloaded: return ""
         text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
@@ -199,7 +211,7 @@ def summarize_batch(items):
     
     prompt = (
         "Aşağıdaki haberleri Türkçe, 2-3 cümlelik, tarafsız ve anlaşılır şekilde özetle. "
-        "DİKKAT: Eğer bir haberin durumu 'TAM METNE ULAŞILAMADI' ise, o haber için SADECE 'Bu haberin tam metnine ulaşılamadı.' cümlesini yaz. Başlıktan çıkarım yapma, başlığı tekrar etme. "
+        "DİKKAT: Eğer bir haberin durumu 'TAM METNE ULAŞILAMADI' ise, o haber için SADECE 'Bu haberin tam metnine ulaşılamadı.' cümlesini yaz. "
         "DİKKAT: Girdi metinleri başka bir dilde olsa bile, SENİN ÇIKTIN KESİNLİKLE TÜRKÇE OLACAK. "
         "Çıktıyı tam olarak şu JSON formatında ver: "
         '{"summaries": ["özet 1", "özet 2", ...]} '
@@ -218,8 +230,7 @@ def summarize_batch(items):
                 },
                 timeout=60
             )
-            if resp.status_code == 429:
-                time.sleep(15); continue
+            if resp.status_code == 429: time.sleep(15); continue
             resp.raise_for_status()
             data = json.loads(resp.json()["choices"][0]["message"]["content"])
             arr = data.get("summaries", [])
@@ -317,7 +328,7 @@ def send_smart_notification(new_items, market, crypto, stocks):
             requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Güncel", "Tags": "newspaper"}, timeout=10)
         except: pass
 
-# --- ANA AKIŞ ---
+# --- ANA AKIŞ (AKILLI TEKRAR ÖNLEME BURADA) ---
 def main():
     cache, old_briefings = load_cache()
     all_items = []
@@ -327,12 +338,37 @@ def main():
         print(f"  -> {cat['label']}")
         all_items.extend(fetch_category(cat))
 
-    seen_links = set()
+    # 🚀 AKILLI TEKRAR ÖNLEME (URL Temizleme + Başlık Benzerliği)
+    def normalize_url(url):
+        parsed = urlparse(url)
+        return f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+
+    def normalize_title(title):
+        t = title.lower()
+        t = re.sub(r'[^\w\s]', '', t) # Noktalama işaretlerini sil
+        return " ".join(t.split())
+
+    seen_urls = set()
+    seen_titles = []
     deduped_all = []
+
     for it in all_items:
-        if it["link"] in seen_links: continue
-        seen_links.add(it["link"])
+        norm_url = normalize_url(it["link"])
+        if norm_url in seen_urls: continue
+        
+        norm_title = normalize_title(it["title"])
+        is_duplicate = False
+        for existing_title in seen_titles:
+            if difflib.SequenceMatcher(None, norm_title, existing_title).ratio() > 0.85:
+                is_duplicate = True
+                break
+        
+        if is_duplicate: continue
+            
+        seen_urls.add(norm_url)
+        seen_titles.append(norm_title)
         deduped_all.append(it)
+        
     all_items = deduped_all
 
     need_summary = []
@@ -345,7 +381,7 @@ def main():
         if not it.get("image") and cached and cached.get("image"):
             it["image"] = cached["image"]
 
-    print(f"Toplam {len(all_items)} haber. {len(need_summary)} yeni özetlenecek.")
+    print(f"Toplam {len(all_items)} haber (Tekrarlar temizlendi). {len(need_summary)} yeni özetlenecek.")
 
     if need_summary:
         print("Tam metinler çekiliyor...")

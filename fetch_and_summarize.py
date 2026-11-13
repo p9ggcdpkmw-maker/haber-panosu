@@ -11,6 +11,7 @@ import concurrent.futures
 
 import requests
 import trafilatura
+from bs4 import BeautifulSoup # Yedek metin çekici için eklendi
 
 # --- YAPILANDIRMA ---
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -21,7 +22,7 @@ if not GROQ_API_KEY:
 GROQ_MODEL = "openai/gpt-oss-120b"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
-# --- DOĞRUDAN RSS KAYNAKLARI (ÇORLU GÜNDEM'E EKLENDİ) ---
+# --- DOĞRUDAN RSS KAYNAKLARI (GENİŞLETİLDİ) ---
 CATEGORIES = [
     {
         "id": "teknoloji", "label": "Teknoloji",
@@ -29,7 +30,7 @@ CATEGORIES = [
     },
     {
         "id": "bilim", "label": "Bilim",
-        "feeds": ["https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.ntv.com.tr/son-dakika.rss"]
+        "feeds": ["https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.ntv.com.tr/son-dakika.rss", "https://rss.dw.com/rdf/rss-tur-all"]
     },
     {
         "id": "sanat", "label": "Sanat",
@@ -37,7 +38,7 @@ CATEGORIES = [
     },
     {
         "id": "oyun", "label": "Ücretsiz Oyun",
-        "feeds": ["http://www.webtekno.com/rss.xml", "https://shiftdelete.net/feed"]
+        "feeds": ["http://www.webtekno.com/rss.xml", "https://shiftdelete.net/feed", "https://www.haberturk.com/rss/manset.xml"]
     },
     {
         "id": "doga", "label": "Doğa",
@@ -45,15 +46,16 @@ CATEGORIES = [
     },
     {
         "id": "dunya", "label": "Dünya",
-        "feeds": ["https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.cnnturk.com/feed/rss/all/news"]
+        "feeds": ["https://feeds.bbci.co.uk/turkce/rss.xml", "https://www.cnnturk.com/feed/rss/all/news", "https://www.trthaber.com/sondakika.rss"]
     },
     {
         "id": "gundem", "label": "Gündem",
-        # MHA Haber (Çorlu dahil) artık Gündem'in bir parçası
         "feeds": [
             "https://www.ntv.com.tr/son-dakika.rss", 
             "https://feeds.bbci.co.uk/turkce/rss.xml", 
             "https://www.hurriyet.com.tr/rss/anasayfa",
+            "https://www.aa.com.tr/tr/rss/default?cat=guncel",
+            "https://www.trthaber.com/sondakika.rss",
             "https://www.mhahaber.com/rss" 
         ]
     },
@@ -108,6 +110,13 @@ def fetch_category(cat):
             link = (it.findtext("link") or "").strip()
             pub_date = (it.findtext("pubDate") or "").strip()
             if not link: continue
+            
+            # 🎮 ÜCRETSİZ OYUN FİLTRESİ
+            if cat["id"] == "oyun":
+                keywords = ["ücretsiz", "bedava", "dağıtıyor", "veriyor", "promosyon", "hediye"]
+                if not any(kw in title.lower() for kw in keywords):
+                    continue # Eğer başlıkta bu kelimeler yoksa o haberi atla
+
             items.append({
                 "cat": cat["label"], "catId": cat["id"],
                 "title": title, "source": source,
@@ -198,12 +207,29 @@ def fetch_stocks():
 
 # --- METİN ÇEKME VE GROQ ---
 def fetch_article_text(url):
+    text = ""
+    # 1. Yöntem: Trafilatura
     try:
         downloaded = trafilatura.fetch_url(url)
-        if not downloaded: return ""
-        text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
-        return text[:MAX_TEXT_LENGTH] if text else ""
-    except: return ""
+        if downloaded:
+            text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
+    except: pass
+
+    # 2. Yöntem (Yedek): BeautifulSoup (ShiftDelete gibi siteler için)
+    if not text:
+        try:
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+            res = requests.get(url, headers=headers, timeout=15)
+            if res.status_code == 200:
+                soup = BeautifulSoup(res.content, 'html.parser')
+                # Genellikle haber siteleri içeriği <article> veya <div class="content"> içine koyar
+                article_body = soup.find('article') or soup.find('div', class_=re.compile(r'(content|post|text|entry)', re.I))
+                if article_body:
+                    paragraphs = article_body.find_all('p')
+                    text = " ".join([p.get_text(strip=True) for p in paragraphs])
+        except: pass
+
+    return text[:MAX_TEXT_LENGTH] if text else ""
 
 def summarize_batch(items):
     if not items: return []

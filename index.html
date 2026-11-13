@@ -123,18 +123,28 @@
   .ai-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: 0 4px 15px var(--accent-glow); }
   .ai-content { font-size: 15px; color: #cbd5e1; line-height: 1.7; min-height: 60px; }
 
-  /* --- HABER KARTLARI --- */
+  /* --- HABER KARTLARI (KOMPLE RENKLENDİRME) --- */
   .feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-  .news-card { background: var(--bg-card); backdrop-filter: blur(10px); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 24px; display: flex; flex-direction: column; justify-content: space-between; cursor: pointer; transition: all 0.3s; position: relative; overflow: hidden; }
-  .news-card:hover { transform: translateY(-4px); border-color: rgba(255, 255, 255, 0.15); box-shadow: 0 12px 30px rgba(0,0,0,0.5); }
+  .news-card { 
+    background: var(--bg-card); 
+    backdrop-filter: blur(10px); 
+    border-radius: var(--radius-lg); 
+    padding: 24px; 
+    display: flex; flex-direction: column; justify-content: space-between; 
+    cursor: pointer; transition: all 0.3s; position: relative; overflow: hidden;
+    /* Kenarlık ve arka plan rengi JS ile atanacak */
+    border: 1px solid var(--border);
+  }
+  .news-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.5); }
   .news-card.read { opacity: 0.5; filter: grayscale(50%); }
   
   .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 12px; color: var(--text-muted); }
   
-  /* Kaynak ve Kategori Etiketleri */
   .card-meta { display: flex; align-items: center; gap: 8px; }
   .card-cat { display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 11px; padding: 4px 10px; border-radius: 20px; background: rgba(255,255,255,0.05); border: 1px solid currentColor; text-transform: uppercase; letter-spacing: 0.5px;}
-  .card-source { font-weight: 800; font-size: 12px; } /* Rengi JS ile atanacak */
+  
+  /* Kaynak Etiketi (Tamamen Renkli) */
+  .card-source { font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 20px; color: #fff; text-transform: uppercase; letter-spacing: 0.5px; } 
 
   .card-title { font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 12px; color: var(--text-main); }
   .card-snippet { font-size: 14px; color: var(--text-muted); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
@@ -359,8 +369,7 @@ const CATEGORIES = {
   teknoloji: { label: 'Teknoloji', color: '#06b6d4' }, bilim: { label: 'Bilim', color: '#10b981' },
   sanat: { label: 'Sanat', color: '#f59e0b' }, oyun: { label: 'Ücretsiz Oyun', color: '#ef4444' },
   doga: { label: 'Doğa', color: '#84cc16' }, dunya: { label: 'Dünya', color: '#8b5cf6' },
-  gundem: { label: 'Gündem', color: '#a1a1aa' }, corlu: { label: 'Çorlu', color: '#ec4899' },
-  mha: { label: 'MHA Haber', color: '#f97316' } 
+  gundem: { label: 'Gündem', color: '#a1a1aa' }, corlu: { label: 'Çorlu', color: '#ec4899' }
 };
 
 let allNews = [];
@@ -511,23 +520,28 @@ function renderNews() {
     const cat = CATEGORIES[item.catId] || { label: 'Haber', color: '#fff' };
     const isRead = readLinks.has(item.link);
     const isLiked = likedLinks.has(item.link);
-    const sourceColor = getSourceColor(item.source); // 🚀 Kaynak rengini al
+    const sourceColor = getSourceColor(item.source); // Kaynak rengini al
+    
+    // 🚀 KARTI KOMPLE RENKLENDİRME
+    const card = document.createElement('div');
+    card.className = 'news-card' + (isRead ? ' read' : '');
+    // Sol kenara kalın bir çizgi
+    card.style.borderLeft = `4px solid ${sourceColor}`;
+    // Arka plana o rengin çok hafif bir tonunu ver
+    card.style.background = `linear-gradient(180deg, ${sourceColor}10, var(--bg-card))`;
     
     let snippetHtml = `<div class="card-snippet">${esc(item.summary) || 'Özet hazırlanıyor...'}</div>`;
     if (item.summary && item.summary.includes("tam metnine ulaşılamadı")) {
       snippetHtml = `<div class="card-snippet warning">⚠️ ${esc(item.summary)}</div>`;
     }
 
-    const card = document.createElement('div');
-    card.className = 'news-card' + (isRead ? ' read' : '');
-    
     card.innerHTML = `
       <div class="card-header">
         <div class="card-meta">
           <div class="card-cat" style="color:${cat.color};">
             ${esc(cat.label)}
           </div>
-          <div class="card-source" style="color:${sourceColor};">${esc(item.source)}</div>
+          <div class="card-source" style="background:${sourceColor};">${esc(item.source)}</div>
         </div>
         <div>${timeAgo(item.pubDate)}</div>
       </div>

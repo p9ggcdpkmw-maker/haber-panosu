@@ -252,13 +252,52 @@ def load_cache():
 # 🚀 DÜZELTME: Ayrı kanallara bildirim atma
 def send_smart_notification(new_items, market, crypto, stocks):
     sent_special = False
+    
+    # 1. Ücretsiz Oyun Fırsatı
     new_games = [it for it in new_items if it.get("catId") == "oyun"]
     for game in new_games:
-        if NTFY_TOPIC_OYUN:
-            try:
-                requests.post(f"https://ntfy.sh/{NTFY_TOPIC_OYUN}", data=f"{game['title']}".encode("utf-8"), headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"}, timeout=10)
-                sent_special = True
-                time.sleep(1)
+        try:
+            requests.post(f"https://ntfy.sh/radar-oyun", data=f"{game['title']}".encode("utf-8"), headers={"Title": "🎮 Yeni Oyun Fırsatı", "Tags": "video_game", "Priority": "high"}, timeout=10)
+            sent_special = True
+            time.sleep(1)
+        except: pass
+
+    # 2. Piyasa Alarmı
+    alarms = []
+    if stocks:
+        for s in stocks:
+            if s.get("change_pct") and abs(s["change_pct"]) >= 2.0:
+                alarms.append(f"{s['label']} %{abs(s['change_pct']):.2f} {'yükseldi' if s['change_pct'] > 0 else 'düştü'}!")
+    if crypto:
+        for c in crypto:
+            if c.get("change_pct") and abs(c["change_pct"]) >= 2.0:
+                alarms.append(f"{c['label']} %{abs(c['change_pct']):.2f} {'yükseldi' if c['change_pct'] > 0 else 'düştü'}!")
+    
+    for alarm in alarms:
+        try:
+            requests.post(f"https://ntfy.sh/radar-piyasa", data=alarm.encode("utf-8"), headers={"Title": "📈 Piyasa Alarmı", "Tags": "chart_with_upwards_trend", "Priority": "high"}, timeout=10)
+            sent_special = True
+            time.sleep(1)
+        except: pass
+
+    # 3. Kategori Bazlı Akıllı Bildirimler
+    new_categories = set([it["catId"] for it in new_items if it["catId"] != "oyun"])
+    for cat in new_categories:
+        cat_items = [it for it in new_items if it["catId"] == cat]
+        count = len(cat_items)
+        title_text = f"📰 {cat.capitalize()} Gündemi"
+        body_text = f"{count} yeni haber eklendi. Son gelişme: {cat_items[0]['title'][:60]}..."
+        
+        try:
+            requests.post(f"https://ntfy.sh/radar-{cat}", data=body_text.encode("utf-8"), headers={"Title": title_text, "Tags": "newspaper"}, timeout=10)
+            time.sleep(1)
+        except: pass
+        
+    # Genel kanala da özet geç
+    if new_items and not sent_special:
+        try:
+            requests.post(f"https://ntfy.sh/radar-haberler", data=f"RADAR: {len(new_items)} yeni haber eklendi.".encode("utf-8"), headers={"Title": "RADAR Genel", "Tags": "newspaper"}, timeout=10)
+        except: pass
             except: pass
 
     alarms = []

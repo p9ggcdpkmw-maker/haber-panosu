@@ -644,25 +644,30 @@ function toggleLike(link, btn) {
 }
 
 // --- NTFY TEST BİLDİRİMİ ---
+
 async function testNtfy() {
   const btn = document.getElementById('btnTestNtfy');
   btn.disabled = true;
   btn.innerHTML = "⏳ Gönderiliyor...";
   
   try {
-    // Test mesajını doğrudan kullanıcının abone olduğu genel kanala atıyoruz
-    const res = await fetch("https://ntfy.sh/radar-haberler", {
-      method: "POST",
-      body: "Bu bir test bildirimidir. Ntfy sisteminiz başarıyla çalışıyor! 🎉",
-      headers: { "Title": "RADAR Test", "Tags": "white_check_mark" }
-    });
-    
-    if (res.ok) {
-      btn.innerHTML = "✅ Gönderildi! Telefonunu kontrol et.";
-      setTimeout(() => { btn.disabled = false; btn.innerHTML = "🔔 Test Bildirimi Gönder"; }, 3000);
-    } else {
-      throw new Error("Sunucu hatası");
+    // Sitedeki tüm aktif kanallara test mesajı atalım
+    const channels = ["radar-haberler", "radar-teknoloji", "radar-gundem", "radar-oyun", "radar-piyasa"];
+    let successCount = 0;
+
+    for (const channel of channels) {
+      const res = await fetch(`https://ntfy.sh/${channel}`, {
+        method: "POST",
+        body: `Bu bir test bildirimidir. (${channel} kanalı) 🎉`,
+        headers: { "Title": "RADAR Test", "Tags": "white_check_mark" }
+      });
+      if (res.ok) successCount++;
+      await new Promise(r => setTimeout(r, 500)); // İstekler arası yarım saniye bekle
     }
+    
+    btn.innerHTML = `✅ ${successCount} Kanala Gönderildi! Telefonunu kontrol et.`;
+    setTimeout(() => { btn.disabled = false; btn.innerHTML = "🔔 Test Bildirimi Gönder"; }, 3000);
+    
   } catch (e) {
     btn.innerHTML = "❌ Hata oluştu, tekrar dene.";
     setTimeout(() => { btn.disabled = false; btn.innerHTML = "🔔 Test Bildirimi Gönder"; }, 3000);

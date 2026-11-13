@@ -311,7 +311,6 @@
   <div class="bn-item" onclick="openSettings()"><div class="bn-icon">⚙️</div><div>Ayarlar</div></div>
 </div>
 
-<!-- MODALLAR -->
 <div class="modal-overlay" id="newsModal">
   <div class="modal-content">
     <button class="modal-close" onclick="closeModal('newsModal')">✕</button>
@@ -338,7 +337,6 @@
 
 <script>
 // 🚀 YENİ: KAYNAK RENK PALETİ
-// Bilinen kaynaklara kurumsal renkleri, bilinmeyenlere pastel tonları atar.
 const SOURCE_COLORS = {
   "webtekno": "#00a2ff", "shiftdelete": "#ff4500", "donanimhaber": "#ffcc00",
   "bbc": "#bb1919", "ntv": "#e2001a", "sozcu": "#d81e05", "hurriyet": "#f39c12",
@@ -348,11 +346,10 @@ const FALLBACK_COLORS = ["#8b5cf6", "#06b6d4", "#10b981", "#f59e0b", "#ec4899", 
 
 function getSourceColor(source) {
   if (!source) return "var(--text-muted)";
-  const s = source.toLowerCase().replace(/[^a-z0-9]/g, ''); // Küçük harfe çevir, boşlukları sil
+  const s = source.toLowerCase().replace(/[^a-z0-9]/g, '');
   for (const key in SOURCE_COLORS) {
     if (s.includes(key)) return SOURCE_COLORS[key];
   }
-  // Bilinmeyen kaynaklar için metnin harf koduna göre rastgele ama tutarlı bir renk seç
   let hash = 0;
   for (let i = 0; i < s.length; i++) hash = s.charCodeAt(i) + ((hash << 5) - hash);
   return FALLBACK_COLORS[Math.abs(hash) % FALLBACK_COLORS.length];
@@ -547,7 +544,235 @@ function renderNews() {
   });
 }
 
-// ... (Aşağısı aynı: switchBriefing, renderAIBriefing, openModal, openSettings, savePreferences, closeModal, toggleLike, loadData, renderWeatherHeader, renderMarketView, renderMarketCharts, listeners, init)
+function switchBriefing(tabId, btn) {
+  currentBriefingTab = tabId;
+  document.querySelectorAll('.ai-tab').forEach(t => t.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  renderAIBriefing();
+}
+
+function renderAIBriefing() {
+  const container = document.getElementById('aiBriefingContent');
+  let text = "";
+
+  if (currentBriefingTab === 'genel') {
+    if (briefingsData && briefingsData.genel) {
+      text = briefingsData.genel;
+    } else {
+      if (!allNews || allNews.length === 0) { container.innerHTML = 'Analiz edilecek haber yok.'; return; }
+      const topNews = allNews.slice(0, 3);
+      let html = '<ul>';
+      topNews.forEach(n => { html += `<li><strong>${esc(n.title)}</strong></li>`; });
+      html += '</ul>';
+      container.innerHTML = html;
+      return;
+    }
+  } else {
+    text = briefingsData[currentBriefingTab] || "Bu kategori için henüz analiz hazırlanmadı. Lütfen biraz sonra tekrar deneyin.";
+  }
+
+  const interests = calculateUserInterests();
+  const topInterestId = Object.keys(interests).reduce((a, b) => interests[a] > interests[b] ? a : b, null);
+  
+  let prefix = "";
+  if (topInterestId && interests[topInterestId] > 2 && currentBriefingTab === 'genel') {
+    prefix = `<span style="color:var(--accent); font-weight:600; display:block; margin-bottom:8px; font-size:13px;">💡 Okuma alışkanlıklarına göre en çok <b>${CATEGORIES[topInterestId].label}</b> haberleriyle ilgileniyorsun:</span>`;
+  }
+
+  container.innerHTML = `<p>${prefix}${esc(text)}</p>`;
+}
+
+function openModal(item, cat) {
+  readLinks.add(item.link);
+  localStorage.setItem('radar_read', JSON.stringify(Array.from(readLinks)));
+  document.getElementById('modalTitle').textContent = item.title;
+  document.getElementById('modalMeta').innerHTML = `<span style="color:${cat.color}; font-weight:700;">${esc(cat.label)}</span><span>•</span><span>${esc(item.source)}</span><span>•</span><span>${timeAgo(item.pubDate)}</span>`;
+  document.getElementById('modalBody').textContent = item.summary || item.snippet || 'Detaylı özet hazırlanmadı.';
+  document.getElementById('modalLink').href = item.link;
+  document.getElementById('newsModal').classList.add('active');
+  renderNews(); 
+}
+
+function openSettings() {
+  const list = document.getElementById('prefList');
+  list.innerHTML = '';
+  
+  Object.keys(CATEGORIES).forEach(id => {
+    const cat = CATEGORIES[id];
+    const isSelected = !userPrefs || userPrefs.includes(id);
+    
+    const el = document.createElement('div');
+    el.className = 'pref-item' + (isSelected ? ' selected' : '');
+    el.dataset.id = id;
+    
+    el.innerHTML = `
+      <div class="pref-label">
+        <div class="pref-dot" style="background:${cat.color}"></div>
+        ${cat.label}
+      </div>
+      <div class="checkbox-custom"></div>
+    `;
+    
+    el.onclick = () => { el.classList.toggle('selected'); };
+    list.appendChild(el);
+  });
+  
+  document.getElementById('settingsModal').classList.add('active');
+}
+
+function savePreferences() {
+  const selectedIds = [];
+  document.querySelectorAll('.pref-item.selected').forEach(el => { selectedIds.push(el.dataset.id); });
+  
+  if (selectedIds.length === Object.keys(CATEGORIES).length) {
+    userPrefs = null;
+    localStorage.removeItem('radar_prefs');
+  } else {
+    userPrefs = selectedIds;
+    localStorage.setItem('radar_prefs', JSON.stringify(userPrefs));
+  }
+  
+  closeModal('settingsModal');
+  initCategories();
+  
+  if (activeCat !== 'all' && !selectedIds.includes(activeCat) && userPrefs) {
+    selectCategory('all', null);
+  } else {
+    renderNews();
+  }
+}
+
+function closeModal(modalId) { document.getElementById(modalId).classList.remove('active'); }
+
+document.getElementById('newsModal').addEventListener('click', (e) => { if (e.target.id === 'newsModal') closeModal('newsModal'); });
+document.getElementById('settingsModal').addEventListener('click', (e) => { if (e.target.id === 'settingsModal') closeModal('settingsModal'); });
+
+function toggleLike(link, btn) {
+  if (likedLinks.has(link)) { likedLinks.delete(link); btn.classList.remove('liked'); btn.textContent = '♡'; } 
+  else { likedLinks.add(link); btn.classList.add('liked'); btn.textContent = '♥'; }
+  localStorage.setItem('radar_liked', JSON.stringify(Array.from(likedLinks)));
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('news.json?t=' + Date.now());
+    if (!res.ok) throw new Error('Veri alınamadı');
+    const data = await res.json();
+    allNews = data.items || [];
+    marketData = data.market;
+    stocksData = data.stocks;
+    cryptoData = data.crypto;
+    briefingsData = data.briefings || {};
+
+    renderNews();
+    renderAIBriefing();
+    renderMarketView(); 
+    renderWeatherHeader(data.weather); 
+    
+  } catch (e) {
+    document.getElementById('newsGrid').innerHTML = `<div class="status-msg">Bağlantı hatası: ${e.message}</div>`;
+  }
+}
+
+function renderWeatherHeader(weather) {
+  if (!weather || weather.temp == null) return;
+  document.getElementById('weatherText').textContent = `${Math.round(weather.temp)}°C · ${weather.desc} (Çorlu)`;
+}
+
+function renderMarketView() {
+  const grid = document.getElementById('marketGrid');
+  const totalEl = document.getElementById('marketTotal');
+  
+  if (!marketData && (!stocksData || stocksData.length === 0)) {
+    grid.innerHTML = '<div class="status-msg">Piyasa verisi yüklenemedi.</div>';
+    return;
+  }
+
+  if (marketData && marketData.ceyrek_altin_try) {
+    totalEl.textContent = `₺${marketData.ceyrek_altin_try.toLocaleString('tr-TR')}`;
+  } else if (marketData && marketData.gold_gram_try) {
+    totalEl.textContent = `₺${marketData.gold_gram_try.toLocaleString('tr-TR')}`;
+  }
+
+  let html = '';
+  const cards = [];
+  const colors = ['mc-purple', 'mc-orange', 'mc-red', 'mc-cyan', 'mc-green'];
+  let colorIdx = 0;
+
+  if (marketData) {
+    if (marketData.usdtry) cards.push({ label: 'USD / TRY', price: marketData.usdtry, change: 0.4, icon: '$' });
+    if (marketData.eurtry) cards.push({ label: 'EUR / TRY', price: marketData.eurtry, change: -0.2, icon: '€' });
+    if (marketData.gold_gram_try) cards.push({ label: 'Gram Altın', price: marketData.gold_gram_try, change: 1.2, icon: '🪙' });
+    if (marketData.ceyrek_altin_try) cards.push({ label: 'Çeyrek Altın', price: marketData.ceyrek_altin_try, change: 1.1, icon: '🥇' });
+  }
+  if (cryptoData && cryptoData.length > 0) {
+    cryptoData.forEach(c => { if (c.price) cards.push({ label: c.label, price: c.price, change: c.change_pct || 0, icon: '₿' }); });
+  }
+  if (stocksData) {
+    stocksData.forEach(s => { if (s.price != null) cards.push({ label: s.label, price: s.price, change: s.change_pct || 0, icon: '📈' }); });
+  }
+
+  cards.forEach((c, index) => {
+    const isUp = c.change >= 0;
+    const sign = isUp ? '+' : '';
+    const arrow = isUp ? '▲' : '▼';
+    const colorClass = colors[colorIdx % colors.length];
+    colorIdx++;
+    
+    html += `
+      <div class="market-card ${colorClass}">
+        <div class="mc-header">
+          <div class="mc-label">${esc(c.label)}</div>
+          <div class="mc-icon">${c.icon}</div>
+        </div>
+        <div class="mc-price">${c.price.toLocaleString('tr-TR', {minimumFractionDigits: 2})}</div>
+        <div class="mc-change">${arrow} ${sign}${c.change.toFixed(2)}%</div>
+        <div class="mc-chart-container"><canvas id="chart-${index}"></canvas></div>
+      </div>
+    `;
+  });
+  grid.innerHTML = html;
+}
+
+function renderMarketCharts() {
+  const cards = document.querySelectorAll('.market-card');
+  cards.forEach((card, i) => {
+    const canvas = card.querySelector('canvas');
+    if (!canvas) return;
+    const basePrice = parseFloat(card.querySelector('.mc-price').textContent.replace(/\./g, '').replace(',', '.'));
+    const dataPoints = [];
+    let current = basePrice * 0.98;
+    for (let j = 0; j < 20; j++) { current = current + (Math.random() - 0.45) * (basePrice * 0.01); dataPoints.push(current); }
+    dataPoints.push(basePrice);
+
+    const ctx = canvas.getContext('2d');
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: Array(21).fill(''),
+        datasets: [{
+          data: dataPoints,
+          borderColor: 'rgba(255, 255, 255, 0.6)',
+          borderWidth: 2, pointRadius: 0, tension: 0.4, fill: true,
+          backgroundColor: (context) => {
+            const gradient = ctx.createLinearGradient(0, 0, 0, 50);
+            gradient.addColorStop(0, 'rgba(255, 255, 255, 0.2)');
+            gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
+            return gradient;
+          }
+        }]
+      },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { enabled: false } }, scales: { x: { display: false }, y: { display: false } }, animation: { duration: 1500 } }
+    });
+  });
+}
+
+document.getElementById('searchInput').addEventListener('input', (e) => { searchQ = e.target.value.trim(); renderNews(); });
+
+startClock();
+initCategories();
+loadData();
+setInterval(loadData, 5 * 60 * 1000);
 </script>
 </body>
 </html>

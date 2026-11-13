@@ -13,10 +13,12 @@ import requests
 import trafilatura
 from bs4 import BeautifulSoup
 
-# --- YAPILANDIRMA ---
-FREELMAPI_KEY = os.environ.get("FREELMAPI_KEY")
+# 🚀 Anahtarı al ve içindeki görünmez boşlukları/satır sonlarını temizle
+raw_key = os.environ.get("FREELMAPI_KEY", "")
+FREELMAPI_KEY = raw_key.strip().replace("\n", "").replace("\r", "").replace('"', '').replace("'", "")
+
 if not FREELMAPI_KEY:
-    print("HATA: FREELMAPI_KEY bulunamadı!", file=sys.stderr)
+    print("HATA: FREELMAPI_KEY bulunamadı veya boş!", file=sys.stderr)
     sys.exit(1)
 
 FREELMAPI_MODEL = "groq/openai/gpt-oss-120b"

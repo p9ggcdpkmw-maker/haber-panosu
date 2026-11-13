@@ -98,7 +98,6 @@ def fetch_category(cat):
         for it in root.findall(".//item"):
             title_raw = (it.findtext("title") or "").strip()
             source_el = it.find("source")
-            # Kaynak adını bul (yoksa feed adından tahmin et veya URL'den al)
             source = source_el.text.strip() if source_el is not None and source_el.text else ""
             if not source:
                 domain = urlparse(feed_url).netloc.replace("www.", "")
@@ -114,6 +113,12 @@ def fetch_category(cat):
                 "link": link, "pubDate": pub_date,
                 "image": extract_image(it),
             })
+
+    seen, deduped = set(), []
+    for it in items:
+        if it["link"] in seen: continue
+        seen.add(it["link"])
+        deduped.append(it)
 
     deduped.sort(key=lambda i: age_days(i["pubDate"]))
     fresh = [i for i in deduped if age_days(i["pubDate"]) <= MAX_AGE_DAYS]

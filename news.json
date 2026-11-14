@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T06:50:50.924937+00:00",
+  "updated": "2026-11-14T08:00:39.939289+00:00",
   "briefings": {
     "genel": "Analiz şu an hazırlanamıyor.",
     "teknoloji": "Analiz şu an hazırlanamıyor.",
@@ -7,6 +7,61 @@
     "gundem": "Analiz şu an hazırlanamıyor."
   },
   "items": [
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Google Wallet Gemini, ABD'de harcamayı okuyor",
+      "source": "Shiftdelete",
+      "link": "https://shiftdelete.net/gemini-google-wallet",
+      "pubDate": "Sat, 14 Nov 2026 10:31:53 +0300",
+      "image": "https://shiftdelete.net/static/img/content/26-11/14/google-wallet-gemini.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "RTX 3080'e Nvidia'nın kapattığı özellik geldi",
+      "source": "Shiftdelete",
+      "link": "https://shiftdelete.net/rtx-3080-frame-generation-mfg-unlocker",
+      "pubDate": "Sat, 14 Nov 2026 10:30:00 +0300",
+      "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/rtx-3080-kare-uretimi-kapak-v3-1411.webp",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Intel, Razor Lake işlemcilerini resmen belgeledi: Masaüstü ve mobil geliyor",
+      "source": "Donanimhaber",
+      "link": "https://www.donanimhaber.com/intel-razor-lake-ve-coral-rapids-icin-yeni-ozellikleri-acikladi--212904",
+      "pubDate": "Sat, 14 Nov 2026 10:30:00 +0300",
+      "image": "https://www.donanimhaber.com/images/images/haber/212904/1200x675intel-razor-lake-ve-coral-rapids-icin-yeni-ozellikleri-acikladi.jpg",
+      "text": "Bilgisayar dünyası ve mobil teknoloji gündemini sıkı takip eden İlkcan, yaşanan tüm gelişmeleri DonanımHaber okurları ile paylaşıyor. Tasarım meraklısı ve sanata oldukça ilgi duyuyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Razor Lake, Intel'in Nova Lake sonrasında konumlandıracağı yeni nesil masaüstü ve dizüstü işlemci ailesi olarak biliniyor. Coral Rapids ise Diamond Rapids sonrasında gelmesi beklenenXeon sunucu işlemcilerinin geliştirme kodadı. Dolayısıyla paylaşılan doküman, yalnızca tüketici işlemcilerini değil, Intel'in sunucu platformlarını da kapsıyor. Intel'in paylaştığı CPUID tablosunda Razor Lake için masaüstü sistemlerde300F6xve300FAx, dizüstü bilgisayarlarda ise300F7xve300F9ximzaları yer alıyor. Coral Rapids sunucu işlemcileri için belirtilen imza ise400F8x. CPUID imzaları, işletim sistemlerinin ve yazılımların çalıştıkları işlemciyi tanımasına yardımcı oluyor. Bu sayede yazılımlar, donanımın desteklediği komut setlerini ve özellikleri belirleyerek uygun optimizasyonları uygulayabiliyor. Ancak bu kayıtlar, işlemcilerin ticari model isimlerini veya teknik özelliklerini ortaya koymuyor. Dokümanda yer alan yenilikler arasında güvenlik, şifreleme ve sanallaştırma odaklı komutlar bulunuyor.Razor Lakeiçin SSBD_PSFD_U_S adlı yeni bir güvenlik özelliği listelenirken, APIC-Timer Virtualization desteğinin hem Razor Lake hem de Coral Rapids platformlarına ekleneceği belirtiliyor.Coral Rapidstarafında ise VPM L DSA BFLYDQ adıyla listelenen komut paylaşıldı. Bu komut, kuantum bilgisayarlara karşı dayanıklı olacak şekilde tasarlanan ML-DSA dijital imza algoritması içinmatematiksel işlemleri hızlandırmayayönelik. Başka bir deyişle, genel oyun veya uygulama performansından ziyade belirli kriptografik iş yüklerine odaklanıyor. Intel Razor Lake-S işlemciler için tarih ortaya çıktı4 gün önce eklendiÖte yandan Intel'in bu dokümanı, işlemcilerin destekleyeceği donanım özelliklerini tanımlıyor. Dolayısıyla henüz performans sonuçları, satışa çıkacak modeller veya lansman tarihleri hakkında bilgi sunmuyor. Yine de Razor Lake'in hem masaüstü hem de dizüstü platformlarda geliştirildiğinin resmi teknik belgelerde görülmesi, lansman tarihinin yaklaştığını doğruluyor.https://videocardz.com/newz/intel-adds-razor-lake-desktop-and-laptop-cpus-to-its-isa-referenceYorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaDonanımİşlemci HaberleriIntel Razor Lake ve Coral Rapids için yeni özellikleri açıkladıBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük Öte yandan Intel'in bu dokümanı, işlemcilerin destekleyeceği donanım özelliklerini tanımlıyor. Dolayısıyla henüz performans sonuçları, satışa çıkacak modeller veya lansman tarihleri hakkında bilgi sunmuyor. Yine de Razor Lake'in hem masaüstü hem de dizüstü platformlarda geliştirildiğinin resmi teknik belgelerde görülmesi, lansman tarihinin yaklaştığını doğruluyor. Ekranlı ve mikrofonlu akıllı yüzük",
+      "summary": ""
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "Misafir Ağırlarken Hızınızı İkiye Katlayacak Teknolojik İnovasyon: Tek Dokunuşla Çift Fincan Özelliği Nasıl Çalışır?",
+      "source": "Webtekno",
+      "link": "https://www.webtekno.com/misafir-agirlarken-hizinizi-ikiye-katlayacak-teknolojik-inovasyon-tek-dokunusla-cift-fincan-ozelligi-nasil-calisir-h228604.html",
+      "pubDate": "Sat, 14 Nov 2026 10:20:03 +0300",
+      "image": "https://imgrosetta.webtekno.com/file/696112/696112-640xauto.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Teknoloji",
+      "catId": "teknoloji",
+      "title": "ChatGPT Wallet ile alışverişi ajanlar yapacak",
+      "source": "Shiftdelete",
+      "link": "https://shiftdelete.net/chatgpt-wallet-dots-ajanlari-alisveris",
+      "pubDate": "Sat, 14 Nov 2026 10:00:00 +0300",
+      "image": "https://ares.shiftdelete.net/static/sdnweb-haberbotu/hb/22f8954c605317820d82a8ef14316ee10adbf6fc.webp",
+      "text": "",
+      "summary": ""
+    },
     {
       "cat": "Teknoloji",
       "catId": "teknoloji",
@@ -81,7 +136,7 @@
       "link": "https://www.donanimhaber.com/abd-genelinde-tum-ucuslar-durduruldu--212907",
       "pubDate": "Sat, 14 Nov 2026 01:47:49 +0300",
       "image": "https://www.donanimhaber.com/images/images/haber/212907/1200x675abd-genelinde-tum-ucuslar-durduruldu.jpg",
-      "text": "Sıkı bir beyaz perde takipçisi olan Erdem, DonanımHaber'de sinema ve dizi sektörüne dair haberleri kaleme alıyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. FAA şimdilik \"olağanüstü durumlar ve güvenlik endişeleri\"nin ötesinde bir açıklama sunmadı. Ancakuçakların haberleşmesini sağlayan sistemde bir sorun yaşandığı iddia ediliyor. İddialara göre krizin merkezinde \"kademeli frekans kesintisi\" (rolling frequency outage) adı verilen ve ülke genelindeki birden fazla hava trafik kontrol merkezine yayılan kapsamlı bir iletişim arızası bulunuyor. İlk uyarının üzerinden yaklaşık bir buçuk saat geçmiş olmasına rağmen bu olağanüstü duruma neyin sebep olduğu hâlâ netleşmiş değil.Akla gelen ilk ihtimal bir siber saldırı olsa daABD hükûmetinden şu ana kadar mikrofon başına geçen yetkililer böyle bir durumun söz konusu olmadığını söylüyor. NitekimABD İç Güvenlik Bakanı Markwayne Mullinde yaptığı açıklamada bir saldırının söz konusu olmadığını açıklayarak, insanların uçaklardaki yakınları hakkında endişelenmesini gerektirecek bir durum olmadığını söyledi. Nvidia imparatorluğundaki son saatler: Jensen Huang10 sa. önce eklendiŞu anda gündemde olanbir diğer ihtimal de sorunun yapay zekâ kaynaklı olabileceği. ABD İç Güvenlik Bakanı Markwayne Mullin, dün erken saatlerde havacılık sektörünü ilgilendiren bir yapay zekâ sisteminin devreye alındığını doğruladı. Şimdi uzmanlar bunun yaşanan krizle alakası olup olmadığını araştırıyor. Ancak şimdilik net bir sonuç paylaşılmadı.Yorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaPopüler BilimZamazingo HaberleriABD genelinde tüm uçuşlar durdurulduBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük Şu anda gündemde olanbir diğer ihtimal de sorunun yapay zekâ kaynaklı olabileceği. ABD İç Güvenlik Bakanı Markwayne Mullin, dün erken saatlerde havacılık sektörünü ilgilendiren bir yapay zekâ sisteminin devreye alındığını doğruladı. Şimdi uzmanlar bunun yaşanan krizle alakası olup olmadığını araştırıyor. Ancak şimdilik net bir sonuç paylaşılmadı. Ekranlı ve mikrofonlu akıllı yüzük",
+      "text": "Sıkı bir beyaz perde takipçisi olan Erdem, DonanımHaber'de sinema ve dizi sektörüne dair haberleri kaleme alıyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. FAA şimdilik \"olağanüstü durumlar ve güvenlik endişeleri\"nin ötesinde bir açıklama sunmadı. Ancakuçakların haberleşmesini sağlayan sistemde bir sorun yaşandığı iddia ediliyor. İddialara göre krizin merkezinde \"kademeli frekans kesintisi\" (rolling frequency outage) adı verilen ve ülke genelindeki birden fazla hava trafik kontrol merkezine yayılan kapsamlı bir iletişim arızası bulunuyor. İlk uyarının üzerinden yaklaşık bir buçuk saat geçmiş olmasına rağmen bu olağanüstü duruma neyin sebep olduğu hâlâ netleşmiş değil.Akla gelen ilk ihtimal bir siber saldırı olsa daABD hükûmetinden şu ana kadar mikrofon başına geçen yetkililer böyle bir durumun söz konusu olmadığını söylüyor. NitekimABD İç Güvenlik Bakanı Markwayne Mullinde yaptığı açıklamada bir saldırının söz konusu olmadığını açıklayarak, insanların uçaklardaki yakınları hakkında endişelenmesini gerektirecek bir durum olmadığını söyledi. Nvidia imparatorluğundaki son saatler: Jensen Huang12 sa. önce eklendiŞu anda gündemde olanbir diğer ihtimal de sorunun yapay zekâ kaynaklı olabileceği. ABD İç Güvenlik Bakanı Markwayne Mullin, dün erken saatlerde havacılık sektörünü ilgilendiren bir yapay zekâ sisteminin devreye alındığını doğruladı. Şimdi uzmanlar bunun yaşanan krizle alakası olup olmadığını araştırıyor. Ancak şimdilik net bir sonuç paylaşılmadı.Yorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaPopüler BilimZamazingo HaberleriABD genelinde tüm uçuşlar durdurulduBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük Şu anda gündemde olanbir diğer ihtimal de sorunun yapay zekâ kaynaklı olabileceği. ABD İç Güvenlik Bakanı Markwayne Mullin, dün erken saatlerde havacılık sektörünü ilgilendiren bir yapay zekâ sisteminin devreye alındığını doğruladı. Şimdi uzmanlar bunun yaşanan krizle alakası olup olmadığını araştırıyor. Ancak şimdilik net bir sonuç paylaşılmadı. Ekranlı ve mikrofonlu akıllı yüzük",
       "summary": ""
     },
     {
@@ -103,7 +158,7 @@
       "link": "https://www.donanimhaber.com/chatgpt-artik-alisveris-de-yapabilecek-chatgpt-wallet-tanitildi--212897",
       "pubDate": "Fri, 13 Nov 2026 23:59:00 +0300",
       "image": "https://www.donanimhaber.com/images/images/haber/212897/1200x675chatgpt-artik-alisveris-de-yapabilecek-chatgpt-wallet-tanitildi.jpg",
-      "text": "Teknolojinin her türlüsüne ilgi duyan Deniz, ağırlıklı olarak bilgisayar donanımları, mobil teknolojiler, yenilenebilir enerji ve elektrikli araçlar üzerine içerikler üretiyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Yeni sistemin çalışma mantığı oldukça basit.Kullanıcıların kredi kartı bilgilerini ChatGPT'ye yalnızca bir kez girmesi yeterli oluyor.Ardından yapay zeka ajanları, kullanıcıların istekleri doğrultusunda ürünleri araştırabiliyor, alışveriş sepetleri oluşturabiliyor ve satın alma işlemini gerçekleştirmeye hazır hale getirebiliyor. Ancak OpenAI,yapay zekanın kendi başına ödeme yapmasına izin vermiyor. Bir satın alma işlemi gerçekleştirilmeden önce kullanıcıya satın alınacak ürünler, toplam tutar ve kullanılacak ödeme kartı gösteriliyor. Kullanıcının işlemi onaylamasının ardındanFace ID veya parmak izi gibi biyometrik güvenlik yöntemleriyle doğrulama gerçekleştiriliyor.Bu onay, her satın alma işlemi için ayrı ayrı alınıyor. Böylece kullanıcı, yapay zeka ajanının hangi ürünü satın aldığını ve ne kadar ödeme yaptığını kontrol edebiliyor. Sistem, alışveriş yapılan mağazalarlagerçek kredi kartı bilgilerini de paylaşmıyor.Bunun yerine kullanıcının gerçek kart bilgilerinin yerini alan birödeme tokenıkullanılıyor. Bu sayede satıcılar, kullanıcıların doğrudan kredi kartı numaralarına erişemiyor. OpenAI, ChatGPT Wallet içinVisa, MastercardveAmerican Expressile ortaklık kurdu. Şirket, mevcut kredi kartlarının sunduğu ödül puanları ve tüketici korumalarının yeni sistem üzerinden yapılan alışverişlerde de geçerli olacağını belirtiyor. Şirket şimdilik ChatGPT Wallet üzerinden gerçekleştirilenalışverişlerden herhangi bir komisyon almıyor. Oyun sektöründe yapay zeka kullanımı hızla yayılıyor13 sa. önce eklendiChatGPT Wallet şu anda yalnızcaABD'de yaşayan, 18 yaşını doldurmuş Pro abonelerine açılıyor.OpenAI, erken kullanım sürecinde işletmeler, bankalar ve ödeme ağlarıyla birlikte çalışarak sistemi geliştirmeyi ve ilerleyen dönemde daha geniş bir kullanıcı kitlesine sunmayı planlıyor.Öte yandan yapay zeka ajanlarının kullanıcılar adına alışveriş yapabilmesi, internet şirketleri açısından yeni tartışmaları da beraberinde getiriyor. Delta ve United Airlines gibi bazı şirketler, yapay zeka ajanlarının kendi platformlarında kullanıcılar adına satın alma işlemi gerçekleştirmesini yasakladı. Amazon da benzer bir yaklaşım sergileyen şirketler arasında yer alıyor.ChatGPT Wallet, yapay zekanın dijital asistan rolünden çıkarak kullanıcılar adına gerçek işlemler gerçekleştiren bir araca dönüşmesi açısından önemli bir gelişme. Ancak kredi kartı bilgilerinin yapay zeka sistemlerine emanet edilmesi,güvenlik, kullanıcı kontrolü ve olası hatalı işlemlerin sorumluluğu gibi konuları da gündeme getiriyor.https://openai.com/index/introducing-chatgpt-wallet/Yorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaYazılımYapay Zeka HaberleriChatGPT artık alışveriş de yapabilecek: ChatGPT Wallet tanıtıldıBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük ChatGPT Wallet şu anda yalnızcaABD'de yaşayan, 18 yaşını doldurmuş Pro abonelerine açılıyor.OpenAI, erken kullanım sürecinde işletmeler, bankalar ve ödeme ağlarıyla birlikte çalışarak sistemi geliştirmeyi ve ilerleyen dönemde daha geniş bir kullanıcı kitlesine sunmay",
+      "text": "Teknolojinin her türlüsüne ilgi duyan Deniz, ağırlıklı olarak bilgisayar donanımları, mobil teknolojiler, yenilenebilir enerji ve elektrikli araçlar üzerine içerikler üretiyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Yeni sistemin çalışma mantığı oldukça basit.Kullanıcıların kredi kartı bilgilerini ChatGPT'ye yalnızca bir kez girmesi yeterli oluyor.Ardından yapay zeka ajanları, kullanıcıların istekleri doğrultusunda ürünleri araştırabiliyor, alışveriş sepetleri oluşturabiliyor ve satın alma işlemini gerçekleştirmeye hazır hale getirebiliyor. Ancak OpenAI,yapay zekanın kendi başına ödeme yapmasına izin vermiyor. Bir satın alma işlemi gerçekleştirilmeden önce kullanıcıya satın alınacak ürünler, toplam tutar ve kullanılacak ödeme kartı gösteriliyor. Kullanıcının işlemi onaylamasının ardındanFace ID veya parmak izi gibi biyometrik güvenlik yöntemleriyle doğrulama gerçekleştiriliyor.Bu onay, her satın alma işlemi için ayrı ayrı alınıyor. Böylece kullanıcı, yapay zeka ajanının hangi ürünü satın aldığını ve ne kadar ödeme yaptığını kontrol edebiliyor. Sistem, alışveriş yapılan mağazalarlagerçek kredi kartı bilgilerini de paylaşmıyor.Bunun yerine kullanıcının gerçek kart bilgilerinin yerini alan birödeme tokenıkullanılıyor. Bu sayede satıcılar, kullanıcıların doğrudan kredi kartı numaralarına erişemiyor. OpenAI, ChatGPT Wallet içinVisa, MastercardveAmerican Expressile ortaklık kurdu. Şirket, mevcut kredi kartlarının sunduğu ödül puanları ve tüketici korumalarının yeni sistem üzerinden yapılan alışverişlerde de geçerli olacağını belirtiyor. Şirket şimdilik ChatGPT Wallet üzerinden gerçekleştirilenalışverişlerden herhangi bir komisyon almıyor. Oyun sektöründe yapay zeka kullanımı hızla yayılıyor14 sa. önce eklendiChatGPT Wallet şu anda yalnızcaABD'de yaşayan, 18 yaşını doldurmuş Pro abonelerine açılıyor.OpenAI, erken kullanım sürecinde işletmeler, bankalar ve ödeme ağlarıyla birlikte çalışarak sistemi geliştirmeyi ve ilerleyen dönemde daha geniş bir kullanıcı kitlesine sunmayı planlıyor.Öte yandan yapay zeka ajanlarının kullanıcılar adına alışveriş yapabilmesi, internet şirketleri açısından yeni tartışmaları da beraberinde getiriyor. Delta ve United Airlines gibi bazı şirketler, yapay zeka ajanlarının kendi platformlarında kullanıcılar adına satın alma işlemi gerçekleştirmesini yasakladı. Amazon da benzer bir yaklaşım sergileyen şirketler arasında yer alıyor.ChatGPT Wallet, yapay zekanın dijital asistan rolünden çıkarak kullanıcılar adına gerçek işlemler gerçekleştiren bir araca dönüşmesi açısından önemli bir gelişme. Ancak kredi kartı bilgilerinin yapay zeka sistemlerine emanet edilmesi,güvenlik, kullanıcı kontrolü ve olası hatalı işlemlerin sorumluluğu gibi konuları da gündeme getiriyor.https://openai.com/index/introducing-chatgpt-wallet/Yorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaYazılımYapay Zeka HaberleriChatGPT artık alışveriş de yapabilecek: ChatGPT Wallet tanıtıldıBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük ChatGPT Wallet şu anda yalnızcaABD'de yaşayan, 18 yaşını doldurmuş Pro abonelerine açılıyor.OpenAI, erken kullanım sürecinde işletmeler, bankalar ve ödeme ağlarıyla birlikte çalışarak sistemi geliştirmeyi ve ilerleyen dönemde daha geniş bir kullanıcı kitlesine sunmay",
       "summary": ""
     },
     {
@@ -116,58 +171,6 @@
       "image": "https://www.donanimhaber.com/images/images/haber/212879/1200x675sinemada-bu-hafta-13-kasim-2026.jpg",
       "text": "Sıkı bir beyaz perde takipçisi olan Erdem, DonanımHaber'de sinema ve dizi sektörüne dair haberleri kaleme alıyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Bu hafta sinema salonlarında 10 yeni film gösterime girerken, dijital platformlara ve öde-izle servislerine de yeni filmler geliyor. Bu hafta oldukça kalabalık bir vizyon programına sahip. Komediden korkuya, animasyondan belgesele pek çok farklı türde film bu hafta ülkemizde vizyona giriyor. Bu haftanın asıl yıldızı ise Japonya'dan gelen Godzilla Minus Zero. İşte bu hafta sinemalara gelen yeni filmler: İlk filmde etkileyici bir iş ortaya koyan yönetmenTakashi Yamazaki, devam filminin de yönetmen koltuğunda oturuyor. İlk filmden daha büyük bir bütçeyle çekilen Minus Zero, Minus One'ın doğrudan devamı niteliğinde olacak ve ilk filmde tanıştığımız karakterleri de hikâyeye dâhil edecek. Önceki felaketin izlerini geride bırakmaya çalışan Shikishima ailesinin yaşamı, iki yıl sonra ortaya çıkan yeni bir tehditle bir kez daha altüst olur. Aile, geçmişte hayatta kaldıkları canavarın yol açtığı dehşetle yeniden yüzleşmek zorunda kalır.  Bir reklam şirketinde yönetici olan Elsa, Noel tatili arifesinde annesini kaybeder. Kendisini işe vuran Elsa, annesinin yasını tutmaya zaman ayırmak yerine hiç durmadan çalışır. Ta ki bir panik atak onu bir an durup dinlenmeye zorlayana kadar. Tüm bu süreçte en büyük destekçisi partneri Bonifacio’dur. Elsa, Madrid’den uzaklaşmak isteyen arkadaşı Patricia ile birlikte birkaç günlüğüne Lanzarote adasına gitmeye karar verirken, Bonifacio şehirde kalır. Elsa için işler daha da karmaşık bir hâl almak üzeredir.  Noel’den ve çevresindeki insanlardan uzak duran cimri Ebenezer Scrooge, Noel arifesinde hayatını değiştirecek doğaüstü ziyaretçilerle karşılaşır. Ölen iş ortağı Jacob Marley’nin hayaleti tarafından uyarılan Scrooge’a, geçmişini, bugününü ve kendisini bekleyen geleceği gösterecek üç ruhun geleceği söylenir. Bu sıra dışı gece boyunca, hayatta yaptığı seçimlerin sonuçlarıyla yüzleşen Scrooge, yaşamını değiştirmek için son bir şansa kavuşacaktır.  Filmde Mahsun Karaca, işgüzar avukat Mahsun karakterine hayat veriyor. Eniştesi Sabri’nin aklına uyup internete reklam veren Mahsun, paralı ve saygın müşterilerin kapısını çalmasını beklerken yolu yeraltı dünyasının tehlikeli isimlerinden, Levent Ülgen’in canlandırdığı, Mümin ile kesişiyor. Sıfırı tüketen ve iki sadık adamı dışında kimsesi kalmayan Mümin, ev hapsi cezasıyla kurtulunca gidecek bir yeri olmadığı için Mahsun’un başına kalıyor. Bir anda kendisini hiç bilmediği tehlikeli bir dünyanın ortasında bulan Mahsun’un artık iki büyük derdi vardır: Mümin’den kurtulmak ve onun yüzünden tehlikeye giren kariyerini yeniden rayına oturtmak...  Tanımadığınız Şapkalı Kedi huzurlarınızda! Dr. Seuss’un büyülü ve oyunbaz geleneğinden doğan bu animasyon filmi, yaramazlık, sihir ve karmaşanın hüküm sürdüğü yepyeni ve destansı bir macera. Şapkasını taktığında en iyi yaptığı işi yapan Kedi (Murat Cemcir tarafından seslendiriliyor) çocuklara neşe saçıyor ve onları daha önce görmedikleri fantastik bir dünyaya götürüyor. Filmde kahramanımız, Hayal Gücü ve İlham Kurumu Enstitüsü için şimdiye kadarki en zorlu görevine atanıyor: Yeni bir kasabaya taşınan Gabby ve Sebastian adlı iki kardeşi neşelendirmek.  Viktorya Dönemi İngiltere'si. Alışılmadık biri olan Winifred Notty, ücra bir gotik malikâneye mürebbiye olarak gelir ve aileyle beraber yaşamaya başlar. Ailenin çocuklarına öğretmenlik yapan Winifred deliliğe sürü",
       "summary": ""
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "AKINCI ve Bayraktar TB2, kara yoluna başarıyla inip kalktı",
-      "source": "Donanimhaber",
-      "link": "https://www.donanimhaber.com/akinci-ve-bayraktar-tb2-kara-yoluna-inip-kalkti--212903",
-      "pubDate": "Fri, 13 Nov 2026 23:21:57 +0300",
-      "image": "https://www.donanimhaber.com/images/images/haber/212903/1200x675akinci-ve-bayraktar-tb2-kara-yoluna-inip-kalkti.jpg",
-      "text": "Sıkı bir beyaz perde takipçisi olan Erdem, DonanımHaber'de sinema ve dizi sektörüne dair haberleri kaleme alıyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur.  Tatbikat kapsamında farklı üslerden havalanan üç milli hava aracı, Manisa-Balıkesir Karayolu üzerinde bir araya geldi. Baykar'ın eğitim ve test faaliyetlerinde kullandığı Keşan'dan havalanan bir Bayraktar TB2, Çorlu'dan havalanan bir AKINCI ve Kara Kuvvetleri Komutanlığı envanterindeki İzmir çıkışlı bir başka Bayraktar TB2, belirlenen kara yolu güzergâhına başarıyla iniş yaptı. SİHA'lar daha sonra aynı güzergâhtan yeniden havalanarakkara yolunun alternatif bir pist olarak kullanılabileceğini gösterdi. Milli Savunma Bakanlığı (MSB), Karayolları Genel Müdürlüğü (KGM)veBaykar koordinasyonunda gerçekleştirilençalışma, pistlerin kullanılamadığı acil durum senaryolarına yönelik daha geniş kapsamlı bir hazırlığın ilk uygulaması niteliğinde. Çalışma kapsamında Türkiye'nin farklı bölgelerinde saha incelemeleri yapılarak uygun kara yolu güzergâhları belirlendi. Böylece milli İHA ve SİHA'ların ihtiyaç duyulması hâlinde mevcut hava üslerine bağımlı kalmadan görev yapabilmesinin önü açılmak isteniyor. Bu kabiliyet özellikle askeri hava üslerinin saldırıya uğradığı, pistlerin hasar gördüğü veya başka nedenlerle kullanılamaz hâle geldiği durumlarda önem kazanıyor. Türkiye ile Çin arasında 15 milyar dolarlık enerji anlaşması11 sa. önce eklendiHedef, Baykar'ın Geliştirdiği Tüm İHA'ları KapsamakKara yollarını piste alternatif olarak kullanma kabiliyeti, yalnızca Bayraktar TB2 ve AKINCI ile sınırlı kalmayacak. Baykar tarafından oluşturulan operasyonel konseptin, şirketin geliştirdiği tüm insansız hava araçlarını kapsayacak şekilde genişletilmesi hedefleniyor. Bu kapsamda Türkiye'nin ilk milli insansız savaş uçağıKIZILELMAve kısa pistli gemilerden iniş ve kalkış yapabilecek şekilde geliştirilenBayraktar TB3 de projeye dâhil edilecek.Elbette her platformun kalkış ve iniş gereksinimleri farklı olduğu için güzergâhların uzunluğu, genişliği ve yüzey koşulları gibi kriterlerin araçların teknik özelliklerine göre değerlendirilmesi gerekiyor.https://baykartech.com/tr/haberler/akinci-ve-bayraktar-tb2-kara-yoluna-inip-kalkti/Yorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaPopüler BilimSavunma Sanayi HaberleriAKINCI ve Bayraktar TB2, kara yoluna inip kalktıBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük Kara yollarını piste alternatif olarak kullanma kabiliyeti, yalnızca Bayraktar TB2 ve AKINCI ile sınırlı kalmayacak. Baykar tarafından oluşturulan operasyonel konseptin, şirketin geliştirdiği tüm insansız hava araçlarını kapsayacak şekilde genişletilmesi hedefleniyor. Bu kapsamda Türkiye'nin ilk milli insansız savaş uçağıKIZILELMAve kısa pistli gemilerden iniş ve kalkış yapabilecek şekilde geliştirilenBayraktar TB3 de projeye dâhil edilecek.Elbette her platformun kalkış ve iniş gereksinimleri farklı olduğu için güzergâhların uzunluğu, genişliği ve yüzey koşulları gibi kriterlerin araçların teknik özelliklerine göre değerlendirilmesi gerekiyor. Ekranlı ve mikrofonlu akıllı yüzük",
-      "summary": ""
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Elektrikli araç satışları yeniden büyüdü: Avrupa ve ihracat etkisi",
-      "source": "Donanimhaber",
-      "link": "https://www.donanimhaber.com/elektrikli-arac-satislari-yeniden-buyumeye-gecti--212880",
-      "pubDate": "Fri, 13 Nov 2026 23:09:00 +0300",
-      "image": "https://www.donanimhaber.com/images/images/haber/212880/1200x675elektrikli-arac-satislari-yeniden-buyumeye-gecti.jpg",
-      "text": "Otomotiv dünyasına ilişkin gelişmeleri yakından takip eden Barış, DonanımHaber okurlarına otomobil haberleri çoğunlukta olmak üzere Türkiye gündemine ilişkin içerikler de aktarıyor. Seslendirme ve özetler\r\n         yapay zeka ile oluşturulmuştur. Ancak büyüme tüm pazarlara eşit dağılmadı. Çin'deki iç satışların gerilediğini siz değerli okurlarımıza aktarmıştık. Avrupa güçlü artışını sürdürürken Kuzey Amerika’daki yükselişte ise geçen yılın düşük satış rakamları belirleyici oldu. Avrupa’da elektrikli ve şarj edilebilir hibrit satışları ekimdeyüzde 36 büyüdü. Teşvikler, yükselen yakıt fiyatları, Avrupa Birliği’nin emisyon düzenlemeleri ve model seçeneklerinin artması bu büyümeyi destekledi. Yeni Volkswagen T-Roc R'dan ilk görüntüler geldi22 sa. önce eklendiÇin’de ise iç pazardaki satışlar yıllık bazda yüzde 12 geriledi. Benchmark veri yöneticisi Charles Lester’a göre üreticiler, ülkelerindeki zayıflayan talep karşısında ihracata daha fazla ağırlık veriyor. Çin’in yeni enerjili binek araç ihracatı ekimde yaklaşık 600 bin adetle yeni bir aylık rekora ulaştı.Kuzey Amerika’daki artış, tam bir toparlanma değilKuzey Amerika’da satışlaryüzde 24 artarakyeniden büyümeye geçti. Ancak bu rakamı değerlendirirken ABD’deki teşvik değişikliğini dikkate almak gerekiyor.Ekim, ABD’deki satışların geçen yıl federal elektrikli araç vergi desteğinin sona ermesinden sonraki bir ayla karşılaştırıldığı ilk dönem oldu. Dolayısıyla yıllık artışta, geçen yılın düşük satış seviyesi etkili. Lester,ABD pazarının eski seviyesine dönmekten ziyade daha düşük bir düzeyde dengelendiğinibelirtiyor.Çin, Avrupa ve Kuzey Amerika dışındaki pazarlarda ise satışlar yüzde 85 arttı. Bu ülkelerdeki toplam satış hacmi Kuzey Amerika’yı geride bıraktı. Benchmark’a göre bu büyümenin önemli bir bölümünü, Çinli üreticilerin ihracatındaki artış oluşturdu.https://www.reuters.com/business/autos-transportation/global-electric-vehicle-sales-return-growth-october-2026-11-12/Yorum YazPaylaşTweetleEposta ile Paylaşınbaşlıklı buarkadaşınıza postalayın.AnasayfaYaşamOtomobil Teknolojileri HaberleriElektrikli araç satışları yeniden büyümeye geçtiBu haberi ve diğer DH içeriklerini, gelişmiş mobil uygulamamızı\r\n        kullanarak görüntüleyin:Daha Fazla VideoSessiz Video TercihleriOtomatik yükle ve oynatVideo bitince sonrakine geçdonanimhabercomInstagramTakip EtEkranlı ve mikrofonlu akıllı yüzük Çin’de ise iç pazardaki satışlar yıllık bazda yüzde 12 geriledi. Benchmark veri yöneticisi Charles Lester’a göre üreticiler, ülkelerindeki zayıflayan talep karşısında ihracata daha fazla ağırlık veriyor. Çin’in yeni enerjili binek araç ihracatı ekimde yaklaşık 600 bin adetle yeni bir aylık rekora ulaştı. Kuzey Amerika’da satışlaryüzde 24 artarakyeniden büyümeye geçti. Ancak bu rakamı değerlendirirken ABD’deki teşvik değişikliğini dikkate almak gerekiyor. Ekim, ABD’deki satışların geçen yıl federal elektrikli araç vergi desteğinin sona ermesinden sonraki bir ayla karşılaştırıldığı ilk dönem oldu. Dolayısıyla yıllık artışta, geçen yılın düşük satış seviyesi etkili. Lester,ABD pazarının eski seviyesine dönmekten ziyade daha düşük bir düzeyde dengelendiğinibelirtiyor. Çin, Avrupa ve Kuzey Amerika dışındaki pazarlarda ise satışlar yüzde 85 arttı. Bu ülkelerdeki toplam satış hacmi Kuzey Amerika’yı geride bıraktı. Benchmark’a göre bu büyümenin önemli bir bölümünü, Çinli üreticilerin ihracatındaki artış oluşturdu. Ekranlı ve mikrofonlu akıllı yüzük",
-      "summary": ""
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "GTA 6'nın içinde bir çizgi dizi izlenebilecek",
-      "source": "Shiftdelete",
-      "link": "https://shiftdelete.net/gta-6-cizgi-dizi-macca-and-friends",
-      "pubDate": "Fri, 13 Nov 2026 23:00:00 +0300",
-      "image": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/gta-6-macca-and-friends-cizgi-dizi-kapak-1311.webp",
-      "summary": "Bu haberin tam metnine ulaşılamadı."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "Nvidia imparatorluğundaki son saatler: Jensen Huang",
-      "source": "Donanimhaber",
-      "link": "https://www.donanimhaber.com/nvidia-imparatorlugundaki-son-saatler-jensen-huang--212883",
-      "pubDate": "Fri, 13 Nov 2026 22:47:00 +0300",
-      "image": "https://www.donanimhaber.com/images/images/haber/212883/1200x675nvidia-imparatorlugundaki-son-saatler-jensen-huang.jpg",
-      "summary": "Nvidia’nın kurucusu ve CEO’su Jensen Huang, 1993 yılında üç mühendisle birlikte grafik işlemcileri geliştirmek amacıyla şirketi kurdu. Şirket, başlangıçta kişisel bilgisayarlara üç boyutlu grafik getirmeyi hedeflerken, zamanla GPU’ları genel amaçlı işlemcilere dönüştürerek yapay zeka altyapısının temelini oluşturdu ve dünyanın en değerli şirketlerinden biri haline geldi."
-    },
-    {
-      "cat": "Teknoloji",
-      "catId": "teknoloji",
-      "title": "25 Yılda Yalnızca %3,6 Kapasite Kaybı: Yeni Batarya Teknolojisi Devreye Giriyor!",
-      "source": "Webtekno",
-      "link": "https://www.webtekno.com/yalnizca-3-6-kapasite-kaybi-yeni-batarya-teknolojisi-devreye-giriyor-h228982.html",
-      "pubDate": "Fri, 13 Nov 2026 22:45:58 +0300",
-      "image": "https://imgrosetta.webtekno.com/file/697183/697183-640xauto.jpg",
-      "summary": "Bu haberin tam metnine ulaşılamadı."
     },
     {
       "cat": "Bilim",
@@ -265,6 +268,50 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
+      "title": "10 yaşında yaşadığı olay hayatını değiştirdi: 'Uzun zamandır bu duruma alıştım'",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/gundem/10-yasinda-yasadigi-olay-hayatini-degistirdi-uzun-zamandir-bu-duruma-alistim-43377815",
+      "pubDate": "Sat, 14 Nov 2026 06:58:44 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af8061a2356f0a3a15a21b8.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "5 gündür haber alınamayan öğretmenden acı haber! Arkadaşının minibüsünde ölü bulundu",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/gundem/5-gundur-haber-alinamayan-ogretmenden-aci-haber-arkadasinin-minibusunde-olu-bulundu-43377790",
+      "pubDate": "Sat, 14 Nov 2026 06:43:00 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af802ec8c01a1364d068d31.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Batrakov'dan Galatasaray açıklaması: 'Tek hedefim şampiyonluk!'",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/sporarena/batrakovdan-galatasaray-aciklamasi-tek-hedefim-sampiyonluk-43377769",
+      "pubDate": "Sat, 14 Nov 2026 06:41:52 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af7ff5dc813a6f07cce8317.jpg",
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
+      "title": "Bugün ne pişirsem diyenlere: Günlük ev yemeği menüsü (14 Kasım 2026)",
+      "source": "Hurriyet",
+      "link": "https://www.hurriyet.com.tr/lezizz/galeri-bugun-ne-pisirsem-diyenlere-gunluk-ev-yemegi-menusu-14-kasim-2026-43377781",
+      "pubDate": "Sat, 14 Nov 2026 06:33:00 Z",
+      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af800032356f0a3a15a2190.jpg",
+      "text": "Sebzelerle birlikte tepside sulu sulu pişirilen fırında palamut, sofranız için hem pratik hem lezzetli bir yemek seçeneği oluyor. Zeytinyağı, limon suyu, sarımsak ve kekikli sosta dinlenen balık dilimleri, fırında kurumadan lokum kıvamında kızarıyor. Pırasa ve kremanın lezzeti ile hazırlanan bu nefis sebze çorbası, soğuk günlerde sıcacık içimiyle sofraya geldiği anda iştahları açıyor. Tereyağında kavrulan pırasaların hafif taneli kıvamı, baharatların lezzetiyle bütünleşerek çorbanın lezzetini artırıyor. Taze rokanın domates ve soğanla bir araya geldiği bu nefis salata, sofranıza ferahlatıcı bir seçenek sunuyor. Nar ekşisi, zeytinyağı ve limon suyuyla hazırlanan mayhoş sosu, salatanın lezzetini tamamlıyor. Atom mezesi, az malzemeyle dakikalar içinde hazırlanarak sofranıza enfes bir yoğurtlu meze çeşidi oluyor. Sarımsaklı süzme yoğurt, tereyağında kavrulan kurutulmuş acı biber ve cevizle buluşarak damak çatlatan bir lezzete dönüşüyor. Mutfağımızın en sevilen mezelerden biri olan babagannuş, közlenmiş sebzelerin bıçakla ince ince doğranıp harmanlanmasıyla hazırlanıyor. Ateşte pişen patlıcan, biber ve domateslerin isli tadı, bol zeytinyağı ve nar ekşisiyle birleşerek damaklarda enfes bir tat bırakıyor. Çıtır çıtır baklavalık yufkaları, içindeki irmik dolgusu ve bol Antep fıstığıyla şöbiyet, şerbetli tatlı sevenler için enfes bir seçenek oluyor. Kat kat dizilen yufkaların arasına sürülen tereyağının lezzetiyle pişen şöbiyetlerin tadına doyum olmuyor.",
+      "summary": ""
+    },
+    {
+      "cat": "Sanat",
+      "catId": "sanat",
       "title": "Sessiz pandemi: Türkiye'de 14 milyon hasta var! O hastalardan bazıları hikayelerini anlattı",
       "source": "Hurriyet",
       "link": "https://www.hurriyet.com.tr/aile/galeri-sessiz-pandemi-turkiyede-14-milyon-hasta-var-o-hastalardan-bazilari-hikayelerini-anlatti-43376715",
@@ -276,7 +323,7 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
-      "title": "Fenerbahçe Van Dijk yarışında öne geçti! Kritik isim transfer için devreye girdi",
+      "title": "Fenerbahçe, Van Dijk yarışında öne geçti! Kritik isim transfer için devreye girdi",
       "source": "Hurriyet",
       "link": "https://www.hurriyet.com.tr/sporarena/fenerbahce-van-dijk-yarisinda-one-gecti-kritik-isim-transfer-icin-devreye-girdi-43377751",
       "pubDate": "Sat, 14 Nov 2026 05:17:00 Z",
@@ -320,33 +367,11 @@
     {
       "cat": "Sanat",
       "catId": "sanat",
-      "title": "Kahire Atina’nın hesabını bozdu… ‘Türkiye olmadan masaya oturmayız’",
-      "source": "Hurriyet",
-      "link": "https://www.hurriyet.com.tr/dunya/kahire-atinanin-hesabini-bozdu-turkiye-olmadan-masaya-oturmayiz-43377734",
-      "pubDate": "Sat, 14 Nov 2026 04:00:00 Z",
-      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af7cd823516f14679cc7cc2.jpg",
-      "text": "",
-      "summary": ""
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
       "title": "Yılbaşı özel çekilişinde büyük ikramiye 1 milyar TL",
       "source": "Hurriyet",
       "link": "https://www.hurriyet.com.tr/gundem/yilbasi-ozel-cekilisinde-buyuk-ikramiye-1-milyar-tl-43377691",
       "pubDate": "Sat, 14 Nov 2026 04:00:00 Z",
       "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af77d27c813a6f07cce81b2.jpg",
-      "text": "",
-      "summary": ""
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "‘Kara Maskeliler’e ceza yağdı",
-      "source": "Hurriyet",
-      "link": "https://www.hurriyet.com.tr/gundem/kara-maskelilere-ceza-yagdi-43377723",
-      "pubDate": "Sat, 14 Nov 2026 04:00:00 Z",
-      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af796513516f14679cc7c1c.jpg",
       "text": "",
       "summary": ""
     },
@@ -406,28 +431,6 @@
       "summary": ""
     },
     {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Demokrat Parti’de liderlik yarışı",
-      "source": "Hurriyet",
-      "link": "https://www.hurriyet.com.tr/dunya/demokrat-partide-liderlik-yarisi-43377736",
-      "pubDate": "Sat, 14 Nov 2026 04:00:00 Z",
-      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af7d1f83516f14679cc7ce1.jpg",
-      "text": "",
-      "summary": ""
-    },
-    {
-      "cat": "Sanat",
-      "catId": "sanat",
-      "title": "Seçimlerde işi zor… Sanchez tabanı ikna edebilecek mi",
-      "source": "Hurriyet",
-      "link": "https://www.hurriyet.com.tr/dunya/secimlerde-isi-zor-sanchez-tabani-ikna-edebilecek-mi-43377737",
-      "pubDate": "Sat, 14 Nov 2026 04:00:00 Z",
-      "image": "https://image.hurimg.com/i/hurriyet/90/620x350/6af7d2d13516f14679cc7ce8.jpg",
-      "text": "",
-      "summary": ""
-    },
-    {
       "cat": "Ücretsiz Oyun",
       "catId": "oyun",
       "title": "Toplam Değeri 2.400 TL'den Fazla 4 Oyun, Xbox'ta Bu Hafta Sonu Ücretsiz Oldu",
@@ -460,12 +463,155 @@
     {
       "cat": "Dünya",
       "catId": "dunya",
+      "title": "Alperen Şengün alev aldı: 43 sayılık performans",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/spor/nba/alperen-sengun-alev-aldi-43-sayilik-performans-3493070",
+      "pubDate": "Sat, 14 Nov 2026 10:31:30 GMT",
+      "image": null,
+      "text": "Toyota Center'da oynanan karşılaşmadaAlperen Şengün43 sayı, 12 ribaunt ve 5 asistle \"double-double\" yaptı. Alperen, kulüp tarihindeYao MingveJames Harden'dan sonra 40 sayı 10 ribaunt ve 5 asist barajını aşan üçüncü oyuncu oldu. Houston Rockets'ta Kevin Durant 22 sayı, Tari Eason 14 sayı ve 11 ribaunt, Amen Thompson da 12 sayı ve 10 ribauntla galibiyete katkı sağladı. Jazz'da ise Darryn Peterson 28, Keyonte George 27 ve Ace Bailey 21 sayıyla mücadeleyi tamamladı.  Thunder'da Alexander'ın 40 sayısı mağlubiyeti önleyemedi NBAKupası'nda Los Angeles Clippers, konuk ettiği Oklahoma City Thunder'ı 113-112 yendi. Clippers'ta Brook Lopez 26, Darius Garland 24, Derrick Jones ve Keaton Wagler de 14'er sayıyla mücadele etti. Thunder'da Shai Gilgeous-Alexander'ın 40, Jared McCain'in 23 sayısı galibiyet için yeterli olmadı. İİT Genel Sekreteri Ahmed CNN TÜRK'e konuştu: \"Erdoğan'ın kullandığı ekokırım ifadesi çok yerinde\" Çevre Bakanı Barasa CNN TÜRK'te açıkladı: Türkiye ve Kenya'dan iş birliği hamlesi",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Hamzabeyli Gümrüğü'nde dev kaçakçılık operasyonu! 558 milyon TL'lik ürün ele geçirildi",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/ekonomi/hamzabeyli-gumrugunde-dev-kacakcilik-operasyonu-558-milyon-tllik-urun-ele-gecirildi-3493068",
+      "pubDate": "Sat, 14 Nov 2026 10:31:09 GMT",
+      "image": null,
+      "text": "Ticaret Bakanlığıtarafından yapılan açıklamaya göre,Hamzabeyli GümrükMuhafaza Kaçakçılık ve İstihbarat Müdürlüğü ekipleri,Edirne-Hamzabeyli Gümrük Sahası'ndaki kontroller sırasında şüpheli hareketlerde bulunan bir tırı takibe aldı. Araçta gerçekleştirilen detaylı kontrollerde, gümrük işlemleri tamamlanmadan Türkiye'ye sokulmak istenen çok sayıda ticari eşya tespit edildi. 193 BİN ELEKTRONİK SİGARA VE BİNLERCE ÜRÜN ELE GEÇİRİLDİ Tırda yapılan aramalarda ele geçirilen kaçak ürünlerin miktarı dikkat çekti. Operasyonda; 193 bin 31 adetelektronik sigarave aksamı, 3 bin 600 adet sigara filtresi, 4 bin 700 adet cep telefonu, 8 bin 233 adet ilaç, 11 bin 263 adet gözlük ve aksesuarı ele geçirildi. Ele geçirilen ürünlerin gümrüklenmiş toplam değerinin 558 milyon 594 bin lira olduğu tespit edildi. KAÇAKÇILIKLA MÜCADELE SÜRÜYOR Ticaret Bakanlığı, kaçakçılıkla mücadele çalışmalarının sürdüğünü bildirdi. Bakanlığın açıklamasında, operasyonların temel amaçları arasında ülkenin ekonomik çıkarlarının ve güvenliğinin korunması, toplum sağlığını tehdit eden kaçak ürünlerin yurda girişinin engellenmesi, dürüst ticaret yapan işletmelerin haklarının korunması ve haksız rekabetin önlenmesinin bulunduğu belirtildi.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Çevre Bakanı Barasa CNN TÜRK'te açıkladı: Türkiye ve Kenya'dan iş birliği hamlesi",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/video/dunya/cevre-bakani-barasa-cnn-turkte-acikladi-turkiye-ve-kenyadan-is-birligi-hamlesi-3493064",
+      "pubDate": "Sat, 14 Nov 2026 10:22:43 GMT",
+      "image": null,
+      "text": "Büşra Arslantaş:Bu zirvenin önemi nedir ve ev sahibi olarak Türkiye'nin rolünü nasıl görüyorsunuz? \"ARTIK KURU BİLDİRGELER İSTEMİYORUZ\" Deborah Barasa:Bugün burada, özellikle Kenya olarak bulunmaktan büyük bir heyecan duyuyoruz. Sadece kuru bildirgeler yayınlamakla kalmayıp, somut icraat ve teslimat sağlandığından emin olmak için buradayız. Bildirgelerin hayata geçirilmesi için... İklim değişikliği müzakereleriyle geçen 10 yılı geride bıraktık; ancak artık istediğimiz şey somut teslimattır. En alt kademede, tabanda ve halkın hayatında gerçek bir etki görmek istiyoruz. Toplulukların dönüştüğünü görmek istiyoruz. Bu mesele Kenya'daki hayvan yetiştiricileriyle, çiftçilerle ilgilidir. Kuraklık dönemlerinde hayvan yetiştiricilerinin sürülerinin de hayatta kalıp gelişebileceğinden emin olmalıyız. Çiftçilerin de gıdaya erişimi olacağından emin olmalıyız, anlıyorsunuz. Sel felaketleri sırasında ise diğer pek çok unsurun yanı sıra şehirlerimizin de dirençli olmasını güvence altına almak istiyoruz. Dolayısıyla bizim için bu seferki zirve tamamen somut teslimatla ilgilidir. Teslimatın ne anlama geldiğine gelince; bu 'iklim finansmanı' demektir. İklim direncini tesis edebilmemiz ve iklim eylemini sahada yürütebilmemiz adına; Kenya için, Afrika için ve Küresel Güney için erişilebilir finansman kaynaklarının bulunduğundan emin olmamız gerekiyor.  İkinci başlığımız ise doğrudan Afrika. Buraya şunu söylemek için geldik; Afrika aciz veya kırılgan bir kıta değildir. Doğal kaynaklarımız var, genç bir nüfusumuz var ve teknik kapasitemiz mevcut. Uygulamaya geçebilmek ve emisyonları azaltma yolunda çalışmalarımızı sürdürebilmek için tek ihtiyacımız olan şey finansal kaynaklardır. Üçüncü başlık ise Kenya'nın kendisi. Kenya olarak bugüne dek başardığımız en iyi uygulama örneklerini tüm dünyayla paylaşmak için de buradayız. Sizin de çok iyi bildiğiniz gibi yenilenebilir enerji konusu... Ülkemizin enerji kullanımının büyük kısmı, aslında yüzde 90'ından fazlası yenilenebilir enerjiden sağlanıyor. Karbon alanında, karbon piyasalarında ve iklim dostu akıllı tarım gibi pek çok konuda çok önemli işlere imza attık. Ve az önce ziyaret ettiğimiz alanlardan biri de kesinlikle kentsel dirençlilik ve erişilebilir sosyal konut projeleriydi. Dolayısıyla Kenya çok büyük işler başarıyor. Kenya ortaklık kurmaya hazır. Kenya aynı zamanda iklim eylemlerini ve uyum süreçlerini hayata geçirebilmek için Afrika ve Küresel Güney adına kaynak sağlanmasının savunuculuğunu yapıyor. Bu yüzden burada olmaktan gerçekten büyük heyecan duyuyoruz. Büşra Arslantaş:Afrika Türkiye ve Türk dış politikası için son derece önemli. Cumhurbaşkanı Erdoğan da bunu her fırsatta dile getiriyor. Türkiye ile yeni bir planınız, yeni bir iş birliği projeniz var mı diye sormak istiyorum. \"SIFIR ATIK, TİCARET VE SAĞLIKTA ORTAKLIK KURACAĞIZ\" Deborah Barasa:Evet; kentsel dirençlilik ve 'Sıfır Atık' dahil olmak üzere pek çok farklı alanda ortaklık kurmayı hedefliyoruz. Aynı zamanda ticaret, sağlık ve diğer alanlarda da iş birliği arayışındayız. Dolayısıyla Türkiye'de bulunmaktan gerçekten büyük mutluluk duyuyoruz .Mutluyuz, \"TÜRKİYE KÜRESEL KUZEY İLE GÜNEY ARASINDA BİR KÖPRÜ\" Çünkü burası bildirgeler ile somut icraat arasında bir köprü görevi görüyor. Uygulamadan, somut etkilerden ve neticelerden söz ediyor olmamız bizi heyecanlandırıyor. Ve Türkiye, somut etkiyi görebilmemizi sağlamak adına Küresel Kuzey ile Küresel Güney arasında gerçek anlamda bir köprü rolü üstleniyor. Artık sadece bildirgelerden bahsetmiyoruz.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Kübra Ünlü yazdı! Aile Boyu Neşenin ve Duygu Dolu Anların Adresi; Beyaz'la Joker 34. Bölümüyle; Kanal D'de!",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/magazin/kubra-unlu-yazdi-aile-boyu-nesenin-ve-duygu-dolu-anlarin-adresi-beyazla-joker-34-bolumuyle-kanal-dde-3493067",
+      "pubDate": "Sat, 14 Nov 2026 10:18:55 GMT",
+      "image": null,
+      "text": "Ailelerin ekran başında kahkahayla ve heyecanla buluştuğu yapım, zengin içeriği, benzersiz soruları ve stüdyodaki samimi atmosferiyle izleyicilere unutulmaz anlar yaşattı.Beyazıt Öztürk’ün ekran kıdemi veKanal Dekranının nitelikli yapım anlayışı, hafızalardan silinmeyecek 'Kült Projesi' olarak ekrana  imza atmaya devam edeceğini bir kez daha kanıtladı. Her anı sürprizlerle dolu olan bu özel yapımda, yarışmacıların sergilediği performanslar ve gerçek  yaşam öyküleri ekran başındakilere aile boyu duygu ve neşe dolu anlar yaşatmaya devam ediyor. Sahne Tozuna Karışan Samimiyet! Bölümün genel akışında stüdyoda yankı bulan coşku dolu anlar, yarışmacıların ortaya koyduğu yüksek başarıyla birleşen uyum geceye renk kattı.Beyazıt Öztürk’ün anlık esprileri,  sıcak tavrı, izleyenlere de keyifli bir seyir sunuyor. Bilginin eğlenceyle, eğlencenin ise belli bir ağırlıkla buluştuğu bu yapım biçimi, izleyicinin gönlünde yer etmeyi sürdürüyor. Kelimelerin Özenle Seçildiği Bir Ekran Dili! Kanal D yönetimi ile yapım ekibinin Türkçenin zenginliğini koruma konusundaki titizliği, yabancı sözcüklerin gölgesinde kalan sıradan televizyon alışkanlıklarından uzak duran proje, dilimizin inceliklerini genç kuşaklara aktarmada örnek bir tavır takınıyor. Her yeni sahnenin tanıtımında ekrana yansıyan özenle seçilmiş Türkçe ifadeler, edebiyat dünyasının takdirini toplarken ekran başındakiler için de zihin açıcı bir ayrıntı sunuyor. Karanlığı Aydınlatan Bir Cesaret Öyküsü; İdris Ekinci! Gecenin en dokunaklı anlarından biri, görme engelli yarışmacı İdris Ekinci’nin stüdyodaki varlığıyla yaşandı. Kendisi gibi görme engelli bireylere umut ışığı olmak ve onlara cesaret aşılamak amacıyla yarışma koltuğuna oturan Ekinci, yaşamından paylaştığı kesitlerle yüreklere dokundu. Sorular karşısında sergilediği başarılı performansın ötesinde, hayata tutunuş biçimi ve kararlı duruşu stüdyodakilerin yoğun alkışlarıyla karşılık buldu. Yıllara Meydan Okuyan Romantik Anlar! Yarışmanın akışını değiştiren sürpriz gelişmelerden biri de Avukat Murat Uğur’un imza attığıromantik anlaroldu. Yarışma heyecanını bir üst seviyeye taşıyan Uğur, stüdyonun enerjisini tamamen değiştiren bir hamleyle yıllar sonra hayat arkadaşına yeniden evlilik teklifinde bulundu. Bilgi maratonunun alışılagelmiş temposuna bambaşka bir soluk getiren bu özel ve zarif an, ekran başındaki milyonları da bu heyecana ortak etti. Bilgisayar Mühendisliğinden Direksiyona Uzanan Renkli Portreler! Gecenin dikkat çeken diğer isimleri arasında yer alan bilgisayar mühendisi Yüsra Kuloğlu, analitik düşünce yapısı ve sorular karşısındaki soğukkanlı hamleleriyle dikkat çekti. Bölümün bir diğer renkli yarışmacısı otobüs şoförü Harun Ateş ise meslek hayatından süzülen yaşam deneyimlerini karşısına çıkan sorularla ustaca harmanladı. Direksiyon başındaki anılarıyla izleyicileri hem düşündüren hem de güldüren Ateş, Beyazıt Öztürk ile gerçekleştirdiği neşeli sohbetlerle geceye ayrı bir tat kattı. Beyaz'la Joker; Pazartesi Akşamlarının Vazgeçilmez Adresi! Sohbetin, kahkahanın, Türkçe'ye duyulan hassasiyetin ve gerçek insan hikayelerinin aynı sahnede buluştuğu “Beyaz'la Joker”, 34.bölümüyle bir kez daha yerini pekiştirdi. Beyazıt Öztürk’ün ekran kıdemi ve Kanal D ekranının nitelikli yapım anlayışı, hafızalardan silinmeyecek 'Kült Projesi' olarak ekrana  imza atmaya devam ediyor. Beyazıt Öztürk'ün sunduğu veErdi Yapımtarafından hazırlanan Beyaz’la Joker, Cuma akşamı saat 20.00’de Kanal D ekranlarında yeni bölümleriyle ekranda olmaya devam edecek...",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Siberpunk estetiği yeni nesil güçle buluşuyor",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/teknoloji/siberpunk-estetigi-yeni-nesil-gucle-bulusuyor-3493066",
+      "pubDate": "Sat, 14 Nov 2026 10:15:49 GMT",
+      "image": null,
+      "text": "Ürüne yakından baktığımızda gövde yapısına uygun olarak mavi/beyaz aydınlatmalı tek bölge klavye tercih edilmiş. Tuş basış hissi tatminkar, yön tuşları ayrıştırılmış ve Windows Copilot kısayol tuşu eklenmiş. Bitmedi. Cyborg 15 Max port çeşitliliği ile de büyük sükse topluyor. Ekran Deneyimi 15.6 inç boyutundaki FHD IPS-Level panel, 144 Hz yenileme hızıyla aksiyon sahnelerinde ve hızlı oyunlarda takılmasız bir görsel deneyim vaat ediyor. Renk doğruluğu tarafında %100 sRGB kapsama alanı sunulması, cihazı sadece bir oyun makinesi olmaktan çıkarıp günlük grafik tasarım ve video kurgu işleri için de uygun bir seçeneğe dönüştürüyor. Performans: Intel 13. Nesil veRTX 5050GDDR7 Mimarisi C13WE konfigürasyonu, Intel’in performans (P-core) ve verimlilik (E-core) çekirdeklerini birleştiren 13. Nesil işlemcileri ile güçlendiriliyor. Çoklu görev performansında, yani yayın açma, içerik üretimi, arka plan uygulamaları gibi, cihazda oldukça akıcı bir grafik çiziyor. Intel Core i5-13420H işlemcisi Intel’in 13. Nesil Raptor Lake-H mimarisine sahip. Bu işlemci, orta seviye/bütçe dostu oyuncu ve performans dizüstü bilgisayarları için tasarlanmış mobil bir ürün. Özellikle fiyat/performans dengesi hedefleyen dizüstü bilgisayarlarda sıkça kullanılan bu işlemcinin öne çıkan detayları, mimari yapısı ve sentetik benchmark (test) sonuçları ile kendisinden söz ettiriyor.RTX 5050 & 8GB GDDR7 Avantajı Grafik tarafındaki NVIDIA GeForce RTX 5050, yeni mimarinin getirdiği verimliliğin yanı sıra 8 GB GDDR7 bellek ile geliyor. Günümüz modern AAA oyunlarında 6 GB VRAM sınırının yarattığı darboğazlar düşünüldüğünde, 8 GB VRAM sunulması Max modelini uzun ömürlü kılan en kritik detaylardan biri. İşte bu detay 1080p oyun performansında kendisini gösteriyor. Öyle ki144 Hz ekranile birleştiğinde e-Sporoyunlarında, yani CS2, Valorant ve Apex Legends gibi oyunlarda kare hızları ekranın yenileme hızını rahatlıkla doyuruyor. Soğutma ve “Max” Revizyonunun Katkısı İlk nesil Cyborg modellerinde en çok tartışılan konulardan biri tek fanlı soğutma yapısı ve sınırlandırılmış TGP değerleriydi. MSI, Cyborg 15 Max serisiyle bu geri bildirimleri dikkate almış görünüyor. İlk olarak %27 daha geniş Fanlar kullanıldı. Bu da hava sirkülasyonu iç hacimde %11 oranında artırılmış. Buna ek olarak ısı borularında da bir geliştirme yapıldı. İç basıncı optimize edilen bakır borular, ısıyı soğutma kanatçıklarına çok daha hızlı ileterek yüksek yük altında saat hızlarının düşmesini engelliyor. Bu sayede de bu cihaz , Cooler Boost / APEX modunda toplam 140W CPU+GPU gücüne ulaşabilen bir termal altyapıyı geçti. Orta segmente güçlü alternatif Hem günlük mobilite ihtiyacını karşılayacak şık ve görece hafif bir laptop arayan hem de 1080p çözünürlükte güncel oyunları yüksek ayarlarda akıcı oynamak isteyen kullanıcılar için Cyborg 15 Max C13WE, fiyat/performans skalasında güçlü bir alternatif.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Çanakkale Boğazı transit gemi geçişlerine yeniden açıldı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/turkiye/canakkale-bogazi-transit-gemi-gecislerine-yeniden-acildi-3493063",
+      "pubDate": "Sat, 14 Nov 2026 10:11:03 GMT",
+      "image": null,
+      "text": "Boğaz açıklarında dün etkisini artıran fırtına, boğaz trafiğinde aksamaya neden oldu. Bunun üzerineÇanakkale BoğazıGemi Trafik Hizmetleri Müdürlüğünce, kuzey ve güneyden seyir halindeki gemilerin kaptanlarına telsiz anonsuyla boğazın çift yönlü transit gemi geçişlerine kapatıldığı duyuruldu. Fırtınanın etkisini yitirmesinin ardından Çanakkale Boğazı, transit gemi geçişlerine çift yönlü yeniden açıldı.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "WhatsApp ve Telegram sesli aramalarını kaydetme özelliği geliyor",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/teknoloji/whatsapp-ve-telegram-sesli-aramalarini-kaydetme-ozelligi-geliyor-3493062",
+      "pubDate": "Sat, 14 Nov 2026 10:06:02 GMT",
+      "image": null,
+      "text": "Sızdırılan erken One UI 9.5 test sürümlerinde ortaya çıkan bilgilere göre kullanıcılar, artıkWhatsApp,Telegramve Google Meet gibi popüler uygulamalar üzerinden yapılan sesli aramaları doğrudan sistem düzeyinde kaydedebilecek. Uygulama Bazlı Ses Kaydı Nasıl Çalışacak? Geliştirme aşamasındaki yeni arayüzde, bu özellik doğrudan cihazın yerleşik Telefon uygulamasına entegre ediliyor: Erişim Yolu: Telefon uygulamasından Ayarlar > Arama kayıtları ve transkriptler (Settings > Call recordings and transcripts) menüsüne girildiğinde \"Diğer uygulamalardaki aramaları kaydet\" şeklinde yeni bir seçenek yer alacak. Bağımsız Açma/Kapatma Düğmeleri : Açılan menüde cihazda yüklü olan desteklenen VoIP uygulamaları listelenecek. Kullanıcılar her uygulama için aramaların otomatik kaydedilip kaydedilmeyeceğini bağımsız olarak ayarlayabilecek. Genişleyebilir Uygulama Listesi: Sızan görsellerde WhatsApp, Telegram ve Google Meet görünse de, bu durum test cihazında yalnızca bu uygulamaların yüklü olmasından kaynaklanıyor. Final sürümünde desteklenen VoIP uygulamalarının listesinin daha geniş olması bekleniyor. Yapay Zekâ Destekli Metne Dökme Yalnızca ses dosyası kaydetmekle kalmayacak olan One UI 9.5 altyapısının,Samsung'un Transcript Assist (Yazı Asistanı) sistemiyle entegre çalışacağı belirtiliyor: WhatsApp veya Telegram üzerinden yapılan sesli görüşmeler kaydedildikten sonra yapay zekâ tarafından otomatik olarak metne dönüştürülebilecek. Görüşme içeriği metin halinde özetlenebilecek ve Notlar uygulamasına aktarılabilecek. Bölgesel Kısıtlamalar ve Yasal Uyarılar Hücresel arama kayıtlarında olduğu gibi bu özellik de bölgesel gizlilik ve ses kaydı yasalarına bağlı olarak sunulacak: Bölgesel Kısıt: Çift taraflı rıza zorunluluğu (two-party consent) veya katı gizlilik yasaları bulunan ülkelerde bu menü tamamen gizlenebilir veya devre dışı bırakılabilir. Bip / Sesli Uyarı İhtimali: Bazı bölgelerde ses kaydı başladığında karşı tarafa otomatik bir kayıt duyurusu veya sesli uyarı sinyali (chime) gönderilebilir. Arayüzdeki varsayılan sorumluluk metninde, üçüncü taraf aramaları kaydederken yasal sorumluluğun kullanıcıya ait olduğu vurgulanıyor. One UI 9.5 sürümünün resmi duyurusunun Galaxy S27 lansmanı ile birlikte yapılması ve ardından kademeli olarak destekleyen diğer Galaxy cihazlara dağıtılması bekleniyor.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Gaziantep'te okul önünde drift atan sürücüye 140 bin TL ceza! Ehliyeti iptal edildi",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/turkiye/gaziantepte-okul-onunde-drift-atan-surucuye-140-bin-tl-ceza-ehliyeti-iptal-edildi-3493060",
+      "pubDate": "Sat, 14 Nov 2026 10:04:36 GMT",
+      "image": null,
+      "text": "GaziantepEmniyet MüdürlüğüTrafik Şube Müdürlüğü ekipleri, okul önünde drift yapan bir araca ilişkin sanal medyada paylaşılan görüntüleri incelemeye aldı. Görüntüleri ihbar kabul eden ekipler, gerçekleştirdikleri çalışmalar sonucunda drift yapan aracı ve sürücüsünü tespit etti. SÜRÜCÜYE 140 BİN TL CEZA KESİLDİ Yapılan incelemelerin ardından araç sürücüsüne 140 bin TLidari para cezasıuygulandı. Ayrıca sürücününaday sürücüolduğu belirlenirken ehliyeti daimi olarak iptal edildi.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Brezilya'da kimya fabrikasında art arda patlama: 12 yaralı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/video/dunya/brezilyada-kimya-fabrikasinda-art-arda-patlama-12-yarali-3493058",
+      "pubDate": "Sat, 14 Nov 2026 09:53:55 GMT",
+      "image": null,
+      "text": "Brezilya'nın Sao Paulo eyaletine bağlı Salto kentinde fabrikada yaşanan patlama, kameraya böyle yansıdı. Dev bir ateş topu yükseldi. Çalışanlar fabrikadan uzaklaştı. Boya ve çözücülerin depolandığı Pyrozzar fabrikasında çıkan yangın nedeniyle çevredeki evler tahliye edildi. En az 12 kişinin yaralandığı belirtildi. Yaralılar arasında itfaiye erleri de var. Bir yaralının durumu ağır. Ekiplerin yangını kontrol altına alma çalışmaları sürüyor. İİT Genel Sekreteri Ahmed CNN TÜRK'e konuştu: \"Erdoğan'ın kullandığı ekokırım ifadesi çok yerinde\" Çevre Bakanı Barasa CNN TÜRK'te açıkladı: Türkiye ve Kenya'dan iş birliği hamlesi",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "KYK BURSU YATTI MI? İlk KYK burs ve kredi ödemeleri başladı mı? KYK kredi ve burs ödeme takvimi 2026",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/turkiye/kyk-bursu-yatti-mi-ilk-kyk-burs-ve-kredi-odemeleri-basladi-mi-kyk-kredi-ve-burs-odeme-takvimi-2026-3493056",
+      "pubDate": "Sat, 14 Nov 2026 09:48:23 GMT",
+      "image": null,
+      "text": "KYK burs ve kredi ödemelerinin ne zaman yapılacağı, 2026-2027 eğitim öğretim yılı başvuru sonuçlarının açıklanmasının ardından merak konusu oldu. Burs veyaöğrenim kredisialmaya hak kazanan öğrenciler için taahhütname onay süresi 11 Kasım’da sona erdi. Bu işlemi tamamlayanlar, şimdi ilk ödemenin hesaplarına geçeceği tarihi araştırıyor. Gözler, Gençlik veSporBakanlığının açıklayacağı ödeme takvimine çevrildi. İlk defa burs/ kredi alacak öğrenciler, Ziraat Genç Bank Kart aracılığıyla ATM'lerden çekim yapılabileceği gibi şubelerden de T.C kimlik numaralarıyla burs ve kredilerini çekebilecekler. İLK KYK BURS VE KREDİ ÖDEMELERİ BAŞLADI MI? İlk kez burs veya öğrenim kredisi alacak öğrenciler için ilk ödemenin ekim ve kasım aylarını kapsayacak şekilde iki aylık olarak yapılması bekleniyor.Geçmiş yıllardaki ödeme takvimi kasım ayının ikinci yarısını işaret etse de bu yılın kesin ödeme tarihi henüz netleşmedi.Ödemeler ise T.C. kimlik numarası son rakamına göre her ayın 6. ve 10. günleri arasında yapılmaktadır. Bu takvim, halihazırda düzenli ödeme alan öğrencilerin aylık ödemeleri için uygulanıyor. 2026-2027 döneminde ilk kez burs veya kredi alacak öğrencilerin ilk ödeme tarihi için ayrıca duyuru yapılması gerekiyor. T.C. kimlik numarasına göre; Son hanesi 0: Ayın 6'sı Son hanesi 2: Ayın 7'si Son hanesi 4: Ayın 8'i Son hanesi 6: Ayın 9'u Son hanesi 8: Ayın 10'u KYK BURS MİKTARI NE KADAR? Gençlik ve Spor Bakanı Osman Aşkın Bak, TBMM Plan ve Bütçe Komisyonu’nda gerçekleştirilen 2027 yılı bütçe görüşmelerinde üniversite öğrencilerine verilen burs ve kredilerle ilgili soruları yanıtladı. Mevcut burs miktarının 4 bin lira olduğunu hatırlatan Bak, 2026-2027 döneminde öğrencilere ödenen burs tutarının artırılacağını belirtti. KYK 2026 itibariyle açıklanan burs miktarları: Ön lisans ve Lisans: 4.000 TL Yüksek Lisans: 8.000 TL Doktora: 12.000 TL",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "ABD'de tanker yolcu gemisine çarptı! 129 kişinin bulunduğu gemi su almaya başladı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/dunya/abdde-tanker-yolcu-gemisine-carpti-129-kisinin-bulundugu-gemi-su-almaya-basladi-3493057",
+      "pubDate": "Sat, 14 Nov 2026 09:48:22 GMT",
+      "image": null,
+      "text": "Yerel basında yer alan haberlere göre, Atlantic Asphalt isimli tanker, öğleden sonraMississippi Nehrikıyısında demirleyenAmerican Cruise Linesşirketine aitAmerican Heritageadlı yolcu gemisine çarptı. Yolcularını indirmek üzere kıyıda bekleyen gemide, mürettebatla birlikte toplam 129 kişinin bulunduğu belirtildi. Çarpışmanın ardındanyolcu gemisihızla su almaya başladı. MAHSUR KALANLAR İÇİN KURTARMA ÇALIŞMASI BAŞLATILDI Kazanın ardından geminin içerisindemahsur kalanlarve çarpışma sırasında nehre düşen kişilerin kurtarılması için ekipler harekete geçti. Sosyal medyada paylaşılan görüntülerde, çarpışmanın ardından yolcu gemisinin hızla yan yattığı görüldü. Görüntülerde ayrıca bazı yolcuların suyun üzerinde bulunan dubalara ve çevredeki parçalara tutunarak hayatta kalmaya çalıştığı dikkat çekti.",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "İngiltere'de dron alarmı: ABD personeline sığınak talimatı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/video/dunya/ingilterede-dron-alarmi-abd-personeline-siginak-talimati-3493052",
+      "pubDate": "Sat, 14 Nov 2026 09:40:53 GMT",
+      "image": null,
+      "text": "İngiltere'de ABD ordusu unsurlarına ev sahipliği yapan Kraliyet Hava Kuvvetleri Lakenheath Askeri Hava Üssü yakınlarında şüpheli bir dron tespit edilmesinin ardından alarm verildi. İngiltere basınına yansıyan haberlerde, muhtemel güvenlik tehdidi nedeniyle ABD askeri personeline sığınaklara geçmeleri talimatı verildiği belirtildi. Üs personeline gönderilen alarm mesajının başında kırmızı harflerle büyük puntoda \"Gerçek tehdit\" ifadesinin yer aldığı iddia edildi. ABD Hava Kuvvetleri'nden bir yetkili duruma ilişkin açıklamasında, güvenlik güçlerinin Lakenheath üzerinde izinsiz İHA faaliyeti şüphesi üzerine harekete geçtiğini bildirdi. Olayda herhangi bir personelin, uçağın veya askeri altyapının zarar görmediği kaydedildi. ABD Hava Kuvvetleri'nin, üs ve çevresindeki güvenliğin sağlanması amacıyla İngiliz yetkililerle koordineli çalışmayı sürdürdüğü aktarıldı. İİT Genel Sekreteri Ahmed CNN TÜRK'e konuştu: \"Erdoğan'ın kullandığı ekokırım ifadesi çok yerinde\" Çevre Bakanı Barasa CNN TÜRK'te açıkladı: Türkiye ve Kenya'dan iş birliği hamlesi",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
+      "title": "Anadolu Efes, EuroLeague'de 5. galibiyetini aldı",
+      "source": "Cnnturk",
+      "link": "https://www.cnnturk.com/spor/basketbol/anadolu-efes-euroleaguede-5-galibiyetini-aldi-3493053",
+      "pubDate": "Sat, 14 Nov 2026 09:40:46 GMT",
+      "image": null,
+      "text": "TurkcellBasketbolGelişim Merkezi’nde oynanan karşılaşmanın ilk periyodunu 28-20 önde tamamlayanAnadolu Efes, devre arasına 60-43 üstün girdi. Üçüncü periyodu da 76-68 önde geçen ev sahibi ekip, parkeden 103-91 galip ayrıldı. İİT Genel Sekreteri Ahmed CNN TÜRK'e konuştu: \"Erdoğan'ın kullandığı ekokırım ifadesi çok yerinde\" Çevre Bakanı Barasa CNN TÜRK'te açıkladı: Türkiye ve Kenya'dan iş birliği hamlesi",
+      "summary": ""
+    },
+    {
+      "cat": "Dünya",
+      "catId": "dunya",
       "title": "ABD ve Çin arasında ilk Ticaret Kurulu toplantısı gerçekleştirildi",
       "source": "Cnnturk",
       "link": "https://www.cnnturk.com/ekonomi/abd-ve-cin-arasinda-ilk-ticaret-kurulu-toplantisi-gerceklestirildi-3493051",
       "pubDate": "Sat, 14 Nov 2026 09:38:45 GMT",
       "image": null,
-      "text": "ABD Ticaret Temsilciliği tarafından ABD merkezli X platformunda yapılan açıklamada,ABD Hazine Bakanlığıile birlikte Çinli muhataplarla ABD-ÇinTicaret Kurulu'nun ilk resmi toplantısının gerçekleştirildiği bildirildi. Açıklamada, Donald Trump yönetiminin dünyanın en büyük iki ekonomisi arasında adil ve dengeli ticaretin tesis edilmesi amacıyla Çin ile temaslarını sürdürmeyi hedeflediği ifade edildi. İngiltere'de dron alarmı: ABD personeline sığınak talimatı Tembel sanılıyorlar ama nedeni farklı olabilir! Yetişkinlerde DEHB'nin bilinmeyen belirtileri Karaciğer yağlanması, obezite ve diyabet riskine dikkat! Uzman uyardı: Bu gıdaların tüketimi artıyor Fenerbahçe’de Asensio’nun geleceği belirsizleşiyor TİCARET VE YATIRIM KURULLARI OLUŞTURULMUŞTU ABD Başkanı Donald Trump ile Çin Devlet Başkanı Şi Cinping, mayıs ayında Pekin'de gerçekleştirdikleri görüşmede iki ülke arasındaki ticaret ve yatırım ilişkilerini ele almıştı. Görüşmede, karşılıklı ticari ve yatırım kaynaklı endişelerin değerlendirilmesi amacıyla Ticaret Kurulu ve Yatırım Kurulu oluşturulması kararlaştırılmıştı. Gerçekleştirilen ilk resmi toplantı, iki ülke arasındaki ekonomik ilişkilerin yürütülmesi için oluşturulan mekanizmanın çalışmalarına başladığını gösterdi. ",
+      "text": "ABD Ticaret Temsilciliği tarafından ABD merkezli X platformunda yapılan açıklamada,ABD Hazine Bakanlığıile birlikte Çinli muhataplarla ABD-ÇinTicaret Kurulu'nun ilk resmi toplantısının gerçekleştirildiği bildirildi. Açıklamada, Donald Trump yönetiminin dünyanın en büyük iki ekonomisi arasında adil ve dengeli ticaretin tesis edilmesi amacıyla Çin ile temaslarını sürdürmeyi hedeflediği ifade edildi. İİT Genel Sekreteri Ahmed CNN TÜRK'e konuştu: \"Erdoğan'ın kullandığı ekokırım ifadesi çok yerinde\" Çevre Bakanı Barasa CNN TÜRK'te açıkladı: Türkiye ve Kenya'dan iş birliği hamlesi Virgil van Dijk transferinde yeni gelişme! Fenerbahçe öne çıkıyor... Meteoroloji saat verip uyardı! Alarm verildi TİCARET VE YATIRIM KURULLARI OLUŞTURULMUŞTU ABD Başkanı Donald Trump ile Çin Devlet Başkanı Şi Cinping, mayıs ayında Pekin'de gerçekleştirdikleri görüşmede iki ülke arasındaki ticaret ve yatırım ilişkilerini ele almıştı. Görüşmede, karşılıklı ticari ve yatırım kaynaklı endişelerin değerlendirilmesi amacıyla Ticaret Kurulu ve Yatırım Kurulu oluşturulması kararlaştırılmıştı. Gerçekleştirilen ilk resmi toplantı, iki ülke arasındaki ekonomik ilişkilerin yürütülmesi için oluşturulan mekanizmanın çalışmalarına başladığını gösterdi. ",
       "summary": ""
     },
     {
@@ -480,208 +626,161 @@
       "summary": ""
     },
     {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Son dakika haberi: ABD'de 5 saatlik havacılık krizi yaşandı",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/video/dunya/son-dakika-haberi-abdde-5-saatlik-havacilik-krizi-yasandi-3493033",
-      "pubDate": "Sat, 14 Nov 2026 09:35:48 GMT",
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Basketbol Süper Ligi'nde Fenerbahçe ile Anadolu Efes yarın derbide karşılaşacak",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/spor/basketbol-super-liginde-fenerbahce-ile-anadolu-efes-yarin-derbide-karsilasacak/4124904",
+      "pubDate": "Sat, 14 Nov 2026 10:39:14 +0300",
       "image": null,
-      "text": "4 BİN 700 UÇUŞ İPTAL EDİLDİ, 10 BİN UÇUŞ ERTELENDİ Kriz, Amerika Birleşik Devletleri saatiyle akşamüstü saat 16.00'da başladı. Yaklaşık beş saat boyunca hayat durdu. Federal Havacılık İdaresi'nin olağanüstü koşullar ve güvenlik gerekçeleriyle aldığı; 'uçuşları durdurma' kararı kaldırıldı. Ancak 4,5 saat boyunca 4 bin 700 uçuş iptal edildi. 10 bin üzerinde uçuş ise ertelendi. ÜLKEDE TELSİZ FREKANS VE RADAR KESİNTİLERİ YAŞANDI Yaşananlar ile ilgili Ulaştırma Bakanı ve İç Güvenlik Bakanı, Beyaz Saray'da bir basın toplantısı düzenledi. Ulaştırma Bakanı, telefon ve radar sistemlerinde bir istikrarsızlık yaşandığını tespit ettiklerini açıkladı. Aralıksız uçuşları durdurma kararı aldıklarını anlattı, o esnada havada 3 bin 500 uçak olduğunu paylaştı. 1,5 MİLYON KİŞİ ETKİLENDİ Amerikan medyasında; uçuşlarda yaşanan iptaller ve gecikmelerden 1,5 milyon kişinin etkilendiği yazıldı. Yerel saat ile 20.15'te Amerika Birleşik Devletleri'nde uçuşlar yeniden başlarken; ancak henüz tam normalleşme sağlanmadığı belirtildi. İç Güvenlik Bakanı, 24 saat sonra havalimanlarında eski hareketliğin sağlanacağını ifade etti. ABD ÜSSÜNDE DE DRON ALARMI Öte yandan İngiltere'de ise Amerika Birleşik Devletleri askeri unsurlarının bulunduğu Kraliyet Hava Kuvvetleri Lakenheath Hava Üssü yakınlarında şüpheli dron faaliyeti tespit edilmesi üzerine \"Amerikan personeline sığınaklara\" geçme talimatı verildi. Amerika Birleşik Devletleri'ndeki uçuş yasağı ile İngiltere'deki drone alarmının ilişkili olup olmadığı bilinmiyor.",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Yeni kurallar geliyor: Tütün ürünleri düzenlemesinde son durum",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/video/turkiye/yeni-kurallar-geliyor-tutun-urunleri-duzenlemesinde-son-durum-3493040",
-      "pubDate": "Sat, 14 Nov 2026 09:12:40 GMT",
-      "image": null,
-      "text": "18 yaşından küçüklere satışı zaten yasak. Ancak bu yasağı ihlal eden işletmelere yönelik yaptırımların daha caydırıcı hale getirilmesi hedefleniyor. 18 YAŞ ALTINA SATIŞTA RUHSAT ASKISI GÜNDEMDE Sağlık Bakanı Kemal Memişoğlu da daha önce tütün ürünlerinin çocuklara satışını engellemek için yeni bir yöntem üzerine çalıştıklarını açıklamıştı. İşte bu kapsamda, Sağlık Bakanlığı yeni bir hazırlık yapıyor. Buna göre; çocuklara tütün ve ürünlerini sattığı belirlenen işletmelerin ruhsatları geçici olarak askıya alınabilecek, faaliyetleri durdurulabilecek.  TÜTÜN ÜRÜNÜNE DİJİTAL TAKİP GÜNDEMDE Bir diğer başlık ise tütün ürünleri satışlarının dijital ortamda takibi. Pandemi dönemindeki HES koduna benzer bir sistem üzerinde duruluyor. Elektronik yaş doğrulamasıyla çocukların tütün ürünlerine erişiminin engellenmesi amaçlanıyor. Ancak sistemin hayata geçmesi için teknik altyapı ve kurumlar arası çalışma gerekiyor. Yasağı ihlal edenlere uygulanan cezalar da masada. 2026 yılında kapalı alanda tütün ürünü kullananlara bin 764 lira ceza uygulanıyor. Yasakla ilgili yükümlülüklerini yerine getirmeyen işletmeler ise 24 bin 440 liradan 122 bin 660 liraya kadar cezayla karşılaşabiliyor. Üzerine çalışılan düzenlemeyle cezaların daha caydırıcı hale getirilmesi hedefleniyor.  KADINLARDA TÜTÜN KULLANIMINDAKİ ARTIŞ MERCEK ALTINDA Düzenlemede yalnızca çocuklara satış değil, kadınlarda artan tütün kullanımı da mercek altında. Sağlık Bakanlığı bürokratlarının sunumlarında, 2008'den 2025'e kadar kadınlarda tütün kullanım oranının yüzde 35 arttığı bilgisi paylaşıldı. Bu nedenle özellikle kadınlara yönelik pazarlanan ince, yani slim sigaraların yasaklanması da değerlendiriliyor. Yeni düzenlemeyle cezaların artırılması, denetimlerin sıklaştırılması ve tekrarlayan ihlallere daha ağır yaptırımlar getirilmesi hedefleniyor. Çalışmaların tamamlanmasının ardından düzenlemenin Meclis gündemine gelmesi bekleniyor.",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "ÖZET | Hollanda'dan, Yunanistan'a farklı tarife",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/spor/futbol/ozet-hollandadan-yunanistana-farkli-tarife-3493041",
-      "pubDate": "Sat, 14 Nov 2026 09:09:28 GMT",
-      "image": null,
-      "text": "Ligde 5. haftanın ikinci gününde A, B, C ve D liglerinde karşılaşmalar oynandı.Günün öne çıkan maçlarından olanA Grubu'ndakiHollanda-Yunanistankarşılaşmasında ev sahibi ekipten farklı bir galibiyet geldi. Hollanda konuk ettiği Yunanistan'ı 7-0 mağlup etti. Grubun diğer maçında iseAlmanyadeplasmandaSırbistan'ı 3-1 yendi. Alınan sonuçlar şöyle: A Ligi 2. Grup:Hollanda-Yunanistan: 7-0Sırbistan-Almanya: 1-3 B Ligi 1. Grup: İskoçya-Kuzey Makedonya: 2-1 Slovenya-İsviçre: 0-0 C Ligi 3. Grup: Moldova-Kazakistan: 2-1 Slovakya-Faroe Adaları: 2-2 4. Grup: Bulgaristan-İzlanda: 0-5 Lüksemburg-Estonya: 0-1 D Ligi 1. Grup: Andorra-Cebelitarık: 2-0 2. Grup: Lihtenştayn-Azerbaycan: 0-1 ",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "ALTIN DÜŞER Mİ? SON DAKİKA CANLI ALTIN FİYATLARI 14 KASIM | Gram, çeyrek, cumhuriyet, yarım, tam altın ne kadar, kaç TL oldu?",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/finans-haberler/altin/altin-duser-mi-son-dakika-canli-altin-fiyatlari-14-kasim-gram-ceyrek-cumhuriyet-yarim-tam-altin-ne-kadar-kac-tl-oldu-3493031",
-      "pubDate": "Sat, 14 Nov 2026 09:00:56 GMT",
-      "image": null,
-      "text": "Altın fiyatları, doların güçlenmesi ve ABD Hazine tahvil getirilerinin yükselmesiyle haftayı baskı altında geçirdi. Üç işlem seansı boyunca gerileyen ons altın, cuma sabahı yeniden 3.900 doların üzerine çıktı. Spot altın, yüzde 1’e yaklaşan yükselişle 3.910 dolar seviyesine ulaştı. Ancak gün içinde fiyatlarda yeniden geri çekilme görüldü. Yatırımcılar, toparlanmanın devam edip etmeyeceğini ve satış baskısının seyrini takip ediyor. Yurt içinde güne 6.335 TL civarında başlayangram altın, saat 17.00 sıralarında 6.289 TL seviyesine geriledi. Güncel altın fiyatlarını araştıranlar, gram altındaki değişimin yanı sıraçeyrek altınveCumhuriyet altınıalış-satış rakamlarını da izliyor. Piyasalarda gözler dolar, tahvil getirileri ve FED’e ilişkin beklentilerde olmaya devam ediyor. KAPALIÇARŞI CANLI ALTIN FİYATLARI 14 KASIM 2026 ONS ALTIN FİYATI 14 KASIM 2026 Alış 3.877,55 Dolar Satış: 3.878,15 Dolar  GRAM ALTIN FİYATI 14 KASIM 2026 Alış: 6.284,86 Satış: 6.371,84  ÇEYREK ALTIN FİYATI 14 KASIM 2026 Alış: 10.275,00 Satış: 10.370,00  CUMHURİYET ALTINI 14 KASIM 2026 Alış: 42.101,00 TL Satış: 42.473,00 TL  CANLI VE ANLIK ALTIN FİYATLARI İÇİN TIKLAYIN BORSA ALTIN DOLAR BITCOIN EURO ALTIN FİYATLARININ YÜKSELMESİ İÇİN 3 GELİŞME 1.Doların zayıflaması 2.Merkez bankalarının altın alımlarını sürdürmesi 3.Faiz ve enflasyon beklentilerinin değişmesi Burada yer alan bilgiler yatırım tavsiyesi içermez. Bilgi için:Sorumluluk Beyanı",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "AK Parti fon olayını iyi yönetebiliyor mu? Ahmet Hakan yazdı",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/ak-parti-fon-olayini-iyi-yonetebiliyor-mu-ahmet-hakan-yazdi-3493039",
-      "pubDate": "Sat, 14 Nov 2026 08:55:16 GMT",
-      "image": null,
-      "text": "AK Partifon olayını iyi yönetebiliyor mu? SORUNUN cevabını dört başlıkta arayalım: LİSTE MEVZUSU AK Parti’nin bazı yöneticileri “Liste açıklansın” diye açıklama üstüne yapıyor. Bazı parti yöneticileri ise “Lekelenmeme hakkı” falan diyerek kafaları karıştırıyor. Buradan çıkan sonuç şu: Partide liste konusunda bir söylem birliği yok. Oysa liste olayının bir tartışma konusu olmaktan acilen çıkarılması şart oğlu şart. FATMA’NIN HİKÂYESİ Kim ne derse desin: Fatma Betül Sayan Kaya’nın tutuklanması, fon olayının bir dönüm noktası. Fatma Betül Sayan Kaya... - Erdoğan’a yakın mı? Yakın. - Bakanlık yaptı mı? Yaptı. - AK Parti’de önemli görevler aldı mı? Aldı. Kısacası tutuklanması... “Kim olursa olsun hesap soracağız” vaadinin gerçekleştiğinin somut göstergesi. Peki AK Parti, Fatma’nın bu hikâyesini kamuoyuna doğru dürüst anlatabildi mi? Anlatabildikleri söylenemez. SPK’SINDAN BDDK’SINA SPK, BDDK falan... Ekonomibürokrasisinin içinden geçiliyor mu? Geçiliyor. SPK’sından BDDK’sına çok önemli makamlardaki isimler birer birer tutuklanıyor mu? Tutuklanıyor. Peki çatır çatır hesap sorulurken... AK Parti yetkilileri, bu hesap sorma üzerinden bir söylem geliştirebildiler mi? Geliştirebildikleri söylenemez. MAĞDURLARA ÖDEMELER Olayın kamuyu ilgilendiren en önemli kısmı şu: Fon mağduriyetlerinin giderilmesi için kamu kaynakları kullanılmayacak. Vurgunculardan alınacak, mağdurlara ödenecek. AK Parti için önemli bir çıkış noktası değil mi bu? Öyle ama AK Parti bunu da değerlendirmiyor ki. SON SÖZ Eğer AK Parti, bugün fon olayının altında kalmadıysa... Bundaki en temel etken Cumhurbaşkanı Erdoğan’ın fon olayıyla ilgili verdiği mesajlardır. E iyi ama hani her şey Cumhurbaşkanı Erdoğan’ın sırtına yüklenmeyecekti? İngiltere'de dron alarmı: ABD personeline sığınak talimatı Tembel sanılıyorlar ama nedeni farklı olabilir! Yetişkinlerde DEHB'nin bilinmeyen belirtileri Karaciğer yağlanması, obezite ve diyabet riskine dikkat! Uzman uyardı: Bu gıdaların tüketimi artıyor Fenerbahçe’de Asensio’nun geleceği belirsizleşiyor",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Ticarete Kıbrıs prangası!",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/video/dunya/ticarete-kibris-prangasi-3493038",
-      "pubDate": "Sat, 14 Nov 2026 08:43:43 GMT",
-      "image": null,
-      "text": "AB'DEN TÜRKİYE'YE GÜMRÜK BİRLİĞİ İÇİN KIBRIS ŞARTI Avrupa Birliği'nden Türkiye'ye Gümrük Birliği'nin güncellenmesi için Kıbrıs şartı... Rum basınına yansıyan iddiaya göre Brüksel, müzakerelerin yeniden başlamasını Türkiye'nin Kıbrıs konusunda adım atmasına bağladı. 1996'dan bu yana yürürlükte olan Gümrük Birliği'nin güncellenmesini isteyen Ankara'nın talebi, yıllardır AB Konseyi'nde bekletiliyor. AB Komisyonu Başkanı Ursula von der Leyen'in, Antalya'daki COP31 Zirvesi kapsamında yaptığı görüşmelerde, Kıbrıs müzakerelerinin yeniden başlaması karşılığında Gümrük Birliği görüşmelerine yeşil ışık yakabileceğini ilettiği öne sürüldü. Gözler şimdi 20 Kasım'da Ankara'ya gelmesi beklenen AB Komisyonu Başkan Yardımcısı Raffaele Fitto ile Dışişleri Bakanı Hakan Fidan arasında yapılacak görüşmeye çevrildi. Türkiye'nin ekonomik beklentileri ile Kıbrıs meselesini aynı pazarlık masasına taşıyan Brüksel'in tutumu, AB'nin Ankara'ya yönelik çifte standart uyguladığı eleştirilerini yeniden gündeme getirdi. Diğer yandan Türkiye’ye henüz resmi bir teklif ulaşmadığını vurgulayan diplomatik kaynaklar, Kıbrıs konusunda muhatabın Kıbrıslı Türkler olması gerektiğini ifade etti.",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Trump, Şi ve Putin'le üçlü görüşme gerçekleştirecek",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/dunya/trump-si-ve-putinle-uclu-gorusme-gerceklestirecek-3493034",
-      "pubDate": "Sat, 14 Nov 2026 08:38:56 GMT",
-      "image": null,
-      "text": "Beyaz Saray Sözcü Yardımcısı Olivia Wales, ABD Başkanı Donald Trump'ın önümüzdeki hafta başında önce Filipinler ve ardından Çin'e yapacağı ziyareti duyururken, üst düzey ABD'li yetkililer ziyaretlerin detayları hakkında gazetecilerin sorularını cevaplandırdı. Wales, Başkan Trump'ın, gelecek hafta Çin'in Shenzhen kentinde düzenlenecekAPEC zirvesimarjında, Çin Devlet Başkanı Şi Cinping ve Rusya Devlet Başkanı Vladimir Putin ile üçlü bir görüşme gerçekleştireceği bilgisini paylaştı. Trump'ın, perşembe öğleden sonra Şi ile ikili bir görüşme yapacağını da belirten Sözcü Yardımcısı, görüşmelerin içeriğine dair, \"Başkan, diğer konuların yanı sıra yayılması son derece tehlikeli olan nükleer silahların dünyada azaltılması konusunu ele alacağını açıkça belirtti.\" ifadelerini kullandı. İsminin açıklanmasını istemeyen üst düzey bir ABD'li yetkili soru üzerine, Washington yönetiminin bu görüşmelerden \"herhangi bir anlaşma çıkmasını beklemediğini\" vurguladı. Üst düzey yetkili, \"Bunu bir başlangıç ​​noktası, yani bu ülkeler arasında liderler düzeyindeki ilk görüşme olarak tanımlayabilirim.\" dedi. Çin'in \"dünyada açık ara en hızlı büyüyen\" bir nükleer cephaneliğe sahip olduğunu belirten yetkili, Pekin'in artık \"yetişkinler masasına oturma\" vaktinin geldiğini söyledi. İngiltere'de dron alarmı: ABD personeline sığınak talimatı Tembel sanılıyorlar ama nedeni farklı olabilir! Yetişkinlerde DEHB'nin bilinmeyen belirtileri Karaciğer yağlanması, obezite ve diyabet riskine dikkat! Uzman uyardı: Bu gıdaların tüketimi artıyor Fenerbahçe’de Asensio’nun geleceği belirsizleşiyor Yetkili, Trump'ın Şi ve Putin ile yapacağı üçlü görüşmede İran konusunu ele almayı planladığını, ancak Ukrayna konusunun gündemde olmadığını belirtti. Trump'ın ziyareti kapsamında ekonomik ve yatırımlara dair görüşmeler de yapılacak Beyaz Saray'ın bilgilendirme toplantısına, Başkan Trump’ın Filipinler ve Çin’e yapmayı planladığı ziyaretlerin ana hatları arasında, bölgesel güvenlik konularının yanı sıra ticaret, yatırım ve ekonomik büyüme odaklı görüşmelerin de ele alınacağı kaydedildi. Trump'ın, ilk ziyareti gerçekleştireceği Filipinler'in başkenti Manila'da Hint-Pasifik bölgesinde barış, refah ve güvenliği konu alan \"Quad\" (Dörtlü) liderler toplantısına katılması ve ardından Tayland ile bir ticaret anlaşması yapmasının beklendiği belirtildi. Ayrıca Trump'ın, ABD-ASEAN Özel Zirvesi’ne katılması ve bölge liderleriyle bir akşam yemeğinde bir araya gelmesinin planlandığı aktarıldı. Üst düzey yetkililer, ziyaret kapsamında Filipinler Devlet Başkanı Ferdinand Marcos ile bir görüşme gerçekleştirecek olan Trump’ın, havacılık, savunma, enerji ve teknoloji sektörlerinde pazarları genişletmeyi ve ABD’deki istihdamı desteklemeyi amaçlayan ticari anlaşmalara ve stratejik yatırımlara imza atmasının öngörüldüğünü bildirdi. Öte yandan Trump'ın Çin ziyaretinde, ABD’nin dengeli ticareti teşvik etme, ihracat pazarlarını genişletme ve ekonomik büyümeyi ilerletme hedefleri üzerinde durulacağı vurgulandı.",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "BURSA DEPREM SON DAKİKA 14 KASIM | Deprem mi oldu, nerede, kaç büyüklüğünde? AFAD-Kandilli Rasathanesi son depremler!",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/bursa-deprem-son-dakika-14-kasim-deprem-mi-oldu-nerede-kac-buyuklugunde-afad-kandilli-rasathanesi-son-depremler-3493029",
-      "pubDate": "Sat, 14 Nov 2026 08:32:19 GMT",
-      "image": null,
-      "text": "14 Kasım 2026 Bursason depremler listesi, kentte ve çevresinde meydana gelen sarsıntıları öğrenmek isteyenler tarafından araştırılıyor. “Bursa’da deprem mi oldu, az önce nerede deprem oldu?” sorularına yanıt arayanlar, AFAD veKandilli Rasathanesi’nin güncel deprem kayıtlarını takip ediyor. Depremlerin merkez üssü, büyüklüğü, derinliği ve gerçekleştiği saat, sorgulanan bilgiler arasında yer alıyor. Bursa ve yakınındakisismik hareketlilik, son depremler listesi vedeprem haritasıüzerinden incelenebiliyor. BURSA’DA DEPREM Mİ OLDU? Marmara Denizi Gemlik Körfezi-Mudanya açıklarında 3,9 büyüklüğünde sarsıntı kaydedildi. Deprem Bursa, İstanbul ve çevre illerde hissedildi. Afet ve Acil Durum Yönetimi Başkanlığının (AFAD) internet sitesinde yer alan bilgiye göre, saat 03.43'te merkez üssü Marmara Denizi Gemlik Körfezi-Mudanya açıkları olan 3,9 büyüklüğünde sarsıntı kaydedildi. Depremin 13.65 kilometre derinlikte meydana geldiği belirlendi. Gemlik Körfezi merkezli deprem, başta Bursa ve İstanbul olmak üzere çevre bölgelerde de hissedilirken, kısa süreli paniğe neden oldu. BURSA SON DEPREMLER LİSTESİ İÇİN TIKLAYINIZ #DEPREM Büyüklük:3.9 (Mw) Yer:Marmara Denizi - Gemlik Körfezi - [06.42 km] Mudanya (Bursa) Tarih:2026-11-14 Saat:03:43:59 TSİ Enlem:40.43933 N Boylam:28.85467 E Derinlik:13.65 km Detay:https://t.co/HeqUfLh8ph @afadbaskanlik",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "SON DAKİKA... AFAD duyurdu: Marmara Denizi'nde deprem",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/son-dakika-afad-duyurdu-marmara-denizinde-deprem-3493030",
-      "pubDate": "Sat, 14 Nov 2026 08:20:43 GMT",
-      "image": null,
-      "text": "Afet ve Acil Durum Yönetimi Başkanlığının (AFAD) internet sitesinde yer alan bilgiye göre, saat 03.43'te merkez üssü Marmara Denizi Gemlik Körfezi-Mudanya açıkları olan 3,9 büyüklüğünde sarsıntı kaydedildi. Depremin 13.65 kilometre derinlikte meydana geldiği belirlendi. Gemlik Körfezi merkezli deprem, başta Bursa ve İstanbul olmak üzere çevre bölgelerde de hissedilirken, kısa süreli paniğe neden oldu.  #DEPREM Büyüklük:3.9 (Mw) Yer:Marmara Denizi - Gemlik Körfezi - [06.42 km] Mudanya (Bursa) Tarih:2026-11-14 Saat:03:43:59 TSİ Enlem:40.43933 N Boylam:28.85467 E Derinlik:13.65 km Detay:https://t.co/HeqUfLh8ph @afadbaskanlik 2027 asgari ücret zammı için 5 farklı senaryo: Yeni ücret ne kadar olacak? Yeni kurallar geliyor: Tütün ürünleri düzenlemesinde son durum BU HAFTA SONU SINAV VAR MI? 14 - 15 Kasım Hangi Sınavlar Var? Ticarete Kıbrıs prangası!",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "HAVA DURUMU 14 KASIM: Bugün havalar nasıl olacak? Yağmur yağacak mı? İstanbul, Ankara, İzmir, Bursa'da hava durumu nasıl olacak?",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/turkiye/hava-durumu-14-kasim-bugun-havalar-nasil-olacak-yagmur-yagacak-mi-istanbul-ankara-izmir-bursada-hava-durumu-nasil-olacak-3492994",
-      "pubDate": "Sat, 14 Nov 2026 08:09:22 GMT",
-      "image": null,
-      "text": "MeteorolojiGenel Müdürlüğü tarafından yapılan son değerlendirmelere göre, ülkemiz genelinin parçalı ve çok bulutlu, Marmara, Ege, Batı Akdeniz, İç Anadolu’nun kuzeybatısı, Batı Karadeniz, Kırıkkale, Samsun, Amasya, Çorum çevreleri ile Giresun, Trabzon, Rize ve Artvin’in iç kesimlerinin sağanak ve yer yer gök gürültülü sağanak yağışlı geçeceği tahmin ediliyor. Peki 14 Kasım'da havalar nasıl olacak?İstanbul,Ankara,İzmir,Bursa'dahava durumunasıl olacak? İşte ayrıntılar... 14 KASIM HAVA DURUMU TAHMİNLERİ MARMARAParçalı ve çok bulutlu, bölge genelinin sağanak ve gök gürültülü sağanak yağışlı geçeceği tahmin ediliyor. Yağışların, Trakya kesimi ile İstanbul çevrelerinde yer yer kuvvetli olması bekleniyor. Rüzgarın, güney yönlerden kuvvetli ve kısa süreli fırtına (40-70 km/saat) şeklinde, bugün (Cumartesi) öğle saatlerinden itibaren kuzeyinde kuzey ve kuzeydoğu yönlerden kuvvetli (40-60 Km/saaat) olarak eseceği tahmin ediliyor. BURSA 18°C, 25°CParçalı ve çok bulutlu, bu akşam ve bugün (Cumartesi) öğle saatlerinde sağanak ve gök gürültülü sağanak yağışlı ÇANAKKALE 19°C, 23°CParçalı ve çok bulutlu, bu gece ve bugün (Cumartesi) öğle saatlerinde sağanak ve gök gürültülü sağanak yağışlı İSTANBUL 18°C, 21°CParçalı ve çok bulutlu, bugün (Cumartesi) öğle saatlerinde yer yer kuvveti olmak üzere sağanak ve gök gürültülü sağanak yağışlı KIRKLARELİ 15°C, 20°CParçalı ve çok bulutlu, bugün (Cumartesi) sağanak ve gök gürültülü sağanak yağışlı geçeceği tahmin ediliyor. Yağışların, öğle saatlerinde yer yer kuvvetli olması bekleniyor. EGEParçalı ve çok bulutlu, bölge genelinin sağanak ve gök gürültülü sağanak yağışlı geçeceği tahmin ediliyor. Rüzgarın, Kuzey ve Kıyı Ege’de güney yönlerden kuvvetli ve kısa süreli fırtına (40-70 km/saat) şeklinde esmesi bekleniyor. DENİZLİ 15°C, 23°CParçalı ve çok bulutlu, bugün (Cumartesi) öğle saatlerinde sağanak ve gök gürültülü sağanak yağışlı İZMİR 16°C, 23°CParçalı ve çok bulutlu, aralıklı sağanak ve gök gürültülü sağanak yağışlı MANİSA 16°C, 23°CParçalı ve çok bulutlu, bu akşam ve gece saatlerinde sağanak ve gök gürültülü sağanak yağışlı MUĞLA 13°C, 18°CParçalı ve çok bulutlu, aralıklı sağanak ve gök gürültülü sağanak yağışlı AKDENİZParçalı ve çok bulutlu, Batı Akdeniz'in sağanak ve gök gürültülü sağanak yağışlı geçeceği tahmin ediliyor. ADANA 15°C, 24°CParçalı bulutlu ANTALYA 18°C, 23°CParçalı ve çok bulutlu, aralıklı sağanak ve gök gürültülü sağanak yağışlı BURDUR 12°C, 18°CParçalı ve çok bulutlu, bugün (Cumartesi) öğle saatlerinde sağanak ve gök gürültülü sağanak yağışlı HATAY 10°C, 21°CParçalı bulutlu İÇ ANADOLUParçalı ve çok bulutlu, kuzeybatı kesimleri ile Kırıkkale çevrelerinin sağanak ve gök gürültülü sağanak yağışlı geçeceği tahmin ediliyor. Gece ve sabah saatlerinde pus ve sis bekleniyor. ANKARA 12°C, 18°CParçalı ve çok bulutlu, bu gece ve bugün (Cumartesi) sabah saatlerinde sağanak yağışlı ÇANKIRI 10°C, 19°CParçalı ve çok bulutlu, bu gece ve bugün (Cumartesi) sabah saatlerinde sağanak yağışlı ESKİŞEHİR 11°C, 19°CParçalı ve çok bulutlu, bu gece ve bugün (Cumartesi) sabah saatlerinde sağanak yağışlı KONYA 11°C, 18°CParçalı ve çok bulutlu BATI KARADENİZParçalı ve çok bulutlu, bölge genelinin sağanak yağışlı geçeceği tahmin ediliyor. BOLU 12°C, 19°CParçalı ve çok bulutlu, aralıklı sağanak yağışlı DÜZCE 13°C, 25°CParçalı ve çok bulutlu, aralıklı sağanak yağışlı KASTAMONU 10°C, 17°CParçalı ve çok bulutlu, bu gece ve bugün (Cumartesi) öğle saatlerinde sağanak yağışlı ZONGULDAK 18°C, 23°CParçalı ve çok bulutlu, bugün (Cu",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Hava Durumu (14-11-2026)",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/video/hava-durumu/cnn-turk-hava-durumu/hava-durumu-14-11-2026-3492917",
-      "pubDate": "Sat, 14 Nov 2026 08:01:21 GMT",
-      "image": null,
-      "text": "Ege Bölgesinde de sağanak yağışlı bir hava hakim. Sıcaklıklar ise İzmir'de 23, Denizli'de 20, Muğla ve Afyonkarahisar'da 17 derece. Pazar günü de yağışların devam etmesi bekleniyor. Akdeniz Bölgesinin batı kesimlerinde sağanak yağışlar görülürken bölgenin kalanında parçalı bulutlu bir gökyüzü hakim. Gündüz sıcaklıkları Antalya'da 23, Adana'da 24, Kahramanmaraş'ta 19 derece. İç Anadolu Bölgesinin doğu kesimlerinde parçalı bulutlu bir gökyüzü hakimken batısında bulutlu ve yağışlı bir hava görülüyor. Gündüz sıcaklıkları ise 15 ile 20 derece arasında. Karadeniz Bölgesinin batısında yağışlar etkili oluyor. Bölgenin kalanında ise parçalı ve az bulutlu bir gökyüzü görülüyor. Gündüz sıcaklıkları Bolu'da 19, Samsun'da 24, Trabzon'da 21 derece. Doğu Anadolu Bölgesinde az bulutlu bir hava hakim. Gündüz sıcaklıkları ise Kars'ta 11, Malatya ve Elazığ'da 15, Hakkari'de 13 derece. Güneydoğu Anadolu Bölgesinde önümüzdeki üç günlük dönemde parçalı ve az bulutlu bir gökyüzü görülecek. Bu dönemde sıcaklıklar ise 15 ile 20 derece arasında seyredecek.",
-      "summary": ""
-    },
-    {
-      "cat": "Dünya",
-      "catId": "dunya",
-      "title": "Sabah namazı saat kaça kadar kılınır? Güneş doğduktan sonra sabah namazı kılınır mı?",
-      "source": "Cnnturk",
-      "link": "https://www.cnnturk.com/yasam/sabah-namazi-saat-kaca-kadar-kilinir-gunes-dogduktan-sonra-sabah-namazi-kilinir-mi-1864393",
-      "pubDate": "Sat, 14 Nov 2026 07:18:46 GMT",
-      "image": null,
-      "text": "Günün ilk namazı olan sabah namazının vakti geçince hangi zaman aralığında kılınabileceği araştırılıyor.  Sabah, öğle, ikindi, akşam ve yatsı namazları farklı vakitlerde kılınmaktadır. Sabah namazı günün ilk kılınan ve en erken saatte olan namazdır. Sabah namazının da tıpkı diğer vakit namazlarda olduğu gibi belli bir vakti vardır.Sabah namazı vaktigeçmeden kılmak önemlidir. SABAH NAMAZI KAÇA KADAR KILINIR? Sabah namazı iki sünnet ve iki farzdan oluşur. Öncelikle iki rekat olan sünnet daha sonra ise iki rekat farz kılınır.Sabah namazı imsak vaktinde okunan ezandan itibaren güneş vaktine kadar (imsak saati ile güneş doğum saati arasında) kılınabilmektedir. Ancak imsaktan 30-40 dakika sonra kılınması önerilmiştir. Sabah namazı,imsak vaktigirdiğinde kılınabilir. Ancak ezanın okunmasını beklemek daha makbul olur. Ancaksabah namazıgüneş doğduktan sonra kerahat vakti çıkana kadar kılınmaz.Kerahet vaktinden öğle namazı vaktine kadar ise farzı ve sünneti kaza edilir. Öğle namazı vakti de geçti ise sadece farzı kılınarak kaza edilmektedir. DİYANET NAMAZ VAKİTLERİ SAYFASI KERAHAT VAKTİ NE ZAMANDIR? Kerahat vakitleri, İslam dininde ibadetin mekruh sayıldığı zaman dilimlerini ifade eder. Kerahat vakitleri içerisinde ibadet etmenin ya da namaz kılmanın dinen mekruh olarak sayılmasının en önemli sebebi, güneşe tapanlara benzetilmemek şeklinde açıklanır. Güneşin doğuş zamanında, batış zamanında ve tam tepede olduğu noktalarında mevcut olması zamanında geçmiş dönemler içerisinde helak olan pek çok topluluğun ateşe ve bununla birlikte güneşe tapmalarından dolayı kaynaklanır.",
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Sürgünden ölüme: Ahıska Türkleri",
+      "title": "İran: Hürmüz Boğazı'nda bir tanker mayına çarparak alev aldı",
       "source": "Trthaber",
-      "link": "https://www.trthaber.com/haber/turk-dunyasi/surgunden-olume-ahiska-turkleri-963235.html",
-      "pubDate": "Sat, 14 Nov 2026 10:00:00 +0300",
+      "link": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-bir-tanker-mayina-carparak-alev-aldi-963247.html",
+      "pubDate": "Sat, 14 Nov 2026 10:37:00 +0300",
       "image": null,
-      "text": "14 Kasım 1944: Kardeş kardeşten ayrıldı, hepsini başka köylere yolladılar. Aç da kaldılar, susuz da... Gürcistan'ın Türkiye sınırında yer alan Ahıska, 1828-1829 Osmanlı-Rus Savaşı'nın ardından imzalanan antlaşmayla Rusya'ya bırakıldı. Ahıska, Çarlık Rusya'sının hakimiyetine girmişti… Ahıska Türklerine Çarlık Rusya’sı döneminde yapılan baskı ve zulümler, Sovyetler Birliği (SSCB) döneminde de devam etti. Türk ve Müslüman olarak Gürcistan’da yaşamak onlar için artık zordu. 2 Kasım 1943: Karaçay-Malkar Sürgünü Ahıska Türklerine Çarlık Rusya’sı döneminde yapılan baskı ve zulümler, Sovyetler Birliği (SSCB) döneminde de devam etti. Türk ve Müslüman olarak Gürcistan’da yaşamak onlar için artık zordu. Özellikle Stalin döneminde, bu baskılar git gide arttı. Ahıska Türklerinin önde gelen aydınları, türlü bahanelerle tutuklanıp ya öldürüldü ya da sürgün edildi. Acı içinde acı: Ahıska Türkleri Türklerin soyadları değiştirildi, Ahıska ve çevresine “sınır koruması\" gerekçesiyle binlerce asker yerleştirildi. Askere alınmayan Ahıska Türkleri, 2. Dünya Savaşı’na başlayınca askere alındı.40 bin kadar Ahıska Türkü Almanlarla savaşmak üzere cepheye gönderildi. Geride kalan kadınlar ve yaşlılar dademir yoluinşaatında çalıştırıldı. Ancak bu hattın kendilerini sürgüne gönderecek bir yol olduğundan haberleri yoktu. Bir kış gecesi hayvan vagonlarıyla taşındılar… Stalin, 2. Dünya Savaşı'nda Rus ordusunda savaşmalarına rağmen tıpkı diğer tüm Türk topluluklarına yaptığı gibiAhıska Türkleriiçin de sürgün kararı imzaladı. \"Evlerinizi hemen boşaltın. Yanınıza 3 günlük yiyecek alın. Hazırlanmak için 2 saatiniz var.\" dediler...   200’den fazla köy ve kasabada yaşayan binlerce insan, yük ve hayvan vagonlarıyla taşındı. Yanlarına eşyalarını almalarına izin verilmeden yokluğa sürüldüler. Sayıları 86 bini bulan Türk, Ahıska'dan Orta Asya'nın (Türkistan) çeşitli bölgelerine sürgün edildi. Vagonlarda üst üste bindirilen Ahıska Türklerinin bu zorlu yolculuğu bir aydan fazla sürdü. Yolculuk sırasında yaklaşık 17 bin Ahıska Türkü, açlık, soğuk ve hastalık nedenleriyle hayatını kaybetti. Kazakistan'da bağımsızlığa giden yol: Büyük açlık felaketi 30 bin Ahıskalı da bırakıldıkları yerde yaşama veda etti Hayatta kalan Ahıskalılar; Kazakistan,KırgızistanveÖzbekistansınırlarına bırakıldı.   Açlık, salgın ve bulaşıcı hastalıklar nedeniyle 30 bin Ahıskalı daha Orta Asya'nın çeşitli bölgelerinde hayatını kaybetti. Sovyet yönetimi, oluşturduğu çalışma kamplarında kadın, yaşlı, çocuk ayrımı yapmadan Ahıskalıları en ağır işlerde çalıştırdı, eziyete maruz bıraktı. Ahıska Türklerinin şehirlere yerleşmelerine yasak getirildi. Ahıska'dan Türkiye'ye yolculuk: Ahıska Türkleri Bulundukları yerlerden izin almadan ayrılmamaları için kural konuldu. Bu kuralı ihlal eden Ahıskalılar, yakınlarıyla birlikte Sibirya'ya 25 yıllık sürgüne gönderilerek cezalandırıldı. Üzerinden 82  yıl geçti. Acı hala hafızalarda ve yüreklerde taze... 600 bine yakın Ahıskalı Türk, dünyanın çeşitli yerlerinde vatanlarına hasret olarak yaşıyor.   Stalin yönetimi, sürgünün gerekçesini \"Tüm erkekleri Ruslarla cephede olan Ahıskalı Türklerin, 2. Dünya Savaşı'nda Nazilerle iş birliği yapması\" olarak gösterdi. Sovyetlerin dağılmasıyla bu iddianın doğru olmadığı ve gerçek amacın başka olduğu ortaya çıktı.   SSCB kayıtlarına göre,Kırımve Ahıskalı Türklerin sürgünü, Karadeniz çevresini Türklerden temizlemek amacıyla yapıldı... Bugün Ahıska bölgesinde yaklaşık 20 bin kişi yaşarken buradaki nüfusun çok küçük bir bölümünü Türkler oluştur",
+      "text": "İranOrdusuDeniz Kuvvetleri KomutanlığıHalkla İlişkiler Birimi, konuyla ilgili açıklama yaptı. Açıklamada, \"Bu sabah, daha önceki uyarılara rağmen takip ve tanımlama sistemlerini kapatan ve Hürmüz Boğazı'nın doğusundaki tehlikeli ve yasak bölgede seyreden birpetroltankeri, deniz mayınına çarptıktan sonra alev alarak durdu.\" ifadelerine yer verildi. Hürmüz Boğazı’nın doğusunda “yasak bölgede” seyreden her geminin mayına çarptıktan sonra alev alacağına dikkat çekilen açıklamada,gemisahiplerinin diğer gemilerin başına gelenleri görmelerine rağmen, ABD’ye güvenerek tankerlerini “mayın savaşına” gönderdiği ileri sürüldü. İran, ABD'nin 8 Temmuz'da saldırılarına yeniden başlaması üzerine 12 Temmuz'da Hürmüz Boğazı'nı tekrar kapatmıştı. Tahran yönetimi, belirlediği rota dışından ve \"izinsiz geçen\" gemileri hedef alacağı tehdidinde bulunmuştu.",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Yeni Parti'de kurultay günü",
-      "source": "Trthaber",
-      "link": "https://www.trthaber.com/haber/gundem/yeni-partide-kurultay-gunu-963240.html",
-      "pubDate": "Sat, 14 Nov 2026 09:12:00 +0300",
+      "title": "Dışişleri Bakanlığı, sürgüne gönderilmelerinin 82. yılında Ahıska Türklerini andı",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/gundem/disisleri-bakanligi-surgune-gonderilmelerinin-82-yilinda-ahiska-turklerini-andi/4124903",
+      "pubDate": "Sat, 14 Nov 2026 10:33:56 +0300",
       "image": null,
-      "text": "Yeni PartiBirinci Olağan Kurultay'ını bugün Ankara'da yapacak. Özgür Özel'in kurultayın ardından Merkez Yönetim Kurulu kadrosunda yeni isimlere yer vermesi bekleniyor. Parti yönetiminin yeniden şekilleneceği kurultay öncesi Kurucular Kurulu planlanan tüzük değişiklikleri için toplandı. Toplantıda Parti Meclisi'nin üye sayısının, bir kurultay dönemiyle sınırlı olmak üzere 80'den 150'ye çıkarılması kabul edildi. Parti Meclisi'nde farklı meslek grupları, sendikalardan temsilciler ve alanında tanınan isimlere yer verilmesi öngörülüyor. Kurucular Kurulu, Etik Kurul oluşturulmasına da karar verdi. Bu değişiklikler Birinci Olağan Kurultay'da delegelerin onayına sunulacak. AnkaraSpor Salonu'nda bugün yapılacak kurultaya yaklaşık bin 200 delege katılacak. Genel başkanlık için tek aday Özgür Özel'in kurultayın ardından Yeni Parti'nin merkez yönetim kurulunda da büyük değişiklik yapması bekleniyor. CHPhariç tüm siyasi partilerin kurultaya davet edildiği bildirildi. Kurultayda partililerin beğenisine sunulmak üzere dört farklı şarkı hazırlandığı da öğrenildi.",
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Zorunlu kış lastiği uygulaması yarın başlıyor",
-      "source": "Trthaber",
-      "link": "https://www.trthaber.com/haber/ekonomi/zorunlu-kis-lastigi-uygulamasi-yarin-basliyor-963238.html",
-      "pubDate": "Sat, 14 Nov 2026 09:05:00 +0300",
+      "title": "A Milli Futbol Takımı Fransa deplasmanında",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/spor/a-milli-futbol-takimi-fransa-deplasmaninda-/4124901",
+      "pubDate": "Sat, 14 Nov 2026 10:31:25 +0300",
       "image": null,
-      "text": "Şehirler arası yük ve yolcu taşıyan ticari araçlar için zorunlukış lastiğiuygulaması yarın devreye girecek. Zorunlu olduğu halde araçlarına kış lastiği taktırmayan işletmelere para cezası uygulanacak. Araçlarda güvenli sürüşün sağlanmasında lastik seçimi önemli rol oynuyor. Özellikle hava sıcaklığının 7 derecenin altına düşmesiyle kış lastiklerine geçilmesi, yol tutuşunun korunması açısından önem taşıyor. Soğuk hava koşullarında sertleşen yaz lastikleri, karlı ve buzlu yollarda yeterli tutuş sağlayamıyor. Bu durum fren mesafesinin uzamasına, aracın kaymasına ve sürücünün direksiyon hakimiyetini kaybetmesine neden olabiliyor. Sürücülerin kış lastiği tercihinde yalnızca mevsime uygunluğa değil, lastiğin üretim tarihine ve saklama koşullarına da dikkat etmesi gerekiyor. Kullanılmamış lastikler de zamanla özelliklerini yitirebiliyor. Özellikle uygun olmayan ortamlarda bekletilen lastiklerin performansı olumsuz etkilenebiliyor. Güvenli sürüş için lastik değişiminin yanı sıra araçların kış şartlarına hazırlanması, bakım ve kontrollerinin de ihmal edilmemesi gerekiyor.",
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Hamzabeyli'de 558,6 milyon lira değerinde kaçak eşya ele geçirildi",
+      "title": "Okul öncesi ve ilkokullarda herhangi bir ad altında sınav yapılamayacak",
       "source": "Trthaber",
-      "link": "https://www.trthaber.com/haber/gundem/hamzabeylide-5586-milyon-lira-degerinde-kacak-esya-ele-gecirildi-963239.html",
-      "pubDate": "Sat, 14 Nov 2026 09:04:00 +0300",
+      "link": "https://www.trthaber.com/haber/egitim/okul-oncesi-ve-ilkokullarda-herhangi-bir-ad-altinda-sinav-yapilamayacak-963246.html",
+      "pubDate": "Sat, 14 Nov 2026 10:29:00 +0300",
       "image": null,
-      "text": "TicaretBakanlığı Gümrükler Muhafaza ekipleri, HamzabeyliGümrükSahası'nda gerçekleştirdiği operasyonda yaklaşık 558,6 milyon lira değerinde kaçak ticari eşya ele geçirdi. Bakanlıktan yapılan açıklamaya göre, HamzabeyliGümrük MuhafazaKaçakçılıkveİstihbaratMüdürlüğü ekiplerince yürütülen rutin saha kontrolleri sırasında, şüpheli hareketleri tespit edilen bir tır takibe alındı. Araçta yapılan aramalarda, gümrük işlemlerine tabi tutulmaksızın yurda sokulmak istenen 193 bin 31 elektroniksigarave aksamı, 3 bin 600 sigara filtresi, 4 bin 700 cep telefonu, 8 bin 233 ilaç ile 11 bin 263 gözlük ve aksesuarı ele geçirildi.   Kaçak eşyaların toplam gümrüklenmiş değerinin 558 milyon 594 bin lira olduğu belirlendi. Olayla ilgili soruşturmaEdirneCumhuriyet Başsavcılığınca sürdürülüyor.   Açıklamada, ülkenin ekonomik çıkarları ile güvenliğinin korunması, toplum sağlığını tehdit eden kaçak ürünlerin yurda girişinin engellenmesi, dürüst ticaret erbabının haklarının savunulması ve haksız rekabetin önlenmesi amacıyla çalışmaların aralıksız devam edeceği belirtilerek, özellikle gençlerin sağlığını ve geleceğini tehdit eden kaçak ürünlere karşı mücadelenin tavizsiz sürdürüleceği vurgulandı.",
+      "text": "\"MilliEğitimBakanlığı Ölçme ve Değerlendirme Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik\" Resmi Gazete'de yayımlanarak yürürlüğe girdi. Düzenlemeyle Bakanlığa bağlı resmi ve özelokulöncesi eğitim, ilköğretim ve ortaöğretim kurumlarında yürütülen ölçme ve değerlendirme faaliyetlerinin Türkiye Yüzyılı Maarif Modeli ile uyumlu hale getirilmesi amaçlandı. Bu kapsamda ölçme ve değerlendirme yaklaşımı, öğrencilerin öğrenme süreçlerindeki gelişimlerinin izlenmesi, öğrenme ihtiyaçlarının belirlenmesi, öğrencilere geri bildirim sağlanması ve öğretim süreçlerinin bu doğrultuda geliştirilmesi noktasında güçlendirildi. Yönetmeliğe göre, okul öncesinde ve ilkokullarda herhangi bir ad altında sınav yapılamayacak. Bu kademelerde ölçme ve değerlendirmenin temel amacı, öğrencilerin bilişsel, fiziksel, sosyal ve duygusal gelişim düzeylerinin süreç içerisinde izlenmesi ve desteklenmesi olacak. Eğitim öğretim süresince öğrencilerin başarısı, öğretim programındaki öğrenme çıktıları/kazanımlar esas alınarak dersin özelliğine göre yapılan ölçme ve değerlendirme uygulamalarından elde edilen kanıtlara göre tespit edilecek. Bu çerçevede öğrencinin gelişimi, öğretim programı üzerinden takip edilebilecek. Ayrıca ölçme ve değerlendirme uygulamalarından elde edilen sonuçlar öğrenciler, sınıflar, okullar veya iller arasında sıralama, karşılaştırma ya da kıyaslama yapmak amacıyla kullanılamayacak. Düzenlemeyle ölçme ve değerlendirme faaliyetleri, sadece Bakanlıkça uygun görülen dijital sistemler ve araçlar kullanılarak gerçekleştirilecek. Soru hazırlama ve değerlendirme süreçlerini desteklemek ve bu süreçlerin etkinliğini artırmak amacıyla Bakanlıkça uygun görülenyapay zekaaraçları kullanılabilecek. Kişisel verilerin gizliliğigözönünde bulundurularak Bakanlıkça geliştirilen araçların kullanımı sağlanacak. Ulusal ve uluslararası izleme araştırmalarının elektronik ortamda yürütülmesiyle öğrencilerin öğrenme gelişimlerinin izlenmesinde ve eğitim politikalarına veri sağlanmasında dijital teknolojilerden daha etkin yararlanılması hedeflenecek. Dijital uygulamalar, etkileşimli soruların ve çoklu ortam içeriklerinin kullanılmasına imkan tanıyarak öğrenci becerilerinin daha çeşitli görevler üzerinden değerlendirilmesini destekleyebilecek. Akademik Becerilerin İzlenmesi ve Değerlendirilmesi (ABİDE), Dört Beceride Türkçe Dil Gelişimi İzleme, Okul Tabanlı İzleme ve okuryazarlık becerilerine yönelik araştırmalar bütüncül bir mevzuat çerçevesinde toplandı. Uluslararası Öğrenci Değerlendirme Programı (PISA) ile UluslararasıMatematikve Fen Eğilimleri Araştırması (TIMSS) uygulamalarına ilişkin esaslar yeniden yapılandırıldı. Yapılan düzenlemelerle öğrenci gelişimini esas alan, teknolojik gelişmelere uyum sağlayan, ülke genelinde uygulama birliğini güçlendiren ve eğitim politikalarının bilimsel verilerle desteklenmesine katkı sunan ve sürdürülebilir bir ölçme ve değerlendirme sisteminin geliştirilmesi hedefleniyor.",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "11 il için sarı uyarı: Sağanak ve fırtınaya dikkat",
-      "source": "Trthaber",
-      "link": "https://www.trthaber.com/haber/turkiye/11-il-icin-sari-uyari-saganak-ve-firtinaya-dikkat-963237.html",
-      "pubDate": "Sat, 14 Nov 2026 08:54:00 +0300",
+      "title": "Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Yönetmeliğinde değişiklik",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/gundem/askeri-yasak-bolgeler-ve-guvenlik-bolgeleri-yonetmeliginde-degisiklik/4124899",
+      "pubDate": "Sat, 14 Nov 2026 10:28:12 +0300",
       "image": null,
-      "text": "MeteorolojiGenel Müdürlüğü (MGM) tarafından yapılan son değerlendirmelere göre; Ülke genelinin parçalı ve çok bulutlu, Marmara, Ege (Aydın veDenizlihariç) Batı Akdeniz, İç Anadolu’nun kuzeybatısı, Batı Karadeniz, Orta ve Doğu Karadeniz (Gümüşhane veBayburthariç) ile Konya, Karaman, Sivas, Erzincan,ArdahanveKarsçevrelerininsağanakve yer yer gök gürültülü sağanak yağışlı geçeceği tahmin ediliyor. Hava Durumu Uyarıları için tıklayın Yağışların, Marmara (Bilecik hariç) ile Batı Karadeniz kıyılarında yer yer kuvvetli olması bekleniyor. Kuvvetli rüzgar ve sağanak beklenen Balıkesir, Bursa, Çanakkale, Edirne, İstanbul, Kırklareli, Kocaeli, Sakarya,TekirdağveYalovaile kuvvetli rüzgar beklenenBilecikiçin \"sarı\" kodlu uyarıda bulunuldu. Hava sıcaklığında önemli bir değişiklik olmayacağı, iç ve kuzey kesimlerde mevsim normalleri üzerinde, diğer yerlerde mevsim normalleri civarında seyredeceği tahmin ediliyor. Rüzgarın, Marmara ile Kuzey ve Kıyı Ege’de güney yönlerden kuvvetli ve kısa sürelifırtına(40-70 km/saat) şeklinde, öğle saatlerinden itibaren Marmara'nın kuzeyinde kuzey ve kuzeydoğu yönlerden kuvvetli (40-60 km/saat) olarak esmesi bekleniyor.",
+      "text": "",
       "summary": ""
     },
     {
       "cat": "Gündem",
       "catId": "gundem",
-      "title": "Uyuşturucu gelirini aklama operasyonunda 4 şüpheli yakalandı",
+      "title": "Microsoft 365, Outlook ve Teamsdeki erişim sorunu giderildi",
       "source": "Trthaber",
-      "link": "https://www.trthaber.com/haber/turkiye/uyusturucu-gelirini-aklama-operasyonunda-4-supheli-yakalandi-963236.html",
-      "pubDate": "Sat, 14 Nov 2026 08:08:00 +0300",
+      "link": "https://www.trthaber.com/haber/dunya/microsoft-365-outlook-ve-teamsdeki-erisim-sorunu-giderildi-963244.html",
+      "pubDate": "Sat, 14 Nov 2026 10:26:00 +0300",
       "image": null,
-      "text": "AnkaraCumhuriyet Başsavcılığı'ndan yapılan açıklamaya göre,NarkotikSuçlarla Mücadele Şube Müdürlüğünce,uyuşturucuticaretinden elde edilen suç gelirlerinin aklanmasına yönelik yürütülen soruşturma kapsamında operasyon gerçekleştirildi. \"Suçtan kaynaklanan mal varlığı değerlerini aklama\" suçu kapsamında yürütülen soruşturmada,MASAKBaşkanlığınca hazırlanan rapor ile saha araştırmaları ve finansal analiz çalışmaları sonucunda kamuoyunda \"Çobanlar Grubu\" olarak bilinen yapılanma içerisinde yer alan şüphelilerin, uyuşturucu ticaretinden elde ettikleri suç gelirlerini çeşitli finansal işlemler, şirket faaliyetleri ve mal varlığı edinimleri aracılığıyla akladıkları tespit edildi. Bu kapsamda, şüphelilere ait banka hesapları ve mal varlıkları üzerinde gerçekleştirilen incelemelerde 18 araç, 12 gayrimenkul, 1 otel, 4 eğlence merkezi ve 1 ofis olmak üzere çok sayıda mal varlığı unsuru olduğu belirlendi. Söz konusu mal varlığı değerlerine el konulurken, Ankara merkezli olmak üzere 7 şüpheliye ait 6 ikamet ve 6 iş yeri adresinde eş zamanlı arama ve el koyma işlemleri gerçekleştirildi. Operasyonda 7 şüpheli şahıstan 4'ünün yakalanarak gözaltına alındığı, 3 şahsı yakalama çalışmalarının devam ettiği bildirilen açıklamada, \"Uyuşturucu ticaretinden elde edilen suç gelirlerinin finansal sistem ve çeşitli mal varlığı edinimleri aracılığıyla aklanmasının önlenmesine yönelik mücadele kararlılıkla sürdürülmektedir.\" ifadesine yer verildi.",
+      "text": "ŞirketinABDmerkezli X sosyalmedyaplatformundakiMicrosoft365 hesabından yapılan açıklamaya göre, hizmetlerde yaşanan erişim sorununu çözmeye dair çalışmalar tamamlandı. Açıklamada, sorundan etkilenen müşteriler ve bölgelere hizmetin yeniden sağlanmaya başlandığı aktarıldı. Açıklamada ayrıca, konuya ilişkin diğer güncellemelerin, Microsoft 365 Yönetim Merkezi'ndeki \"MO1550821\" numaralı kayıttan ulaşılabileceği kaydedildi. Microsoft'un Microsoft 365, Outlook ve Teams gibi hizmetlerinde 12 Kasım'da erişim sorunları yaşandığına ilişkin kullanıcı bildirimleri gelmeye başlamıştı. Microsoft'tan yapılan önceki açıklamalarda, birden fazla bölgedeki altyapının belirli bölümlerinde yük artışı tespit edildiği ve bu durumun bağlantı hatalarına yol açmış olabileceği belirtilmişti. Artan yüküntrafikartışından kaynaklanmadığı, bazı sunucuların beklenmedik şekilde devre dışı kalmasının kalan altyapı üzerindeki yükü artırdığı ifade edilen açıklamalarda, söz konusu sunucuların yeniden hizmete alınması için çalışmalar yürütüldüğü kaydedilmişti. Saatler süren kesinti sırasında 70'ten fazla ülkedeki kullanıcılar erişim sorunları bildirmiş, dünya genelinde kamu kurumları ve şirketlerin faaliyetlerinde aksamalar yaşanmıştı. Outlook ve Teams gibi iş dünyasında yaygın olarak kullanılan hizmetlerdeki sorunlar, kullanıcıların e-postalarına erişme, takvimlerini yönetme ve çevrim içi toplantı düzenleme gibi işlemlerini aksatmıştı.",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Microsoft'un hizmetlerinde yaşanan erişim sorununa dair çalışmalar tamamlandı",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoftun-hizmetlerinde-yasanan-erisim-sorununa-dair-calismalar-tamamlandi/4124897",
+      "pubDate": "Sat, 14 Nov 2026 10:25:08 +0300",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "NBA Kupası'nda Alperen Şengün'ün 43 sayıyla oynadığı maçta Rockets, Jazz'ı yendi",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/spor/nba-kupasinda-alperen-sengunun-43-sayiyla-oynadigi-macta-rockets-jazzi-yendi/4124896",
+      "pubDate": "Sat, 14 Nov 2026 10:24:35 +0300",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "MEB Ölçme ve Değerlendirme Yönetmeliği'nde değişiklik Resmi Gazete'de",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/gundem/meb-olcme-ve-degerlendirme-yonetmeliginde-degisiklik-resmi-gazetede/4124893",
+      "pubDate": "Sat, 14 Nov 2026 10:22:13 +0300",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "Hafta sonu yağış ve rüzgar etkili olacak, sıcaklıklar düşecek",
+      "source": "Trthaber",
+      "link": "https://www.trthaber.com/haber/gundem/hafta-sonu-yagis-ve-ruzgar-etkili-olacak-sicakliklar-dusecek-963243.html",
+      "pubDate": "Sat, 14 Nov 2026 10:15:00 +0300",
+      "image": null,
+      "text": "MeteorolojiGenel Müdürlüğü (MGM) tarafından paylaşılan hava tahmin haritalarından derlenen bilgilere göre, bugün Marmara, Ege, Batı Akdeniz, İç Anadolu'nun kuzey ve batısı ile Karadeniz genelindesağanakve yer yer gök gürültülü sağanak bekleniyor. Özellikle Marmara'nın kuzey ve batısında (Trakya, İstanbul, Çanakkale,Kocaelive Güney Marmara hattı) yağışların kuvvetli olacağı öngörülüyor.MuğlaveAntalyaçevrelerinde de gök gürültülü sağanak etkili olacak. Hava Durumu Uyarıları için tıklayın Rüzgarın Trakya veİstanbulçevresinde kuzeydoğudan 40-60 km/sa, Ege kıyıları ile Güney Marmara yönünde ise güneybatıdan (lodos) 50-70 km/sa hızla kuvvetli esmesi tahmin ediliyor. İstanbul Valiliği fırtına tedbirlerini açıkladı Doğu Akdeniz, İç Anadolu'nun güney ve doğusu, GüneydoğuAnadoluve Doğu Anadolu'da iseyağışbeklenmiyor. Bu bölgelerde havanın parçalı ve az bulutlu, yer yer çok bulutlu geçeceği; İç Anadolu'nun güneyi ile Doğu Anadolu'nun büyük bölümünde (Erzurum, Kars, Malatya, Bingöl,Muşçevreleri) sabah ve gece saatlerinde sis görüleceği tahmin ediliyor.   Yarın yağışlı hava Trakya kesimini (Edirne, Kırklareli, Tekirdağ) terk ederken, Marmara'nın doğu ve güneyi, Kuzey Ege, İç Anadolu'nun büyük bölümü, Karadeniz ve Doğu Anadolu genelinde etkili olacak. AyrıcaHatayçevrelerinde gök gürültülü sağanak bekleniyor. Hava tahmin haritasında DoğuKaradeniz bölgesi(Ordu, Giresun, Trabzon, Rize,Artvinhattı) için \"kuvvetli yağış\" uyarısı yer alıyor. Soğumanın etkisiyle Doğu Anadolu'nun kuzeydoğusunda (Erzurum, Kars,ArdahanveAğrıçevreleri) yağışların karla karışık yağmur şeklinde görülmesi bekleniyor. Güney Ege, Batı ve Orta Akdeniz, İç Anadolu'nun güneyi (Konya,Karamançevreleri) ile Güneydoğu Anadolu'da havanın parçalı ve az bulutlu olacağı, iç kesimlerle Güneydoğu'nun bazı noktalarında yer yer pus hadisesinin görüleceği öngörülüyor. Bugüne kıyasla yarın özellikle kuzey ve batı kesimlerde sıcaklıklarda hissedilir bir düşüş yaşanacak. İstanbul çevrelerinde en yüksek sıcaklık 21 dereceden 14 dereceye, Orta Karadeniz'de ise 23 dereceden 14 dereceye gerileyecek. Bölge merkezlerinde hafta sonu beklenen en düşük ve en yüksek hava sıcaklıklarının ise bugün ve yarın sırasıyla Marmara'da (İstanbul çevresi) 17/21 ve 11/14, Ege'de (İzmir çevresi) 16/23 ve 15/21, Batı Akdeniz'de (Antalya çevresi) 18/23 ve 16/23, Doğu Akdeniz'de (Adana çevresi) her iki gün de 13/24, İç Anadolu'da (Ankara çevresi) 12/17 ve 10/15, Orta Karadeniz'de (Samsun çevresi) 19/23 ve 12/14, Doğu Karadeniz'de (Trabzon çevresi) 17/21 ve 14/16, Doğu Anadolu'da (Erzurum çevresi) eksi 1/10 ve 1/11, Güneydoğu Anadolu'da (Diyarbakır çevresi) ise 4/17 ve 5/19 derece olması öngörülüyor. Yetkililerin; bugün Marmara ve Ege'de beklenen kuvvetli rüzgar ve sağanağa, yarın ise Doğu Karadeniz'deki kuvvetli yağış ile doğu kesimlerdeki karla karışık yağmur vebuzlanmariskine karşı vatandaşların dikkatli ve tedbirli olmasını istediği bildirildi.",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "TFF Temsilciler Kurulu, kasım ayı toplantısını İzmir'de yaptı",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/spor/tff-temsilciler-kurulu-kasim-ayi-toplantisini-izmirde-yapti/4124889",
+      "pubDate": "Sat, 14 Nov 2026 10:11:52 +0300",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "ABD Dışişleri Bakanı Rubio, Uluslararası Ceza Mahkemesini hedef aldı",
+      "source": "Aa",
+      "link": "https://www.aa.com.tr/tr/dunya/abd-disisleri-bakani-rubio-uluslararasi-ceza-mahkemesini-hedef-aldi/4124888",
+      "pubDate": "Sat, 14 Nov 2026 10:08:15 +0300",
+      "image": null,
+      "text": "",
+      "summary": ""
+    },
+    {
+      "cat": "Gündem",
+      "catId": "gundem",
+      "title": "ŞENKUL’DAN YENİ DÖNEM MESAJI: “YENİ GİRNE’Yİ BİRLİKTE İNŞA EDECEĞİZ”",
+      "source": "Mhahaber",
+      "link": "https://www.mhahaber.com/senkuldan-yeni-donem-mesaji-yeni-girneyi-birlikte-insa-edecegiz",
+      "pubDate": "Sat, 14 Nov 2026 07:06:30 GMT",
+      "image": "https://www.mhahaber.com/api/medya/file/MHA%20SARI%20BbEYAZ.webp",
+      "text": "Girne Belediye Başkanı Murat Şenkul, sosyal medyayı açık demokrasi ve doğrudan iletişim platformu olarak kullanmayı sürdüreceklerini belirterek, “Yeni Girne’yi birlikte inşa edeceğiz” dedi. Girne Belediye Başkanı Murat Şenkul, sosyal medya hesabından yaptığı paylaşımda yeni medya iletişiminin yerel yönetimlerdeki önemine dikkat çekerek, yeni dönemde de vatandaşlarla doğrudan iletişim ve açık demokrasi anlayışını sürdüreceklerini belirtti. Şenkul, önümüzdeki dönemde sosyal medya araçlarını daha etkin kullanacaklarını ve “Biz Birlikte Girne’yiz” anlayışını daha da genişleteceklerini ifade etti. “Kendime yazılar” serisinin yeni bölümünde “Yeni Dünyaya Uyum Sağlamak” başlığı altında yeni medya iletişimini ele alan Şenkul, sosyal medya kanallarının yalnızca bir reklam veya eğlence mecrası olarak görülmemesi gerektiğini vurguladı. Sosyal medyayı anlık iletişim, haber alma, ihbar, hızlı ve açık diyalog amacıyla kullandıklarını kaydeden Şenkul, bu yaklaşımın kendisine yönelik farklı tepkilere neden olduğunu belirterek şu ifadeleri kullandı: “Biraz aşağılamak, biraz değersizleştirmek, biraz önemsizleştirmek hedefiyle bana yöneltilen ‘sosyal medya fenomeni’ sıfatını mizahla buluşturup Recep İvedik parodilerine dönüşmesini sağlayanlar, meselenin en bariz kanıtıdır.” Eleştirilere rağmen yeni medya araçlarının sunduğu imkânları daha etkin kullanmaya devam edeceklerini vurgulayan Şenkul, kamu görevi yürüten yöneticilerin sosyal medyayı çoklu tartışma, fikir üretme ve yönetişim platformuna dönüştürmesinin önemine işaret etti. Şenkul, “Biz kamu yöneticilerinin görevi, vatandaşlarımızla hızlı ve anlık iletişim, diyalog, haber alışverişi ve açık tartışma alanlarını olabildiğince genişletmektir” diyerek, göreve başladıkları günden itibaren vatandaşlardan sosyal medya aracılığıyla aldıkları görüş, öneri, ihbar ve eleştirilerin kendilerine önemli katkılar sağladığını kaydetti. Vatandaşların katkıları sayesinde zaman zaman yanlışlardan dönme, yanlış anlaşılmaları önleme ve yönetimdeki kör noktaları görme fırsatı bulduklarını belirten Şenkul, “Sizlere ne kadar minnettar olduğumu kelimelerle anlatamam” ifadelerini kullandı. YENİ DÖNEMDE AÇIK DEMOKRASİ VURGUSU Girne’de temsili demokrasiyi daha ileriye taşıyarak açık demokrasi anlayışını benimsemeye devam edeceklerini vurgulayan Şenkul, vatandaşların seçimlerde belediye başkanı ve belediye meclis üyelerine verdiği temsil yetkisini daha açık ve doğrudan demokratik bir anlayışla buluşturacaklarını ifade etti. Önümüzdeki döneme ilişkin hedeflerini de paylaşan Şenkul, yeni medya araçlarını daha etkin kullanarak vatandaşların karar alma ve yönetim süreçlerine katılımını artırmayı amaçladıklarını ortaya koydu. Şenkul'un açıklaması, yeni dönemde de halkla doğrudan iletişim, katılımcı belediyecilik ve açık demokrasi anlayışının yönetim politikalarının temel başlıkları arasında yer alacağının mesajı olarak değerlendirildi. Paylaşımında “Biz Birlikte Girne’yiz” sloganının yalnızca bir söylem olmadığını belirten Şenkul, bunun demokrasi anlayışlarının ve yaşam biçimlerinin bir yansıması olduğunu kaydetti. Şenkul, açıklamasını şu sözlerle tamamladı: “Önümüzdeki dönem de Biz Birlikte Girne’yiz anlayışımızı daha da genişletmeye, YENİ GİRNE’yi birlikte inşa etmeye ve bunu AÇIK DEMOKRASİ anlayışımız gereği doğrudan iletişim kurarak yapmaya devam edeceğiz. Halkın içinden, halkla iç içe…”",
       "summary": ""
     }
   ],
-  "weather": {
-    "temp": 17.1,
-    "desc": "Az bulutlu"
-  },
+  "weather": null,
   "market": {
     "usdtry": 50.37,
     "eurtry": 55.6,
@@ -690,13 +789,13 @@
   "crypto": [
     {
       "label": "Bitcoin",
-      "price": 3389442,
-      "change_pct": -2.184683153811683
+      "price": 3379590,
+      "change_pct": -2.152369688753234
     },
     {
       "label": "Ethereum",
-      "price": 95798,
-      "change_pct": -1.4073039150114393
+      "price": 95509,
+      "change_pct": -1.9616164970085332
     }
   ],
   "stocks": [

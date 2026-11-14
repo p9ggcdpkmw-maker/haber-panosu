@@ -1,5 +1,6 @@
 """
 RADAR - Haber Motoru, Piyasa Takipçisi ve Akıllı Bildirim Sistemi
+(Groq + Gemini Çift Motorlu Sürüm)
 """
 import json, os, re, sys, time
 import difflib
@@ -14,14 +15,12 @@ import trafilatura
 from bs4 import BeautifulSoup
 
 # --- YAPILANDIRMA ---
-raw_key = os.environ.get("FREELMAPI_KEY", "")
-FREELMAPI_KEY = raw_key.strip().replace("\n", "").replace("\r", "").replace('"', '').replace("'", "")
+GROQ_KEY = os.environ.get("GROQ_API_KEY", "").strip()
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 
-if not FREELMAPI_KEY:
-    print("HATA: FREELMAPI_KEY bulunamadı veya boş!", file=sys.stderr)
+if not GROQ_KEY and not GEMINI_KEY:
+    print("HATA: Hiçbir API anahtarı bulunamadı!", file=sys.stderr)
     sys.exit(1)
-
-FREELMAPI_MODEL = "groq/openai/gpt-oss-120b"
 
 CATEGORIES = [
     {"id": "teknoloji", "label": "Teknoloji", "feeds": ["http://www.webtekno.com/rss.xml", "https://shiftdelete.net/feed", "https://www.donanimhaber.com/rss/tum/"]},
@@ -48,6 +47,51 @@ def clean_json_response(text):
     end = text.rfind('}')
     if start != -1 and end != -1: text = text[start:end+1]
     return text
+
+# 🚀 YENİ: ÇİFT MOTORLU YAPAY ZEKA İSTEĞİ (Önce Groq, olmazsa Gemini)
+def ask_ai(prompt):
+    # 1. GROQ DENEMESİ
+    if GROQ_KEY:
+        for attempt in range(2):
+            try:
+                resp = requests.post(
+                    "https://api.groq.com/openai/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {GROQ_KEY}", "Content-Type": "application/json"},
+                    json={"model": "openai/gpt-oss-120b", "max_tokens": 3000, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
+                    timeout=45
+                )
+                if resp.status_code == 429:
+                    print("  ! Groq limiti doldu, Gemini'ye geçiliyor...", file=sys.stderr)
+                    break # Groq'u bırak, Gemini'ye geç
+                resp.raise_for_status()
+                return resp.json()["choices"][0]["message"]["content"]
+            except Exception as e:
+                print(f"  ! Groq hatası: {e}", file=sys.stderr)
+                time.sleep(2)
+
+    # 2. GEMINI DENEMESİ (Groq çökerse veya limit dolarsa buraya düşer)
+    if GEMINI_KEY:
+        print("  -> Gemini API kullanılıyor...", file=sys.stderr)
+        for attempt in range(3):
+            try:
+                # Gemini'nin OpenAI uyumlu endpointi
+                resp = requests.post(
+                    f"https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+                    headers={"Authorization": f"Bearer {GEMINI_KEY}", "Content-Type": "application/json"},
+                    json={"model": "gemini-1.5-flash", "max_tokens": 3000, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
+                    timeout=45
+                )
+                if resp.status_code == 429:
+                    print("  ! Gemini limiti doldu, bekleniyor...", file=sys.stderr)
+                    time.sleep(15)
+                    continue
+                resp.raise_for_status()
+                return resp.json()["choices"][0]["message"]["content"]
+            except Exception as e:
+                print(f"  ! Gemini hatası: {e}", file=sys.stderr)
+                time.sleep(5)
+    
+    return "" # Her ikisi de başarısız olursa
 
 def fetch_feed(url):
     try:
@@ -184,26 +228,18 @@ def summarize_batch(items):
             lines.append(f"--- HABER {i+1} ---\nBaşlık: {it['title']}\nİçerik: {content}\n")
     prompt = "Aşağıdaki haberleri Türkçe, 2-3 cümlelik, tarafsız ve anlaşılır şekilde özetle. Eğer 'Durum: TAM METNE ULAŞILAMADI' ise SADECE 'Bu haberin tam metnine ulaşılamadı.' yaz. Çıktıyı tam olarak şu JSON formatında ver: {'summaries': ['özet 1', 'özet 2', ...]} Başka hiçbir şey yazma.\n\n" + "\n".join(lines)
     
-    for attempt in range(4):
-        try:
-            resp = requests.post(
-                "https://radar-freellmapi.onrender.com/v1/chat/completions",
-                headers={"Authorization": f"Bearer {FREELMAPI_KEY}", "Content-Type": "application/json"},
-                json={"model": FREELMAPI_MODEL, "max_tokens": 3000, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
-                timeout=60
-            )
-            if resp.status_code == 429: 
-                time.sleep(10); continue
-            resp.raise_for_status()
-            raw_content = resp.json()["choices"][0]["message"]["content"]
-            cleaned_content = clean_json_response(raw_content)
-            arr = json.loads(cleaned_content).get("summaries", [])
-            if len(arr) == len(items): return arr
-            else: return (arr + ["Özet oluşturulamadı."] * len(items))[:len(items)]
-        except Exception as e:
-            print(f"  ! API hatası: {e}", file=sys.stderr)
-            time.sleep(5)
-    return [""] * len(items)
+    raw_content = ask_ai(prompt)
+    if not raw_content:
+        return [""] * len(items)
+        
+    try:
+        cleaned_content = clean_json_response(raw_content)
+        arr = json.loads(cleaned_content).get("summaries", [])
+        if len(arr) == len(items): return arr
+        else: return (arr + ["Özet oluşturulamadı."] * len(items))[:len(items)]
+    except Exception as e:
+        print(f"  ! JSON Parse hatası: {e}", file=sys.stderr)
+        return [""] * len(items)
 
 def generate_category_briefings(all_news):
     if not all_news: return {}
@@ -211,30 +247,19 @@ def generate_category_briefings(all_news):
     haber_metni = "\n".join([f"- {h['cat']} | {h['title']}: {h.get('summary', '')}" for h in top_news])
     prompt = "Sen RADAR adında bir yapay zeka haber asistanısın. Aşağıdaki haberleri okuyup 4 farklı alanda analiz yaz. Her analiz 2-3 cümlelik olmalı. Her alan için MUTLAKA bir analiz cümlesi yaz. ÇIKTIN KESİNLİKLE TÜRKÇE OLACAK. Çıktıyı KESİNLİKLE şu JSON formatında ver: {'genel': '...', 'teknoloji': '...', 'ekonomi': '...', 'gundem': '...'}\n\nHaberler:\n" + haber_metni
     
-    for attempt in range(4):
-        try:
-            time.sleep(5) 
-            resp = requests.post(
-                "https://radar-freellmapi.onrender.com/v1/chat/completions",
-                headers={"Authorization": f"Bearer {FREELMAPI_KEY}", "Content-Type": "application/json"},
-                json={"model": FREELMAPI_MODEL, "max_tokens": 1500, "temperature": 0.2, "response_format": {"type": "json_object"}, "messages": [{"role": "user", "content": prompt}]},
-                timeout=60
-            )
-            if resp.status_code == 429:
-                print("  ! Analiz için limit doldu, bekleniyor...", file=sys.stderr)
-                time.sleep(15); continue
-            resp.raise_for_status()
-            raw_content = resp.json()["choices"][0]["message"]["content"]
-            cleaned_content = clean_json_response(raw_content)
-            data = json.loads(cleaned_content)
-            for key in ["genel", "teknoloji", "ekonomi", "gundem"]:
-                if key not in data or not data[key]: data[key] = "Bu alan için özel bir gelişme bulunamadı."
-            return data
-        except Exception as e:
-            print(f"  ! Briefing hatası: {e}", file=sys.stderr)
-            time.sleep(5)
-            
-    return {"genel": "Analiz şu an hazırlanamıyor.", "teknoloji": "Analiz şu an hazırlanamıyor.", "ekonomi": "Analiz şu an hazırlanamıyor.", "gundem": "Analiz şu an hazırlanamıyor."}
+    raw_content = ask_ai(prompt)
+    if not raw_content:
+        return {"genel": "Analiz şu an hazırlanamıyor.", "teknoloji": "Analiz şu an hazırlanamıyor.", "ekonomi": "Analiz şu an hazırlanamıyor.", "gundem": "Analiz şu an hazırlanamıyor."}
+
+    try:
+        cleaned_content = clean_json_response(raw_content)
+        data = json.loads(cleaned_content)
+        for key in ["genel", "teknoloji", "ekonomi", "gundem"]:
+            if key not in data or not data[key]: data[key] = "Bu alan için özel bir gelişme bulunamadı."
+        return data
+    except Exception as e:
+        print(f"  ! Briefing JSON hatası: {e}", file=sys.stderr)
+        return {"genel": "Analiz şu an hazırlanamıyor.", "teknoloji": "Analiz şu an hazırlanamıyor.", "ekonomi": "Analiz şu an hazırlanamıyor.", "gundem": "Analiz şu an hazırlanamıyor."}
 
 def load_cache():
     cache, briefings = {}, {}
